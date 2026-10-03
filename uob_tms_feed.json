@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-03T13:37:50Z",
+ "generated_at": "2026-10-03T13:52:36Z",
  "week": "2026-10-05 to 2026-10-11",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included.",
@@ -10302,6 +10302,12 @@
      "action": "pick_up"
     },
     {
+     "code": "C2-11",
+     "name": "Al Asmawi Building, Al Thanyah 1",
+     "time": "06:20",
+     "action": "pick_up"
+    },
+    {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
      "time": "07:45",
@@ -10319,7 +10325,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "20:20",
+   "end": "20:25",
    "vehicle": "M5",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -10331,9 +10337,15 @@
      "action": "pick_up"
     },
     {
+     "code": "C2-11",
+     "name": "Al Asmawi Building, Al Thanyah 1",
+     "time": "19:35",
+     "action": "set_down"
+    },
+    {
      "code": "C2-03",
      "name": "DMCC Metro Station",
-     "time": "20:20",
+     "time": "20:25",
      "action": "set_down"
     }
    ]
