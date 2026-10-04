@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-04T13:00:50Z",
+ "generated_at": "2026-10-04T13:12:46Z",
  "week": "2026-10-05 to 2026-10-11",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included.",
@@ -1161,12 +1161,6 @@
      "action": "pick_up"
     },
     {
-     "code": "C1-08",
-     "name": "Mattar Tower, Al Nahda 1",
-     "time": "05:20",
-     "action": "pick_up"
-    },
-    {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
      "time": "05:25",
@@ -1175,13 +1169,13 @@
     {
      "code": "C1-10",
      "name": "Dubai Festival City Mall",
-     "time": "05:50",
+     "time": "05:45",
      "action": "pick_up"
     },
     {
      "code": "C1-11",
      "name": "Madina Mall",
-     "time": "06:15",
+     "time": "06:10",
      "action": "pick_up"
     },
     {
@@ -1370,31 +1364,25 @@
     {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "14:40",
-     "action": "set_down"
-    },
-    {
-     "code": "C1-08",
-     "name": "Mattar Tower, Al Nahda 1",
-     "time": "14:55",
+     "time": "14:45",
      "action": "set_down"
     },
     {
      "code": "C1-17",
      "name": "Bahwan Tower, Al Nahda 1",
-     "time": "15:05",
+     "time": "15:00",
      "action": "set_down"
     },
     {
      "code": "C1-07",
      "name": "Masafi 1, Al Nahda 2",
-     "time": "15:20",
+     "time": "15:15",
      "action": "set_down"
     },
     {
      "code": "C1-05",
      "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "15:45",
+     "time": "15:40",
      "action": "set_down"
     },
     {
@@ -3136,7 +3124,7 @@
    "arrive_campus": null,
    "leave_campus": "14:15",
    "start": "14:15",
-   "end": "16:20",
+   "end": "16:25",
    "vehicle": "M1",
    "vehicle_type": "Rosa",
    "seats": 34,
@@ -3156,25 +3144,19 @@
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "14:43",
+     "time": "14:45",
      "action": "set_down"
     },
     {
      "code": "C1-11",
      "name": "Madina Mall",
-     "time": "14:56",
+     "time": "15:00",
      "action": "set_down"
     },
     {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "15:09",
-     "action": "set_down"
-    },
-    {
-     "code": "C1-08",
-     "name": "Mattar Tower, Al Nahda 1",
-     "time": "15:17",
+     "time": "15:15",
      "action": "set_down"
     },
     {
@@ -3186,25 +3168,25 @@
     {
      "code": "C1-05",
      "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "15:38",
+     "time": "15:40",
      "action": "set_down"
     },
     {
      "code": "C1-20",
      "name": "Al Buhaira Police Station bus stop, Al Majaz 3",
-     "time": "15:51",
+     "time": "15:55",
      "action": "set_down"
     },
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "16:04",
+     "time": "16:10",
      "action": "set_down"
     },
     {
      "code": "C1-03",
      "name": "Lulu Hypermarket Maysaloon",
-     "time": "16:17",
+     "time": "16:25",
      "action": "set_down"
     }
    ]
@@ -5342,7 +5324,7 @@
    "arrive_campus": null,
    "leave_campus": "16:55",
    "start": "16:55",
-   "end": "19:54",
+   "end": "19:48",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "seats": 34,
@@ -5384,45 +5366,39 @@
      "action": "set_down"
     },
     {
-     "code": "C1-08",
-     "name": "Mattar Tower, Al Nahda 1",
-     "time": "18:50",
-     "action": "set_down"
-    },
-    {
      "code": "C1-17",
      "name": "Bahwan Tower, Al Nahda 1",
-     "time": "18:56",
+     "time": "18:50",
      "action": "set_down"
     },
     {
      "code": "C1-07",
      "name": "Masafi 1, Al Nahda 2",
-     "time": "19:04",
+     "time": "18:58",
      "action": "set_down"
     },
     {
      "code": "C1-06",
      "name": "Sahara Centre",
-     "time": "19:12",
+     "time": "19:06",
      "action": "set_down"
     },
     {
      "code": "C1-05",
      "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "19:25",
+     "time": "19:19",
      "action": "set_down"
     },
     {
      "code": "C1-20",
      "name": "Al Buhaira Police Station bus stop, Al Majaz 3",
-     "time": "19:38",
+     "time": "19:32",
      "action": "set_down"
     },
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "19:51",
+     "time": "19:45",
      "action": "set_down"
     }
    ]
@@ -7224,7 +7200,7 @@
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "04:55",
+     "time": "05:00",
      "action": "pick_up"
     },
     {
@@ -7236,7 +7212,7 @@
     {
      "code": "C1-05",
      "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "05:10",
+     "time": "05:15",
      "action": "pick_up"
     },
     {
@@ -7264,21 +7240,15 @@
      "action": "pick_up"
     },
     {
-     "code": "C1-08",
-     "name": "Mattar Tower, Al Nahda 1",
-     "time": "05:45",
-     "action": "pick_up"
-    },
-    {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "05:55",
+     "time": "05:50",
      "action": "pick_up"
     },
     {
      "code": "C1-10",
      "name": "Dubai Festival City Mall",
-     "time": "06:10",
+     "time": "06:05",
      "action": "pick_up"
     },
     {
@@ -7290,7 +7260,7 @@
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "06:50",
+     "time": "06:45",
      "action": "pick_up"
     },
     {
@@ -7577,7 +7547,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "21:07",
+   "end": "21:01",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "seats": 34,
@@ -7625,45 +7595,39 @@
      "action": "set_down"
     },
     {
-     "code": "C1-08",
-     "name": "Mattar Tower, Al Nahda 1",
-     "time": "20:03",
-     "action": "set_down"
-    },
-    {
      "code": "C1-17",
      "name": "Bahwan Tower, Al Nahda 1",
-     "time": "20:09",
+     "time": "20:03",
      "action": "set_down"
     },
     {
      "code": "C1-06",
      "name": "Sahara Centre",
-     "time": "20:17",
+     "time": "20:11",
      "action": "set_down"
     },
     {
      "code": "C1-05",
      "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "20:25",
+     "time": "20:19",
      "action": "set_down"
     },
     {
      "code": "C1-20",
      "name": "Al Buhaira Police Station bus stop, Al Majaz 3",
-     "time": "20:38",
+     "time": "20:32",
      "action": "set_down"
     },
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "20:51",
+     "time": "20:45",
      "action": "set_down"
     },
     {
      "code": "C1-03",
      "name": "Lulu Hypermarket Maysaloon",
-     "time": "21:04",
+     "time": "20:58",
      "action": "set_down"
     }
    ]
