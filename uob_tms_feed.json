@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-04T15:58:03Z",
+ "generated_at": "2026-10-04T16:23:12Z",
  "week": "2026-10-05 to 2026-10-11",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included.",
@@ -2769,7 +2769,7 @@
    "arrive_campus": null,
    "leave_campus": "14:15",
    "start": "14:15",
-   "end": "15:40",
+   "end": "15:35",
    "vehicle": "M11",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -2783,25 +2783,31 @@
     {
      "code": "C5-09",
      "name": "Bay Avenue Mall, Business Bay",
-     "time": "14:40",
+     "time": "14:35",
      "action": "set_down"
     },
     {
      "code": "C5-07",
      "name": "World Trade Centre Metro Station",
-     "time": "15:00",
+     "time": "14:50",
      "action": "set_down"
     },
     {
      "code": "C5-17",
      "name": "New Gold Souq, Al Raffa, Bur Dubai",
+     "time": "15:05",
+     "action": "set_down"
+    },
+    {
+     "code": "C5-05",
+     "name": "BurJuman Mall",
      "time": "15:20",
      "action": "set_down"
     },
     {
      "code": "C5-02",
      "name": "Al Rigga Metro Station",
-     "time": "15:40",
+     "time": "15:35",
      "action": "set_down"
     }
    ]
