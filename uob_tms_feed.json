@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-04T13:17:09Z",
+ "generated_at": "2026-10-04T13:46:31Z",
  "week": "2026-10-05 to 2026-10-11",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included.",
@@ -419,10 +419,10 @@
      "code": "C2-08",
      "order": 11,
      "name": "Mall of the Emirates",
-     "lat": 25.118107,
-     "lng": 55.200608,
+     "lat": 25.1201411,
+     "lng": 55.2011196,
      "google_place_id": "ChIJnTOfw75rXz4RTBV1aGLlr0c",
-     "where_exactly": "Metro-side bus stop.",
+     "where_exactly": "Pick-up point at 25.1201411, 55.2011196 (metro side).",
      "rider_instructions": "Wait at the bus stop on the metro side of Mall of the Emirates. Be here 5 minutes before your time and look for the yellow M sign in the bus windscreen.",
      "driver_instructions": "Use the RTA bus stop on the metro side of the mall. 2 minutes maximum. Do not enter the mall car parks.",
      "type": "public"
@@ -10141,7 +10141,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "20:20",
+   "end": "20:25",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -10155,19 +10155,19 @@
     {
      "code": "C2-08",
      "name": "Mall of the Emirates",
-     "time": "19:15",
+     "time": "19:10",
      "action": "set_down"
     },
     {
      "code": "C2-03",
      "name": "DMCC Metro Station",
-     "time": "20:00",
+     "time": "20:05",
      "action": "set_down"
     },
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "20:20",
+     "time": "20:25",
      "action": "set_down"
     }
    ]
