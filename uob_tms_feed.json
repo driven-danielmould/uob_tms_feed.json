@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-04T07:27:12Z",
+ "generated_at": "2026-10-04T07:55:24Z",
  "week": "2026-10-05 to 2026-10-11",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included.",
@@ -1159,7 +1159,7 @@
    "service": "undergraduate",
    "arrive_campus": "10:45",
    "leave_campus": null,
-   "start": "08:30",
+   "start": "08:25",
    "end": "10:45",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
@@ -1168,31 +1168,37 @@
     {
      "code": "C1-16",
      "name": "LuLu Hypermarket Al Nahda, Sharjah",
-     "time": "08:30",
+     "time": "08:25",
      "action": "pick_up"
     },
     {
      "code": "C1-07",
      "name": "Masafi 1, Al Nahda 2",
-     "time": "08:55",
+     "time": "08:50",
      "action": "pick_up"
     },
     {
      "code": "C1-17",
      "name": "Bahwan Tower, Al Nahda 1",
-     "time": "09:10",
+     "time": "09:05",
      "action": "pick_up"
     },
     {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "09:25",
+     "time": "09:20",
      "action": "pick_up"
     },
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "10:00",
+     "time": "09:55",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-19",
+     "name": "Shorooq Gate 3, Mirdif",
+     "time": "10:10",
      "action": "pick_up"
     },
     {
@@ -5359,7 +5365,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "21:03",
+   "end": "21:11",
    "vehicle": "M1",
    "vehicle_type": "Rosa",
    "seats": 34,
@@ -5383,57 +5389,63 @@
      "action": "set_down"
     },
     {
+     "code": "C1-19",
+     "name": "Shorooq Gate 3, Mirdif",
+     "time": "19:11",
+     "action": "set_down"
+    },
+    {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "19:11",
+     "time": "19:19",
      "action": "set_down"
     },
     {
      "code": "C1-15",
      "name": "Wasl Village, Central Parking",
-     "time": "19:34",
+     "time": "19:42",
      "action": "set_down"
     },
     {
      "code": "C1-11",
      "name": "Madina Mall",
-     "time": "19:47",
+     "time": "19:55",
      "action": "set_down"
     },
     {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "20:00",
+     "time": "20:08",
      "action": "set_down"
     },
     {
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
-     "time": "20:08",
+     "time": "20:16",
      "action": "set_down"
     },
     {
      "code": "C1-16",
      "name": "LuLu Hypermarket Al Nahda, Sharjah",
-     "time": "20:21",
+     "time": "20:29",
      "action": "set_down"
     },
     {
      "code": "C1-20",
      "name": "Al Buhaira Police Station bus stop, Al Majaz 3",
-     "time": "20:29",
+     "time": "20:37",
      "action": "set_down"
     },
     {
      "code": "C1-03",
      "name": "Lulu Hypermarket Maysaloon",
-     "time": "20:47",
+     "time": "20:55",
      "action": "set_down"
     },
     {
      "code": "C1-02",
      "name": "City Centre Al Zahia",
-     "time": "21:00",
+     "time": "21:08",
      "action": "set_down"
     }
    ]
@@ -7122,7 +7134,7 @@
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "05:00",
+     "time": "04:55",
      "action": "pick_up"
     },
     {
@@ -7134,7 +7146,7 @@
     {
      "code": "C1-05",
      "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "05:15",
+     "time": "05:10",
      "action": "pick_up"
     },
     {
@@ -7146,7 +7158,7 @@
     {
      "code": "C1-06",
      "name": "Sahara Centre",
-     "time": "05:30",
+     "time": "05:25",
      "action": "pick_up"
     },
     {
@@ -7158,31 +7170,37 @@
     {
      "code": "C1-17",
      "name": "Bahwan Tower, Al Nahda 1",
-     "time": "05:45",
+     "time": "05:40",
      "action": "pick_up"
     },
     {
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
-     "time": "05:50",
+     "time": "05:45",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-09",
+     "name": "DAFZA Metro Station",
+     "time": "05:55",
      "action": "pick_up"
     },
     {
      "code": "C1-10",
      "name": "Dubai Festival City Mall",
-     "time": "06:05",
+     "time": "06:10",
      "action": "pick_up"
     },
     {
      "code": "C1-11",
      "name": "Madina Mall",
-     "time": "06:25",
+     "time": "06:30",
      "action": "pick_up"
     },
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "06:45",
+     "time": "06:50",
      "action": "pick_up"
     },
     {
@@ -7194,7 +7212,7 @@
     {
      "code": "C1-13",
      "name": "Nasayem Avenue, Mirdif Hills",
-     "time": "07:05",
+     "time": "07:10",
      "action": "pick_up"
     },
     {
@@ -7279,7 +7297,7 @@
    "service": "undergraduate",
    "arrive_campus": "12:45",
    "leave_campus": null,
-   "start": "11:00",
+   "start": "11:05",
    "end": "12:45",
    "vehicle": "M1",
    "vehicle_type": "Rosa",
@@ -7288,31 +7306,25 @@
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "11:00",
+     "time": "11:05",
      "action": "pick_up"
     },
     {
      "code": "C1-18",
      "name": "Shamseen Bakeries Building, Al Majaz",
-     "time": "11:15",
+     "time": "11:20",
      "action": "pick_up"
     },
     {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "11:35",
-     "action": "pick_up"
-    },
-    {
-     "code": "C1-19",
-     "name": "Shorooq Gate 3, Mirdif",
-     "time": "11:55",
+     "time": "11:45",
      "action": "pick_up"
     },
     {
      "code": "C1-14",
      "name": "Olivz Residence, Warsan 1",
-     "time": "12:25",
+     "time": "12:20",
      "action": "pick_up"
     },
     {
