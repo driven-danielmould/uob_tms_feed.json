@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-04T07:19:08Z",
+ "generated_at": "2026-10-04T07:27:12Z",
  "week": "2026-10-05 to 2026-10-11",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included.",
@@ -732,8 +732,20 @@
      "type": "public"
     },
     {
-     "code": "C4-06",
+     "code": "C4-18",
      "order": 7,
+     "name": "Super Nanny Nursery, Khalifa City",
+     "lat": 24.41338,
+     "lng": 54.5594598,
+     "google_place_id": "ChIJt0Mcxo5GXj4RlOlYkYdep5c",
+     "where_exactly": "An Nisaylat St frontage of Super Nanny Nursery, behind Choueifat school.",
+     "rider_instructions": "Wait on An Nisaylat Street outside Super Nanny Nursery (behind Choueifat school). Be here 5 minutes before your time and look for the yellow M sign in the bus windscreen.",
+     "driver_instructions": "Kerbside on An Nisaylat St outside Super Nanny Nursery, behind Choueifat school, Khalifa City. Do not enter the school or nursery car parks. Only served on booked days.",
+     "type": "rider_only"
+    },
+    {
+     "code": "C4-06",
+     "order": 8,
      "name": "Al Forsan Village main gate",
      "lat": 24.4044,
      "lng": 54.5514,
@@ -745,7 +757,7 @@
     },
     {
      "code": "C4-07",
-     "order": 8,
+     "order": 9,
      "name": "Al Zeina, Al Raha Beach",
      "lat": 24.4555591,
      "lng": 54.6131136,
@@ -757,7 +769,7 @@
     },
     {
      "code": "C4-15",
-     "order": 9,
+     "order": 10,
      "name": "Deerfields Mall, Al Bahia",
      "lat": 24.5235087,
      "lng": 54.6711286,
@@ -769,7 +781,7 @@
     },
     {
      "code": "C4-08",
-     "order": 10,
+     "order": 11,
      "name": "Al Ghadeer community gate",
      "lat": 24.8443745,
      "lng": 55.0261656,
@@ -781,7 +793,7 @@
     },
     {
      "code": "C4-09",
-     "order": 11,
+     "order": 12,
      "name": "Holiday Inn, Al Maktoum Airport",
      "lat": 24.8679114,
      "lng": 55.1456899,
@@ -793,7 +805,7 @@
     },
     {
      "code": "C4-10",
-     "order": 12,
+     "order": 13,
      "name": "Green Community West gate",
      "lat": 24.9976447,
      "lng": 55.163799,
@@ -805,7 +817,7 @@
     },
     {
      "code": "C4-11",
-     "order": 13,
+     "order": 14,
      "name": "Al Furjan West Centre",
      "lat": 25.022063,
      "lng": 55.130188,
@@ -817,7 +829,7 @@
     },
     {
      "code": "C4-12",
-     "order": 14,
+     "order": 15,
      "name": "Al Furjan Centre (Pavilion)",
      "lat": 25.0250451,
      "lng": 55.152983,
@@ -829,7 +841,7 @@
     },
     {
      "code": "C4-16",
-     "order": 15,
+     "order": 16,
      "name": "Discovery Gardens Metro Station",
      "lat": 25.035204,
      "lng": 55.1453653,
@@ -841,7 +853,7 @@
     },
     {
      "code": "C4-13",
-     "order": 16,
+     "order": 17,
      "name": "Gardens Metro Station",
      "lat": 25.043785,
      "lng": 55.1347677,
@@ -853,7 +865,7 @@
     },
     {
      "code": "C4-14",
-     "order": 17,
+     "order": 18,
      "name": "Dubai British School, Jumeirah Park",
      "lat": 25.0435763,
      "lng": 55.1579186,
@@ -2184,7 +2196,7 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "04:55",
+   "start": "04:50",
    "end": "07:45",
    "vehicle": "M9",
    "vehicle_type": "Hiace",
@@ -2193,37 +2205,43 @@
     {
      "code": "C4-01",
      "name": "Al Mariah Mall, Hamdan St",
-     "time": "04:55",
+     "time": "04:50",
      "action": "pick_up"
     },
     {
      "code": "C4-03",
      "name": "Al Wahda Mall (Al Danah side)",
-     "time": "05:05",
+     "time": "05:00",
+     "action": "pick_up"
+    },
+    {
+     "code": "C4-18",
+     "name": "Super Nanny Nursery, Khalifa City",
+     "time": "05:20",
      "action": "pick_up"
     },
     {
      "code": "C4-06",
      "name": "Al Forsan Village main gate",
-     "time": "05:25",
+     "time": "05:30",
      "action": "pick_up"
     },
     {
      "code": "C4-15",
      "name": "Deerfields Mall, Al Bahia",
-     "time": "05:45",
+     "time": "05:50",
      "action": "pick_up"
     },
     {
      "code": "C4-12",
      "name": "Al Furjan Centre (Pavilion)",
-     "time": "06:50",
+     "time": "06:55",
      "action": "pick_up"
     },
     {
      "code": "C4-13",
      "name": "Gardens Metro Station",
-     "time": "07:05",
+     "time": "07:10",
      "action": "pick_up"
     },
     {
@@ -2391,8 +2409,8 @@
      "action": "set_down"
     },
     {
-     "code": "C4-06",
-     "name": "Al Forsan Village main gate",
+     "code": "C4-18",
+     "name": "Super Nanny Nursery, Khalifa City",
      "time": "19:20",
      "action": "set_down"
     },
@@ -4076,7 +4094,7 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "04:50",
+   "start": "04:40",
    "end": "07:45",
    "vehicle": "M10",
    "vehicle_type": "Hiace",
@@ -4085,18 +4103,24 @@
     {
      "code": "C4-01",
      "name": "Al Mariah Mall, Hamdan St",
-     "time": "04:50",
+     "time": "04:40",
      "action": "pick_up"
     },
     {
      "code": "C4-03",
      "name": "Al Wahda Mall (Al Danah side)",
-     "time": "05:00",
+     "time": "04:50",
      "action": "pick_up"
     },
     {
      "code": "C4-05",
      "name": "Yasmina School back gate, Raha Gardens",
+     "time": "05:10",
+     "action": "pick_up"
+    },
+    {
+     "code": "C4-18",
+     "name": "Super Nanny Nursery, Khalifa City",
      "time": "05:20",
      "action": "pick_up"
     },
@@ -4298,13 +4322,19 @@
     {
      "code": "C4-15",
      "name": "Deerfields Mall, Al Bahia",
-     "time": "16:10",
+     "time": "16:05",
      "action": "set_down"
     },
     {
      "code": "C4-06",
      "name": "Al Forsan Village main gate",
-     "time": "16:30",
+     "time": "16:25",
+     "action": "set_down"
+    },
+    {
+     "code": "C4-18",
+     "name": "Super Nanny Nursery, Khalifa City",
+     "time": "16:35",
      "action": "set_down"
     },
     {
@@ -6278,8 +6308,8 @@
      "action": "pick_up"
     },
     {
-     "code": "C4-06",
-     "name": "Al Forsan Village main gate",
+     "code": "C4-18",
+     "name": "Super Nanny Nursery, Khalifa City",
      "time": "05:25",
      "action": "pick_up"
     },
@@ -6543,8 +6573,8 @@
      "action": "set_down"
     },
     {
-     "code": "C4-06",
-     "name": "Al Forsan Village main gate",
+     "code": "C4-18",
+     "name": "Super Nanny Nursery, Khalifa City",
      "time": "19:28",
      "action": "set_down"
     },
@@ -8279,7 +8309,7 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "04:34",
+   "start": "04:26",
    "end": "07:45",
    "vehicle": "M8",
    "vehicle_type": "Rosa",
@@ -8288,19 +8318,25 @@
     {
      "code": "C4-01",
      "name": "Al Mariah Mall, Hamdan St",
-     "time": "04:34",
+     "time": "04:26",
      "action": "pick_up"
     },
     {
      "code": "C4-03",
      "name": "Al Wahda Mall (Al Danah side)",
-     "time": "04:42",
+     "time": "04:34",
      "action": "pick_up"
     },
     {
      "code": "C4-04",
      "name": "Mubadala Tower, Sultan Bin Zayed St",
-     "time": "05:00",
+     "time": "04:52",
+     "action": "pick_up"
+    },
+    {
+     "code": "C4-18",
+     "name": "Super Nanny Nursery, Khalifa City",
+     "time": "05:10",
      "action": "pick_up"
     },
     {
@@ -8593,8 +8629,8 @@
      "action": "set_down"
     },
     {
-     "code": "C4-06",
-     "name": "Al Forsan Village main gate",
+     "code": "C4-18",
+     "name": "Super Nanny Nursery, Khalifa City",
      "time": "20:56",
      "action": "set_down"
     },
