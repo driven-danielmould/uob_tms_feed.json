@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-04T12:22:53Z",
+ "generated_at": "2026-10-04T12:44:35Z",
  "week": "2026-10-05 to 2026-10-11",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included.",
@@ -992,8 +992,20 @@
      "type": "rider_only"
     },
     {
-     "code": "C5-06",
+     "code": "C5-17",
      "order": 7,
+     "name": "New Gold Souq, Al Raffa, Bur Dubai",
+     "lat": 25.2515903,
+     "lng": 55.2824733,
+     "google_place_id": "ChIJ66TuahBDXz4RNILNdKYVpKc",
+     "where_exactly": "Kerbside on Al Raffa St outside the New Gold Souq.",
+     "rider_instructions": "Wait on Al Raffa Street outside the New Gold Souq building. Be here 5 minutes before your time and look for the yellow M sign in the bus windscreen.",
+     "driver_instructions": "Kerbside on Al Raffa St outside the New Gold Souq building; pull in clear of the taxi rank, do not enter the side streets. Only served on booked days.",
+     "type": "rider_only"
+    },
+    {
+     "code": "C5-06",
+     "order": 8,
      "name": "Al Wasl Building, Al Hudaiba",
      "lat": 25.243,
      "lng": 55.2788,
@@ -1005,7 +1017,7 @@
     },
     {
      "code": "C5-07",
-     "order": 8,
+     "order": 9,
      "name": "World Trade Centre Metro Station",
      "lat": 25.2248235,
      "lng": 55.2850306,
@@ -1017,7 +1029,7 @@
     },
     {
      "code": "C5-08",
-     "order": 9,
+     "order": 10,
      "name": "Financial Centre Metro Station",
      "lat": 25.2111662,
      "lng": 55.2755821,
@@ -1029,7 +1041,7 @@
     },
     {
      "code": "C5-13",
-     "order": 10,
+     "order": 11,
      "name": "Downtown Views II, Zabeel 2",
      "lat": 25.2024286,
      "lng": 55.2809328,
@@ -1041,7 +1053,7 @@
     },
     {
      "code": "C5-09",
-     "order": 11,
+     "order": 12,
      "name": "Bay Avenue Mall, Business Bay",
      "lat": 25.1911193,
      "lng": 55.2658274,
@@ -1053,7 +1065,7 @@
     },
     {
      "code": "C5-15",
-     "order": 12,
+     "order": 13,
      "name": "Ubora Tower, Business Bay",
      "lat": 25.180234,
      "lng": 55.2701303,
@@ -1065,7 +1077,7 @@
     },
     {
      "code": "C5-10",
-     "order": 13,
+     "order": 14,
      "name": "Bay Square, Business Bay",
      "lat": 25.1854241,
      "lng": 55.2801414,
@@ -1077,7 +1089,7 @@
     },
     {
      "code": "C5-11",
-     "order": 14,
+     "order": 15,
      "name": "One Park Avenue, Sobha Hartland",
      "lat": 25.1784466,
      "lng": 55.3086196,
@@ -1089,7 +1101,7 @@
     },
     {
      "code": "C5-14",
-     "order": 15,
+     "order": 16,
      "name": "Meydan Heights, Nad Al Sheba 1",
      "lat": 25.14468,
      "lng": 55.3152,
@@ -1101,7 +1113,7 @@
     },
     {
      "code": "C5-12",
-     "order": 16,
+     "order": 17,
      "name": "Wasl Green Park, Ras Al Khor",
      "lat": 25.1801628,
      "lng": 55.3729096,
@@ -2639,7 +2651,7 @@
    "service": "undergraduate",
    "arrive_campus": "10:45",
    "leave_campus": null,
-   "start": "09:10",
+   "start": "09:05",
    "end": "10:45",
    "vehicle": "M11",
    "vehicle_type": "Hiace",
@@ -2648,7 +2660,7 @@
     {
      "code": "C5-02",
      "name": "Al Rigga Metro Station",
-     "time": "09:10",
+     "time": "09:05",
      "action": "pick_up"
     },
     {
@@ -2658,9 +2670,9 @@
      "action": "pick_up"
     },
     {
-     "code": "C5-16",
-     "name": "Raffa 1 bus stop, Khalid Bin Al Waleed Rd, Bur Dubai",
-     "time": "09:40",
+     "code": "C5-17",
+     "name": "New Gold Souq, Al Raffa, Bur Dubai",
+     "time": "09:45",
      "action": "pick_up"
     },
     {
@@ -2758,8 +2770,8 @@
      "action": "set_down"
     },
     {
-     "code": "C5-16",
-     "name": "Raffa 1 bus stop, Khalid Bin Al Waleed Rd, Bur Dubai",
+     "code": "C5-17",
+     "name": "New Gold Souq, Al Raffa, Bur Dubai",
      "time": "15:20",
      "action": "set_down"
     },
@@ -4586,7 +4598,7 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:45",
+   "start": "05:56",
    "end": "07:45",
    "vehicle": "M11",
    "vehicle_type": "Hiace",
@@ -4595,49 +4607,49 @@
     {
      "code": "C5-01",
      "name": "Gold Souq Metro Station",
-     "time": "05:45",
+     "time": "05:56",
      "action": "pick_up"
     },
     {
      "code": "C5-02",
      "name": "Al Rigga Metro Station",
-     "time": "05:55",
+     "time": "06:04",
      "action": "pick_up"
     },
     {
      "code": "C5-05",
      "name": "BurJuman Mall",
-     "time": "06:10",
+     "time": "06:17",
      "action": "pick_up"
     },
     {
-     "code": "C5-16",
-     "name": "Raffa 1 bus stop, Khalid Bin Al Waleed Rd, Bur Dubai",
-     "time": "06:20",
+     "code": "C5-17",
+     "name": "New Gold Souq, Al Raffa, Bur Dubai",
+     "time": "06:30",
      "action": "pick_up"
     },
     {
      "code": "C5-08",
      "name": "Financial Centre Metro Station",
-     "time": "06:35",
+     "time": "06:43",
      "action": "pick_up"
     },
     {
      "code": "C5-09",
      "name": "Bay Avenue Mall, Business Bay",
-     "time": "06:45",
+     "time": "06:51",
      "action": "pick_up"
     },
     {
      "code": "C5-11",
      "name": "One Park Avenue, Sobha Hartland",
-     "time": "07:05",
+     "time": "07:09",
      "action": "pick_up"
     },
     {
      "code": "C5-12",
      "name": "Wasl Green Park, Ras Al Khor",
-     "time": "07:25",
+     "time": "07:27",
      "action": "pick_up"
     },
     {
@@ -4764,7 +4776,7 @@
    "arrive_campus": null,
    "leave_campus": "14:15",
    "start": "14:15",
-   "end": "15:40",
+   "end": "15:45",
    "vehicle": "M11",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -4794,21 +4806,21 @@
      "action": "set_down"
     },
     {
-     "code": "C5-16",
-     "name": "Raffa 1 bus stop, Khalid Bin Al Waleed Rd, Bur Dubai",
+     "code": "C5-17",
+     "name": "New Gold Souq, Al Raffa, Bur Dubai",
      "time": "15:20",
      "action": "set_down"
     },
     {
      "code": "C5-05",
      "name": "BurJuman Mall",
-     "time": "15:30",
+     "time": "15:35",
      "action": "set_down"
     },
     {
      "code": "C5-01",
      "name": "Gold Souq Metro Station",
-     "time": "15:40",
+     "time": "15:45",
      "action": "set_down"
     }
    ]
@@ -6846,9 +6858,9 @@
      "action": "pick_up"
     },
     {
-     "code": "C5-16",
-     "name": "Raffa 1 bus stop, Khalid Bin Al Waleed Rd, Bur Dubai",
-     "time": "06:09",
+     "code": "C5-17",
+     "name": "New Gold Souq, Al Raffa, Bur Dubai",
+     "time": "06:14",
      "action": "pick_up"
     },
     {
@@ -7017,9 +7029,9 @@
      "action": "set_down"
     },
     {
-     "code": "C5-16",
-     "name": "Raffa 1 bus stop, Khalid Bin Al Waleed Rd, Bur Dubai",
-     "time": "15:05",
+     "code": "C5-17",
+     "name": "New Gold Souq, Al Raffa, Bur Dubai",
+     "time": "14:55",
      "action": "set_down"
     },
     {
