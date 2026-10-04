@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-04T13:12:46Z",
+ "generated_at": "2026-10-04T13:17:09Z",
  "week": "2026-10-05 to 2026-10-11",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included.",
@@ -2575,33 +2575,21 @@
      "action": "pick_up"
     },
     {
-     "code": "C5-07",
-     "name": "World Trade Centre Metro Station",
-     "time": "06:25",
-     "action": "pick_up"
-    },
-    {
-     "code": "C5-08",
-     "name": "Financial Centre Metro Station",
-     "time": "06:35",
-     "action": "pick_up"
-    },
-    {
      "code": "C5-09",
      "name": "Bay Avenue Mall, Business Bay",
-     "time": "06:45",
+     "time": "06:30",
      "action": "pick_up"
     },
     {
      "code": "C5-11",
      "name": "One Park Avenue, Sobha Hartland",
-     "time": "07:05",
+     "time": "06:55",
      "action": "pick_up"
     },
     {
      "code": "C5-12",
      "name": "Wasl Green Park, Ras Al Khor",
-     "time": "07:25",
+     "time": "07:20",
      "action": "pick_up"
     },
     {
@@ -2619,54 +2607,78 @@
    "route": "C5",
    "direction": "to_campus",
    "service": "undergraduate",
-   "arrive_campus": "10:45",
+   "arrive_campus": "09:45",
    "leave_campus": null,
-   "start": "09:05",
-   "end": "10:45",
-   "vehicle": "M11",
+   "start": "07:38",
+   "end": "09:45",
+   "vehicle": "M12",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
     {
      "code": "C5-02",
      "name": "Al Rigga Metro Station",
-     "time": "09:05",
+     "time": "07:38",
      "action": "pick_up"
     },
     {
      "code": "C5-04",
      "name": "Oud Metha Metro Station",
-     "time": "09:25",
+     "time": "07:51",
      "action": "pick_up"
     },
     {
      "code": "C5-17",
      "name": "New Gold Souq, Al Raffa, Bur Dubai",
-     "time": "09:45",
+     "time": "08:04",
      "action": "pick_up"
     },
     {
      "code": "C5-06",
      "name": "Al Wasl Building, Al Hudaiba",
-     "time": "09:55",
+     "time": "08:12",
+     "action": "pick_up"
+    },
+    {
+     "code": "C5-07",
+     "name": "World Trade Centre Metro Station",
+     "time": "08:25",
+     "action": "pick_up"
+    },
+    {
+     "code": "C5-08",
+     "name": "Financial Centre Metro Station",
+     "time": "08:38",
      "action": "pick_up"
     },
     {
      "code": "C5-09",
      "name": "Bay Avenue Mall, Business Bay",
-     "time": "10:20",
+     "time": "08:51",
+     "action": "pick_up"
+    },
+    {
+     "code": "C5-11",
+     "name": "One Park Avenue, Sobha Hartland",
+     "time": "09:09",
+     "action": "pick_up"
+    },
+    {
+     "code": "C5-12",
+     "name": "Wasl Green Park, Ras Al Khor",
+     "time": "09:27",
      "action": "pick_up"
     },
     {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
-     "time": "10:45",
+     "time": "09:45",
      "action": "set_down"
     }
    ]
   },
   {
-   "run_id": "2026-10-05-C5-O3",
+   "run_id": "2026-10-05-C5-O4",
    "date": "2026-10-05",
    "day": "Mon",
    "route": "C5",
@@ -2676,7 +2688,7 @@
    "leave_campus": null,
    "start": "11:20",
    "end": "12:45",
-   "vehicle": "M12",
+   "vehicle": "M11",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -6767,46 +6779,34 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:40",
+   "start": "05:51",
    "end": "07:45",
-   "vehicle": "M13",
-   "vehicle_type": "Rosa",
-   "seats": 34,
+   "vehicle": "M11",
+   "vehicle_type": "Hiace",
+   "seats": 12,
    "stops": [
     {
      "code": "C5-02",
      "name": "Al Rigga Metro Station",
-     "time": "05:40",
+     "time": "05:51",
      "action": "pick_up"
     },
     {
      "code": "C5-04",
      "name": "Oud Metha Metro Station",
-     "time": "05:53",
+     "time": "06:04",
      "action": "pick_up"
     },
     {
      "code": "C5-05",
      "name": "BurJuman Mall",
-     "time": "06:01",
-     "action": "pick_up"
-    },
-    {
-     "code": "C5-17",
-     "name": "New Gold Souq, Al Raffa, Bur Dubai",
-     "time": "06:14",
+     "time": "06:12",
      "action": "pick_up"
     },
     {
      "code": "C5-07",
      "name": "World Trade Centre Metro Station",
-     "time": "06:22",
-     "action": "pick_up"
-    },
-    {
-     "code": "C5-08",
-     "name": "Financial Centre Metro Station",
-     "time": "06:30",
+     "time": "06:25",
      "action": "pick_up"
     },
     {
@@ -6848,13 +6848,66 @@
    "route": "C5",
    "direction": "to_campus",
    "service": "undergraduate",
+   "arrive_campus": "09:45",
+   "leave_campus": null,
+   "start": "08:00",
+   "end": "09:45",
+   "vehicle": "M12",
+   "vehicle_type": "Hiace",
+   "seats": 12,
+   "stops": [
+    {
+     "code": "C5-04",
+     "name": "Oud Metha Metro Station",
+     "time": "08:00",
+     "action": "pick_up"
+    },
+    {
+     "code": "C5-17",
+     "name": "New Gold Souq, Al Raffa, Bur Dubai",
+     "time": "08:15",
+     "action": "pick_up"
+    },
+    {
+     "code": "C5-08",
+     "name": "Financial Centre Metro Station",
+     "time": "08:35",
+     "action": "pick_up"
+    },
+    {
+     "code": "C5-09",
+     "name": "Bay Avenue Mall, Business Bay",
+     "time": "08:50",
+     "action": "pick_up"
+    },
+    {
+     "code": "C5-11",
+     "name": "One Park Avenue, Sobha Hartland",
+     "time": "09:10",
+     "action": "pick_up"
+    },
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "09:45",
+     "action": "set_down"
+    }
+   ]
+  },
+  {
+   "run_id": "2026-10-07-C5-O3",
+   "date": "2026-10-07",
+   "day": "Wed",
+   "route": "C5",
+   "direction": "to_campus",
+   "service": "undergraduate",
    "arrive_campus": "10:45",
    "leave_campus": null,
    "start": "09:15",
    "end": "10:45",
-   "vehicle": "M13",
-   "vehicle_type": "Rosa",
-   "seats": 34,
+   "vehicle": "M11",
+   "vehicle_type": "Hiace",
+   "seats": 12,
    "stops": [
     {
      "code": "C5-02",
@@ -6901,7 +6954,7 @@
    ]
   },
   {
-   "run_id": "2026-10-07-C5-O3",
+   "run_id": "2026-10-07-C5-O4",
    "date": "2026-10-07",
    "day": "Wed",
    "route": "C5",
@@ -6911,7 +6964,7 @@
    "leave_campus": null,
    "start": "11:20",
    "end": "12:45",
-   "vehicle": "M11",
+   "vehicle": "M12",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -6946,9 +6999,9 @@
    "leave_campus": "14:15",
    "start": "14:15",
    "end": "15:45",
-   "vehicle": "M13",
-   "vehicle_type": "Rosa",
-   "seats": 34,
+   "vehicle": "M11",
+   "vehicle_type": "Hiace",
+   "seats": 12,
    "stops": [
     {
      "code": "UOB",
@@ -6989,7 +7042,7 @@
    ]
   },
   {
-   "run_id": "2026-10-07-C5-O4",
+   "run_id": "2026-10-07-C5-O5",
    "date": "2026-10-07",
    "day": "Wed",
    "route": "C5",
@@ -7028,9 +7081,9 @@
    "leave_campus": "16:55",
    "start": "16:55",
    "end": "18:50",
-   "vehicle": "M13",
-   "vehicle_type": "Rosa",
-   "seats": 34,
+   "vehicle": "M12",
+   "vehicle_type": "Hiace",
+   "seats": 12,
    "stops": [
     {
      "code": "UOB",
