@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-04T06:25:52Z",
+ "generated_at": "2026-10-04T06:32:12Z",
  "week": "2026-10-05 to 2026-10-11",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included.",
@@ -698,13 +698,13 @@
     {
      "code": "C4-03",
      "order": 4,
-     "name": "Al Wahda Mall",
-     "lat": 24.4707775,
-     "lng": 54.372228,
-     "google_place_id": "ChIJ3XjItzxmXj4RUircWbG4pgE",
-     "where_exactly": "Hazza Bin Zayed St drop-off.",
-     "rider_instructions": "Wait at the Hazza Bin Zayed St drop-off of Al Wahda Mall. Be here 5 minutes before your time and look for the yellow M sign in the bus windscreen.",
-     "driver_instructions": "Hazza Bin Zayed St drop-off lane, kerbside. Do not enter the mall car parks.",
+     "name": "Al Wahda Mall (Al Danah side)",
+     "lat": 24.4715425,
+     "lng": 54.3722631,
+     "google_place_id": "ChIJW9qY8TxmXj4RzUExrgrD5XI",
+     "where_exactly": "Public bus stop on the Al Danah side of Hazza Bin Zayed St, opposite the mall.",
+     "rider_instructions": "Wait at the public bus stop on the Al Danah side of Hazza Bin Zayed St, opposite Al Wahda Mall. You do not need to cross the road. Be here 5 minutes before your time and look for the yellow M sign in the bus windscreen.",
+     "driver_instructions": "Public bus stop \"Hazza Bin Zayed St / Al Wahda Mall\" on the Al Danah (west) side, opposite the mall. Use the bus bay; do not cross to the mall drop-off. Bus stop: 2 minutes maximum.",
      "type": "public"
     },
     {
@@ -2186,7 +2186,7 @@
     },
     {
      "code": "C4-03",
-     "name": "Al Wahda Mall",
+     "name": "Al Wahda Mall (Al Danah side)",
      "time": "05:05",
      "action": "pick_up"
     },
@@ -2386,7 +2386,7 @@
     },
     {
      "code": "C4-03",
-     "name": "Al Wahda Mall",
+     "name": "Al Wahda Mall (Al Danah side)",
      "time": "19:45",
      "action": "set_down"
     },
@@ -4078,7 +4078,7 @@
     },
     {
      "code": "C4-03",
-     "name": "Al Wahda Mall",
+     "name": "Al Wahda Mall (Al Danah side)",
      "time": "05:00",
      "action": "pick_up"
     },
@@ -4208,7 +4208,7 @@
     },
     {
      "code": "C4-03",
-     "name": "Al Wahda Mall",
+     "name": "Al Wahda Mall (Al Danah side)",
      "time": "10:20",
      "action": "pick_up"
     },
@@ -4297,7 +4297,7 @@
     },
     {
      "code": "C4-03",
-     "name": "Al Wahda Mall",
+     "name": "Al Wahda Mall (Al Danah side)",
      "time": "16:55",
      "action": "set_down"
     }
@@ -4421,7 +4421,7 @@
     },
     {
      "code": "C4-03",
-     "name": "Al Wahda Mall",
+     "name": "Al Wahda Mall (Al Danah side)",
      "time": "21:00",
      "action": "set_down"
     },
@@ -6261,7 +6261,7 @@
     },
     {
      "code": "C4-03",
-     "name": "Al Wahda Mall",
+     "name": "Al Wahda Mall (Al Danah side)",
      "time": "05:05",
      "action": "pick_up"
     },
@@ -6544,7 +6544,7 @@
     },
     {
      "code": "C4-03",
-     "name": "Al Wahda Mall",
+     "name": "Al Wahda Mall (Al Danah side)",
      "time": "20:04",
      "action": "set_down"
     },
@@ -8281,7 +8281,7 @@
     },
     {
      "code": "C4-03",
-     "name": "Al Wahda Mall",
+     "name": "Al Wahda Mall (Al Danah side)",
      "time": "04:42",
      "action": "pick_up"
     },
@@ -8594,7 +8594,7 @@
     },
     {
      "code": "C4-03",
-     "name": "Al Wahda Mall",
+     "name": "Al Wahda Mall (Al Danah side)",
      "time": "21:32",
      "action": "set_down"
     },
@@ -9519,7 +9519,7 @@
     },
     {
      "code": "C4-03",
-     "name": "Al Wahda Mall",
+     "name": "Al Wahda Mall (Al Danah side)",
      "time": "05:00",
      "action": "pick_up"
     },
@@ -9602,7 +9602,7 @@
     },
     {
      "code": "C4-03",
-     "name": "Al Wahda Mall",
+     "name": "Al Wahda Mall (Al Danah side)",
      "time": "14:35",
      "action": "set_down"
     },
