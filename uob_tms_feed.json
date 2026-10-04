@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-04T14:51:12Z",
+ "generated_at": "2026-10-04T15:27:18Z",
  "week": "2026-10-05 to 2026-10-11",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included.",
@@ -2315,7 +2315,7 @@
    "service": "undergraduate",
    "arrive_campus": "10:45",
    "leave_campus": null,
-   "start": "07:50",
+   "start": "07:54",
    "end": "10:45",
    "vehicle": "M10",
    "vehicle_type": "Hiace",
@@ -2324,13 +2324,13 @@
     {
      "code": "C4-01",
      "name": "Al Mariah Mall, Hamdan St",
-     "time": "07:50",
+     "time": "07:54",
      "action": "pick_up"
     },
     {
      "code": "C4-17",
      "name": "Al Falah St / Ministry of Finance bus stop",
-     "time": "08:00",
+     "time": "08:02",
      "action": "pick_up"
     },
     {
@@ -2342,19 +2342,25 @@
     {
      "code": "C4-08",
      "name": "Al Ghadeer community gate",
-     "time": "09:35",
+     "time": "09:33",
      "action": "pick_up"
     },
     {
      "code": "C4-10",
      "name": "Green Community West gate",
-     "time": "10:00",
+     "time": "09:56",
      "action": "pick_up"
     },
     {
      "code": "C4-12",
      "name": "Al Furjan Centre (Pavilion)",
-     "time": "10:15",
+     "time": "10:09",
+     "action": "pick_up"
+    },
+    {
+     "code": "C4-13",
+     "name": "Gardens Metro Station",
+     "time": "10:17",
      "action": "pick_up"
     },
     {
@@ -2384,12 +2390,6 @@
      "code": "C4-12",
      "name": "Al Furjan Centre (Pavilion)",
      "time": "10:15",
-     "action": "pick_up"
-    },
-    {
-     "code": "C4-13",
-     "name": "Gardens Metro Station",
-     "time": "10:50",
      "action": "pick_up"
     },
     {
