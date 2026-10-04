@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-04T06:32:12Z",
+ "generated_at": "2026-10-04T07:19:08Z",
  "week": "2026-10-05 to 2026-10-11",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included.",
@@ -992,8 +992,20 @@
      "type": "public"
     },
     {
-     "code": "C5-10",
+     "code": "C5-15",
      "order": 11,
+     "name": "Ubora Tower, Business Bay",
+     "lat": 25.180234,
+     "lng": 55.2701303,
+     "google_place_id": "ChIJaVDcUDNoXz4Rl5HpapZ_bPs",
+     "where_exactly": "Marasi Drive, outside Ubora Residence Tower.",
+     "rider_instructions": "Wait on Marasi Drive outside the Ubora Residence Tower entrance. Be here 5 minutes before your time and look for the yellow M sign in the bus windscreen.",
+     "driver_instructions": "Kerbside on Marasi Drive outside Ubora Residence Tower. Do not enter the tower drop-off or car park. Only served on booked days.",
+     "type": "rider_only"
+    },
+    {
+     "code": "C5-10",
+     "order": 12,
      "name": "Bay Square, Business Bay",
      "lat": 25.1854241,
      "lng": 55.2801414,
@@ -1005,7 +1017,7 @@
     },
     {
      "code": "C5-11",
-     "order": 12,
+     "order": 13,
      "name": "One Park Avenue, Sobha Hartland",
      "lat": 25.1784466,
      "lng": 55.3086196,
@@ -1017,7 +1029,7 @@
     },
     {
      "code": "C5-14",
-     "order": 13,
+     "order": 14,
      "name": "Meydan Heights, Nad Al Sheba 1",
      "lat": 25.14468,
      "lng": 55.3152,
@@ -1029,7 +1041,7 @@
     },
     {
      "code": "C5-12",
-     "order": 14,
+     "order": 15,
      "name": "Wasl Green Park, Ras Al Khor",
      "lat": 25.1801628,
      "lng": 55.3729096,
@@ -2597,9 +2609,9 @@
      "action": "pick_up"
     },
     {
-     "code": "C5-10",
-     "name": "Bay Square, Business Bay",
-     "time": "11:45",
+     "code": "C5-15",
+     "name": "Ubora Tower, Business Bay",
+     "time": "11:50",
      "action": "pick_up"
     },
     {
@@ -2752,18 +2764,18 @@
     {
      "code": "C5-12",
      "name": "Wasl Green Park, Ras Al Khor",
-     "time": "18:35",
+     "time": "18:30",
      "action": "set_down"
     },
     {
      "code": "C5-11",
      "name": "One Park Avenue, Sobha Hartland",
-     "time": "18:55",
+     "time": "18:50",
      "action": "set_down"
     },
     {
-     "code": "C5-10",
-     "name": "Bay Square, Business Bay",
+     "code": "C5-15",
+     "name": "Ubora Tower, Business Bay",
      "time": "19:10",
      "action": "set_down"
     },
@@ -4566,7 +4578,7 @@
    "service": "undergraduate",
    "arrive_campus": "12:45",
    "leave_campus": null,
-   "start": "11:25",
+   "start": "11:15",
    "end": "12:45",
    "vehicle": "M12",
    "vehicle_type": "Hiace",
@@ -4575,19 +4587,19 @@
     {
      "code": "C5-04",
      "name": "Oud Metha Metro Station",
-     "time": "11:25",
+     "time": "11:15",
      "action": "pick_up"
     },
     {
      "code": "C5-09",
      "name": "Bay Avenue Mall, Business Bay",
-     "time": "11:45",
+     "time": "11:35",
      "action": "pick_up"
     },
     {
-     "code": "C5-10",
-     "name": "Bay Square, Business Bay",
-     "time": "11:55",
+     "code": "C5-15",
+     "name": "Ubora Tower, Business Bay",
+     "time": "11:45",
      "action": "pick_up"
     },
     {
@@ -4714,7 +4726,7 @@
    "arrive_campus": null,
    "leave_campus": "16:55",
    "start": "16:55",
-   "end": "18:40",
+   "end": "18:45",
    "vehicle": "M11",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -4738,27 +4750,27 @@
      "action": "set_down"
     },
     {
-     "code": "C5-10",
-     "name": "Bay Square, Business Bay",
-     "time": "17:45",
+     "code": "C5-15",
+     "name": "Ubora Tower, Business Bay",
+     "time": "17:50",
      "action": "set_down"
     },
     {
      "code": "C5-08",
      "name": "Financial Centre Metro Station",
-     "time": "18:00",
+     "time": "18:05",
      "action": "set_down"
     },
     {
      "code": "C5-03",
      "name": "Creek Metro Station, Al Jaddaf",
-     "time": "18:20",
+     "time": "18:25",
      "action": "set_down"
     },
     {
      "code": "C5-02",
      "name": "Al Rigga Metro Station",
-     "time": "18:40",
+     "time": "18:45",
      "action": "set_down"
     }
    ]
@@ -6767,8 +6779,8 @@
      "action": "pick_up"
     },
     {
-     "code": "C5-10",
-     "name": "Bay Square, Business Bay",
+     "code": "C5-15",
+     "name": "Ubora Tower, Business Bay",
      "time": "10:10",
      "action": "pick_up"
     },
@@ -6996,9 +7008,9 @@
      "action": "set_down"
     },
     {
-     "code": "C5-10",
-     "name": "Bay Square, Business Bay",
-     "time": "19:19",
+     "code": "C5-15",
+     "name": "Ubora Tower, Business Bay",
+     "time": "19:24",
      "action": "set_down"
     },
     {
@@ -8705,8 +8717,8 @@
      "action": "pick_up"
     },
     {
-     "code": "C5-10",
-     "name": "Bay Square, Business Bay",
+     "code": "C5-15",
+     "name": "Ubora Tower, Business Bay",
      "time": "09:45",
      "action": "pick_up"
     },
@@ -8817,8 +8829,8 @@
      "action": "set_down"
     },
     {
-     "code": "C5-10",
-     "name": "Bay Square, Business Bay",
+     "code": "C5-15",
+     "name": "Ubora Tower, Business Bay",
      "time": "14:55",
      "action": "set_down"
     },
