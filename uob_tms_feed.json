@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-04T12:52:50Z",
+ "generated_at": "2026-10-04T13:00:50Z",
  "week": "2026-10-05 to 2026-10-11",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included.",
@@ -1581,33 +1581,27 @@
      "action": "pick_up"
     },
     {
-     "code": "C2-04",
-     "name": "Sobha Realty Metro Station",
-     "time": "05:50",
-     "action": "pick_up"
-    },
-    {
      "code": "C2-05",
      "name": "The Meadows Village",
-     "time": "06:10",
+     "time": "06:00",
      "action": "pick_up"
     },
     {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "06:35",
+     "time": "06:30",
      "action": "pick_up"
     },
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "06:45",
+     "time": "06:40",
      "action": "pick_up"
     },
     {
      "code": "C2-10",
      "name": "Al Manaf Building, Al Barsha 1",
-     "time": "07:05",
+     "time": "07:00",
      "action": "pick_up"
     },
     {
@@ -3396,7 +3390,7 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:25",
+   "start": "05:30",
    "end": "07:45",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
@@ -3405,31 +3399,25 @@
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "05:25",
+     "time": "05:30",
      "action": "pick_up"
     },
     {
      "code": "C2-03",
      "name": "DMCC Metro Station",
-     "time": "05:35",
-     "action": "pick_up"
-    },
-    {
-     "code": "C2-04",
-     "name": "Sobha Realty Metro Station",
-     "time": "05:50",
+     "time": "05:45",
      "action": "pick_up"
     },
     {
      "code": "C2-05",
      "name": "The Meadows Village",
-     "time": "06:10",
+     "time": "06:05",
      "action": "pick_up"
     },
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "06:40",
+     "time": "06:35",
      "action": "pick_up"
     },
     {
@@ -5597,33 +5585,27 @@
      "action": "pick_up"
     },
     {
-     "code": "C2-04",
-     "name": "Sobha Realty Metro Station",
-     "time": "05:50",
-     "action": "pick_up"
-    },
-    {
      "code": "C2-05",
      "name": "The Meadows Village",
-     "time": "06:10",
+     "time": "06:00",
      "action": "pick_up"
     },
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "06:35",
+     "time": "06:30",
      "action": "pick_up"
     },
     {
      "code": "C2-10",
      "name": "Al Manaf Building, Al Barsha 1",
-     "time": "06:55",
+     "time": "06:50",
      "action": "pick_up"
     },
     {
      "code": "C2-08",
      "name": "Mall of the Emirates",
-     "time": "07:05",
+     "time": "07:00",
      "action": "pick_up"
     },
     {
@@ -7695,7 +7677,7 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:35",
+   "start": "05:25",
    "end": "07:45",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
@@ -7704,37 +7686,31 @@
     {
      "code": "C2-03",
      "name": "DMCC Metro Station",
-     "time": "05:35",
-     "action": "pick_up"
-    },
-    {
-     "code": "C2-04",
-     "name": "Sobha Realty Metro Station",
-     "time": "05:45",
+     "time": "05:25",
      "action": "pick_up"
     },
     {
      "code": "C2-09",
      "name": "Springs 10 Gatehouse",
-     "time": "06:10",
+     "time": "05:55",
      "action": "pick_up"
     },
     {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "06:35",
+     "time": "06:25",
      "action": "pick_up"
     },
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "06:45",
+     "time": "06:40",
      "action": "pick_up"
     },
     {
      "code": "C2-10",
      "name": "Al Manaf Building, Al Barsha 1",
-     "time": "07:05",
+     "time": "07:00",
      "action": "pick_up"
     },
     {
