@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-04T12:44:35Z",
+ "generated_at": "2026-10-04T12:52:50Z",
  "week": "2026-10-05 to 2026-10-11",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included.",
@@ -2056,7 +2056,7 @@
    "service": "masters",
    "arrive_campus": "17:45",
    "leave_campus": null,
-   "start": "15:55",
+   "start": "15:45",
    "end": "17:45",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
@@ -2065,25 +2065,19 @@
     {
      "code": "C3-19",
      "name": "Regina Tower, JVC",
-     "time": "15:55",
-     "action": "pick_up"
-    },
-    {
-     "code": "C3-04",
-     "name": "Dubai International Cricket Stadium",
-     "time": "16:10",
+     "time": "15:45",
      "action": "pick_up"
     },
     {
      "code": "C3-20",
      "name": "Trump International Golf Club, DAMAC Hills",
-     "time": "16:35",
+     "time": "16:25",
      "action": "pick_up"
     },
     {
      "code": "C3-15",
      "name": "Silicon Oasis Avenue Mall 2",
-     "time": "17:10",
+     "time": "17:05",
      "action": "pick_up"
     },
     {
@@ -2234,7 +2228,7 @@
    "arrive_campus": null,
    "leave_campus": "21:36",
    "start": "21:36",
-   "end": "23:21",
+   "end": "23:16",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -2248,25 +2242,19 @@
     {
      "code": "C3-15",
      "name": "Silicon Oasis Avenue Mall 2",
-     "time": "21:56",
+     "time": "22:01",
      "action": "set_down"
     },
     {
      "code": "C3-20",
      "name": "Trump International Golf Club, DAMAC Hills",
-     "time": "22:36",
-     "action": "set_down"
-    },
-    {
-     "code": "C3-04",
-     "name": "Dubai International Cricket Stadium",
-     "time": "23:06",
+     "time": "22:46",
      "action": "set_down"
     },
     {
      "code": "C3-19",
      "name": "Regina Tower, JVC",
-     "time": "23:21",
+     "time": "23:16",
      "action": "set_down"
     }
    ]
@@ -4003,27 +3991,21 @@
      "action": "pick_up"
     },
     {
-     "code": "C3-04",
-     "name": "Dubai International Cricket Stadium",
-     "time": "16:00",
-     "action": "pick_up"
-    },
-    {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "16:10",
+     "time": "16:05",
      "action": "pick_up"
     },
     {
      "code": "C3-20",
      "name": "Trump International Golf Club, DAMAC Hills",
-     "time": "16:40",
+     "time": "16:35",
      "action": "pick_up"
     },
     {
      "code": "C3-12",
      "name": "Arabian Ranches 3",
-     "time": "17:10",
+     "time": "17:05",
      "action": "pick_up"
     },
     {
@@ -4156,7 +4138,7 @@
    "arrive_campus": null,
    "leave_campus": "21:36",
    "start": "21:36",
-   "end": "23:26",
+   "end": "23:21",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -4170,31 +4152,25 @@
     {
      "code": "C3-12",
      "name": "Arabian Ranches 3",
-     "time": "22:06",
+     "time": "22:11",
      "action": "set_down"
     },
     {
      "code": "C3-20",
      "name": "Trump International Golf Club, DAMAC Hills",
-     "time": "22:26",
+     "time": "22:36",
      "action": "set_down"
     },
     {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "22:56",
-     "action": "set_down"
-    },
-    {
-     "code": "C3-04",
-     "name": "Dubai International Cricket Stadium",
-     "time": "23:11",
+     "time": "23:06",
      "action": "set_down"
     },
     {
      "code": "C3-19",
      "name": "Regina Tower, JVC",
-     "time": "23:26",
+     "time": "23:21",
      "action": "set_down"
     }
    ]
@@ -10212,7 +10188,7 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:45",
+   "start": "05:40",
    "end": "07:45",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
@@ -10221,25 +10197,19 @@
     {
      "code": "C3-19",
      "name": "Regina Tower, JVC",
-     "time": "05:45",
-     "action": "pick_up"
-    },
-    {
-     "code": "C3-04",
-     "name": "Dubai International Cricket Stadium",
-     "time": "05:55",
+     "time": "05:40",
      "action": "pick_up"
     },
     {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "06:05",
+     "time": "05:55",
      "action": "pick_up"
     },
     {
      "code": "C3-12",
      "name": "Arabian Ranches 3",
-     "time": "06:45",
+     "time": "06:40",
      "action": "pick_up"
     },
     {
@@ -10266,7 +10236,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "20:10",
+   "end": "20:15",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -10286,25 +10256,19 @@
     {
      "code": "C3-12",
      "name": "Arabian Ranches 3",
-     "time": "19:10",
+     "time": "19:15",
      "action": "set_down"
     },
     {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "19:50",
-     "action": "set_down"
-    },
-    {
-     "code": "C3-04",
-     "name": "Dubai International Cricket Stadium",
      "time": "20:00",
      "action": "set_down"
     },
     {
      "code": "C3-19",
      "name": "Regina Tower, JVC",
-     "time": "20:10",
+     "time": "20:15",
      "action": "set_down"
     }
    ]
