@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-04T14:46:44Z",
+ "generated_at": "2026-10-04T14:51:12Z",
  "week": "2026-10-05 to 2026-10-11",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included.",
@@ -2315,7 +2315,7 @@
    "service": "undergraduate",
    "arrive_campus": "10:45",
    "leave_campus": null,
-   "start": "08:00",
+   "start": "07:50",
    "end": "10:45",
    "vehicle": "M10",
    "vehicle_type": "Hiace",
@@ -2324,6 +2324,12 @@
     {
      "code": "C4-01",
      "name": "Al Mariah Mall, Hamdan St",
+     "time": "07:50",
+     "action": "pick_up"
+    },
+    {
+     "code": "C4-17",
+     "name": "Al Falah St / Ministry of Finance bus stop",
      "time": "08:00",
      "action": "pick_up"
     },
@@ -2475,8 +2481,8 @@
      "action": "set_down"
     },
     {
-     "code": "C4-01",
-     "name": "Al Mariah Mall, Hamdan St",
+     "code": "C4-17",
+     "name": "Al Falah St / Ministry of Finance bus stop",
      "time": "19:55",
      "action": "set_down"
     }
@@ -4166,18 +4172,12 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "04:40",
+   "start": "04:50",
    "end": "07:45",
    "vehicle": "M10",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
-    {
-     "code": "C4-01",
-     "name": "Al Mariah Mall, Hamdan St",
-     "time": "04:40",
-     "action": "pick_up"
-    },
     {
      "code": "C4-03",
      "name": "Al Wahda Mall",
@@ -6706,36 +6706,30 @@
     {
      "code": "C4-13",
      "name": "Gardens Metro Station",
-     "time": "18:45",
+     "time": "18:50",
      "action": "set_down"
     },
     {
      "code": "C4-16",
      "name": "Discovery Gardens Metro Station",
-     "time": "18:55",
+     "time": "19:00",
      "action": "set_down"
     },
     {
      "code": "C4-12",
      "name": "Al Furjan Centre (Pavilion)",
-     "time": "19:05",
+     "time": "19:10",
      "action": "set_down"
     },
     {
      "code": "C4-06",
      "name": "Al Forsan Village main gate",
-     "time": "20:40",
+     "time": "21:00",
      "action": "set_down"
     },
     {
      "code": "C4-05",
      "name": "Yasmina School back gate, Raha Gardens",
-     "time": "20:50",
-     "action": "set_down"
-    },
-    {
-     "code": "C4-01",
-     "name": "Al Mariah Mall, Hamdan St",
      "time": "21:10",
      "action": "set_down"
     }
@@ -8594,7 +8588,7 @@
    "arrive_campus": null,
    "leave_campus": "14:15",
    "start": "14:15",
-   "end": "16:55",
+   "end": "16:45",
    "vehicle": "M9",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -8608,31 +8602,25 @@
     {
      "code": "C4-13",
      "name": "Gardens Metro Station",
-     "time": "14:45",
+     "time": "14:50",
      "action": "set_down"
     },
     {
      "code": "C4-12",
      "name": "Al Furjan Centre (Pavilion)",
-     "time": "14:55",
+     "time": "15:00",
      "action": "set_down"
     },
     {
      "code": "C4-11",
      "name": "Al Furjan West Centre",
-     "time": "15:05",
+     "time": "15:10",
      "action": "set_down"
     },
     {
      "code": "C4-15",
      "name": "Deerfields Mall, Al Bahia",
-     "time": "16:20",
-     "action": "set_down"
-    },
-    {
-     "code": "C4-01",
-     "name": "Al Mariah Mall, Hamdan St",
-     "time": "16:55",
+     "time": "16:45",
      "action": "set_down"
     }
    ]
