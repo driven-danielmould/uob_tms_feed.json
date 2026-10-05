@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-05T16:22:26Z",
+ "generated_at": "2026-10-05T16:25:52Z",
  "week": "2026-10-05 to 2026-10-11",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -1352,8 +1352,27 @@
      "type": "public"
     },
     {
-     "code": "C4-16",
+     "code": "C4-19",
      "order": 16,
+     "name": "Masakin Al Furjan Gate 2, Al Furjan",
+     "lat": 25.0308,
+     "lng": 55.14978,
+     "google_place_id": null,
+     "where_exactly": "Masakin Al Furjan, Gate 2 (by Arcadia Global School) - exact gate pin to be confirmed from her map link.",
+     "pickup_lat": 25.0308,
+     "pickup_lng": 55.14978,
+     "pickup_where_exactly": "Masakin Al Furjan, Gate 2 (by Arcadia Global School) - exact gate pin to be confirmed from her map link.",
+     "setdown_lat": 25.0308,
+     "setdown_lng": 55.14978,
+     "setdown_where_exactly": "Masakin Al Furjan, Gate 2 (by Arcadia Global School) - exact gate pin to be confirmed from her map link.",
+     "audited": false,
+     "rider_instructions": "Wait outside Masakin Al Furjan Gate 2 on the road side. Be here 5 minutes before your time and look for the yellow M sign in the bus windscreen.",
+     "driver_instructions": "Kerbside at Masakin Al Furjan Gate 2 (by Arcadia Global School), between Al Furjan Pavilion and Discovery Gardens Metro. Do not enter the compound. Only served on booked days.",
+     "type": "rider_only"
+    },
+    {
+     "code": "C4-16",
+     "order": 17,
      "name": "Discovery Gardens Metro Station",
      "lat": 25.035204,
      "lng": 55.1453653,
@@ -1372,7 +1391,7 @@
     },
     {
      "code": "C4-13",
-     "order": 17,
+     "order": 18,
      "name": "Gardens Metro Station",
      "lat": 25.043761,
      "lng": 55.134832,
@@ -1391,7 +1410,7 @@
     },
     {
      "code": "C4-14",
-     "order": 18,
+     "order": 19,
      "name": "Dubai British School, Jumeirah Park",
      "lat": 25.043026,
      "lng": 55.15753,
@@ -3668,13 +3687,13 @@
    "seats": 12,
    "stops": [
     {
-     "code": "C4-12",
-     "name": "Al Furjan Centre (Pavilion)",
+     "code": "C4-19",
+     "name": "Masakin Al Furjan Gate 2, Al Furjan",
      "time": "10:15",
      "action": "pick_up",
-     "lat": 25.026111,
-     "lng": 55.153303,
-     "where_exactly": "Spinneys bus stop."
+     "lat": 25.0308,
+     "lng": 55.14978,
+     "where_exactly": "Masakin Al Furjan, Gate 2 (by Arcadia Global School) - exact gate pin to be confirmed from her map link."
     },
     {
      "code": "UOB",
@@ -3947,16 +3966,25 @@
     {
      "code": "C4-13",
      "name": "Gardens Metro Station",
-     "time": "18:50",
+     "time": "18:45",
      "action": "set_down",
      "lat": 25.043761,
      "lng": 55.134832,
      "where_exactly": "Exit 1 of the metro station, at the bus stop (Discovery Gardens side)."
     },
     {
+     "code": "C4-19",
+     "name": "Masakin Al Furjan Gate 2, Al Furjan",
+     "time": "19:00",
+     "action": "set_down",
+     "lat": 25.0308,
+     "lng": 55.14978,
+     "where_exactly": "Masakin Al Furjan, Gate 2 (by Arcadia Global School) - exact gate pin to be confirmed from her map link."
+    },
+    {
      "code": "C4-12",
      "name": "Al Furjan Centre (Pavilion)",
-     "time": "19:05",
+     "time": "19:10",
      "action": "set_down",
      "lat": 25.026111,
      "lng": 55.153303,
@@ -3965,7 +3993,7 @@
     {
      "code": "C4-10",
      "name": "Green Community West gate",
-     "time": "19:20",
+     "time": "19:25",
      "action": "set_down",
      "lat": 25.001812,
      "lng": 55.164068,
@@ -3974,7 +4002,7 @@
     {
      "code": "C4-08",
      "name": "Al Ghadeer community gate",
-     "time": "19:45",
+     "time": "19:50",
      "action": "set_down",
      "lat": 24.8443745,
      "lng": 55.0261656,
@@ -6878,13 +6906,13 @@
      "where_exactly": "Car park entrance."
     },
     {
-     "code": "C4-12",
-     "name": "Al Furjan Centre (Pavilion)",
-     "time": "11:55",
+     "code": "C4-19",
+     "name": "Masakin Al Furjan Gate 2, Al Furjan",
+     "time": "12:00",
      "action": "pick_up",
-     "lat": 25.026111,
-     "lng": 55.153303,
-     "where_exactly": "Spinneys bus stop."
+     "lat": 25.0308,
+     "lng": 55.14978,
+     "where_exactly": "Masakin Al Furjan, Gate 2 (by Arcadia Global School) - exact gate pin to be confirmed from her map link."
     },
     {
      "code": "C4-16",
@@ -7123,7 +7151,7 @@
    "arrive_campus": null,
    "leave_campus": "16:55",
    "start": "16:55",
-   "end": "20:01",
+   "end": "20:06",
    "vehicle": "M9",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -7156,18 +7184,18 @@
      "where_exactly": "Bus and taxi lay-by at the station entrance."
     },
     {
-     "code": "C4-12",
-     "name": "Al Furjan Centre (Pavilion)",
+     "code": "C4-19",
+     "name": "Masakin Al Furjan Gate 2, Al Furjan",
      "time": "17:41",
      "action": "set_down",
-     "lat": 25.026111,
-     "lng": 55.153303,
-     "where_exactly": "Spinneys bus stop."
+     "lat": 25.0308,
+     "lng": 55.14978,
+     "where_exactly": "Masakin Al Furjan, Gate 2 (by Arcadia Global School) - exact gate pin to be confirmed from her map link."
     },
     {
      "code": "C4-11",
      "name": "Al Furjan West Centre",
-     "time": "17:49",
+     "time": "17:54",
      "action": "set_down",
      "lat": 25.021958,
      "lng": 55.129796,
@@ -7176,7 +7204,7 @@
     {
      "code": "C4-07",
      "name": "Al Zeina, Al Raha Beach",
-     "time": "19:12",
+     "time": "19:17",
      "action": "set_down",
      "lat": 24.4555591,
      "lng": 54.6131136,
@@ -7185,7 +7213,7 @@
     {
      "code": "C4-04",
      "name": "Mubadala Tower, Sultan Bin Zayed St",
-     "time": "19:35",
+     "time": "19:40",
      "action": "set_down",
      "lat": 24.422482,
      "lng": 54.4544203,
@@ -7194,7 +7222,7 @@
     {
      "code": "C4-01",
      "name": "Al Mariah Mall, Hamdan St",
-     "time": "19:58",
+     "time": "20:03",
      "action": "set_down",
      "lat": 24.494038,
      "lng": 54.366864,
@@ -9977,7 +10005,7 @@
     {
      "code": "C4-04",
      "name": "Mubadala Tower, Sultan Bin Zayed St",
-     "time": "07:41",
+     "time": "07:38",
      "action": "pick_up",
      "lat": 24.422482,
      "lng": 54.4544203,
@@ -9986,7 +10014,7 @@
     {
      "code": "C4-06",
      "name": "Al Forsan Village main gate",
-     "time": "08:04",
+     "time": "08:03",
      "action": "pick_up",
      "lat": 24.4044,
      "lng": 54.5514,
@@ -9995,7 +10023,7 @@
     {
      "code": "C4-07",
      "name": "Al Zeina, Al Raha Beach",
-     "time": "08:22",
+     "time": "08:18",
      "action": "pick_up",
      "lat": 24.4555591,
      "lng": 54.6131136,
@@ -10004,7 +10032,7 @@
     {
      "code": "C4-08",
      "name": "Al Ghadeer community gate",
-     "time": "09:25",
+     "time": "09:18",
      "action": "pick_up",
      "lat": 24.8443745,
      "lng": 55.0261656,
@@ -10013,7 +10041,7 @@
     {
      "code": "C4-10",
      "name": "Green Community West gate",
-     "time": "09:48",
+     "time": "09:43",
      "action": "pick_up",
      "lat": 25.001812,
      "lng": 55.164068,
@@ -10022,16 +10050,25 @@
     {
      "code": "C4-12",
      "name": "Al Furjan Centre (Pavilion)",
-     "time": "10:01",
+     "time": "09:53",
      "action": "pick_up",
      "lat": 25.026111,
      "lng": 55.153303,
      "where_exactly": "Spinneys bus stop."
     },
     {
+     "code": "C4-19",
+     "name": "Masakin Al Furjan Gate 2, Al Furjan",
+     "time": "10:03",
+     "action": "pick_up",
+     "lat": 25.0308,
+     "lng": 55.14978,
+     "where_exactly": "Masakin Al Furjan, Gate 2 (by Arcadia Global School) - exact gate pin to be confirmed from her map link."
+    },
+    {
      "code": "C4-16",
      "name": "Discovery Gardens Metro Station",
-     "time": "10:09",
+     "time": "10:08",
      "action": "pick_up",
      "lat": 25.035204,
      "lng": 55.1453653,
@@ -10040,7 +10077,7 @@
     {
      "code": "C4-13",
      "name": "Gardens Metro Station",
-     "time": "10:17",
+     "time": "10:18",
      "action": "pick_up",
      "lat": 25.043761,
      "lng": 55.134832,
@@ -10339,13 +10376,13 @@
      "where_exactly": "Bus and taxi lay-by at the station entrance."
     },
     {
-     "code": "C4-12",
-     "name": "Al Furjan Centre (Pavilion)",
+     "code": "C4-19",
+     "name": "Masakin Al Furjan Gate 2, Al Furjan",
      "time": "19:10",
      "action": "set_down",
-     "lat": 25.026111,
-     "lng": 55.153303,
-     "where_exactly": "Spinneys bus stop."
+     "lat": 25.0308,
+     "lng": 55.14978,
+     "where_exactly": "Masakin Al Furjan, Gate 2 (by Arcadia Global School) - exact gate pin to be confirmed from her map link."
     },
     {
      "code": "C4-06",
@@ -12956,9 +12993,18 @@
      "where_exactly": "Spinneys bus stop."
     },
     {
+     "code": "C4-19",
+     "name": "Masakin Al Furjan Gate 2, Al Furjan",
+     "time": "08:25",
+     "action": "pick_up",
+     "lat": 25.0308,
+     "lng": 55.14978,
+     "where_exactly": "Masakin Al Furjan, Gate 2 (by Arcadia Global School) - exact gate pin to be confirmed from her map link."
+    },
+    {
      "code": "C4-13",
      "name": "Gardens Metro Station",
-     "time": "08:35",
+     "time": "09:10",
      "action": "pick_up",
      "lat": 25.043761,
      "lng": 55.134832,
@@ -13047,7 +13093,7 @@
    "arrive_campus": null,
    "leave_campus": "14:15",
    "start": "14:15",
-   "end": "16:45",
+   "end": "16:50",
    "vehicle": "M9",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -13071,9 +13117,18 @@
      "where_exactly": "Exit 1 of the metro station, at the bus stop (Discovery Gardens side)."
     },
     {
+     "code": "C4-19",
+     "name": "Masakin Al Furjan Gate 2, Al Furjan",
+     "time": "15:05",
+     "action": "set_down",
+     "lat": 25.0308,
+     "lng": 55.14978,
+     "where_exactly": "Masakin Al Furjan, Gate 2 (by Arcadia Global School) - exact gate pin to be confirmed from her map link."
+    },
+    {
      "code": "C4-12",
      "name": "Al Furjan Centre (Pavilion)",
-     "time": "15:00",
+     "time": "15:15",
      "action": "set_down",
      "lat": 25.026111,
      "lng": 55.153303,
@@ -13082,7 +13137,7 @@
     {
      "code": "C4-11",
      "name": "Al Furjan West Centre",
-     "time": "15:10",
+     "time": "15:25",
      "action": "set_down",
      "lat": 25.021958,
      "lng": 55.129796,
@@ -13091,7 +13146,7 @@
     {
      "code": "C4-15",
      "name": "Deerfields Mall, Al Bahia",
-     "time": "16:45",
+     "time": "16:50",
      "action": "set_down",
      "lat": 24.523305,
      "lng": 54.671536,
