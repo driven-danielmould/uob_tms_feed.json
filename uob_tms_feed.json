@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-05T10:06:45Z",
+ "generated_at": "2026-10-05T13:04:11Z",
  "week": "2026-10-05 to 2026-10-11",
- "service": "DrivenBus · University of Birmingham Dubai",
+ "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
  "timetable_slots": {
   "undergraduate_arrivals": [
@@ -18,7 +18,7 @@
    "18:15",
    "Friday 12:15 only"
   ],
-  "masters_departure": "21:36"
+  "masters_departure": "21:15 (21:36 on Route 5 Tue/Thu, Route 3 Mon/Tue)"
  },
  "campus": {
   "code": "UOB",
@@ -32,7 +32,7 @@
   {
    "code": "C1",
    "name": "Route 1",
-   "districts": "Sharjah · Al Nahda · Al Qusais · Mirdif",
+   "districts": "Sharjah \u00b7 Al Nahda \u00b7 Al Qusais \u00b7 Mirdif",
    "color": "#2a78d6",
    "stops": [
     {
@@ -304,7 +304,7 @@
   {
    "code": "C2",
    "name": "Route 2",
-   "districts": "Palm · Marina · JLT · Barsha Heights · MOE",
+   "districts": "Palm \u00b7 Marina \u00b7 JLT \u00b7 Barsha Heights \u00b7 MOE",
    "color": "#eb6834",
    "stops": [
     {
@@ -444,7 +444,7 @@
   {
    "code": "C3",
    "name": "Route 3",
-   "districts": "JVC · Sports City · Motor City · Town Square · Silicon Oasis",
+   "districts": "JVC \u00b7 Sports City \u00b7 Motor City \u00b7 Town Square \u00b7 Silicon Oasis",
    "color": "#1bafa0",
    "stops": [
     {
@@ -692,7 +692,7 @@
   {
    "code": "C4",
    "name": "Route 4",
-   "districts": "Abu Dhabi · Al Ghadeer · DIP · Al Furjan · Discovery Gardens",
+   "districts": "Abu Dhabi \u00b7 Al Ghadeer \u00b7 DIP \u00b7 Al Furjan \u00b7 Discovery Gardens",
    "color": "#d4537e",
    "stops": [
     {
@@ -916,7 +916,7 @@
   {
    "code": "C5",
    "name": "Route 5",
-   "districts": "Deira · Bur Dubai · SZR · Business Bay · Meydan",
+   "districts": "Deira \u00b7 Bur Dubai \u00b7 SZR \u00b7 Business Bay \u00b7 Meydan",
    "color": "#2e8b3a",
    "stops": [
     {
@@ -4588,7 +4588,7 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:40",
+   "start": "05:45",
    "end": "07:45",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
@@ -4597,7 +4597,7 @@
     {
      "code": "C3-02",
      "name": "Circle Mall, JVC",
-     "time": "05:40",
+     "time": "05:45",
      "action": "pick_up"
     },
     {
@@ -4607,21 +4607,27 @@
      "action": "pick_up"
     },
     {
+     "code": "C3-05",
+     "name": "City Centre Me'aisem",
+     "time": "06:10",
+     "action": "pick_up"
+    },
+    {
      "code": "C3-11",
      "name": "Living Legends",
-     "time": "06:25",
+     "time": "06:50",
      "action": "pick_up"
     },
     {
      "code": "C3-14",
      "name": "Skycourts Towers",
-     "time": "06:55",
+     "time": "07:15",
      "action": "pick_up"
     },
     {
      "code": "C3-16",
      "name": "Souq Extra, Silicon Oasis",
-     "time": "07:20",
+     "time": "07:30",
      "action": "pick_up"
     },
     {
@@ -4762,36 +4768,42 @@
     {
      "code": "C3-16",
      "name": "Souq Extra, Silicon Oasis",
-     "time": "14:30",
+     "time": "14:25",
      "action": "set_down"
     },
     {
      "code": "C3-15",
      "name": "Silicon Oasis Avenue Mall 2",
-     "time": "14:45",
+     "time": "14:40",
      "action": "set_down"
     },
     {
      "code": "C3-11",
      "name": "Living Legends",
-     "time": "15:10",
+     "time": "15:00",
      "action": "set_down"
     },
     {
      "code": "C3-09",
      "name": "Spinneys, Town Square",
-     "time": "15:35",
+     "time": "15:20",
      "action": "set_down"
     },
     {
      "code": "C3-21",
      "name": "DAMAC Hills Mall, DAMAC Hills",
-     "time": "15:50",
+     "time": "15:35",
      "action": "set_down"
     },
     {
      "code": "C3-06",
      "name": "Elan 1, Tilal Al Ghaf",
+     "time": "15:50",
+     "action": "set_down"
+    },
+    {
+     "code": "C3-05",
+     "name": "City Centre Me'aisem",
      "time": "16:05",
      "action": "set_down"
     }
