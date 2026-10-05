@@ -18,10 +18,12 @@ header .sub{margin:4px 0 0;color:var(--mute);font-size:16px}
 .days button.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
 main{padding:12px 12px 60px;max-width:640px;margin:0 auto}
 .off{padding:40px 10px;text-align:center;font-size:24px;font-weight:700;color:var(--mute)}
-.run{margin:18px 0 28px;border-top:6px solid var(--out);padding-top:10px}
-.run.R{border-top-color:var(--ret)}
-.run h2{margin:0;font-size:24px}
-.run h2 small{display:block;font-size:17px;color:var(--mute);font-weight:500;margin-top:2px}
+.run{margin:0 0 34px}
+.run.R .ban{background:var(--ret)}
+.ban{margin:0 -12px 14px;padding:18px 16px;background:var(--out);color:#fff;border-top:8px solid rgba(0,0,0,.35);border-bottom:8px solid rgba(0,0,0,.35)}
+.ban .r{font-size:44px;font-weight:900;letter-spacing:1px;line-height:1}
+.ban .d{font-size:22px;font-weight:800;margin-top:4px}
+.ban .s{font-size:17px;opacity:.9;margin-top:4px}
 .stop{background:var(--card);border-radius:18px;padding:16px 16px 14px;margin:14px 0;border:2px solid var(--line)}
 .stop .k{font-size:34px;font-weight:900;letter-spacing:.5px}
 .stop.U .k{color:var(--uob)}
@@ -51,7 +53,7 @@ function render(){
  else{
   h+=`<p style="margin:6px 4px 0;font-size:18px;color:var(--mute)">${esc(d.label)} · sign on <b style="color:var(--ink)">${d.sign_on}</b> · sign off <b style="color:var(--ink)">${d.sign_off}</b></p>`;
   d.runs.forEach((r,i)=>{
-   h+=`<section class="run ${r.dir}"><h2>RUN ${i+1} · ${r.dir==="O"?"TO UoB":"FROM UoB"} · BUS ${esc(r.bus)}<small>${r.dir==="O"?"Arrive UoB "+r.target:"Leave UoB "+r.target} · ${r.n} passenger${r.n===1?"":"s"}</small></h2>`;
+   h+=`<section class="run ${r.dir}"><div class="ban"><div class="r">RUN ${i+1}</div><div class="d">${r.dir==="O"?"TO UoB · arrive "+r.target:"FROM UoB · leave "+r.target} · BUS ${esc(r.bus)}</div><div class="s">${r.stops.length-1} stops · ${r.n} passenger${r.n===1?"":"s"}</div></div>`;
    r.stops.forEach((s,j)=>{
     h+=`<div class="stop ${s.uob?"U":""}"><div class="k">${s.uob?"UoB":"STOP "+(j+1)}</div><div class="nm">${esc(s.name)}</div><div class="tm">${s.time}</div><div class="meta">${s.pax?esc(s.pax)+" · ":""}${esc(s.instr||"")}</div><div class="btns"><a class="w" href="${s.waze}" target="_blank" rel="noopener">WAZE</a><a class="g" href="${s.gmaps}" target="_blank" rel="noopener">GOOGLE MAPS</a></div></div>`});
    h+=`</section>`});
