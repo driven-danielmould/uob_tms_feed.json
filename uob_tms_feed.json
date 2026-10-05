@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-05T16:17:49Z",
+ "generated_at": "2026-10-05T16:22:26Z",
  "week": "2026-10-05 to 2026-10-11",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -8281,7 +8281,7 @@
    "arrive_campus": null,
    "leave_campus": "14:15",
    "start": "14:15",
-   "end": "16:25",
+   "end": "16:10",
    "vehicle": "M1",
    "vehicle_type": "Rosa",
    "seats": 34,
@@ -8298,25 +8298,16 @@
     {
      "code": "C1-13",
      "name": "Nasayem Avenue, Mirdif Hills",
-     "time": "14:35",
+     "time": "14:40",
      "action": "set_down",
      "lat": 25.221963,
      "lng": 55.440775,
      "where_exactly": "RTA bus stop pole (F40 / F03) on 78th Street, Mirdif Hills Avenue."
     },
     {
-     "code": "C1-12",
-     "name": "Uptown Mirdif",
-     "time": "14:50",
-     "action": "set_down",
-     "lat": 25.224246,
-     "lng": 55.423615,
-     "where_exactly": "Kerbside outside Exotic Fin Store, Uptown Mirdif, corner of Algeria St."
-    },
-    {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "15:10",
+     "time": "15:00",
      "action": "set_down",
      "lat": 25.269845,
      "lng": 55.37554,
@@ -8325,7 +8316,7 @@
     {
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
-     "time": "15:20",
+     "time": "15:10",
      "action": "set_down",
      "lat": 25.288631,
      "lng": 55.364044,
@@ -8334,7 +8325,7 @@
     {
      "code": "C1-17",
      "name": "Bahwan Tower, Al Nahda 1",
-     "time": "15:25",
+     "time": "15:15",
      "action": "set_down",
      "lat": 25.287666,
      "lng": 55.361619,
@@ -8343,7 +8334,7 @@
     {
      "code": "C1-07",
      "name": "Masafi 1, Al Nahda 2",
-     "time": "15:35",
+     "time": "15:25",
      "action": "set_down",
      "lat": 25.289367,
      "lng": 55.372375,
@@ -8352,7 +8343,7 @@
     {
      "code": "C1-16",
      "name": "LuLu Hypermarket Al Nahda, Sharjah",
-     "time": "15:45",
+     "time": "15:35",
      "action": "set_down",
      "lat": 25.303505,
      "lng": 55.375491,
@@ -8361,7 +8352,7 @@
     {
      "code": "C1-05",
      "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "15:55",
+     "time": "15:45",
      "action": "set_down",
      "lat": 25.3052398,
      "lng": 55.3633908,
@@ -8370,7 +8361,7 @@
     {
      "code": "C1-18",
      "name": "Shamseen Bakeries Building, Al Majaz",
-     "time": "16:10",
+     "time": "16:00",
      "action": "set_down",
      "lat": 25.33253,
      "lng": 55.37588,
@@ -8379,7 +8370,7 @@
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "16:25",
+     "time": "16:10",
      "action": "set_down",
      "lat": 25.337533,
      "lng": 55.39061,
@@ -11104,7 +11095,7 @@
     {
      "code": "C1-10",
      "name": "Dubai Festival City Mall",
-     "time": "06:05",
+     "time": "06:10",
      "action": "pick_up",
      "lat": 25.222621,
      "lng": 55.35461,
@@ -11122,7 +11113,7 @@
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "06:45",
+     "time": "06:50",
      "action": "pick_up",
      "lat": 25.224246,
      "lng": 55.423615,
