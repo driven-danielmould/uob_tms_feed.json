@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-05T06:23:41Z",
+ "generated_at": "2026-10-05T06:24:59Z",
  "week": "2026-10-05 to 2026-10-11",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included.",
@@ -556,20 +556,8 @@
      "type": "rider_only"
     },
     {
-     "code": "C3-20",
-     "order": 11,
-     "name": "Trump International Golf Club, DAMAC Hills",
-     "lat": 25.0245454,
-     "lng": 55.2540599,
-     "google_place_id": "ChIJx3LasdhxXz4R2PJDCcSpqkI",
-     "where_exactly": "Clubhouse drop-off, DAMAC Hills.",
-     "rider_instructions": "Wait at the clubhouse drop-off of Trump International Golf Club, DAMAC Hills. Be here 5 minutes before your time and look for the yellow M sign in the bus windscreen.",
-     "driver_instructions": "Clubhouse drop-off loop at Trump International Golf Club, DAMAC Hills; pull in, do not park. Only served on booked days.",
-     "type": "rider_only"
-    },
-    {
      "code": "C3-07",
-     "order": 12,
+     "order": 11,
      "name": "First Avenue Mall, Motor City",
      "lat": 25.0471088,
      "lng": 55.2432804,
@@ -581,7 +569,7 @@
     },
     {
      "code": "C3-08",
-     "order": 13,
+     "order": 12,
      "name": "Serena, Bella Casa",
      "lat": 25.0389716,
      "lng": 55.2890906,
@@ -593,7 +581,7 @@
     },
     {
      "code": "C3-09",
-     "order": 14,
+     "order": 13,
      "name": "Spinneys, Town Square",
      "lat": 25.0099047,
      "lng": 55.2902856,
@@ -605,7 +593,7 @@
     },
     {
      "code": "C3-10",
-     "order": 15,
+     "order": 14,
      "name": "Carrefour, Damac Hills 2",
      "lat": 24.9980356,
      "lng": 55.3832291,
@@ -617,7 +605,7 @@
     },
     {
      "code": "C3-11",
-     "order": 16,
+     "order": 15,
      "name": "Living Legends",
      "lat": 25.0910153,
      "lng": 55.3026039,
@@ -629,7 +617,7 @@
     },
     {
      "code": "C3-12",
-     "order": 17,
+     "order": 16,
      "name": "Arabian Ranches 3",
      "lat": 25.0657844,
      "lng": 55.3214386,
@@ -641,7 +629,7 @@
     },
     {
      "code": "C3-13",
-     "order": 18,
+     "order": 17,
      "name": "Villanova, La Rosa",
      "lat": 25.0766,
      "lng": 55.3609,
@@ -653,7 +641,7 @@
     },
     {
      "code": "C3-14",
-     "order": 19,
+     "order": 18,
      "name": "Skycourts Towers",
      "lat": 25.0898954,
      "lng": 55.3865139,
@@ -665,7 +653,7 @@
     },
     {
      "code": "C3-15",
-     "order": 20,
+     "order": 19,
      "name": "Silicon Oasis Avenue Mall 2",
      "lat": 25.111805,
      "lng": 55.375916,
@@ -677,7 +665,7 @@
     },
     {
      "code": "C3-16",
-     "order": 21,
+     "order": 20,
      "name": "Souq Extra, Silicon Oasis",
      "lat": 25.1192507,
      "lng": 55.3955344,
@@ -2050,7 +2038,7 @@
    "service": "masters",
    "arrive_campus": "17:45",
    "leave_campus": null,
-   "start": "15:45",
+   "start": "15:50",
    "end": "17:45",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
@@ -2059,13 +2047,13 @@
     {
      "code": "C3-19",
      "name": "Regina Tower, JVC",
-     "time": "15:45",
+     "time": "15:50",
      "action": "pick_up"
     },
     {
-     "code": "C3-20",
-     "name": "Trump International Golf Club, DAMAC Hills",
-     "time": "16:25",
+     "code": "C3-17",
+     "name": "Eagle Heights, Dubai Sports City",
+     "time": "16:10",
      "action": "pick_up"
     },
     {
@@ -2222,7 +2210,7 @@
    "arrive_campus": null,
    "leave_campus": "21:36",
    "start": "21:36",
-   "end": "23:16",
+   "end": "23:21",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -2236,19 +2224,19 @@
     {
      "code": "C3-15",
      "name": "Silicon Oasis Avenue Mall 2",
-     "time": "22:01",
+     "time": "22:06",
      "action": "set_down"
     },
     {
-     "code": "C3-20",
-     "name": "Trump International Golf Club, DAMAC Hills",
-     "time": "22:46",
+     "code": "C3-17",
+     "name": "Eagle Heights, Dubai Sports City",
+     "time": "22:56",
      "action": "set_down"
     },
     {
      "code": "C3-19",
      "name": "Regina Tower, JVC",
-     "time": "23:16",
+     "time": "23:21",
      "action": "set_down"
     }
    ]
@@ -4019,7 +4007,7 @@
    "service": "masters",
    "arrive_campus": "17:45",
    "leave_campus": null,
-   "start": "15:50",
+   "start": "15:45",
    "end": "17:45",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
@@ -4028,25 +4016,25 @@
     {
      "code": "C3-19",
      "name": "Regina Tower, JVC",
-     "time": "15:50",
+     "time": "15:45",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-17",
+     "name": "Eagle Heights, Dubai Sports City",
+     "time": "16:00",
      "action": "pick_up"
     },
     {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "16:05",
-     "action": "pick_up"
-    },
-    {
-     "code": "C3-20",
-     "name": "Trump International Golf Club, DAMAC Hills",
-     "time": "16:35",
+     "time": "16:15",
      "action": "pick_up"
     },
     {
      "code": "C3-12",
      "name": "Arabian Ranches 3",
-     "time": "17:05",
+     "time": "17:00",
      "action": "pick_up"
     },
     {
@@ -4197,14 +4185,14 @@
      "action": "set_down"
     },
     {
-     "code": "C3-20",
-     "name": "Trump International Golf Club, DAMAC Hills",
-     "time": "22:36",
+     "code": "C3-05",
+     "name": "City Centre Me'aisem",
+     "time": "22:51",
      "action": "set_down"
     },
     {
-     "code": "C3-05",
-     "name": "City Centre Me'aisem",
+     "code": "C3-17",
+     "name": "Eagle Heights, Dubai Sports City",
      "time": "23:06",
      "action": "set_down"
     },
@@ -6237,34 +6225,34 @@
    "service": "masters",
    "arrive_campus": "17:45",
    "leave_campus": null,
-   "start": "15:55",
+   "start": "15:45",
    "end": "17:45",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
     {
-     "code": "C3-05",
-     "name": "City Centre Me'aisem",
-     "time": "15:55",
+     "code": "C3-17",
+     "name": "Eagle Heights, Dubai Sports City",
+     "time": "15:45",
      "action": "pick_up"
     },
     {
-     "code": "C3-20",
-     "name": "Trump International Golf Club, DAMAC Hills",
-     "time": "16:25",
+     "code": "C3-05",
+     "name": "City Centre Me'aisem",
+     "time": "16:00",
      "action": "pick_up"
     },
     {
      "code": "C3-12",
      "name": "Arabian Ranches 3",
-     "time": "16:55",
+     "time": "16:45",
      "action": "pick_up"
     },
     {
      "code": "C3-15",
      "name": "Silicon Oasis Avenue Mall 2",
-     "time": "17:15",
+     "time": "17:10",
      "action": "pick_up"
     },
     {
@@ -6439,14 +6427,14 @@
      "action": "set_down"
     },
     {
-     "code": "C3-20",
-     "name": "Trump International Golf Club, DAMAC Hills",
-     "time": "22:25",
+     "code": "C3-05",
+     "name": "City Centre Me'aisem",
+     "time": "22:45",
      "action": "set_down"
     },
     {
-     "code": "C3-05",
-     "name": "City Centre Me'aisem",
+     "code": "C3-17",
+     "name": "Eagle Heights, Dubai Sports City",
      "time": "23:00",
      "action": "set_down"
     }
