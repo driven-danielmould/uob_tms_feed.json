@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-05T13:10:06Z",
+ "generated_at": "2026-10-05T13:15:17Z",
  "week": "2026-10-05 to 2026-10-11",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -2875,37 +2875,31 @@
     {
      "code": "C4-13",
      "name": "Gardens Metro Station",
-     "time": "18:45",
+     "time": "18:50",
      "action": "set_down"
     },
     {
      "code": "C4-12",
      "name": "Al Furjan Centre (Pavilion)",
-     "time": "19:00",
+     "time": "19:05",
      "action": "set_down"
     },
     {
      "code": "C4-10",
      "name": "Green Community West gate",
-     "time": "19:15",
+     "time": "19:20",
      "action": "set_down"
     },
     {
      "code": "C4-08",
      "name": "Al Ghadeer community gate",
-     "time": "19:40",
+     "time": "19:45",
      "action": "set_down"
     },
     {
      "code": "C4-15",
      "name": "Deerfields Mall, Al Bahia",
-     "time": "20:30",
-     "action": "set_down"
-    },
-    {
-     "code": "C4-05",
-     "name": "Yasmina School back gate, Raha Gardens",
-     "time": "20:50",
+     "time": "20:40",
      "action": "set_down"
     },
     {
@@ -5024,7 +5018,7 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "04:50",
+   "start": "04:55",
    "end": "07:45",
    "vehicle": "M10",
    "vehicle_type": "Hiace",
@@ -5033,25 +5027,19 @@
     {
      "code": "C4-03",
      "name": "Al Wahda Mall",
-     "time": "04:50",
-     "action": "pick_up"
-    },
-    {
-     "code": "C4-05",
-     "name": "Yasmina School back gate, Raha Gardens",
-     "time": "05:10",
+     "time": "04:55",
      "action": "pick_up"
     },
     {
      "code": "C4-18",
      "name": "Super Nanny Nursery, Khalifa City, Abu Dhabi",
-     "time": "05:20",
+     "time": "05:15",
      "action": "pick_up"
     },
     {
      "code": "C4-06",
      "name": "Al Forsan Village main gate",
-     "time": "05:30",
+     "time": "05:25",
      "action": "pick_up"
     },
     {
@@ -5388,7 +5376,7 @@
    "arrive_campus": null,
    "leave_campus": "16:55",
    "start": "16:55",
-   "end": "20:14",
+   "end": "20:01",
    "vehicle": "M9",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -5430,21 +5418,15 @@
      "action": "set_down"
     },
     {
-     "code": "C4-05",
-     "name": "Yasmina School back gate, Raha Gardens",
-     "time": "19:30",
-     "action": "set_down"
-    },
-    {
      "code": "C4-04",
      "name": "Mubadala Tower, Sultan Bin Zayed St",
-     "time": "19:48",
+     "time": "19:35",
      "action": "set_down"
     },
     {
      "code": "C4-01",
      "name": "Al Mariah Mall, Hamdan St",
-     "time": "20:11",
+     "time": "19:58",
      "action": "set_down"
     }
    ]
@@ -7525,7 +7507,7 @@
    "service": "undergraduate",
    "arrive_campus": "10:45",
    "leave_campus": null,
-   "start": "07:15",
+   "start": "07:18",
    "end": "10:45",
    "vehicle": "M8",
    "vehicle_type": "Rosa",
@@ -7534,19 +7516,13 @@
     {
      "code": "C4-01",
      "name": "Al Mariah Mall, Hamdan St",
-     "time": "07:15",
+     "time": "07:18",
      "action": "pick_up"
     },
     {
      "code": "C4-04",
      "name": "Mubadala Tower, Sultan Bin Zayed St",
-     "time": "07:38",
-     "action": "pick_up"
-    },
-    {
-     "code": "C4-05",
-     "name": "Yasmina School back gate, Raha Gardens",
-     "time": "07:56",
+     "time": "07:41",
      "action": "pick_up"
     },
     {
@@ -7791,7 +7767,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "21:10",
+   "end": "21:05",
    "vehicle": "M10",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -7823,13 +7799,7 @@
     {
      "code": "C4-06",
      "name": "Al Forsan Village main gate",
-     "time": "21:00",
-     "action": "set_down"
-    },
-    {
-     "code": "C4-05",
-     "name": "Yasmina School back gate, Raha Gardens",
-     "time": "21:10",
+     "time": "21:05",
      "action": "set_down"
     }
    ]
