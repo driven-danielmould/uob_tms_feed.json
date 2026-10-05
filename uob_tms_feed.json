@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-05T15:52:57Z",
+ "generated_at": "2026-10-05T16:00:43Z",
  "week": "2026-10-05 to 2026-10-11",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -1272,18 +1272,12 @@
    "service": "undergraduate",
    "arrive_campus": "12:45",
    "leave_campus": null,
-   "start": "10:50",
+   "start": "11:05",
    "end": "12:45",
    "vehicle": "M1",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
-    {
-     "code": "C1-02",
-     "name": "City Centre Al Zahia",
-     "time": "10:50",
-     "action": "pick_up"
-    },
     {
      "code": "C1-03",
      "name": "Lulu Hypermarket Maysaloon",
@@ -1589,7 +1583,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "20:42",
+   "end": "20:40",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -1609,49 +1603,43 @@
     {
      "code": "C1-15",
      "name": "Wasl Village, Central Parking",
-     "time": "19:03",
+     "time": "19:05",
      "action": "set_down"
     },
     {
      "code": "C1-11",
      "name": "Madina Mall",
-     "time": "19:16",
+     "time": "19:20",
      "action": "set_down"
     },
     {
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
-     "time": "19:34",
+     "time": "19:40",
      "action": "set_down"
     },
     {
      "code": "C1-16",
      "name": "LuLu Hypermarket Al Nahda, Sharjah",
-     "time": "19:47",
+     "time": "19:55",
      "action": "set_down"
     },
     {
      "code": "C1-21",
      "name": "Sahab Al Emarat, Al Mamzar, Sharjah",
-     "time": "20:05",
+     "time": "20:15",
      "action": "set_down"
     },
     {
      "code": "C1-20",
      "name": "Al Buhaira Police Station bus stop, Al Majaz 3",
-     "time": "20:13",
+     "time": "20:25",
      "action": "set_down"
     },
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "20:26",
-     "action": "set_down"
-    },
-    {
-     "code": "C1-02",
-     "name": "City Centre Al Zahia",
-     "time": "20:39",
+     "time": "20:40",
      "action": "set_down"
     }
    ]
@@ -3638,18 +3626,12 @@
    "service": "undergraduate",
    "arrive_campus": "12:45",
    "leave_campus": null,
-   "start": "10:46",
+   "start": "10:59",
    "end": "12:45",
    "vehicle": "M1",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
-    {
-     "code": "C1-02",
-     "name": "City Centre Al Zahia",
-     "time": "10:46",
-     "action": "pick_up"
-    },
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
@@ -3926,7 +3908,7 @@
    "arrive_campus": null,
    "leave_campus": "16:55",
    "start": "16:55",
-   "end": "20:23",
+   "end": "20:10",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "seats": 34,
@@ -4013,12 +3995,6 @@
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
      "time": "20:07",
-     "action": "set_down"
-    },
-    {
-     "code": "C1-02",
-     "name": "City Centre Al Zahia",
-     "time": "20:20",
      "action": "set_down"
     }
    ]
@@ -6133,18 +6109,12 @@
    "service": "undergraduate",
    "arrive_campus": "10:45",
    "leave_campus": null,
-   "start": "08:23",
+   "start": "08:41",
    "end": "10:45",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
-    {
-     "code": "C1-02",
-     "name": "City Centre Al Zahia",
-     "time": "08:23",
-     "action": "pick_up"
-    },
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
@@ -6154,25 +6124,25 @@
     {
      "code": "C1-20",
      "name": "Al Buhaira Police Station bus stop, Al Majaz 3",
-     "time": "08:54",
+     "time": "08:56",
      "action": "pick_up"
     },
     {
      "code": "C1-16",
      "name": "LuLu Hypermarket Al Nahda, Sharjah",
-     "time": "09:07",
+     "time": "09:06",
      "action": "pick_up"
     },
     {
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
-     "time": "09:20",
+     "time": "09:21",
      "action": "pick_up"
     },
     {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "09:33",
+     "time": "09:36",
      "action": "pick_up"
     },
     {
@@ -6184,13 +6154,13 @@
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "10:09",
+     "time": "10:11",
      "action": "pick_up"
     },
     {
      "code": "C1-13",
      "name": "Nasayem Avenue, Mirdif Hills",
-     "time": "10:22",
+     "time": "10:21",
      "action": "pick_up"
     },
     {
@@ -8402,18 +8372,12 @@
    "service": "undergraduate",
    "arrive_campus": "10:45",
    "leave_campus": null,
-   "start": "08:35",
+   "start": "08:55",
    "end": "10:45",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
-    {
-     "code": "C1-02",
-     "name": "City Centre Al Zahia",
-     "time": "08:35",
-     "action": "pick_up"
-    },
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
@@ -8515,7 +8479,7 @@
    "arrive_campus": null,
    "leave_campus": "14:15",
    "start": "14:15",
-   "end": "16:20",
+   "end": "16:10",
    "vehicle": "M1",
    "vehicle_type": "Rosa",
    "seats": 34,
@@ -8529,55 +8493,49 @@
     {
      "code": "C1-13",
      "name": "Nasayem Avenue, Mirdif Hills",
-     "time": "14:35",
+     "time": "14:40",
      "action": "set_down"
     },
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "14:50",
+     "time": "14:55",
      "action": "set_down"
     },
     {
      "code": "C1-11",
      "name": "Madina Mall",
-     "time": "15:05",
+     "time": "15:10",
      "action": "set_down"
     },
     {
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
-     "time": "15:20",
+     "time": "15:25",
      "action": "set_down"
     },
     {
      "code": "C1-07",
      "name": "Masafi 1, Al Nahda 2",
-     "time": "15:30",
+     "time": "15:35",
      "action": "set_down"
     },
     {
      "code": "C1-16",
      "name": "LuLu Hypermarket Al Nahda, Sharjah",
-     "time": "15:40",
+     "time": "15:45",
      "action": "set_down"
     },
     {
      "code": "C1-20",
      "name": "Al Buhaira Police Station bus stop, Al Majaz 3",
-     "time": "15:50",
+     "time": "15:55",
      "action": "set_down"
     },
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "16:05",
-     "action": "set_down"
-    },
-    {
-     "code": "C1-02",
-     "name": "City Centre Al Zahia",
-     "time": "16:20",
+     "time": "16:10",
      "action": "set_down"
     }
    ]
