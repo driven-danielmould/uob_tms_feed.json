@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-05T16:40:51Z",
+ "generated_at": "2026-10-05T17:14:57Z",
  "week": "2026-10-05 to 2026-10-11",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -3957,7 +3957,7 @@
     {
      "code": "C4-13",
      "name": "Gardens Metro Station",
-     "time": "18:45",
+     "time": "18:50",
      "action": "set_down",
      "lat": 25.043761,
      "lng": 55.134832,
@@ -3966,7 +3966,7 @@
     {
      "code": "C4-19",
      "name": "Masakin Al Furjan Gate 2, Al Furjan",
-     "time": "19:00",
+     "time": "19:05",
      "action": "set_down",
      "lat": 25.0308,
      "lng": 55.14978,
@@ -3975,7 +3975,7 @@
     {
      "code": "C4-12",
      "name": "Al Furjan Centre (Pavilion)",
-     "time": "19:10",
+     "time": "19:15",
      "action": "set_down",
      "lat": 25.026111,
      "lng": 55.153303,
@@ -3984,7 +3984,7 @@
     {
      "code": "C4-10",
      "name": "Green Community West gate",
-     "time": "19:25",
+     "time": "19:30",
      "action": "set_down",
      "lat": 25.001812,
      "lng": 55.164068,
@@ -3993,20 +3993,11 @@
     {
      "code": "C4-08",
      "name": "Al Ghadeer community gate",
-     "time": "19:50",
+     "time": "19:55",
      "action": "set_down",
      "lat": 24.8443745,
      "lng": 55.0261656,
      "where_exactly": "Main gate on Al Fayah Rd."
-    },
-    {
-     "code": "C4-15",
-     "name": "Deerfields Mall, Al Bahia",
-     "time": "20:40",
-     "action": "set_down",
-     "lat": 24.523305,
-     "lng": 54.671536,
-     "where_exactly": "Outside the main entrance of Deerfields Mall."
     },
     {
      "code": "C4-01",
@@ -6783,7 +6774,7 @@
    "service": "undergraduate",
    "arrive_campus": "10:45",
    "leave_campus": null,
-   "start": "07:39",
+   "start": "07:52",
    "end": "10:45",
    "vehicle": "M9",
    "vehicle_type": "Hiace",
@@ -6792,7 +6783,7 @@
     {
      "code": "C4-01",
      "name": "Al Mariah Mall, Hamdan St",
-     "time": "07:39",
+     "time": "07:52",
      "action": "pick_up",
      "lat": 24.494038,
      "lng": 54.366864,
@@ -6801,7 +6792,7 @@
     {
      "code": "C4-04",
      "name": "Mubadala Tower, Sultan Bin Zayed St",
-     "time": "08:02",
+     "time": "08:15",
      "action": "pick_up",
      "lat": 24.422482,
      "lng": 54.4544203,
@@ -6810,20 +6801,11 @@
     {
      "code": "C4-07",
      "name": "Al Zeina, Al Raha Beach",
-     "time": "08:25",
+     "time": "08:38",
      "action": "pick_up",
      "lat": 24.4555591,
      "lng": 54.6131136,
      "where_exactly": "Al Zeina main entrance."
-    },
-    {
-     "code": "C4-15",
-     "name": "Deerfields Mall, Al Bahia",
-     "time": "08:48",
-     "action": "pick_up",
-     "lat": 24.523305,
-     "lng": 54.671536,
-     "where_exactly": "Outside the main entrance of Deerfields Mall."
     },
     {
      "code": "C4-08",
@@ -6993,15 +6975,6 @@
      "lat": 25.021958,
      "lng": 55.129796,
      "where_exactly": "Car park entrance."
-    },
-    {
-     "code": "C4-15",
-     "name": "Deerfields Mall, Al Bahia",
-     "time": "16:05",
-     "action": "set_down",
-     "lat": 24.523305,
-     "lng": 54.671536,
-     "where_exactly": "Outside the main entrance of Deerfields Mall."
     },
     {
      "code": "C4-06",
@@ -12870,7 +12843,7 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "04:27",
+   "start": "04:35",
    "end": "07:45",
    "vehicle": "M8",
    "vehicle_type": "Rosa",
@@ -12879,7 +12852,7 @@
     {
      "code": "C4-01",
      "name": "Al Mariah Mall, Hamdan St",
-     "time": "04:27",
+     "time": "04:35",
      "action": "pick_up",
      "lat": 24.494038,
      "lng": 54.366864,
@@ -12888,7 +12861,7 @@
     {
      "code": "C4-03",
      "name": "Al Wahda Mall",
-     "time": "04:35",
+     "time": "04:43",
      "action": "pick_up",
      "lat": 24.471638,
      "lng": 54.372417,
@@ -12897,7 +12870,7 @@
     {
      "code": "C4-04",
      "name": "Mubadala Tower, Sultan Bin Zayed St",
-     "time": "04:53",
+     "time": "05:01",
      "action": "pick_up",
      "lat": 24.422482,
      "lng": 54.4544203,
@@ -12906,7 +12879,7 @@
     {
      "code": "C4-18",
      "name": "Super Nanny Nursery, Khalifa City, Abu Dhabi",
-     "time": "05:11",
+     "time": "05:19",
      "action": "pick_up",
      "lat": 24.41338,
      "lng": 54.5594598,
@@ -12915,7 +12888,7 @@
     {
      "code": "C4-06",
      "name": "Al Forsan Village main gate",
-     "time": "05:19",
+     "time": "05:27",
      "action": "pick_up",
      "lat": 24.4044,
      "lng": 54.5514,
@@ -12924,20 +12897,11 @@
     {
      "code": "C4-07",
      "name": "Al Zeina, Al Raha Beach",
-     "time": "05:32",
+     "time": "05:40",
      "action": "pick_up",
      "lat": 24.4555591,
      "lng": 54.6131136,
      "where_exactly": "Al Zeina main entrance."
-    },
-    {
-     "code": "C4-15",
-     "name": "Deerfields Mall, Al Bahia",
-     "time": "05:50",
-     "action": "pick_up",
-     "lat": 24.523305,
-     "lng": 54.671536,
-     "where_exactly": "Outside the main entrance of Deerfields Mall."
     },
     {
      "code": "C4-11",
@@ -13111,7 +13075,7 @@
    "arrive_campus": null,
    "leave_campus": "14:15",
    "start": "14:15",
-   "end": "16:50",
+   "end": "15:20",
    "vehicle": "M9",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -13128,7 +13092,7 @@
     {
      "code": "C4-13",
      "name": "Gardens Metro Station",
-     "time": "14:50",
+     "time": "14:45",
      "action": "set_down",
      "lat": 25.043761,
      "lng": 55.134832,
@@ -13137,7 +13101,7 @@
     {
      "code": "C4-19",
      "name": "Masakin Al Furjan Gate 2, Al Furjan",
-     "time": "15:05",
+     "time": "15:00",
      "action": "set_down",
      "lat": 25.0308,
      "lng": 55.14978,
@@ -13146,7 +13110,7 @@
     {
      "code": "C4-12",
      "name": "Al Furjan Centre (Pavilion)",
-     "time": "15:15",
+     "time": "15:10",
      "action": "set_down",
      "lat": 25.026111,
      "lng": 55.153303,
@@ -13155,20 +13119,11 @@
     {
      "code": "C4-11",
      "name": "Al Furjan West Centre",
-     "time": "15:25",
+     "time": "15:20",
      "action": "set_down",
      "lat": 25.021958,
      "lng": 55.129796,
      "where_exactly": "Car park entrance."
-    },
-    {
-     "code": "C4-15",
-     "name": "Deerfields Mall, Al Bahia",
-     "time": "16:50",
-     "action": "set_down",
-     "lat": 24.523305,
-     "lng": 54.671536,
-     "where_exactly": "Outside the main entrance of Deerfields Mall."
     }
    ]
   },
