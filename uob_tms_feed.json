@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-05T13:15:17Z",
+ "generated_at": "2026-10-05T13:24:21Z",
  "week": "2026-10-05 to 2026-10-11",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -5608,18 +5608,12 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:41",
+   "start": "05:51",
    "end": "07:45",
    "vehicle": "M11",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
-    {
-     "code": "C5-01",
-     "name": "Gold Souq Metro Station",
-     "time": "05:41",
-     "action": "pick_up"
-    },
     {
      "code": "C5-02",
      "name": "Al Rigga Metro Station",
@@ -5786,7 +5780,7 @@
    "arrive_campus": null,
    "leave_campus": "14:15",
    "start": "14:15",
-   "end": "15:45",
+   "end": "15:40",
    "vehicle": "M11",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -5806,31 +5800,25 @@
     {
      "code": "C5-09",
      "name": "Bay Avenue Mall, Business Bay",
-     "time": "14:50",
+     "time": "14:55",
      "action": "set_down"
     },
     {
      "code": "C5-07",
      "name": "World Trade Centre Metro Station",
-     "time": "15:05",
+     "time": "15:10",
      "action": "set_down"
     },
     {
      "code": "C5-17",
      "name": "New Gold Souq, Al Raffa, Bur Dubai",
-     "time": "15:20",
+     "time": "15:25",
      "action": "set_down"
     },
     {
      "code": "C5-05",
      "name": "BurJuman Mall",
-     "time": "15:35",
-     "action": "set_down"
-    },
-    {
-     "code": "C5-01",
-     "name": "Gold Souq Metro Station",
-     "time": "15:45",
+     "time": "15:40",
      "action": "set_down"
     }
    ]
@@ -8025,18 +8013,12 @@
    "service": "undergraduate",
    "arrive_campus": "12:45",
    "leave_campus": null,
-   "start": "11:20",
+   "start": "11:50",
    "end": "12:45",
    "vehicle": "M12",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
-    {
-     "code": "C5-01",
-     "name": "Gold Souq Metro Station",
-     "time": "11:20",
-     "action": "pick_up"
-    },
     {
      "code": "C5-03",
      "name": "Creek Metro Station, Al Jaddaf",
@@ -8202,7 +8184,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "20:14",
+   "end": "20:06",
    "vehicle": "M11",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -8253,12 +8235,6 @@
      "code": "C5-02",
      "name": "Al Rigga Metro Station",
      "time": "20:03",
-     "action": "set_down"
-    },
-    {
-     "code": "C5-01",
-     "name": "Gold Souq Metro Station",
-     "time": "20:11",
      "action": "set_down"
     }
    ]
@@ -10293,18 +10269,12 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:28",
+   "start": "05:38",
    "end": "07:45",
    "vehicle": "M12",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
-    {
-     "code": "C5-01",
-     "name": "Gold Souq Metro Station",
-     "time": "05:28",
-     "action": "pick_up"
-    },
     {
      "code": "C5-02",
      "name": "Al Rigga Metro Station",
@@ -10326,7 +10296,7 @@
     {
      "code": "C5-05",
      "name": "BurJuman Mall",
-     "time": "06:13",
+     "time": "06:18",
      "action": "pick_up"
     },
     {
@@ -10553,7 +10523,7 @@
    "arrive_campus": null,
    "leave_campus": "16:55",
    "start": "16:55",
-   "end": "18:40",
+   "end": "18:45",
    "vehicle": "M12",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -10567,25 +10537,19 @@
     {
      "code": "C5-12",
      "name": "Wasl Green Park, Ras Al Khor",
-     "time": "17:15",
+     "time": "17:25",
      "action": "set_down"
     },
     {
      "code": "C5-14",
      "name": "Meydan Heights, Nad Al Sheba 1",
-     "time": "17:40",
+     "time": "18:00",
      "action": "set_down"
     },
     {
      "code": "C5-08",
      "name": "Financial Centre Metro Station",
-     "time": "18:15",
-     "action": "set_down"
-    },
-    {
-     "code": "C5-01",
-     "name": "Gold Souq Metro Station",
-     "time": "18:40",
+     "time": "18:45",
      "action": "set_down"
     }
    ]
