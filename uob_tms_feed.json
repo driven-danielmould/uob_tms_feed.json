@@ -1,9 +1,9 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-05T09:43:56Z",
+ "generated_at": "2026-10-05T10:06:45Z",
  "week": "2026-10-05 to 2026-10-11",
- "service": "DrivenBus \u00b7 University of Birmingham Dubai",
- "notes": "Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
+ "service": "DrivenBus · University of Birmingham Dubai",
+ "notes": "Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
  "timetable_slots": {
   "undergraduate_arrivals": [
    "07:45 (Route 1 planned 07:35)",
@@ -18,7 +18,7 @@
    "18:15",
    "Friday 12:15 only"
   ],
-  "masters_departure": "21:15 (21:36 on Route 5 Tue/Thu, Route 3 Mon/Tue)"
+  "masters_departure": "21:36"
  },
  "campus": {
   "code": "UOB",
@@ -32,7 +32,7 @@
   {
    "code": "C1",
    "name": "Route 1",
-   "districts": "Sharjah \u00b7 Al Nahda \u00b7 Al Qusais \u00b7 Mirdif",
+   "districts": "Sharjah · Al Nahda · Al Qusais · Mirdif",
    "color": "#2a78d6",
    "stops": [
     {
@@ -304,7 +304,7 @@
   {
    "code": "C2",
    "name": "Route 2",
-   "districts": "Palm \u00b7 Marina \u00b7 JLT \u00b7 Barsha Heights \u00b7 MOE",
+   "districts": "Palm · Marina · JLT · Barsha Heights · MOE",
    "color": "#eb6834",
    "stops": [
     {
@@ -444,7 +444,7 @@
   {
    "code": "C3",
    "name": "Route 3",
-   "districts": "JVC \u00b7 Sports City \u00b7 Motor City \u00b7 Town Square \u00b7 Silicon Oasis",
+   "districts": "JVC · Sports City · Motor City · Town Square · Silicon Oasis",
    "color": "#1bafa0",
    "stops": [
     {
@@ -692,7 +692,7 @@
   {
    "code": "C4",
    "name": "Route 4",
-   "districts": "Abu Dhabi \u00b7 Al Ghadeer \u00b7 DIP \u00b7 Al Furjan \u00b7 Discovery Gardens",
+   "districts": "Abu Dhabi · Al Ghadeer · DIP · Al Furjan · Discovery Gardens",
    "color": "#d4537e",
    "stops": [
     {
@@ -916,7 +916,7 @@
   {
    "code": "C5",
    "name": "Route 5",
-   "districts": "Deira \u00b7 Bur Dubai \u00b7 SZR \u00b7 Business Bay \u00b7 Meydan",
+   "districts": "Deira · Bur Dubai · SZR · Business Bay · Meydan",
    "color": "#2e8b3a",
    "stops": [
     {
@@ -1404,7 +1404,7 @@
    "leave_campus": null,
    "start": "15:45",
    "end": "17:45",
-   "vehicle": "TBC",
+   "vehicle": "M0",
    "vehicle_type": "Hiace",
    "seats": 12,
    "offer_only": true,
@@ -1667,7 +1667,7 @@
    "leave_campus": "21:36",
    "start": "21:36",
    "end": "23:21",
-   "vehicle": "TBC",
+   "vehicle": "M0",
    "vehicle_type": "Hiace",
    "seats": 12,
    "offer_only": true,
@@ -2694,7 +2694,7 @@
    "leave_campus": null,
    "start": "15:10",
    "end": "17:45",
-   "vehicle": "TBC",
+   "vehicle": "M0",
    "vehicle_type": "Hiace",
    "seats": 12,
    "offer_only": true,
@@ -2926,8 +2926,8 @@
    "arrive_campus": null,
    "leave_campus": "21:36",
    "start": "21:36",
-   "end": "24:06",
-   "vehicle": "TBC",
+   "end": "00:06",
+   "vehicle": "M0",
    "vehicle_type": "Hiace",
    "seats": 12,
    "offer_only": true,
@@ -3020,7 +3020,7 @@
     {
      "code": "C4-01",
      "name": "Al Mariah Mall, Hamdan St",
-     "time": "24:06",
+     "time": "00:06",
      "action": "set_down"
     }
    ]
@@ -3407,7 +3407,7 @@
    "leave_campus": "21:36",
    "start": "21:36",
    "end": "23:01",
-   "vehicle": "TBC",
+   "vehicle": "M0",
    "vehicle_type": "Hiace",
    "seats": 12,
    "offer_only": true,
@@ -3818,7 +3818,7 @@
    "leave_campus": null,
    "start": "15:45",
    "end": "17:45",
-   "vehicle": "TBC",
+   "vehicle": "M0",
    "vehicle_type": "Hiace",
    "seats": 12,
    "offer_only": true,
@@ -4105,7 +4105,7 @@
    "leave_campus": "21:36",
    "start": "21:36",
    "end": "23:21",
-   "vehicle": "TBC",
+   "vehicle": "M0",
    "vehicle_type": "Hiace",
    "seats": 12,
    "offer_only": true,
@@ -5268,7 +5268,7 @@
    "leave_campus": null,
    "start": "15:10",
    "end": "17:45",
-   "vehicle": "TBC",
+   "vehicle": "M0",
    "vehicle_type": "Hiace",
    "seats": 12,
    "offer_only": true,
@@ -5506,8 +5506,8 @@
    "arrive_campus": null,
    "leave_campus": "21:36",
    "start": "21:36",
-   "end": "24:06",
-   "vehicle": "TBC",
+   "end": "00:06",
+   "vehicle": "M0",
    "vehicle_type": "Hiace",
    "seats": 12,
    "offer_only": true,
@@ -5600,7 +5600,7 @@
     {
      "code": "C4-01",
      "name": "Al Mariah Mall, Hamdan St",
-     "time": "24:06",
+     "time": "00:06",
      "action": "set_down"
     }
    ]
@@ -8629,7 +8629,7 @@
    "leave_campus": null,
    "start": "15:45",
    "end": "17:45",
-   "vehicle": "TBC",
+   "vehicle": "M0",
    "vehicle_type": "Hiace",
    "seats": 12,
    "offer_only": true,
@@ -8904,7 +8904,7 @@
    "leave_campus": "21:36",
    "start": "21:36",
    "end": "23:21",
-   "vehicle": "TBC",
+   "vehicle": "M0",
    "vehicle_type": "Hiace",
    "seats": 12,
    "offer_only": true,
@@ -9977,7 +9977,7 @@
    "leave_campus": null,
    "start": "15:10",
    "end": "17:45",
-   "vehicle": "TBC",
+   "vehicle": "M0",
    "vehicle_type": "Hiace",
    "seats": 12,
    "offer_only": true,
@@ -10215,8 +10215,8 @@
    "arrive_campus": null,
    "leave_campus": "21:36",
    "start": "21:36",
-   "end": "24:06",
-   "vehicle": "TBC",
+   "end": "00:06",
+   "vehicle": "M0",
    "vehicle_type": "Hiace",
    "seats": 12,
    "offer_only": true,
@@ -10309,7 +10309,7 @@
     {
      "code": "C4-01",
      "name": "Al Mariah Mall, Hamdan St",
-     "time": "24:06",
+     "time": "00:06",
      "action": "set_down"
     }
    ]
@@ -11121,7 +11121,7 @@
    "leave_campus": null,
    "start": "15:45",
    "end": "17:45",
-   "vehicle": "TBC",
+   "vehicle": "M0",
    "vehicle_type": "Hiace",
    "seats": 12,
    "offer_only": true,
@@ -11194,7 +11194,7 @@
    "leave_campus": "21:36",
    "start": "21:36",
    "end": "23:21",
-   "vehicle": "TBC",
+   "vehicle": "M0",
    "vehicle_type": "Hiace",
    "seats": 12,
    "offer_only": true,
@@ -11361,7 +11361,7 @@
    "leave_campus": null,
    "start": "15:50",
    "end": "17:45",
-   "vehicle": "TBC",
+   "vehicle": "M0",
    "vehicle_type": "Hiace",
    "seats": 12,
    "offer_only": true,
@@ -11482,7 +11482,7 @@
    "leave_campus": "21:36",
    "start": "21:36",
    "end": "23:26",
-   "vehicle": "TBC",
+   "vehicle": "M0",
    "vehicle_type": "Hiace",
    "seats": 12,
    "offer_only": true,
