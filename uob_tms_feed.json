@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-05T06:24:59Z",
+ "generated_at": "2026-10-05T06:44:35Z",
  "week": "2026-10-05 to 2026-10-11",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included.",
@@ -168,8 +168,20 @@
      "type": "public"
     },
     {
-     "code": "C1-17",
+     "code": "C1-22",
      "order": 12,
+     "name": "Baghdad Street 55, Al Nahda 1",
+     "lat": 25.2874799,
+     "lng": 55.367603,
+     "google_place_id": null,
+     "where_exactly": "Kerbside on Baghdad Street outside building 55.",
+     "rider_instructions": "Wait on Baghdad Street outside building 55. Be here 5 minutes before your time and look for the yellow M sign in the bus windscreen.",
+     "driver_instructions": "Kerbside on Baghdad Street outside building 55, Al Nahda 1; do not enter the side streets. Only served on booked days.",
+     "type": "rider_only"
+    },
+    {
+     "code": "C1-17",
+     "order": 13,
      "name": "Bahwan Tower, Al Nahda 1",
      "lat": 25.288,
      "lng": 55.36151,
@@ -181,7 +193,7 @@
     },
     {
      "code": "C1-08",
-     "order": 13,
+     "order": 14,
      "name": "Mattar Tower, Al Nahda 1",
      "lat": 25.288533,
      "lng": 55.3631313,
@@ -193,7 +205,7 @@
     },
     {
      "code": "C1-09",
-     "order": 14,
+     "order": 15,
      "name": "DAFZA Metro Station",
      "lat": 25.269944,
      "lng": 55.3750287,
@@ -205,7 +217,7 @@
     },
     {
      "code": "C1-10",
-     "order": 15,
+     "order": 16,
      "name": "Dubai Festival City Mall",
      "lat": 25.2220904,
      "lng": 55.3527947,
@@ -217,7 +229,7 @@
     },
     {
      "code": "C1-11",
-     "order": 16,
+     "order": 17,
      "name": "Madina Mall",
      "lat": 25.2819926,
      "lng": 55.3982776,
@@ -229,7 +241,7 @@
     },
     {
      "code": "C1-15",
-     "order": 17,
+     "order": 18,
      "name": "Wasl Village, Central Parking",
      "lat": 25.289501,
      "lng": 55.4111465,
@@ -241,7 +253,7 @@
     },
     {
      "code": "C1-12",
-     "order": 18,
+     "order": 19,
      "name": "Uptown Mirdif",
      "lat": 25.2241362,
      "lng": 55.4237142,
@@ -253,7 +265,7 @@
     },
     {
      "code": "C1-19",
-     "order": 19,
+     "order": 20,
      "name": "Shorooq Gate 3, Mirdif",
      "lat": 25.214495,
      "lng": 55.428185,
@@ -265,7 +277,7 @@
     },
     {
      "code": "C1-13",
-     "order": 20,
+     "order": 21,
      "name": "Nasayem Avenue, Mirdif Hills",
      "lat": 25.2250241,
      "lng": 55.4412792,
@@ -277,7 +289,7 @@
     },
     {
      "code": "C1-14",
-     "order": 21,
+     "order": 22,
      "name": "Olivz Residence, Warsan 1",
      "lat": 25.1680373,
      "lng": 55.3962452,
@@ -5064,21 +5076,21 @@
      "action": "pick_up"
     },
     {
-     "code": "C1-17",
-     "name": "Bahwan Tower, Al Nahda 1",
+     "code": "C1-22",
+     "name": "Baghdad Street 55, Al Nahda 1",
      "time": "05:45",
      "action": "pick_up"
     },
     {
-     "code": "C1-08",
-     "name": "Mattar Tower, Al Nahda 1",
+     "code": "C1-17",
+     "name": "Bahwan Tower, Al Nahda 1",
      "time": "05:50",
      "action": "pick_up"
     },
     {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "06:00",
+     "time": "05:55",
      "action": "pick_up"
     },
     {
@@ -5466,7 +5478,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "21:24",
+   "end": "21:29",
    "vehicle": "M1",
    "vehicle_type": "Rosa",
    "seats": 34,
@@ -5520,39 +5532,39 @@
      "action": "set_down"
     },
     {
-     "code": "C1-08",
-     "name": "Mattar Tower, Al Nahda 1",
-     "time": "20:16",
+     "code": "C1-22",
+     "name": "Baghdad Street 55, Al Nahda 1",
+     "time": "20:21",
      "action": "set_down"
     },
     {
      "code": "C1-16",
      "name": "LuLu Hypermarket Al Nahda, Sharjah",
-     "time": "20:29",
+     "time": "20:34",
      "action": "set_down"
     },
     {
      "code": "C1-21",
      "name": "Sahab Al Emarat, Al Mamzar, Sharjah",
-     "time": "20:42",
+     "time": "20:47",
      "action": "set_down"
     },
     {
      "code": "C1-20",
      "name": "Al Buhaira Police Station bus stop, Al Majaz 3",
-     "time": "20:50",
+     "time": "20:55",
      "action": "set_down"
     },
     {
      "code": "C1-03",
      "name": "Lulu Hypermarket Maysaloon",
-     "time": "21:08",
+     "time": "21:13",
      "action": "set_down"
     },
     {
      "code": "C1-02",
      "name": "City Centre Al Zahia",
-     "time": "21:21",
+     "time": "21:26",
      "action": "set_down"
     }
    ]
@@ -9325,9 +9337,9 @@
      "action": "pick_up"
     },
     {
-     "code": "C1-08",
-     "name": "Mattar Tower, Al Nahda 1",
-     "time": "05:55",
+     "code": "C1-22",
+     "name": "Baghdad Street 55, Al Nahda 1",
+     "time": "05:50",
      "action": "pick_up"
     },
     {
@@ -9378,7 +9390,7 @@
    "arrive_campus": null,
    "leave_campus": "12:15",
    "start": "12:15",
-   "end": "14:19",
+   "end": "14:17",
    "vehicle": "M1",
    "vehicle_type": "Rosa",
    "seats": 34,
@@ -9420,51 +9432,51 @@
      "action": "set_down"
     },
     {
-     "code": "C1-08",
-     "name": "Mattar Tower, Al Nahda 1",
+     "code": "C1-22",
+     "name": "Baghdad Street 55, Al Nahda 1",
      "time": "13:15",
      "action": "set_down"
     },
     {
      "code": "C1-07",
      "name": "Masafi 1, Al Nahda 2",
-     "time": "13:23",
+     "time": "13:21",
      "action": "set_down"
     },
     {
      "code": "C1-05",
      "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "13:31",
+     "time": "13:29",
      "action": "set_down"
     },
     {
      "code": "C1-18",
      "name": "Shamseen Bakeries Building, Al Majaz",
-     "time": "13:39",
+     "time": "13:37",
      "action": "set_down"
     },
     {
      "code": "C1-20",
      "name": "Al Buhaira Police Station bus stop, Al Majaz 3",
-     "time": "13:47",
+     "time": "13:45",
      "action": "set_down"
     },
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "13:55",
+     "time": "13:53",
      "action": "set_down"
     },
     {
      "code": "C1-03",
      "name": "Lulu Hypermarket Maysaloon",
-     "time": "14:03",
+     "time": "14:01",
      "action": "set_down"
     },
     {
      "code": "C1-02",
      "name": "City Centre Al Zahia",
-     "time": "14:16",
+     "time": "14:14",
      "action": "set_down"
     }
    ]
