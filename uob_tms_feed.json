@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-05T16:28:08Z",
+ "generated_at": "2026-10-05T16:40:51Z",
  "week": "2026-10-05 to 2026-10-11",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -3591,7 +3591,7 @@
    "service": "undergraduate",
    "arrive_campus": "10:45",
    "leave_campus": null,
-   "start": "07:54",
+   "start": "07:50",
    "end": "10:45",
    "vehicle": "M10",
    "vehicle_type": "Hiace",
@@ -3600,25 +3600,16 @@
     {
      "code": "C4-01",
      "name": "Al Mariah Mall, Hamdan St",
-     "time": "07:54",
+     "time": "07:50",
      "action": "pick_up",
      "lat": 24.494038,
      "lng": 54.366864,
      "where_exactly": "Outside the front of Al Mariah Mall."
     },
     {
-     "code": "C4-17",
-     "name": "Al Falah St / Ministry of Finance bus stop",
-     "time": "08:02",
-     "action": "pick_up",
-     "lat": 24.4843472,
-     "lng": 54.377167,
-     "where_exactly": "RTA/ITC bus stop on Al Falah St opposite the Ministry of Finance; 2 minutes maximum."
-    },
-    {
      "code": "C4-05",
      "name": "Yasmina School back gate, Raha Gardens",
-     "time": "08:25",
+     "time": "08:15",
      "action": "pick_up",
      "lat": 24.426,
      "lng": 54.5467,
@@ -3627,7 +3618,7 @@
     {
      "code": "C4-08",
      "name": "Al Ghadeer community gate",
-     "time": "09:33",
+     "time": "09:25",
      "action": "pick_up",
      "lat": 24.8443745,
      "lng": 55.0261656,
@@ -3636,7 +3627,7 @@
     {
      "code": "C4-10",
      "name": "Green Community West gate",
-     "time": "09:56",
+     "time": "09:50",
      "action": "pick_up",
      "lat": 25.001812,
      "lng": 55.164068,
@@ -3645,7 +3636,7 @@
     {
      "code": "C4-12",
      "name": "Al Furjan Centre (Pavilion)",
-     "time": "10:09",
+     "time": "10:05",
      "action": "pick_up",
      "lat": 25.026111,
      "lng": 55.153303,
@@ -3654,7 +3645,7 @@
     {
      "code": "C4-13",
      "name": "Gardens Metro Station",
-     "time": "10:17",
+     "time": "10:15",
      "action": "pick_up",
      "lat": 25.043761,
      "lng": 55.134832,
@@ -6703,16 +6694,25 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "04:55",
+   "start": "04:50",
    "end": "07:45",
    "vehicle": "M10",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
     {
+     "code": "C4-01",
+     "name": "Al Mariah Mall, Hamdan St",
+     "time": "04:50",
+     "action": "pick_up",
+     "lat": 24.494038,
+     "lng": 54.366864,
+     "where_exactly": "Outside the front of Al Mariah Mall."
+    },
+    {
      "code": "C4-03",
      "name": "Al Wahda Mall",
-     "time": "04:55",
+     "time": "05:00",
      "action": "pick_up",
      "lat": 24.471638,
      "lng": 54.372417,
@@ -6721,7 +6721,7 @@
     {
      "code": "C4-18",
      "name": "Super Nanny Nursery, Khalifa City, Abu Dhabi",
-     "time": "05:15",
+     "time": "05:20",
      "action": "pick_up",
      "lat": 24.41338,
      "lng": 54.5594598,
@@ -6730,7 +6730,7 @@
     {
      "code": "C4-06",
      "name": "Al Forsan Village main gate",
-     "time": "05:25",
+     "time": "05:30",
      "action": "pick_up",
      "lat": 24.4044,
      "lng": 54.5514,
