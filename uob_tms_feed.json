@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-05T16:00:43Z",
+ "generated_at": "2026-10-05T16:05:00Z",
  "week": "2026-10-05 to 2026-10-11",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -7331,7 +7331,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "20:15",
+   "end": "20:10",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -7345,19 +7345,25 @@
     {
      "code": "C3-16",
      "name": "Souq Extra, Silicon Oasis",
-     "time": "18:40",
+     "time": "18:30",
      "action": "set_down"
     },
     {
      "code": "C3-09",
      "name": "Spinneys, Town Square",
-     "time": "19:35",
+     "time": "19:05",
+     "action": "set_down"
+    },
+    {
+     "code": "C3-05",
+     "name": "City Centre Me'aisem",
+     "time": "19:40",
      "action": "set_down"
     },
     {
      "code": "C3-03",
      "name": "Dubai Miracle Garden",
-     "time": "20:15",
+     "time": "20:10",
      "action": "set_down"
     }
    ]
