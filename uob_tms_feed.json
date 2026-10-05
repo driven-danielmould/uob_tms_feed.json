@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-05T16:25:52Z",
+ "generated_at": "2026-10-05T16:28:08Z",
  "week": "2026-10-05 to 2026-10-11",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -10207,9 +10207,18 @@
    "seats": 12,
    "stops": [
     {
+     "code": "C4-02",
+     "name": "The Gate Towers, Al Reem Island",
+     "time": "15:10",
+     "action": "pick_up",
+     "lat": 24.492995,
+     "lng": 54.408057,
+     "where_exactly": "Main drop-off."
+    },
+    {
      "code": "C4-09",
      "name": "Holiday Inn, Al Maktoum Airport",
-     "time": "15:10",
+     "time": "16:50",
      "action": "pick_up",
      "lat": 24.867791,
      "lng": 55.146192,
@@ -10405,7 +10414,7 @@
    "arrive_campus": null,
    "leave_campus": "21:36",
    "start": "21:36",
-   "end": "23:51",
+   "end": "00:01",
    "vehicle": "M9",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -10422,11 +10431,20 @@
     {
      "code": "C4-09",
      "name": "Holiday Inn, Al Maktoum Airport",
-     "time": "23:51",
+     "time": "22:21",
      "action": "set_down",
      "lat": 24.867791,
      "lng": 55.146192,
      "where_exactly": "Hotel entrance, Aviation City."
+    },
+    {
+     "code": "C4-02",
+     "name": "The Gate Towers, Al Reem Island",
+     "time": "00:01",
+     "action": "set_down",
+     "lat": 24.492995,
+     "lng": 54.408057,
+     "where_exactly": "Main drop-off."
     }
    ]
   },
@@ -15277,9 +15295,18 @@
    "seats": 12,
    "stops": [
     {
+     "code": "C4-02",
+     "name": "The Gate Towers, Al Reem Island",
+     "time": "15:10",
+     "action": "pick_up",
+     "lat": 24.492995,
+     "lng": 54.408057,
+     "where_exactly": "Main drop-off."
+    },
+    {
      "code": "C4-09",
      "name": "Holiday Inn, Al Maktoum Airport",
-     "time": "15:10",
+     "time": "16:50",
      "action": "pick_up",
      "lat": 24.867791,
      "lng": 55.146192,
@@ -15306,7 +15333,7 @@
    "arrive_campus": null,
    "leave_campus": "21:36",
    "start": "21:36",
-   "end": "23:51",
+   "end": "00:01",
    "vehicle": "M10",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -15323,11 +15350,20 @@
     {
      "code": "C4-09",
      "name": "Holiday Inn, Al Maktoum Airport",
-     "time": "23:51",
+     "time": "22:21",
      "action": "set_down",
      "lat": 24.867791,
      "lng": 55.146192,
      "where_exactly": "Hotel entrance, Aviation City."
+    },
+    {
+     "code": "C4-02",
+     "name": "The Gate Towers, Al Reem Island",
+     "time": "00:01",
+     "action": "set_down",
+     "lat": 24.492995,
+     "lng": 54.408057,
+     "where_exactly": "Main drop-off."
     }
    ]
   },
@@ -15965,9 +16001,18 @@
    "seats": 12,
    "stops": [
     {
+     "code": "C4-02",
+     "name": "The Gate Towers, Al Reem Island",
+     "time": "04:55",
+     "action": "pick_up",
+     "lat": 24.492995,
+     "lng": 54.408057,
+     "where_exactly": "Main drop-off."
+    },
+    {
      "code": "C4-04",
      "name": "Mubadala Tower, Sultan Bin Zayed St",
-     "time": "04:55",
+     "time": "05:15",
      "action": "pick_up",
      "lat": 24.422482,
      "lng": 54.4544203,
@@ -15976,7 +16021,7 @@
     {
      "code": "C4-09",
      "name": "Holiday Inn, Al Maktoum Airport",
-     "time": "06:50",
+     "time": "06:55",
      "action": "pick_up",
      "lat": 24.867791,
      "lng": 55.146192,
@@ -16003,7 +16048,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "21:10",
+   "end": "21:05",
    "vehicle": "M10",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -16020,7 +16065,7 @@
     {
      "code": "C4-09",
      "name": "Holiday Inn, Al Maktoum Airport",
-     "time": "19:10",
+     "time": "19:00",
      "action": "set_down",
      "lat": 24.867791,
      "lng": 55.146192,
@@ -16029,11 +16074,20 @@
     {
      "code": "C4-04",
      "name": "Mubadala Tower, Sultan Bin Zayed St",
-     "time": "21:10",
+     "time": "20:45",
      "action": "set_down",
      "lat": 24.422482,
      "lng": 54.4544203,
      "where_exactly": "Outside the tower, Sultan Bin Zayed the First St."
+    },
+    {
+     "code": "C4-02",
+     "name": "The Gate Towers, Al Reem Island",
+     "time": "21:05",
+     "action": "set_down",
+     "lat": 24.492995,
+     "lng": 54.408057,
+     "where_exactly": "Main drop-off."
     }
    ]
   },
