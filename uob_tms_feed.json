@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-05T13:04:11Z",
+ "generated_at": "2026-10-05T13:10:06Z",
  "week": "2026-10-05 to 2026-10-11",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -5862,18 +5862,12 @@
    "service": "masters",
    "arrive_campus": "17:45",
    "leave_campus": null,
-   "start": "16:15",
+   "start": "16:55",
    "end": "17:45",
    "vehicle": "M12",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
-    {
-     "code": "C5-13",
-     "name": "Downtown Views II, Zabeel 2",
-     "time": "16:15",
-     "action": "pick_up"
-    },
     {
      "code": "C5-10",
      "name": "Bay Square, Business Bay",
@@ -6004,7 +5998,7 @@
    "arrive_campus": null,
    "leave_campus": "21:36",
    "start": "21:36",
-   "end": "22:51",
+   "end": "22:46",
    "vehicle": "M12",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -6018,13 +6012,7 @@
     {
      "code": "C5-10",
      "name": "Bay Square, Business Bay",
-     "time": "22:26",
-     "action": "set_down"
-    },
-    {
-     "code": "C5-13",
-     "name": "Downtown Views II, Zabeel 2",
-     "time": "22:51",
+     "time": "22:46",
      "action": "set_down"
     }
    ]
@@ -10565,18 +10553,12 @@
    "service": "masters",
    "arrive_campus": "17:45",
    "leave_campus": null,
-   "start": "16:15",
+   "start": "16:55",
    "end": "17:45",
    "vehicle": "M11",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
-    {
-     "code": "C5-13",
-     "name": "Downtown Views II, Zabeel 2",
-     "time": "16:15",
-     "action": "pick_up"
-    },
     {
      "code": "C5-10",
      "name": "Bay Square, Business Bay",
@@ -10725,7 +10707,7 @@
    "arrive_campus": null,
    "leave_campus": "21:36",
    "start": "21:36",
-   "end": "22:51",
+   "end": "22:46",
    "vehicle": "M11",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -10739,13 +10721,7 @@
     {
      "code": "C5-10",
      "name": "Bay Square, Business Bay",
-     "time": "22:26",
-     "action": "set_down"
-    },
-    {
-     "code": "C5-13",
-     "name": "Downtown Views II, Zabeel 2",
-     "time": "22:51",
+     "time": "22:46",
      "action": "set_down"
     }
    ]
@@ -12340,15 +12316,9 @@
      "action": "pick_up"
     },
     {
-     "code": "C5-13",
-     "name": "Downtown Views II, Zabeel 2",
-     "time": "06:25",
-     "action": "pick_up"
-    },
-    {
      "code": "C5-10",
      "name": "Bay Square, Business Bay",
-     "time": "06:55",
+     "time": "06:35",
      "action": "pick_up"
     },
     {
@@ -12404,7 +12374,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "19:55",
+   "end": "19:45",
    "vehicle": "M12",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -12418,13 +12388,7 @@
     {
      "code": "C5-10",
      "name": "Bay Square, Business Bay",
-     "time": "19:15",
-     "action": "set_down"
-    },
-    {
-     "code": "C5-13",
-     "name": "Downtown Views II, Zabeel 2",
-     "time": "19:55",
+     "time": "19:45",
      "action": "set_down"
     }
    ]
@@ -12700,18 +12664,12 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:45",
+   "start": "06:30",
    "end": "07:45",
    "vehicle": "M11",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
-    {
-     "code": "C5-13",
-     "name": "Downtown Views II, Zabeel 2",
-     "time": "05:45",
-     "action": "pick_up"
-    },
     {
      "code": "C5-10",
      "name": "Bay Square, Business Bay",
@@ -12736,7 +12694,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "19:55",
+   "end": "19:45",
    "vehicle": "M12",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -12750,13 +12708,7 @@
     {
      "code": "C5-10",
      "name": "Bay Square, Business Bay",
-     "time": "19:15",
-     "action": "set_down"
-    },
-    {
-     "code": "C5-13",
-     "name": "Downtown Views II, Zabeel 2",
-     "time": "19:55",
+     "time": "19:45",
      "action": "set_down"
     }
    ]
