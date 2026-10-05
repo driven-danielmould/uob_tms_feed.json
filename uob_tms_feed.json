@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-05T07:44:23Z",
+ "generated_at": "2026-10-05T08:14:51Z",
  "week": "2026-10-05 to 2026-10-11",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included.",
@@ -4621,7 +4621,7 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:56",
+   "start": "05:41",
    "end": "07:45",
    "vehicle": "M11",
    "vehicle_type": "Hiace",
@@ -4630,49 +4630,49 @@
     {
      "code": "C5-01",
      "name": "Gold Souq Metro Station",
-     "time": "05:56",
+     "time": "05:41",
      "action": "pick_up"
     },
     {
      "code": "C5-02",
      "name": "Al Rigga Metro Station",
-     "time": "06:04",
+     "time": "05:51",
      "action": "pick_up"
     },
     {
      "code": "C5-05",
      "name": "BurJuman Mall",
-     "time": "06:17",
+     "time": "06:06",
      "action": "pick_up"
     },
     {
      "code": "C5-17",
      "name": "New Gold Souq, Al Raffa, Bur Dubai",
-     "time": "06:30",
+     "time": "06:21",
      "action": "pick_up"
     },
     {
      "code": "C5-08",
      "name": "Financial Centre Metro Station",
-     "time": "06:43",
+     "time": "06:36",
      "action": "pick_up"
     },
     {
      "code": "C5-09",
      "name": "Bay Avenue Mall, Business Bay",
-     "time": "06:51",
+     "time": "06:46",
      "action": "pick_up"
     },
     {
      "code": "C5-11",
      "name": "One Park Avenue, Sobha Hartland",
-     "time": "07:09",
+     "time": "07:06",
      "action": "pick_up"
     },
     {
      "code": "C5-12",
      "name": "Wasl Green Park, Ras Al Khor",
-     "time": "07:27",
+     "time": "07:26",
      "action": "pick_up"
     },
     {
@@ -6879,7 +6879,7 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:51",
+   "start": "05:36",
    "end": "07:45",
    "vehicle": "M11",
    "vehicle_type": "Hiace",
@@ -6888,49 +6888,49 @@
     {
      "code": "C5-02",
      "name": "Al Rigga Metro Station",
-     "time": "05:51",
+     "time": "05:36",
      "action": "pick_up"
     },
     {
      "code": "C5-04",
      "name": "Oud Metha Metro Station",
-     "time": "06:04",
+     "time": "05:51",
      "action": "pick_up"
     },
     {
      "code": "C5-05",
      "name": "BurJuman Mall",
-     "time": "06:12",
+     "time": "06:01",
      "action": "pick_up"
     },
     {
      "code": "C5-07",
      "name": "World Trade Centre Metro Station",
-     "time": "06:25",
+     "time": "06:16",
      "action": "pick_up"
     },
     {
      "code": "C5-09",
      "name": "Bay Avenue Mall, Business Bay",
-     "time": "06:38",
+     "time": "06:31",
      "action": "pick_up"
     },
     {
      "code": "C5-11",
      "name": "One Park Avenue, Sobha Hartland",
-     "time": "06:51",
+     "time": "06:46",
      "action": "pick_up"
     },
     {
      "code": "C5-14",
      "name": "Meydan Heights, Nad Al Sheba 1",
-     "time": "07:09",
+     "time": "07:06",
      "action": "pick_up"
     },
     {
      "code": "C5-12",
      "name": "Wasl Green Park, Ras Al Khor",
-     "time": "07:27",
+     "time": "07:26",
      "action": "pick_up"
     },
     {
@@ -8882,7 +8882,7 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:43",
+   "start": "05:28",
    "end": "07:45",
    "vehicle": "M12",
    "vehicle_type": "Hiace",
@@ -8891,55 +8891,55 @@
     {
      "code": "C5-01",
      "name": "Gold Souq Metro Station",
-     "time": "05:43",
+     "time": "05:28",
      "action": "pick_up"
     },
     {
      "code": "C5-02",
      "name": "Al Rigga Metro Station",
-     "time": "05:51",
+     "time": "05:38",
      "action": "pick_up"
     },
     {
      "code": "C5-03",
      "name": "Creek Metro Station, Al Jaddaf",
-     "time": "06:04",
+     "time": "05:53",
      "action": "pick_up"
     },
     {
      "code": "C5-04",
      "name": "Oud Metha Metro Station",
-     "time": "06:17",
+     "time": "06:08",
      "action": "pick_up"
     },
     {
      "code": "C5-05",
      "name": "BurJuman Mall",
-     "time": "06:25",
+     "time": "06:13",
      "action": "pick_up"
     },
     {
      "code": "C5-07",
      "name": "World Trade Centre Metro Station",
-     "time": "06:38",
+     "time": "06:28",
      "action": "pick_up"
     },
     {
      "code": "C5-09",
      "name": "Bay Avenue Mall, Business Bay",
-     "time": "06:51",
+     "time": "06:43",
      "action": "pick_up"
     },
     {
      "code": "C5-11",
      "name": "One Park Avenue, Sobha Hartland",
-     "time": "07:09",
+     "time": "07:03",
      "action": "pick_up"
     },
     {
      "code": "C5-12",
      "name": "Wasl Green Park, Ras Al Khor",
-     "time": "07:27",
+     "time": "07:23",
      "action": "pick_up"
     },
     {
@@ -9948,7 +9948,7 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "06:00",
+   "start": "05:45",
    "end": "07:45",
    "vehicle": "M11",
    "vehicle_type": "Hiace",
@@ -9957,37 +9957,37 @@
     {
      "code": "C5-04",
      "name": "Oud Metha Metro Station",
-     "time": "06:00",
+     "time": "05:45",
      "action": "pick_up"
     },
     {
      "code": "C5-07",
      "name": "World Trade Centre Metro Station",
-     "time": "06:15",
+     "time": "06:00",
      "action": "pick_up"
     },
     {
      "code": "C5-09",
      "name": "Bay Avenue Mall, Business Bay",
-     "time": "06:30",
+     "time": "06:20",
      "action": "pick_up"
     },
     {
      "code": "C5-11",
      "name": "One Park Avenue, Sobha Hartland",
-     "time": "06:45",
+     "time": "06:35",
      "action": "pick_up"
     },
     {
      "code": "C5-14",
      "name": "Meydan Heights, Nad Al Sheba 1",
-     "time": "07:05",
+     "time": "07:00",
      "action": "pick_up"
     },
     {
      "code": "C5-12",
      "name": "Wasl Green Park, Ras Al Khor",
-     "time": "07:25",
+     "time": "07:20",
      "action": "pick_up"
     },
     {
@@ -10486,7 +10486,7 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "06:00",
+   "start": "05:45",
    "end": "07:45",
    "vehicle": "M11",
    "vehicle_type": "Hiace",
@@ -10495,19 +10495,19 @@
     {
      "code": "C5-05",
      "name": "BurJuman Mall",
-     "time": "06:00",
+     "time": "05:45",
      "action": "pick_up"
     },
     {
      "code": "C5-13",
      "name": "Downtown Views II, Zabeel 2",
-     "time": "06:35",
+     "time": "06:25",
      "action": "pick_up"
     },
     {
      "code": "C5-10",
      "name": "Bay Square, Business Bay",
-     "time": "07:00",
+     "time": "06:55",
      "action": "pick_up"
     },
     {
@@ -10859,7 +10859,7 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "06:00",
+   "start": "05:45",
    "end": "07:45",
    "vehicle": "M11",
    "vehicle_type": "Hiace",
@@ -10868,13 +10868,13 @@
     {
      "code": "C5-13",
      "name": "Downtown Views II, Zabeel 2",
-     "time": "06:00",
+     "time": "05:45",
      "action": "pick_up"
     },
     {
      "code": "C5-10",
      "name": "Bay Square, Business Bay",
-     "time": "06:40",
+     "time": "06:30",
      "action": "pick_up"
     },
     {
