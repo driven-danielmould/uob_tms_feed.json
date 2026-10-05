@@ -19,8 +19,9 @@ header .sub{margin:4px 0 0;color:var(--mute);font-size:16px}
 main{padding:12px 12px 60px;max-width:640px;margin:0 auto}
 .off{padding:40px 10px;text-align:center;font-size:24px;font-weight:700;color:var(--mute)}
 .run{margin:0 0 34px}
-.run.R .ban{background:var(--ret)}
-.ban{margin:0 -12px 14px;padding:18px 16px;background:var(--out);color:#fff;border-top:8px solid rgba(0,0,0,.35);border-bottom:8px solid rgba(0,0,0,.35)}
+.ban{margin:0 -12px 14px;padding:18px 16px;background:var(--rc);color:#fff;border-top:8px solid rgba(0,0,0,.35);border-bottom:8px solid rgba(0,0,0,.35)}
+.run .stop{border-left:12px solid var(--rc)}
+.sign{display:inline-block;background:#FFD400;color:#000;font-weight:900;font-size:30px;padding:4px 14px;border-radius:8px;border:3px solid #000;letter-spacing:1px;vertical-align:middle;margin-left:6px;line-height:1.1}
 .ban .r{font-size:44px;font-weight:900;letter-spacing:1px;line-height:1}
 .ban .d{font-size:22px;font-weight:800;margin-top:4px}
 .ban .s{font-size:17px;opacity:.9;margin-top:4px}
@@ -53,7 +54,8 @@ function render(){
  else{
   h+=`<p style="margin:6px 4px 0;font-size:18px;color:var(--mute)">${esc(d.label)} · sign on <b style="color:var(--ink)">${d.sign_on}</b> · sign off <b style="color:var(--ink)">${d.sign_off}</b></p>`;
   d.runs.forEach((r,i)=>{
-   h+=`<section class="run ${r.dir}"><div class="ban"><div class="r">RUN ${i+1}</div><div class="d">${r.dir==="O"?"TO UoB · arrive "+r.target:"FROM UoB · leave "+r.target} · BUS ${esc(r.bus)}</div><div class="s">${r.stops.length-1} stops · ${r.n} passenger${r.n===1?"":"s"}</div></div>`;
+   const RC=["#1565c0","#2e7d32","#c62828","#6a1b9a","#e65100","#00695c","#4e342e","#283593"];
+   h+=`<section class="run ${r.dir}" style="--rc:${RC[i%RC.length]}"><div class="ban"><div class="r">RUN ${i+1} <span class="sign">${esc(r.bus)}</span></div><div class="d">${r.dir==="O"?"TO UoB · arrive "+r.target:"FROM UoB · leave "+r.target}</div><div class="s">${r.stops.length-1} stops · ${r.n} passenger${r.n===1?"":"s"}</div></div>`;
    r.stops.forEach((s,j)=>{
     h+=`<div class="stop ${s.uob?"U":""}"><div class="k">${s.uob?"UoB":"STOP "+(j+1)}</div><div class="nm">${esc(s.name)}</div><div class="tm">${s.time}</div><div class="meta">${s.pax?esc(s.pax)+" · ":""}${esc(s.instr||"")}</div><div class="btns"><a class="w" href="${s.waze}" target="_blank" rel="noopener">WAZE</a><a class="g" href="${s.gmaps}" target="_blank" rel="noopener">GOOGLE MAPS</a></div></div>`});
    h+=`</section>`});
