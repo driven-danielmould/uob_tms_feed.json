@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-05T16:13:49Z",
+ "generated_at": "2026-10-05T16:17:49Z",
  "week": "2026-10-05 to 2026-10-11",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -2534,7 +2534,7 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:40",
+   "start": "05:30",
    "end": "07:45",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
@@ -2543,7 +2543,7 @@
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "05:40",
+     "time": "05:30",
      "action": "pick_up",
      "lat": 25.075735,
      "lng": 55.140981,
@@ -2552,7 +2552,7 @@
     {
      "code": "C2-03",
      "name": "DMCC Metro Station",
-     "time": "05:50",
+     "time": "05:40",
      "action": "pick_up",
      "lat": 25.07122,
      "lng": 55.137072,
@@ -2570,7 +2570,7 @@
     {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "06:25",
+     "time": "06:30",
      "action": "pick_up",
      "lat": 25.093492,
      "lng": 55.177807,
@@ -2579,7 +2579,7 @@
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "06:35",
+     "time": "06:40",
      "action": "pick_up",
      "lat": 25.1020158,
      "lng": 55.173639,
@@ -2588,20 +2588,11 @@
     {
      "code": "C2-10",
      "name": "Al Manaf Building, Al Barsha 1",
-     "time": "06:55",
+     "time": "07:00",
      "action": "pick_up",
      "lat": 25.1110756,
      "lng": 55.2057285,
      "where_exactly": "Kerbside outside the building entrance; do not enter the car park."
-    },
-    {
-     "code": "C2-08",
-     "name": "Mall of the Emirates",
-     "time": "07:05",
-     "action": "pick_up",
-     "lat": 25.1201411,
-     "lng": 55.2011196,
-     "where_exactly": "Pick-up point at 25.1201411, 55.2011196 (metro side)."
     },
     {
      "code": "UOB",
@@ -5769,13 +5760,13 @@
      "where_exactly": "Pick and drop area outside the Al Asmawi Building."
     },
     {
-     "code": "C2-08",
-     "name": "Mall of the Emirates",
+     "code": "C2-10",
+     "name": "Al Manaf Building, Al Barsha 1",
      "time": "12:00",
      "action": "pick_up",
-     "lat": 25.1201411,
-     "lng": 55.2011196,
-     "where_exactly": "Pick-up point at 25.1201411, 55.2011196 (metro side)."
+     "lat": 25.1110756,
+     "lng": 55.2057285,
+     "where_exactly": "Kerbside outside the building entrance; do not enter the car park."
     },
     {
      "code": "UOB",
@@ -11886,7 +11877,7 @@
     {
      "code": "C2-09",
      "name": "Springs 10 Gatehouse",
-     "time": "05:35",
+     "time": "05:45",
      "action": "pick_up",
      "lat": 25.0556628,
      "lng": 55.1803096,
@@ -11895,7 +11886,7 @@
     {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "06:05",
+     "time": "06:15",
      "action": "pick_up",
      "lat": 25.093492,
      "lng": 55.177807,
@@ -11904,7 +11895,7 @@
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "06:20",
+     "time": "06:35",
      "action": "pick_up",
      "lat": 25.1020158,
      "lng": 55.173639,
@@ -11913,20 +11904,11 @@
     {
      "code": "C2-10",
      "name": "Al Manaf Building, Al Barsha 1",
-     "time": "06:45",
+     "time": "06:55",
      "action": "pick_up",
      "lat": 25.1110756,
      "lng": 55.2057285,
      "where_exactly": "Kerbside outside the building entrance; do not enter the car park."
-    },
-    {
-     "code": "C2-08",
-     "name": "Mall of the Emirates",
-     "time": "06:55",
-     "action": "pick_up",
-     "lat": 25.1201411,
-     "lng": 55.2011196,
-     "where_exactly": "Pick-up point at 25.1201411, 55.2011196 (metro side)."
     },
     {
      "code": "UOB",
