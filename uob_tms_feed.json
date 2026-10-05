@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-05T07:12:42Z",
+ "generated_at": "2026-10-05T07:44:23Z",
  "week": "2026-10-05 to 2026-10-11",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included.",
@@ -2092,7 +2092,7 @@
    "arrive_campus": null,
    "leave_campus": "16:55",
    "start": "16:55",
-   "end": "19:35",
+   "end": "19:17",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -2140,27 +2140,21 @@
      "action": "set_down"
     },
     {
-     "code": "C3-05",
-     "name": "City Centre Me'aisem",
-     "time": "18:53",
-     "action": "set_down"
-    },
-    {
      "code": "C3-03",
      "name": "Dubai Miracle Garden",
-     "time": "19:11",
+     "time": "18:53",
      "action": "set_down"
     },
     {
      "code": "C3-02",
      "name": "Circle Mall, JVC",
-     "time": "19:24",
+     "time": "19:06",
      "action": "set_down"
     },
     {
      "code": "C3-18",
      "name": "Tuscan Residence Siena 1, JVC",
-     "time": "19:32",
+     "time": "19:14",
      "action": "set_down"
     }
    ]
@@ -2236,13 +2230,19 @@
     {
      "code": "C3-15",
      "name": "Silicon Oasis Avenue Mall 2",
-     "time": "22:06",
+     "time": "22:01",
+     "action": "set_down"
+    },
+    {
+     "code": "C3-05",
+     "name": "City Centre Me'aisem",
+     "time": "22:41",
      "action": "set_down"
     },
     {
      "code": "C3-17",
      "name": "Eagle Heights, Dubai Sports City",
-     "time": "22:56",
+     "time": "23:01",
      "action": "set_down"
     },
     {
