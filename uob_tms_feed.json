@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-05T06:44:35Z",
+ "generated_at": "2026-10-05T06:52:52Z",
  "week": "2026-10-05 to 2026-10-11",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included.",
@@ -3484,7 +3484,7 @@
    "service": "undergraduate",
    "arrive_campus": "10:45",
    "leave_campus": null,
-   "start": "08:40",
+   "start": "08:00",
    "end": "10:45",
    "vehicle": "M13",
    "vehicle_type": "Rosa",
@@ -3493,25 +3493,25 @@
     {
      "code": "C2-01",
      "name": "Al Sarood, Shoreline 13, Palm Jumeirah",
-     "time": "08:40",
+     "time": "08:00",
      "action": "pick_up"
     },
     {
      "code": "C2-09",
      "name": "Springs 10 Gatehouse",
-     "time": "09:10",
+     "time": "08:40",
      "action": "pick_up"
     },
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "09:40",
+     "time": "09:20",
      "action": "pick_up"
     },
     {
      "code": "C2-10",
      "name": "Al Manaf Building, Al Barsha 1",
-     "time": "10:05",
+     "time": "09:50",
      "action": "pick_up"
     },
     {
@@ -5666,7 +5666,7 @@
    "service": "undergraduate",
    "arrive_campus": "10:45",
    "leave_campus": null,
-   "start": "08:35",
+   "start": "08:00",
    "end": "10:45",
    "vehicle": "M5",
    "vehicle_type": "Hiace",
@@ -5675,43 +5675,43 @@
     {
      "code": "C2-01",
      "name": "Al Sarood, Shoreline 13, Palm Jumeirah",
-     "time": "08:35",
+     "time": "08:00",
      "action": "pick_up"
     },
     {
      "code": "C2-03",
      "name": "DMCC Metro Station",
-     "time": "09:00",
+     "time": "08:30",
      "action": "pick_up"
     },
     {
      "code": "C2-04",
      "name": "Sobha Realty Metro Station",
-     "time": "09:10",
+     "time": "08:45",
      "action": "pick_up"
     },
     {
      "code": "C2-09",
      "name": "Springs 10 Gatehouse",
-     "time": "09:35",
+     "time": "09:15",
      "action": "pick_up"
     },
     {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "09:50",
+     "time": "09:35",
      "action": "pick_up"
     },
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "10:00",
+     "time": "09:50",
      "action": "pick_up"
     },
     {
      "code": "C2-10",
      "name": "Al Manaf Building, Al Barsha 1",
-     "time": "10:15",
+     "time": "10:05",
      "action": "pick_up"
     },
     {
