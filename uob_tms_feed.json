@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-05T06:52:52Z",
+ "generated_at": "2026-10-05T07:12:42Z",
  "week": "2026-10-05 to 2026-10-11",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included.",
@@ -2301,7 +2301,13 @@
     {
      "code": "C4-12",
      "name": "Al Furjan Centre (Pavilion)",
-     "time": "06:55",
+     "time": "06:50",
+     "action": "pick_up"
+    },
+    {
+     "code": "C4-16",
+     "name": "Discovery Gardens Metro Station",
+     "time": "07:00",
      "action": "pick_up"
     },
     {
@@ -2475,9 +2481,15 @@
      "action": "set_down"
     },
     {
+     "code": "C4-16",
+     "name": "Discovery Gardens Metro Station",
+     "time": "17:35",
+     "action": "set_down"
+    },
+    {
      "code": "C4-12",
      "name": "Al Furjan Centre (Pavilion)",
-     "time": "17:40",
+     "time": "17:45",
      "action": "set_down"
     },
     {
@@ -4563,27 +4575,27 @@
      "action": "pick_up"
     },
     {
-     "code": "C4-13",
-     "name": "Gardens Metro Station",
+     "code": "C4-16",
+     "name": "Discovery Gardens Metro Station",
      "time": "18:50",
      "action": "set_down"
     },
     {
      "code": "C4-12",
      "name": "Al Furjan Centre (Pavilion)",
-     "time": "19:05",
+     "time": "19:00",
      "action": "set_down"
     },
     {
      "code": "C4-10",
      "name": "Green Community West gate",
-     "time": "19:20",
+     "time": "19:15",
      "action": "set_down"
     },
     {
      "code": "C4-08",
      "name": "Al Ghadeer community gate",
-     "time": "19:45",
+     "time": "19:40",
      "action": "set_down"
     },
     {
@@ -6709,7 +6721,7 @@
    "arrive_campus": null,
    "leave_campus": "16:55",
    "start": "16:55",
-   "end": "20:15",
+   "end": "20:17",
    "vehicle": "M8",
    "vehicle_type": "Rosa",
    "seats": 34,
@@ -6727,45 +6739,51 @@
      "action": "set_down"
     },
     {
+     "code": "C4-16",
+     "name": "Discovery Gardens Metro Station",
+     "time": "17:33",
+     "action": "set_down"
+    },
+    {
      "code": "C4-12",
      "name": "Al Furjan Centre (Pavilion)",
-     "time": "17:39",
+     "time": "17:41",
      "action": "set_down"
     },
     {
      "code": "C4-11",
      "name": "Al Furjan West Centre",
-     "time": "17:47",
+     "time": "17:49",
      "action": "set_down"
     },
     {
      "code": "C4-07",
      "name": "Al Zeina, Al Raha Beach",
-     "time": "19:10",
+     "time": "19:12",
      "action": "set_down"
     },
     {
      "code": "C4-18",
      "name": "Super Nanny Nursery, Khalifa City, Abu Dhabi",
-     "time": "19:28",
+     "time": "19:30",
      "action": "set_down"
     },
     {
      "code": "C4-04",
      "name": "Mubadala Tower, Sultan Bin Zayed St",
-     "time": "19:46",
+     "time": "19:48",
      "action": "set_down"
     },
     {
      "code": "C4-03",
      "name": "Al Wahda Mall",
-     "time": "20:04",
+     "time": "20:06",
      "action": "set_down"
     },
     {
      "code": "C4-01",
      "name": "Al Mariah Mall, Hamdan St",
-     "time": "20:12",
+     "time": "20:14",
      "action": "set_down"
     }
    ]
@@ -8516,7 +8534,7 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "04:26",
+   "start": "04:27",
    "end": "07:45",
    "vehicle": "M8",
    "vehicle_type": "Rosa",
@@ -8525,67 +8543,67 @@
     {
      "code": "C4-01",
      "name": "Al Mariah Mall, Hamdan St",
-     "time": "04:26",
+     "time": "04:27",
      "action": "pick_up"
     },
     {
      "code": "C4-03",
      "name": "Al Wahda Mall",
-     "time": "04:34",
+     "time": "04:35",
      "action": "pick_up"
     },
     {
      "code": "C4-04",
      "name": "Mubadala Tower, Sultan Bin Zayed St",
-     "time": "04:52",
+     "time": "04:53",
      "action": "pick_up"
     },
     {
      "code": "C4-18",
      "name": "Super Nanny Nursery, Khalifa City, Abu Dhabi",
-     "time": "05:10",
+     "time": "05:11",
      "action": "pick_up"
     },
     {
      "code": "C4-06",
      "name": "Al Forsan Village main gate",
-     "time": "05:18",
+     "time": "05:19",
      "action": "pick_up"
     },
     {
      "code": "C4-07",
      "name": "Al Zeina, Al Raha Beach",
-     "time": "05:31",
+     "time": "05:32",
      "action": "pick_up"
     },
     {
      "code": "C4-15",
      "name": "Deerfields Mall, Al Bahia",
-     "time": "05:49",
+     "time": "05:50",
      "action": "pick_up"
     },
     {
      "code": "C4-11",
      "name": "Al Furjan West Centre",
-     "time": "06:47",
+     "time": "06:48",
      "action": "pick_up"
     },
     {
      "code": "C4-12",
      "name": "Al Furjan Centre (Pavilion)",
-     "time": "06:55",
+     "time": "06:56",
      "action": "pick_up"
     },
     {
      "code": "C4-16",
      "name": "Discovery Gardens Metro Station",
-     "time": "07:03",
+     "time": "07:04",
      "action": "pick_up"
     },
     {
      "code": "C4-13",
      "name": "Gardens Metro Station",
-     "time": "07:11",
+     "time": "07:12",
      "action": "pick_up"
     },
     {
