@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-06T10:21:17Z",
+ "generated_at": "2026-10-06T10:49:48Z",
  "week": "2026-10-05 to 2026-10-11",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -11406,9 +11406,18 @@
      "where_exactly": "Bus stop by Al Buhaira Police Station on Al Intifada St; 2 minutes maximum."
     },
     {
+     "code": "C1-21",
+     "name": "Sahab Al Emarat, Al Mamzar, Sharjah",
+     "time": "09:20",
+     "action": "pick_up",
+     "lat": 25.31578,
+     "lng": 55.35863,
+     "where_exactly": "Kerbside on Corniche Rd outside Sahab Al Emarat."
+    },
+    {
      "code": "C1-16",
      "name": "LuLu Hypermarket Al Nahda, Sharjah",
-     "time": "09:25",
+     "time": "09:35",
      "action": "pick_up",
      "lat": 25.303505,
      "lng": 55.375491,
@@ -11417,7 +11426,7 @@
     {
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
-     "time": "09:40",
+     "time": "09:45",
      "action": "pick_up",
      "lat": 25.288631,
      "lng": 55.364044,
@@ -11426,7 +11435,7 @@
     {
      "code": "C1-15",
      "name": "Wasl Village, Central Parking",
-     "time": "10:00",
+     "time": "10:05",
      "action": "pick_up",
      "lat": 25.289501,
      "lng": 55.4111465,
@@ -11435,7 +11444,7 @@
     {
      "code": "C1-23",
      "name": "Centrepoint, Mirdif City Centre",
-     "time": "10:05",
+     "time": "10:10",
      "action": "pick_up",
      "lat": 25.2180926,
      "lng": 55.4085703,
@@ -11822,6 +11831,15 @@
      "lat": 25.269845,
      "lng": 55.37554,
      "where_exactly": "\"Pick & Drop Only\" bay outside Exit 2 of DAFZA Metro Station, by KP Chai (Sharjah-bound side)."
+    },
+    {
+     "code": "C1-21",
+     "name": "Sahab Al Emarat, Al Mamzar, Sharjah",
+     "time": "18:50",
+     "action": "set_down",
+     "lat": 25.31578,
+     "lng": 55.35863,
+     "where_exactly": "Kerbside on Corniche Rd outside Sahab Al Emarat."
     },
     {
      "code": "C1-18",
