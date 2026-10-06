@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-06T12:59:20Z",
+ "generated_at": "2026-10-06T14:29:12Z",
  "week": "2026-10-05 to 2026-10-11",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -10832,15 +10832,6 @@
      "where_exactly": "RTA bus stop Oud Metha 1, other side of the road, outside Super Saver supermarket."
     },
     {
-     "code": "C5-08",
-     "name": "Financial Centre Metro Station",
-     "time": "08:35",
-     "action": "pick_up",
-     "lat": 25.2111662,
-     "lng": 55.2755821,
-     "where_exactly": "In front of Avis (Sheikh Al Mur Tower), at the bus pick-up and drop-off point."
-    },
-    {
      "code": "C5-09",
      "name": "Bay Avenue Mall, Business Bay",
      "time": "08:50",
@@ -11122,15 +11113,6 @@
      "lat": 25.191143,
      "lng": 55.265598,
      "where_exactly": "North Entrance pick and drop area, Bay Avenue Mall."
-    },
-    {
-     "code": "C5-08",
-     "name": "Financial Centre Metro Station",
-     "time": "17:55",
-     "action": "set_down",
-     "lat": 25.211098,
-     "lng": 55.275887,
-     "where_exactly": "In front of Avis (Sheikh Al Mur Tower), at the bus pick-up and drop-off point."
     },
     {
      "code": "C5-17",
@@ -14067,15 +14049,6 @@
      "where_exactly": "S2/PR399 Al Wasl Bldg Block A, 4B St."
     },
     {
-     "code": "C5-08",
-     "name": "Financial Centre Metro Station",
-     "time": "11:58",
-     "action": "pick_up",
-     "lat": 25.2111662,
-     "lng": 55.2755821,
-     "where_exactly": "In front of Avis (Sheikh Al Mur Tower), at the bus pick-up and drop-off point."
-    },
-    {
      "code": "C5-09",
      "name": "Bay Avenue Mall, Business Bay",
      "time": "12:06",
@@ -14229,7 +14202,7 @@
    "arrive_campus": null,
    "leave_campus": "16:55",
    "start": "16:55",
-   "end": "18:45",
+   "end": "18:00",
    "vehicle": "M12",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -14260,15 +14233,6 @@
      "lat": 25.14468,
      "lng": 55.3152,
      "where_exactly": "Meydan Heights villas gate, Nad Al Sheba 1."
-    },
-    {
-     "code": "C5-08",
-     "name": "Financial Centre Metro Station",
-     "time": "18:45",
-     "action": "set_down",
-     "lat": 25.211098,
-     "lng": 55.275887,
-     "where_exactly": "In front of Avis (Sheikh Al Mur Tower), at the bus pick-up and drop-off point."
     }
    ]
   },
