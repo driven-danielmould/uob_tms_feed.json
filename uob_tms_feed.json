@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-06T16:08:04Z",
+ "generated_at": "2026-10-06T16:10:35Z",
  "week": "2026-10-05 to 2026-10-11",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -1181,8 +1181,27 @@
    "color": "#d4537e",
    "stops": [
     {
-     "code": "C4-01",
+     "code": "C4-22",
      "order": 1,
+     "name": "Silver Tower, Al Marakib St, Corniche Area, Abu Dhabi",
+     "lat": 24.4924576,
+     "lng": 54.3588004,
+     "google_place_id": "ChIJrXs0QmNmXj4R4DY0p7LmP-c",
+     "where_exactly": "Kerbside outside Silver Tower on Al Marakib Street - 900 m west of Al Mariah Mall; kerb to confirm.",
+     "pickup_lat": 24.4924576,
+     "pickup_lng": 54.3588004,
+     "pickup_where_exactly": "Kerbside outside Silver Tower on Al Marakib Street - 900 m west of Al Mariah Mall; kerb to confirm.",
+     "setdown_lat": 24.4924576,
+     "setdown_lng": 54.3588004,
+     "setdown_where_exactly": "Kerbside outside Silver Tower on Al Marakib Street - 900 m west of Al Mariah Mall; kerb to confirm.",
+     "audited": false,
+     "rider_instructions": "Wait outside Silver Tower on Al Marakib Street. Be here 5 minutes before your time and look for the yellow M sign in the bus windscreen.",
+     "driver_instructions": "Kerbside outside Silver Tower on Al Marakib Street, Corniche area, Abu Dhabi, 900 m west of Al Mariah Mall. Only served on booked days.",
+     "type": "rider_only"
+    },
+    {
+     "code": "C4-01",
+     "order": 2,
      "name": "Al Mariah Mall, Hamdan St",
      "lat": 24.494038,
      "lng": 54.366864,
@@ -1201,7 +1220,7 @@
     },
     {
      "code": "C4-17",
-     "order": 2,
+     "order": 3,
      "name": "Al Falah St / Ministry of Finance bus stop",
      "lat": 24.4843472,
      "lng": 54.377167,
@@ -1220,7 +1239,7 @@
     },
     {
      "code": "C4-02",
-     "order": 3,
+     "order": 4,
      "name": "The Gate Towers, Al Reem Island",
      "lat": 24.492995,
      "lng": 54.408057,
@@ -1239,7 +1258,7 @@
     },
     {
      "code": "C4-21",
-     "order": 4,
+     "order": 5,
      "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
      "lat": 24.4757537,
      "lng": 54.3663931,
@@ -1258,7 +1277,7 @@
     },
     {
      "code": "C4-03",
-     "order": 5,
+     "order": 6,
      "name": "Al Wahda Mall",
      "lat": 24.471638,
      "lng": 54.372417,
@@ -1277,7 +1296,7 @@
     },
     {
      "code": "C4-04",
-     "order": 6,
+     "order": 7,
      "name": "Mubadala Tower, Sultan Bin Zayed St",
      "lat": 24.422482,
      "lng": 54.4544203,
@@ -1296,7 +1315,7 @@
     },
     {
      "code": "C4-05",
-     "order": 7,
+     "order": 8,
      "name": "Yasmina School back gate, Raha Gardens",
      "lat": 24.426,
      "lng": 54.5467,
@@ -1315,7 +1334,7 @@
     },
     {
      "code": "C4-18",
-     "order": 8,
+     "order": 9,
      "name": "Super Nanny Nursery, Khalifa City, Abu Dhabi",
      "lat": 24.41338,
      "lng": 54.5594598,
@@ -1334,7 +1353,7 @@
     },
     {
      "code": "C4-06",
-     "order": 9,
+     "order": 10,
      "name": "Al Forsan Village main gate",
      "lat": 24.4044,
      "lng": 54.5514,
@@ -1353,7 +1372,7 @@
     },
     {
      "code": "C4-07",
-     "order": 10,
+     "order": 11,
      "name": "Al Zeina, Al Raha Beach",
      "lat": 24.4555591,
      "lng": 54.6131136,
@@ -1372,7 +1391,7 @@
     },
     {
      "code": "C4-15",
-     "order": 11,
+     "order": 12,
      "name": "Deerfields Mall, Al Bahia",
      "lat": 24.523305,
      "lng": 54.671536,
@@ -1391,7 +1410,7 @@
     },
     {
      "code": "C4-08",
-     "order": 12,
+     "order": 13,
      "name": "Al Ghadeer community gate",
      "lat": 24.8443745,
      "lng": 55.0261656,
@@ -1410,7 +1429,7 @@
     },
     {
      "code": "C4-09",
-     "order": 13,
+     "order": 14,
      "name": "Holiday Inn, Al Maktoum Airport",
      "lat": 24.867791,
      "lng": 55.146192,
@@ -1429,7 +1448,7 @@
     },
     {
      "code": "C4-10",
-     "order": 14,
+     "order": 15,
      "name": "Green Community West gate",
      "lat": 25.001812,
      "lng": 55.164068,
@@ -1448,7 +1467,7 @@
     },
     {
      "code": "C4-11",
-     "order": 15,
+     "order": 16,
      "name": "Al Furjan West Centre",
      "lat": 25.021958,
      "lng": 55.129796,
@@ -1467,7 +1486,7 @@
     },
     {
      "code": "C4-12",
-     "order": 16,
+     "order": 17,
      "name": "Al Furjan Centre (Pavilion)",
      "lat": 25.026111,
      "lng": 55.153303,
@@ -1486,7 +1505,7 @@
     },
     {
      "code": "C4-19",
-     "order": 17,
+     "order": 18,
      "name": "Masakin Al Furjan Gate 2, Al Furjan",
      "lat": 25.0308,
      "lng": 55.14978,
@@ -1505,7 +1524,7 @@
     },
     {
      "code": "C4-16",
-     "order": 18,
+     "order": 19,
      "name": "Discovery Gardens Metro Station",
      "lat": 25.035204,
      "lng": 55.1453653,
@@ -1524,7 +1543,7 @@
     },
     {
      "code": "C4-13",
-     "order": 19,
+     "order": 20,
      "name": "Gardens Metro Station",
      "lat": 25.043761,
      "lng": 55.134832,
@@ -1543,7 +1562,7 @@
     },
     {
      "code": "C4-14",
-     "order": 20,
+     "order": 21,
      "name": "Dubai British School, Jumeirah Park",
      "lat": 25.043026,
      "lng": 55.15753,
@@ -3761,13 +3780,13 @@
    "seats": 12,
    "stops": [
     {
-     "code": "C4-01",
-     "name": "Al Mariah Mall, Hamdan St",
+     "code": "C4-22",
+     "name": "Silver Tower, Al Marakib St, Corniche Area, Abu Dhabi",
      "time": "04:50",
      "action": "pick_up",
-     "lat": 24.494038,
-     "lng": 54.366864,
-     "where_exactly": "Outside the front of Al Mariah Mall."
+     "lat": 24.4924576,
+     "lng": 54.3588004,
+     "where_exactly": "Kerbside outside Silver Tower on Al Marakib Street - 900 m west of Al Mariah Mall; kerb to confirm."
     },
     {
      "code": "C4-03",
@@ -3985,7 +4004,7 @@
     {
      "code": "C4-06",
      "name": "Al Forsan Village main gate",
-     "time": "16:20",
+     "time": "16:15",
      "action": "set_down",
      "lat": 24.4044,
      "lng": 54.5514,
@@ -3994,11 +4013,20 @@
     {
      "code": "C4-01",
      "name": "Al Mariah Mall, Hamdan St",
-     "time": "16:50",
+     "time": "16:40",
      "action": "set_down",
      "lat": 24.494038,
      "lng": 54.366864,
      "where_exactly": "Outside the front of Al Mariah Mall."
+    },
+    {
+     "code": "C4-22",
+     "name": "Silver Tower, Al Marakib St, Corniche Area, Abu Dhabi",
+     "time": "16:50",
+     "action": "set_down",
+     "lat": 24.4924576,
+     "lng": 54.3588004,
+     "where_exactly": "Kerbside outside Silver Tower on Al Marakib Street - 900 m west of Al Mariah Mall; kerb to confirm."
     }
    ]
   },
@@ -7152,16 +7180,25 @@
    "service": "undergraduate",
    "arrive_campus": "12:45",
    "leave_campus": null,
-   "start": "10:10",
+   "start": "10:11",
    "end": "12:45",
    "vehicle": "M10",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
     {
+     "code": "C4-22",
+     "name": "Silver Tower, Al Marakib St, Corniche Area, Abu Dhabi",
+     "time": "10:11",
+     "action": "pick_up",
+     "lat": 24.4924576,
+     "lng": 54.3588004,
+     "where_exactly": "Kerbside outside Silver Tower on Al Marakib Street - 900 m west of Al Mariah Mall; kerb to confirm."
+    },
+    {
      "code": "C4-01",
      "name": "Al Mariah Mall, Hamdan St",
-     "time": "10:10",
+     "time": "10:19",
      "action": "pick_up",
      "lat": 24.494038,
      "lng": 54.366864,
@@ -7170,7 +7207,7 @@
     {
      "code": "C4-21",
      "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
-     "time": "10:25",
+     "time": "10:32",
      "action": "pick_up",
      "lat": 24.4757537,
      "lng": 54.3663931,
@@ -7179,7 +7216,7 @@
     {
      "code": "C4-11",
      "name": "Al Furjan West Centre",
-     "time": "11:45",
+     "time": "11:50",
      "action": "pick_up",
      "lat": 25.021958,
      "lng": 55.129796,
@@ -7188,7 +7225,7 @@
     {
      "code": "C4-19",
      "name": "Masakin Al Furjan Gate 2, Al Furjan",
-     "time": "12:00",
+     "time": "12:03",
      "action": "pick_up",
      "lat": 25.0308,
      "lng": 55.14978,
@@ -7197,7 +7234,7 @@
     {
      "code": "C4-16",
      "name": "Discovery Gardens Metro Station",
-     "time": "12:05",
+     "time": "12:09",
      "action": "pick_up",
      "lat": 25.035204,
      "lng": 55.1453653,
@@ -7206,7 +7243,7 @@
     {
      "code": "C4-13",
      "name": "Gardens Metro Station",
-     "time": "12:15",
+     "time": "12:17",
      "action": "pick_up",
      "lat": 25.043761,
      "lng": 55.134832,
@@ -7517,7 +7554,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "21:10",
+   "end": "21:15",
    "vehicle": "M8",
    "vehicle_type": "Rosa",
    "seats": 34,
@@ -7570,7 +7607,7 @@
     {
      "code": "C4-21",
      "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
-     "time": "21:00",
+     "time": "20:55",
      "action": "set_down",
      "lat": 24.4757537,
      "lng": 54.3663931,
@@ -7579,11 +7616,20 @@
     {
      "code": "C4-01",
      "name": "Al Mariah Mall, Hamdan St",
-     "time": "21:10",
+     "time": "21:05",
      "action": "set_down",
      "lat": 24.494038,
      "lng": 54.366864,
      "where_exactly": "Outside the front of Al Mariah Mall."
+    },
+    {
+     "code": "C4-22",
+     "name": "Silver Tower, Al Marakib St, Corniche Area, Abu Dhabi",
+     "time": "21:15",
+     "action": "set_down",
+     "lat": 24.4924576,
+     "lng": 54.3588004,
+     "where_exactly": "Kerbside outside Silver Tower on Al Marakib Street - 900 m west of Al Mariah Mall; kerb to confirm."
     }
    ]
   },
@@ -10426,20 +10472,20 @@
    "service": "undergraduate",
    "arrive_campus": "12:45",
    "leave_campus": null,
-   "start": "10:15",
+   "start": "10:10",
    "end": "12:45",
    "vehicle": "M9",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
     {
-     "code": "C4-01",
-     "name": "Al Mariah Mall, Hamdan St",
-     "time": "10:15",
+     "code": "C4-22",
+     "name": "Silver Tower, Al Marakib St, Corniche Area, Abu Dhabi",
+     "time": "10:10",
      "action": "pick_up",
-     "lat": 24.494038,
-     "lng": 54.366864,
-     "where_exactly": "Outside the front of Al Mariah Mall."
+     "lat": 24.4924576,
+     "lng": 54.3588004,
+     "where_exactly": "Kerbside outside Silver Tower on Al Marakib Street - 900 m west of Al Mariah Mall; kerb to confirm."
     },
     {
      "code": "C4-11",
@@ -10577,7 +10623,7 @@
    "arrive_campus": null,
    "leave_campus": "16:55",
    "start": "16:55",
-   "end": "20:14",
+   "end": "20:19",
    "vehicle": "M8",
    "vehicle_type": "Rosa",
    "seats": 34,
@@ -10680,6 +10726,15 @@
      "lat": 24.494038,
      "lng": 54.366864,
      "where_exactly": "Outside the front of Al Mariah Mall."
+    },
+    {
+     "code": "C4-22",
+     "name": "Silver Tower, Al Marakib St, Corniche Area, Abu Dhabi",
+     "time": "20:19",
+     "action": "set_down",
+     "lat": 24.4924576,
+     "lng": 54.3588004,
+     "where_exactly": "Kerbside outside Silver Tower on Al Marakib Street - 900 m west of Al Mariah Mall; kerb to confirm."
     }
    ]
   },
