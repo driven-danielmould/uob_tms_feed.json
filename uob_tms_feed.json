@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-06T15:43:06Z",
+ "generated_at": "2026-10-06T15:45:04Z",
  "week": "2026-10-05 to 2026-10-11",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -1238,27 +1238,8 @@
      "type": "public"
     },
     {
-     "code": "C4-03",
-     "order": 4,
-     "name": "Al Wahda Mall",
-     "lat": 24.471638,
-     "lng": 54.372417,
-     "google_place_id": "ChIJW9qY8TxmXj4RzUExrgrD5XI",
-     "where_exactly": "Bus stop shelter by Al Wahda Mall (as shown in the photo).",
-     "pickup_lat": 24.471638,
-     "pickup_lng": 54.372417,
-     "pickup_where_exactly": "Bus stop shelter by Al Wahda Mall (as shown in the photo).",
-     "setdown_lat": 24.471631,
-     "setdown_lng": 54.372867,
-     "setdown_where_exactly": "Bus stop shelter by Al Wahda Mall (as shown in the photo).",
-     "audited": true,
-     "rider_instructions": "Wait at the public bus stop on the Al Danah side of Hazza Bin Zayed St, opposite Al Wahda Mall. You do not need to cross the road. Be here 5 minutes before your time and look for the yellow M sign in the bus windscreen.",
-     "driver_instructions": "Public bus stop \"Hazza Bin Zayed St / Al Wahda Mall\" on the Al Danah (west) side, opposite the mall. Use the bus bay; do not cross to the mall drop-off. Bus stop: 2 minutes maximum.",
-     "type": "public"
-    },
-    {
      "code": "C4-21",
-     "order": 5,
+     "order": 4,
      "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
      "lat": 24.4757537,
      "lng": 54.3663931,
@@ -1273,6 +1254,25 @@
      "audited": false,
      "rider_instructions": "Wait outside Ramee Garden Hotel Apartments on Airport Road. Be here 5 minutes before your time and look for the yellow M sign in the bus windscreen.",
      "driver_instructions": "Kerbside on Airport Road at the Al Falah Street junction, outside Ramee Garden Hotel Apartments (opposite NBAD), Al Danah, Abu Dhabi. Southbound side for pick-ups, northbound for set-downs. Public stop.",
+     "type": "public"
+    },
+    {
+     "code": "C4-03",
+     "order": 5,
+     "name": "Al Wahda Mall",
+     "lat": 24.471638,
+     "lng": 54.372417,
+     "google_place_id": "ChIJW9qY8TxmXj4RzUExrgrD5XI",
+     "where_exactly": "Bus stop shelter by Al Wahda Mall (as shown in the photo).",
+     "pickup_lat": 24.471638,
+     "pickup_lng": 54.372417,
+     "pickup_where_exactly": "Bus stop shelter by Al Wahda Mall (as shown in the photo).",
+     "setdown_lat": 24.471631,
+     "setdown_lng": 54.372867,
+     "setdown_where_exactly": "Bus stop shelter by Al Wahda Mall (as shown in the photo).",
+     "audited": true,
+     "rider_instructions": "Wait at the public bus stop on the Al Danah side of Hazza Bin Zayed St, opposite Al Wahda Mall. You do not need to cross the road. Be here 5 minutes before your time and look for the yellow M sign in the bus windscreen.",
+     "driver_instructions": "Public bus stop \"Hazza Bin Zayed St / Al Wahda Mall\" on the Al Danah (west) side, opposite the mall. Use the bus bay; do not cross to the mall drop-off. Bus stop: 2 minutes maximum.",
      "type": "public"
     },
     {
@@ -4032,14 +4032,14 @@
      "action": "pick_up"
     },
     {
-     "code": "C4-03",
-     "name": "Al Wahda Mall",
+     "code": "C4-21",
+     "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
      "time": "15:31",
      "action": "pick_up"
     },
     {
-     "code": "C4-21",
-     "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
+     "code": "C4-03",
+     "name": "Al Wahda Mall",
      "time": "15:41",
      "action": "pick_up"
     },
@@ -4367,14 +4367,14 @@
      "action": "set_down"
     },
     {
-     "code": "C4-21",
-     "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
+     "code": "C4-03",
+     "name": "Al Wahda Mall",
      "time": "23:36",
      "action": "set_down"
     },
     {
-     "code": "C4-03",
-     "name": "Al Wahda Mall",
+     "code": "C4-21",
+     "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
      "time": "23:46",
      "action": "set_down"
     },
@@ -7333,14 +7333,14 @@
      "action": "pick_up"
     },
     {
-     "code": "C4-03",
-     "name": "Al Wahda Mall",
+     "code": "C4-21",
+     "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
      "time": "15:31",
      "action": "pick_up"
     },
     {
-     "code": "C4-21",
-     "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
+     "code": "C4-03",
+     "name": "Al Wahda Mall",
      "time": "15:41",
      "action": "pick_up"
     },
@@ -7677,14 +7677,14 @@
      "action": "set_down"
     },
     {
-     "code": "C4-21",
-     "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
+     "code": "C4-03",
+     "name": "Al Wahda Mall",
      "time": "23:36",
      "action": "set_down"
     },
     {
-     "code": "C4-03",
-     "name": "Al Wahda Mall",
+     "code": "C4-21",
+     "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
      "time": "23:46",
      "action": "set_down"
     },
@@ -10237,15 +10237,6 @@
      "where_exactly": "Outside the front of Al Mariah Mall."
     },
     {
-     "code": "C4-03",
-     "name": "Al Wahda Mall",
-     "time": "05:05",
-     "action": "pick_up",
-     "lat": 24.471638,
-     "lng": 54.372417,
-     "where_exactly": "Bus stop shelter by Al Wahda Mall (as shown in the photo)."
-    },
-    {
      "code": "C4-21",
      "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
      "time": "05:00",
@@ -10253,6 +10244,15 @@
      "lat": 24.4757537,
      "lng": 54.3663931,
      "where_exactly": "Kerbside on Airport Road (Sheikh Rashid Bin Saeed St) at the Al Falah Street junction, outside Ramee Garden Hotel Apartments opposite NBAD - southbound side for pick-ups (towards Al Wahda), northbound side for set-downs."
+    },
+    {
+     "code": "C4-03",
+     "name": "Al Wahda Mall",
+     "time": "05:05",
+     "action": "pick_up",
+     "lat": 24.471638,
+     "lng": 54.372417,
+     "where_exactly": "Bus stop shelter by Al Wahda Mall (as shown in the photo)."
     },
     {
      "code": "C4-18",
@@ -10646,15 +10646,6 @@
      "where_exactly": "Outside the tower, Sultan Bin Zayed the First St."
     },
     {
-     "code": "C4-21",
-     "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
-     "time": "20:10",
-     "action": "set_down",
-     "lat": 24.4757537,
-     "lng": 54.3663931,
-     "where_exactly": "Kerbside on Airport Road (Sheikh Rashid Bin Saeed St) at the Al Falah Street junction, outside Ramee Garden Hotel Apartments opposite NBAD - southbound side for pick-ups (towards Al Wahda), northbound side for set-downs."
-    },
-    {
      "code": "C4-03",
      "name": "Al Wahda Mall",
      "time": "20:06",
@@ -10662,6 +10653,15 @@
      "lat": 24.471631,
      "lng": 54.372867,
      "where_exactly": "Bus stop shelter by Al Wahda Mall (as shown in the photo)."
+    },
+    {
+     "code": "C4-21",
+     "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
+     "time": "20:10",
+     "action": "set_down",
+     "lat": 24.4757537,
+     "lng": 54.3663931,
+     "where_exactly": "Kerbside on Airport Road (Sheikh Rashid Bin Saeed St) at the Al Falah Street junction, outside Ramee Garden Hotel Apartments opposite NBAD - southbound side for pick-ups (towards Al Wahda), northbound side for set-downs."
     },
     {
      "code": "C4-01",
@@ -13569,14 +13569,14 @@
      "action": "pick_up"
     },
     {
-     "code": "C4-03",
-     "name": "Al Wahda Mall",
+     "code": "C4-21",
+     "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
      "time": "15:31",
      "action": "pick_up"
     },
     {
-     "code": "C4-21",
-     "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
+     "code": "C4-03",
+     "name": "Al Wahda Mall",
      "time": "15:41",
      "action": "pick_up"
     },
@@ -13922,14 +13922,14 @@
      "action": "set_down"
     },
     {
-     "code": "C4-21",
-     "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
+     "code": "C4-03",
+     "name": "Al Wahda Mall",
      "time": "23:36",
      "action": "set_down"
     },
     {
-     "code": "C4-03",
-     "name": "Al Wahda Mall",
+     "code": "C4-21",
+     "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
      "time": "23:46",
      "action": "set_down"
     },
