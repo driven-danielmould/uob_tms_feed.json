@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-06T09:54:48Z",
+ "generated_at": "2026-10-06T09:56:13Z",
  "week": "2026-10-05 to 2026-10-11",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -674,17 +674,17 @@
      "code": "C2-07",
      "order": 10,
      "name": "Dubai Internet City Metro Station",
-     "lat": 25.1020158,
-     "lng": 55.173639,
+     "lat": 25.1021161,
+     "lng": 55.1740882,
      "google_place_id": "ChIJ5eXsfnFrXz4RL8dxyLwKfRA",
-     "where_exactly": "Barsha Heights side exit.",
-     "pickup_lat": 25.1020158,
-     "pickup_lng": 55.173639,
-     "pickup_where_exactly": "Barsha Heights side exit.",
-     "setdown_lat": 25.1020158,
-     "setdown_lng": 55.173639,
-     "setdown_where_exactly": "Barsha Heights side exit.",
-     "audited": false,
+     "where_exactly": "Dubai Internet City Metro Station - pin as set 6 Oct (Dan); kerb text to confirm on audit.",
+     "pickup_lat": 25.1021161,
+     "pickup_lng": 55.1740882,
+     "pickup_where_exactly": "Dubai Internet City Metro Station - pin as set 6 Oct (Dan); kerb text to confirm on audit.",
+     "setdown_lat": 25.1021161,
+     "setdown_lng": 55.1740882,
+     "setdown_where_exactly": "Dubai Internet City Metro Station - pin as set 6 Oct (Dan); kerb text to confirm on audit.",
+     "audited": true,
      "rider_instructions": "Wait at the bus stop by the Barsha Heights exit of Internet City Metro. Be here 5 minutes before your time and look for the yellow M sign in the bus windscreen.",
      "driver_instructions": "Use the bus stop at the Barsha Heights side exit. RTA stop: 2 minutes maximum.",
      "type": "public"
@@ -2738,9 +2738,9 @@
      "name": "Dubai Internet City Metro Station",
      "time": "06:40",
      "action": "pick_up",
-     "lat": 25.1020158,
-     "lng": 55.173639,
-     "where_exactly": "Barsha Heights side exit."
+     "lat": 25.1021161,
+     "lng": 55.1740882,
+     "where_exactly": "Dubai Internet City Metro Station - pin as set 6 Oct (Dan); kerb text to confirm on audit."
     },
     {
      "code": "C2-10",
@@ -2853,9 +2853,9 @@
      "name": "Dubai Internet City Metro Station",
      "time": "11:45",
      "action": "pick_up",
-     "lat": 25.1020158,
-     "lng": 55.173639,
-     "where_exactly": "Barsha Heights side exit."
+     "lat": 25.1021161,
+     "lng": 55.1740882,
+     "where_exactly": "Dubai Internet City Metro Station - pin as set 6 Oct (Dan); kerb text to confirm on audit."
     },
     {
      "code": "UOB",
@@ -2959,9 +2959,9 @@
      "name": "Dubai Internet City Metro Station",
      "time": "18:00",
      "action": "set_down",
-     "lat": 25.1020158,
-     "lng": 55.173639,
-     "where_exactly": "Barsha Heights side exit."
+     "lat": 25.1021161,
+     "lng": 55.1740882,
+     "where_exactly": "Dubai Internet City Metro Station - pin as set 6 Oct (Dan); kerb text to confirm on audit."
     },
     {
      "code": "C2-11",
@@ -3057,9 +3057,9 @@
      "name": "Dubai Internet City Metro Station",
      "time": "19:30",
      "action": "set_down",
-     "lat": 25.1020158,
-     "lng": 55.173639,
-     "where_exactly": "Barsha Heights side exit."
+     "lat": 25.1021161,
+     "lng": 55.1740882,
+     "where_exactly": "Dubai Internet City Metro Station - pin as set 6 Oct (Dan); kerb text to confirm on audit."
     },
     {
      "code": "C2-03",
@@ -5822,9 +5822,9 @@
      "name": "Dubai Internet City Metro Station",
      "time": "06:25",
      "action": "pick_up",
-     "lat": 25.1020158,
-     "lng": 55.173639,
-     "where_exactly": "Barsha Heights side exit."
+     "lat": 25.1021161,
+     "lng": 55.1740882,
+     "where_exactly": "Dubai Internet City Metro Station - pin as set 6 Oct (Dan); kerb text to confirm on audit."
     },
     {
      "code": "C2-10",
@@ -5884,9 +5884,9 @@
      "name": "Dubai Internet City Metro Station",
      "time": "09:20",
      "action": "pick_up",
-     "lat": 25.1020158,
-     "lng": 55.173639,
-     "where_exactly": "Barsha Heights side exit."
+     "lat": 25.1021161,
+     "lng": 55.1740882,
+     "where_exactly": "Dubai Internet City Metro Station - pin as set 6 Oct (Dan); kerb text to confirm on audit."
     },
     {
      "code": "C2-10",
@@ -5990,9 +5990,9 @@
      "name": "Dubai Internet City Metro Station",
      "time": "15:15",
      "action": "set_down",
-     "lat": 25.1020158,
-     "lng": 55.173639,
-     "where_exactly": "Barsha Heights side exit."
+     "lat": 25.1021161,
+     "lng": 55.1740882,
+     "where_exactly": "Dubai Internet City Metro Station - pin as set 6 Oct (Dan); kerb text to confirm on audit."
     },
     {
      "code": "C2-05",
@@ -6096,9 +6096,9 @@
      "name": "Dubai Internet City Metro Station",
      "time": "17:05",
      "action": "set_down",
-     "lat": 25.1020158,
-     "lng": 55.173639,
-     "where_exactly": "Barsha Heights side exit."
+     "lat": 25.1021161,
+     "lng": 55.1740882,
+     "where_exactly": "Dubai Internet City Metro Station - pin as set 6 Oct (Dan); kerb text to confirm on audit."
     },
     {
      "code": "C2-09",
@@ -8976,9 +8976,9 @@
      "name": "Dubai Internet City Metro Station",
      "time": "06:20",
      "action": "pick_up",
-     "lat": 25.1020158,
-     "lng": 55.173639,
-     "where_exactly": "Barsha Heights side exit."
+     "lat": 25.1021161,
+     "lng": 55.1740882,
+     "where_exactly": "Dubai Internet City Metro Station - pin as set 6 Oct (Dan); kerb text to confirm on audit."
     },
     {
      "code": "C2-10",
@@ -9074,9 +9074,9 @@
      "name": "Dubai Internet City Metro Station",
      "time": "09:50",
      "action": "pick_up",
-     "lat": 25.1020158,
-     "lng": 55.173639,
-     "where_exactly": "Barsha Heights side exit."
+     "lat": 25.1021161,
+     "lng": 55.1740882,
+     "where_exactly": "Dubai Internet City Metro Station - pin as set 6 Oct (Dan); kerb text to confirm on audit."
     },
     {
      "code": "C2-10",
@@ -9136,9 +9136,9 @@
      "name": "Dubai Internet City Metro Station",
      "time": "11:45",
      "action": "pick_up",
-     "lat": 25.1020158,
-     "lng": 55.173639,
-     "where_exactly": "Barsha Heights side exit."
+     "lat": 25.1021161,
+     "lng": 55.1740882,
+     "where_exactly": "Dubai Internet City Metro Station - pin as set 6 Oct (Dan); kerb text to confirm on audit."
     },
     {
      "code": "UOB",
@@ -9198,9 +9198,9 @@
      "name": "Dubai Internet City Metro Station",
      "time": "15:05",
      "action": "set_down",
-     "lat": 25.1020158,
-     "lng": 55.173639,
-     "where_exactly": "Barsha Heights side exit."
+     "lat": 25.1021161,
+     "lng": 55.1740882,
+     "where_exactly": "Dubai Internet City Metro Station - pin as set 6 Oct (Dan); kerb text to confirm on audit."
     },
     {
      "code": "C2-15",
@@ -9402,9 +9402,9 @@
      "name": "Dubai Internet City Metro Station",
      "time": "19:30",
      "action": "set_down",
-     "lat": 25.1020158,
-     "lng": 55.173639,
-     "where_exactly": "Barsha Heights side exit."
+     "lat": 25.1021161,
+     "lng": 55.1740882,
+     "where_exactly": "Dubai Internet City Metro Station - pin as set 6 Oct (Dan); kerb text to confirm on audit."
     },
     {
      "code": "C2-04",
@@ -12163,9 +12163,9 @@
      "name": "Dubai Internet City Metro Station",
      "time": "06:35",
      "action": "pick_up",
-     "lat": 25.1020158,
-     "lng": 55.173639,
-     "where_exactly": "Barsha Heights side exit."
+     "lat": 25.1021161,
+     "lng": 55.1740882,
+     "where_exactly": "Dubai Internet City Metro Station - pin as set 6 Oct (Dan); kerb text to confirm on audit."
     },
     {
      "code": "C2-10",
@@ -12278,9 +12278,9 @@
      "name": "Dubai Internet City Metro Station",
      "time": "12:05",
      "action": "pick_up",
-     "lat": 25.1020158,
-     "lng": 55.173639,
-     "where_exactly": "Barsha Heights side exit."
+     "lat": 25.1021161,
+     "lng": 55.1740882,
+     "where_exactly": "Dubai Internet City Metro Station - pin as set 6 Oct (Dan); kerb text to confirm on audit."
     },
     {
      "code": "C2-10",
@@ -12340,9 +12340,9 @@
      "name": "Dubai Internet City Metro Station",
      "time": "15:30",
      "action": "set_down",
-     "lat": 25.1020158,
-     "lng": 55.173639,
-     "where_exactly": "Barsha Heights side exit."
+     "lat": 25.1021161,
+     "lng": 55.1740882,
+     "where_exactly": "Dubai Internet City Metro Station - pin as set 6 Oct (Dan); kerb text to confirm on audit."
     },
     {
      "code": "C2-04",
@@ -12428,9 +12428,9 @@
      "name": "Dubai Internet City Metro Station",
      "time": "17:50",
      "action": "set_down",
-     "lat": 25.1020158,
-     "lng": 55.173639,
-     "where_exactly": "Barsha Heights side exit."
+     "lat": 25.1021161,
+     "lng": 55.1740882,
+     "where_exactly": "Dubai Internet City Metro Station - pin as set 6 Oct (Dan); kerb text to confirm on audit."
     },
     {
      "code": "C2-15",
@@ -12517,9 +12517,9 @@
      "name": "Dubai Internet City Metro Station",
      "time": "19:15",
      "action": "set_down",
-     "lat": 25.1020158,
-     "lng": 55.173639,
-     "where_exactly": "Barsha Heights side exit."
+     "lat": 25.1021161,
+     "lng": 55.1740882,
+     "where_exactly": "Dubai Internet City Metro Station - pin as set 6 Oct (Dan); kerb text to confirm on audit."
     },
     {
      "code": "C2-11",
@@ -14761,9 +14761,9 @@
      "name": "Dubai Internet City Metro Station",
      "time": "06:20",
      "action": "pick_up",
-     "lat": 25.1020158,
-     "lng": 55.173639,
-     "where_exactly": "Barsha Heights side exit."
+     "lat": 25.1021161,
+     "lng": 55.1740882,
+     "where_exactly": "Dubai Internet City Metro Station - pin as set 6 Oct (Dan); kerb text to confirm on audit."
     },
     {
      "code": "C2-10",
@@ -14841,9 +14841,9 @@
      "name": "Dubai Internet City Metro Station",
      "time": "13:10",
      "action": "set_down",
-     "lat": 25.1020158,
-     "lng": 55.173639,
-     "where_exactly": "Barsha Heights side exit."
+     "lat": 25.1021161,
+     "lng": 55.1740882,
+     "where_exactly": "Dubai Internet City Metro Station - pin as set 6 Oct (Dan); kerb text to confirm on audit."
     },
     {
      "code": "C2-15",
