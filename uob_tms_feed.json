@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-06T14:29:12Z",
+ "generated_at": "2026-10-06T14:42:27Z",
  "week": "2026-10-05 to 2026-10-11",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -709,8 +709,27 @@
      "type": "rider_only"
     },
     {
-     "code": "C2-08",
+     "code": "C2-16",
      "order": 12,
+     "name": "Umm Suqeim Rd bus stop by ENOC 1099, Al Barsha 1",
+     "lat": 25.1184,
+     "lng": 55.2077,
+     "google_place_id": null,
+     "where_exactly": "RTA bus stop on Umm Suqeim Rd (D63) beside ENOC 1099, Al Barsha 1 - northbound kerb for pick-ups, southbound for set-downs; exact pin to confirm.",
+     "pickup_lat": 25.1184,
+     "pickup_lng": 55.2077,
+     "pickup_where_exactly": "RTA bus stop on Umm Suqeim Rd (D63) beside ENOC 1099, Al Barsha 1 - northbound kerb for pick-ups, southbound for set-downs; exact pin to confirm.",
+     "setdown_lat": 25.1184,
+     "setdown_lng": 55.2077,
+     "setdown_where_exactly": "RTA bus stop on Umm Suqeim Rd (D63) beside ENOC 1099, Al Barsha 1 - northbound kerb for pick-ups, southbound for set-downs; exact pin to confirm.",
+     "audited": false,
+     "rider_instructions": "Wait at the bus stop beside ENOC 1099 on Umm Suqeim Road. Be here 5 minutes before your time and look for the yellow M sign in the bus windscreen.",
+     "driver_instructions": "RTA bus stop on Umm Suqeim Road (D63) beside ENOC 1099, Al Barsha 1, 700 m north of Mall of the Emirates. Public stop.",
+     "type": "public"
+    },
+    {
+     "code": "C2-08",
+     "order": 13,
      "name": "Mall of the Emirates",
      "lat": 25.1201411,
      "lng": 55.2011196,
@@ -9057,13 +9076,13 @@
      "where_exactly": "Kerbside outside the building entrance; do not enter the car park."
     },
     {
-     "code": "C2-08",
-     "name": "Mall of the Emirates",
+     "code": "C2-16",
+     "name": "Umm Suqeim Rd bus stop by ENOC 1099, Al Barsha 1",
      "time": "06:55",
      "action": "pick_up",
-     "lat": 25.1201411,
-     "lng": 55.2011196,
-     "where_exactly": "Pick-up point at 25.1201411, 55.2011196 (metro side)."
+     "lat": 25.1184,
+     "lng": 55.2077,
+     "where_exactly": "RTA bus stop on Umm Suqeim Rd (D63) beside ENOC 1099, Al Barsha 1 - northbound kerb for pick-ups, southbound for set-downs; exact pin to confirm."
     },
     {
      "code": "UOB",
@@ -9456,13 +9475,13 @@
      "where_exactly": "Main entrance, Academic City."
     },
     {
-     "code": "C2-08",
-     "name": "Mall of the Emirates",
-     "time": "19:05",
+     "code": "C2-16",
+     "name": "Umm Suqeim Rd bus stop by ENOC 1099, Al Barsha 1",
+     "time": "19:00",
      "action": "set_down",
-     "lat": 25.1201411,
-     "lng": 55.2011196,
-     "where_exactly": "Pick-up point at 25.1201411, 55.2011196 (metro side)."
+     "lat": 25.1184,
+     "lng": 55.2077,
+     "where_exactly": "RTA bus stop on Umm Suqeim Rd (D63) beside ENOC 1099, Al Barsha 1 - northbound kerb for pick-ups, southbound for set-downs; exact pin to confirm."
     },
     {
      "code": "C2-07",
@@ -14815,13 +14834,13 @@
      "where_exactly": "Kerbside outside the building entrance; do not enter the car park."
     },
     {
-     "code": "C2-08",
-     "name": "Mall of the Emirates",
+     "code": "C2-16",
+     "name": "Umm Suqeim Rd bus stop by ENOC 1099, Al Barsha 1",
      "time": "06:55",
      "action": "pick_up",
-     "lat": 25.1201411,
-     "lng": 55.2011196,
-     "where_exactly": "Pick-up point at 25.1201411, 55.2011196 (metro side)."
+     "lat": 25.1184,
+     "lng": 55.2077,
+     "where_exactly": "RTA bus stop on Umm Suqeim Rd (D63) beside ENOC 1099, Al Barsha 1 - northbound kerb for pick-ups, southbound for set-downs; exact pin to confirm."
     },
     {
      "code": "UOB",
@@ -14844,7 +14863,7 @@
    "arrive_campus": null,
    "leave_campus": "12:15",
    "start": "12:15",
-   "end": "13:50",
+   "end": "13:55",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -14861,16 +14880,25 @@
     {
      "code": "C2-08",
      "name": "Mall of the Emirates",
-     "time": "12:40",
+     "time": "12:35",
      "action": "set_down",
      "lat": 25.1201411,
      "lng": 55.2011196,
      "where_exactly": "Pick-up point at 25.1201411, 55.2011196 (metro side)."
     },
     {
+     "code": "C2-16",
+     "name": "Umm Suqeim Rd bus stop by ENOC 1099, Al Barsha 1",
+     "time": "12:45",
+     "action": "set_down",
+     "lat": 25.1184,
+     "lng": 55.2077,
+     "where_exactly": "RTA bus stop on Umm Suqeim Rd (D63) beside ENOC 1099, Al Barsha 1 - northbound kerb for pick-ups, southbound for set-downs; exact pin to confirm."
+    },
+    {
      "code": "C2-10",
      "name": "Al Manaf Building, Al Barsha 1",
-     "time": "12:50",
+     "time": "12:55",
      "action": "set_down",
      "lat": 25.1110756,
      "lng": 55.2057285,
@@ -14879,7 +14907,7 @@
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "13:10",
+     "time": "13:15",
      "action": "set_down",
      "lat": 25.1021161,
      "lng": 55.1740882,
@@ -14888,7 +14916,7 @@
     {
      "code": "C2-15",
      "name": "Al Nakheel 2A, The Greens",
-     "time": "13:20",
+     "time": "13:25",
      "action": "set_down",
      "lat": 25.09445,
      "lng": 55.1697,
@@ -14897,7 +14925,7 @@
     {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "13:30",
+     "time": "13:35",
      "action": "set_down",
      "lat": 25.093492,
      "lng": 55.177807,
@@ -14906,7 +14934,7 @@
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "13:50",
+     "time": "13:55",
      "action": "set_down",
      "lat": 25.070853,
      "lng": 55.139483,
@@ -14940,43 +14968,49 @@
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "16:00",
+     "time": "15:58",
      "action": "pick_up"
     },
     {
      "code": "C2-03",
      "name": "DMCC Metro Station",
-     "time": "16:15",
+     "time": "16:12",
      "action": "pick_up"
     },
     {
      "code": "C2-04",
      "name": "Sobha Realty Metro Station",
-     "time": "16:30",
+     "time": "16:25",
      "action": "pick_up"
     },
     {
      "code": "C2-05",
      "name": "The Meadows Village",
-     "time": "16:45",
+     "time": "16:38",
      "action": "pick_up"
     },
     {
      "code": "C2-06",
      "name": "The Springs Souk",
-     "time": "17:00",
+     "time": "16:52",
      "action": "pick_up"
     },
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "17:15",
+     "time": "17:05",
+     "action": "pick_up"
+    },
+    {
+     "code": "C2-16",
+     "name": "Umm Suqeim Rd bus stop by ENOC 1099, Al Barsha 1",
+     "time": "17:18",
      "action": "pick_up"
     },
     {
      "code": "C2-08",
      "name": "Mall of the Emirates",
-     "time": "17:30",
+     "time": "17:32",
      "action": "pick_up"
     },
     {
@@ -15013,43 +15047,49 @@
     {
      "code": "C2-08",
      "name": "Mall of the Emirates",
-     "time": "21:49",
+     "time": "21:48",
+     "action": "set_down"
+    },
+    {
+     "code": "C2-16",
+     "name": "Umm Suqeim Rd bus stop by ENOC 1099, Al Barsha 1",
+     "time": "21:59",
      "action": "set_down"
     },
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "22:02",
+     "time": "22:11",
      "action": "set_down"
     },
     {
      "code": "C2-06",
      "name": "The Springs Souk",
-     "time": "22:15",
+     "time": "22:23",
      "action": "set_down"
     },
     {
      "code": "C2-05",
      "name": "The Meadows Village",
-     "time": "22:28",
+     "time": "22:34",
      "action": "set_down"
     },
     {
      "code": "C2-04",
      "name": "Sobha Realty Metro Station",
-     "time": "22:42",
+     "time": "22:46",
      "action": "set_down"
     },
     {
      "code": "C2-03",
      "name": "DMCC Metro Station",
-     "time": "22:55",
+     "time": "22:58",
      "action": "set_down"
     },
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "23:08",
+     "time": "23:09",
      "action": "set_down"
     },
     {
