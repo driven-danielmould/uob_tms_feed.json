@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-06T09:15:54Z",
+ "generated_at": "2026-10-06T09:20:31Z",
  "week": "2026-10-05 to 2026-10-11",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -378,8 +378,27 @@
      "type": "rider_only"
     },
     {
-     "code": "C1-12",
+     "code": "C1-23",
      "order": 19,
+     "name": "Centrepoint, Mirdif City Centre",
+     "lat": 25.2180926,
+     "lng": 55.4085703,
+     "google_place_id": "ChIJScplBrRgXz4RpUQuxh5v3SI",
+     "where_exactly": "Centrepoint entrance, Mirdif City Centre (Tripoli St side) - kerb to be confirmed on audit.",
+     "pickup_lat": 25.2180926,
+     "pickup_lng": 55.4085703,
+     "pickup_where_exactly": "Centrepoint entrance, Mirdif City Centre (Tripoli St side) - kerb to be confirmed on audit.",
+     "setdown_lat": 25.2180926,
+     "setdown_lng": 55.4085703,
+     "setdown_where_exactly": "Centrepoint entrance, Mirdif City Centre (Tripoli St side) - kerb to be confirmed on audit.",
+     "audited": false,
+     "rider_instructions": "Wait outside the Centrepoint entrance. Be here 5 minutes before your time and look for the yellow M sign in the bus windscreen.",
+     "driver_instructions": "Outside the Centrepoint entrance of Mirdif City Centre, Tripoli Street side. Public stop.",
+     "type": "public"
+    },
+    {
+     "code": "C1-12",
+     "order": 20,
      "name": "Uptown Mirdif",
      "lat": 25.224246,
      "lng": 55.423615,
@@ -398,7 +417,7 @@
     },
     {
      "code": "C1-19",
-     "order": 20,
+     "order": 21,
      "name": "Shorooq Gate 3, Mirdif",
      "lat": 25.214495,
      "lng": 55.428185,
@@ -417,7 +436,7 @@
     },
     {
      "code": "C1-13",
-     "order": 21,
+     "order": 22,
      "name": "Nasayem Avenue, Mirdif Hills",
      "lat": 25.221963,
      "lng": 55.440775,
@@ -436,7 +455,7 @@
     },
     {
      "code": "C1-14",
-     "order": 22,
+     "order": 23,
      "name": "Olivz Residence, Warsan 1",
      "lat": 25.166179,
      "lng": 55.395812,
@@ -2188,73 +2207,79 @@
     {
      "code": "C1-03",
      "name": "Lulu Hypermarket Maysaloon",
-     "time": "16:01",
+     "time": "16:00",
      "action": "pick_up"
     },
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "16:09",
+     "time": "16:07",
      "action": "pick_up"
     },
     {
      "code": "C1-05",
      "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "16:17",
+     "time": "16:15",
      "action": "pick_up"
     },
     {
      "code": "C1-16",
      "name": "LuLu Hypermarket Al Nahda, Sharjah",
-     "time": "16:25",
+     "time": "16:23",
      "action": "pick_up"
     },
     {
      "code": "C1-06",
      "name": "Sahara Centre",
-     "time": "16:33",
+     "time": "16:30",
      "action": "pick_up"
     },
     {
      "code": "C1-07",
      "name": "Masafi 1, Al Nahda 2",
-     "time": "16:41",
+     "time": "16:37",
      "action": "pick_up"
     },
     {
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
-     "time": "16:49",
+     "time": "16:45",
      "action": "pick_up"
     },
     {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "16:57",
+     "time": "16:53",
      "action": "pick_up"
     },
     {
      "code": "C1-10",
      "name": "Dubai Festival City Mall",
-     "time": "17:05",
+     "time": "17:00",
      "action": "pick_up"
     },
     {
      "code": "C1-11",
      "name": "Madina Mall",
-     "time": "17:13",
+     "time": "17:07",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-23",
+     "name": "Centrepoint, Mirdif City Centre",
+     "time": "17:15",
      "action": "pick_up"
     },
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "17:21",
+     "time": "17:23",
      "action": "pick_up"
     },
     {
      "code": "C1-13",
      "name": "Nasayem Avenue, Mirdif Hills",
-     "time": "17:29",
+     "time": "17:30",
      "action": "pick_up"
     },
     {
@@ -2499,73 +2524,79 @@
     {
      "code": "C1-13",
      "name": "Nasayem Avenue, Mirdif Hills",
-     "time": "21:50",
+     "time": "21:49",
      "action": "set_down"
     },
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "21:57",
+     "time": "21:56",
+     "action": "set_down"
+    },
+    {
+     "code": "C1-23",
+     "name": "Centrepoint, Mirdif City Centre",
+     "time": "22:02",
      "action": "set_down"
     },
     {
      "code": "C1-11",
      "name": "Madina Mall",
-     "time": "22:04",
+     "time": "22:09",
      "action": "set_down"
     },
     {
      "code": "C1-10",
      "name": "Dubai Festival City Mall",
-     "time": "22:11",
+     "time": "22:15",
      "action": "set_down"
     },
     {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "22:18",
+     "time": "22:22",
      "action": "set_down"
     },
     {
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
-     "time": "22:25",
+     "time": "22:28",
      "action": "set_down"
     },
     {
      "code": "C1-07",
      "name": "Masafi 1, Al Nahda 2",
-     "time": "22:32",
+     "time": "22:35",
      "action": "set_down"
     },
     {
      "code": "C1-06",
      "name": "Sahara Centre",
-     "time": "22:39",
+     "time": "22:42",
      "action": "set_down"
     },
     {
      "code": "C1-16",
      "name": "LuLu Hypermarket Al Nahda, Sharjah",
-     "time": "22:46",
+     "time": "22:48",
      "action": "set_down"
     },
     {
      "code": "C1-05",
      "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "22:53",
+     "time": "22:55",
      "action": "set_down"
     },
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "23:00",
+     "time": "23:01",
      "action": "set_down"
     },
     {
      "code": "C1-03",
      "name": "Lulu Hypermarket Maysaloon",
-     "time": "23:07",
+     "time": "23:08",
      "action": "set_down"
     },
     {
@@ -5202,73 +5233,79 @@
     {
      "code": "C1-03",
      "name": "Lulu Hypermarket Maysaloon",
-     "time": "16:01",
+     "time": "16:00",
      "action": "pick_up"
     },
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "16:09",
+     "time": "16:07",
      "action": "pick_up"
     },
     {
      "code": "C1-05",
      "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "16:17",
+     "time": "16:15",
      "action": "pick_up"
     },
     {
      "code": "C1-16",
      "name": "LuLu Hypermarket Al Nahda, Sharjah",
-     "time": "16:25",
+     "time": "16:23",
      "action": "pick_up"
     },
     {
      "code": "C1-06",
      "name": "Sahara Centre",
-     "time": "16:33",
+     "time": "16:30",
      "action": "pick_up"
     },
     {
      "code": "C1-07",
      "name": "Masafi 1, Al Nahda 2",
-     "time": "16:41",
+     "time": "16:37",
      "action": "pick_up"
     },
     {
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
-     "time": "16:49",
+     "time": "16:45",
      "action": "pick_up"
     },
     {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "16:57",
+     "time": "16:53",
      "action": "pick_up"
     },
     {
      "code": "C1-10",
      "name": "Dubai Festival City Mall",
-     "time": "17:05",
+     "time": "17:00",
      "action": "pick_up"
     },
     {
      "code": "C1-11",
      "name": "Madina Mall",
-     "time": "17:13",
+     "time": "17:07",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-23",
+     "name": "Centrepoint, Mirdif City Centre",
+     "time": "17:15",
      "action": "pick_up"
     },
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "17:21",
+     "time": "17:23",
      "action": "pick_up"
     },
     {
      "code": "C1-13",
      "name": "Nasayem Avenue, Mirdif Hills",
-     "time": "17:29",
+     "time": "17:30",
      "action": "pick_up"
     },
     {
@@ -5540,73 +5577,79 @@
     {
      "code": "C1-13",
      "name": "Nasayem Avenue, Mirdif Hills",
-     "time": "21:50",
+     "time": "21:49",
      "action": "set_down"
     },
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "21:57",
+     "time": "21:56",
+     "action": "set_down"
+    },
+    {
+     "code": "C1-23",
+     "name": "Centrepoint, Mirdif City Centre",
+     "time": "22:02",
      "action": "set_down"
     },
     {
      "code": "C1-11",
      "name": "Madina Mall",
-     "time": "22:04",
+     "time": "22:09",
      "action": "set_down"
     },
     {
      "code": "C1-10",
      "name": "Dubai Festival City Mall",
-     "time": "22:11",
+     "time": "22:15",
      "action": "set_down"
     },
     {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "22:18",
+     "time": "22:22",
      "action": "set_down"
     },
     {
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
-     "time": "22:25",
+     "time": "22:28",
      "action": "set_down"
     },
     {
      "code": "C1-07",
      "name": "Masafi 1, Al Nahda 2",
-     "time": "22:32",
+     "time": "22:35",
      "action": "set_down"
     },
     {
      "code": "C1-06",
      "name": "Sahara Centre",
-     "time": "22:39",
+     "time": "22:42",
      "action": "set_down"
     },
     {
      "code": "C1-16",
      "name": "LuLu Hypermarket Al Nahda, Sharjah",
-     "time": "22:46",
+     "time": "22:48",
      "action": "set_down"
     },
     {
      "code": "C1-05",
      "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "22:53",
+     "time": "22:55",
      "action": "set_down"
     },
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "23:00",
+     "time": "23:01",
      "action": "set_down"
     },
     {
      "code": "C1-03",
      "name": "Lulu Hypermarket Maysaloon",
-     "time": "23:07",
+     "time": "23:08",
      "action": "set_down"
     },
     {
@@ -11432,73 +11475,79 @@
     {
      "code": "C1-03",
      "name": "Lulu Hypermarket Maysaloon",
-     "time": "16:01",
+     "time": "16:00",
      "action": "pick_up"
     },
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "16:09",
+     "time": "16:07",
      "action": "pick_up"
     },
     {
      "code": "C1-05",
      "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "16:17",
+     "time": "16:15",
      "action": "pick_up"
     },
     {
      "code": "C1-16",
      "name": "LuLu Hypermarket Al Nahda, Sharjah",
-     "time": "16:25",
+     "time": "16:23",
      "action": "pick_up"
     },
     {
      "code": "C1-06",
      "name": "Sahara Centre",
-     "time": "16:33",
+     "time": "16:30",
      "action": "pick_up"
     },
     {
      "code": "C1-07",
      "name": "Masafi 1, Al Nahda 2",
-     "time": "16:41",
+     "time": "16:37",
      "action": "pick_up"
     },
     {
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
-     "time": "16:49",
+     "time": "16:45",
      "action": "pick_up"
     },
     {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "16:57",
+     "time": "16:53",
      "action": "pick_up"
     },
     {
      "code": "C1-10",
      "name": "Dubai Festival City Mall",
-     "time": "17:05",
+     "time": "17:00",
      "action": "pick_up"
     },
     {
      "code": "C1-11",
      "name": "Madina Mall",
-     "time": "17:13",
+     "time": "17:07",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-23",
+     "name": "Centrepoint, Mirdif City Centre",
+     "time": "17:15",
      "action": "pick_up"
     },
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "17:21",
+     "time": "17:23",
      "action": "pick_up"
     },
     {
      "code": "C1-13",
      "name": "Nasayem Avenue, Mirdif Hills",
-     "time": "17:29",
+     "time": "17:30",
      "action": "pick_up"
     },
     {
@@ -11761,73 +11810,79 @@
     {
      "code": "C1-13",
      "name": "Nasayem Avenue, Mirdif Hills",
-     "time": "21:50",
+     "time": "21:49",
      "action": "set_down"
     },
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "21:57",
+     "time": "21:56",
+     "action": "set_down"
+    },
+    {
+     "code": "C1-23",
+     "name": "Centrepoint, Mirdif City Centre",
+     "time": "22:02",
      "action": "set_down"
     },
     {
      "code": "C1-11",
      "name": "Madina Mall",
-     "time": "22:04",
+     "time": "22:09",
      "action": "set_down"
     },
     {
      "code": "C1-10",
      "name": "Dubai Festival City Mall",
-     "time": "22:11",
+     "time": "22:15",
      "action": "set_down"
     },
     {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "22:18",
+     "time": "22:22",
      "action": "set_down"
     },
     {
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
-     "time": "22:25",
+     "time": "22:28",
      "action": "set_down"
     },
     {
      "code": "C1-07",
      "name": "Masafi 1, Al Nahda 2",
-     "time": "22:32",
+     "time": "22:35",
      "action": "set_down"
     },
     {
      "code": "C1-06",
      "name": "Sahara Centre",
-     "time": "22:39",
+     "time": "22:42",
      "action": "set_down"
     },
     {
      "code": "C1-16",
      "name": "LuLu Hypermarket Al Nahda, Sharjah",
-     "time": "22:46",
+     "time": "22:48",
      "action": "set_down"
     },
     {
      "code": "C1-05",
      "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "22:53",
+     "time": "22:55",
      "action": "set_down"
     },
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "23:00",
+     "time": "23:01",
      "action": "set_down"
     },
     {
      "code": "C1-03",
      "name": "Lulu Hypermarket Maysaloon",
-     "time": "23:07",
+     "time": "23:08",
      "action": "set_down"
     },
     {
