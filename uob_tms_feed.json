@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-06T09:23:32Z",
+ "generated_at": "2026-10-06T09:28:42Z",
  "week": "2026-10-05 to 2026-10-11",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -359,8 +359,27 @@
      "type": "public"
     },
     {
-     "code": "C1-15",
+     "code": "C1-24",
      "order": 18,
+     "name": "EK2 Accommodation, Muhaisnah 4",
+     "lat": 25.2795117,
+     "lng": 55.402653,
+     "google_place_id": null,
+     "where_exactly": "Kerbside on 17th Street outside the EK2 Accommodation (Emirates EK2) building. Do not enter the compound.",
+     "pickup_lat": 25.2795117,
+     "pickup_lng": 55.402653,
+     "pickup_where_exactly": "Kerbside on 17th Street outside the EK2 Accommodation (Emirates EK2) building. Do not enter the compound.",
+     "setdown_lat": 25.2795117,
+     "setdown_lng": 55.402653,
+     "setdown_where_exactly": "Kerbside on 17th Street outside the EK2 Accommodation (Emirates EK2) building. Do not enter the compound.",
+     "audited": false,
+     "rider_instructions": "Wait on 17th Street outside the EK2 building gate. Be here 5 minutes before your time and look for the yellow M sign in the bus windscreen.",
+     "driver_instructions": "Kerbside on 17th Street outside the EK2 Accommodation building, Muhaisnah 4, 600 m south of Madina Mall. Do not enter the compound. Only served on booked days.",
+     "type": "rider_only"
+    },
+    {
+     "code": "C1-15",
+     "order": 19,
      "name": "Wasl Village, Central Parking",
      "lat": 25.289501,
      "lng": 55.4111465,
@@ -379,7 +398,7 @@
     },
     {
      "code": "C1-23",
-     "order": 19,
+     "order": 20,
      "name": "Centrepoint, Mirdif City Centre",
      "lat": 25.2180926,
      "lng": 55.4085703,
@@ -398,7 +417,7 @@
     },
     {
      "code": "C1-12",
-     "order": 20,
+     "order": 21,
      "name": "Uptown Mirdif",
      "lat": 25.224246,
      "lng": 55.423615,
@@ -417,7 +436,7 @@
     },
     {
      "code": "C1-19",
-     "order": 21,
+     "order": 22,
      "name": "Shorooq Gate 3, Mirdif",
      "lat": 25.214495,
      "lng": 55.428185,
@@ -436,7 +455,7 @@
     },
     {
      "code": "C1-13",
-     "order": 22,
+     "order": 23,
      "name": "Nasayem Avenue, Mirdif Hills",
      "lat": 25.221963,
      "lng": 55.440775,
@@ -455,7 +474,7 @@
     },
     {
      "code": "C1-14",
-     "order": 23,
+     "order": 24,
      "name": "Olivz Residence, Warsan 1",
      "lat": 25.166179,
      "lng": 55.395812,
@@ -1880,13 +1899,13 @@
      "where_exactly": "Bus stop under the bridge on Festival Blvd."
     },
     {
-     "code": "C1-11",
-     "name": "Madina Mall",
+     "code": "C1-24",
+     "name": "EK2 Accommodation, Muhaisnah 4",
      "time": "06:10",
      "action": "pick_up",
-     "lat": 25.283419,
-     "lng": 55.398584,
-     "where_exactly": "RTA bus stop pole outside Famila Mart, Muzoon 11, facing Madina Mall."
+     "lat": 25.2795117,
+     "lng": 55.402653,
+     "where_exactly": "Kerbside on 17th Street outside the EK2 Accommodation (Emirates EK2) building. Do not enter the compound."
     },
     {
      "code": "C1-23",
@@ -2487,13 +2506,13 @@
      "where_exactly": "RTA bus stop (shelter) near Wasl Village Gate 3, facing Nesto market."
     },
     {
-     "code": "C1-11",
-     "name": "Madina Mall",
+     "code": "C1-24",
+     "name": "EK2 Accommodation, Muhaisnah 4",
      "time": "19:20",
      "action": "set_down",
-     "lat": 25.283388,
-     "lng": 55.399739,
-     "where_exactly": "RTA bus shelter \"Muhaisnah 4, Lootah Building 2\" (648502), facing S.S. Lootah Building."
+     "lat": 25.2795117,
+     "lng": 55.402653,
+     "where_exactly": "Kerbside on 17th Street outside the EK2 Accommodation (Emirates EK2) building. Do not enter the compound."
     },
     {
      "code": "C1-08",
@@ -4902,13 +4921,13 @@
      "where_exactly": "21B Street footpath by DAFZA Metro Station Entrance 1."
     },
     {
-     "code": "C1-11",
-     "name": "Madina Mall",
+     "code": "C1-24",
+     "name": "EK2 Accommodation, Muhaisnah 4",
      "time": "06:15",
      "action": "pick_up",
-     "lat": 25.283419,
-     "lng": 55.398584,
-     "where_exactly": "RTA bus stop pole outside Famila Mart, Muzoon 11, facing Madina Mall."
+     "lat": 25.2795117,
+     "lng": 55.402653,
+     "where_exactly": "Kerbside on 17th Street outside the EK2 Accommodation (Emirates EK2) building. Do not enter the compound."
     },
     {
      "code": "C1-23",
@@ -5217,13 +5236,13 @@
      "offer_only_stop": true
     },
     {
-     "code": "C1-11",
-     "name": "Madina Mall",
+     "code": "C1-24",
+     "name": "EK2 Accommodation, Muhaisnah 4",
      "time": "15:00",
      "action": "set_down",
-     "lat": 25.283388,
-     "lng": 55.399739,
-     "where_exactly": "RTA bus shelter \"Muhaisnah 4, Lootah Building 2\" (648502), facing S.S. Lootah Building."
+     "lat": 25.2795117,
+     "lng": 55.402653,
+     "where_exactly": "Kerbside on 17th Street outside the EK2 Accommodation (Emirates EK2) building. Do not enter the compound."
     },
     {
      "code": "C1-09",
@@ -5571,13 +5590,13 @@
      "where_exactly": "Main entrance, Academic City."
     },
     {
-     "code": "C1-11",
-     "name": "Madina Mall",
+     "code": "C1-24",
+     "name": "EK2 Accommodation, Muhaisnah 4",
      "time": "18:50",
      "action": "set_down",
-     "lat": 25.283388,
-     "lng": 55.399739,
-     "where_exactly": "RTA bus shelter \"Muhaisnah 4, Lootah Building 2\" (648502), facing S.S. Lootah Building."
+     "lat": 25.2795117,
+     "lng": 55.402653,
+     "where_exactly": "Kerbside on 17th Street outside the EK2 Accommodation (Emirates EK2) building. Do not enter the compound."
     },
     {
      "code": "C1-09",
@@ -8183,13 +8202,13 @@
      "where_exactly": "21B Street footpath by DAFZA Metro Station Entrance 1."
     },
     {
-     "code": "C1-11",
-     "name": "Madina Mall",
+     "code": "C1-24",
+     "name": "EK2 Accommodation, Muhaisnah 4",
      "time": "06:30",
      "action": "pick_up",
-     "lat": 25.283419,
-     "lng": 55.398584,
-     "where_exactly": "RTA bus stop pole outside Famila Mart, Muzoon 11, facing Madina Mall."
+     "lat": 25.2795117,
+     "lng": 55.402653,
+     "where_exactly": "Kerbside on 17th Street outside the EK2 Accommodation (Emirates EK2) building. Do not enter the compound."
     },
     {
      "code": "C1-23",
@@ -8622,13 +8641,13 @@
      "offer_only_stop": true
     },
     {
-     "code": "C1-11",
-     "name": "Madina Mall",
-     "time": "17:51",
+     "code": "C1-24",
+     "name": "EK2 Accommodation, Muhaisnah 4",
+     "time": "18:00",
      "action": "set_down",
-     "lat": 25.283388,
-     "lng": 55.399739,
-     "where_exactly": "RTA bus shelter \"Muhaisnah 4, Lootah Building 2\" (648502), facing S.S. Lootah Building."
+     "lat": 25.2795117,
+     "lng": 55.402653,
+     "where_exactly": "Kerbside on 17th Street outside the EK2 Accommodation (Emirates EK2) building. Do not enter the compound."
     },
     {
      "code": "C1-09",
@@ -8775,13 +8794,13 @@
      "where_exactly": "RTA bus stop (shelter) near Wasl Village Gate 3, facing Nesto market."
     },
     {
-     "code": "C1-11",
-     "name": "Madina Mall",
+     "code": "C1-24",
+     "name": "EK2 Accommodation, Muhaisnah 4",
      "time": "19:55",
      "action": "set_down",
-     "lat": 25.283388,
-     "lng": 55.399739,
-     "where_exactly": "RTA bus shelter \"Muhaisnah 4, Lootah Building 2\" (648502), facing S.S. Lootah Building."
+     "lat": 25.2795117,
+     "lng": 55.402653,
+     "where_exactly": "Kerbside on 17th Street outside the EK2 Accommodation (Emirates EK2) building. Do not enter the compound."
     },
     {
      "code": "C1-09",
@@ -11287,13 +11306,13 @@
      "where_exactly": "21B Street footpath by DAFZA Metro Station Entrance 1."
     },
     {
-     "code": "C1-11",
-     "name": "Madina Mall",
+     "code": "C1-24",
+     "name": "EK2 Accommodation, Muhaisnah 4",
      "time": "06:30",
      "action": "pick_up",
-     "lat": 25.283419,
-     "lng": 55.398584,
-     "where_exactly": "RTA bus stop pole outside Famila Mart, Muzoon 11, facing Madina Mall."
+     "lat": 25.2795117,
+     "lng": 55.402653,
+     "where_exactly": "Kerbside on 17th Street outside the EK2 Accommodation (Emirates EK2) building. Do not enter the compound."
     },
     {
      "code": "C1-23",
@@ -11548,13 +11567,13 @@
      "offer_only_stop": true
     },
     {
-     "code": "C1-11",
-     "name": "Madina Mall",
+     "code": "C1-24",
+     "name": "EK2 Accommodation, Muhaisnah 4",
      "time": "15:10",
      "action": "set_down",
-     "lat": 25.283388,
-     "lng": 55.399739,
-     "where_exactly": "RTA bus shelter \"Muhaisnah 4, Lootah Building 2\" (648502), facing S.S. Lootah Building."
+     "lat": 25.2795117,
+     "lng": 55.402653,
+     "where_exactly": "Kerbside on 17th Street outside the EK2 Accommodation (Emirates EK2) building. Do not enter the compound."
     },
     {
      "code": "C1-08",
@@ -11885,13 +11904,13 @@
      "offer_only_stop": true
     },
     {
-     "code": "C1-11",
-     "name": "Madina Mall",
+     "code": "C1-24",
+     "name": "EK2 Accommodation, Muhaisnah 4",
      "time": "19:37",
      "action": "set_down",
-     "lat": 25.283388,
-     "lng": 55.399739,
-     "where_exactly": "RTA bus shelter \"Muhaisnah 4, Lootah Building 2\" (648502), facing S.S. Lootah Building."
+     "lat": 25.2795117,
+     "lng": 55.402653,
+     "where_exactly": "Kerbside on 17th Street outside the EK2 Accommodation (Emirates EK2) building. Do not enter the compound."
     },
     {
      "code": "C1-09",
@@ -14371,13 +14390,13 @@
      "where_exactly": "21B Street footpath by DAFZA Metro Station Entrance 1."
     },
     {
-     "code": "C1-11",
-     "name": "Madina Mall",
+     "code": "C1-24",
+     "name": "EK2 Accommodation, Muhaisnah 4",
      "time": "06:20",
      "action": "pick_up",
-     "lat": 25.283419,
-     "lng": 55.398584,
-     "where_exactly": "RTA bus stop pole outside Famila Mart, Muzoon 11, facing Madina Mall."
+     "lat": 25.2795117,
+     "lng": 55.402653,
+     "where_exactly": "Kerbside on 17th Street outside the EK2 Accommodation (Emirates EK2) building. Do not enter the compound."
     },
     {
      "code": "C1-23",
@@ -14489,13 +14508,13 @@
      "offer_only_stop": true
     },
     {
-     "code": "C1-11",
-     "name": "Madina Mall",
+     "code": "C1-24",
+     "name": "EK2 Accommodation, Muhaisnah 4",
      "time": "12:59",
      "action": "set_down",
-     "lat": 25.283388,
-     "lng": 55.399739,
-     "where_exactly": "RTA bus shelter \"Muhaisnah 4, Lootah Building 2\" (648502), facing S.S. Lootah Building."
+     "lat": 25.2795117,
+     "lng": 55.402653,
+     "where_exactly": "Kerbside on 17th Street outside the EK2 Accommodation (Emirates EK2) building. Do not enter the compound."
     },
     {
      "code": "C1-09",
