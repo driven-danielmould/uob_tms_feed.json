@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-06T06:48:44Z",
+ "generated_at": "2026-10-06T08:53:32Z",
  "week": "2026-10-05 to 2026-10-11",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -6470,18 +6470,9 @@
      "where_exactly": "Main entrance, Academic City."
     },
     {
-     "code": "C3-16",
-     "name": "Souq Extra, Silicon Oasis",
-     "time": "17:10",
-     "action": "set_down",
-     "lat": 25.1192507,
-     "lng": 55.3955344,
-     "where_exactly": "Damascus St entrance."
-    },
-    {
      "code": "C3-08",
      "name": "Serena, Bella Casa",
-     "time": "17:50",
+     "time": "17:30",
      "action": "set_down",
      "lat": 25.0389716,
      "lng": 55.2890906,
@@ -6490,7 +6481,7 @@
     {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "18:25",
+     "time": "18:10",
      "action": "set_down",
      "lat": 25.040494,
      "lng": 55.195971,
@@ -6499,7 +6490,7 @@
     {
      "code": "C3-04",
      "name": "Dubai International Cricket Stadium",
-     "time": "18:35",
+     "time": "18:25",
      "action": "set_down",
      "lat": 25.043579,
      "lng": 55.218241,
@@ -6508,7 +6499,7 @@
     {
      "code": "C3-03",
      "name": "Dubai Miracle Garden",
-     "time": "18:55",
+     "time": "18:50",
      "action": "set_down",
      "lat": 25.061132,
      "lng": 55.246185,
@@ -9310,15 +9301,6 @@
      "where_exactly": "Tower D, near Aster Pharmacy."
     },
     {
-     "code": "C3-16",
-     "name": "Souq Extra, Silicon Oasis",
-     "time": "07:32",
-     "action": "pick_up",
-     "lat": 25.1192507,
-     "lng": 55.3955344,
-     "where_exactly": "Damascus St entrance."
-    },
-    {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
      "time": "07:45",
@@ -9472,7 +9454,7 @@
    "arrive_campus": null,
    "leave_campus": "14:15",
    "start": "14:15",
-   "end": "16:00",
+   "end": "16:05",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -9487,18 +9469,9 @@
      "where_exactly": "Main entrance, Academic City."
     },
     {
-     "code": "C3-16",
-     "name": "Souq Extra, Silicon Oasis",
-     "time": "14:30",
-     "action": "set_down",
-     "lat": 25.1192507,
-     "lng": 55.3955344,
-     "where_exactly": "Damascus St entrance."
-    },
-    {
      "code": "C3-09",
      "name": "Spinneys, Town Square",
-     "time": "15:00",
+     "time": "14:55",
      "action": "set_down",
      "lat": 25.0099047,
      "lng": 55.2902856,
@@ -9516,7 +9489,7 @@
     {
      "code": "C3-03",
      "name": "Dubai Miracle Garden",
-     "time": "16:00",
+     "time": "16:05",
      "action": "set_down",
      "lat": 25.061132,
      "lng": 55.246185,
@@ -12489,7 +12462,7 @@
    "arrive_campus": null,
    "leave_campus": "14:15",
    "start": "14:15",
-   "end": "16:05",
+   "end": "16:00",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -12504,18 +12477,9 @@
      "where_exactly": "Main entrance, Academic City."
     },
     {
-     "code": "C3-16",
-     "name": "Souq Extra, Silicon Oasis",
-     "time": "14:40",
-     "action": "set_down",
-     "lat": 25.1192507,
-     "lng": 55.3955344,
-     "where_exactly": "Damascus St entrance."
-    },
-    {
      "code": "C3-06",
      "name": "Elan 1, Tilal Al Ghaf",
-     "time": "15:35",
+     "time": "15:20",
      "action": "set_down",
      "lat": 25.0286134,
      "lng": 55.2325892,
@@ -12524,7 +12488,7 @@
     {
      "code": "C3-03",
      "name": "Dubai Miracle Garden",
-     "time": "16:05",
+     "time": "16:00",
      "action": "set_down",
      "lat": 25.061132,
      "lng": 55.246185,
