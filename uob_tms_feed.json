@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-06T14:42:27Z",
+ "generated_at": "2026-10-06T15:32:51Z",
  "week": "2026-10-05 to 2026-10-11",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -1257,8 +1257,27 @@
      "type": "public"
     },
     {
-     "code": "C4-04",
+     "code": "C4-21",
      "order": 5,
+     "name": "Airport Rd / Al Falah St junction (Ramee Garden Hotel Apts), Al Danah",
+     "lat": 24.4757537,
+     "lng": 54.3663931,
+     "google_place_id": "ChIJv6D2BxVmXj4RGGc5RSJ9Qps",
+     "where_exactly": "Kerbside on Airport Road (Sheikh Rashid Bin Saeed St) at the Al Falah Street junction, outside Ramee Garden Hotel Apartments opposite NBAD - southbound side for pick-ups (towards Al Wahda), northbound side for set-downs.",
+     "pickup_lat": 24.4757537,
+     "pickup_lng": 54.3663931,
+     "pickup_where_exactly": "Kerbside on Airport Road (Sheikh Rashid Bin Saeed St) at the Al Falah Street junction, outside Ramee Garden Hotel Apartments opposite NBAD - southbound side for pick-ups (towards Al Wahda), northbound side for set-downs.",
+     "setdown_lat": 24.4757537,
+     "setdown_lng": 54.3663931,
+     "setdown_where_exactly": "Kerbside on Airport Road (Sheikh Rashid Bin Saeed St) at the Al Falah Street junction, outside Ramee Garden Hotel Apartments opposite NBAD - southbound side for pick-ups (towards Al Wahda), northbound side for set-downs.",
+     "audited": false,
+     "rider_instructions": "Wait outside Ramee Garden Hotel Apartments on Airport Road. Be here 5 minutes before your time and look for the yellow M sign in the bus windscreen.",
+     "driver_instructions": "Kerbside on Airport Road at the Al Falah Street junction, outside Ramee Garden Hotel Apartments (opposite NBAD), Al Danah, Abu Dhabi. Southbound side for pick-ups, northbound for set-downs. Public stop.",
+     "type": "public"
+    },
+    {
+     "code": "C4-04",
+     "order": 6,
      "name": "Mubadala Tower, Sultan Bin Zayed St",
      "lat": 24.422482,
      "lng": 54.4544203,
@@ -1277,7 +1296,7 @@
     },
     {
      "code": "C4-05",
-     "order": 6,
+     "order": 7,
      "name": "Yasmina School back gate, Raha Gardens",
      "lat": 24.426,
      "lng": 54.5467,
@@ -1296,7 +1315,7 @@
     },
     {
      "code": "C4-18",
-     "order": 7,
+     "order": 8,
      "name": "Super Nanny Nursery, Khalifa City, Abu Dhabi",
      "lat": 24.41338,
      "lng": 54.5594598,
@@ -1315,7 +1334,7 @@
     },
     {
      "code": "C4-06",
-     "order": 8,
+     "order": 9,
      "name": "Al Forsan Village main gate",
      "lat": 24.4044,
      "lng": 54.5514,
@@ -1334,7 +1353,7 @@
     },
     {
      "code": "C4-07",
-     "order": 9,
+     "order": 10,
      "name": "Al Zeina, Al Raha Beach",
      "lat": 24.4555591,
      "lng": 54.6131136,
@@ -1353,7 +1372,7 @@
     },
     {
      "code": "C4-15",
-     "order": 10,
+     "order": 11,
      "name": "Deerfields Mall, Al Bahia",
      "lat": 24.523305,
      "lng": 54.671536,
@@ -1372,7 +1391,7 @@
     },
     {
      "code": "C4-08",
-     "order": 11,
+     "order": 12,
      "name": "Al Ghadeer community gate",
      "lat": 24.8443745,
      "lng": 55.0261656,
@@ -1391,7 +1410,7 @@
     },
     {
      "code": "C4-09",
-     "order": 12,
+     "order": 13,
      "name": "Holiday Inn, Al Maktoum Airport",
      "lat": 24.867791,
      "lng": 55.146192,
@@ -1410,7 +1429,7 @@
     },
     {
      "code": "C4-10",
-     "order": 13,
+     "order": 14,
      "name": "Green Community West gate",
      "lat": 25.001812,
      "lng": 55.164068,
@@ -1429,7 +1448,7 @@
     },
     {
      "code": "C4-11",
-     "order": 14,
+     "order": 15,
      "name": "Al Furjan West Centre",
      "lat": 25.021958,
      "lng": 55.129796,
@@ -1448,7 +1467,7 @@
     },
     {
      "code": "C4-12",
-     "order": 15,
+     "order": 16,
      "name": "Al Furjan Centre (Pavilion)",
      "lat": 25.026111,
      "lng": 55.153303,
@@ -1467,7 +1486,7 @@
     },
     {
      "code": "C4-19",
-     "order": 16,
+     "order": 17,
      "name": "Masakin Al Furjan Gate 2, Al Furjan",
      "lat": 25.0308,
      "lng": 55.14978,
@@ -1486,7 +1505,7 @@
     },
     {
      "code": "C4-16",
-     "order": 17,
+     "order": 18,
      "name": "Discovery Gardens Metro Station",
      "lat": 25.035204,
      "lng": 55.1453653,
@@ -1505,7 +1524,7 @@
     },
     {
      "code": "C4-13",
-     "order": 18,
+     "order": 19,
      "name": "Gardens Metro Station",
      "lat": 25.043761,
      "lng": 55.134832,
@@ -1524,7 +1543,7 @@
     },
     {
      "code": "C4-14",
-     "order": 19,
+     "order": 20,
      "name": "Dubai British School, Jumeirah Park",
      "lat": 25.043026,
      "lng": 55.15753,
@@ -4009,79 +4028,85 @@
     {
      "code": "C4-02",
      "name": "The Gate Towers, Al Reem Island",
-     "time": "15:21",
+     "time": "15:20",
      "action": "pick_up"
     },
     {
      "code": "C4-03",
      "name": "Al Wahda Mall",
-     "time": "15:32",
+     "time": "15:31",
+     "action": "pick_up"
+    },
+    {
+     "code": "C4-21",
+     "name": "Airport Rd / Al Falah St junction (Ramee Garden Hotel Apts), Al Danah",
+     "time": "15:41",
      "action": "pick_up"
     },
     {
      "code": "C4-04",
      "name": "Mubadala Tower, Sultan Bin Zayed St",
-     "time": "15:43",
+     "time": "15:51",
      "action": "pick_up"
     },
     {
      "code": "C4-05",
      "name": "Yasmina School back gate, Raha Gardens",
-     "time": "15:54",
+     "time": "16:02",
      "action": "pick_up"
     },
     {
      "code": "C4-06",
      "name": "Al Forsan Village main gate",
-     "time": "16:05",
+     "time": "16:12",
      "action": "pick_up"
     },
     {
      "code": "C4-07",
      "name": "Al Zeina, Al Raha Beach",
-     "time": "16:16",
+     "time": "16:22",
      "action": "pick_up"
     },
     {
      "code": "C4-08",
      "name": "Al Ghadeer community gate",
-     "time": "16:28",
+     "time": "16:33",
      "action": "pick_up"
     },
     {
      "code": "C4-09",
      "name": "Holiday Inn, Al Maktoum Airport",
-     "time": "16:39",
+     "time": "16:43",
      "action": "pick_up"
     },
     {
      "code": "C4-10",
      "name": "Green Community West gate",
-     "time": "16:50",
+     "time": "16:53",
      "action": "pick_up"
     },
     {
      "code": "C4-11",
      "name": "Al Furjan West Centre",
-     "time": "17:01",
+     "time": "17:04",
      "action": "pick_up"
     },
     {
      "code": "C4-12",
      "name": "Al Furjan Centre (Pavilion)",
-     "time": "17:12",
+     "time": "17:14",
      "action": "pick_up"
     },
     {
      "code": "C4-13",
      "name": "Gardens Metro Station",
-     "time": "17:23",
+     "time": "17:24",
      "action": "pick_up"
     },
     {
      "code": "C4-14",
      "name": "Dubai British School, Jumeirah Park",
-     "time": "17:34",
+     "time": "17:35",
      "action": "pick_up"
     },
     {
@@ -4278,79 +4303,85 @@
     {
      "code": "C4-14",
      "name": "Dubai British School, Jumeirah Park",
-     "time": "21:47",
+     "time": "21:46",
      "action": "set_down"
     },
     {
      "code": "C4-13",
      "name": "Gardens Metro Station",
-     "time": "21:57",
+     "time": "21:56",
      "action": "set_down"
     },
     {
      "code": "C4-12",
      "name": "Al Furjan Centre (Pavilion)",
-     "time": "22:08",
+     "time": "22:06",
      "action": "set_down"
     },
     {
      "code": "C4-11",
      "name": "Al Furjan West Centre",
-     "time": "22:19",
+     "time": "22:16",
      "action": "set_down"
     },
     {
      "code": "C4-10",
      "name": "Green Community West gate",
-     "time": "22:30",
+     "time": "22:26",
      "action": "set_down"
     },
     {
      "code": "C4-09",
      "name": "Holiday Inn, Al Maktoum Airport",
-     "time": "22:40",
+     "time": "22:36",
      "action": "set_down"
     },
     {
      "code": "C4-08",
      "name": "Al Ghadeer community gate",
-     "time": "22:51",
+     "time": "22:46",
      "action": "set_down"
     },
     {
      "code": "C4-07",
      "name": "Al Zeina, Al Raha Beach",
-     "time": "23:02",
+     "time": "22:56",
      "action": "set_down"
     },
     {
      "code": "C4-06",
      "name": "Al Forsan Village main gate",
-     "time": "23:12",
+     "time": "23:06",
      "action": "set_down"
     },
     {
      "code": "C4-05",
      "name": "Yasmina School back gate, Raha Gardens",
-     "time": "23:23",
+     "time": "23:16",
      "action": "set_down"
     },
     {
      "code": "C4-04",
      "name": "Mubadala Tower, Sultan Bin Zayed St",
-     "time": "23:34",
+     "time": "23:26",
+     "action": "set_down"
+    },
+    {
+     "code": "C4-21",
+     "name": "Airport Rd / Al Falah St junction (Ramee Garden Hotel Apts), Al Danah",
+     "time": "23:36",
      "action": "set_down"
     },
     {
      "code": "C4-03",
      "name": "Al Wahda Mall",
-     "time": "23:45",
+     "time": "23:46",
      "action": "set_down"
     },
     {
      "code": "C4-02",
      "name": "The Gate Towers, Al Reem Island",
-     "time": "23:55",
+     "time": "23:56",
      "action": "set_down"
     },
     {
@@ -7137,13 +7168,13 @@
      "where_exactly": "Outside the front of Al Mariah Mall."
     },
     {
-     "code": "C4-03",
-     "name": "Al Wahda Mall",
-     "time": "10:20",
+     "code": "C4-21",
+     "name": "Airport Rd / Al Falah St junction (Ramee Garden Hotel Apts), Al Danah",
+     "time": "10:25",
      "action": "pick_up",
-     "lat": 24.471638,
-     "lng": 54.372417,
-     "where_exactly": "Bus stop shelter by Al Wahda Mall (as shown in the photo)."
+     "lat": 24.4757537,
+     "lng": 54.3663931,
+     "where_exactly": "Kerbside on Airport Road (Sheikh Rashid Bin Saeed St) at the Al Falah Street junction, outside Ramee Garden Hotel Apartments opposite NBAD - southbound side for pick-ups (towards Al Wahda), northbound side for set-downs."
     },
     {
      "code": "C4-11",
@@ -7298,79 +7329,85 @@
     {
      "code": "C4-02",
      "name": "The Gate Towers, Al Reem Island",
-     "time": "15:21",
+     "time": "15:20",
      "action": "pick_up"
     },
     {
      "code": "C4-03",
      "name": "Al Wahda Mall",
-     "time": "15:32",
+     "time": "15:31",
+     "action": "pick_up"
+    },
+    {
+     "code": "C4-21",
+     "name": "Airport Rd / Al Falah St junction (Ramee Garden Hotel Apts), Al Danah",
+     "time": "15:41",
      "action": "pick_up"
     },
     {
      "code": "C4-04",
      "name": "Mubadala Tower, Sultan Bin Zayed St",
-     "time": "15:43",
+     "time": "15:51",
      "action": "pick_up"
     },
     {
      "code": "C4-05",
      "name": "Yasmina School back gate, Raha Gardens",
-     "time": "15:54",
+     "time": "16:02",
      "action": "pick_up"
     },
     {
      "code": "C4-06",
      "name": "Al Forsan Village main gate",
-     "time": "16:05",
+     "time": "16:12",
      "action": "pick_up"
     },
     {
      "code": "C4-07",
      "name": "Al Zeina, Al Raha Beach",
-     "time": "16:16",
+     "time": "16:22",
      "action": "pick_up"
     },
     {
      "code": "C4-08",
      "name": "Al Ghadeer community gate",
-     "time": "16:28",
+     "time": "16:33",
      "action": "pick_up"
     },
     {
      "code": "C4-09",
      "name": "Holiday Inn, Al Maktoum Airport",
-     "time": "16:39",
+     "time": "16:43",
      "action": "pick_up"
     },
     {
      "code": "C4-10",
      "name": "Green Community West gate",
-     "time": "16:50",
+     "time": "16:53",
      "action": "pick_up"
     },
     {
      "code": "C4-11",
      "name": "Al Furjan West Centre",
-     "time": "17:01",
+     "time": "17:04",
      "action": "pick_up"
     },
     {
      "code": "C4-12",
      "name": "Al Furjan Centre (Pavilion)",
-     "time": "17:12",
+     "time": "17:14",
      "action": "pick_up"
     },
     {
      "code": "C4-13",
      "name": "Gardens Metro Station",
-     "time": "17:23",
+     "time": "17:24",
      "action": "pick_up"
     },
     {
      "code": "C4-14",
      "name": "Dubai British School, Jumeirah Park",
-     "time": "17:34",
+     "time": "17:35",
      "action": "pick_up"
     },
     {
@@ -7531,13 +7568,13 @@
      "where_exactly": "Main gate on Al Fayah Rd."
     },
     {
-     "code": "C4-03",
-     "name": "Al Wahda Mall",
+     "code": "C4-21",
+     "name": "Airport Rd / Al Falah St junction (Ramee Garden Hotel Apts), Al Danah",
      "time": "21:00",
      "action": "set_down",
-     "lat": 24.471631,
-     "lng": 54.372867,
-     "where_exactly": "Bus stop shelter by Al Wahda Mall (as shown in the photo)."
+     "lat": 24.4757537,
+     "lng": 54.3663931,
+     "where_exactly": "Kerbside on Airport Road (Sheikh Rashid Bin Saeed St) at the Al Falah Street junction, outside Ramee Garden Hotel Apartments opposite NBAD - southbound side for pick-ups (towards Al Wahda), northbound side for set-downs."
     },
     {
      "code": "C4-01",
@@ -7576,79 +7613,85 @@
     {
      "code": "C4-14",
      "name": "Dubai British School, Jumeirah Park",
-     "time": "21:47",
+     "time": "21:46",
      "action": "set_down"
     },
     {
      "code": "C4-13",
      "name": "Gardens Metro Station",
-     "time": "21:57",
+     "time": "21:56",
      "action": "set_down"
     },
     {
      "code": "C4-12",
      "name": "Al Furjan Centre (Pavilion)",
-     "time": "22:08",
+     "time": "22:06",
      "action": "set_down"
     },
     {
      "code": "C4-11",
      "name": "Al Furjan West Centre",
-     "time": "22:19",
+     "time": "22:16",
      "action": "set_down"
     },
     {
      "code": "C4-10",
      "name": "Green Community West gate",
-     "time": "22:30",
+     "time": "22:26",
      "action": "set_down"
     },
     {
      "code": "C4-09",
      "name": "Holiday Inn, Al Maktoum Airport",
-     "time": "22:40",
+     "time": "22:36",
      "action": "set_down"
     },
     {
      "code": "C4-08",
      "name": "Al Ghadeer community gate",
-     "time": "22:51",
+     "time": "22:46",
      "action": "set_down"
     },
     {
      "code": "C4-07",
      "name": "Al Zeina, Al Raha Beach",
-     "time": "23:02",
+     "time": "22:56",
      "action": "set_down"
     },
     {
      "code": "C4-06",
      "name": "Al Forsan Village main gate",
-     "time": "23:12",
+     "time": "23:06",
      "action": "set_down"
     },
     {
      "code": "C4-05",
      "name": "Yasmina School back gate, Raha Gardens",
-     "time": "23:23",
+     "time": "23:16",
      "action": "set_down"
     },
     {
      "code": "C4-04",
      "name": "Mubadala Tower, Sultan Bin Zayed St",
-     "time": "23:34",
+     "time": "23:26",
+     "action": "set_down"
+    },
+    {
+     "code": "C4-21",
+     "name": "Airport Rd / Al Falah St junction (Ramee Garden Hotel Apts), Al Danah",
+     "time": "23:36",
      "action": "set_down"
     },
     {
      "code": "C4-03",
      "name": "Al Wahda Mall",
-     "time": "23:45",
+     "time": "23:46",
      "action": "set_down"
     },
     {
      "code": "C4-02",
      "name": "The Gate Towers, Al Reem Island",
-     "time": "23:55",
+     "time": "23:56",
      "action": "set_down"
     },
     {
@@ -10203,6 +10246,15 @@
      "where_exactly": "Bus stop shelter by Al Wahda Mall (as shown in the photo)."
     },
     {
+     "code": "C4-21",
+     "name": "Airport Rd / Al Falah St junction (Ramee Garden Hotel Apts), Al Danah",
+     "time": "05:00",
+     "action": "pick_up",
+     "lat": 24.4757537,
+     "lng": 54.3663931,
+     "where_exactly": "Kerbside on Airport Road (Sheikh Rashid Bin Saeed St) at the Al Falah Street junction, outside Ramee Garden Hotel Apartments opposite NBAD - southbound side for pick-ups (towards Al Wahda), northbound side for set-downs."
+    },
+    {
      "code": "C4-18",
      "name": "Super Nanny Nursery, Khalifa City, Abu Dhabi",
      "time": "05:25",
@@ -10516,7 +10568,7 @@
    "arrive_campus": null,
    "leave_campus": "16:55",
    "start": "16:55",
-   "end": "20:17",
+   "end": "20:14",
    "vehicle": "M8",
    "vehicle_type": "Rosa",
    "seats": 34,
@@ -10592,6 +10644,15 @@
      "lat": 24.422482,
      "lng": 54.4544203,
      "where_exactly": "Outside the tower, Sultan Bin Zayed the First St."
+    },
+    {
+     "code": "C4-21",
+     "name": "Airport Rd / Al Falah St junction (Ramee Garden Hotel Apts), Al Danah",
+     "time": "20:10",
+     "action": "set_down",
+     "lat": 24.4757537,
+     "lng": 54.3663931,
+     "where_exactly": "Kerbside on Airport Road (Sheikh Rashid Bin Saeed St) at the Al Falah Street junction, outside Ramee Garden Hotel Apartments opposite NBAD - southbound side for pick-ups (towards Al Wahda), northbound side for set-downs."
     },
     {
      "code": "C4-03",
@@ -13504,79 +13565,85 @@
     {
      "code": "C4-02",
      "name": "The Gate Towers, Al Reem Island",
-     "time": "15:21",
+     "time": "15:20",
      "action": "pick_up"
     },
     {
      "code": "C4-03",
      "name": "Al Wahda Mall",
-     "time": "15:32",
+     "time": "15:31",
+     "action": "pick_up"
+    },
+    {
+     "code": "C4-21",
+     "name": "Airport Rd / Al Falah St junction (Ramee Garden Hotel Apts), Al Danah",
+     "time": "15:41",
      "action": "pick_up"
     },
     {
      "code": "C4-04",
      "name": "Mubadala Tower, Sultan Bin Zayed St",
-     "time": "15:43",
+     "time": "15:51",
      "action": "pick_up"
     },
     {
      "code": "C4-05",
      "name": "Yasmina School back gate, Raha Gardens",
-     "time": "15:54",
+     "time": "16:02",
      "action": "pick_up"
     },
     {
      "code": "C4-06",
      "name": "Al Forsan Village main gate",
-     "time": "16:05",
+     "time": "16:12",
      "action": "pick_up"
     },
     {
      "code": "C4-07",
      "name": "Al Zeina, Al Raha Beach",
-     "time": "16:16",
+     "time": "16:22",
      "action": "pick_up"
     },
     {
      "code": "C4-08",
      "name": "Al Ghadeer community gate",
-     "time": "16:28",
+     "time": "16:33",
      "action": "pick_up"
     },
     {
      "code": "C4-09",
      "name": "Holiday Inn, Al Maktoum Airport",
-     "time": "16:39",
+     "time": "16:43",
      "action": "pick_up"
     },
     {
      "code": "C4-10",
      "name": "Green Community West gate",
-     "time": "16:50",
+     "time": "16:53",
      "action": "pick_up"
     },
     {
      "code": "C4-11",
      "name": "Al Furjan West Centre",
-     "time": "17:01",
+     "time": "17:04",
      "action": "pick_up"
     },
     {
      "code": "C4-12",
      "name": "Al Furjan Centre (Pavilion)",
-     "time": "17:12",
+     "time": "17:14",
      "action": "pick_up"
     },
     {
      "code": "C4-13",
      "name": "Gardens Metro Station",
-     "time": "17:23",
+     "time": "17:24",
      "action": "pick_up"
     },
     {
      "code": "C4-14",
      "name": "Dubai British School, Jumeirah Park",
-     "time": "17:34",
+     "time": "17:35",
      "action": "pick_up"
     },
     {
@@ -13791,79 +13858,85 @@
     {
      "code": "C4-14",
      "name": "Dubai British School, Jumeirah Park",
-     "time": "21:47",
+     "time": "21:46",
      "action": "set_down"
     },
     {
      "code": "C4-13",
      "name": "Gardens Metro Station",
-     "time": "21:57",
+     "time": "21:56",
      "action": "set_down"
     },
     {
      "code": "C4-12",
      "name": "Al Furjan Centre (Pavilion)",
-     "time": "22:08",
+     "time": "22:06",
      "action": "set_down"
     },
     {
      "code": "C4-11",
      "name": "Al Furjan West Centre",
-     "time": "22:19",
+     "time": "22:16",
      "action": "set_down"
     },
     {
      "code": "C4-10",
      "name": "Green Community West gate",
-     "time": "22:30",
+     "time": "22:26",
      "action": "set_down"
     },
     {
      "code": "C4-09",
      "name": "Holiday Inn, Al Maktoum Airport",
-     "time": "22:40",
+     "time": "22:36",
      "action": "set_down"
     },
     {
      "code": "C4-08",
      "name": "Al Ghadeer community gate",
-     "time": "22:51",
+     "time": "22:46",
      "action": "set_down"
     },
     {
      "code": "C4-07",
      "name": "Al Zeina, Al Raha Beach",
-     "time": "23:02",
+     "time": "22:56",
      "action": "set_down"
     },
     {
      "code": "C4-06",
      "name": "Al Forsan Village main gate",
-     "time": "23:12",
+     "time": "23:06",
      "action": "set_down"
     },
     {
      "code": "C4-05",
      "name": "Yasmina School back gate, Raha Gardens",
-     "time": "23:23",
+     "time": "23:16",
      "action": "set_down"
     },
     {
      "code": "C4-04",
      "name": "Mubadala Tower, Sultan Bin Zayed St",
-     "time": "23:34",
+     "time": "23:26",
+     "action": "set_down"
+    },
+    {
+     "code": "C4-21",
+     "name": "Airport Rd / Al Falah St junction (Ramee Garden Hotel Apts), Al Danah",
+     "time": "23:36",
      "action": "set_down"
     },
     {
      "code": "C4-03",
      "name": "Al Wahda Mall",
-     "time": "23:45",
+     "time": "23:46",
      "action": "set_down"
     },
     {
      "code": "C4-02",
      "name": "The Gate Towers, Al Reem Island",
-     "time": "23:55",
+     "time": "23:56",
      "action": "set_down"
     },
     {
@@ -15521,13 +15594,13 @@
      "where_exactly": "Outside the front of Al Mariah Mall."
     },
     {
-     "code": "C4-03",
-     "name": "Al Wahda Mall",
+     "code": "C4-21",
+     "name": "Airport Rd / Al Falah St junction (Ramee Garden Hotel Apts), Al Danah",
      "time": "05:00",
      "action": "pick_up",
-     "lat": 24.471638,
-     "lng": 54.372417,
-     "where_exactly": "Bus stop shelter by Al Wahda Mall (as shown in the photo)."
+     "lat": 24.4757537,
+     "lng": 54.3663931,
+     "where_exactly": "Kerbside on Airport Road (Sheikh Rashid Bin Saeed St) at the Al Falah Street junction, outside Ramee Garden Hotel Apartments opposite NBAD - southbound side for pick-ups (towards Al Wahda), northbound side for set-downs."
     },
     {
      "code": "C4-11",
@@ -15637,13 +15710,13 @@
      "where_exactly": "Car park entrance."
     },
     {
-     "code": "C4-03",
-     "name": "Al Wahda Mall",
-     "time": "14:35",
+     "code": "C4-21",
+     "name": "Airport Rd / Al Falah St junction (Ramee Garden Hotel Apts), Al Danah",
+     "time": "14:30",
      "action": "set_down",
-     "lat": 24.471631,
-     "lng": 54.372867,
-     "where_exactly": "Bus stop shelter by Al Wahda Mall (as shown in the photo)."
+     "lat": 24.4757537,
+     "lng": 54.3663931,
+     "where_exactly": "Kerbside on Airport Road (Sheikh Rashid Bin Saeed St) at the Al Falah Street junction, outside Ramee Garden Hotel Apartments opposite NBAD - southbound side for pick-ups (towards Al Wahda), northbound side for set-downs."
     },
     {
      "code": "C4-01",
