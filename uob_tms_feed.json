@@ -1,9 +1,9 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-06T09:20:31Z",
+ "generated_at": "2026-10-06T09:22:11Z",
  "week": "2026-10-05 to 2026-10-11",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
- "notes": "Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
+ "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
  "timetable_slots": {
   "undergraduate_arrivals": [
    "07:45 (Route 1 planned 07:35)",
@@ -1889,6 +1889,16 @@
      "where_exactly": "RTA bus stop pole outside Famila Mart, Muzoon 11, facing Madina Mall."
     },
     {
+     "code": "C1-23",
+     "name": "Centrepoint, Mirdif City Centre",
+     "time": "06:30",
+     "action": "pick_up",
+     "lat": 25.2180926,
+     "lng": 55.4085703,
+     "where_exactly": "Centrepoint entrance, Mirdif City Centre (Tripoli St side) - kerb to be confirmed on audit.",
+     "offer_only_stop": true
+    },
+    {
      "code": "C1-12",
      "name": "Uptown Mirdif",
      "time": "06:35",
@@ -1976,6 +1986,16 @@
      "lat": 25.270214,
      "lng": 55.373696,
      "where_exactly": "21B Street footpath by DAFZA Metro Station Entrance 1."
+    },
+    {
+     "code": "C1-23",
+     "name": "Centrepoint, Mirdif City Centre",
+     "time": "09:50",
+     "action": "pick_up",
+     "lat": 25.2180926,
+     "lng": 55.4085703,
+     "where_exactly": "Centrepoint entrance, Mirdif City Centre (Tripoli St side) - kerb to be confirmed on audit.",
+     "offer_only_stop": true
     },
     {
      "code": "C1-12",
@@ -2083,6 +2103,16 @@
      "lat": 25.289501,
      "lng": 55.4111465,
      "where_exactly": "Other side of the road, outside Urban Slice; students wait at the bench."
+    },
+    {
+     "code": "C1-23",
+     "name": "Centrepoint, Mirdif City Centre",
+     "time": "12:15",
+     "action": "pick_up",
+     "lat": 25.2180926,
+     "lng": 55.4085703,
+     "where_exactly": "Centrepoint entrance, Mirdif City Centre (Tripoli St side) - kerb to be confirmed on audit.",
+     "offer_only_stop": true
     },
     {
      "code": "C1-13",
@@ -2357,6 +2387,16 @@
      "where_exactly": "Kerbside outside Exotic Fin Store, Uptown Mirdif, corner of Algeria St."
     },
     {
+     "code": "C1-23",
+     "name": "Centrepoint, Mirdif City Centre",
+     "time": "18:10",
+     "action": "set_down",
+     "lat": 25.2180926,
+     "lng": 55.4085703,
+     "where_exactly": "Centrepoint entrance, Mirdif City Centre (Tripoli St side) - kerb to be confirmed on audit.",
+     "offer_only_stop": true
+    },
+    {
      "code": "C1-10",
      "name": "Dubai Festival City Mall",
      "time": "18:25",
@@ -2426,6 +2466,16 @@
      "lat": 25.221963,
      "lng": 55.440775,
      "where_exactly": "RTA bus stop pole (F40 / F03) on 78th Street, Mirdif Hills Avenue."
+    },
+    {
+     "code": "C1-23",
+     "name": "Centrepoint, Mirdif City Centre",
+     "time": "19:00",
+     "action": "set_down",
+     "lat": 25.2180926,
+     "lng": 55.4085703,
+     "where_exactly": "Centrepoint entrance, Mirdif City Centre (Tripoli St side) - kerb to be confirmed on audit.",
+     "offer_only_stop": true
     },
     {
      "code": "C1-15",
@@ -4861,6 +4911,16 @@
      "where_exactly": "RTA bus stop pole outside Famila Mart, Muzoon 11, facing Madina Mall."
     },
     {
+     "code": "C1-23",
+     "name": "Centrepoint, Mirdif City Centre",
+     "time": "06:25",
+     "action": "pick_up",
+     "lat": 25.2180926,
+     "lng": 55.4085703,
+     "where_exactly": "Centrepoint entrance, Mirdif City Centre (Tripoli St side) - kerb to be confirmed on audit.",
+     "offer_only_stop": true
+    },
+    {
      "code": "C1-12",
      "name": "Uptown Mirdif",
      "time": "06:30",
@@ -5075,6 +5135,16 @@
      "where_exactly": "Other side of the road, outside Urban Slice; students wait at the bench."
     },
     {
+     "code": "C1-23",
+     "name": "Centrepoint, Mirdif City Centre",
+     "time": "12:19",
+     "action": "pick_up",
+     "lat": 25.2180926,
+     "lng": 55.4085703,
+     "where_exactly": "Centrepoint entrance, Mirdif City Centre (Tripoli St side) - kerb to be confirmed on audit.",
+     "offer_only_stop": true
+    },
+    {
      "code": "C1-13",
      "name": "Nasayem Avenue, Mirdif Hills",
      "time": "12:27",
@@ -5135,6 +5205,16 @@
      "lat": 25.224246,
      "lng": 55.423615,
      "where_exactly": "Kerbside outside Exotic Fin Store, Uptown Mirdif, corner of Algeria St."
+    },
+    {
+     "code": "C1-23",
+     "name": "Centrepoint, Mirdif City Centre",
+     "time": "14:50",
+     "action": "set_down",
+     "lat": 25.2180926,
+     "lng": 55.4085703,
+     "where_exactly": "Centrepoint entrance, Mirdif City Centre (Tripoli St side) - kerb to be confirmed on audit.",
+     "offer_only_stop": true
     },
     {
      "code": "C1-11",
@@ -5372,6 +5452,16 @@
      "lat": 25.224246,
      "lng": 55.423615,
      "where_exactly": "Kerbside outside Exotic Fin Store, Uptown Mirdif, corner of Algeria St."
+    },
+    {
+     "code": "C1-23",
+     "name": "Centrepoint, Mirdif City Centre",
+     "time": "17:53",
+     "action": "set_down",
+     "lat": 25.2180926,
+     "lng": 55.4085703,
+     "where_exactly": "Centrepoint entrance, Mirdif City Centre (Tripoli St side) - kerb to be confirmed on audit.",
+     "offer_only_stop": true
     },
     {
      "code": "C1-15",
@@ -8102,6 +8192,16 @@
      "where_exactly": "RTA bus stop pole outside Famila Mart, Muzoon 11, facing Madina Mall."
     },
     {
+     "code": "C1-23",
+     "name": "Centrepoint, Mirdif City Centre",
+     "time": "06:40",
+     "action": "pick_up",
+     "lat": 25.2180926,
+     "lng": 55.4085703,
+     "where_exactly": "Centrepoint entrance, Mirdif City Centre (Tripoli St side) - kerb to be confirmed on audit.",
+     "offer_only_stop": true
+    },
+    {
      "code": "C1-12",
      "name": "Uptown Mirdif",
      "time": "06:45",
@@ -8216,6 +8316,16 @@
      "lat": 25.289501,
      "lng": 55.4111465,
      "where_exactly": "Other side of the road, outside Urban Slice; students wait at the bench."
+    },
+    {
+     "code": "C1-23",
+     "name": "Centrepoint, Mirdif City Centre",
+     "time": "10:01",
+     "action": "pick_up",
+     "lat": 25.2180926,
+     "lng": 55.4085703,
+     "where_exactly": "Centrepoint entrance, Mirdif City Centre (Tripoli St side) - kerb to be confirmed on audit.",
+     "offer_only_stop": true
     },
     {
      "code": "C1-12",
@@ -8502,6 +8612,16 @@
      "where_exactly": "Kerbside outside Exotic Fin Store, Uptown Mirdif, corner of Algeria St."
     },
     {
+     "code": "C1-23",
+     "name": "Centrepoint, Mirdif City Centre",
+     "time": "17:38",
+     "action": "set_down",
+     "lat": 25.2180926,
+     "lng": 55.4085703,
+     "where_exactly": "Centrepoint entrance, Mirdif City Centre (Tripoli St side) - kerb to be confirmed on audit.",
+     "offer_only_stop": true
+    },
+    {
      "code": "C1-11",
      "name": "Madina Mall",
      "time": "17:51",
@@ -8634,6 +8754,16 @@
      "lat": 25.224246,
      "lng": 55.423615,
      "where_exactly": "Kerbside outside Exotic Fin Store, Uptown Mirdif, corner of Algeria St."
+    },
+    {
+     "code": "C1-23",
+     "name": "Centrepoint, Mirdif City Centre",
+     "time": "19:30",
+     "action": "set_down",
+     "lat": 25.2180926,
+     "lng": 55.4085703,
+     "where_exactly": "Centrepoint entrance, Mirdif City Centre (Tripoli St side) - kerb to be confirmed on audit.",
+     "offer_only_stop": true
     },
     {
      "code": "C1-15",
@@ -11166,6 +11296,16 @@
      "where_exactly": "RTA bus stop pole outside Famila Mart, Muzoon 11, facing Madina Mall."
     },
     {
+     "code": "C1-23",
+     "name": "Centrepoint, Mirdif City Centre",
+     "time": "06:45",
+     "action": "pick_up",
+     "lat": 25.2180926,
+     "lng": 55.4085703,
+     "where_exactly": "Centrepoint entrance, Mirdif City Centre (Tripoli St side) - kerb to be confirmed on audit.",
+     "offer_only_stop": true
+    },
+    {
      "code": "C1-12",
      "name": "Uptown Mirdif",
      "time": "06:50",
@@ -11262,6 +11402,16 @@
      "lat": 25.289501,
      "lng": 55.4111465,
      "where_exactly": "Other side of the road, outside Urban Slice; students wait at the bench."
+    },
+    {
+     "code": "C1-23",
+     "name": "Centrepoint, Mirdif City Centre",
+     "time": "10:05",
+     "action": "pick_up",
+     "lat": 25.2180926,
+     "lng": 55.4085703,
+     "where_exactly": "Centrepoint entrance, Mirdif City Centre (Tripoli St side) - kerb to be confirmed on audit.",
+     "offer_only_stop": true
     },
     {
      "code": "C1-13",
@@ -11386,6 +11536,16 @@
      "lat": 25.224246,
      "lng": 55.423615,
      "where_exactly": "Kerbside outside Exotic Fin Store, Uptown Mirdif, corner of Algeria St."
+    },
+    {
+     "code": "C1-23",
+     "name": "Centrepoint, Mirdif City Centre",
+     "time": "15:00",
+     "action": "set_down",
+     "lat": 25.2180926,
+     "lng": 55.4085703,
+     "where_exactly": "Centrepoint entrance, Mirdif City Centre (Tripoli St side) - kerb to be confirmed on audit.",
+     "offer_only_stop": true
     },
     {
      "code": "C1-11",
@@ -11607,6 +11767,16 @@
      "where_exactly": "Kerbside outside Exotic Fin Store, Uptown Mirdif, corner of Algeria St."
     },
     {
+     "code": "C1-23",
+     "name": "Centrepoint, Mirdif City Centre",
+     "time": "17:47",
+     "action": "set_down",
+     "lat": 25.2180926,
+     "lng": 55.4085703,
+     "where_exactly": "Centrepoint entrance, Mirdif City Centre (Tripoli St side) - kerb to be confirmed on audit.",
+     "offer_only_stop": true
+    },
+    {
      "code": "C1-15",
      "name": "Wasl Village, Central Parking",
      "time": "18:00",
@@ -11703,6 +11873,16 @@
      "lat": 25.224246,
      "lng": 55.423615,
      "where_exactly": "Kerbside outside Exotic Fin Store, Uptown Mirdif, corner of Algeria St."
+    },
+    {
+     "code": "C1-23",
+     "name": "Centrepoint, Mirdif City Centre",
+     "time": "19:24",
+     "action": "set_down",
+     "lat": 25.2180926,
+     "lng": 55.4085703,
+     "where_exactly": "Centrepoint entrance, Mirdif City Centre (Tripoli St side) - kerb to be confirmed on audit.",
+     "offer_only_stop": true
     },
     {
      "code": "C1-11",
@@ -14200,6 +14380,16 @@
      "where_exactly": "RTA bus stop pole outside Famila Mart, Muzoon 11, facing Madina Mall."
     },
     {
+     "code": "C1-23",
+     "name": "Centrepoint, Mirdif City Centre",
+     "time": "06:35",
+     "action": "pick_up",
+     "lat": 25.2180926,
+     "lng": 55.4085703,
+     "where_exactly": "Centrepoint entrance, Mirdif City Centre (Tripoli St side) - kerb to be confirmed on audit.",
+     "offer_only_stop": true
+    },
+    {
      "code": "C1-12",
      "name": "Uptown Mirdif",
      "time": "06:40",
@@ -14287,6 +14477,16 @@
      "lat": 25.224246,
      "lng": 55.423615,
      "where_exactly": "Kerbside outside Exotic Fin Store, Uptown Mirdif, corner of Algeria St."
+    },
+    {
+     "code": "C1-23",
+     "name": "Centrepoint, Mirdif City Centre",
+     "time": "12:51",
+     "action": "set_down",
+     "lat": 25.2180926,
+     "lng": 55.4085703,
+     "where_exactly": "Centrepoint entrance, Mirdif City Centre (Tripoli St side) - kerb to be confirmed on audit.",
+     "offer_only_stop": true
     },
     {
      "code": "C1-11",
@@ -15673,6 +15873,16 @@
      "where_exactly": "Other side of the road, outside Urban Slice; students wait at the bench."
     },
     {
+     "code": "C1-23",
+     "name": "Centrepoint, Mirdif City Centre",
+     "time": "06:20",
+     "action": "pick_up",
+     "lat": 25.2180926,
+     "lng": 55.4085703,
+     "where_exactly": "Centrepoint entrance, Mirdif City Centre (Tripoli St side) - kerb to be confirmed on audit.",
+     "offer_only_stop": true
+    },
+    {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
      "time": "07:30",
@@ -15741,6 +15951,16 @@
      "lat": 25.1321925,
      "lng": 55.4223161,
      "where_exactly": "Main entrance, Academic City."
+    },
+    {
+     "code": "C1-23",
+     "name": "Centrepoint, Mirdif City Centre",
+     "time": "20:20",
+     "action": "set_down",
+     "lat": 25.2180926,
+     "lng": 55.4085703,
+     "where_exactly": "Centrepoint entrance, Mirdif City Centre (Tripoli St side) - kerb to be confirmed on audit.",
+     "offer_only_stop": true
     },
     {
      "code": "C1-15",
@@ -16263,6 +16483,16 @@
      "where_exactly": "Other side of the road, outside Urban Slice; students wait at the bench."
     },
     {
+     "code": "C1-23",
+     "name": "Centrepoint, Mirdif City Centre",
+     "time": "05:20",
+     "action": "pick_up",
+     "lat": 25.2180926,
+     "lng": 55.4085703,
+     "where_exactly": "Centrepoint entrance, Mirdif City Centre (Tripoli St side) - kerb to be confirmed on audit.",
+     "offer_only_stop": true
+    },
+    {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
      "time": "07:30",
@@ -16296,6 +16526,16 @@
      "lat": 25.1321925,
      "lng": 55.4223161,
      "where_exactly": "Main entrance, Academic City."
+    },
+    {
+     "code": "C1-23",
+     "name": "Centrepoint, Mirdif City Centre",
+     "time": "20:20",
+     "action": "set_down",
+     "lat": 25.2180926,
+     "lng": 55.4085703,
+     "where_exactly": "Centrepoint entrance, Mirdif City Centre (Tripoli St side) - kerb to be confirmed on audit.",
+     "offer_only_stop": true
     },
     {
      "code": "C1-15",
