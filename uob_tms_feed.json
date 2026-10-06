@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-06T09:46:53Z",
+ "generated_at": "2026-10-06T09:54:48Z",
  "week": "2026-10-05 to 2026-10-11",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -10667,6 +10667,15 @@
      "where_exactly": "Bus stop outside Asia Kitchen, BurJuman Mall."
     },
     {
+     "code": "C5-17",
+     "name": "New Gold Souq, Al Raffa, Bur Dubai",
+     "time": "06:06",
+     "action": "pick_up",
+     "lat": 25.2515903,
+     "lng": 55.2824733,
+     "where_exactly": "ENOC petrol station beside the New Gold Souq (by Shabab Al Khan Cafeteria)."
+    },
+    {
      "code": "C5-07",
      "name": "World Trade Centre Metro Station",
      "time": "06:16",
@@ -10745,15 +10754,6 @@
      "lat": 25.243624,
      "lng": 55.315799,
      "where_exactly": "RTA bus stop Oud Metha 1, other side of the road, outside Super Saver supermarket."
-    },
-    {
-     "code": "C5-17",
-     "name": "New Gold Souq, Al Raffa, Bur Dubai",
-     "time": "08:15",
-     "action": "pick_up",
-     "lat": 25.2515903,
-     "lng": 55.2824733,
-     "where_exactly": "ENOC petrol station beside the New Gold Souq (by Shabab Al Khan Cafeteria)."
     },
     {
      "code": "C5-08",
