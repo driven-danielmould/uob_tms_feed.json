@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-06T12:32:02Z",
+ "generated_at": "2026-10-06T12:37:14Z",
  "week": "2026-10-05 to 2026-10-11",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -1626,8 +1626,27 @@
      "type": "public"
     },
     {
-     "code": "C5-16",
+     "code": "C5-19",
      "order": 6,
+     "name": "Al Raffa, 7E Street (near Al Khaleej Centre)",
+     "lat": 25.25816,
+     "lng": 55.297127,
+     "google_place_id": null,
+     "where_exactly": "Kerbside at the pin on 7E Street, Al Raffa, near Al Khaleej Centre - wait on the main-road side; kerb to confirm on audit.",
+     "pickup_lat": 25.25816,
+     "pickup_lng": 55.297127,
+     "pickup_where_exactly": "Kerbside at the pin on 7E Street, Al Raffa, near Al Khaleej Centre - wait on the main-road side; kerb to confirm on audit.",
+     "setdown_lat": 25.25816,
+     "setdown_lng": 55.297127,
+     "setdown_where_exactly": "Kerbside at the pin on 7E Street, Al Raffa, near Al Khaleej Centre - wait on the main-road side; kerb to confirm on audit.",
+     "audited": false,
+     "rider_instructions": "Wait at the pin on 7E Street, main-road side. Be here 5 minutes before your time and look for the yellow M sign in the bus windscreen.",
+     "driver_instructions": "Kerbside at the pin on 7E Street, Al Raffa, near Al Khaleej Centre, 780 m west of BurJuman. Only served on booked days.",
+     "type": "rider_only"
+    },
+    {
+     "code": "C5-16",
+     "order": 7,
      "name": "Raffa 1 bus stop, Khalid Bin Al Waleed Rd, Bur Dubai",
      "lat": 25.2593199,
      "lng": 55.2891482,
@@ -1646,7 +1665,7 @@
     },
     {
      "code": "C5-17",
-     "order": 7,
+     "order": 8,
      "name": "New Gold Souq, Al Raffa, Bur Dubai",
      "lat": 25.2515903,
      "lng": 55.2824733,
@@ -1665,7 +1684,7 @@
     },
     {
      "code": "C5-06",
-     "order": 8,
+     "order": 9,
      "name": "Al Wasl Building, Al Hudaiba",
      "lat": 25.243,
      "lng": 55.2788,
@@ -1684,7 +1703,7 @@
     },
     {
      "code": "C5-07",
-     "order": 9,
+     "order": 10,
      "name": "World Trade Centre Metro Station",
      "lat": 25.225614,
      "lng": 55.284365,
@@ -1703,7 +1722,7 @@
     },
     {
      "code": "C5-08",
-     "order": 10,
+     "order": 11,
      "name": "Financial Centre Metro Station",
      "lat": 25.2111662,
      "lng": 55.2755821,
@@ -1722,7 +1741,7 @@
     },
     {
      "code": "C5-13",
-     "order": 11,
+     "order": 12,
      "name": "Downtown Views II, Zabeel 2",
      "lat": 25.2024286,
      "lng": 55.2809328,
@@ -1741,7 +1760,7 @@
     },
     {
      "code": "C5-09",
-     "order": 12,
+     "order": 13,
      "name": "Bay Avenue Mall, Business Bay",
      "lat": 25.191143,
      "lng": 55.265598,
@@ -1760,7 +1779,7 @@
     },
     {
      "code": "C5-15",
-     "order": 13,
+     "order": 14,
      "name": "Ubora Tower, Business Bay",
      "lat": 25.180398,
      "lng": 55.269675,
@@ -1779,7 +1798,7 @@
     },
     {
      "code": "C5-18",
-     "order": 14,
+     "order": 15,
      "name": "The First Collection Business Bay (hotel), Al A'amal St",
      "lat": 25.1783788,
      "lng": 55.2679776,
@@ -1798,7 +1817,7 @@
     },
     {
      "code": "C5-10",
-     "order": 15,
+     "order": 16,
      "name": "Bay Square, Business Bay",
      "lat": 25.1854241,
      "lng": 55.2801414,
@@ -1817,7 +1836,7 @@
     },
     {
      "code": "C5-11",
-     "order": 16,
+     "order": 17,
      "name": "One Park Avenue, Sobha Hartland",
      "lat": 25.1784466,
      "lng": 55.3086196,
@@ -1836,7 +1855,7 @@
     },
     {
      "code": "C5-14",
-     "order": 17,
+     "order": 18,
      "name": "Meydan Heights, Nad Al Sheba 1",
      "lat": 25.14468,
      "lng": 55.3152,
@@ -1855,7 +1874,7 @@
     },
     {
      "code": "C5-12",
-     "order": 18,
+     "order": 19,
      "name": "Wasl Green Park, Ras Al Khor",
      "lat": 25.1801628,
      "lng": 55.3729096,
@@ -11024,13 +11043,13 @@
    "seats": 12,
    "stops": [
     {
-     "code": "C5-05",
-     "name": "BurJuman Mall",
+     "code": "C5-19",
+     "name": "Al Raffa, 7E Street (near Al Khaleej Centre)",
      "time": "16:15",
      "action": "pick_up",
-     "lat": 25.254331,
-     "lng": 55.303661,
-     "where_exactly": "Bus stop outside Asia Kitchen, BurJuman Mall."
+     "lat": 25.25816,
+     "lng": 55.297127,
+     "where_exactly": "Kerbside at the pin on 7E Street, Al Raffa, near Al Khaleej Centre - wait on the main-road side; kerb to confirm on audit."
     },
     {
      "code": "UOB",
@@ -11255,13 +11274,13 @@
      "where_exactly": "Main entrance, Academic City."
     },
     {
-     "code": "C5-05",
-     "name": "BurJuman Mall",
+     "code": "C5-19",
+     "name": "Al Raffa, 7E Street (near Al Khaleej Centre)",
      "time": "22:46",
      "action": "set_down",
-     "lat": 25.252326,
-     "lng": 55.303144,
-     "where_exactly": "Bus stop outside Centro Discount Center."
+     "lat": 25.25816,
+     "lng": 55.297127,
+     "where_exactly": "Kerbside at the pin on 7E Street, Al Raffa, near Al Khaleej Centre - wait on the main-road side; kerb to confirm on audit."
     }
    ]
   },
@@ -15896,13 +15915,13 @@
    "seats": 12,
    "stops": [
     {
-     "code": "C5-05",
-     "name": "BurJuman Mall",
+     "code": "C5-19",
+     "name": "Al Raffa, 7E Street (near Al Khaleej Centre)",
      "time": "16:15",
      "action": "pick_up",
-     "lat": 25.254331,
-     "lng": 55.303661,
-     "where_exactly": "Bus stop outside Asia Kitchen, BurJuman Mall."
+     "lat": 25.25816,
+     "lng": 55.297127,
+     "where_exactly": "Kerbside at the pin on 7E Street, Al Raffa, near Al Khaleej Centre - wait on the main-road side; kerb to confirm on audit."
     },
     {
      "code": "UOB",
@@ -15940,13 +15959,13 @@
      "where_exactly": "Main entrance, Academic City."
     },
     {
-     "code": "C5-05",
-     "name": "BurJuman Mall",
+     "code": "C5-19",
+     "name": "Al Raffa, 7E Street (near Al Khaleej Centre)",
      "time": "22:46",
      "action": "set_down",
-     "lat": 25.252326,
-     "lng": 55.303144,
-     "where_exactly": "Bus stop outside Centro Discount Center."
+     "lat": 25.25816,
+     "lng": 55.297127,
+     "where_exactly": "Kerbside at the pin on 7E Street, Al Raffa, near Al Khaleej Centre - wait on the main-road side; kerb to confirm on audit."
     }
    ]
   },
@@ -16462,13 +16481,13 @@
    "seats": 12,
    "stops": [
     {
-     "code": "C5-05",
-     "name": "BurJuman Mall",
+     "code": "C5-19",
+     "name": "Al Raffa, 7E Street (near Al Khaleej Centre)",
      "time": "07:30",
      "action": "pick_up",
-     "lat": 25.254331,
-     "lng": 55.303661,
-     "where_exactly": "Bus stop outside Asia Kitchen, BurJuman Mall."
+     "lat": 25.25816,
+     "lng": 55.297127,
+     "where_exactly": "Kerbside at the pin on 7E Street, Al Raffa, near Al Khaleej Centre - wait on the main-road side; kerb to confirm on audit."
     },
     {
      "code": "C5-18",
@@ -16509,7 +16528,7 @@
    "arrive_campus": null,
    "leave_campus": "16:55",
    "start": "16:55",
-   "end": "17:45",
+   "end": "17:50",
    "vehicle": "M11",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -16533,13 +16552,13 @@
      "where_exactly": "Bay Square building 1 entrance."
     },
     {
-     "code": "C5-05",
-     "name": "BurJuman Mall",
-     "time": "17:45",
+     "code": "C5-19",
+     "name": "Al Raffa, 7E Street (near Al Khaleej Centre)",
+     "time": "17:50",
      "action": "set_down",
-     "lat": 25.252326,
-     "lng": 55.303144,
-     "where_exactly": "Bus stop outside Centro Discount Center."
+     "lat": 25.25816,
+     "lng": 55.297127,
+     "where_exactly": "Kerbside at the pin on 7E Street, Al Raffa, near Al Khaleej Centre - wait on the main-road side; kerb to confirm on audit."
     }
    ]
   },
