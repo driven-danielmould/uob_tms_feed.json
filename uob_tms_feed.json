@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-06T12:37:14Z",
+ "generated_at": "2026-10-06T12:59:20Z",
  "week": "2026-10-05 to 2026-10-11",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -1835,8 +1835,27 @@
      "type": "public"
     },
     {
-     "code": "C5-11",
+     "code": "C5-20",
      "order": 17,
+     "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
+     "lat": 25.186457,
+     "lng": 55.282055,
+     "google_place_id": "ChIJo7BfkTpoXz4RFHw13gwYTpE",
+     "where_exactly": "Kerbside on Abraj Street outside the DAMAC Maison Majestine entrance, opposite Bay Square 13.",
+     "pickup_lat": 25.186457,
+     "pickup_lng": 55.282055,
+     "pickup_where_exactly": "Kerbside on Abraj Street outside the DAMAC Maison Majestine entrance, opposite Bay Square 13.",
+     "setdown_lat": 25.186457,
+     "setdown_lng": 55.282055,
+     "setdown_where_exactly": "Kerbside on Abraj Street outside the DAMAC Maison Majestine entrance, opposite Bay Square 13.",
+     "audited": false,
+     "rider_instructions": "Wait outside the building entrance on Abraj Street. Be here 5 minutes before your time and look for the yellow M sign in the bus windscreen.",
+     "driver_instructions": "Kerbside on Abraj Street outside the DAMAC Maison Majestine entrance, opposite Bay Square 13. Only served on booked days.",
+     "type": "rider_only"
+    },
+    {
+     "code": "C5-11",
+     "order": 18,
      "name": "One Park Avenue, Sobha Hartland",
      "lat": 25.1784466,
      "lng": 55.3086196,
@@ -1855,7 +1874,7 @@
     },
     {
      "code": "C5-14",
-     "order": 18,
+     "order": 19,
      "name": "Meydan Heights, Nad Al Sheba 1",
      "lat": 25.14468,
      "lng": 55.3152,
@@ -1874,7 +1893,7 @@
     },
     {
      "code": "C5-12",
-     "order": 19,
+     "order": 20,
      "name": "Wasl Green Park, Ras Al Khor",
      "lat": 25.1801628,
      "lng": 55.3729096,
@@ -7957,13 +7976,13 @@
      "where_exactly": "Kerbside outside the hotel entrance on Al A'amal Street, 280 m from Ubora Tower."
     },
     {
-     "code": "C5-10",
-     "name": "Bay Square, Business Bay",
+     "code": "C5-20",
+     "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
      "time": "16:55",
      "action": "pick_up",
-     "lat": 25.1854241,
-     "lng": 55.2801414,
-     "where_exactly": "Bay Square building 1 entrance."
+     "lat": 25.186457,
+     "lng": 55.282055,
+     "where_exactly": "Kerbside on Abraj Street outside the DAMAC Maison Majestine entrance, opposite Bay Square 13."
     },
     {
      "code": "UOB",
@@ -8152,13 +8171,13 @@
      "where_exactly": "Main entrance, Academic City."
     },
     {
-     "code": "C5-10",
-     "name": "Bay Square, Business Bay",
-     "time": "22:26",
+     "code": "C5-20",
+     "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
+     "time": "22:31",
      "action": "set_down",
-     "lat": 25.1854241,
-     "lng": 55.2801414,
-     "where_exactly": "Bay Square building 1 entrance."
+     "lat": 25.186457,
+     "lng": 55.282055,
+     "where_exactly": "Kerbside on Abraj Street outside the DAMAC Maison Majestine entrance, opposite Bay Square 13."
     },
     {
      "code": "C5-18",
@@ -14181,13 +14200,13 @@
      "where_exactly": "Kerbside outside the hotel entrance on Al A'amal Street, 280 m from Ubora Tower."
     },
     {
-     "code": "C5-10",
-     "name": "Bay Square, Business Bay",
+     "code": "C5-20",
+     "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
      "time": "16:55",
      "action": "pick_up",
-     "lat": 25.1854241,
-     "lng": 55.2801414,
-     "where_exactly": "Bay Square building 1 entrance."
+     "lat": 25.186457,
+     "lng": 55.282055,
+     "where_exactly": "Kerbside on Abraj Street outside the DAMAC Maison Majestine entrance, opposite Bay Square 13."
     },
     {
      "code": "UOB",
@@ -14385,13 +14404,13 @@
      "where_exactly": "Main entrance, Academic City."
     },
     {
-     "code": "C5-10",
-     "name": "Bay Square, Business Bay",
-     "time": "22:26",
+     "code": "C5-20",
+     "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
+     "time": "22:31",
      "action": "set_down",
-     "lat": 25.1854241,
-     "lng": 55.2801414,
-     "where_exactly": "Bay Square building 1 entrance."
+     "lat": 25.186457,
+     "lng": 55.282055,
+     "where_exactly": "Kerbside on Abraj Street outside the DAMAC Maison Majestine entrance, opposite Bay Square 13."
     },
     {
      "code": "C5-18",
@@ -16499,13 +16518,13 @@
      "where_exactly": "Kerbside outside the hotel entrance on Al A'amal Street, 280 m from Ubora Tower."
     },
     {
-     "code": "C5-10",
-     "name": "Bay Square, Business Bay",
+     "code": "C5-20",
+     "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
      "time": "08:15",
      "action": "pick_up",
-     "lat": 25.1854241,
-     "lng": 55.2801414,
-     "where_exactly": "Bay Square building 1 entrance."
+     "lat": 25.186457,
+     "lng": 55.282055,
+     "where_exactly": "Kerbside on Abraj Street outside the DAMAC Maison Majestine entrance, opposite Bay Square 13."
     },
     {
      "code": "UOB",
@@ -16543,13 +16562,13 @@
      "where_exactly": "Main entrance, Academic City."
     },
     {
-     "code": "C5-10",
-     "name": "Bay Square, Business Bay",
+     "code": "C5-20",
+     "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
      "time": "17:20",
      "action": "set_down",
-     "lat": 25.1854241,
-     "lng": 55.2801414,
-     "where_exactly": "Bay Square building 1 entrance."
+     "lat": 25.186457,
+     "lng": 55.282055,
+     "where_exactly": "Kerbside on Abraj Street outside the DAMAC Maison Majestine entrance, opposite Bay Square 13."
     },
     {
      "code": "C5-19",
