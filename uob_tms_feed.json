@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-06T09:28:42Z",
+ "generated_at": "2026-10-06T09:46:53Z",
  "week": "2026-10-05 to 2026-10-11",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -7875,12 +7875,21 @@
    "service": "masters",
    "arrive_campus": "17:45",
    "leave_campus": null,
-   "start": "16:55",
+   "start": "16:45",
    "end": "17:45",
    "vehicle": "M12",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
+    {
+     "code": "C5-15",
+     "name": "Ubora Tower, Business Bay",
+     "time": "16:45",
+     "action": "pick_up",
+     "lat": 25.180398,
+     "lng": 55.269675,
+     "where_exactly": "Bus stop outside Master Cup restaurant."
+    },
     {
      "code": "C5-10",
      "name": "Bay Square, Business Bay",
@@ -8062,7 +8071,7 @@
    "arrive_campus": null,
    "leave_campus": "21:36",
    "start": "21:36",
-   "end": "22:46",
+   "end": "22:51",
    "vehicle": "M12",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -8079,11 +8088,20 @@
     {
      "code": "C5-10",
      "name": "Bay Square, Business Bay",
-     "time": "22:46",
+     "time": "22:26",
      "action": "set_down",
      "lat": 25.1854241,
      "lng": 55.2801414,
      "where_exactly": "Bay Square building 1 entrance."
+    },
+    {
+     "code": "C5-15",
+     "name": "Ubora Tower, Business Bay",
+     "time": "22:51",
+     "action": "set_down",
+     "lat": 25.180398,
+     "lng": 55.269675,
+     "where_exactly": "Bus stop outside Master Cup restaurant."
     }
    ]
   },
@@ -14072,12 +14090,21 @@
    "service": "masters",
    "arrive_campus": "17:45",
    "leave_campus": null,
-   "start": "16:55",
+   "start": "16:45",
    "end": "17:45",
    "vehicle": "M11",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
+    {
+     "code": "C5-15",
+     "name": "Ubora Tower, Business Bay",
+     "time": "16:45",
+     "action": "pick_up",
+     "lat": 25.180398,
+     "lng": 55.269675,
+     "where_exactly": "Bus stop outside Master Cup restaurant."
+    },
     {
      "code": "C5-10",
      "name": "Bay Square, Business Bay",
@@ -14268,7 +14295,7 @@
    "arrive_campus": null,
    "leave_campus": "21:36",
    "start": "21:36",
-   "end": "22:46",
+   "end": "22:51",
    "vehicle": "M11",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -14285,11 +14312,20 @@
     {
      "code": "C5-10",
      "name": "Bay Square, Business Bay",
-     "time": "22:46",
+     "time": "22:26",
      "action": "set_down",
      "lat": 25.1854241,
      "lng": 55.2801414,
      "where_exactly": "Bay Square building 1 entrance."
+    },
+    {
+     "code": "C5-15",
+     "name": "Ubora Tower, Business Bay",
+     "time": "22:51",
+     "action": "set_down",
+     "lat": 25.180398,
+     "lng": 55.269675,
+     "where_exactly": "Bus stop outside Master Cup restaurant."
     }
    ]
   },
@@ -16379,9 +16415,18 @@
      "where_exactly": "Bus stop outside Asia Kitchen, BurJuman Mall."
     },
     {
+     "code": "C5-15",
+     "name": "Ubora Tower, Business Bay",
+     "time": "06:35",
+     "action": "pick_up",
+     "lat": 25.180398,
+     "lng": 55.269675,
+     "where_exactly": "Bus stop outside Master Cup restaurant."
+    },
+    {
      "code": "C5-10",
      "name": "Bay Square, Business Bay",
-     "time": "06:35",
+     "time": "06:55",
      "action": "pick_up",
      "lat": 25.1854241,
      "lng": 55.2801414,
@@ -16467,13 +16512,13 @@
      "where_exactly": "Main entrance, Academic City."
     },
     {
-     "code": "C5-10",
-     "name": "Bay Square, Business Bay",
+     "code": "C5-15",
+     "name": "Ubora Tower, Business Bay",
      "time": "19:45",
      "action": "set_down",
-     "lat": 25.1854241,
-     "lng": 55.2801414,
-     "where_exactly": "Bay Square building 1 entrance."
+     "lat": 25.180398,
+     "lng": 55.269675,
+     "where_exactly": "Bus stop outside Master Cup restaurant."
     }
    ]
   },
@@ -16838,13 +16883,13 @@
    "seats": 12,
    "stops": [
     {
-     "code": "C5-10",
-     "name": "Bay Square, Business Bay",
+     "code": "C5-15",
+     "name": "Ubora Tower, Business Bay",
      "time": "06:30",
      "action": "pick_up",
-     "lat": 25.1854241,
-     "lng": 55.2801414,
-     "where_exactly": "Bay Square building 1 entrance."
+     "lat": 25.180398,
+     "lng": 55.269675,
+     "where_exactly": "Bus stop outside Master Cup restaurant."
     },
     {
      "code": "UOB",
@@ -16882,13 +16927,13 @@
      "where_exactly": "Main entrance, Academic City."
     },
     {
-     "code": "C5-10",
-     "name": "Bay Square, Business Bay",
+     "code": "C5-15",
+     "name": "Ubora Tower, Business Bay",
      "time": "19:45",
      "action": "set_down",
-     "lat": 25.1854241,
-     "lng": 55.2801414,
-     "where_exactly": "Bay Square building 1 entrance."
+     "lat": 25.180398,
+     "lng": 55.269675,
+     "where_exactly": "Bus stop outside Master Cup restaurant."
     }
    ]
   }
