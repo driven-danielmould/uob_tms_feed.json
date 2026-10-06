@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-06T09:08:17Z",
+ "generated_at": "2026-10-06T09:15:54Z",
  "week": "2026-10-05 to 2026-10-11",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -1059,8 +1059,27 @@
      "type": "public"
     },
     {
-     "code": "C3-16",
+     "code": "C3-21",
      "order": 20,
+     "name": "Oasis Star, Nadd Hessa (Silicon Oasis)",
+     "lat": 25.1130426,
+     "lng": 55.3854414,
+     "google_place_id": "ChIJJfvtzfdlXz4RKQ9YtVNK7Vw",
+     "where_exactly": "RTA bus stop outside the Oasis Star building, Nadd Hessa - kerb to be confirmed on audit.",
+     "pickup_lat": 25.1130426,
+     "pickup_lng": 55.3854414,
+     "pickup_where_exactly": "RTA bus stop outside the Oasis Star building, Nadd Hessa - kerb to be confirmed on audit.",
+     "setdown_lat": 25.1130426,
+     "setdown_lng": 55.3854414,
+     "setdown_where_exactly": "RTA bus stop outside the Oasis Star building, Nadd Hessa - kerb to be confirmed on audit.",
+     "audited": false,
+     "rider_instructions": "Wait at the bus stop outside Oasis Star. Be here 5 minutes before your time and look for the yellow M sign in the bus windscreen.",
+     "driver_instructions": "RTA bus stop outside the Oasis Star building, Nadd Hessa, Dubai Silicon Oasis - between Silicon Oasis Avenue Mall and Souq Extra. Public stop.",
+     "type": "public"
+    },
+    {
+     "code": "C3-16",
+     "order": 21,
      "name": "Souq Extra, Silicon Oasis",
      "lat": 25.1192507,
      "lng": 55.3955344,
@@ -3156,13 +3175,13 @@
      "where_exactly": "Front entrance of Villanova Centre by Dubai Retail."
     },
     {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
+     "code": "C3-21",
+     "name": "Oasis Star, Nadd Hessa (Silicon Oasis)",
      "time": "09:25",
      "action": "pick_up",
-     "lat": 25.11174,
-     "lng": 55.375866,
-     "where_exactly": "Bus stop shelter outside LuLu Hypermarket, Silicon Oasis Avenue Mall."
+     "lat": 25.1130426,
+     "lng": 55.3854414,
+     "where_exactly": "RTA bus stop outside the Oasis Star building, Nadd Hessa - kerb to be confirmed on audit."
     },
     {
      "code": "UOB",
@@ -3282,7 +3301,7 @@
    "arrive_campus": null,
    "leave_campus": "16:55",
    "start": "16:55",
-   "end": "19:17",
+   "end": "19:25",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -3306,18 +3325,18 @@
      "where_exactly": "Damascus St entrance."
     },
     {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
-     "time": "17:18",
+     "code": "C3-21",
+     "name": "Oasis Star, Nadd Hessa (Silicon Oasis)",
+     "time": "17:15",
      "action": "set_down",
-     "lat": 25.11174,
-     "lng": 55.375866,
-     "where_exactly": "Bus stop shelter outside LuLu Hypermarket, Silicon Oasis Avenue Mall."
+     "lat": 25.1130426,
+     "lng": 55.3854414,
+     "where_exactly": "RTA bus stop outside the Oasis Star building, Nadd Hessa - kerb to be confirmed on audit."
     },
     {
      "code": "C3-13",
      "name": "Villanova, La Rosa",
-     "time": "17:36",
+     "time": "17:35",
      "action": "set_down",
      "lat": 25.073945,
      "lng": 55.367,
@@ -3326,7 +3345,7 @@
     {
      "code": "C3-11",
      "name": "Living Legends",
-     "time": "17:59",
+     "time": "18:00",
      "action": "set_down",
      "lat": 25.0910153,
      "lng": 55.3026039,
@@ -3335,7 +3354,7 @@
     {
      "code": "C3-09",
      "name": "Spinneys, Town Square",
-     "time": "18:17",
+     "time": "18:20",
      "action": "set_down",
      "lat": 25.0099047,
      "lng": 55.2902856,
@@ -3344,7 +3363,7 @@
     {
      "code": "C3-21",
      "name": "DAMAC Hills Mall, DAMAC Hills",
-     "time": "18:35",
+     "time": "18:40",
      "action": "set_down",
      "lat": 25.0179838,
      "lng": 55.2468052,
@@ -3353,7 +3372,7 @@
     {
      "code": "C3-03",
      "name": "Dubai Miracle Garden",
-     "time": "18:53",
+     "time": "19:00",
      "action": "set_down",
      "lat": 25.061132,
      "lng": 55.246185,
@@ -3362,7 +3381,7 @@
     {
      "code": "C3-02",
      "name": "Circle Mall, JVC",
-     "time": "19:06",
+     "time": "19:15",
      "action": "set_down",
      "lat": 25.0660395,
      "lng": 55.2162257,
@@ -3371,7 +3390,7 @@
     {
      "code": "C3-18",
      "name": "Tuscan Residence Siena 1, JVC",
-     "time": "19:14",
+     "time": "19:25",
      "action": "set_down",
      "lat": 25.063882,
      "lng": 55.207341,
@@ -6180,7 +6199,7 @@
    "service": "undergraduate",
    "arrive_campus": "09:45",
    "leave_campus": null,
-   "start": "07:25",
+   "start": "07:30",
    "end": "09:45",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
@@ -6189,7 +6208,7 @@
     {
      "code": "C3-18",
      "name": "Tuscan Residence Siena 1, JVC",
-     "time": "07:25",
+     "time": "07:30",
      "action": "pick_up",
      "lat": 25.063605,
      "lng": 55.207328,
@@ -6198,7 +6217,7 @@
     {
      "code": "C3-04",
      "name": "Dubai International Cricket Stadium",
-     "time": "07:40",
+     "time": "07:45",
      "action": "pick_up",
      "lat": 25.043579,
      "lng": 55.218241,
@@ -6207,7 +6226,7 @@
     {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "07:50",
+     "time": "07:55",
      "action": "pick_up",
      "lat": 25.040494,
      "lng": 55.195971,
@@ -6216,7 +6235,7 @@
     {
      "code": "C3-06",
      "name": "Elan 1, Tilal Al Ghaf",
-     "time": "08:05",
+     "time": "08:10",
      "action": "pick_up",
      "lat": 25.0286134,
      "lng": 55.2325892,
@@ -6225,7 +6244,7 @@
     {
      "code": "C3-21",
      "name": "DAMAC Hills Mall, DAMAC Hills",
-     "time": "08:20",
+     "time": "08:25",
      "action": "pick_up",
      "lat": 25.0179838,
      "lng": 55.2468052,
@@ -6241,13 +6260,13 @@
      "where_exactly": "Nshama Community Centre car park."
     },
     {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
-     "time": "09:20",
+     "code": "C3-21",
+     "name": "Oasis Star, Nadd Hessa (Silicon Oasis)",
+     "time": "09:25",
      "action": "pick_up",
-     "lat": 25.11174,
-     "lng": 55.375866,
-     "where_exactly": "Bus stop shelter outside LuLu Hypermarket, Silicon Oasis Avenue Mall."
+     "lat": 25.1130426,
+     "lng": 55.3854414,
+     "where_exactly": "RTA bus stop outside the Oasis Star building, Nadd Hessa - kerb to be confirmed on audit."
     },
     {
      "code": "UOB",
@@ -6323,7 +6342,7 @@
    "arrive_campus": null,
    "leave_campus": "14:15",
    "start": "14:15",
-   "end": "16:05",
+   "end": "16:00",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -6347,18 +6366,18 @@
      "where_exactly": "Damascus St entrance."
     },
     {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
-     "time": "14:40",
+     "code": "C3-21",
+     "name": "Oasis Star, Nadd Hessa (Silicon Oasis)",
+     "time": "14:35",
      "action": "set_down",
-     "lat": 25.11174,
-     "lng": 55.375866,
-     "where_exactly": "Bus stop shelter outside LuLu Hypermarket, Silicon Oasis Avenue Mall."
+     "lat": 25.1130426,
+     "lng": 55.3854414,
+     "where_exactly": "RTA bus stop outside the Oasis Star building, Nadd Hessa - kerb to be confirmed on audit."
     },
     {
      "code": "C3-11",
      "name": "Living Legends",
-     "time": "15:00",
+     "time": "14:55",
      "action": "set_down",
      "lat": 25.0910153,
      "lng": 55.3026039,
@@ -6367,7 +6386,7 @@
     {
      "code": "C3-09",
      "name": "Spinneys, Town Square",
-     "time": "15:20",
+     "time": "15:15",
      "action": "set_down",
      "lat": 25.0099047,
      "lng": 55.2902856,
@@ -6376,7 +6395,7 @@
     {
      "code": "C3-21",
      "name": "DAMAC Hills Mall, DAMAC Hills",
-     "time": "15:35",
+     "time": "15:30",
      "action": "set_down",
      "lat": 25.0179838,
      "lng": 55.2468052,
@@ -6385,7 +6404,7 @@
     {
      "code": "C3-06",
      "name": "Elan 1, Tilal Al Ghaf",
-     "time": "15:50",
+     "time": "15:45",
      "action": "set_down",
      "lat": 25.0286134,
      "lng": 55.2325892,
@@ -6394,7 +6413,7 @@
     {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "16:05",
+     "time": "16:00",
      "action": "set_down",
      "lat": 25.040494,
      "lng": 55.195971,
@@ -9357,7 +9376,7 @@
    "service": "undergraduate",
    "arrive_campus": "10:45",
    "leave_campus": null,
-   "start": "08:35",
+   "start": "08:45",
    "end": "10:45",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
@@ -9366,7 +9385,7 @@
     {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "08:35",
+     "time": "08:45",
      "action": "pick_up",
      "lat": 25.040494,
      "lng": 55.195971,
@@ -9375,7 +9394,7 @@
     {
      "code": "C3-06",
      "name": "Elan 1, Tilal Al Ghaf",
-     "time": "08:50",
+     "time": "09:00",
      "action": "pick_up",
      "lat": 25.0286134,
      "lng": 55.2325892,
@@ -9384,7 +9403,7 @@
     {
      "code": "C3-21",
      "name": "DAMAC Hills Mall, DAMAC Hills",
-     "time": "09:05",
+     "time": "09:15",
      "action": "pick_up",
      "lat": 25.0179838,
      "lng": 55.2468052,
@@ -9393,7 +9412,7 @@
     {
      "code": "C3-08",
      "name": "Serena, Bella Casa",
-     "time": "09:30",
+     "time": "09:40",
      "action": "pick_up",
      "lat": 25.0389716,
      "lng": 55.2890906,
@@ -9402,20 +9421,20 @@
     {
      "code": "C3-09",
      "name": "Spinneys, Town Square",
-     "time": "09:45",
+     "time": "09:55",
      "action": "pick_up",
      "lat": 25.0099047,
      "lng": 55.2902856,
      "where_exactly": "Nshama Community Centre car park."
     },
     {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
-     "time": "10:20",
+     "code": "C3-21",
+     "name": "Oasis Star, Nadd Hessa (Silicon Oasis)",
+     "time": "10:30",
      "action": "pick_up",
-     "lat": 25.11174,
-     "lng": 55.375866,
-     "where_exactly": "Bus stop shelter outside LuLu Hypermarket, Silicon Oasis Avenue Mall."
+     "lat": 25.1130426,
+     "lng": 55.3854414,
+     "where_exactly": "RTA bus stop outside the Oasis Star building, Nadd Hessa - kerb to be confirmed on audit."
     },
     {
      "code": "UOB",
@@ -9621,13 +9640,13 @@
      "where_exactly": "Main entrance, Academic City."
     },
     {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
+     "code": "C3-21",
+     "name": "Oasis Star, Nadd Hessa (Silicon Oasis)",
      "time": "17:10",
      "action": "set_down",
-     "lat": 25.11174,
-     "lng": 55.375866,
-     "where_exactly": "Bus stop shelter outside LuLu Hypermarket, Silicon Oasis Avenue Mall."
+     "lat": 25.1130426,
+     "lng": 55.3854414,
+     "where_exactly": "RTA bus stop outside the Oasis Star building, Nadd Hessa - kerb to be confirmed on audit."
     },
     {
      "code": "C3-14",
@@ -12312,7 +12331,7 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:35",
+   "start": "05:40",
    "end": "07:45",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
@@ -12321,7 +12340,7 @@
     {
      "code": "C3-02",
      "name": "Circle Mall, JVC",
-     "time": "05:35",
+     "time": "05:40",
      "action": "pick_up",
      "lat": 25.0660395,
      "lng": 55.2162257,
@@ -12330,7 +12349,7 @@
     {
      "code": "C3-03",
      "name": "Dubai Miracle Garden",
-     "time": "05:43",
+     "time": "05:48",
      "action": "pick_up",
      "lat": 25.061132,
      "lng": 55.246185,
@@ -12339,7 +12358,7 @@
     {
      "code": "C3-04",
      "name": "Dubai International Cricket Stadium",
-     "time": "05:51",
+     "time": "05:56",
      "action": "pick_up",
      "lat": 25.043579,
      "lng": 55.218241,
@@ -12348,7 +12367,7 @@
     {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "05:59",
+     "time": "06:04",
      "action": "pick_up",
      "lat": 25.040494,
      "lng": 55.195971,
@@ -12357,7 +12376,7 @@
     {
      "code": "C3-21",
      "name": "DAMAC Hills Mall, DAMAC Hills",
-     "time": "06:17",
+     "time": "06:22",
      "action": "pick_up",
      "lat": 25.0179838,
      "lng": 55.2468052,
@@ -12366,7 +12385,7 @@
     {
      "code": "C3-08",
      "name": "Serena, Bella Casa",
-     "time": "06:30",
+     "time": "06:35",
      "action": "pick_up",
      "lat": 25.0389716,
      "lng": 55.2890906,
@@ -12375,7 +12394,7 @@
     {
      "code": "C3-11",
      "name": "Living Legends",
-     "time": "06:48",
+     "time": "06:53",
      "action": "pick_up",
      "lat": 25.0910153,
      "lng": 55.3026039,
@@ -12384,20 +12403,20 @@
     {
      "code": "C3-14",
      "name": "Skycourts Towers",
-     "time": "07:06",
+     "time": "07:11",
      "action": "pick_up",
      "lat": 25.0898954,
      "lng": 55.3865139,
      "where_exactly": "Tower D, near Aster Pharmacy."
     },
     {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
-     "time": "07:19",
+     "code": "C3-21",
+     "name": "Oasis Star, Nadd Hessa (Silicon Oasis)",
+     "time": "07:24",
      "action": "pick_up",
-     "lat": 25.11174,
-     "lng": 55.375866,
-     "where_exactly": "Bus stop shelter outside LuLu Hypermarket, Silicon Oasis Avenue Mall."
+     "lat": 25.1130426,
+     "lng": 55.3854414,
+     "where_exactly": "RTA bus stop outside the Oasis Star building, Nadd Hessa - kerb to be confirmed on audit."
     },
     {
      "code": "C3-16",
@@ -12620,13 +12639,13 @@
      "where_exactly": "Main entrance, Academic City."
     },
     {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
+     "code": "C3-21",
+     "name": "Oasis Star, Nadd Hessa (Silicon Oasis)",
      "time": "17:20",
      "action": "set_down",
-     "lat": 25.11174,
-     "lng": 55.375866,
-     "where_exactly": "Bus stop shelter outside LuLu Hypermarket, Silicon Oasis Avenue Mall."
+     "lat": 25.1130426,
+     "lng": 55.3854414,
+     "where_exactly": "RTA bus stop outside the Oasis Star building, Nadd Hessa - kerb to be confirmed on audit."
     },
     {
      "code": "C3-21",
@@ -14853,72 +14872,78 @@
     {
      "code": "C3-04",
      "name": "Dubai International Cricket Stadium",
-     "time": "16:12",
+     "time": "16:10",
      "action": "pick_up"
     },
     {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "16:19",
+     "time": "16:17",
      "action": "pick_up"
     },
     {
      "code": "C3-06",
      "name": "Elan 1, Tilal Al Ghaf",
-     "time": "16:26",
+     "time": "16:24",
      "action": "pick_up"
     },
     {
      "code": "C3-07",
      "name": "First Avenue Mall, Motor City",
-     "time": "16:33",
+     "time": "16:31",
      "action": "pick_up"
     },
     {
      "code": "C3-08",
      "name": "Serena, Bella Casa",
-     "time": "16:40",
+     "time": "16:37",
      "action": "pick_up"
     },
     {
      "code": "C3-09",
      "name": "Spinneys, Town Square",
-     "time": "16:48",
+     "time": "16:44",
      "action": "pick_up"
     },
     {
      "code": "C3-10",
      "name": "Carrefour, Damac Hills 2",
-     "time": "16:55",
+     "time": "16:51",
      "action": "pick_up"
     },
     {
      "code": "C3-11",
      "name": "Living Legends",
-     "time": "17:02",
+     "time": "16:58",
      "action": "pick_up"
     },
     {
      "code": "C3-12",
      "name": "Arabian Ranches 3",
-     "time": "17:09",
+     "time": "17:04",
      "action": "pick_up"
     },
     {
      "code": "C3-13",
      "name": "Villanova, La Rosa",
-     "time": "17:16",
+     "time": "17:11",
      "action": "pick_up"
     },
     {
      "code": "C3-14",
      "name": "Skycourts Towers",
-     "time": "17:23",
+     "time": "17:18",
      "action": "pick_up"
     },
     {
      "code": "C3-15",
      "name": "Silicon Oasis Avenue Mall 2",
+     "time": "17:25",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-21",
+     "name": "Oasis Star, Nadd Hessa (Silicon Oasis)",
      "time": "17:31",
      "action": "pick_up"
     },
@@ -14962,91 +14987,97 @@
     {
      "code": "C3-16",
      "name": "Souq Extra, Silicon Oasis",
-     "time": "21:43",
+     "time": "21:42",
+     "action": "set_down"
+    },
+    {
+     "code": "C3-21",
+     "name": "Oasis Star, Nadd Hessa (Silicon Oasis)",
+     "time": "21:49",
      "action": "set_down"
     },
     {
      "code": "C3-15",
      "name": "Silicon Oasis Avenue Mall 2",
-     "time": "21:50",
+     "time": "21:55",
      "action": "set_down"
     },
     {
      "code": "C3-14",
      "name": "Skycourts Towers",
-     "time": "21:57",
+     "time": "22:02",
      "action": "set_down"
     },
     {
      "code": "C3-13",
      "name": "Villanova, La Rosa",
-     "time": "22:04",
+     "time": "22:08",
      "action": "set_down"
     },
     {
      "code": "C3-12",
      "name": "Arabian Ranches 3",
-     "time": "22:10",
+     "time": "22:15",
      "action": "set_down"
     },
     {
      "code": "C3-11",
      "name": "Living Legends",
-     "time": "22:17",
+     "time": "22:21",
      "action": "set_down"
     },
     {
      "code": "C3-10",
      "name": "Carrefour, Damac Hills 2",
-     "time": "22:24",
+     "time": "22:28",
      "action": "set_down"
     },
     {
      "code": "C3-09",
      "name": "Spinneys, Town Square",
-     "time": "22:31",
+     "time": "22:34",
      "action": "set_down"
     },
     {
      "code": "C3-08",
      "name": "Serena, Bella Casa",
-     "time": "22:38",
+     "time": "22:41",
      "action": "set_down"
     },
     {
      "code": "C3-07",
      "name": "First Avenue Mall, Motor City",
-     "time": "22:45",
+     "time": "22:47",
      "action": "set_down"
     },
     {
      "code": "C3-06",
      "name": "Elan 1, Tilal Al Ghaf",
-     "time": "22:52",
+     "time": "22:54",
      "action": "set_down"
     },
     {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "22:58",
+     "time": "23:00",
      "action": "set_down"
     },
     {
      "code": "C3-04",
      "name": "Dubai International Cricket Stadium",
-     "time": "23:05",
+     "time": "23:07",
      "action": "set_down"
     },
     {
      "code": "C3-03",
      "name": "Dubai Miracle Garden",
-     "time": "23:12",
+     "time": "23:13",
      "action": "set_down"
     },
     {
      "code": "C3-02",
      "name": "Circle Mall, JVC",
-     "time": "23:19",
+     "time": "23:20",
      "action": "set_down"
     },
     {
