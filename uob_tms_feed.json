@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-06T16:40:01Z",
+ "generated_at": "2026-10-06T16:50:41Z",
  "week": "2026-10-05 to 2026-10-11",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -1626,8 +1626,27 @@
      "type": "public"
     },
     {
-     "code": "C5-03",
+     "code": "C5-21",
      "order": 3,
+     "name": "Al Ghurair Centre bus stop (Ghurair City 2), Al Rigga Rd",
+     "lat": 25.266621,
+     "lng": 55.317593,
+     "google_place_id": "ChIJjXtxpMtcXz4RbsAoTUGJfrI",
+     "where_exactly": "RTA bus stop \"Ghurair City 2\" on Al Rigga Road outside Al Ghurair Centre (Starbucks entrance side).",
+     "pickup_lat": 25.266621,
+     "pickup_lng": 55.317593,
+     "pickup_where_exactly": "RTA bus stop \"Ghurair City 2\" on Al Rigga Road outside Al Ghurair Centre (Starbucks entrance side).",
+     "setdown_lat": 25.266621,
+     "setdown_lng": 55.317593,
+     "setdown_where_exactly": "RTA bus stop \"Ghurair City 2\" on Al Rigga Road outside Al Ghurair Centre (Starbucks entrance side).",
+     "audited": false,
+     "rider_instructions": "Wait at the Ghurair City 2 bus stop on Al Rigga Road, outside Al Ghurair Centre. Be here 5 minutes before your time and look for the yellow M sign in the bus windscreen.",
+     "driver_instructions": "RTA bus stop \"Ghurair City 2\" on Al Rigga Road outside Al Ghurair Centre, Deira. Public stop.",
+     "type": "public"
+    },
+    {
+     "code": "C5-03",
+     "order": 4,
      "name": "Creek Metro Station, Al Jaddaf",
      "lat": 25.219122,
      "lng": 55.339319,
@@ -1646,7 +1665,7 @@
     },
     {
      "code": "C5-04",
-     "order": 4,
+     "order": 5,
      "name": "Oud Metha Metro Station",
      "lat": 25.243624,
      "lng": 55.315799,
@@ -1665,7 +1684,7 @@
     },
     {
      "code": "C5-05",
-     "order": 5,
+     "order": 6,
      "name": "BurJuman Mall",
      "lat": 25.254331,
      "lng": 55.303661,
@@ -1684,7 +1703,7 @@
     },
     {
      "code": "C5-19",
-     "order": 6,
+     "order": 7,
      "name": "Al Raffa, 7E Street (near Al Khaleej Centre)",
      "lat": 25.25816,
      "lng": 55.297127,
@@ -1703,7 +1722,7 @@
     },
     {
      "code": "C5-16",
-     "order": 7,
+     "order": 8,
      "name": "Raffa 1 bus stop, Khalid Bin Al Waleed Rd, Bur Dubai",
      "lat": 25.2593199,
      "lng": 55.2891482,
@@ -1722,7 +1741,7 @@
     },
     {
      "code": "C5-17",
-     "order": 8,
+     "order": 9,
      "name": "New Gold Souq, Al Raffa, Bur Dubai",
      "lat": 25.2515903,
      "lng": 55.2824733,
@@ -1741,7 +1760,7 @@
     },
     {
      "code": "C5-06",
-     "order": 9,
+     "order": 10,
      "name": "Al Wasl Building, Al Hudaiba",
      "lat": 25.243,
      "lng": 55.2788,
@@ -1760,7 +1779,7 @@
     },
     {
      "code": "C5-07",
-     "order": 10,
+     "order": 11,
      "name": "World Trade Centre Metro Station",
      "lat": 25.225614,
      "lng": 55.284365,
@@ -1779,7 +1798,7 @@
     },
     {
      "code": "C5-08",
-     "order": 11,
+     "order": 12,
      "name": "Financial Centre Metro Station",
      "lat": 25.2111662,
      "lng": 55.2755821,
@@ -1798,7 +1817,7 @@
     },
     {
      "code": "C5-13",
-     "order": 12,
+     "order": 13,
      "name": "Downtown Views II, Zabeel 2",
      "lat": 25.2024286,
      "lng": 55.2809328,
@@ -1817,7 +1836,7 @@
     },
     {
      "code": "C5-09",
-     "order": 13,
+     "order": 14,
      "name": "Bay Avenue Mall, Business Bay",
      "lat": 25.191143,
      "lng": 55.265598,
@@ -1836,7 +1855,7 @@
     },
     {
      "code": "C5-15",
-     "order": 14,
+     "order": 15,
      "name": "Ubora Tower, Business Bay",
      "lat": 25.180398,
      "lng": 55.269675,
@@ -1855,7 +1874,7 @@
     },
     {
      "code": "C5-18",
-     "order": 15,
+     "order": 16,
      "name": "The First Collection Business Bay (hotel), Al A'amal St",
      "lat": 25.1783788,
      "lng": 55.2679776,
@@ -1874,7 +1893,7 @@
     },
     {
      "code": "C5-10",
-     "order": 16,
+     "order": 17,
      "name": "Bay Square, Business Bay",
      "lat": 25.1854241,
      "lng": 55.2801414,
@@ -1893,7 +1912,7 @@
     },
     {
      "code": "C5-20",
-     "order": 17,
+     "order": 18,
      "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
      "lat": 25.186457,
      "lng": 55.282055,
@@ -1912,7 +1931,7 @@
     },
     {
      "code": "C5-11",
-     "order": 18,
+     "order": 19,
      "name": "One Park Avenue, Sobha Hartland",
      "lat": 25.1784466,
      "lng": 55.3086196,
@@ -1931,7 +1950,7 @@
     },
     {
      "code": "C5-14",
-     "order": 19,
+     "order": 20,
      "name": "Meydan Heights, Nad Al Sheba 1",
      "lat": 25.14468,
      "lng": 55.3152,
@@ -1950,7 +1969,7 @@
     },
     {
      "code": "C5-12",
-     "order": 20,
+     "order": 21,
      "name": "Wasl Green Park, Ras Al Khor",
      "lat": 25.1801628,
      "lng": 55.3729096,
@@ -4562,7 +4581,7 @@
    "service": "undergraduate",
    "arrive_campus": "10:45",
    "leave_campus": null,
-   "start": "09:05",
+   "start": "09:15",
    "end": "10:45",
    "vehicle": "M11",
    "vehicle_type": "Hiace",
@@ -4571,16 +4590,25 @@
     {
      "code": "C5-02",
      "name": "Al Rigga Metro Station",
-     "time": "09:05",
+     "time": "09:15",
      "action": "pick_up",
      "lat": 25.262847,
      "lng": 55.324368,
      "where_exactly": "Outside Etihad Optical Vision."
     },
     {
+     "code": "C5-21",
+     "name": "Al Ghurair Centre bus stop (Ghurair City 2), Al Rigga Rd",
+     "time": "09:25",
+     "action": "pick_up",
+     "lat": 25.266621,
+     "lng": 55.317593,
+     "where_exactly": "RTA bus stop \"Ghurair City 2\" on Al Rigga Road outside Al Ghurair Centre (Starbucks entrance side)."
+    },
+    {
      "code": "C5-04",
      "name": "Oud Metha Metro Station",
-     "time": "09:25",
+     "time": "09:40",
      "action": "pick_up",
      "lat": 25.243624,
      "lng": 55.315799,
@@ -4589,7 +4617,7 @@
     {
      "code": "C5-17",
      "name": "New Gold Souq, Al Raffa, Bur Dubai",
-     "time": "09:45",
+     "time": "09:55",
      "action": "pick_up",
      "lat": 25.2515903,
      "lng": 55.2824733,
@@ -4598,7 +4626,7 @@
     {
      "code": "C5-06",
      "name": "Al Wasl Building, Al Hudaiba",
-     "time": "09:55",
+     "time": "10:05",
      "action": "pick_up",
      "lat": 25.243,
      "lng": 55.2788,
@@ -4607,7 +4635,7 @@
     {
      "code": "C5-09",
      "name": "Bay Avenue Mall, Business Bay",
-     "time": "10:20",
+     "time": "10:25",
      "action": "pick_up",
      "lat": 25.191143,
      "lng": 55.265598,
@@ -4827,13 +4855,13 @@
      "where_exactly": "RTA bus stop 2 at Oud Metha Metro Station, Entrance / Exit 2."
     },
     {
-     "code": "C5-02",
-     "name": "Al Rigga Metro Station",
+     "code": "C5-21",
+     "name": "Al Ghurair Centre bus stop (Ghurair City 2), Al Rigga Rd",
      "time": "18:48",
      "action": "set_down",
-     "lat": 25.262847,
-     "lng": 55.324368,
-     "where_exactly": "Outside Etihad Optical Vision."
+     "lat": 25.266621,
+     "lng": 55.317593,
+     "where_exactly": "RTA bus stop \"Ghurair City 2\" on Al Rigga Road outside Al Ghurair Centre (Starbucks entrance side)."
     }
    ]
   },
@@ -4949,55 +4977,61 @@
     {
      "code": "C5-11",
      "name": "One Park Avenue, Sobha Hartland",
-     "time": "21:50",
+     "time": "21:49",
      "action": "set_down"
     },
     {
      "code": "C5-10",
      "name": "Bay Square, Business Bay",
-     "time": "21:57",
+     "time": "21:56",
      "action": "set_down"
     },
     {
      "code": "C5-09",
      "name": "Bay Avenue Mall, Business Bay",
-     "time": "22:04",
+     "time": "22:02",
      "action": "set_down"
     },
     {
      "code": "C5-08",
      "name": "Financial Centre Metro Station",
-     "time": "22:11",
+     "time": "22:09",
      "action": "set_down"
     },
     {
      "code": "C5-07",
      "name": "World Trade Centre Metro Station",
-     "time": "22:18",
+     "time": "22:15",
      "action": "set_down"
     },
     {
      "code": "C5-06",
      "name": "Al Wasl Building, Al Hudaiba",
-     "time": "22:26",
+     "time": "22:22",
      "action": "set_down"
     },
     {
      "code": "C5-05",
      "name": "BurJuman Mall",
-     "time": "22:33",
+     "time": "22:28",
      "action": "set_down"
     },
     {
      "code": "C5-04",
      "name": "Oud Metha Metro Station",
-     "time": "22:40",
+     "time": "22:35",
      "action": "set_down"
     },
     {
      "code": "C5-03",
      "name": "Creek Metro Station, Al Jaddaf",
-     "time": "22:47",
+     "time": "22:41",
+     "action": "set_down"
+    },
+    {
+     "code": "C5-21",
+     "name": "Al Ghurair Centre bus stop (Ghurair City 2), Al Rigga Rd",
+     "time": "22:48",
      "action": "set_down"
     },
     {
@@ -7764,18 +7798,18 @@
    "seats": 12,
    "stops": [
     {
-     "code": "C5-02",
-     "name": "Al Rigga Metro Station",
+     "code": "C5-21",
+     "name": "Al Ghurair Centre bus stop (Ghurair City 2), Al Rigga Rd",
      "time": "05:51",
      "action": "pick_up",
-     "lat": 25.262847,
-     "lng": 55.324368,
-     "where_exactly": "Outside Etihad Optical Vision."
+     "lat": 25.266621,
+     "lng": 55.317593,
+     "where_exactly": "RTA bus stop \"Ghurair City 2\" on Al Rigga Road outside Al Ghurair Centre (Starbucks entrance side)."
     },
     {
      "code": "C5-05",
      "name": "BurJuman Mall",
-     "time": "06:06",
+     "time": "06:01",
      "action": "pick_up",
      "lat": 25.254331,
      "lng": 55.303661,
@@ -7784,7 +7818,7 @@
     {
      "code": "C5-17",
      "name": "New Gold Souq, Al Raffa, Bur Dubai",
-     "time": "06:21",
+     "time": "06:16",
      "action": "pick_up",
      "lat": 25.2515903,
      "lng": 55.2824733,
@@ -7793,7 +7827,7 @@
     {
      "code": "C5-08",
      "name": "Financial Centre Metro Station",
-     "time": "06:36",
+     "time": "06:31",
      "action": "pick_up",
      "lat": 25.2111662,
      "lng": 55.2755821,
@@ -7802,7 +7836,7 @@
     {
      "code": "C5-09",
      "name": "Bay Avenue Mall, Business Bay",
-     "time": "06:46",
+     "time": "06:41",
      "action": "pick_up",
      "lat": 25.191143,
      "lng": 55.265598,
@@ -8113,7 +8147,7 @@
    "arrive_campus": null,
    "leave_campus": "16:55",
    "start": "16:55",
-   "end": "18:58",
+   "end": "19:03",
    "vehicle": "M11",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -8173,13 +8207,13 @@
      "where_exactly": "Station forecourt."
     },
     {
-     "code": "C5-02",
-     "name": "Al Rigga Metro Station",
-     "time": "18:55",
+     "code": "C5-21",
+     "name": "Al Ghurair Centre bus stop (Ghurair City 2), Al Rigga Rd",
+     "time": "19:00",
      "action": "set_down",
-     "lat": 25.262847,
-     "lng": 55.324368,
-     "where_exactly": "Outside Etihad Optical Vision."
+     "lat": 25.266621,
+     "lng": 55.317593,
+     "where_exactly": "RTA bus stop \"Ghurair City 2\" on Al Rigga Road outside Al Ghurair Centre (Starbucks entrance side)."
     }
    ]
   },
@@ -10853,20 +10887,20 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:36",
+   "start": "05:48",
    "end": "07:45",
    "vehicle": "M11",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
     {
-     "code": "C5-02",
-     "name": "Al Rigga Metro Station",
-     "time": "05:36",
+     "code": "C5-21",
+     "name": "Al Ghurair Centre bus stop (Ghurair City 2), Al Rigga Rd",
+     "time": "05:48",
      "action": "pick_up",
-     "lat": 25.262847,
-     "lng": 55.324368,
-     "where_exactly": "Outside Etihad Optical Vision."
+     "lat": 25.266621,
+     "lng": 55.317593,
+     "where_exactly": "RTA bus stop \"Ghurair City 2\" on Al Rigga Road outside Al Ghurair Centre (Starbucks entrance side)."
     },
     {
      "code": "C5-04",
@@ -11384,13 +11418,13 @@
      "where_exactly": "Bus stop outside Centro Discount Center."
     },
     {
-     "code": "C5-02",
-     "name": "Al Rigga Metro Station",
+     "code": "C5-21",
+     "name": "Al Ghurair Centre bus stop (Ghurair City 2), Al Rigga Rd",
      "time": "20:11",
      "action": "set_down",
-     "lat": 25.262847,
-     "lng": 55.324368,
-     "where_exactly": "Outside Etihad Optical Vision."
+     "lat": 25.266621,
+     "lng": 55.317593,
+     "where_exactly": "RTA bus stop \"Ghurair City 2\" on Al Rigga Road outside Al Ghurair Centre (Starbucks entrance side)."
     }
    ]
   },
@@ -14027,18 +14061,18 @@
    "seats": 12,
    "stops": [
     {
-     "code": "C5-02",
-     "name": "Al Rigga Metro Station",
+     "code": "C5-21",
+     "name": "Al Ghurair Centre bus stop (Ghurair City 2), Al Rigga Rd",
      "time": "05:38",
      "action": "pick_up",
-     "lat": 25.262847,
-     "lng": 55.324368,
-     "where_exactly": "Outside Etihad Optical Vision."
+     "lat": 25.266621,
+     "lng": 55.317593,
+     "where_exactly": "RTA bus stop \"Ghurair City 2\" on Al Rigga Road outside Al Ghurair Centre (Starbucks entrance side)."
     },
     {
      "code": "C5-03",
      "name": "Creek Metro Station, Al Jaddaf",
-     "time": "05:53",
+     "time": "05:58",
      "action": "pick_up",
      "lat": 25.219122,
      "lng": 55.339319,
@@ -14047,7 +14081,7 @@
     {
      "code": "C5-04",
      "name": "Oud Metha Metro Station",
-     "time": "06:08",
+     "time": "06:13",
      "action": "pick_up",
      "lat": 25.243624,
      "lng": 55.315799,
@@ -14065,7 +14099,7 @@
     {
      "code": "C5-07",
      "name": "World Trade Centre Metro Station",
-     "time": "06:28",
+     "time": "06:33",
      "action": "pick_up",
      "lat": 25.225614,
      "lng": 55.284365,
@@ -14074,7 +14108,7 @@
     {
      "code": "C5-09",
      "name": "Bay Avenue Mall, Business Bay",
-     "time": "06:43",
+     "time": "06:48",
      "action": "pick_up",
      "lat": 25.191143,
      "lng": 55.265598,
@@ -14083,7 +14117,7 @@
     {
      "code": "C5-11",
      "name": "One Park Avenue, Sobha Hartland",
-     "time": "07:03",
+     "time": "07:08",
      "action": "pick_up",
      "lat": 25.1784466,
      "lng": 55.3086196,
@@ -14092,7 +14126,7 @@
     {
      "code": "C5-12",
      "name": "Wasl Green Park, Ras Al Khor",
-     "time": "07:23",
+     "time": "07:28",
      "action": "pick_up",
      "lat": 25.1801628,
      "lng": 55.3729096,
@@ -14294,13 +14328,13 @@
      "where_exactly": "Bus stop outside Centro Discount Center."
     },
     {
-     "code": "C5-02",
-     "name": "Al Rigga Metro Station",
+     "code": "C5-21",
+     "name": "Al Ghurair Centre bus stop (Ghurair City 2), Al Rigga Rd",
      "time": "15:35",
      "action": "set_down",
-     "lat": 25.262847,
-     "lng": 55.324368,
-     "where_exactly": "Outside Etihad Optical Vision."
+     "lat": 25.266621,
+     "lng": 55.317593,
+     "where_exactly": "RTA bus stop \"Ghurair City 2\" on Al Rigga Road outside Al Ghurair Centre (Starbucks entrance side)."
     }
    ]
   },
