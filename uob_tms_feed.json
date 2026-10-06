@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-06T08:53:32Z",
+ "generated_at": "2026-10-06T09:08:17Z",
  "week": "2026-10-05 to 2026-10-11",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -614,8 +614,27 @@
      "type": "rider_only"
     },
     {
-     "code": "C2-07",
+     "code": "C2-15",
      "order": 9,
+     "name": "Al Nakheel 2A, The Greens",
+     "lat": 25.09445,
+     "lng": 55.1697,
+     "google_place_id": null,
+     "where_exactly": "Kerbside outside Al Nakheel 2A on Street 2, The Greens. Do not enter the building car park.",
+     "pickup_lat": 25.09445,
+     "pickup_lng": 55.1697,
+     "pickup_where_exactly": "Kerbside outside Al Nakheel 2A on Street 2, The Greens. Do not enter the building car park.",
+     "setdown_lat": 25.09445,
+     "setdown_lng": 55.1697,
+     "setdown_where_exactly": "Kerbside outside Al Nakheel 2A on Street 2, The Greens. Do not enter the building car park.",
+     "audited": false,
+     "rider_instructions": "Wait on the street outside Al Nakheel 2A, Street 2. Be here 5 minutes before your time and look for the yellow M sign in the bus windscreen.",
+     "driver_instructions": "Kerbside outside Al Nakheel 2A on Street 2, The Greens, between DIC Metro and Al Asmawi Building. Do not enter the car park. Only served on booked days.",
+     "type": "rider_only"
+    },
+    {
+     "code": "C2-07",
+     "order": 10,
      "name": "Dubai Internet City Metro Station",
      "lat": 25.1020158,
      "lng": 55.173639,
@@ -634,7 +653,7 @@
     },
     {
      "code": "C2-10",
-     "order": 10,
+     "order": 11,
      "name": "Al Manaf Building, Al Barsha 1",
      "lat": 25.1110756,
      "lng": 55.2057285,
@@ -653,7 +672,7 @@
     },
     {
      "code": "C2-08",
-     "order": 11,
+     "order": 12,
      "name": "Mall of the Emirates",
      "lat": 25.1201411,
      "lng": 55.2011196,
@@ -8715,6 +8734,15 @@
      "where_exactly": "Car park by the fountain."
     },
     {
+     "code": "C2-15",
+     "name": "Al Nakheel 2A, The Greens",
+     "time": "06:10",
+     "action": "pick_up",
+     "lat": 25.09445,
+     "lng": 55.1697,
+     "where_exactly": "Kerbside outside Al Nakheel 2A on Street 2, The Greens. Do not enter the building car park."
+    },
+    {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
      "time": "06:20",
@@ -8726,7 +8754,7 @@
     {
      "code": "C2-10",
      "name": "Al Manaf Building, Al Barsha 1",
-     "time": "06:40",
+     "time": "06:45",
      "action": "pick_up",
      "lat": 25.1110756,
      "lng": 55.2057285,
@@ -8904,7 +8932,7 @@
    "arrive_campus": null,
    "leave_campus": "14:15",
    "start": "14:15",
-   "end": "16:05",
+   "end": "16:15",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -8946,9 +8974,18 @@
      "where_exactly": "Barsha Heights side exit."
     },
     {
+     "code": "C2-15",
+     "name": "Al Nakheel 2A, The Greens",
+     "time": "15:15",
+     "action": "set_down",
+     "lat": 25.09445,
+     "lng": 55.1697,
+     "where_exactly": "Kerbside outside Al Nakheel 2A on Street 2, The Greens. Do not enter the building car park."
+    },
+    {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "15:15",
+     "time": "15:25",
      "action": "set_down",
      "lat": 25.093492,
      "lng": 55.177807,
@@ -8957,7 +8994,7 @@
     {
      "code": "C2-04",
      "name": "Sobha Realty Metro Station",
-     "time": "15:30",
+     "time": "15:40",
      "action": "set_down",
      "lat": 25.079697,
      "lng": 55.148331,
@@ -8966,7 +9003,7 @@
     {
      "code": "C2-03",
      "name": "DMCC Metro Station",
-     "time": "15:40",
+     "time": "15:50",
      "action": "set_down",
      "lat": 25.070853,
      "lng": 55.139483,
@@ -8975,7 +9012,7 @@
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "15:50",
+     "time": "16:00",
      "action": "set_down",
      "lat": 25.070853,
      "lng": 55.139483,
@@ -8984,7 +9021,7 @@
     {
      "code": "C2-01",
      "name": "Al Sarood, Shoreline 13, Palm Jumeirah",
-     "time": "16:05",
+     "time": "16:15",
      "action": "set_down",
      "lat": 25.11202,
      "lng": 55.142781,
@@ -11930,16 +11967,25 @@
     {
      "code": "C2-05",
      "name": "The Meadows Village",
-     "time": "11:40",
+     "time": "11:35",
      "action": "pick_up",
      "lat": 25.0637,
      "lng": 55.1573,
      "where_exactly": "Car park by the fountain."
     },
     {
+     "code": "C2-15",
+     "name": "Al Nakheel 2A, The Greens",
+     "time": "11:55",
+     "action": "pick_up",
+     "lat": 25.09445,
+     "lng": 55.1697,
+     "where_exactly": "Kerbside outside Al Nakheel 2A on Street 2, The Greens. Do not enter the building car park."
+    },
+    {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "12:00",
+     "time": "12:05",
      "action": "pick_up",
      "lat": 25.1020158,
      "lng": 55.173639,
@@ -12089,11 +12135,20 @@
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "17:55",
+     "time": "17:50",
      "action": "set_down",
      "lat": 25.1020158,
      "lng": 55.173639,
      "where_exactly": "Barsha Heights side exit."
+    },
+    {
+     "code": "C2-15",
+     "name": "Al Nakheel 2A, The Greens",
+     "time": "18:05",
+     "action": "set_down",
+     "lat": 25.09445,
+     "lng": 55.1697,
+     "where_exactly": "Kerbside outside Al Nakheel 2A on Street 2, The Greens. Do not enter the building car park."
     },
     {
      "code": "C2-05",
@@ -14357,16 +14412,25 @@
     {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "05:50",
+     "time": "05:45",
      "action": "pick_up",
      "lat": 25.093492,
      "lng": 55.177807,
      "where_exactly": "Pick and drop area outside the Al Asmawi Building."
     },
     {
+     "code": "C2-15",
+     "name": "Al Nakheel 2A, The Greens",
+     "time": "06:05",
+     "action": "pick_up",
+     "lat": 25.09445,
+     "lng": 55.1697,
+     "where_exactly": "Kerbside outside Al Nakheel 2A on Street 2, The Greens. Do not enter the building car park."
+    },
+    {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "06:05",
+     "time": "06:20",
      "action": "pick_up",
      "lat": 25.1020158,
      "lng": 55.173639,
@@ -14375,7 +14439,7 @@
     {
      "code": "C2-10",
      "name": "Al Manaf Building, Al Barsha 1",
-     "time": "06:30",
+     "time": "06:40",
      "action": "pick_up",
      "lat": 25.1110756,
      "lng": 55.2057285,
@@ -14384,7 +14448,7 @@
     {
      "code": "C2-08",
      "name": "Mall of the Emirates",
-     "time": "06:50",
+     "time": "06:55",
      "action": "pick_up",
      "lat": 25.1201411,
      "lng": 55.2011196,
@@ -14411,7 +14475,7 @@
    "arrive_campus": null,
    "leave_campus": "12:15",
    "start": "12:15",
-   "end": "14:00",
+   "end": "13:50",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -14437,7 +14501,7 @@
     {
      "code": "C2-10",
      "name": "Al Manaf Building, Al Barsha 1",
-     "time": "12:55",
+     "time": "12:50",
      "action": "set_down",
      "lat": 25.1110756,
      "lng": 55.2057285,
@@ -14446,16 +14510,25 @@
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "13:20",
+     "time": "13:10",
      "action": "set_down",
      "lat": 25.1020158,
      "lng": 55.173639,
      "where_exactly": "Barsha Heights side exit."
     },
     {
+     "code": "C2-15",
+     "name": "Al Nakheel 2A, The Greens",
+     "time": "13:20",
+     "action": "set_down",
+     "lat": 25.09445,
+     "lng": 55.1697,
+     "where_exactly": "Kerbside outside Al Nakheel 2A on Street 2, The Greens. Do not enter the building car park."
+    },
+    {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "13:35",
+     "time": "13:30",
      "action": "set_down",
      "lat": 25.093492,
      "lng": 55.177807,
@@ -14464,7 +14537,7 @@
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "14:00",
+     "time": "13:50",
      "action": "set_down",
      "lat": 25.070853,
      "lng": 55.139483,
