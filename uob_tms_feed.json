@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-06T09:22:11Z",
+ "generated_at": "2026-10-06T09:23:32Z",
  "week": "2026-10-05 to 2026-10-11",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -1078,7 +1078,7 @@
      "type": "public"
     },
     {
-     "code": "C3-21",
+     "code": "C3-22",
      "order": 20,
      "name": "Oasis Star, Nadd Hessa (Silicon Oasis)",
      "lat": 25.1130426,
@@ -3256,7 +3256,7 @@
      "where_exactly": "Front entrance of Villanova Centre by Dubai Retail."
     },
     {
-     "code": "C3-21",
+     "code": "C3-22",
      "name": "Oasis Star, Nadd Hessa (Silicon Oasis)",
      "time": "09:25",
      "action": "pick_up",
@@ -3406,7 +3406,7 @@
      "where_exactly": "Damascus St entrance."
     },
     {
-     "code": "C3-21",
+     "code": "C3-22",
      "name": "Oasis Star, Nadd Hessa (Silicon Oasis)",
      "time": "17:15",
      "action": "set_down",
@@ -6393,7 +6393,7 @@
      "where_exactly": "Nshama Community Centre car park."
     },
     {
-     "code": "C3-21",
+     "code": "C3-22",
      "name": "Oasis Star, Nadd Hessa (Silicon Oasis)",
      "time": "09:25",
      "action": "pick_up",
@@ -6499,7 +6499,7 @@
      "where_exactly": "Damascus St entrance."
     },
     {
-     "code": "C3-21",
+     "code": "C3-22",
      "name": "Oasis Star, Nadd Hessa (Silicon Oasis)",
      "time": "14:35",
      "action": "set_down",
@@ -9601,7 +9601,7 @@
      "where_exactly": "Nshama Community Centre car park."
     },
     {
-     "code": "C3-21",
+     "code": "C3-22",
      "name": "Oasis Star, Nadd Hessa (Silicon Oasis)",
      "time": "10:30",
      "action": "pick_up",
@@ -9813,7 +9813,7 @@
      "where_exactly": "Main entrance, Academic City."
     },
     {
-     "code": "C3-21",
+     "code": "C3-22",
      "name": "Oasis Star, Nadd Hessa (Silicon Oasis)",
      "time": "17:10",
      "action": "set_down",
@@ -12645,7 +12645,7 @@
      "where_exactly": "Tower D, near Aster Pharmacy."
     },
     {
-     "code": "C3-21",
+     "code": "C3-22",
      "name": "Oasis Star, Nadd Hessa (Silicon Oasis)",
      "time": "07:24",
      "action": "pick_up",
@@ -12874,7 +12874,7 @@
      "where_exactly": "Main entrance, Academic City."
     },
     {
-     "code": "C3-21",
+     "code": "C3-22",
      "name": "Oasis Star, Nadd Hessa (Silicon Oasis)",
      "time": "17:20",
      "action": "set_down",
@@ -15197,7 +15197,7 @@
      "action": "pick_up"
     },
     {
-     "code": "C3-21",
+     "code": "C3-22",
      "name": "Oasis Star, Nadd Hessa (Silicon Oasis)",
      "time": "17:31",
      "action": "pick_up"
@@ -15246,7 +15246,7 @@
      "action": "set_down"
     },
     {
-     "code": "C3-21",
+     "code": "C3-22",
      "name": "Oasis Star, Nadd Hessa (Silicon Oasis)",
      "time": "21:49",
      "action": "set_down"
