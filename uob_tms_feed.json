@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-06T03:17:07Z",
+ "generated_at": "2026-10-06T06:48:44Z",
  "week": "2026-10-05 to 2026-10-11",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -7730,7 +7730,7 @@
    "arrive_campus": null,
    "leave_campus": "16:55",
    "start": "16:55",
-   "end": "19:06",
+   "end": "18:58",
    "vehicle": "M11",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -7745,18 +7745,9 @@
      "where_exactly": "Main entrance, Academic City."
     },
     {
-     "code": "C5-12",
-     "name": "Wasl Green Park, Ras Al Khor",
-     "time": "17:10",
-     "action": "set_down",
-     "lat": 25.1801628,
-     "lng": 55.3729096,
-     "where_exactly": "R1, near the roundabout."
-    },
-    {
      "code": "C5-11",
      "name": "One Park Avenue, Sobha Hartland",
-     "time": "17:28",
+     "time": "17:20",
      "action": "set_down",
      "lat": 25.1784466,
      "lng": 55.3086196,
@@ -7765,7 +7756,7 @@
     {
      "code": "C5-15",
      "name": "Ubora Tower, Business Bay",
-     "time": "17:46",
+     "time": "17:38",
      "action": "set_down",
      "lat": 25.180398,
      "lng": 55.269675,
@@ -7774,7 +7765,7 @@
     {
      "code": "C5-08",
      "name": "Financial Centre Metro Station",
-     "time": "17:59",
+     "time": "17:51",
      "action": "set_down",
      "lat": 25.211098,
      "lng": 55.275887,
@@ -7783,7 +7774,7 @@
     {
      "code": "C5-05",
      "name": "BurJuman Mall",
-     "time": "18:22",
+     "time": "18:14",
      "action": "set_down",
      "lat": 25.252326,
      "lng": 55.303144,
@@ -7792,7 +7783,7 @@
     {
      "code": "C5-03",
      "name": "Creek Metro Station, Al Jaddaf",
-     "time": "18:45",
+     "time": "18:37",
      "action": "set_down",
      "lat": 25.219122,
      "lng": 55.339319,
@@ -7801,7 +7792,7 @@
     {
      "code": "C5-02",
      "name": "Al Rigga Metro Station",
-     "time": "19:03",
+     "time": "18:55",
      "action": "set_down",
      "lat": 25.262847,
      "lng": 55.324368,
@@ -7819,7 +7810,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "20:00",
+   "end": "19:55",
    "vehicle": "M12",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -7834,9 +7825,18 @@
      "where_exactly": "Main entrance, Academic City."
     },
     {
+     "code": "C5-12",
+     "name": "Wasl Green Park, Ras Al Khor",
+     "time": "18:30",
+     "action": "set_down",
+     "lat": 25.1801628,
+     "lng": 55.3729096,
+     "where_exactly": "R1, near the roundabout."
+    },
+    {
      "code": "C5-09",
      "name": "Bay Avenue Mall, Business Bay",
-     "time": "18:45",
+     "time": "19:00",
      "action": "set_down",
      "lat": 25.191143,
      "lng": 55.265598,
@@ -7845,7 +7845,7 @@
     {
      "code": "C5-06",
      "name": "Al Wasl Building, Al Hudaiba",
-     "time": "19:20",
+     "time": "19:25",
      "action": "set_down",
      "lat": 25.243,
      "lng": 55.2788,
@@ -7863,7 +7863,7 @@
     {
      "code": "C5-02",
      "name": "Al Rigga Metro Station",
-     "time": "20:00",
+     "time": "19:55",
      "action": "set_down",
      "lat": 25.262847,
      "lng": 55.324368,
