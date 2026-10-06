@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-06T10:56:33Z",
+ "generated_at": "2026-10-06T11:51:47Z",
  "week": "2026-10-05 to 2026-10-11",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -983,8 +983,27 @@
      "type": "public"
     },
     {
-     "code": "C3-10",
+     "code": "C3-23",
      "order": 14,
+     "name": "Reem Townhouses shuttle stop, Town Square",
+     "lat": 25.01081,
+     "lng": 55.27931,
+     "google_place_id": null,
+     "where_exactly": "Community shuttle bus stop outside Reem Townhouses on the Town Square loop road (Emirates Rd side) - exact pin to confirm from the father's map link.",
+     "pickup_lat": 25.01081,
+     "pickup_lng": 55.27931,
+     "pickup_where_exactly": "Community shuttle bus stop outside Reem Townhouses on the Town Square loop road (Emirates Rd side) - exact pin to confirm from the father's map link.",
+     "setdown_lat": 25.01081,
+     "setdown_lng": 55.27931,
+     "setdown_where_exactly": "Community shuttle bus stop outside Reem Townhouses on the Town Square loop road (Emirates Rd side) - exact pin to confirm from the father's map link.",
+     "audited": false,
+     "rider_instructions": "Wait at the shuttle bus stop outside Reem Townhouses. Be here 5 minutes before your time and look for the yellow M sign in the bus windscreen.",
+     "driver_instructions": "Community shuttle bus stop outside Reem Townhouses on the Town Square loop road, before Spinneys. Only served on booked days.",
+     "type": "rider_only"
+    },
+    {
+     "code": "C3-10",
+     "order": 15,
      "name": "Carrefour, Damac Hills 2",
      "lat": 24.9980356,
      "lng": 55.3832291,
@@ -1003,7 +1022,7 @@
     },
     {
      "code": "C3-11",
-     "order": 15,
+     "order": 16,
      "name": "Living Legends",
      "lat": 25.0910153,
      "lng": 55.3026039,
@@ -1022,7 +1041,7 @@
     },
     {
      "code": "C3-12",
-     "order": 16,
+     "order": 17,
      "name": "Arabian Ranches 3",
      "lat": 25.069629,
      "lng": 55.323824,
@@ -1041,7 +1060,7 @@
     },
     {
      "code": "C3-13",
-     "order": 17,
+     "order": 18,
      "name": "Villanova, La Rosa",
      "lat": 25.073945,
      "lng": 55.367,
@@ -1060,7 +1079,7 @@
     },
     {
      "code": "C3-14",
-     "order": 18,
+     "order": 19,
      "name": "Skycourts Towers",
      "lat": 25.0898954,
      "lng": 55.3865139,
@@ -1079,7 +1098,7 @@
     },
     {
      "code": "C3-15",
-     "order": 19,
+     "order": 20,
      "name": "Silicon Oasis Avenue Mall 2",
      "lat": 25.11174,
      "lng": 55.375866,
@@ -1098,7 +1117,7 @@
     },
     {
      "code": "C3-22",
-     "order": 20,
+     "order": 21,
      "name": "Oasis Star, Nadd Hessa (Silicon Oasis)",
      "lat": 25.1130426,
      "lng": 55.3854414,
@@ -1117,7 +1136,7 @@
     },
     {
      "code": "C3-16",
-     "order": 21,
+     "order": 22,
      "name": "Souq Extra, Silicon Oasis",
      "lat": 25.1192507,
      "lng": 55.3955344,
@@ -3153,7 +3172,7 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:45",
+   "start": "05:35",
    "end": "07:45",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
@@ -3162,7 +3181,7 @@
     {
      "code": "C3-02",
      "name": "Circle Mall, JVC",
-     "time": "05:45",
+     "time": "05:35",
      "action": "pick_up",
      "lat": 25.0660395,
      "lng": 55.2162257,
@@ -3171,20 +3190,20 @@
     {
      "code": "C3-03",
      "name": "Dubai Miracle Garden",
-     "time": "05:55",
+     "time": "05:45",
      "action": "pick_up",
      "lat": 25.061132,
      "lng": 55.246185,
      "where_exactly": "Bus stop between Dubai Miracle Garden and Dubai Butterfly Garden."
     },
     {
-     "code": "C3-09",
-     "name": "Spinneys, Town Square",
-     "time": "06:15",
+     "code": "C3-23",
+     "name": "Reem Townhouses shuttle stop, Town Square",
+     "time": "06:05",
      "action": "pick_up",
-     "lat": 25.0099047,
-     "lng": 55.2902856,
-     "where_exactly": "Nshama Community Centre car park."
+     "lat": 25.01081,
+     "lng": 55.27931,
+     "where_exactly": "Community shuttle bus stop outside Reem Townhouses on the Town Square loop road (Emirates Rd side) - exact pin to confirm from the father's map link."
     },
     {
      "code": "C3-11",
@@ -3446,7 +3465,7 @@
     {
      "code": "C3-22",
      "name": "Oasis Star, Nadd Hessa (Silicon Oasis)",
-     "time": "17:15",
+     "time": "17:13",
      "action": "set_down",
      "lat": 25.1130426,
      "lng": 55.3854414,
@@ -3455,7 +3474,7 @@
     {
      "code": "C3-13",
      "name": "Villanova, La Rosa",
-     "time": "17:35",
+     "time": "17:31",
      "action": "set_down",
      "lat": 25.073945,
      "lng": 55.367,
@@ -3464,16 +3483,25 @@
     {
      "code": "C3-11",
      "name": "Living Legends",
-     "time": "18:00",
+     "time": "17:54",
      "action": "set_down",
      "lat": 25.0910153,
      "lng": 55.3026039,
      "where_exactly": "Main gate."
     },
     {
+     "code": "C3-23",
+     "name": "Reem Townhouses shuttle stop, Town Square",
+     "time": "18:17",
+     "action": "set_down",
+     "lat": 25.01081,
+     "lng": 55.27931,
+     "where_exactly": "Community shuttle bus stop outside Reem Townhouses on the Town Square loop road (Emirates Rd side) - exact pin to confirm from the father's map link."
+    },
+    {
      "code": "C3-09",
      "name": "Spinneys, Town Square",
-     "time": "18:20",
+     "time": "18:25",
      "action": "set_down",
      "lat": 25.0099047,
      "lng": 55.2902856,
@@ -3482,7 +3510,7 @@
     {
      "code": "C3-21",
      "name": "DAMAC Hills Mall, DAMAC Hills",
-     "time": "18:40",
+     "time": "18:43",
      "action": "set_down",
      "lat": 25.0179838,
      "lng": 55.2468052,
@@ -3491,7 +3519,7 @@
     {
      "code": "C3-03",
      "name": "Dubai Miracle Garden",
-     "time": "19:00",
+     "time": "19:01",
      "action": "set_down",
      "lat": 25.061132,
      "lng": 55.246185,
@@ -3500,7 +3528,7 @@
     {
      "code": "C3-02",
      "name": "Circle Mall, JVC",
-     "time": "19:15",
+     "time": "19:14",
      "action": "set_down",
      "lat": 25.0660395,
      "lng": 55.2162257,
@@ -3509,7 +3537,7 @@
     {
      "code": "C3-18",
      "name": "Tuscan Residence Siena 1, JVC",
-     "time": "19:25",
+     "time": "19:22",
      "action": "set_down",
      "lat": 25.063882,
      "lng": 55.207341,
@@ -9532,13 +9560,13 @@
      "where_exactly": "Outside drop-off area by Tim Hortons, City Centre Me'aisem."
     },
     {
-     "code": "C3-09",
-     "name": "Spinneys, Town Square",
-     "time": "06:25",
+     "code": "C3-23",
+     "name": "Reem Townhouses shuttle stop, Town Square",
+     "time": "06:20",
      "action": "pick_up",
-     "lat": 25.0099047,
-     "lng": 55.2902856,
-     "where_exactly": "Nshama Community Centre car park."
+     "lat": 25.01081,
+     "lng": 55.27931,
+     "where_exactly": "Community shuttle bus stop outside Reem Townhouses on the Town Square loop road (Emirates Rd side) - exact pin to confirm from the father's map link."
     },
     {
      "code": "C3-11",
@@ -9734,6 +9762,15 @@
      "lat": 25.1321925,
      "lng": 55.4223161,
      "where_exactly": "Main entrance, Academic City."
+    },
+    {
+     "code": "C3-23",
+     "name": "Reem Townhouses shuttle stop, Town Square",
+     "time": "15:00",
+     "action": "set_down",
+     "lat": 25.01081,
+     "lng": 55.27931,
+     "where_exactly": "Community shuttle bus stop outside Reem Townhouses on the Town Square loop road (Emirates Rd side) - exact pin to confirm from the father's map link."
     },
     {
      "code": "C3-09",
@@ -12789,6 +12826,15 @@
      "where_exactly": "Nshama Community Centre car park."
     },
     {
+     "code": "C3-23",
+     "name": "Reem Townhouses shuttle stop, Town Square",
+     "time": "11:45",
+     "action": "pick_up",
+     "lat": 25.01081,
+     "lng": 55.27931,
+     "where_exactly": "Community shuttle bus stop outside Reem Townhouses on the Town Square loop road (Emirates Rd side) - exact pin to confirm from the father's map link."
+    },
+    {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
      "time": "12:45",
@@ -13008,6 +13054,15 @@
      "lat": 25.0910153,
      "lng": 55.3026039,
      "where_exactly": "Main gate."
+    },
+    {
+     "code": "C3-23",
+     "name": "Reem Townhouses shuttle stop, Town Square",
+     "time": "19:25",
+     "action": "set_down",
+     "lat": 25.01081,
+     "lng": 55.27931,
+     "where_exactly": "Community shuttle bus stop outside Reem Townhouses on the Town Square loop road (Emirates Rd side) - exact pin to confirm from the father's map link."
     },
     {
      "code": "C3-09",
@@ -15028,6 +15083,15 @@
      "where_exactly": "Nshama Community Centre car park."
     },
     {
+     "code": "C3-23",
+     "name": "Reem Townhouses shuttle stop, Town Square",
+     "time": "05:40",
+     "action": "pick_up",
+     "lat": 25.01081,
+     "lng": 55.27931,
+     "where_exactly": "Community shuttle bus stop outside Reem Townhouses on the Town Square loop road (Emirates Rd side) - exact pin to confirm from the father's map link."
+    },
+    {
      "code": "C3-13",
      "name": "Villanova, La Rosa",
      "time": "06:30",
@@ -15242,6 +15306,15 @@
      "lat": 25.073945,
      "lng": 55.367,
      "where_exactly": "Front entrance of Villanova Centre by Dubai Retail."
+    },
+    {
+     "code": "C3-23",
+     "name": "Reem Townhouses shuttle stop, Town Square",
+     "time": "14:00",
+     "action": "set_down",
+     "lat": 25.01081,
+     "lng": 55.27931,
+     "where_exactly": "Community shuttle bus stop outside Reem Townhouses on the Town Square loop road (Emirates Rd side) - exact pin to confirm from the father's map link."
     },
     {
      "code": "C3-09",
