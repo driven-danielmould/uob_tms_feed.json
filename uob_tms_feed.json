@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-06T09:56:13Z",
+ "generated_at": "2026-10-06T09:59:34Z",
  "week": "2026-10-05 to 2026-10-11",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -8130,15 +8130,6 @@
      "where_exactly": "Bus stop by the VOX sign, City Centre Al Zahia."
     },
     {
-     "code": "C1-03",
-     "name": "Lulu Hypermarket Maysaloon",
-     "time": "05:08",
-     "action": "pick_up",
-     "lat": 25.359441,
-     "lng": 55.40545,
-     "where_exactly": "Al Kuwait St entrance."
-    },
-    {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
      "time": "05:13",
@@ -8742,7 +8733,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "21:29",
+   "end": "21:16",
    "vehicle": "M1",
    "vehicle_type": "Rosa",
    "seats": 34,
@@ -8866,18 +8857,9 @@
      "where_exactly": "Bus stop by Al Buhaira Police Station on Al Intifada St; 2 minutes maximum."
     },
     {
-     "code": "C1-03",
-     "name": "Lulu Hypermarket Maysaloon",
-     "time": "21:13",
-     "action": "set_down",
-     "lat": 25.359441,
-     "lng": 55.40545,
-     "where_exactly": "Al Kuwait St entrance."
-    },
-    {
      "code": "C1-02",
      "name": "City Centre Al Zahia",
-     "time": "21:26",
+     "time": "21:13",
      "action": "set_down",
      "lat": 25.318044,
      "lng": 55.457279,
@@ -11236,21 +11218,12 @@
    "service": "undergraduate",
    "arrive_campus": "07:30",
    "leave_campus": null,
-   "start": "04:58",
+   "start": "05:08",
    "end": "07:35",
    "vehicle": "M1",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
-    {
-     "code": "C1-03",
-     "name": "Lulu Hypermarket Maysaloon",
-     "time": "04:58",
-     "action": "pick_up",
-     "lat": 25.359441,
-     "lng": 55.40545,
-     "where_exactly": "Al Kuwait St entrance."
-    },
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
@@ -11861,7 +11834,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "21:01",
+   "end": "20:48",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "seats": 34,
@@ -11983,15 +11956,6 @@
      "lat": 25.337533,
      "lng": 55.39061,
      "where_exactly": "Main entrance on King Faisal St."
-    },
-    {
-     "code": "C1-03",
-     "name": "Lulu Hypermarket Maysaloon",
-     "time": "20:58",
-     "action": "set_down",
-     "lat": 25.359441,
-     "lng": 55.40545,
-     "where_exactly": "Al Kuwait St entrance."
     }
    ]
   },
@@ -14354,15 +14318,6 @@
      "where_exactly": "Bus stop by the VOX sign, City Centre Al Zahia."
     },
     {
-     "code": "C1-03",
-     "name": "Lulu Hypermarket Maysaloon",
-     "time": "05:05",
-     "action": "pick_up",
-     "lat": 25.359441,
-     "lng": 55.40545,
-     "where_exactly": "Al Kuwait St entrance."
-    },
-    {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
      "time": "05:10",
@@ -14492,7 +14447,7 @@
    "arrive_campus": null,
    "leave_campus": "12:15",
    "start": "12:15",
-   "end": "14:17",
+   "end": "14:09",
    "vehicle": "M1",
    "vehicle_type": "Rosa",
    "seats": 34,
@@ -14616,18 +14571,9 @@
      "where_exactly": "Main entrance on King Faisal St."
     },
     {
-     "code": "C1-03",
-     "name": "Lulu Hypermarket Maysaloon",
-     "time": "14:01",
-     "action": "set_down",
-     "lat": 25.359441,
-     "lng": 55.40545,
-     "where_exactly": "Al Kuwait St entrance."
-    },
-    {
      "code": "C1-02",
      "name": "City Centre Al Zahia",
-     "time": "14:14",
+     "time": "14:06",
      "action": "set_down",
      "lat": 25.318044,
      "lng": 55.457279,
