@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-06T15:32:51Z",
+ "generated_at": "2026-10-06T15:43:06Z",
  "week": "2026-10-05 to 2026-10-11",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -1259,7 +1259,7 @@
     {
      "code": "C4-21",
      "order": 5,
-     "name": "Airport Rd / Al Falah St junction (Ramee Garden Hotel Apts), Al Danah",
+     "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
      "lat": 24.4757537,
      "lng": 54.3663931,
      "google_place_id": "ChIJv6D2BxVmXj4RGGc5RSJ9Qps",
@@ -4039,7 +4039,7 @@
     },
     {
      "code": "C4-21",
-     "name": "Airport Rd / Al Falah St junction (Ramee Garden Hotel Apts), Al Danah",
+     "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
      "time": "15:41",
      "action": "pick_up"
     },
@@ -4368,7 +4368,7 @@
     },
     {
      "code": "C4-21",
-     "name": "Airport Rd / Al Falah St junction (Ramee Garden Hotel Apts), Al Danah",
+     "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
      "time": "23:36",
      "action": "set_down"
     },
@@ -7169,7 +7169,7 @@
     },
     {
      "code": "C4-21",
-     "name": "Airport Rd / Al Falah St junction (Ramee Garden Hotel Apts), Al Danah",
+     "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
      "time": "10:25",
      "action": "pick_up",
      "lat": 24.4757537,
@@ -7340,7 +7340,7 @@
     },
     {
      "code": "C4-21",
-     "name": "Airport Rd / Al Falah St junction (Ramee Garden Hotel Apts), Al Danah",
+     "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
      "time": "15:41",
      "action": "pick_up"
     },
@@ -7569,7 +7569,7 @@
     },
     {
      "code": "C4-21",
-     "name": "Airport Rd / Al Falah St junction (Ramee Garden Hotel Apts), Al Danah",
+     "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
      "time": "21:00",
      "action": "set_down",
      "lat": 24.4757537,
@@ -7678,7 +7678,7 @@
     },
     {
      "code": "C4-21",
-     "name": "Airport Rd / Al Falah St junction (Ramee Garden Hotel Apts), Al Danah",
+     "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
      "time": "23:36",
      "action": "set_down"
     },
@@ -10247,7 +10247,7 @@
     },
     {
      "code": "C4-21",
-     "name": "Airport Rd / Al Falah St junction (Ramee Garden Hotel Apts), Al Danah",
+     "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
      "time": "05:00",
      "action": "pick_up",
      "lat": 24.4757537,
@@ -10647,7 +10647,7 @@
     },
     {
      "code": "C4-21",
-     "name": "Airport Rd / Al Falah St junction (Ramee Garden Hotel Apts), Al Danah",
+     "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
      "time": "20:10",
      "action": "set_down",
      "lat": 24.4757537,
@@ -13576,7 +13576,7 @@
     },
     {
      "code": "C4-21",
-     "name": "Airport Rd / Al Falah St junction (Ramee Garden Hotel Apts), Al Danah",
+     "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
      "time": "15:41",
      "action": "pick_up"
     },
@@ -13923,7 +13923,7 @@
     },
     {
      "code": "C4-21",
-     "name": "Airport Rd / Al Falah St junction (Ramee Garden Hotel Apts), Al Danah",
+     "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
      "time": "23:36",
      "action": "set_down"
     },
@@ -15595,7 +15595,7 @@
     },
     {
      "code": "C4-21",
-     "name": "Airport Rd / Al Falah St junction (Ramee Garden Hotel Apts), Al Danah",
+     "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
      "time": "05:00",
      "action": "pick_up",
      "lat": 24.4757537,
@@ -15711,7 +15711,7 @@
     },
     {
      "code": "C4-21",
-     "name": "Airport Rd / Al Falah St junction (Ramee Garden Hotel Apts), Al Danah",
+     "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
      "time": "14:30",
      "action": "set_down",
      "lat": 24.4757537,
