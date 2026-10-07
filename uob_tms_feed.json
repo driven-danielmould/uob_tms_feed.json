@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-07T02:21:43Z",
+ "generated_at": "2026-10-07T02:52:39Z",
  "week": "2026-10-05 to 2026-10-11",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -13103,9 +13103,18 @@
    "seats": 12,
    "stops": [
     {
+     "code": "C3-17",
+     "name": "Eagle Heights, Dubai Sports City",
+     "time": "15:50",
+     "action": "pick_up",
+     "lat": 25.036628,
+     "lng": 55.221187,
+     "where_exactly": "Outside the front of the Eagle Heights building."
+    },
+    {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "15:50",
+     "time": "16:10",
      "action": "pick_up",
      "lat": 25.040494,
      "lng": 55.195971,
@@ -13114,7 +13123,7 @@
     {
      "code": "C3-15",
      "name": "Silicon Oasis Avenue Mall 2",
-     "time": "16:55",
+     "time": "17:05",
      "action": "pick_up",
      "lat": 25.11174,
      "lng": 55.375866,
@@ -13310,7 +13319,7 @@
    "arrive_campus": null,
    "leave_campus": "21:36",
    "start": "21:36",
-   "end": "23:16",
+   "end": "23:21",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -13327,7 +13336,7 @@
     {
      "code": "C3-15",
      "name": "Silicon Oasis Avenue Mall 2",
-     "time": "22:11",
+     "time": "22:06",
      "action": "set_down",
      "lat": 25.11174,
      "lng": 55.375866,
@@ -13336,11 +13345,20 @@
     {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "23:16",
+     "time": "22:56",
      "action": "set_down",
      "lat": 25.040494,
      "lng": 55.195971,
      "where_exactly": "Outside drop-off area by Tim Hortons, City Centre Me'aisem."
+    },
+    {
+     "code": "C3-17",
+     "name": "Eagle Heights, Dubai Sports City",
+     "time": "23:21",
+     "action": "set_down",
+     "lat": 25.036628,
+     "lng": 55.221187,
+     "where_exactly": "Outside the front of the Eagle Heights building."
     }
    ]
   },
