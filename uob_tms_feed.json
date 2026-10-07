@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-07T17:23:06Z",
+ "generated_at": "2026-10-07T17:41:01Z",
  "week": "2026-10-05 to 2026-10-11",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -1192,17 +1192,17 @@
      "code": "C4-22",
      "order": 1,
      "name": "Silver Tower, Al Marakib St, Corniche Area, Abu Dhabi",
-     "lat": 24.4924576,
-     "lng": 54.3588004,
+     "lat": 24.49302727241724,
+     "lng": 54.359155308731616,
      "google_place_id": "ChIJrXs0QmNmXj4R4DY0p7LmP-c",
-     "where_exactly": "Kerbside outside Silver Tower on Al Marakib Street - 900 m west of Al Mariah Mall; kerb to confirm.",
-     "pickup_lat": 24.4924576,
-     "pickup_lng": 54.3588004,
-     "pickup_where_exactly": "Kerbside outside Silver Tower on Al Marakib Street - 900 m west of Al Mariah Mall; kerb to confirm.",
-     "setdown_lat": 24.4924576,
-     "setdown_lng": 54.3588004,
-     "setdown_where_exactly": "Kerbside outside Silver Tower on Al Marakib Street - 900 m west of Al Mariah Mall; kerb to confirm.",
-     "audited": false,
+     "where_exactly": "Front of Silver Tower - pin from the rider 7 Oct (the back of the building is a closed road). Kerbside at the main entrance.",
+     "pickup_lat": 24.49302727241724,
+     "pickup_lng": 54.359155308731616,
+     "pickup_where_exactly": "Front of Silver Tower - pin from the rider 7 Oct (the back of the building is a closed road). Kerbside at the main entrance.",
+     "setdown_lat": 24.49302727241724,
+     "setdown_lng": 54.359155308731616,
+     "setdown_where_exactly": "Front of Silver Tower - pin from the rider 7 Oct (the back of the building is a closed road). Kerbside at the main entrance.",
+     "audited": true,
      "rider_instructions": "Wait outside Silver Tower on Al Marakib Street. Be here 5 minutes before your time and look for the yellow M sign in the bus windscreen.",
      "driver_instructions": "Kerbside outside Silver Tower on Al Marakib Street, Corniche area, Abu Dhabi, 900 m west of Al Mariah Mall. Only served on booked days.",
      "type": "rider_only"
@@ -4362,9 +4362,9 @@
      "name": "Silver Tower, Al Marakib St, Corniche Area, Abu Dhabi",
      "time": "04:29",
      "action": "pick_up",
-     "lat": 24.4924576,
-     "lng": 54.3588004,
-     "where_exactly": "Kerbside outside Silver Tower on Al Marakib Street - 900 m west of Al Mariah Mall; kerb to confirm."
+     "lat": 24.49302727241724,
+     "lng": 54.359155308731616,
+     "where_exactly": "Front of Silver Tower - pin from the rider 7 Oct (the back of the building is a closed road). Kerbside at the main entrance."
     },
     {
      "code": "C4-23",
@@ -4387,7 +4387,7 @@
     {
      "code": "C4-18",
      "name": "Super Nanny Nursery, Khalifa City, Abu Dhabi",
-     "time": "05:15",
+     "time": "05:14",
      "action": "pick_up",
      "lat": 24.41338,
      "lng": 54.5594598,
@@ -4405,7 +4405,7 @@
     {
      "code": "C4-07",
      "name": "Al Zeina, Al Raha Beach",
-     "time": "05:42",
+     "time": "05:41",
      "action": "pick_up",
      "lat": 24.4555591,
      "lng": 54.6131136,
@@ -4646,9 +4646,9 @@
      "name": "Silver Tower, Al Marakib St, Corniche Area, Abu Dhabi",
      "time": "21:12",
      "action": "set_down",
-     "lat": 24.4924576,
-     "lng": 54.3588004,
-     "where_exactly": "Kerbside outside Silver Tower on Al Marakib Street - 900 m west of Al Mariah Mall; kerb to confirm."
+     "lat": 24.49302727241724,
+     "lng": 54.359155308731616,
+     "where_exactly": "Front of Silver Tower - pin from the rider 7 Oct (the back of the building is a closed road). Kerbside at the main entrance."
     }
    ]
   },
