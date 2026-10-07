@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-07T16:17:29Z",
+ "generated_at": "2026-10-07T16:20:36Z",
  "week": "2026-10-05 to 2026-10-11",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -1284,8 +1284,27 @@
      "type": "rider_only"
     },
     {
-     "code": "C4-04",
+     "code": "C4-23",
      "order": 6,
+     "name": "Al Swedi Building 6, Al Sindan St, Al Zahiyah, Abu Dhabi",
+     "lat": 24.5022611,
+     "lng": 54.377864,
+     "google_place_id": "ChIJFwdCiPBnXj4RTSsnrVtBFVI",
+     "where_exactly": "Kerbside on Al Sindan Street outside Al Swedi Building 6 (same building as Makaram Dry Clean), in front of the large car park behind Future Pharmacy.",
+     "pickup_lat": 24.5022611,
+     "pickup_lng": 54.377864,
+     "pickup_where_exactly": "Kerbside on Al Sindan Street outside Al Swedi Building 6 (same building as Makaram Dry Clean), in front of the large car park behind Future Pharmacy.",
+     "setdown_lat": 24.5022611,
+     "setdown_lng": 54.377864,
+     "setdown_where_exactly": "Kerbside on Al Sindan Street outside Al Swedi Building 6 (same building as Makaram Dry Clean), in front of the large car park behind Future Pharmacy.",
+     "audited": false,
+     "rider_instructions": "Wait outside Al Swedi Building 6 on Al Sindan Street. Be here 5 minutes before your time and look for the yellow M sign in the bus windscreen.",
+     "driver_instructions": "Kerbside on Al Sindan Street outside Al Swedi Building 6 (Makaram Dry Clean), Al Zahiyah, Abu Dhabi. Only served on booked days.",
+     "type": "rider_only"
+    },
+    {
+     "code": "C4-04",
+     "order": 7,
      "name": "Mubadala Tower, Sultan Bin Zayed St",
      "lat": 24.4223437,
      "lng": 54.4544927,
@@ -1304,7 +1323,7 @@
     },
     {
      "code": "C4-02",
-     "order": 7,
+     "order": 8,
      "name": "The Gate Towers, Al Reem Island",
      "lat": 24.492995,
      "lng": 54.408057,
@@ -1323,7 +1342,7 @@
     },
     {
      "code": "C4-06",
-     "order": 8,
+     "order": 9,
      "name": "Al Forsan Village main gate",
      "lat": 24.4044,
      "lng": 54.5514,
@@ -1342,7 +1361,7 @@
     },
     {
      "code": "C4-05",
-     "order": 9,
+     "order": 10,
      "name": "Yasmina School back gate, Raha Gardens",
      "lat": 24.426,
      "lng": 54.5467,
@@ -1361,7 +1380,7 @@
     },
     {
      "code": "C4-18",
-     "order": 10,
+     "order": 11,
      "name": "Super Nanny Nursery, Khalifa City, Abu Dhabi",
      "lat": 24.41338,
      "lng": 54.5594598,
@@ -1380,7 +1399,7 @@
     },
     {
      "code": "C4-07",
-     "order": 11,
+     "order": 12,
      "name": "Al Zeina, Al Raha Beach",
      "lat": 24.4555591,
      "lng": 54.6131136,
@@ -1399,7 +1418,7 @@
     },
     {
      "code": "C4-15",
-     "order": 12,
+     "order": 13,
      "name": "Deerfields Mall, Al Bahia",
      "lat": 24.523305,
      "lng": 54.671536,
@@ -1418,7 +1437,7 @@
     },
     {
      "code": "C4-08",
-     "order": 13,
+     "order": 14,
      "name": "Al Ghadeer community gate",
      "lat": 24.8443745,
      "lng": 55.0261656,
@@ -4339,13 +4358,13 @@
      "where_exactly": "Bus stop shelter by Al Wahda Mall (as shown in the photo)."
     },
     {
-     "code": "C4-01",
-     "name": "Al Mariah Mall, Hamdan St",
-     "time": "04:33",
+     "code": "C4-23",
+     "name": "Al Swedi Building 6, Al Sindan St, Al Zahiyah, Abu Dhabi",
+     "time": "04:35",
      "action": "pick_up",
-     "lat": 24.494038,
-     "lng": 54.366864,
-     "where_exactly": "Outside the front of Al Mariah Mall."
+     "lat": 24.5022611,
+     "lng": 54.377864,
+     "where_exactly": "Kerbside on Al Sindan Street outside Al Swedi Building 6 (same building as Makaram Dry Clean), in front of the large car park behind Future Pharmacy."
     },
     {
      "code": "C4-04",
@@ -4527,7 +4546,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "21:13",
+   "end": "21:16",
    "vehicle": "M9",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -4544,7 +4563,7 @@
     {
      "code": "C4-08",
      "name": "Al Ghadeer community gate",
-     "time": "18:56",
+     "time": "18:55",
      "action": "set_down",
      "lat": 24.8443745,
      "lng": 55.0261656,
@@ -4553,7 +4572,7 @@
     {
      "code": "C4-07",
      "name": "Al Zeina, Al Raha Beach",
-     "time": "19:44",
+     "time": "19:43",
      "action": "set_down",
      "lat": 24.4555591,
      "lng": 54.6131136,
@@ -4562,7 +4581,7 @@
     {
      "code": "C4-18",
      "name": "Super Nanny Nursery, Khalifa City, Abu Dhabi",
-     "time": "19:57",
+     "time": "19:55",
      "action": "set_down",
      "lat": 24.41338,
      "lng": 54.5594598,
@@ -4571,7 +4590,7 @@
     {
      "code": "C4-06",
      "name": "Al Forsan Village main gate",
-     "time": "20:02",
+     "time": "20:01",
      "action": "set_down",
      "lat": 24.4044,
      "lng": 54.5514,
@@ -4580,7 +4599,7 @@
     {
      "code": "C4-02",
      "name": "The Gate Towers, Al Reem Island",
-     "time": "20:30",
+     "time": "20:28",
      "action": "set_down",
      "lat": 24.492995,
      "lng": 54.408057,
@@ -4589,16 +4608,25 @@
     {
      "code": "C4-04",
      "name": "Mubadala Tower, Sultan Bin Zayed St",
-     "time": "20:45",
+     "time": "20:43",
      "action": "set_down",
      "lat": 24.4223437,
      "lng": 54.4544927,
      "where_exactly": "Outside the Ministry of Human Resources & Emiratisation (Abu Dhabi Labour Office) entrance of Mubadala Tower, Sultan Bin Zayed the First St - pin from rider 6 Oct; kerb to confirm on audit."
     },
     {
+     "code": "C4-23",
+     "name": "Al Swedi Building 6, Al Sindan St, Al Zahiyah, Abu Dhabi",
+     "time": "21:02",
+     "action": "set_down",
+     "lat": 24.5022611,
+     "lng": 54.377864,
+     "where_exactly": "Kerbside on Al Sindan Street outside Al Swedi Building 6 (same building as Makaram Dry Clean), in front of the large car park behind Future Pharmacy."
+    },
+    {
      "code": "C4-01",
      "name": "Al Mariah Mall, Hamdan St",
-     "time": "21:04",
+     "time": "21:08",
      "action": "set_down",
      "lat": 24.494038,
      "lng": 54.366864,
@@ -4607,7 +4635,7 @@
     {
      "code": "C4-03",
      "name": "Al Wahda Mall",
-     "time": "21:13",
+     "time": "21:16",
      "action": "set_down",
      "lat": 24.471638,
      "lng": 54.372417,
