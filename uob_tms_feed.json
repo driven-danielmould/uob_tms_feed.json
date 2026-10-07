@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-07T16:11:07Z",
+ "generated_at": "2026-10-07T16:15:01Z",
  "week": "2026-10-05 to 2026-10-11",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -3271,7 +3271,7 @@
    "arrive_campus": null,
    "leave_campus": "14:15",
    "start": "14:15",
-   "end": "15:27",
+   "end": "15:42",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -3329,6 +3329,15 @@
      "lat": 25.07122,
      "lng": 55.137072,
      "where_exactly": "Outside the Yacht Bay sign (Yacht Bay building)."
+    },
+    {
+     "code": "C2-08",
+     "name": "Mall of the Emirates",
+     "time": "15:42",
+     "action": "set_down",
+     "lat": 25.1201411,
+     "lng": 55.2011196,
+     "where_exactly": "Pick-up point at 25.1201411, 55.2011196 (metro side)."
     }
    ]
   },
@@ -3476,7 +3485,7 @@
    "leave_campus": "18:15",
    "start": "18:15",
    "end": "20:01",
-   "vehicle": "M15",
+   "vehicle": "M4",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
