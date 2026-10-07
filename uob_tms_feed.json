@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-07T16:41:47Z",
+ "generated_at": "2026-10-07T17:07:09Z",
  "week": "2026-10-05 to 2026-10-11",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -4351,7 +4351,7 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "04:25",
+   "start": "04:28",
    "end": "07:45",
    "vehicle": "M8",
    "vehicle_type": "Rosa",
@@ -4360,7 +4360,7 @@
     {
      "code": "C4-03",
      "name": "Al Wahda Mall",
-     "time": "04:25",
+     "time": "04:28",
      "action": "pick_up",
      "lat": 24.471638,
      "lng": 54.372417,
@@ -4369,7 +4369,7 @@
     {
      "code": "C4-22",
      "name": "Silver Tower, Al Marakib St, Corniche Area, Abu Dhabi",
-     "time": "04:29",
+     "time": "04:32",
      "action": "pick_up",
      "lat": 24.4924576,
      "lng": 54.3588004,
@@ -4378,20 +4378,11 @@
     {
      "code": "C4-23",
      "name": "Al Swedi Building 6, Al Sindan St, Al Zahiyah, Abu Dhabi",
-     "time": "04:35",
+     "time": "04:38",
      "action": "pick_up",
      "lat": 24.5022611,
      "lng": 54.377864,
      "where_exactly": "Kerbside on Al Sindan Street outside Al Swedi Building 6 (same building as Makaram Dry Clean), in front of the large car park behind Future Pharmacy."
-    },
-    {
-     "code": "C4-04",
-     "name": "Mubadala Tower, Sultan Bin Zayed St",
-     "time": "04:39",
-     "action": "pick_up",
-     "lat": 24.4223437,
-     "lng": 54.4544927,
-     "where_exactly": "Outside the Ministry of Human Resources & Emiratisation (Abu Dhabi Labour Office) entrance of Mubadala Tower, Sultan Bin Zayed the First St - pin from rider 6 Oct; kerb to confirm on audit."
     },
     {
      "code": "C4-06",
@@ -4564,7 +4555,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "21:16",
+   "end": "21:13",
    "vehicle": "M9",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -4581,7 +4572,7 @@
     {
      "code": "C4-08",
      "name": "Al Ghadeer community gate",
-     "time": "18:55",
+     "time": "19:01",
      "action": "set_down",
      "lat": 24.8443745,
      "lng": 55.0261656,
@@ -4590,7 +4581,7 @@
     {
      "code": "C4-07",
      "name": "Al Zeina, Al Raha Beach",
-     "time": "19:43",
+     "time": "19:55",
      "action": "set_down",
      "lat": 24.4555591,
      "lng": 54.6131136,
@@ -4599,7 +4590,7 @@
     {
      "code": "C4-18",
      "name": "Super Nanny Nursery, Khalifa City, Abu Dhabi",
-     "time": "19:55",
+     "time": "20:09",
      "action": "set_down",
      "lat": 24.41338,
      "lng": 54.5594598,
@@ -4608,7 +4599,7 @@
     {
      "code": "C4-06",
      "name": "Al Forsan Village main gate",
-     "time": "20:01",
+     "time": "20:16",
      "action": "set_down",
      "lat": 24.4044,
      "lng": 54.5514,
@@ -4617,25 +4608,16 @@
     {
      "code": "C4-02",
      "name": "The Gate Towers, Al Reem Island",
-     "time": "20:28",
+     "time": "20:46",
      "action": "set_down",
      "lat": 24.492995,
      "lng": 54.408057,
      "where_exactly": "Main drop-off."
     },
     {
-     "code": "C4-04",
-     "name": "Mubadala Tower, Sultan Bin Zayed St",
-     "time": "20:43",
-     "action": "set_down",
-     "lat": 24.4223437,
-     "lng": 54.4544927,
-     "where_exactly": "Outside the Ministry of Human Resources & Emiratisation (Abu Dhabi Labour Office) entrance of Mubadala Tower, Sultan Bin Zayed the First St - pin from rider 6 Oct; kerb to confirm on audit."
-    },
-    {
      "code": "C4-23",
      "name": "Al Swedi Building 6, Al Sindan St, Al Zahiyah, Abu Dhabi",
-     "time": "21:02",
+     "time": "20:57",
      "action": "set_down",
      "lat": 24.5022611,
      "lng": 54.377864,
@@ -4644,7 +4626,7 @@
     {
      "code": "C4-01",
      "name": "Al Mariah Mall, Hamdan St",
-     "time": "21:08",
+     "time": "21:03",
      "action": "set_down",
      "lat": 24.494038,
      "lng": 54.366864,
@@ -4653,7 +4635,7 @@
     {
      "code": "C4-03",
      "name": "Al Wahda Mall",
-     "time": "21:16",
+     "time": "21:13",
      "action": "set_down",
      "lat": 24.471638,
      "lng": 54.372417,
