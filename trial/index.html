@@ -1,0 +1,13 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>DrivenBus TMS trial — admin</title>
+<link rel="icon" type="image/png" sizes="32x32" href="/uob_tms_feed.json/brand/favicon-32.png"><link rel="apple-touch-icon" sizes="180x180" href="/uob_tms_feed.json/brand/favicon-180.png">
+<meta http-equiv="Cache-Control" content="no-store"></head><body style="margin:0;background:#111;color:#aaa;font-family:-apple-system,Segoe UI,Roboto,Arial,sans-serif"><p id="ld" style="padding:40px;text-align:center">Loading latest plan…</p>
+<script>
+(async function(){try{const r=await fetch('trial-app.html?ts='+Date.now(),{cache:'no-store'});const t=await r.text();
+ const doc=new DOMParser().parseFromString(t,'text/html');
+ document.title=doc.title||document.title;
+ for(const el of doc.head.querySelectorAll('style,link[rel=stylesheet],link[rel=preconnect]'))document.head.appendChild(el.cloneNode(true));
+ const scripts=[...doc.body.querySelectorAll('script')];scripts.forEach(x=>x.remove());
+ document.body.innerHTML=doc.body.innerHTML;document.body.removeAttribute('style');
+ for(const x of scripts){const n=document.createElement('script');if(x.src)n.src=x.src;else n.textContent=x.textContent;document.body.appendChild(n)}
+}catch(e){document.getElementById('ld').textContent='Could not load the plan: '+e}})();
+</script></body></html>
