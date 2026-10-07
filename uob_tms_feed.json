@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-07T17:10:36Z",
+ "generated_at": "2026-10-07T17:15:56Z",
  "week": "2026-10-05 to 2026-10-11",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -4572,7 +4572,7 @@
     {
      "code": "C4-08",
      "name": "Al Ghadeer community gate",
-     "time": "19:01",
+     "time": "18:59",
      "action": "set_down",
      "lat": 24.8443745,
      "lng": 55.0261656,
@@ -4581,7 +4581,7 @@
     {
      "code": "C4-07",
      "name": "Al Zeina, Al Raha Beach",
-     "time": "19:55",
+     "time": "19:51",
      "action": "set_down",
      "lat": 24.4555591,
      "lng": 54.6131136,
@@ -4590,7 +4590,7 @@
     {
      "code": "C4-18",
      "name": "Super Nanny Nursery, Khalifa City, Abu Dhabi",
-     "time": "20:09",
+     "time": "20:05",
      "action": "set_down",
      "lat": 24.41338,
      "lng": 54.5594598,
@@ -4599,7 +4599,7 @@
     {
      "code": "C4-06",
      "name": "Al Forsan Village main gate",
-     "time": "20:16",
+     "time": "20:11",
      "action": "set_down",
      "lat": 24.4044,
      "lng": 54.5514,
@@ -4608,7 +4608,7 @@
     {
      "code": "C4-02",
      "name": "The Gate Towers, Al Reem Island",
-     "time": "20:46",
+     "time": "20:40",
      "action": "set_down",
      "lat": 24.492995,
      "lng": 54.408057,
@@ -4617,7 +4617,7 @@
     {
      "code": "C4-23",
      "name": "Al Swedi Building 6, Al Sindan St, Al Zahiyah, Abu Dhabi",
-     "time": "20:57",
+     "time": "20:51",
      "action": "set_down",
      "lat": 24.5022611,
      "lng": 54.377864,
@@ -4626,11 +4626,20 @@
     {
      "code": "C4-01",
      "name": "Al Mariah Mall, Hamdan St",
-     "time": "21:03",
+     "time": "20:57",
      "action": "set_down",
      "lat": 24.494038,
      "lng": 54.366864,
      "where_exactly": "Outside the front of Al Mariah Mall."
+    },
+    {
+     "code": "C4-22",
+     "name": "Silver Tower, Al Marakib St, Corniche Area, Abu Dhabi",
+     "time": "21:03",
+     "action": "set_down",
+     "lat": 24.4924576,
+     "lng": 54.3588004,
+     "where_exactly": "Kerbside outside Silver Tower on Al Marakib Street - 900 m west of Al Mariah Mall; kerb to confirm."
     },
     {
      "code": "C4-03",
