@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-07T04:13:11Z",
+ "generated_at": "2026-10-07T10:47:55Z",
  "week": "2026-10-05 to 2026-10-11",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -3047,11 +3047,20 @@
     {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "16:25",
+     "time": "16:15",
      "action": "pick_up",
      "lat": 25.093492,
      "lng": 55.177807,
      "where_exactly": "Pick and drop area outside the Al Asmawi Building."
+    },
+    {
+     "code": "C2-07",
+     "name": "Dubai Internet City Metro Station",
+     "time": "16:35",
+     "action": "pick_up",
+     "lat": 25.1021161,
+     "lng": 55.1740882,
+     "where_exactly": "Dubai Internet City Metro Station - pin as set 6 Oct (Dan); kerb text to confirm on audit."
     },
     {
      "code": "UOB",
@@ -3258,9 +3267,18 @@
      "where_exactly": "Main entrance, Academic City."
     },
     {
+     "code": "C2-07",
+     "name": "Dubai Internet City Metro Station",
+     "time": "22:05",
+     "action": "set_down",
+     "lat": 25.1021161,
+     "lng": 55.1740882,
+     "where_exactly": "Dubai Internet City Metro Station - pin as set 6 Oct (Dan); kerb text to confirm on audit."
+    },
+    {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "22:15",
+     "time": "22:25",
      "action": "set_down",
      "lat": 25.093492,
      "lng": 55.177807,
@@ -6238,16 +6256,25 @@
     {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "16:20",
+     "time": "16:15",
      "action": "pick_up",
      "lat": 25.093492,
      "lng": 55.177807,
      "where_exactly": "Pick and drop area outside the Al Asmawi Building."
     },
     {
+     "code": "C2-07",
+     "name": "Dubai Internet City Metro Station",
+     "time": "16:30",
+     "action": "pick_up",
+     "lat": 25.1021161,
+     "lng": 55.1740882,
+     "where_exactly": "Dubai Internet City Metro Station - pin as set 6 Oct (Dan); kerb text to confirm on audit."
+    },
+    {
      "code": "C2-08",
      "name": "Mall of the Emirates",
-     "time": "16:50",
+     "time": "16:55",
      "action": "pick_up",
      "lat": 25.1201411,
      "lng": 55.2011196,
@@ -6433,16 +6460,25 @@
     {
      "code": "C2-08",
      "name": "Mall of the Emirates",
-     "time": "22:11",
+     "time": "22:06",
      "action": "set_down",
      "lat": 25.1201411,
      "lng": 55.2011196,
      "where_exactly": "Pick-up point at 25.1201411, 55.2011196 (metro side)."
     },
     {
+     "code": "C2-07",
+     "name": "Dubai Internet City Metro Station",
+     "time": "22:31",
+     "action": "set_down",
+     "lat": 25.1021161,
+     "lng": 55.1740882,
+     "where_exactly": "Dubai Internet City Metro Station - pin as set 6 Oct (Dan); kerb text to confirm on audit."
+    },
+    {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "22:41",
+     "time": "22:46",
      "action": "set_down",
      "lat": 25.093492,
      "lng": 55.177807,
@@ -9492,9 +9528,18 @@
      "where_exactly": "Pick and drop area outside the Al Asmawi Building."
     },
     {
+     "code": "C2-07",
+     "name": "Dubai Internet City Metro Station",
+     "time": "16:05",
+     "action": "pick_up",
+     "lat": 25.1021161,
+     "lng": 55.1740882,
+     "where_exactly": "Dubai Internet City Metro Station - pin as set 6 Oct (Dan); kerb text to confirm on audit."
+    },
+    {
      "code": "C2-08",
      "name": "Mall of the Emirates",
-     "time": "16:30",
+     "time": "16:40",
      "action": "pick_up",
      "lat": 25.1201411,
      "lng": 55.2011196,
@@ -9671,11 +9716,20 @@
     {
      "code": "C2-08",
      "name": "Mall of the Emirates",
-     "time": "22:26",
+     "time": "22:16",
      "action": "set_down",
      "lat": 25.1201411,
      "lng": 55.2011196,
      "where_exactly": "Pick-up point at 25.1201411, 55.2011196 (metro side)."
+    },
+    {
+     "code": "C2-07",
+     "name": "Dubai Internet City Metro Station",
+     "time": "22:51",
+     "action": "set_down",
+     "lat": 25.1021161,
+     "lng": 55.1740882,
+     "where_exactly": "Dubai Internet City Metro Station - pin as set 6 Oct (Dan); kerb text to confirm on audit."
     },
     {
      "code": "C2-11",
@@ -12616,6 +12670,15 @@
      "where_exactly": "Pick and drop area outside the Al Asmawi Building."
     },
     {
+     "code": "C2-07",
+     "name": "Dubai Internet City Metro Station",
+     "time": "16:10",
+     "action": "pick_up",
+     "lat": 25.1021161,
+     "lng": 55.1740882,
+     "where_exactly": "Dubai Internet City Metro Station - pin as set 6 Oct (Dan); kerb text to confirm on audit."
+    },
+    {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
      "time": "17:45",
@@ -12796,7 +12859,7 @@
    "arrive_campus": null,
    "leave_campus": "21:36",
    "start": "21:36",
-   "end": "23:06",
+   "end": "23:11",
    "vehicle": "M13",
    "vehicle_type": "Rosa",
    "seats": 34,
@@ -12811,9 +12874,18 @@
      "where_exactly": "Main entrance, Academic City."
     },
     {
+     "code": "C2-07",
+     "name": "Dubai Internet City Metro Station",
+     "time": "22:46",
+     "action": "set_down",
+     "lat": 25.1021161,
+     "lng": 55.1740882,
+     "where_exactly": "Dubai Internet City Metro Station - pin as set 6 Oct (Dan); kerb text to confirm on audit."
+    },
+    {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "23:06",
+     "time": "23:11",
      "action": "set_down",
      "lat": 25.093492,
      "lng": 55.177807,
@@ -16897,13 +16969,13 @@
      "where_exactly": "Outside the Yacht Bay sign (Yacht Bay building)."
     },
     {
-     "code": "C2-11",
-     "name": "Al Asmawi Building, Al Thanyah 1",
+     "code": "C2-07",
+     "name": "Dubai Internet City Metro Station",
      "time": "08:00",
      "action": "pick_up",
-     "lat": 25.093492,
-     "lng": 55.177807,
-     "where_exactly": "Pick and drop area outside the Al Asmawi Building."
+     "lat": 25.1021161,
+     "lng": 55.1740882,
+     "where_exactly": "Dubai Internet City Metro Station - pin as set 6 Oct (Dan); kerb text to confirm on audit."
     },
     {
      "code": "UOB",
@@ -16941,13 +17013,13 @@
      "where_exactly": "Main entrance, Academic City."
     },
     {
-     "code": "C2-11",
-     "name": "Al Asmawi Building, Al Thanyah 1",
+     "code": "C2-07",
+     "name": "Dubai Internet City Metro Station",
      "time": "18:55",
      "action": "set_down",
-     "lat": 25.093492,
-     "lng": 55.177807,
-     "where_exactly": "Pick and drop area outside the Al Asmawi Building."
+     "lat": 25.1021161,
+     "lng": 55.1740882,
+     "where_exactly": "Dubai Internet City Metro Station - pin as set 6 Oct (Dan); kerb text to confirm on audit."
     },
     {
      "code": "C2-03",
