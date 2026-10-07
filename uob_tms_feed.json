@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-07T03:55:46Z",
+ "generated_at": "2026-10-07T04:13:11Z",
  "week": "2026-10-05 to 2026-10-11",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -10053,7 +10053,7 @@
    "arrive_campus": null,
    "leave_campus": "16:55",
    "start": "16:55",
-   "end": "19:38",
+   "end": "19:30",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -10122,18 +10122,9 @@
      "where_exactly": "Mall drop-off, DAMAC Hills."
     },
     {
-     "code": "C3-06",
-     "name": "Elan 1, Tilal Al Ghaf",
-     "time": "18:53",
-     "action": "set_down",
-     "lat": 25.0286134,
-     "lng": 55.2325892,
-     "where_exactly": "Elan gate."
-    },
-    {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "19:06",
+     "time": "18:58",
      "action": "set_down",
      "lat": 25.040494,
      "lng": 55.195971,
@@ -10142,7 +10133,7 @@
     {
      "code": "C3-04",
      "name": "Dubai International Cricket Stadium",
-     "time": "19:14",
+     "time": "19:06",
      "action": "set_down",
      "lat": 25.043579,
      "lng": 55.218241,
@@ -10151,7 +10142,7 @@
     {
      "code": "C3-02",
      "name": "Circle Mall, JVC",
-     "time": "19:27",
+     "time": "19:19",
      "action": "set_down",
      "lat": 25.0660395,
      "lng": 55.2162257,
@@ -10160,7 +10151,7 @@
     {
      "code": "C3-18",
      "name": "Tuscan Residence Siena 1, JVC",
-     "time": "19:35",
+     "time": "19:27",
      "action": "set_down",
      "lat": 25.063882,
      "lng": 55.207341,
@@ -12971,15 +12962,6 @@
      "where_exactly": "Kerbside on 22 Street outside Siena 1; do not enter the building car park."
     },
     {
-     "code": "C3-06",
-     "name": "Elan 1, Tilal Al Ghaf",
-     "time": "09:20",
-     "action": "pick_up",
-     "lat": 25.0286134,
-     "lng": 55.2325892,
-     "where_exactly": "Elan gate."
-    },
-    {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
      "time": "10:45",
@@ -13053,7 +13035,7 @@
    "arrive_campus": null,
    "leave_campus": "14:15",
    "start": "14:15",
-   "end": "16:00",
+   "end": "15:55",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -13068,18 +13050,9 @@
      "where_exactly": "Main entrance, Academic City."
     },
     {
-     "code": "C3-06",
-     "name": "Elan 1, Tilal Al Ghaf",
-     "time": "15:20",
-     "action": "set_down",
-     "lat": 25.0286134,
-     "lng": 55.2325892,
-     "where_exactly": "Elan gate."
-    },
-    {
      "code": "C3-03",
      "name": "Dubai Miracle Garden",
-     "time": "16:00",
+     "time": "15:55",
      "action": "set_down",
      "lat": 25.061132,
      "lng": 55.246185,
