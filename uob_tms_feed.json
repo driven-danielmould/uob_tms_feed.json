@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-07T16:15:01Z",
+ "generated_at": "2026-10-07T16:17:29Z",
  "week": "2026-10-05 to 2026-10-11",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -4544,7 +4544,7 @@
     {
      "code": "C4-08",
      "name": "Al Ghadeer community gate",
-     "time": "19:20",
+     "time": "18:56",
      "action": "set_down",
      "lat": 24.8443745,
      "lng": 55.0261656,
@@ -4553,7 +4553,7 @@
     {
      "code": "C4-07",
      "name": "Al Zeina, Al Raha Beach",
-     "time": "20:39",
+     "time": "19:44",
      "action": "set_down",
      "lat": 24.4555591,
      "lng": 54.6131136,
@@ -4562,16 +4562,34 @@
     {
      "code": "C4-18",
      "name": "Super Nanny Nursery, Khalifa City, Abu Dhabi",
-     "time": "20:51",
+     "time": "19:57",
      "action": "set_down",
      "lat": 24.41338,
      "lng": 54.5594598,
      "where_exactly": "An Nisaylat St frontage of Super Nanny Nursery, behind Choueifat school."
     },
     {
+     "code": "C4-06",
+     "name": "Al Forsan Village main gate",
+     "time": "20:02",
+     "action": "set_down",
+     "lat": 24.4044,
+     "lng": 54.5514,
+     "where_exactly": "Main gate, Khalifa City."
+    },
+    {
+     "code": "C4-02",
+     "name": "The Gate Towers, Al Reem Island",
+     "time": "20:30",
+     "action": "set_down",
+     "lat": 24.492995,
+     "lng": 54.408057,
+     "where_exactly": "Main drop-off."
+    },
+    {
      "code": "C4-04",
      "name": "Mubadala Tower, Sultan Bin Zayed St",
-     "time": "21:03",
+     "time": "20:45",
      "action": "set_down",
      "lat": 24.4223437,
      "lng": 54.4544927,
@@ -4580,7 +4598,7 @@
     {
      "code": "C4-01",
      "name": "Al Mariah Mall, Hamdan St",
-     "time": "21:09",
+     "time": "21:04",
      "action": "set_down",
      "lat": 24.494038,
      "lng": 54.366864,
@@ -4594,24 +4612,6 @@
      "lat": 24.471638,
      "lng": 54.372417,
      "where_exactly": "Bus stop shelter by Al Wahda Mall (as shown in the photo)."
-    },
-    {
-     "code": "C4-06",
-     "name": "Al Forsan Village main gate",
-     "time": "18:47",
-     "action": "set_down",
-     "lat": 24.4044,
-     "lng": 54.5514,
-     "where_exactly": "Main gate, Khalifa City."
-    },
-    {
-     "code": "C4-02",
-     "name": "The Gate Towers, Al Reem Island",
-     "time": "18:56",
-     "action": "set_down",
-     "lat": 24.492995,
-     "lng": 54.408057,
-     "where_exactly": "Main drop-off."
     }
    ]
   },
@@ -5543,7 +5543,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "20:43",
+   "end": "20:29",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "seats": 34,
@@ -5560,7 +5560,7 @@
     {
      "code": "C5-12",
      "name": "Wasl Green Park, Ras Al Khor",
-     "time": "18:31",
+     "time": "18:29",
      "action": "set_down",
      "lat": 25.1801628,
      "lng": 55.3729096,
@@ -5569,7 +5569,7 @@
     {
      "code": "C5-14",
      "name": "Meydan Heights, Nad Al Sheba 1",
-     "time": "18:47",
+     "time": "18:43",
      "action": "set_down",
      "lat": 25.14468,
      "lng": 55.3152,
@@ -5578,7 +5578,7 @@
     {
      "code": "C5-11",
      "name": "One Park Avenue, Sobha Hartland",
-     "time": "19:01",
+     "time": "18:56",
      "action": "set_down",
      "lat": 25.1784466,
      "lng": 55.3086196,
@@ -5587,7 +5587,7 @@
     {
      "code": "C5-03",
      "name": "Creek Metro Station, Al Jaddaf",
-     "time": "19:19",
+     "time": "19:12",
      "action": "set_down",
      "lat": 25.219122,
      "lng": 55.339319,
@@ -5596,7 +5596,7 @@
     {
      "code": "C5-04",
      "name": "Oud Metha Metro Station",
-     "time": "19:32",
+     "time": "19:24",
      "action": "set_down",
      "lat": 25.243624,
      "lng": 55.315799,
@@ -5605,7 +5605,7 @@
     {
      "code": "C5-09",
      "name": "Bay Avenue Mall, Business Bay",
-     "time": "19:49",
+     "time": "19:40",
      "action": "set_down",
      "lat": 25.191143,
      "lng": 55.265598,
@@ -5614,7 +5614,7 @@
     {
      "code": "C5-07",
      "name": "World Trade Centre Metro Station",
-     "time": "20:04",
+     "time": "19:53",
      "action": "set_down",
      "lat": 25.225614,
      "lng": 55.284365,
@@ -5623,7 +5623,7 @@
     {
      "code": "C5-02",
      "name": "Al Rigga Metro Station",
-     "time": "20:23",
+     "time": "20:10",
      "action": "set_down",
      "lat": 25.262847,
      "lng": 55.324368,
@@ -5632,7 +5632,7 @@
     {
      "code": "C5-05",
      "name": "BurJuman Mall",
-     "time": "20:32",
+     "time": "20:19",
      "action": "set_down",
      "lat": 25.254331,
      "lng": 55.303661,
@@ -5641,7 +5641,7 @@
     {
      "code": "C5-06",
      "name": "Al Wasl Building, Al Hudaiba",
-     "time": "20:43",
+     "time": "20:29",
      "action": "set_down",
      "lat": 25.243,
      "lng": 55.2788,
