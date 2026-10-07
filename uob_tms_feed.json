@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-07T13:08:30Z",
+ "generated_at": "2026-10-07T13:18:31Z",
  "week": "2026-10-05 to 2026-10-11",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -3091,13 +3091,13 @@
      "where_exactly": "Outside the Springs 10 gatehouse on Street 1, before the barrier."
     },
     {
-     "code": "C2-07",
-     "name": "Dubai Internet City Metro Station",
-     "time": "06:17",
+     "code": "C2-06",
+     "name": "The Springs Souk",
+     "time": "06:20",
      "action": "pick_up",
-     "lat": 25.1021161,
-     "lng": 55.1740882,
-     "where_exactly": "Dubai Internet City Metro Station - pin as set 6 Oct (Dan); kerb text to confirm on audit."
+     "lat": 25.065917,
+     "lng": 55.192107,
+     "where_exactly": "Drop-off area outside Russo's New York Pizzeria, The Springs Souk."
     },
     {
      "code": "C2-10",
@@ -3271,7 +3271,7 @@
    "arrive_campus": null,
    "leave_campus": "14:15",
    "start": "14:15",
-   "end": "15:24",
+   "end": "15:27",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -3295,9 +3295,18 @@
      "where_exactly": "Kerbside outside the building entrance; do not enter the car park."
     },
     {
+     "code": "C2-06",
+     "name": "The Springs Souk",
+     "time": "15:07",
+     "action": "set_down",
+     "lat": 25.065917,
+     "lng": 55.192107,
+     "where_exactly": "Drop-off area outside Russo's New York Pizzeria, The Springs Souk."
+    },
+    {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "15:09",
+     "time": "15:12",
      "action": "set_down",
      "lat": 25.1021161,
      "lng": 55.1740882,
@@ -3306,7 +3315,7 @@
     {
      "code": "C2-04",
      "name": "Sobha Realty Metro Station",
-     "time": "15:18",
+     "time": "15:21",
      "action": "set_down",
      "lat": 25.08243,
      "lng": 55.148317,
@@ -3315,7 +3324,7 @@
     {
      "code": "C2-03",
      "name": "DMCC Metro Station",
-     "time": "15:24",
+     "time": "15:27",
      "action": "set_down",
      "lat": 25.07122,
      "lng": 55.137072,
