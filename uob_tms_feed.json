@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-08T05:23:12Z",
+ "generated_at": "2026-10-08T11:35:15Z",
  "week": "2026-10-05 to 2026-10-11",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -5785,6 +5785,41 @@
      "code": "UOB",
      "name": "University of Birmingham Dubai",
      "time": "07:45",
+     "action": "set_down",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    }
+   ]
+  },
+  {
+   "run_id": "2026-10-09-R1-O4",
+   "date": "2026-10-09",
+   "day": "Fri",
+   "route": "R1",
+   "direction": "to_campus",
+   "service": "undergraduate",
+   "arrive_campus": "12:45",
+   "leave_campus": null,
+   "start": "10:52",
+   "end": "12:45",
+   "vehicle": "M3",
+   "vehicle_type": "Hiace",
+   "seats": 12,
+   "stops": [
+    {
+     "code": "C1-04",
+     "name": "Nesto Hypermarket, King Faisal St",
+     "time": "10:52",
+     "action": "pick_up",
+     "lat": 25.337533,
+     "lng": 55.39061,
+     "where_exactly": "Main entrance on King Faisal St."
+    },
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "12:45",
      "action": "set_down",
      "lat": 25.1321925,
      "lng": 55.4223161,
