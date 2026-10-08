@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-07T17:41:01Z",
+ "generated_at": "2026-10-08T05:23:12Z",
  "week": "2026-10-05 to 2026-10-11",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -3512,7 +3512,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "19:59",
+   "end": "19:56",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -3529,7 +3529,7 @@
     {
      "code": "C2-08",
      "name": "Mall of the Emirates",
-     "time": "18:48",
+     "time": "18:50",
      "action": "set_down",
      "lat": 25.1201411,
      "lng": 55.2011196,
@@ -3538,25 +3538,16 @@
     {
      "code": "C2-10",
      "name": "Al Manaf Building, Al Barsha 1",
-     "time": "18:56",
+     "time": "18:59",
      "action": "set_down",
      "lat": 25.1110756,
      "lng": 55.2057285,
      "where_exactly": "Kerbside outside the building entrance; do not enter the car park."
     },
     {
-     "code": "C2-07",
-     "name": "Dubai Internet City Metro Station",
-     "time": "19:08",
-     "action": "set_down",
-     "lat": 25.1021161,
-     "lng": 55.1740882,
-     "where_exactly": "Dubai Internet City Metro Station - pin as set 6 Oct (Dan); kerb text to confirm on audit."
-    },
-    {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "19:16",
+     "time": "19:11",
      "action": "set_down",
      "lat": 25.093492,
      "lng": 55.177807,
@@ -3565,7 +3556,7 @@
     {
      "code": "C2-09",
      "name": "Springs 10 Gatehouse",
-     "time": "19:30",
+     "time": "19:26",
      "action": "set_down",
      "lat": 25.0556628,
      "lng": 55.1803096,
@@ -3574,7 +3565,7 @@
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "19:45",
+     "time": "19:42",
      "action": "set_down",
      "lat": 25.075735,
      "lng": 55.140981,
@@ -3583,7 +3574,7 @@
     {
      "code": "C2-01",
      "name": "Al Sarood, Shoreline 13, Palm Jumeirah",
-     "time": "19:59",
+     "time": "19:56",
      "action": "set_down",
      "lat": 25.11202,
      "lng": 55.142781,
@@ -6351,25 +6342,43 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "06:01",
+   "start": "05:52",
    "end": "07:45",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
     {
+     "code": "C2-02",
+     "name": "Dubai Marina Mall",
+     "time": "05:52",
+     "action": "pick_up",
+     "lat": 25.075735,
+     "lng": 55.140981,
+     "where_exactly": "Pick and drop point at Dubai Marina Mall."
+    },
+    {
      "code": "C2-04",
      "name": "Sobha Realty Metro Station",
-     "time": "06:01",
+     "time": "06:02",
      "action": "pick_up",
      "lat": 25.08243,
      "lng": 55.148317,
      "where_exactly": "Sea side of Sobha Realty Metro Station, near the Carrefour Market sign; bus pick-up point."
     },
     {
+     "code": "C2-11",
+     "name": "Al Asmawi Building, Al Thanyah 1",
+     "time": "06:18",
+     "action": "pick_up",
+     "lat": 25.093492,
+     "lng": 55.177807,
+     "where_exactly": "Pick and drop area outside the Al Asmawi Building."
+    },
+    {
      "code": "C2-15",
      "name": "Al Nakheel 2A, The Greens",
-     "time": "06:23",
+     "time": "06:27",
      "action": "pick_up",
      "lat": 25.09445,
      "lng": 55.1697,
@@ -6378,7 +6387,7 @@
     {
      "code": "C2-10",
      "name": "Al Manaf Building, Al Barsha 1",
-     "time": "06:43",
+     "time": "06:47",
      "action": "pick_up",
      "lat": 25.1110756,
      "lng": 55.2057285,
@@ -6387,7 +6396,7 @@
     {
      "code": "C2-16",
      "name": "Umm Suqeim Rd bus stop by ENOC 1099, Al Barsha 1",
-     "time": "06:52",
+     "time": "06:55",
      "action": "pick_up",
      "lat": 25.1184,
      "lng": 55.2077,
@@ -6405,59 +6414,6 @@
    ]
   },
   {
-   "run_id": "2026-10-09-R3-O2",
-   "date": "2026-10-09",
-   "day": "Fri",
-   "route": "R3",
-   "direction": "to_campus",
-   "service": "undergraduate",
-   "arrive_campus": "09:45",
-   "leave_campus": null,
-   "start": "08:40",
-   "end": "09:45",
-   "vehicle": "M5",
-   "vehicle_type": "Hiace",
-   "seats": 12,
-   "stops": [
-    {
-     "code": "C2-02",
-     "name": "Dubai Marina Mall",
-     "time": "08:40",
-     "action": "pick_up",
-     "lat": 25.075735,
-     "lng": 55.140981,
-     "where_exactly": "Pick and drop point at Dubai Marina Mall."
-    },
-    {
-     "code": "C2-11",
-     "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "08:55",
-     "action": "pick_up",
-     "lat": 25.093492,
-     "lng": 55.177807,
-     "where_exactly": "Pick and drop area outside the Al Asmawi Building."
-    },
-    {
-     "code": "C2-07",
-     "name": "Dubai Internet City Metro Station",
-     "time": "09:03",
-     "action": "pick_up",
-     "lat": 25.1021161,
-     "lng": 55.1740882,
-     "where_exactly": "Dubai Internet City Metro Station - pin as set 6 Oct (Dan); kerb text to confirm on audit."
-    },
-    {
-     "code": "UOB",
-     "name": "University of Birmingham Dubai",
-     "time": "09:45",
-     "action": "set_down",
-     "lat": 25.1321925,
-     "lng": 55.4223161,
-     "where_exactly": ""
-    }
-   ]
-  },
-  {
    "run_id": "2026-10-09-R3-R0",
    "date": "2026-10-09",
    "day": "Fri",
@@ -6467,7 +6423,7 @@
    "arrive_campus": null,
    "leave_campus": "12:15",
    "start": "12:15",
-   "end": "13:32",
+   "end": "13:29",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -6484,7 +6440,7 @@
     {
      "code": "C2-08",
      "name": "Mall of the Emirates",
-     "time": "12:44",
+     "time": "12:45",
      "action": "set_down",
      "lat": 25.1201411,
      "lng": 55.2011196,
@@ -6493,7 +6449,7 @@
     {
      "code": "C2-16",
      "name": "Umm Suqeim Rd bus stop by ENOC 1099, Al Barsha 1",
-     "time": "12:49",
+     "time": "12:51",
      "action": "set_down",
      "lat": 25.1184,
      "lng": 55.2077,
@@ -6502,25 +6458,16 @@
     {
      "code": "C2-10",
      "name": "Al Manaf Building, Al Barsha 1",
-     "time": "12:56",
+     "time": "12:57",
      "action": "set_down",
      "lat": 25.1110756,
      "lng": 55.2057285,
      "where_exactly": "Kerbside outside the building entrance; do not enter the car park."
     },
     {
-     "code": "C2-07",
-     "name": "Dubai Internet City Metro Station",
-     "time": "13:06",
-     "action": "set_down",
-     "lat": 25.1021161,
-     "lng": 55.1740882,
-     "where_exactly": "Dubai Internet City Metro Station - pin as set 6 Oct (Dan); kerb text to confirm on audit."
-    },
-    {
      "code": "C2-15",
      "name": "Al Nakheel 2A, The Greens",
-     "time": "13:13",
+     "time": "13:10",
      "action": "set_down",
      "lat": 25.09445,
      "lng": 55.1697,
@@ -6529,7 +6476,7 @@
     {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "13:19",
+     "time": "13:16",
      "action": "set_down",
      "lat": 25.093492,
      "lng": 55.177807,
@@ -6538,7 +6485,7 @@
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "13:32",
+     "time": "13:29",
      "action": "set_down",
      "lat": 25.075735,
      "lng": 55.140981,
