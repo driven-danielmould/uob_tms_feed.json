@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-08T11:35:15Z",
+ "generated_at": "2026-10-08T16:42:31Z",
  "week": "2026-10-05 to 2026-10-11",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -5995,7 +5995,7 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:47",
+   "start": "05:44",
    "end": "07:45",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
@@ -6004,7 +6004,7 @@
     {
      "code": "C1-07",
      "name": "Masafi 1, Al Nahda 2",
-     "time": "05:47",
+     "time": "05:44",
      "action": "pick_up",
      "lat": 25.289367,
      "lng": 55.372375,
@@ -6013,16 +6013,25 @@
     {
      "code": "C1-22",
      "name": "Baghdad Street 55, Al Nahda 1",
-     "time": "05:54",
+     "time": "05:51",
      "action": "pick_up",
      "lat": 25.2874799,
      "lng": 55.367603,
      "where_exactly": "Kerbside on Baghdad Street outside building 55."
     },
     {
+     "code": "C1-17",
+     "name": "Bahwan Tower, Al Nahda 1",
+     "time": "05:58",
+     "action": "pick_up",
+     "lat": 25.287666,
+     "lng": 55.361619,
+     "where_exactly": "Kerbside outside the Bahwan Tower entrance; no lay-by, bus stops in the road."
+    },
+    {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "06:13",
+     "time": "06:18",
      "action": "pick_up",
      "lat": 25.270214,
      "lng": 55.373696,
@@ -6031,7 +6040,7 @@
     {
      "code": "C1-24",
      "name": "EK2 Accommodation, Muhaisnah 4",
-     "time": "06:30",
+     "time": "06:34",
      "action": "pick_up",
      "lat": 25.2795117,
      "lng": 55.402653,
@@ -6121,7 +6130,7 @@
    "arrive_campus": null,
    "leave_campus": "12:15",
    "start": "12:15",
-   "end": "13:38",
+   "end": "13:41",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "seats": 34,
@@ -6147,7 +6156,7 @@
     {
      "code": "C1-13",
      "name": "Nasayem Avenue, Mirdif Hills",
-     "time": "12:45",
+     "time": "12:44",
      "action": "set_down",
      "lat": 25.221963,
      "lng": 55.440775,
@@ -6156,7 +6165,7 @@
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "12:55",
+     "time": "12:53",
      "action": "set_down",
      "lat": 25.224246,
      "lng": 55.423615,
@@ -6165,7 +6174,7 @@
     {
      "code": "C1-23",
      "name": "Centrepoint, Mirdif City Centre",
-     "time": "13:00",
+     "time": "12:58",
      "action": "set_down",
      "lat": 25.2180926,
      "lng": 55.4085703,
@@ -6175,7 +6184,7 @@
     {
      "code": "C1-24",
      "name": "EK2 Accommodation, Muhaisnah 4",
-     "time": "13:12",
+     "time": "13:10",
      "action": "set_down",
      "lat": 25.2795117,
      "lng": 55.402653,
@@ -6184,16 +6193,25 @@
     {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "13:22",
+     "time": "13:20",
      "action": "set_down",
      "lat": 25.270214,
      "lng": 55.373696,
      "where_exactly": "21B Street footpath by DAFZA Metro Station Entrance 1."
     },
     {
+     "code": "C1-17",
+     "name": "Bahwan Tower, Al Nahda 1",
+     "time": "13:31",
+     "action": "set_down",
+     "lat": 25.287666,
+     "lng": 55.361619,
+     "where_exactly": "Kerbside outside the Bahwan Tower entrance; no lay-by, bus stops in the road."
+    },
+    {
      "code": "C1-22",
      "name": "Baghdad Street 55, Al Nahda 1",
-     "time": "13:33",
+     "time": "13:36",
      "action": "set_down",
      "lat": 25.2874799,
      "lng": 55.367603,
@@ -6202,7 +6220,7 @@
     {
      "code": "C1-07",
      "name": "Masafi 1, Al Nahda 2",
-     "time": "13:38",
+     "time": "13:41",
      "action": "set_down",
      "lat": 25.289367,
      "lng": 55.372375,
