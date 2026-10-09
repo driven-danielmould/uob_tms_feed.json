@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-08T16:42:31Z",
+ "generated_at": "2026-10-09T01:47:04Z",
  "week": "2026-10-05 to 2026-10-11",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -36,27 +36,8 @@
    "color": "#1f4e9a",
    "stops": [
     {
-     "code": "C1-02",
-     "order": 1,
-     "name": "City Centre Al Zahia",
-     "lat": 25.318044,
-     "lng": 55.457279,
-     "google_place_id": "ChIJrc67Zi9fXz4RZh_0ahZAeGc",
-     "where_exactly": "Bus stop by the VOX sign, City Centre Al Zahia.",
-     "pickup_lat": 25.318044,
-     "pickup_lng": 55.457279,
-     "pickup_where_exactly": "Bus stop by the VOX sign, City Centre Al Zahia.",
-     "setdown_lat": 25.318044,
-     "setdown_lng": 55.457279,
-     "setdown_where_exactly": "Bus stop by the VOX sign, City Centre Al Zahia.",
-     "audited": true,
-     "rider_instructions": "Wait at the Gate A entrance, by the taxi drop-off lane. Be here 5 minutes before your time and look for the yellow M sign in the bus windscreen.",
-     "driver_instructions": "Use the Gate A taxi drop-off lane on the mall ring road. Height clear. Do not use the multi-storey car park.",
-     "type": "public"
-    },
-    {
      "code": "C1-01",
-     "order": 2,
+     "order": 1,
      "name": "Al Khor Towers, Ajman",
      "lat": 25.3938881,
      "lng": 55.4574592,
@@ -75,7 +56,7 @@
     },
     {
      "code": "C1-03",
-     "order": 3,
+     "order": 2,
      "name": "Lulu Hypermarket Maysaloon",
      "lat": 25.359441,
      "lng": 55.40545,
@@ -94,7 +75,7 @@
     },
     {
      "code": "C1-04",
-     "order": 4,
+     "order": 3,
      "name": "Nesto Hypermarket, King Faisal St",
      "lat": 25.337533,
      "lng": 55.39061,
@@ -113,7 +94,7 @@
     },
     {
      "code": "C1-18",
-     "order": 5,
+     "order": 4,
      "name": "Shamseen Bakeries Building, Al Majaz",
      "lat": 25.33253,
      "lng": 55.37588,
@@ -132,7 +113,7 @@
     },
     {
      "code": "C1-20",
-     "order": 6,
+     "order": 5,
      "name": "Al Buhaira Police Station bus stop, Al Majaz 3",
      "lat": 25.323284,
      "lng": 55.381418,
@@ -151,7 +132,7 @@
     },
     {
      "code": "C1-21",
-     "order": 7,
+     "order": 6,
      "name": "Sahab Al Emarat, Al Mamzar, Sharjah",
      "lat": 25.31578,
      "lng": 55.35863,
@@ -170,7 +151,7 @@
     },
     {
      "code": "C1-05",
-     "order": 8,
+     "order": 7,
      "name": "Sheikha Maryam Tower, Al Taawun",
      "lat": 25.305885121719236,
      "lng": 55.363729380596915,
@@ -189,7 +170,7 @@
     },
     {
      "code": "C1-16",
-     "order": 9,
+     "order": 8,
      "name": "LuLu Hypermarket Al Nahda, Sharjah",
      "lat": 25.303505,
      "lng": 55.375491,
@@ -208,7 +189,7 @@
     },
     {
      "code": "C1-06",
-     "order": 10,
+     "order": 9,
      "name": "Sahara Centre",
      "lat": 25.297153,
      "lng": 55.371026,
@@ -224,6 +205,25 @@
      "rider_instructions": "Wait at the bus stop on Al Nahda St on the Sahara Centre side. Be here 5 minutes before your time and look for the yellow M sign in the bus windscreen.",
      "driver_instructions": "Use the RTA bus stop on Al Nahda St on the mall side. RTA stop: 2 minutes maximum, then move on. Do not enter the mall car park.",
      "type": "public"
+    },
+    {
+     "code": "C1-02",
+     "order": 10,
+     "name": "City Centre Al Zahia",
+     "lat": 25.318044,
+     "lng": 55.457279,
+     "google_place_id": "ChIJrc67Zi9fXz4RZh_0ahZAeGc",
+     "where_exactly": "Bus stop by the VOX sign, City Centre Al Zahia.",
+     "pickup_lat": 25.318044,
+     "pickup_lng": 55.457279,
+     "pickup_where_exactly": "Bus stop by the VOX sign, City Centre Al Zahia.",
+     "setdown_lat": 25.318044,
+     "setdown_lng": 55.457279,
+     "setdown_where_exactly": "Bus stop by the VOX sign, City Centre Al Zahia.",
+     "audited": true,
+     "rider_instructions": "Wait at the Gate A entrance, by the taxi drop-off lane. Be here 5 minutes before your time and look for the yellow M sign in the bus windscreen.",
+     "driver_instructions": "Use the Gate A taxi drop-off lane on the mall ring road. Height clear. Do not use the multi-storey car park.",
+     "type": "public"
     }
    ]
   },
@@ -234,8 +234,27 @@
    "color": "#2a78d6",
    "stops": [
     {
-     "code": "C1-07",
+     "code": "C1-24",
      "order": 1,
+     "name": "EK2 Accommodation, Muhaisnah 4",
+     "lat": 25.2795117,
+     "lng": 55.402653,
+     "google_place_id": null,
+     "where_exactly": "Kerbside on 17th Street outside the EK2 Accommodation (Emirates EK2) building. Do not enter the compound.",
+     "pickup_lat": 25.2795117,
+     "pickup_lng": 55.402653,
+     "pickup_where_exactly": "Kerbside on 17th Street outside the EK2 Accommodation (Emirates EK2) building. Do not enter the compound.",
+     "setdown_lat": 25.2795117,
+     "setdown_lng": 55.402653,
+     "setdown_where_exactly": "Kerbside on 17th Street outside the EK2 Accommodation (Emirates EK2) building. Do not enter the compound.",
+     "audited": false,
+     "rider_instructions": "Wait on 17th Street outside the EK2 building gate. Be here 5 minutes before your time and look for the yellow M sign in the bus windscreen.",
+     "driver_instructions": "Kerbside on 17th Street outside the EK2 Accommodation building, Muhaisnah 4, 600 m south of Madina Mall. Do not enter the compound. Only served on booked days.",
+     "type": "rider_only"
+    },
+    {
+     "code": "C1-07",
+     "order": 2,
      "name": "Masafi 1, Al Nahda 2",
      "lat": 25.289367,
      "lng": 55.372375,
@@ -254,7 +273,7 @@
     },
     {
      "code": "C1-22",
-     "order": 2,
+     "order": 3,
      "name": "Baghdad Street 55, Al Nahda 1",
      "lat": 25.2874799,
      "lng": 55.367603,
@@ -273,7 +292,7 @@
     },
     {
      "code": "C1-17",
-     "order": 3,
+     "order": 4,
      "name": "Bahwan Tower, Al Nahda 1",
      "lat": 25.287666,
      "lng": 55.361619,
@@ -292,7 +311,7 @@
     },
     {
      "code": "C1-08",
-     "order": 4,
+     "order": 5,
      "name": "Mattar Tower, Al Nahda 1",
      "lat": 25.288631,
      "lng": 55.364044,
@@ -311,7 +330,7 @@
     },
     {
      "code": "C1-09",
-     "order": 5,
+     "order": 6,
      "name": "DAFZA Metro Station",
      "lat": 25.270214,
      "lng": 55.373696,
@@ -330,7 +349,7 @@
     },
     {
      "code": "C1-10",
-     "order": 6,
+     "order": 7,
      "name": "Dubai Festival City Mall",
      "lat": 25.222621,
      "lng": 55.35461,
@@ -349,7 +368,7 @@
     },
     {
      "code": "C1-11",
-     "order": 7,
+     "order": 8,
      "name": "Madina Mall",
      "lat": 25.283419,
      "lng": 55.398584,
@@ -365,25 +384,6 @@
      "rider_instructions": "Wait at the Beirut St entrance of Madina Mall. Be here 5 minutes before your time and look for the yellow M sign in the bus windscreen.",
      "driver_instructions": "Use the Beirut St entrance drop-off bay. Surface level, height clear. Do not enter the basement car park.",
      "type": "public"
-    },
-    {
-     "code": "C1-24",
-     "order": 8,
-     "name": "EK2 Accommodation, Muhaisnah 4",
-     "lat": 25.2795117,
-     "lng": 55.402653,
-     "google_place_id": null,
-     "where_exactly": "Kerbside on 17th Street outside the EK2 Accommodation (Emirates EK2) building. Do not enter the compound.",
-     "pickup_lat": 25.2795117,
-     "pickup_lng": 55.402653,
-     "pickup_where_exactly": "Kerbside on 17th Street outside the EK2 Accommodation (Emirates EK2) building. Do not enter the compound.",
-     "setdown_lat": 25.2795117,
-     "setdown_lng": 55.402653,
-     "setdown_where_exactly": "Kerbside on 17th Street outside the EK2 Accommodation (Emirates EK2) building. Do not enter the compound.",
-     "audited": false,
-     "rider_instructions": "Wait on 17th Street outside the EK2 building gate. Be here 5 minutes before your time and look for the yellow M sign in the bus windscreen.",
-     "driver_instructions": "Kerbside on 17th Street outside the EK2 Accommodation building, Muhaisnah 4, 600 m south of Madina Mall. Do not enter the compound. Only served on booked days.",
-     "type": "rider_only"
     },
     {
      "code": "C1-15",
@@ -2273,44 +2273,44 @@
    "status": "runs_when_booked",
    "stops": [
     {
-     "code": "C1-02",
-     "name": "City Centre Al Zahia",
-     "time": "16:00",
-     "action": "pick_up"
-    },
-    {
      "code": "C1-01",
      "name": "Al Khor Towers, Ajman",
-     "time": "16:15",
+     "time": "16:00",
      "action": "pick_up"
     },
     {
      "code": "C1-03",
      "name": "Lulu Hypermarket Maysaloon",
-     "time": "16:30",
+     "time": "16:15",
      "action": "pick_up"
     },
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "16:45",
+     "time": "16:30",
      "action": "pick_up"
     },
     {
      "code": "C1-05",
      "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "17:00",
+     "time": "16:45",
      "action": "pick_up"
     },
     {
      "code": "C1-16",
      "name": "LuLu Hypermarket Al Nahda, Sharjah",
-     "time": "17:15",
+     "time": "17:00",
      "action": "pick_up"
     },
     {
      "code": "C1-06",
      "name": "Sahara Centre",
+     "time": "17:15",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-02",
+     "name": "City Centre Al Zahia",
      "time": "17:30",
      "action": "pick_up"
     },
@@ -2426,44 +2426,44 @@
      "action": "pick_up"
     },
     {
+     "code": "C1-02",
+     "name": "City Centre Al Zahia",
+     "time": "21:48",
+     "action": "set_down"
+    },
+    {
      "code": "C1-06",
      "name": "Sahara Centre",
-     "time": "21:48",
+     "time": "22:00",
      "action": "set_down"
     },
     {
      "code": "C1-16",
      "name": "LuLu Hypermarket Al Nahda, Sharjah",
-     "time": "22:00",
+     "time": "22:12",
      "action": "set_down"
     },
     {
      "code": "C1-05",
      "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "22:12",
+     "time": "22:24",
      "action": "set_down"
     },
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "22:24",
+     "time": "22:36",
      "action": "set_down"
     },
     {
      "code": "C1-03",
      "name": "Lulu Hypermarket Maysaloon",
-     "time": "22:36",
+     "time": "22:48",
      "action": "set_down"
     },
     {
      "code": "C1-01",
      "name": "Al Khor Towers, Ajman",
-     "time": "22:48",
-     "action": "set_down"
-    },
-    {
-     "code": "C1-02",
-     "name": "City Centre Al Zahia",
      "time": "23:00",
      "action": "set_down"
     }
@@ -2478,16 +2478,25 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:40",
+   "start": "05:51",
    "end": "07:45",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
     {
+     "code": "C1-24",
+     "name": "EK2 Accommodation, Muhaisnah 4",
+     "time": "05:51",
+     "action": "pick_up",
+     "lat": 25.2795117,
+     "lng": 55.402653,
+     "where_exactly": "Kerbside on 17th Street outside the EK2 Accommodation (Emirates EK2) building. Do not enter the compound."
+    },
+    {
      "code": "C1-17",
      "name": "Bahwan Tower, Al Nahda 1",
-     "time": "05:40",
+     "time": "06:08",
      "action": "pick_up",
      "lat": 25.287666,
      "lng": 55.361619,
@@ -2496,25 +2505,16 @@
     {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "05:58",
+     "time": "06:24",
      "action": "pick_up",
      "lat": 25.270214,
      "lng": 55.373696,
      "where_exactly": "21B Street footpath by DAFZA Metro Station Entrance 1."
     },
     {
-     "code": "C1-24",
-     "name": "EK2 Accommodation, Muhaisnah 4",
-     "time": "06:13",
-     "action": "pick_up",
-     "lat": 25.2795117,
-     "lng": 55.402653,
-     "where_exactly": "Kerbside on 17th Street outside the EK2 Accommodation (Emirates EK2) building. Do not enter the compound."
-    },
-    {
      "code": "C1-23",
      "name": "Centrepoint, Mirdif City Centre",
-     "time": "06:37",
+     "time": "06:45",
      "action": "pick_up",
      "lat": 25.2180926,
      "lng": 55.4085703,
@@ -2524,7 +2524,7 @@
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "06:42",
+     "time": "06:50",
      "action": "pick_up",
      "lat": 25.224246,
      "lng": 55.423615,
@@ -2533,7 +2533,7 @@
     {
      "code": "C1-19",
      "name": "Shorooq Gate 3, Mirdif",
-     "time": "06:52",
+     "time": "07:00",
      "action": "pick_up",
      "lat": 25.214495,
      "lng": 55.428185,
@@ -2542,7 +2542,7 @@
     {
      "code": "C1-13",
      "name": "Nasayem Avenue, Mirdif Hills",
-     "time": "07:06",
+     "time": "07:12",
      "action": "pick_up",
      "lat": 25.221963,
      "lng": 55.440775,
@@ -2568,34 +2568,34 @@
    "service": "undergraduate",
    "arrive_campus": "09:45",
    "leave_campus": null,
-   "start": "08:34",
+   "start": "08:40",
    "end": "09:45",
    "vehicle": "M13",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
     {
-     "code": "C1-07",
-     "name": "Masafi 1, Al Nahda 2",
-     "time": "08:34",
-     "action": "pick_up",
-     "lat": 25.289367,
-     "lng": 55.372375,
-     "where_exactly": "RTA bus shelter \"Al Nahda 2, 6A St 1\" (817301), facing Masafi tower."
-    },
-    {
      "code": "C1-24",
      "name": "EK2 Accommodation, Muhaisnah 4",
-     "time": "08:48",
+     "time": "08:40",
      "action": "pick_up",
      "lat": 25.2795117,
      "lng": 55.402653,
      "where_exactly": "Kerbside on 17th Street outside the EK2 Accommodation (Emirates EK2) building. Do not enter the compound."
     },
     {
+     "code": "C1-07",
+     "name": "Masafi 1, Al Nahda 2",
+     "time": "08:52",
+     "action": "pick_up",
+     "lat": 25.289367,
+     "lng": 55.372375,
+     "where_exactly": "RTA bus shelter \"Al Nahda 2, 6A St 1\" (817301), facing Masafi tower."
+    },
+    {
      "code": "C1-23",
      "name": "Centrepoint, Mirdif City Centre",
-     "time": "09:07",
+     "time": "09:13",
      "action": "pick_up",
      "lat": 25.2180926,
      "lng": 55.4085703,
@@ -2605,7 +2605,7 @@
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "09:12",
+     "time": "09:18",
      "action": "pick_up",
      "lat": 25.224246,
      "lng": 55.423615,
@@ -2739,7 +2739,7 @@
    "arrive_campus": null,
    "leave_campus": "14:15",
    "start": "14:15",
-   "end": "15:32",
+   "end": "15:26",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "seats": 34,
@@ -2756,7 +2756,7 @@
     {
      "code": "C1-13",
      "name": "Nasayem Avenue, Mirdif Hills",
-     "time": "14:41",
+     "time": "14:37",
      "action": "set_down",
      "lat": 25.221963,
      "lng": 55.440775,
@@ -2765,7 +2765,7 @@
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "14:52",
+     "time": "14:47",
      "action": "set_down",
      "lat": 25.224246,
      "lng": 55.423615,
@@ -2774,7 +2774,7 @@
     {
      "code": "C1-23",
      "name": "Centrepoint, Mirdif City Centre",
-     "time": "14:57",
+     "time": "14:52",
      "action": "set_down",
      "lat": 25.2180926,
      "lng": 55.4085703,
@@ -2782,18 +2782,9 @@
      "offer_only_stop": true
     },
     {
-     "code": "C1-24",
-     "name": "EK2 Accommodation, Muhaisnah 4",
-     "time": "15:12",
-     "action": "set_down",
-     "lat": 25.2795117,
-     "lng": 55.402653,
-     "where_exactly": "Kerbside on 17th Street outside the EK2 Accommodation (Emirates EK2) building. Do not enter the compound."
-    },
-    {
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
-     "time": "15:25",
+     "time": "15:10",
      "action": "set_down",
      "lat": 25.288631,
      "lng": 55.364044,
@@ -2802,11 +2793,20 @@
     {
      "code": "C1-07",
      "name": "Masafi 1, Al Nahda 2",
-     "time": "15:32",
+     "time": "15:16",
      "action": "set_down",
      "lat": 25.289367,
      "lng": 55.372375,
      "where_exactly": "RTA bus shelter \"Al Nahda 2, 6A St 1\" (817301), facing Masafi tower."
+    },
+    {
+     "code": "C1-24",
+     "name": "EK2 Accommodation, Muhaisnah 4",
+     "time": "15:26",
+     "action": "set_down",
+     "lat": 25.2795117,
+     "lng": 55.402653,
+     "where_exactly": "Kerbside on 17th Street outside the EK2 Accommodation (Emirates EK2) building. Do not enter the compound."
     }
    ]
   },
@@ -2916,7 +2916,7 @@
     {
      "code": "C1-14",
      "name": "Olivz Residence, Warsan 1",
-     "time": "18:35",
+     "time": "18:32",
      "action": "set_down",
      "lat": 25.166179,
      "lng": 55.395812,
@@ -2925,7 +2925,7 @@
     {
      "code": "C1-13",
      "name": "Nasayem Avenue, Mirdif Hills",
-     "time": "18:56",
+     "time": "18:51",
      "action": "set_down",
      "lat": 25.221963,
      "lng": 55.440775,
@@ -2934,7 +2934,7 @@
     {
      "code": "C1-19",
      "name": "Shorooq Gate 3, Mirdif",
-     "time": "19:05",
+     "time": "18:59",
      "action": "set_down",
      "lat": 25.214495,
      "lng": 55.428185,
@@ -2943,7 +2943,7 @@
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "19:13",
+     "time": "19:07",
      "action": "set_down",
      "lat": 25.224246,
      "lng": 55.423615,
@@ -2952,7 +2952,7 @@
     {
      "code": "C1-23",
      "name": "Centrepoint, Mirdif City Centre",
-     "time": "19:23",
+     "time": "19:16",
      "action": "set_down",
      "lat": 25.2180926,
      "lng": 55.4085703,
@@ -2962,25 +2962,16 @@
     {
      "code": "C1-15",
      "name": "Wasl Village, Central Parking",
-     "time": "19:33",
+     "time": "19:25",
      "action": "set_down",
      "lat": 25.289501,
      "lng": 55.4111465,
      "where_exactly": "Other side of the road, outside Urban Slice; students wait at the bench."
     },
     {
-     "code": "C1-24",
-     "name": "EK2 Accommodation, Muhaisnah 4",
-     "time": "19:42",
-     "action": "set_down",
-     "lat": 25.2795117,
-     "lng": 55.402653,
-     "where_exactly": "Kerbside on 17th Street outside the EK2 Accommodation (Emirates EK2) building. Do not enter the compound."
-    },
-    {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "19:57",
+     "time": "19:42",
      "action": "set_down",
      "lat": 25.270214,
      "lng": 55.373696,
@@ -2989,11 +2980,20 @@
     {
      "code": "C1-17",
      "name": "Bahwan Tower, Al Nahda 1",
-     "time": "20:09",
+     "time": "19:52",
      "action": "set_down",
      "lat": 25.287666,
      "lng": 55.361619,
      "where_exactly": "Kerbside outside the Bahwan Tower entrance; no lay-by, bus stops in the road."
+    },
+    {
+     "code": "C1-24",
+     "name": "EK2 Accommodation, Muhaisnah 4",
+     "time": "20:09",
+     "action": "set_down",
+     "lat": 25.2795117,
+     "lng": 55.402653,
+     "where_exactly": "Kerbside on 17th Street outside the EK2 Accommodation (Emirates EK2) building. Do not enter the compound."
     }
    ]
   },
@@ -5737,18 +5737,9 @@
    "seats": 34,
    "stops": [
     {
-     "code": "C1-02",
-     "name": "City Centre Al Zahia",
-     "time": "05:00",
-     "action": "pick_up",
-     "lat": 25.318044,
-     "lng": 55.457279,
-     "where_exactly": "Bus stop by the VOX sign, City Centre Al Zahia."
-    },
-    {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "05:42",
+     "time": "05:00",
      "action": "pick_up",
      "lat": 25.337533,
      "lng": 55.39061,
@@ -5757,7 +5748,7 @@
     {
      "code": "C1-18",
      "name": "Shamseen Bakeries Building, Al Majaz",
-     "time": "06:00",
+     "time": "05:17",
      "action": "pick_up",
      "lat": 25.33253,
      "lng": 55.37588,
@@ -5766,7 +5757,7 @@
     {
      "code": "C1-20",
      "name": "Al Buhaira Police Station bus stop, Al Majaz 3",
-     "time": "06:14",
+     "time": "05:30",
      "action": "pick_up",
      "lat": 25.323284,
      "lng": 55.381418,
@@ -5775,11 +5766,20 @@
     {
      "code": "C1-05",
      "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "06:42",
+     "time": "05:55",
      "action": "pick_up",
      "lat": 25.305885121719236,
      "lng": 55.363729380596915,
      "where_exactly": "Sheikha Maryam Tower, Al Taawun - pick-up at the pin set by Dan 7 Oct (Al Taawun St side); kerb text to confirm."
+    },
+    {
+     "code": "C1-02",
+     "name": "City Centre Al Zahia",
+     "time": "06:46",
+     "action": "pick_up",
+     "lat": 25.318044,
+     "lng": 55.457279,
+     "where_exactly": "Bus stop by the VOX sign, City Centre Al Zahia."
     },
     {
      "code": "UOB",
@@ -5852,9 +5852,18 @@
      "where_exactly": ""
     },
     {
+     "code": "C1-02",
+     "name": "City Centre Al Zahia",
+     "time": "12:59",
+     "action": "set_down",
+     "lat": 25.318044,
+     "lng": 55.457279,
+     "where_exactly": "Bus stop by the VOX sign, City Centre Al Zahia."
+    },
+    {
      "code": "C1-05",
      "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "13:02",
+     "time": "13:37",
      "action": "set_down",
      "lat": 25.305885121719236,
      "lng": 55.363729380596915,
@@ -5863,7 +5872,7 @@
     {
      "code": "C1-20",
      "name": "Al Buhaira Police Station bus stop, Al Majaz 3",
-     "time": "13:23",
+     "time": "13:57",
      "action": "set_down",
      "lat": 25.323284,
      "lng": 55.381418,
@@ -5872,7 +5881,7 @@
     {
      "code": "C1-18",
      "name": "Shamseen Bakeries Building, Al Majaz",
-     "time": "13:34",
+     "time": "14:07",
      "action": "set_down",
      "lat": 25.33253,
      "lng": 55.37588,
@@ -5881,20 +5890,11 @@
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "13:48",
+     "time": "14:20",
      "action": "set_down",
      "lat": 25.337533,
      "lng": 55.39061,
      "where_exactly": "Main entrance on King Faisal St."
-    },
-    {
-     "code": "C1-02",
-     "name": "City Centre Al Zahia",
-     "time": "14:20",
-     "action": "set_down",
-     "lat": 25.318044,
-     "lng": 55.457279,
-     "where_exactly": "Bus stop by the VOX sign, City Centre Al Zahia."
     }
    ]
   },
@@ -5995,16 +5995,25 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:44",
+   "start": "05:54",
    "end": "07:45",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
     {
+     "code": "C1-24",
+     "name": "EK2 Accommodation, Muhaisnah 4",
+     "time": "05:54",
+     "action": "pick_up",
+     "lat": 25.2795117,
+     "lng": 55.402653,
+     "where_exactly": "Kerbside on 17th Street outside the EK2 Accommodation (Emirates EK2) building. Do not enter the compound."
+    },
+    {
      "code": "C1-07",
      "name": "Masafi 1, Al Nahda 2",
-     "time": "05:44",
+     "time": "06:10",
      "action": "pick_up",
      "lat": 25.289367,
      "lng": 55.372375,
@@ -6013,7 +6022,7 @@
     {
      "code": "C1-22",
      "name": "Baghdad Street 55, Al Nahda 1",
-     "time": "05:51",
+     "time": "06:16",
      "action": "pick_up",
      "lat": 25.2874799,
      "lng": 55.367603,
@@ -6022,7 +6031,7 @@
     {
      "code": "C1-17",
      "name": "Bahwan Tower, Al Nahda 1",
-     "time": "05:58",
+     "time": "06:23",
      "action": "pick_up",
      "lat": 25.287666,
      "lng": 55.361619,
@@ -6031,20 +6040,11 @@
     {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "06:18",
+     "time": "06:42",
      "action": "pick_up",
      "lat": 25.270214,
      "lng": 55.373696,
      "where_exactly": "21B Street footpath by DAFZA Metro Station Entrance 1."
-    },
-    {
-     "code": "C1-24",
-     "name": "EK2 Accommodation, Muhaisnah 4",
-     "time": "06:34",
-     "action": "pick_up",
-     "lat": 25.2795117,
-     "lng": 55.402653,
-     "where_exactly": "Kerbside on 17th Street outside the EK2 Accommodation (Emirates EK2) building. Do not enter the compound."
     },
     {
      "code": "UOB",
@@ -6130,7 +6130,7 @@
    "arrive_campus": null,
    "leave_campus": "12:15",
    "start": "12:15",
-   "end": "13:41",
+   "end": "13:35",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "seats": 34,
@@ -6147,7 +6147,7 @@
     {
      "code": "C1-14",
      "name": "Olivz Residence, Warsan 1",
-     "time": "12:25",
+     "time": "12:24",
      "action": "set_down",
      "lat": 25.166179,
      "lng": 55.395812,
@@ -6156,7 +6156,7 @@
     {
      "code": "C1-13",
      "name": "Nasayem Avenue, Mirdif Hills",
-     "time": "12:44",
+     "time": "12:41",
      "action": "set_down",
      "lat": 25.221963,
      "lng": 55.440775,
@@ -6165,7 +6165,7 @@
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "12:53",
+     "time": "12:50",
      "action": "set_down",
      "lat": 25.224246,
      "lng": 55.423615,
@@ -6174,7 +6174,7 @@
     {
      "code": "C1-23",
      "name": "Centrepoint, Mirdif City Centre",
-     "time": "12:58",
+     "time": "12:55",
      "action": "set_down",
      "lat": 25.2180926,
      "lng": 55.4085703,
@@ -6182,18 +6182,9 @@
      "offer_only_stop": true
     },
     {
-     "code": "C1-24",
-     "name": "EK2 Accommodation, Muhaisnah 4",
-     "time": "13:10",
-     "action": "set_down",
-     "lat": 25.2795117,
-     "lng": 55.402653,
-     "where_exactly": "Kerbside on 17th Street outside the EK2 Accommodation (Emirates EK2) building. Do not enter the compound."
-    },
-    {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "13:20",
+     "time": "13:06",
      "action": "set_down",
      "lat": 25.270214,
      "lng": 55.373696,
@@ -6202,7 +6193,7 @@
     {
      "code": "C1-17",
      "name": "Bahwan Tower, Al Nahda 1",
-     "time": "13:31",
+     "time": "13:16",
      "action": "set_down",
      "lat": 25.287666,
      "lng": 55.361619,
@@ -6211,7 +6202,7 @@
     {
      "code": "C1-22",
      "name": "Baghdad Street 55, Al Nahda 1",
-     "time": "13:36",
+     "time": "13:21",
      "action": "set_down",
      "lat": 25.2874799,
      "lng": 55.367603,
@@ -6220,11 +6211,20 @@
     {
      "code": "C1-07",
      "name": "Masafi 1, Al Nahda 2",
-     "time": "13:41",
+     "time": "13:26",
      "action": "set_down",
      "lat": 25.289367,
      "lng": 55.372375,
      "where_exactly": "RTA bus shelter \"Al Nahda 2, 6A St 1\" (817301), facing Masafi tower."
+    },
+    {
+     "code": "C1-24",
+     "name": "EK2 Accommodation, Muhaisnah 4",
+     "time": "13:35",
+     "action": "set_down",
+     "lat": 25.2795117,
+     "lng": 55.402653,
+     "where_exactly": "Kerbside on 17th Street outside the EK2 Accommodation (Emirates EK2) building. Do not enter the compound."
     }
    ]
   },
