@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-09T03:03:01Z",
+ "generated_at": "2026-10-09T03:11:45Z",
  "week": "2026-10-09 to 2026-10-18",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -5384,6 +5384,41 @@
    ]
   },
   {
+   "run_id": "2026-10-12-R1-O2",
+   "date": "2026-10-12",
+   "day": "Mon",
+   "route": "R1",
+   "direction": "to_campus",
+   "service": "undergraduate",
+   "arrive_campus": "09:45",
+   "leave_campus": null,
+   "start": "07:22",
+   "end": "09:45",
+   "vehicle": "M3",
+   "vehicle_type": "Hiace",
+   "seats": 12,
+   "stops": [
+    {
+     "code": "C1-04",
+     "name": "Nesto Hypermarket, King Faisal St",
+     "time": "07:22",
+     "action": "pick_up",
+     "lat": 25.337533,
+     "lng": 55.39061,
+     "where_exactly": "Main entrance on King Faisal St."
+    },
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "09:45",
+     "action": "set_down",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    }
+   ]
+  },
+  {
    "run_id": "2026-10-12-R1-O4",
    "date": "2026-10-12",
    "day": "Mon",
@@ -5694,25 +5729,16 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:51",
+   "start": "05:59",
    "end": "07:45",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
     {
-     "code": "C1-24",
-     "name": "EK2 Accommodation, Muhaisnah 4",
-     "time": "05:51",
-     "action": "pick_up",
-     "lat": 25.2795117,
-     "lng": 55.402653,
-     "where_exactly": "Kerbside on 17th Street outside the EK2 Accommodation (Emirates EK2) building. Do not enter the compound."
-    },
-    {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "06:04",
+     "time": "05:59",
      "action": "pick_up",
      "lat": 25.270214,
      "lng": 55.373696,
@@ -5721,7 +5747,7 @@
     {
      "code": "C1-15",
      "name": "Wasl Village, Central Parking",
-     "time": "06:21",
+     "time": "06:19",
      "action": "pick_up",
      "lat": 25.289501,
      "lng": 55.4111465,
@@ -5740,7 +5766,7 @@
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "06:49",
+     "time": "06:51",
      "action": "pick_up",
      "lat": 25.224246,
      "lng": 55.423615,
@@ -5749,16 +5775,51 @@
     {
      "code": "C1-13",
      "name": "Nasayem Avenue, Mirdif Hills",
-     "time": "07:02",
+     "time": "07:05",
      "action": "pick_up",
      "lat": 25.221963,
      "lng": 55.440775,
      "where_exactly": "RTA bus stop pole (F40 / F03) on 78th Street, Mirdif Hills Avenue."
     },
     {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "07:45",
+     "action": "set_down",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    }
+   ]
+  },
+  {
+   "run_id": "2026-10-12-R2-O2",
+   "date": "2026-10-12",
+   "day": "Mon",
+   "route": "R2",
+   "direction": "to_campus",
+   "service": "undergraduate",
+   "arrive_campus": "09:45",
+   "leave_campus": null,
+   "start": "08:43",
+   "end": "09:45",
+   "vehicle": "M13",
+   "vehicle_type": "Rosa",
+   "seats": 34,
+   "stops": [
+    {
+     "code": "C1-24",
+     "name": "EK2 Accommodation, Muhaisnah 4",
+     "time": "08:43",
+     "action": "pick_up",
+     "lat": 25.2795117,
+     "lng": 55.402653,
+     "where_exactly": "Kerbside on 17th Street outside the EK2 Accommodation (Emirates EK2) building. Do not enter the compound."
+    },
+    {
      "code": "C1-14",
      "name": "Olivz Residence, Warsan 1",
-     "time": "07:30",
+     "time": "09:29",
      "action": "pick_up",
      "lat": 25.166179,
      "lng": 55.395812,
@@ -5767,7 +5828,7 @@
     {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
-     "time": "07:45",
+     "time": "09:45",
      "action": "set_down",
      "lat": 25.1321925,
      "lng": 55.4223161,
@@ -6870,6 +6931,50 @@
    ]
   },
   {
+   "run_id": "2026-10-12-R4-O2",
+   "date": "2026-10-12",
+   "day": "Mon",
+   "route": "R4",
+   "direction": "to_campus",
+   "service": "undergraduate",
+   "arrive_campus": "09:45",
+   "leave_campus": null,
+   "start": "08:50",
+   "end": "09:45",
+   "vehicle": "M7",
+   "vehicle_type": "Hiace",
+   "seats": 12,
+   "stops": [
+    {
+     "code": "C3-03",
+     "name": "Dubai Miracle Garden",
+     "time": "08:50",
+     "action": "pick_up",
+     "lat": 25.061132,
+     "lng": 55.246185,
+     "where_exactly": "Bus stop between Dubai Miracle Garden and Dubai Butterfly Garden."
+    },
+    {
+     "code": "C3-05",
+     "name": "City Centre Me'aisem",
+     "time": "09:08",
+     "action": "pick_up",
+     "lat": 25.040494,
+     "lng": 55.195971,
+     "where_exactly": "Outside drop-off area by Tim Hortons, City Centre Me'aisem."
+    },
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "09:45",
+     "action": "set_down",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    }
+   ]
+  },
+  {
    "run_id": "2026-10-12-R4-O3",
    "date": "2026-10-12",
    "day": "Mon",
@@ -7839,7 +7944,7 @@
    "service": "undergraduate",
    "arrive_campus": "09:45",
    "leave_campus": null,
-   "start": "08:53",
+   "start": "08:50",
    "end": "09:45",
    "vehicle": "M14",
    "vehicle_type": "Hiace",
@@ -7848,7 +7953,7 @@
     {
      "code": "C4-10",
      "name": "Green Community West gate",
-     "time": "08:53",
+     "time": "08:50",
      "action": "pick_up",
      "lat": 25.001812,
      "lng": 55.164068,
@@ -7857,11 +7962,20 @@
     {
      "code": "C4-12",
      "name": "Al Furjan Centre (Pavilion)",
-     "time": "09:07",
+     "time": "09:02",
      "action": "pick_up",
      "lat": 25.026111,
      "lng": 55.153303,
      "where_exactly": "Spinneys bus stop."
+    },
+    {
+     "code": "C4-13",
+     "name": "Gardens Metro Station",
+     "time": "09:14",
+     "action": "pick_up",
+     "lat": 25.043761,
+     "lng": 55.134832,
+     "where_exactly": "Exit 1 of the metro station, at the bus stop (Discovery Gardens side)."
     },
     {
      "code": "UOB",
@@ -8120,7 +8234,7 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:44",
+   "start": "05:47",
    "end": "07:45",
    "vehicle": "M11",
    "vehicle_type": "Hiace",
@@ -8129,7 +8243,7 @@
     {
      "code": "C5-04",
      "name": "Oud Metha Metro Station",
-     "time": "05:44",
+     "time": "05:47",
      "action": "pick_up",
      "lat": 25.243624,
      "lng": 55.315799,
@@ -8138,20 +8252,11 @@
     {
      "code": "C5-05",
      "name": "BurJuman Mall",
-     "time": "05:58",
+     "time": "06:01",
      "action": "pick_up",
      "lat": 25.254331,
      "lng": 55.303661,
      "where_exactly": "Bus stop outside Asia Kitchen, BurJuman Mall."
-    },
-    {
-     "code": "C5-07",
-     "name": "World Trade Centre Metro Station",
-     "time": "06:14",
-     "action": "pick_up",
-     "lat": 25.225614,
-     "lng": 55.284365,
-     "where_exactly": "Outside World Trade Centre Metro Station Exit 2 (Fairmont side). Pick-up towards campus only."
     },
     {
      "code": "C5-09",
@@ -8184,6 +8289,50 @@
      "code": "UOB",
      "name": "University of Birmingham Dubai",
      "time": "07:45",
+     "action": "set_down",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    }
+   ]
+  },
+  {
+   "run_id": "2026-10-12-R7-O2",
+   "date": "2026-10-12",
+   "day": "Mon",
+   "route": "R7",
+   "direction": "to_campus",
+   "service": "undergraduate",
+   "arrive_campus": "09:45",
+   "leave_campus": null,
+   "start": "08:35",
+   "end": "09:45",
+   "vehicle": "M12",
+   "vehicle_type": "Hiace",
+   "seats": 12,
+   "stops": [
+    {
+     "code": "C5-07",
+     "name": "World Trade Centre Metro Station",
+     "time": "08:35",
+     "action": "pick_up",
+     "lat": 25.225614,
+     "lng": 55.284365,
+     "where_exactly": "Outside World Trade Centre Metro Station Exit 2 (Fairmont side). Pick-up towards campus only."
+    },
+    {
+     "code": "C5-11",
+     "name": "One Park Avenue, Sobha Hartland",
+     "time": "08:59",
+     "action": "pick_up",
+     "lat": 25.1784466,
+     "lng": 55.3086196,
+     "where_exactly": "Main entrance."
+    },
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "09:45",
      "action": "set_down",
      "lat": 25.1321925,
      "lng": 55.4223161,
@@ -9143,7 +9292,7 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:42",
+   "start": "05:45",
    "end": "07:45",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
@@ -9152,7 +9301,7 @@
     {
      "code": "C1-24",
      "name": "EK2 Accommodation, Muhaisnah 4",
-     "time": "05:42",
+     "time": "05:45",
      "action": "pick_up",
      "lat": 25.2795117,
      "lng": 55.402653,
@@ -9161,7 +9310,7 @@
     {
      "code": "C1-17",
      "name": "Bahwan Tower, Al Nahda 1",
-     "time": "05:56",
+     "time": "06:00",
      "action": "pick_up",
      "lat": 25.287666,
      "lng": 55.361619,
@@ -9170,7 +9319,7 @@
     {
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
-     "time": "06:00",
+     "time": "06:04",
      "action": "pick_up",
      "lat": 25.288631,
      "lng": 55.364044,
@@ -9179,7 +9328,7 @@
     {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "06:14",
+     "time": "06:18",
      "action": "pick_up",
      "lat": 25.270214,
      "lng": 55.373696,
@@ -9188,7 +9337,7 @@
     {
      "code": "C1-15",
      "name": "Wasl Village, Central Parking",
-     "time": "06:28",
+     "time": "06:33",
      "action": "pick_up",
      "lat": 25.289501,
      "lng": 55.4111465,
@@ -9197,7 +9346,7 @@
     {
      "code": "C1-23",
      "name": "Centrepoint, Mirdif City Centre",
-     "time": "06:39",
+     "time": "06:45",
      "action": "pick_up",
      "lat": 25.2180926,
      "lng": 55.4085703,
@@ -9207,7 +9356,7 @@
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "06:51",
+     "time": "06:57",
      "action": "pick_up",
      "lat": 25.224246,
      "lng": 55.423615,
@@ -9216,7 +9365,7 @@
     {
      "code": "C1-19",
      "name": "Shorooq Gate 3, Mirdif",
-     "time": "06:59",
+     "time": "07:06",
      "action": "pick_up",
      "lat": 25.214495,
      "lng": 55.428185,
@@ -9225,20 +9374,11 @@
     {
      "code": "C1-13",
      "name": "Nasayem Avenue, Mirdif Hills",
-     "time": "07:09",
+     "time": "07:16",
      "action": "pick_up",
      "lat": 25.221963,
      "lng": 55.440775,
      "where_exactly": "RTA bus stop pole (F40 / F03) on 78th Street, Mirdif Hills Avenue."
-    },
-    {
-     "code": "C1-14",
-     "name": "Olivz Residence, Warsan 1",
-     "time": "07:33",
-     "action": "pick_up",
-     "lat": 25.166179,
-     "lng": 55.395812,
-     "where_exactly": "RTA bus stop pole at the E311 exit, facing the construction site next to Petalz by Danube."
     },
     {
      "code": "UOB",
@@ -9260,16 +9400,25 @@
    "service": "undergraduate",
    "arrive_campus": "09:45",
    "leave_campus": null,
-   "start": "08:36",
+   "start": "08:37",
    "end": "09:45",
    "vehicle": "M13",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
     {
+     "code": "C1-24",
+     "name": "EK2 Accommodation, Muhaisnah 4",
+     "time": "08:37",
+     "action": "pick_up",
+     "lat": 25.2795117,
+     "lng": 55.402653,
+     "where_exactly": "Kerbside on 17th Street outside the EK2 Accommodation (Emirates EK2) building. Do not enter the compound."
+    },
+    {
      "code": "C1-17",
      "name": "Bahwan Tower, Al Nahda 1",
-     "time": "08:36",
+     "time": "08:50",
      "action": "pick_up",
      "lat": 25.287666,
      "lng": 55.361619,
@@ -9278,11 +9427,20 @@
     {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "08:52",
+     "time": "09:03",
      "action": "pick_up",
      "lat": 25.270214,
      "lng": 55.373696,
      "where_exactly": "21B Street footpath by DAFZA Metro Station Entrance 1."
+    },
+    {
+     "code": "C1-14",
+     "name": "Olivz Residence, Warsan 1",
+     "time": "09:34",
+     "action": "pick_up",
+     "lat": 25.166179,
+     "lng": 55.395812,
+     "where_exactly": "RTA bus stop pole at the E311 exit, facing the construction site next to Petalz by Danube."
     },
     {
      "code": "UOB",
@@ -9713,7 +9871,7 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:55",
+   "start": "05:58",
    "end": "07:45",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
@@ -9722,7 +9880,7 @@
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "05:55",
+     "time": "05:58",
      "action": "pick_up",
      "lat": 25.075735,
      "lng": 55.140981,
@@ -9731,7 +9889,7 @@
     {
      "code": "C2-03",
      "name": "DMCC Metro Station",
-     "time": "06:02",
+     "time": "06:06",
      "action": "pick_up",
      "lat": 25.07122,
      "lng": 55.137072,
@@ -9740,7 +9898,7 @@
     {
      "code": "C2-05",
      "name": "The Meadows Village",
-     "time": "06:20",
+     "time": "06:24",
      "action": "pick_up",
      "lat": 25.0637,
      "lng": 55.1573,
@@ -9749,16 +9907,42 @@
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "06:41",
+     "time": "06:46",
      "action": "pick_up",
      "lat": 25.1021161,
      "lng": 55.1740882,
      "where_exactly": "Dubai Internet City Metro Station - pin as set 6 Oct (Dan); kerb text to confirm on audit."
     },
     {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "07:45",
+     "action": "set_down",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    }
+   ]
+  },
+  {
+   "run_id": "2026-10-13-R3-O2",
+   "date": "2026-10-13",
+   "day": "Tue",
+   "route": "R3",
+   "direction": "to_campus",
+   "service": "undergraduate",
+   "arrive_campus": "09:45",
+   "leave_campus": null,
+   "start": "09:00",
+   "end": "09:45",
+   "vehicle": "M5",
+   "vehicle_type": "Hiace",
+   "seats": 12,
+   "stops": [
+    {
      "code": "C2-10",
      "name": "Al Manaf Building, Al Barsha 1",
-     "time": "06:57",
+     "time": "09:00",
      "action": "pick_up",
      "lat": 25.1110756,
      "lng": 55.2057285,
@@ -9767,7 +9951,7 @@
     {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
-     "time": "07:45",
+     "time": "09:45",
      "action": "set_down",
      "lat": 25.1321925,
      "lng": 55.4223161,
@@ -11589,7 +11773,7 @@
    "service": "undergraduate",
    "arrive_campus": "09:45",
    "leave_campus": null,
-   "start": "08:53",
+   "start": "08:50",
    "end": "09:45",
    "vehicle": "M14",
    "vehicle_type": "Hiace",
@@ -11598,7 +11782,7 @@
     {
      "code": "C4-10",
      "name": "Green Community West gate",
-     "time": "08:53",
+     "time": "08:50",
      "action": "pick_up",
      "lat": 25.001812,
      "lng": 55.164068,
@@ -11607,11 +11791,20 @@
     {
      "code": "C4-12",
      "name": "Al Furjan Centre (Pavilion)",
-     "time": "09:07",
+     "time": "09:02",
      "action": "pick_up",
      "lat": 25.026111,
      "lng": 55.153303,
      "where_exactly": "Spinneys bus stop."
+    },
+    {
+     "code": "C4-13",
+     "name": "Gardens Metro Station",
+     "time": "09:14",
+     "action": "pick_up",
+     "lat": 25.043761,
+     "lng": 55.134832,
+     "where_exactly": "Exit 1 of the metro station, at the bus stop (Discovery Gardens side)."
     },
     {
      "code": "UOB",
@@ -11941,7 +12134,7 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:35",
+   "start": "05:38",
    "end": "07:45",
    "vehicle": "M11",
    "vehicle_type": "Hiace",
@@ -11950,7 +12143,7 @@
     {
      "code": "C5-21",
      "name": "Al Ghurair Centre bus stop (Ghurair City 2), Al Rigga Rd",
-     "time": "05:35",
+     "time": "05:38",
      "action": "pick_up",
      "lat": 25.266621,
      "lng": 55.317593,
@@ -11959,25 +12152,16 @@
     {
      "code": "C5-05",
      "name": "BurJuman Mall",
-     "time": "05:51",
+     "time": "05:55",
      "action": "pick_up",
      "lat": 25.254331,
      "lng": 55.303661,
      "where_exactly": "Bus stop outside Asia Kitchen, BurJuman Mall."
     },
     {
-     "code": "C5-17",
-     "name": "New Gold Souq, Al Raffa, Bur Dubai",
-     "time": "06:08",
-     "action": "pick_up",
-     "lat": 25.2515903,
-     "lng": 55.2824733,
-     "where_exactly": "ENOC petrol station beside the New Gold Souq (by Shabab Al Khan Cafeteria)."
-    },
-    {
      "code": "C5-09",
      "name": "Bay Avenue Mall, Business Bay",
-     "time": "06:37",
+     "time": "06:31",
      "action": "pick_up",
      "lat": 25.191143,
      "lng": 55.265598,
@@ -11986,7 +12170,7 @@
     {
      "code": "C5-11",
      "name": "One Park Avenue, Sobha Hartland",
-     "time": "06:57",
+     "time": "06:53",
      "action": "pick_up",
      "lat": 25.1784466,
      "lng": 55.3086196,
@@ -11996,6 +12180,41 @@
      "code": "UOB",
      "name": "University of Birmingham Dubai",
      "time": "07:45",
+     "action": "set_down",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    }
+   ]
+  },
+  {
+   "run_id": "2026-10-13-R7-O2",
+   "date": "2026-10-13",
+   "day": "Tue",
+   "route": "R7",
+   "direction": "to_campus",
+   "service": "undergraduate",
+   "arrive_campus": "09:45",
+   "leave_campus": null,
+   "start": "08:30",
+   "end": "09:45",
+   "vehicle": "M12",
+   "vehicle_type": "Hiace",
+   "seats": 12,
+   "stops": [
+    {
+     "code": "C5-17",
+     "name": "New Gold Souq, Al Raffa, Bur Dubai",
+     "time": "08:30",
+     "action": "pick_up",
+     "lat": 25.2515903,
+     "lng": 55.2824733,
+     "where_exactly": "ENOC petrol station beside the New Gold Souq (by Shabab Al Khan Cafeteria)."
+    },
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "09:45",
      "action": "set_down",
      "lat": 25.1321925,
      "lng": 55.4223161,
@@ -15346,25 +15565,16 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "06:12",
+   "start": "06:22",
    "end": "07:45",
    "vehicle": "M10",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
     {
-     "code": "C4-11",
-     "name": "Al Furjan West Centre",
-     "time": "06:12",
-     "action": "pick_up",
-     "lat": 25.021958,
-     "lng": 55.129796,
-     "where_exactly": "Car park entrance."
-    },
-    {
      "code": "C4-12",
      "name": "Al Furjan Centre (Pavilion)",
-     "time": "06:29",
+     "time": "06:22",
      "action": "pick_up",
      "lat": 25.026111,
      "lng": 55.153303,
@@ -15373,7 +15583,7 @@
     {
      "code": "C4-13",
      "name": "Gardens Metro Station",
-     "time": "06:47",
+     "time": "06:42",
      "action": "pick_up",
      "lat": 25.043761,
      "lng": 55.134832,
@@ -15383,6 +15593,50 @@
      "code": "UOB",
      "name": "University of Birmingham Dubai",
      "time": "07:45",
+     "action": "set_down",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    }
+   ]
+  },
+  {
+   "run_id": "2026-10-14-R6-O2",
+   "date": "2026-10-14",
+   "day": "Wed",
+   "route": "R6",
+   "direction": "to_campus",
+   "service": "undergraduate",
+   "arrive_campus": "09:45",
+   "leave_campus": null,
+   "start": "08:50",
+   "end": "09:45",
+   "vehicle": "M14",
+   "vehicle_type": "Hiace",
+   "seats": 12,
+   "stops": [
+    {
+     "code": "C4-11",
+     "name": "Al Furjan West Centre",
+     "time": "08:50",
+     "action": "pick_up",
+     "lat": 25.021958,
+     "lng": 55.129796,
+     "where_exactly": "Car park entrance."
+    },
+    {
+     "code": "C4-13",
+     "name": "Gardens Metro Station",
+     "time": "09:03",
+     "action": "pick_up",
+     "lat": 25.043761,
+     "lng": 55.134832,
+     "where_exactly": "Exit 1 of the metro station, at the bus stop (Discovery Gardens side)."
+    },
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "09:45",
      "action": "set_down",
      "lat": 25.1321925,
      "lng": 55.4223161,
@@ -19597,6 +19851,50 @@
    ]
   },
   {
+   "run_id": "2026-10-15-R7-O2",
+   "date": "2026-10-15",
+   "day": "Thu",
+   "route": "R7",
+   "direction": "to_campus",
+   "service": "undergraduate",
+   "arrive_campus": "09:45",
+   "leave_campus": null,
+   "start": "08:39",
+   "end": "09:45",
+   "vehicle": "M12",
+   "vehicle_type": "Hiace",
+   "seats": 12,
+   "stops": [
+    {
+     "code": "C5-04",
+     "name": "Oud Metha Metro Station",
+     "time": "08:39",
+     "action": "pick_up",
+     "lat": 25.243624,
+     "lng": 55.315799,
+     "where_exactly": "RTA bus stop Oud Metha 1, other side of the road, outside Super Saver supermarket."
+    },
+    {
+     "code": "C5-11",
+     "name": "One Park Avenue, Sobha Hartland",
+     "time": "09:05",
+     "action": "pick_up",
+     "lat": 25.1784466,
+     "lng": 55.3086196,
+     "where_exactly": "Main entrance."
+    },
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "09:45",
+     "action": "set_down",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    }
+   ]
+  },
+  {
    "run_id": "2026-10-15-R7-O3",
    "date": "2026-10-15",
    "day": "Thu",
@@ -20058,6 +20356,41 @@
    ]
   },
   {
+   "run_id": "2026-10-16-R1-O2",
+   "date": "2026-10-16",
+   "day": "Fri",
+   "route": "R1",
+   "direction": "to_campus",
+   "service": "undergraduate",
+   "arrive_campus": "09:45",
+   "leave_campus": null,
+   "start": "07:22",
+   "end": "09:45",
+   "vehicle": "M3",
+   "vehicle_type": "Hiace",
+   "seats": 12,
+   "stops": [
+    {
+     "code": "C1-04",
+     "name": "Nesto Hypermarket, King Faisal St",
+     "time": "07:22",
+     "action": "pick_up",
+     "lat": 25.337533,
+     "lng": 55.39061,
+     "where_exactly": "Main entrance on King Faisal St."
+    },
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "09:45",
+     "action": "set_down",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    }
+   ]
+  },
+  {
    "run_id": "2026-10-16-R1-R0",
    "date": "2026-10-16",
    "day": "Fri",
@@ -20216,7 +20549,7 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:39",
+   "start": "05:45",
    "end": "07:45",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
@@ -20225,7 +20558,7 @@
     {
      "code": "C1-24",
      "name": "EK2 Accommodation, Muhaisnah 4",
-     "time": "05:39",
+     "time": "05:45",
      "action": "pick_up",
      "lat": 25.2795117,
      "lng": 55.402653,
@@ -20234,7 +20567,7 @@
     {
      "code": "C1-07",
      "name": "Masafi 1, Al Nahda 2",
-     "time": "05:51",
+     "time": "05:58",
      "action": "pick_up",
      "lat": 25.289367,
      "lng": 55.372375,
@@ -20243,7 +20576,7 @@
     {
      "code": "C1-22",
      "name": "Baghdad Street 55, Al Nahda 1",
-     "time": "05:56",
+     "time": "06:04",
      "action": "pick_up",
      "lat": 25.2874799,
      "lng": 55.367603,
@@ -20252,7 +20585,7 @@
     {
      "code": "C1-17",
      "name": "Bahwan Tower, Al Nahda 1",
-     "time": "06:02",
+     "time": "06:10",
      "action": "pick_up",
      "lat": 25.287666,
      "lng": 55.361619,
@@ -20261,7 +20594,7 @@
     {
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
-     "time": "06:06",
+     "time": "06:14",
      "action": "pick_up",
      "lat": 25.288631,
      "lng": 55.364044,
@@ -20270,7 +20603,7 @@
     {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "06:20",
+     "time": "06:29",
      "action": "pick_up",
      "lat": 25.270214,
      "lng": 55.373696,
@@ -20279,7 +20612,7 @@
     {
      "code": "C1-15",
      "name": "Wasl Village, Central Parking",
-     "time": "06:35",
+     "time": "06:46",
      "action": "pick_up",
      "lat": 25.289501,
      "lng": 55.4111465,
@@ -20288,7 +20621,52 @@
     {
      "code": "C1-23",
      "name": "Centrepoint, Mirdif City Centre",
-     "time": "06:46",
+     "time": "06:51",
+     "action": "pick_up",
+     "lat": 25.2180926,
+     "lng": 55.4085703,
+     "where_exactly": "Centrepoint entrance, Mirdif City Centre (Tripoli St side) - kerb to be confirmed on audit.",
+     "offer_only_stop": true
+    },
+    {
+     "code": "C1-13",
+     "name": "Nasayem Avenue, Mirdif Hills",
+     "time": "07:14",
+     "action": "pick_up",
+     "lat": 25.221963,
+     "lng": 55.440775,
+     "where_exactly": "RTA bus stop pole (F40 / F03) on 78th Street, Mirdif Hills Avenue."
+    },
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "07:45",
+     "action": "set_down",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    }
+   ]
+  },
+  {
+   "run_id": "2026-10-16-R2-O2",
+   "date": "2026-10-16",
+   "day": "Fri",
+   "route": "R2",
+   "direction": "to_campus",
+   "service": "undergraduate",
+   "arrive_campus": "09:45",
+   "leave_campus": null,
+   "start": "09:05",
+   "end": "09:45",
+   "vehicle": "M13",
+   "vehicle_type": "Rosa",
+   "seats": 34,
+   "stops": [
+    {
+     "code": "C1-23",
+     "name": "Centrepoint, Mirdif City Centre",
+     "time": "09:00",
      "action": "pick_up",
      "lat": 25.2180926,
      "lng": 55.4085703,
@@ -20298,25 +20676,16 @@
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "06:58",
+     "time": "09:05",
      "action": "pick_up",
      "lat": 25.224246,
      "lng": 55.423615,
      "where_exactly": "Kerbside outside Exotic Fin Store, Uptown Mirdif, corner of Algeria St."
     },
     {
-     "code": "C1-13",
-     "name": "Nasayem Avenue, Mirdif Hills",
-     "time": "07:09",
-     "action": "pick_up",
-     "lat": 25.221963,
-     "lng": 55.440775,
-     "where_exactly": "RTA bus stop pole (F40 / F03) on 78th Street, Mirdif Hills Avenue."
-    },
-    {
      "code": "C1-14",
      "name": "Olivz Residence, Warsan 1",
-     "time": "07:32",
+     "time": "09:30",
      "action": "pick_up",
      "lat": 25.166179,
      "lng": 55.395812,
@@ -20325,7 +20694,7 @@
     {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
-     "time": "07:45",
+     "time": "09:45",
      "action": "set_down",
      "lat": 25.1321925,
      "lng": 55.4223161,
@@ -20626,43 +20995,25 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:52",
+   "start": "06:01",
    "end": "07:45",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
     {
-     "code": "C2-02",
-     "name": "Dubai Marina Mall",
-     "time": "05:52",
-     "action": "pick_up",
-     "lat": 25.075735,
-     "lng": 55.140981,
-     "where_exactly": "Pick and drop point at Dubai Marina Mall."
-    },
-    {
      "code": "C2-04",
      "name": "Sobha Realty Metro Station",
-     "time": "06:02",
+     "time": "06:01",
      "action": "pick_up",
      "lat": 25.08243,
      "lng": 55.148317,
      "where_exactly": "Sea side of Sobha Realty Metro Station, near the Carrefour Market sign; bus pick-up point."
     },
     {
-     "code": "C2-11",
-     "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "06:18",
-     "action": "pick_up",
-     "lat": 25.093492,
-     "lng": 55.177807,
-     "where_exactly": "Pick and drop area outside the Al Asmawi Building."
-    },
-    {
      "code": "C2-15",
      "name": "Al Nakheel 2A, The Greens",
-     "time": "06:27",
+     "time": "06:23",
      "action": "pick_up",
      "lat": 25.09445,
      "lng": 55.1697,
@@ -20671,7 +21022,7 @@
     {
      "code": "C2-10",
      "name": "Al Manaf Building, Al Barsha 1",
-     "time": "06:47",
+     "time": "06:43",
      "action": "pick_up",
      "lat": 25.1110756,
      "lng": 55.2057285,
@@ -20680,7 +21031,7 @@
     {
      "code": "C2-16",
      "name": "Umm Suqeim Rd bus stop by ENOC 1099, Al Barsha 1",
-     "time": "06:55",
+     "time": "06:52",
      "action": "pick_up",
      "lat": 25.1184,
      "lng": 55.2077,
@@ -20690,6 +21041,50 @@
      "code": "UOB",
      "name": "University of Birmingham Dubai",
      "time": "07:45",
+     "action": "set_down",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    }
+   ]
+  },
+  {
+   "run_id": "2026-10-16-R3-O2",
+   "date": "2026-10-16",
+   "day": "Fri",
+   "route": "R3",
+   "direction": "to_campus",
+   "service": "undergraduate",
+   "arrive_campus": "09:45",
+   "leave_campus": null,
+   "start": "08:43",
+   "end": "09:45",
+   "vehicle": "M5",
+   "vehicle_type": "Hiace",
+   "seats": 12,
+   "stops": [
+    {
+     "code": "C2-02",
+     "name": "Dubai Marina Mall",
+     "time": "08:43",
+     "action": "pick_up",
+     "lat": 25.075735,
+     "lng": 55.140981,
+     "where_exactly": "Pick and drop point at Dubai Marina Mall."
+    },
+    {
+     "code": "C2-11",
+     "name": "Al Asmawi Building, Al Thanyah 1",
+     "time": "09:00",
+     "action": "pick_up",
+     "lat": 25.093492,
+     "lng": 55.177807,
+     "where_exactly": "Pick and drop area outside the Al Asmawi Building."
+    },
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "09:45",
      "action": "set_down",
      "lat": 25.1321925,
      "lng": 55.4223161,
