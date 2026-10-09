@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-09T04:56:03Z",
+ "generated_at": "2026-10-09T05:24:45Z",
  "week": "2026-10-09 to 2026-10-18",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -2324,7 +2324,7 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:54",
+   "start": "05:48",
    "end": "07:45",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
@@ -2333,7 +2333,7 @@
     {
      "code": "C1-24",
      "name": "EK2 Accommodation, Muhaisnah 4",
-     "time": "05:54",
+     "time": "05:48",
      "action": "pick_up",
      "lat": 25.2795117,
      "lng": 55.402653,
@@ -2342,7 +2342,7 @@
     {
      "code": "C1-07",
      "name": "Masafi 1, Al Nahda 2",
-     "time": "06:10",
+     "time": "06:02",
      "action": "pick_up",
      "lat": 25.289367,
      "lng": 55.372375,
@@ -2351,7 +2351,7 @@
     {
      "code": "C1-22",
      "name": "Baghdad Street 55, Al Nahda 1",
-     "time": "06:16",
+     "time": "06:08",
      "action": "pick_up",
      "lat": 25.2874799,
      "lng": 55.367603,
@@ -2360,7 +2360,7 @@
     {
      "code": "C1-17",
      "name": "Bahwan Tower, Al Nahda 1",
-     "time": "06:23",
+     "time": "06:14",
      "action": "pick_up",
      "lat": 25.287666,
      "lng": 55.361619,
@@ -2369,42 +2369,16 @@
     {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "06:42",
+     "time": "06:31",
      "action": "pick_up",
      "lat": 25.270214,
      "lng": 55.373696,
      "where_exactly": "21B Street footpath by DAFZA Metro Station Entrance 1."
     },
     {
-     "code": "UOB",
-     "name": "University of Birmingham Dubai",
-     "time": "07:45",
-     "action": "set_down",
-     "lat": 25.1321925,
-     "lng": 55.4223161,
-     "where_exactly": ""
-    }
-   ]
-  },
-  {
-   "run_id": "2026-10-09-R2-O2",
-   "date": "2026-10-09",
-   "day": "Fri",
-   "route": "R2",
-   "direction": "to_campus",
-   "service": "undergraduate",
-   "arrive_campus": "09:45",
-   "leave_campus": null,
-   "start": "09:02",
-   "end": "09:45",
-   "vehicle": "M13",
-   "vehicle_type": "Rosa",
-   "seats": 34,
-   "stops": [
-    {
      "code": "C1-23",
      "name": "Centrepoint, Mirdif City Centre",
-     "time": "08:57",
+     "time": "06:53",
      "action": "pick_up",
      "lat": 25.2180926,
      "lng": 55.4085703,
@@ -2414,7 +2388,7 @@
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "09:02",
+     "time": "06:58",
      "action": "pick_up",
      "lat": 25.224246,
      "lng": 55.423615,
@@ -2423,25 +2397,16 @@
     {
      "code": "C1-13",
      "name": "Nasayem Avenue, Mirdif Hills",
-     "time": "09:12",
+     "time": "07:11",
      "action": "pick_up",
      "lat": 25.221963,
      "lng": 55.440775,
      "where_exactly": "RTA bus stop pole (F40 / F03) on 78th Street, Mirdif Hills Avenue."
     },
     {
-     "code": "C1-14",
-     "name": "Olivz Residence, Warsan 1",
-     "time": "09:34",
-     "action": "pick_up",
-     "lat": 25.166179,
-     "lng": 55.395812,
-     "where_exactly": "RTA bus stop pole at the E311 exit, facing the construction site next to Petalz by Danube."
-    },
-    {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
-     "time": "09:45",
+     "time": "07:45",
      "action": "set_down",
      "lat": 25.1321925,
      "lng": 55.4223161,
@@ -2459,7 +2424,7 @@
    "arrive_campus": null,
    "leave_campus": "12:15",
    "start": "12:15",
-   "end": "13:35",
+   "end": "13:32",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "seats": 34,
@@ -2474,18 +2439,9 @@
      "where_exactly": ""
     },
     {
-     "code": "C1-14",
-     "name": "Olivz Residence, Warsan 1",
-     "time": "12:24",
-     "action": "set_down",
-     "lat": 25.166179,
-     "lng": 55.395812,
-     "where_exactly": "RTA bus stop pole at the E311 exit, facing the construction site next to Petalz by Danube."
-    },
-    {
      "code": "C1-13",
      "name": "Nasayem Avenue, Mirdif Hills",
-     "time": "12:41",
+     "time": "12:35",
      "action": "set_down",
      "lat": 25.221963,
      "lng": 55.440775,
@@ -2494,7 +2450,7 @@
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "12:50",
+     "time": "12:44",
      "action": "set_down",
      "lat": 25.224246,
      "lng": 55.423615,
@@ -2503,7 +2459,7 @@
     {
      "code": "C1-23",
      "name": "Centrepoint, Mirdif City Centre",
-     "time": "12:55",
+     "time": "12:49",
      "action": "set_down",
      "lat": 25.2180926,
      "lng": 55.4085703,
@@ -2513,7 +2469,7 @@
     {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "13:06",
+     "time": "13:02",
      "action": "set_down",
      "lat": 25.270214,
      "lng": 55.373696,
@@ -2522,7 +2478,7 @@
     {
      "code": "C1-17",
      "name": "Bahwan Tower, Al Nahda 1",
-     "time": "13:16",
+     "time": "13:13",
      "action": "set_down",
      "lat": 25.287666,
      "lng": 55.361619,
@@ -2531,7 +2487,7 @@
     {
      "code": "C1-22",
      "name": "Baghdad Street 55, Al Nahda 1",
-     "time": "13:21",
+     "time": "13:18",
      "action": "set_down",
      "lat": 25.2874799,
      "lng": 55.367603,
@@ -2540,7 +2496,7 @@
     {
      "code": "C1-07",
      "name": "Masafi 1, Al Nahda 2",
-     "time": "13:26",
+     "time": "13:23",
      "action": "set_down",
      "lat": 25.289367,
      "lng": 55.372375,
@@ -2549,7 +2505,7 @@
     {
      "code": "C1-24",
      "name": "EK2 Accommodation, Muhaisnah 4",
-     "time": "13:35",
+     "time": "13:32",
      "action": "set_down",
      "lat": 25.2795117,
      "lng": 55.402653,
@@ -5826,7 +5782,7 @@
    "service": "undergraduate",
    "arrive_campus": "09:45",
    "leave_campus": null,
-   "start": "08:43",
+   "start": "08:46",
    "end": "09:45",
    "vehicle": "M13",
    "vehicle_type": "Rosa",
@@ -5835,20 +5791,11 @@
     {
      "code": "C1-24",
      "name": "EK2 Accommodation, Muhaisnah 4",
-     "time": "08:43",
+     "time": "08:46",
      "action": "pick_up",
      "lat": 25.2795117,
      "lng": 55.402653,
      "where_exactly": "Kerbside on 17th Street outside the EK2 Accommodation (Emirates EK2) building. Do not enter the compound."
-    },
-    {
-     "code": "C1-14",
-     "name": "Olivz Residence, Warsan 1",
-     "time": "09:29",
-     "action": "pick_up",
-     "lat": 25.166179,
-     "lng": 55.395812,
-     "where_exactly": "RTA bus stop pole at the E311 exit, facing the construction site next to Petalz by Danube."
     },
     {
      "code": "UOB",
@@ -6162,18 +6109,9 @@
      "where_exactly": ""
     },
     {
-     "code": "C1-14",
-     "name": "Olivz Residence, Warsan 1",
-     "time": "18:31",
-     "action": "set_down",
-     "lat": 25.166179,
-     "lng": 55.395812,
-     "where_exactly": "RTA bus stop pole at the E311 exit, facing the construction site next to Petalz by Danube."
-    },
-    {
      "code": "C1-13",
      "name": "Nasayem Avenue, Mirdif Hills",
-     "time": "18:49",
+     "time": "18:39",
      "action": "set_down",
      "lat": 25.221963,
      "lng": 55.440775,
@@ -6182,7 +6120,7 @@
     {
      "code": "C1-19",
      "name": "Shorooq Gate 3, Mirdif",
-     "time": "18:56",
+     "time": "18:48",
      "action": "set_down",
      "lat": 25.214495,
      "lng": 55.428185,
@@ -6191,7 +6129,7 @@
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "19:03",
+     "time": "18:56",
      "action": "set_down",
      "lat": 25.224246,
      "lng": 55.423615,
@@ -6200,7 +6138,7 @@
     {
      "code": "C1-23",
      "name": "Centrepoint, Mirdif City Centre",
-     "time": "19:11",
+     "time": "19:05",
      "action": "set_down",
      "lat": 25.2180926,
      "lng": 55.4085703,
@@ -6210,7 +6148,7 @@
     {
      "code": "C1-15",
      "name": "Wasl Village, Central Parking",
-     "time": "19:20",
+     "time": "19:15",
      "action": "set_down",
      "lat": 25.289501,
      "lng": 55.4111465,
@@ -6219,7 +6157,7 @@
     {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "19:36",
+     "time": "19:32",
      "action": "set_down",
      "lat": 25.270214,
      "lng": 55.373696,
@@ -6228,7 +6166,7 @@
     {
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
-     "time": "19:45",
+     "time": "19:43",
      "action": "set_down",
      "lat": 25.288631,
      "lng": 55.364044,
@@ -9425,7 +9363,7 @@
    "service": "undergraduate",
    "arrive_campus": "09:45",
    "leave_campus": null,
-   "start": "08:37",
+   "start": "08:40",
    "end": "09:45",
    "vehicle": "M13",
    "vehicle_type": "Rosa",
@@ -9434,7 +9372,7 @@
     {
      "code": "C1-24",
      "name": "EK2 Accommodation, Muhaisnah 4",
-     "time": "08:37",
+     "time": "08:40",
      "action": "pick_up",
      "lat": 25.2795117,
      "lng": 55.402653,
@@ -9443,7 +9381,7 @@
     {
      "code": "C1-17",
      "name": "Bahwan Tower, Al Nahda 1",
-     "time": "08:50",
+     "time": "08:53",
      "action": "pick_up",
      "lat": 25.287666,
      "lng": 55.361619,
@@ -9452,20 +9390,11 @@
     {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "09:03",
+     "time": "09:06",
      "action": "pick_up",
      "lat": 25.270214,
      "lng": 55.373696,
      "where_exactly": "21B Street footpath by DAFZA Metro Station Entrance 1."
-    },
-    {
-     "code": "C1-14",
-     "name": "Olivz Residence, Warsan 1",
-     "time": "09:34",
-     "action": "pick_up",
-     "lat": 25.166179,
-     "lng": 55.395812,
-     "where_exactly": "RTA bus stop pole at the E311 exit, facing the construction site next to Petalz by Danube."
     },
     {
      "code": "UOB",
@@ -9569,7 +9498,7 @@
    "arrive_campus": null,
    "leave_campus": "14:15",
    "start": "14:15",
-   "end": "15:20",
+   "end": "15:17",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "seats": 34,
@@ -9584,18 +9513,9 @@
      "where_exactly": ""
     },
     {
-     "code": "C1-14",
-     "name": "Olivz Residence, Warsan 1",
-     "time": "14:29",
-     "action": "set_down",
-     "lat": 25.166179,
-     "lng": 55.395812,
-     "where_exactly": "RTA bus stop pole at the E311 exit, facing the construction site next to Petalz by Danube."
-    },
-    {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "15:08",
+     "time": "15:05",
      "action": "set_down",
      "lat": 25.270214,
      "lng": 55.373696,
@@ -9604,7 +9524,7 @@
     {
      "code": "C1-24",
      "name": "EK2 Accommodation, Muhaisnah 4",
-     "time": "15:20",
+     "time": "15:17",
      "action": "set_down",
      "lat": 25.2795117,
      "lng": 55.402653,
@@ -13080,7 +13000,7 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:35",
+   "start": "05:38",
    "end": "07:45",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
@@ -13089,7 +13009,7 @@
     {
      "code": "C1-07",
      "name": "Masafi 1, Al Nahda 2",
-     "time": "05:35",
+     "time": "05:38",
      "action": "pick_up",
      "lat": 25.289367,
      "lng": 55.372375,
@@ -13098,7 +13018,7 @@
     {
      "code": "C1-22",
      "name": "Baghdad Street 55, Al Nahda 1",
-     "time": "05:41",
+     "time": "05:45",
      "action": "pick_up",
      "lat": 25.2874799,
      "lng": 55.367603,
@@ -13107,7 +13027,7 @@
     {
      "code": "C1-17",
      "name": "Bahwan Tower, Al Nahda 1",
-     "time": "05:48",
+     "time": "05:52",
      "action": "pick_up",
      "lat": 25.287666,
      "lng": 55.361619,
@@ -13116,7 +13036,7 @@
     {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "06:05",
+     "time": "06:10",
      "action": "pick_up",
      "lat": 25.270214,
      "lng": 55.373696,
@@ -13125,7 +13045,7 @@
     {
      "code": "C1-23",
      "name": "Centrepoint, Mirdif City Centre",
-     "time": "06:29",
+     "time": "06:36",
      "action": "pick_up",
      "lat": 25.2180926,
      "lng": 55.4085703,
@@ -13135,7 +13055,7 @@
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "06:34",
+     "time": "06:41",
      "action": "pick_up",
      "lat": 25.224246,
      "lng": 55.423615,
@@ -13144,7 +13064,7 @@
     {
      "code": "C1-19",
      "name": "Shorooq Gate 3, Mirdif",
-     "time": "06:45",
+     "time": "06:52",
      "action": "pick_up",
      "lat": 25.214495,
      "lng": 55.428185,
@@ -13153,20 +13073,11 @@
     {
      "code": "C1-13",
      "name": "Nasayem Avenue, Mirdif Hills",
-     "time": "06:57",
+     "time": "07:05",
      "action": "pick_up",
      "lat": 25.221963,
      "lng": 55.440775,
      "where_exactly": "RTA bus stop pole (F40 / F03) on 78th Street, Mirdif Hills Avenue."
-    },
-    {
-     "code": "C1-14",
-     "name": "Olivz Residence, Warsan 1",
-     "time": "07:28",
-     "action": "pick_up",
-     "lat": 25.166179,
-     "lng": 55.395812,
-     "where_exactly": "RTA bus stop pole at the E311 exit, facing the construction site next to Petalz by Danube."
     },
     {
      "code": "UOB",
@@ -13537,7 +13448,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "20:17",
+   "end": "20:14",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "seats": 34,
@@ -13552,18 +13463,9 @@
      "where_exactly": ""
     },
     {
-     "code": "C1-14",
-     "name": "Olivz Residence, Warsan 1",
-     "time": "18:31",
-     "action": "set_down",
-     "lat": 25.166179,
-     "lng": 55.395812,
-     "where_exactly": "RTA bus stop pole at the E311 exit, facing the construction site next to Petalz by Danube."
-    },
-    {
      "code": "C1-13",
      "name": "Nasayem Avenue, Mirdif Hills",
-     "time": "18:48",
+     "time": "18:38",
      "action": "set_down",
      "lat": 25.221963,
      "lng": 55.440775,
@@ -13572,7 +13474,7 @@
     {
      "code": "C1-19",
      "name": "Shorooq Gate 3, Mirdif",
-     "time": "18:55",
+     "time": "18:45",
      "action": "set_down",
      "lat": 25.214495,
      "lng": 55.428185,
@@ -13581,7 +13483,7 @@
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "19:02",
+     "time": "18:53",
      "action": "set_down",
      "lat": 25.224246,
      "lng": 55.423615,
@@ -13590,7 +13492,7 @@
     {
      "code": "C1-23",
      "name": "Centrepoint, Mirdif City Centre",
-     "time": "19:10",
+     "time": "19:02",
      "action": "set_down",
      "lat": 25.2180926,
      "lng": 55.4085703,
@@ -13600,7 +13502,7 @@
     {
      "code": "C1-15",
      "name": "Wasl Village, Central Parking",
-     "time": "19:19",
+     "time": "19:11",
      "action": "set_down",
      "lat": 25.289501,
      "lng": 55.4111465,
@@ -13609,7 +13511,7 @@
     {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "19:34",
+     "time": "19:27",
      "action": "set_down",
      "lat": 25.270214,
      "lng": 55.373696,
@@ -13618,7 +13520,7 @@
     {
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
-     "time": "19:43",
+     "time": "19:37",
      "action": "set_down",
      "lat": 25.288631,
      "lng": 55.364044,
@@ -13627,7 +13529,7 @@
     {
      "code": "C1-17",
      "name": "Bahwan Tower, Al Nahda 1",
-     "time": "19:50",
+     "time": "19:45",
      "action": "set_down",
      "lat": 25.287666,
      "lng": 55.361619,
@@ -13636,7 +13538,7 @@
     {
      "code": "C1-22",
      "name": "Baghdad Street 55, Al Nahda 1",
-     "time": "19:57",
+     "time": "19:53",
      "action": "set_down",
      "lat": 25.2874799,
      "lng": 55.367603,
@@ -13645,7 +13547,7 @@
     {
      "code": "C1-07",
      "name": "Masafi 1, Al Nahda 2",
-     "time": "20:04",
+     "time": "20:00",
      "action": "set_down",
      "lat": 25.289367,
      "lng": 55.372375,
@@ -13654,7 +13556,7 @@
     {
      "code": "C1-24",
      "name": "EK2 Accommodation, Muhaisnah 4",
-     "time": "20:17",
+     "time": "20:14",
      "action": "set_down",
      "lat": 25.2795117,
      "lng": 55.402653,
@@ -17353,7 +17255,7 @@
    "service": "undergraduate",
    "arrive_campus": "12:45",
    "leave_campus": null,
-   "start": "11:33",
+   "start": "11:36",
    "end": "12:45",
    "vehicle": "M13",
    "vehicle_type": "Rosa",
@@ -17362,7 +17264,7 @@
     {
      "code": "C1-17",
      "name": "Bahwan Tower, Al Nahda 1",
-     "time": "11:33",
+     "time": "11:36",
      "action": "pick_up",
      "lat": 25.287666,
      "lng": 55.361619,
@@ -17371,20 +17273,11 @@
     {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "11:49",
+     "time": "11:52",
      "action": "pick_up",
      "lat": 25.270214,
      "lng": 55.373696,
      "where_exactly": "21B Street footpath by DAFZA Metro Station Entrance 1."
-    },
-    {
-     "code": "C1-14",
-     "name": "Olivz Residence, Warsan 1",
-     "time": "12:30",
-     "action": "pick_up",
-     "lat": 25.166179,
-     "lng": 55.395812,
-     "where_exactly": "RTA bus stop pole at the E311 exit, facing the construction site next to Petalz by Danube."
     },
     {
      "code": "UOB",
@@ -17567,7 +17460,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "20:15",
+   "end": "20:12",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "seats": 34,
@@ -17582,18 +17475,9 @@
      "where_exactly": ""
     },
     {
-     "code": "C1-14",
-     "name": "Olivz Residence, Warsan 1",
-     "time": "18:32",
-     "action": "set_down",
-     "lat": 25.166179,
-     "lng": 55.395812,
-     "where_exactly": "RTA bus stop pole at the E311 exit, facing the construction site next to Petalz by Danube."
-    },
-    {
      "code": "C1-13",
      "name": "Nasayem Avenue, Mirdif Hills",
-     "time": "18:51",
+     "time": "18:40",
      "action": "set_down",
      "lat": 25.221963,
      "lng": 55.440775,
@@ -17602,7 +17486,7 @@
     {
      "code": "C1-19",
      "name": "Shorooq Gate 3, Mirdif",
-     "time": "18:59",
+     "time": "18:48",
      "action": "set_down",
      "lat": 25.214495,
      "lng": 55.428185,
@@ -17611,7 +17495,7 @@
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "19:06",
+     "time": "18:57",
      "action": "set_down",
      "lat": 25.224246,
      "lng": 55.423615,
@@ -17620,7 +17504,7 @@
     {
      "code": "C1-23",
      "name": "Centrepoint, Mirdif City Centre",
-     "time": "19:15",
+     "time": "19:06",
      "action": "set_down",
      "lat": 25.2180926,
      "lng": 55.4085703,
@@ -17630,7 +17514,7 @@
     {
      "code": "C1-15",
      "name": "Wasl Village, Central Parking",
-     "time": "19:24",
+     "time": "19:16",
      "action": "set_down",
      "lat": 25.289501,
      "lng": 55.4111465,
@@ -17639,7 +17523,7 @@
     {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "19:40",
+     "time": "19:34",
      "action": "set_down",
      "lat": 25.270214,
      "lng": 55.373696,
@@ -17648,7 +17532,7 @@
     {
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
-     "time": "19:50",
+     "time": "19:45",
      "action": "set_down",
      "lat": 25.288631,
      "lng": 55.364044,
@@ -17657,7 +17541,7 @@
     {
      "code": "C1-17",
      "name": "Bahwan Tower, Al Nahda 1",
-     "time": "19:58",
+     "time": "19:53",
      "action": "set_down",
      "lat": 25.287666,
      "lng": 55.361619,
@@ -17666,7 +17550,7 @@
     {
      "code": "C1-24",
      "name": "EK2 Accommodation, Muhaisnah 4",
-     "time": "20:15",
+     "time": "20:12",
      "action": "set_down",
      "lat": 25.2795117,
      "lng": 55.402653,
@@ -20682,7 +20566,7 @@
    "service": "undergraduate",
    "arrive_campus": "09:45",
    "leave_campus": null,
-   "start": "09:05",
+   "start": "09:08",
    "end": "09:45",
    "vehicle": "M13",
    "vehicle_type": "Rosa",
@@ -20691,7 +20575,7 @@
     {
      "code": "C1-23",
      "name": "Centrepoint, Mirdif City Centre",
-     "time": "09:00",
+     "time": "09:03",
      "action": "pick_up",
      "lat": 25.2180926,
      "lng": 55.4085703,
@@ -20701,20 +20585,11 @@
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "09:05",
+     "time": "09:08",
      "action": "pick_up",
      "lat": 25.224246,
      "lng": 55.423615,
      "where_exactly": "Kerbside outside Exotic Fin Store, Uptown Mirdif, corner of Algeria St."
-    },
-    {
-     "code": "C1-14",
-     "name": "Olivz Residence, Warsan 1",
-     "time": "09:30",
-     "action": "pick_up",
-     "lat": 25.166179,
-     "lng": 55.395812,
-     "where_exactly": "RTA bus stop pole at the E311 exit, facing the construction site next to Petalz by Danube."
     },
     {
      "code": "UOB",
@@ -20737,7 +20612,7 @@
    "arrive_campus": null,
    "leave_campus": "12:15",
    "start": "12:15",
-   "end": "13:41",
+   "end": "13:38",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "seats": 34,
@@ -20752,18 +20627,9 @@
      "where_exactly": ""
     },
     {
-     "code": "C1-14",
-     "name": "Olivz Residence, Warsan 1",
-     "time": "12:22",
-     "action": "set_down",
-     "lat": 25.166179,
-     "lng": 55.395812,
-     "where_exactly": "RTA bus stop pole at the E311 exit, facing the construction site next to Petalz by Danube."
-    },
-    {
      "code": "C1-13",
      "name": "Nasayem Avenue, Mirdif Hills",
-     "time": "12:38",
+     "time": "12:32",
      "action": "set_down",
      "lat": 25.221963,
      "lng": 55.440775,
@@ -20772,7 +20638,7 @@
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "12:46",
+     "time": "12:41",
      "action": "set_down",
      "lat": 25.224246,
      "lng": 55.423615,
@@ -20781,7 +20647,7 @@
     {
      "code": "C1-23",
      "name": "Centrepoint, Mirdif City Centre",
-     "time": "12:53",
+     "time": "12:48",
      "action": "set_down",
      "lat": 25.2180926,
      "lng": 55.4085703,
@@ -20791,7 +20657,7 @@
     {
      "code": "C1-15",
      "name": "Wasl Village, Central Parking",
-     "time": "13:01",
+     "time": "12:56",
      "action": "set_down",
      "lat": 25.289501,
      "lng": 55.4111465,
@@ -20800,7 +20666,7 @@
     {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "13:11",
+     "time": "13:07",
      "action": "set_down",
      "lat": 25.270214,
      "lng": 55.373696,
@@ -20809,7 +20675,7 @@
     {
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
-     "time": "13:20",
+     "time": "13:16",
      "action": "set_down",
      "lat": 25.288631,
      "lng": 55.364044,
@@ -20818,7 +20684,7 @@
     {
      "code": "C1-17",
      "name": "Bahwan Tower, Al Nahda 1",
-     "time": "13:24",
+     "time": "13:20",
      "action": "set_down",
      "lat": 25.287666,
      "lng": 55.361619,
@@ -20827,7 +20693,7 @@
     {
      "code": "C1-22",
      "name": "Baghdad Street 55, Al Nahda 1",
-     "time": "13:28",
+     "time": "13:25",
      "action": "set_down",
      "lat": 25.2874799,
      "lng": 55.367603,
@@ -20836,7 +20702,7 @@
     {
      "code": "C1-07",
      "name": "Masafi 1, Al Nahda 2",
-     "time": "13:33",
+     "time": "13:29",
      "action": "set_down",
      "lat": 25.289367,
      "lng": 55.372375,
@@ -20845,7 +20711,7 @@
     {
      "code": "C1-24",
      "name": "EK2 Accommodation, Muhaisnah 4",
-     "time": "13:41",
+     "time": "13:38",
      "action": "set_down",
      "lat": 25.2795117,
      "lng": 55.402653,
