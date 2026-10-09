@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-09T08:44:12Z",
+ "generated_at": "2026-10-09T10:04:23Z",
  "week": "2026-10-09 to 2026-10-18",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -20286,16 +20286,25 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:03",
+   "start": "05:00",
    "end": "07:45",
    "vehicle": "M1",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
     {
+     "code": "C1-04",
+     "name": "Nesto Hypermarket, King Faisal St",
+     "time": "05:00",
+     "action": "pick_up",
+     "lat": 25.337533,
+     "lng": 55.39061,
+     "where_exactly": "Main entrance on King Faisal St."
+    },
+    {
      "code": "C1-18",
      "name": "Shamseen Bakeries Building, Al Majaz",
-     "time": "05:03",
+     "time": "05:17",
      "action": "pick_up",
      "lat": 25.33253,
      "lng": 55.37588,
@@ -20304,7 +20313,7 @@
     {
      "code": "C1-20",
      "name": "Al Buhaira Police Station bus stop, Al Majaz 3",
-     "time": "05:17",
+     "time": "05:30",
      "action": "pick_up",
      "lat": 25.323284,
      "lng": 55.381418,
@@ -20313,7 +20322,7 @@
     {
      "code": "C1-05",
      "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "05:45",
+     "time": "05:55",
      "action": "pick_up",
      "lat": 25.305885121719236,
      "lng": 55.363729380596915,
@@ -20322,7 +20331,7 @@
     {
      "code": "C1-02",
      "name": "City Centre Al Zahia",
-     "time": "06:40",
+     "time": "06:46",
      "action": "pick_up",
      "lat": 25.318044,
      "lng": 55.457279,
@@ -20332,41 +20341,6 @@
      "code": "UOB",
      "name": "University of Birmingham Dubai",
      "time": "07:45",
-     "action": "set_down",
-     "lat": 25.1321925,
-     "lng": 55.4223161,
-     "where_exactly": ""
-    }
-   ]
-  },
-  {
-   "run_id": "2026-10-16-R1-O2",
-   "date": "2026-10-16",
-   "day": "Fri",
-   "route": "R1",
-   "direction": "to_campus",
-   "service": "undergraduate",
-   "arrive_campus": "09:45",
-   "leave_campus": null,
-   "start": "07:22",
-   "end": "09:45",
-   "vehicle": "M3",
-   "vehicle_type": "Hiace",
-   "seats": 12,
-   "stops": [
-    {
-     "code": "C1-04",
-     "name": "Nesto Hypermarket, King Faisal St",
-     "time": "07:22",
-     "action": "pick_up",
-     "lat": 25.337533,
-     "lng": 55.39061,
-     "where_exactly": "Main entrance on King Faisal St."
-    },
-    {
-     "code": "UOB",
-     "name": "University of Birmingham Dubai",
-     "time": "09:45",
      "action": "set_down",
      "lat": 25.1321925,
      "lng": 55.4223161,
@@ -20542,7 +20516,7 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:45",
+   "start": "05:42",
    "end": "07:45",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
@@ -20551,7 +20525,7 @@
     {
      "code": "C1-24",
      "name": "EK2 Accommodation, Muhaisnah 4",
-     "time": "05:45",
+     "time": "05:42",
      "action": "pick_up",
      "lat": 25.2795117,
      "lng": 55.402653,
@@ -20560,7 +20534,7 @@
     {
      "code": "C1-07",
      "name": "Masafi 1, Al Nahda 2",
-     "time": "05:58",
+     "time": "05:54",
      "action": "pick_up",
      "lat": 25.289367,
      "lng": 55.372375,
@@ -20569,7 +20543,7 @@
     {
      "code": "C1-22",
      "name": "Baghdad Street 55, Al Nahda 1",
-     "time": "06:04",
+     "time": "06:00",
      "action": "pick_up",
      "lat": 25.2874799,
      "lng": 55.367603,
@@ -20578,7 +20552,7 @@
     {
      "code": "C1-17",
      "name": "Bahwan Tower, Al Nahda 1",
-     "time": "06:10",
+     "time": "06:06",
      "action": "pick_up",
      "lat": 25.287666,
      "lng": 55.361619,
@@ -20587,7 +20561,7 @@
     {
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
-     "time": "06:14",
+     "time": "06:10",
      "action": "pick_up",
      "lat": 25.288631,
      "lng": 55.364044,
@@ -20596,7 +20570,7 @@
     {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "06:29",
+     "time": "06:24",
      "action": "pick_up",
      "lat": 25.270214,
      "lng": 55.373696,
@@ -20605,7 +20579,7 @@
     {
      "code": "C1-15",
      "name": "Wasl Village, Central Parking",
-     "time": "06:46",
+     "time": "06:40",
      "action": "pick_up",
      "lat": 25.289501,
      "lng": 55.4111465,
@@ -20614,52 +20588,7 @@
     {
      "code": "C1-23",
      "name": "Centrepoint, Mirdif City Centre",
-     "time": "06:51",
-     "action": "pick_up",
-     "lat": 25.2180926,
-     "lng": 55.4085703,
-     "where_exactly": "Centrepoint entrance, Mirdif City Centre (Tripoli St side) - kerb to be confirmed on audit.",
-     "offer_only_stop": true
-    },
-    {
-     "code": "C1-13",
-     "name": "Nasayem Avenue, Mirdif Hills",
-     "time": "07:14",
-     "action": "pick_up",
-     "lat": 25.221963,
-     "lng": 55.440775,
-     "where_exactly": "RTA bus stop pole (F40 / F03) on 78th Street, Mirdif Hills Avenue."
-    },
-    {
-     "code": "UOB",
-     "name": "University of Birmingham Dubai",
-     "time": "07:45",
-     "action": "set_down",
-     "lat": 25.1321925,
-     "lng": 55.4223161,
-     "where_exactly": ""
-    }
-   ]
-  },
-  {
-   "run_id": "2026-10-16-R2-O2",
-   "date": "2026-10-16",
-   "day": "Fri",
-   "route": "R2",
-   "direction": "to_campus",
-   "service": "undergraduate",
-   "arrive_campus": "09:45",
-   "leave_campus": null,
-   "start": "09:08",
-   "end": "09:45",
-   "vehicle": "M13",
-   "vehicle_type": "Rosa",
-   "seats": 34,
-   "stops": [
-    {
-     "code": "C1-23",
-     "name": "Centrepoint, Mirdif City Centre",
-     "time": "09:03",
+     "time": "06:52",
      "action": "pick_up",
      "lat": 25.2180926,
      "lng": 55.4085703,
@@ -20669,16 +20598,25 @@
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "09:08",
+     "time": "07:04",
      "action": "pick_up",
      "lat": 25.224246,
      "lng": 55.423615,
      "where_exactly": "Kerbside outside Exotic Fin Store, Uptown Mirdif, corner of Algeria St."
     },
     {
+     "code": "C1-13",
+     "name": "Nasayem Avenue, Mirdif Hills",
+     "time": "07:16",
+     "action": "pick_up",
+     "lat": 25.221963,
+     "lng": 55.440775,
+     "where_exactly": "RTA bus stop pole (F40 / F03) on 78th Street, Mirdif Hills Avenue."
+    },
+    {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
-     "time": "09:45",
+     "time": "07:45",
      "action": "set_down",
      "lat": 25.1321925,
      "lng": 55.4223161,
@@ -22596,82 +22534,21 @@
    "service": "undergraduate",
    "arrive_campus": "08:45",
    "leave_campus": null,
-   "start": "06:42",
+   "start": "07:12",
    "end": "08:45",
-   "vehicle": "M1",
-   "vehicle_type": "Rosa",
-   "seats": 34,
+   "vehicle": "M3",
+   "vehicle_type": "Hiace",
+   "seats": 12,
    "stops": [
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "06:42",
+     "time": "07:12",
      "action": "pick_up",
      "lat": 25.337533,
      "lng": 55.39061,
      "where_exactly": "Main entrance on King Faisal St."
     },
-    {
-     "code": "UOB",
-     "name": "University of Birmingham Dubai",
-     "time": "08:45",
-     "action": "set_down",
-     "lat": 25.1321925,
-     "lng": 55.4223161,
-     "where_exactly": ""
-    }
-   ]
-  },
-  {
-   "run_id": "2026-10-17-R1-R2",
-   "date": "2026-10-17",
-   "day": "Sat",
-   "route": "R1",
-   "direction": "from_campus",
-   "service": "undergraduate",
-   "arrive_campus": null,
-   "leave_campus": "16:55",
-   "start": "16:55",
-   "end": "19:38",
-   "vehicle": "M1",
-   "vehicle_type": "Rosa",
-   "seats": 34,
-   "stops": [
-    {
-     "code": "UOB",
-     "name": "University of Birmingham Dubai",
-     "time": "16:55",
-     "action": "pick_up",
-     "lat": 25.1321925,
-     "lng": 55.4223161,
-     "where_exactly": ""
-    },
-    {
-     "code": "C1-04",
-     "name": "Nesto Hypermarket, King Faisal St",
-     "time": "19:38",
-     "action": "set_down",
-     "lat": 25.337533,
-     "lng": 55.39061,
-     "where_exactly": "Main entrance on King Faisal St."
-    }
-   ]
-  },
-  {
-   "run_id": "2026-10-17-R2-O1",
-   "date": "2026-10-17",
-   "day": "Sat",
-   "route": "R2",
-   "direction": "to_campus",
-   "service": "undergraduate",
-   "arrive_campus": "08:45",
-   "leave_campus": null,
-   "start": "07:31",
-   "end": "08:45",
-   "vehicle": "M2",
-   "vehicle_type": "Rosa",
-   "seats": 34,
-   "stops": [
     {
      "code": "C1-15",
      "name": "Wasl Village, Central Parking",
@@ -22682,16 +22559,6 @@
      "where_exactly": "Other side of the road, outside Urban Slice; students wait at the bench."
     },
     {
-     "code": "C1-23",
-     "name": "Centrepoint, Mirdif City Centre",
-     "time": "07:36",
-     "action": "pick_up",
-     "lat": 25.2180926,
-     "lng": 55.4085703,
-     "where_exactly": "Centrepoint entrance, Mirdif City Centre (Tripoli St side) - kerb to be confirmed on audit.",
-     "offer_only_stop": true
-    },
-    {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
      "time": "08:45",
@@ -22703,19 +22570,19 @@
    ]
   },
   {
-   "run_id": "2026-10-17-R2-R3",
+   "run_id": "2026-10-17-R1-R3",
    "date": "2026-10-17",
    "day": "Sat",
-   "route": "R2",
+   "route": "R1",
    "direction": "from_campus",
    "service": "undergraduate",
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "19:50",
-   "vehicle": "M2",
-   "vehicle_type": "Rosa",
-   "seats": 34,
+   "end": "19:48",
+   "vehicle": "M3",
+   "vehicle_type": "Hiace",
+   "seats": 12,
    "stops": [
     {
      "code": "UOB",
@@ -22727,23 +22594,22 @@
      "where_exactly": ""
     },
     {
-     "code": "C1-23",
-     "name": "Centrepoint, Mirdif City Centre",
-     "time": "19:45",
-     "action": "set_down",
-     "lat": 25.2180926,
-     "lng": 55.4085703,
-     "where_exactly": "Centrepoint entrance, Mirdif City Centre (Tripoli St side) - kerb to be confirmed on audit.",
-     "offer_only_stop": true
-    },
-    {
      "code": "C1-15",
      "name": "Wasl Village, Central Parking",
-     "time": "19:50",
+     "time": "19:29",
      "action": "set_down",
      "lat": 25.289501,
      "lng": 55.4111465,
      "where_exactly": "Other side of the road, outside Urban Slice; students wait at the bench."
+    },
+    {
+     "code": "C1-04",
+     "name": "Nesto Hypermarket, King Faisal St",
+     "time": "19:48",
+     "action": "set_down",
+     "lat": 25.337533,
+     "lng": 55.39061,
+     "where_exactly": "Main entrance on King Faisal St."
     }
    ]
   },
@@ -22756,7 +22622,7 @@
    "service": "undergraduate",
    "arrive_campus": "08:45",
    "leave_campus": null,
-   "start": "07:30",
+   "start": "06:44",
    "end": "08:45",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
@@ -22765,7 +22631,7 @@
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "07:30",
+     "time": "06:44",
      "action": "pick_up",
      "lat": 25.075735,
      "lng": 55.140981,
@@ -22774,7 +22640,7 @@
     {
      "code": "C2-03",
      "name": "DMCC Metro Station",
-     "time": "07:36",
+     "time": "06:51",
      "action": "pick_up",
      "lat": 25.07122,
      "lng": 55.137072,
@@ -22783,91 +22649,12 @@
     {
      "code": "C2-08",
      "name": "Mall of the Emirates",
-     "time": "08:06",
+     "time": "07:09",
      "action": "pick_up",
      "lat": 25.1201411,
      "lng": 55.2011196,
      "where_exactly": "Pick-up point at 25.1201411, 55.2011196 (metro side)."
     },
-    {
-     "code": "UOB",
-     "name": "University of Birmingham Dubai",
-     "time": "08:45",
-     "action": "set_down",
-     "lat": 25.1321925,
-     "lng": 55.4223161,
-     "where_exactly": ""
-    }
-   ]
-  },
-  {
-   "run_id": "2026-10-17-R3-R3",
-   "date": "2026-10-17",
-   "day": "Sat",
-   "route": "R3",
-   "direction": "from_campus",
-   "service": "undergraduate",
-   "arrive_campus": null,
-   "leave_campus": "18:15",
-   "start": "18:15",
-   "end": "19:49",
-   "vehicle": "M4",
-   "vehicle_type": "Hiace",
-   "seats": 12,
-   "stops": [
-    {
-     "code": "UOB",
-     "name": "University of Birmingham Dubai",
-     "time": "18:15",
-     "action": "pick_up",
-     "lat": 25.1321925,
-     "lng": 55.4223161,
-     "where_exactly": ""
-    },
-    {
-     "code": "C2-08",
-     "name": "Mall of the Emirates",
-     "time": "19:05",
-     "action": "set_down",
-     "lat": 25.1201411,
-     "lng": 55.2011196,
-     "where_exactly": "Pick-up point at 25.1201411, 55.2011196 (metro side)."
-    },
-    {
-     "code": "C2-03",
-     "name": "DMCC Metro Station",
-     "time": "19:42",
-     "action": "set_down",
-     "lat": 25.07122,
-     "lng": 55.137072,
-     "where_exactly": "Outside the Yacht Bay sign (Yacht Bay building)."
-    },
-    {
-     "code": "C2-02",
-     "name": "Dubai Marina Mall",
-     "time": "19:49",
-     "action": "set_down",
-     "lat": 25.075735,
-     "lng": 55.140981,
-     "where_exactly": "Pick and drop point at Dubai Marina Mall."
-    }
-   ]
-  },
-  {
-   "run_id": "2026-10-17-R4-O1",
-   "date": "2026-10-17",
-   "day": "Sat",
-   "route": "R4",
-   "direction": "to_campus",
-   "service": "undergraduate",
-   "arrive_campus": "08:45",
-   "leave_campus": null,
-   "start": "07:25",
-   "end": "08:45",
-   "vehicle": "M6",
-   "vehicle_type": "Hiace",
-   "seats": 12,
-   "stops": [
     {
      "code": "C3-19",
      "name": "Regina Tower, JVC",
@@ -22916,17 +22703,17 @@
    ]
   },
   {
-   "run_id": "2026-10-17-R4-R3",
+   "run_id": "2026-10-17-R3-R3",
    "date": "2026-10-17",
    "day": "Sat",
-   "route": "R4",
+   "route": "R3",
    "direction": "from_campus",
    "service": "undergraduate",
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "19:56",
-   "vehicle": "M6",
+   "end": "19:55",
+   "vehicle": "M4",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -22940,9 +22727,71 @@
      "where_exactly": ""
     },
     {
+     "code": "C2-08",
+     "name": "Mall of the Emirates",
+     "time": "18:54",
+     "action": "set_down",
+     "lat": 25.1201411,
+     "lng": 55.2011196,
+     "where_exactly": "Pick-up point at 25.1201411, 55.2011196 (metro side)."
+    },
+    {
+     "code": "C2-03",
+     "name": "DMCC Metro Station",
+     "time": "19:24",
+     "action": "set_down",
+     "lat": 25.07122,
+     "lng": 55.137072,
+     "where_exactly": "Outside the Yacht Bay sign (Yacht Bay building)."
+    },
+    {
+     "code": "C2-02",
+     "name": "Dubai Marina Mall",
+     "time": "19:30",
+     "action": "set_down",
+     "lat": 25.075735,
+     "lng": 55.140981,
+     "where_exactly": "Pick and drop point at Dubai Marina Mall."
+    },
+    {
+     "code": "C4-09",
+     "name": "Holiday Inn, Al Maktoum Airport",
+     "time": "19:55",
+     "action": "set_down",
+     "lat": 24.867791,
+     "lng": 55.146192,
+     "where_exactly": "Hotel entrance, Aviation City."
+    }
+   ]
+  },
+  {
+   "run_id": "2026-10-17-R4-R3",
+   "date": "2026-10-17",
+   "day": "Sat",
+   "route": "R4",
+   "direction": "from_campus",
+   "service": "undergraduate",
+   "arrive_campus": null,
+   "leave_campus": "18:15",
+   "start": "18:15",
+   "end": "19:35",
+   "vehicle": "M8",
+   "vehicle_type": "Rosa",
+   "seats": 34,
+   "stops": [
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "18:15",
+     "action": "pick_up",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    },
+    {
      "code": "C3-14",
      "name": "Skycourts Towers",
-     "time": "18:33",
+     "time": "18:29",
      "action": "set_down",
      "lat": 25.0898954,
      "lng": 55.3865139,
@@ -22951,7 +22800,7 @@
     {
      "code": "C3-12",
      "name": "Arabian Ranches 3",
-     "time": "18:56",
+     "time": "18:48",
      "action": "set_down",
      "lat": 25.069629,
      "lng": 55.323824,
@@ -22960,7 +22809,7 @@
     {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "19:40",
+     "time": "19:22",
      "action": "set_down",
      "lat": 25.040494,
      "lng": 55.195971,
@@ -22969,7 +22818,7 @@
     {
      "code": "C3-19",
      "name": "Regina Tower, JVC",
-     "time": "19:56",
+     "time": "19:35",
      "action": "set_down",
      "lat": 25.057284,
      "lng": 55.212609,
@@ -23031,7 +22880,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "20:56",
+   "end": "20:21",
    "vehicle": "M9",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -23048,7 +22897,7 @@
     {
      "code": "C4-04",
      "name": "Mubadala Tower, Sultan Bin Zayed St",
-     "time": "20:35",
+     "time": "20:04",
      "action": "set_down",
      "lat": 24.4223437,
      "lng": 54.4544927,
@@ -23057,7 +22906,7 @@
     {
      "code": "C4-02",
      "name": "The Gate Towers, Al Reem Island",
-     "time": "20:56",
+     "time": "20:21",
      "action": "set_down",
      "lat": 24.492995,
      "lng": 54.408057,
@@ -23097,41 +22946,6 @@
      "lat": 25.1321925,
      "lng": 55.4223161,
      "where_exactly": ""
-    }
-   ]
-  },
-  {
-   "run_id": "2026-10-17-R6-R3",
-   "date": "2026-10-17",
-   "day": "Sat",
-   "route": "R6",
-   "direction": "from_campus",
-   "service": "undergraduate",
-   "arrive_campus": null,
-   "leave_campus": "18:15",
-   "start": "18:15",
-   "end": "19:54",
-   "vehicle": "M10",
-   "vehicle_type": "Hiace",
-   "seats": 12,
-   "stops": [
-    {
-     "code": "UOB",
-     "name": "University of Birmingham Dubai",
-     "time": "18:15",
-     "action": "pick_up",
-     "lat": 25.1321925,
-     "lng": 55.4223161,
-     "where_exactly": ""
-    },
-    {
-     "code": "C4-09",
-     "name": "Holiday Inn, Al Maktoum Airport",
-     "time": "19:54",
-     "action": "set_down",
-     "lat": 24.867791,
-     "lng": 55.146192,
-     "where_exactly": "Hotel entrance, Aviation City."
     }
    ]
   },
@@ -23189,50 +23003,6 @@
    ]
   },
   {
-   "run_id": "2026-10-17-R7-R2",
-   "date": "2026-10-17",
-   "day": "Sat",
-   "route": "R7",
-   "direction": "from_campus",
-   "service": "undergraduate",
-   "arrive_campus": null,
-   "leave_campus": "16:55",
-   "start": "16:55",
-   "end": "18:47",
-   "vehicle": "M11",
-   "vehicle_type": "Hiace",
-   "seats": 12,
-   "stops": [
-    {
-     "code": "UOB",
-     "name": "University of Birmingham Dubai",
-     "time": "16:55",
-     "action": "pick_up",
-     "lat": 25.1321925,
-     "lng": 55.4223161,
-     "where_exactly": ""
-    },
-    {
-     "code": "C5-20",
-     "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
-     "time": "18:06",
-     "action": "set_down",
-     "lat": 25.186457,
-     "lng": 55.282055,
-     "where_exactly": "Kerbside on Abraj Street outside the DAMAC Maison Majestine entrance, opposite Bay Square 13."
-    },
-    {
-     "code": "C5-19",
-     "name": "Al Raffa, 7E Street (near Al Khaleej Centre)",
-     "time": "18:47",
-     "action": "set_down",
-     "lat": 25.25816,
-     "lng": 55.297127,
-     "where_exactly": "Kerbside at the pin on 7E Street, Al Raffa, near Al Khaleej Centre - wait on the main-road side; kerb to confirm on audit."
-    }
-   ]
-  },
-  {
    "run_id": "2026-10-17-R7-R3",
    "date": "2026-10-17",
    "day": "Sat",
@@ -23242,8 +23012,8 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "19:50",
-   "vehicle": "M12",
+   "end": "19:43",
+   "vehicle": "M11",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -23257,13 +23027,31 @@
      "where_exactly": ""
     },
     {
+     "code": "C5-20",
+     "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
+     "time": "19:11",
+     "action": "set_down",
+     "lat": 25.186457,
+     "lng": 55.282055,
+     "where_exactly": "Kerbside on Abraj Street outside the DAMAC Maison Majestine entrance, opposite Bay Square 13."
+    },
+    {
      "code": "C5-18",
      "name": "The First Collection Business Bay (hotel), Al A'amal St",
-     "time": "19:50",
+     "time": "19:29",
      "action": "set_down",
      "lat": 25.1783788,
      "lng": 55.2679776,
      "where_exactly": "Kerbside outside the hotel entrance on Al A'amal Street, 280 m from Ubora Tower."
+    },
+    {
+     "code": "C5-19",
+     "name": "Al Raffa, 7E Street (near Al Khaleej Centre)",
+     "time": "19:43",
+     "action": "set_down",
+     "lat": 25.25816,
+     "lng": 55.297127,
+     "where_exactly": "Kerbside at the pin on 7E Street, Al Raffa, near Al Khaleej Centre - wait on the main-road side; kerb to confirm on audit."
     }
    ]
   },
@@ -23276,16 +23064,16 @@
    "service": "undergraduate",
    "arrive_campus": "08:45",
    "leave_campus": null,
-   "start": "07:31",
+   "start": "06:54",
    "end": "08:45",
-   "vehicle": "M2",
-   "vehicle_type": "Rosa",
-   "seats": 34,
+   "vehicle": "M11",
+   "vehicle_type": "Hiace",
+   "seats": 12,
    "stops": [
     {
      "code": "C1-15",
      "name": "Wasl Village, Central Parking",
-     "time": "07:31",
+     "time": "06:54",
      "action": "pick_up",
      "lat": 25.289501,
      "lng": 55.4111465,
@@ -23294,12 +23082,21 @@
     {
      "code": "C1-23",
      "name": "Centrepoint, Mirdif City Centre",
-     "time": "07:36",
+     "time": "06:59",
      "action": "pick_up",
      "lat": 25.2180926,
      "lng": 55.4085703,
      "where_exactly": "Centrepoint entrance, Mirdif City Centre (Tripoli St side) - kerb to be confirmed on audit.",
      "offer_only_stop": true
+    },
+    {
+     "code": "C5-18",
+     "name": "The First Collection Business Bay (hotel), Al A'amal St",
+     "time": "07:31",
+     "action": "pick_up",
+     "lat": 25.1783788,
+     "lng": 55.2679776,
+     "where_exactly": "Kerbside outside the hotel entrance on Al A'amal Street, 280 m from Ubora Tower."
     },
     {
      "code": "UOB",
@@ -23322,10 +23119,10 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "19:50",
-   "vehicle": "M2",
-   "vehicle_type": "Rosa",
-   "seats": 34,
+   "end": "20:06",
+   "vehicle": "M11",
+   "vehicle_type": "Hiace",
+   "seats": 12,
    "stops": [
     {
      "code": "UOB",
@@ -23337,9 +23134,18 @@
      "where_exactly": ""
     },
     {
+     "code": "C5-18",
+     "name": "The First Collection Business Bay (hotel), Al A'amal St",
+     "time": "19:29",
+     "action": "set_down",
+     "lat": 25.1783788,
+     "lng": 55.2679776,
+     "where_exactly": "Kerbside outside the hotel entrance on Al A'amal Street, 280 m from Ubora Tower."
+    },
+    {
      "code": "C1-23",
      "name": "Centrepoint, Mirdif City Centre",
-     "time": "19:45",
+     "time": "20:01",
      "action": "set_down",
      "lat": 25.2180926,
      "lng": 55.4085703,
@@ -23349,7 +23155,7 @@
     {
      "code": "C1-15",
      "name": "Wasl Village, Central Parking",
-     "time": "19:50",
+     "time": "20:06",
      "action": "set_down",
      "lat": 25.289501,
      "lng": 55.4111465,
@@ -23366,7 +23172,7 @@
    "service": "undergraduate",
    "arrive_campus": "08:45",
    "leave_campus": null,
-   "start": "07:32",
+   "start": "06:51",
    "end": "08:45",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
@@ -23375,7 +23181,7 @@
     {
      "code": "C2-03",
      "name": "DMCC Metro Station",
-     "time": "07:32",
+     "time": "06:51",
      "action": "pick_up",
      "lat": 25.07122,
      "lng": 55.137072,
@@ -23384,108 +23190,12 @@
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "07:53",
+     "time": "07:08",
      "action": "pick_up",
      "lat": 25.1021161,
      "lng": 55.1740882,
      "where_exactly": "Dubai Internet City Metro Station - pin as set 6 Oct (Dan); kerb text to confirm on audit."
     },
-    {
-     "code": "UOB",
-     "name": "University of Birmingham Dubai",
-     "time": "08:45",
-     "action": "set_down",
-     "lat": 25.1321925,
-     "lng": 55.4223161,
-     "where_exactly": ""
-    }
-   ]
-  },
-  {
-   "run_id": "2026-10-18-R3-R1",
-   "date": "2026-10-18",
-   "day": "Sun",
-   "route": "R3",
-   "direction": "from_campus",
-   "service": "undergraduate",
-   "arrive_campus": null,
-   "leave_campus": "14:15",
-   "start": "14:15",
-   "end": "15:15",
-   "vehicle": "M4",
-   "vehicle_type": "Hiace",
-   "seats": 12,
-   "stops": [
-    {
-     "code": "UOB",
-     "name": "University of Birmingham Dubai",
-     "time": "14:15",
-     "action": "pick_up",
-     "lat": 25.1321925,
-     "lng": 55.4223161,
-     "where_exactly": ""
-    },
-    {
-     "code": "C2-03",
-     "name": "DMCC Metro Station",
-     "time": "15:15",
-     "action": "set_down",
-     "lat": 25.07122,
-     "lng": 55.137072,
-     "where_exactly": "Outside the Yacht Bay sign (Yacht Bay building)."
-    }
-   ]
-  },
-  {
-   "run_id": "2026-10-18-R3-R3",
-   "date": "2026-10-18",
-   "day": "Sun",
-   "route": "R3",
-   "direction": "from_campus",
-   "service": "undergraduate",
-   "arrive_campus": null,
-   "leave_campus": "18:15",
-   "start": "18:15",
-   "end": "19:32",
-   "vehicle": "M4",
-   "vehicle_type": "Hiace",
-   "seats": 12,
-   "stops": [
-    {
-     "code": "UOB",
-     "name": "University of Birmingham Dubai",
-     "time": "18:15",
-     "action": "pick_up",
-     "lat": 25.1321925,
-     "lng": 55.4223161,
-     "where_exactly": ""
-    },
-    {
-     "code": "C2-07",
-     "name": "Dubai Internet City Metro Station",
-     "time": "19:32",
-     "action": "set_down",
-     "lat": 25.1021161,
-     "lng": 55.1740882,
-     "where_exactly": "Dubai Internet City Metro Station - pin as set 6 Oct (Dan); kerb text to confirm on audit."
-    }
-   ]
-  },
-  {
-   "run_id": "2026-10-18-R4-O1",
-   "date": "2026-10-18",
-   "day": "Sun",
-   "route": "R4",
-   "direction": "to_campus",
-   "service": "undergraduate",
-   "arrive_campus": "08:45",
-   "leave_campus": null,
-   "start": "07:24",
-   "end": "08:45",
-   "vehicle": "M6",
-   "vehicle_type": "Hiace",
-   "seats": 12,
-   "stops": [
     {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
@@ -23516,17 +23226,52 @@
    ]
   },
   {
-   "run_id": "2026-10-18-R4-R3",
+   "run_id": "2026-10-18-R3-R1",
    "date": "2026-10-18",
    "day": "Sun",
-   "route": "R4",
+   "route": "R3",
+   "direction": "from_campus",
+   "service": "undergraduate",
+   "arrive_campus": null,
+   "leave_campus": "14:15",
+   "start": "14:15",
+   "end": "15:25",
+   "vehicle": "M4",
+   "vehicle_type": "Hiace",
+   "seats": 12,
+   "stops": [
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "14:15",
+     "action": "pick_up",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    },
+    {
+     "code": "C2-03",
+     "name": "DMCC Metro Station",
+     "time": "15:25",
+     "action": "set_down",
+     "lat": 25.07122,
+     "lng": 55.137072,
+     "where_exactly": "Outside the Yacht Bay sign (Yacht Bay building)."
+    }
+   ]
+  },
+  {
+   "run_id": "2026-10-18-R3-R3",
+   "date": "2026-10-18",
+   "day": "Sun",
+   "route": "R3",
    "direction": "from_campus",
    "service": "undergraduate",
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "19:59",
-   "vehicle": "M6",
+   "end": "19:52",
+   "vehicle": "M4",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -23542,7 +23287,7 @@
     {
      "code": "C3-14",
      "name": "Skycourts Towers",
-     "time": "18:50",
+     "time": "18:42",
      "action": "set_down",
      "lat": 25.0898954,
      "lng": 55.3865139,
@@ -23551,11 +23296,20 @@
     {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "19:59",
+     "time": "19:36",
      "action": "set_down",
      "lat": 25.040494,
      "lng": 55.195971,
      "where_exactly": "Outside drop-off area by Tim Hortons, City Centre Me'aisem."
+    },
+    {
+     "code": "C2-07",
+     "name": "Dubai Internet City Metro Station",
+     "time": "19:52",
+     "action": "set_down",
+     "lat": 25.1021161,
+     "lng": 55.1740882,
+     "where_exactly": "Dubai Internet City Metro Station - pin as set 6 Oct (Dan); kerb text to confirm on audit."
     }
    ]
   },
@@ -23604,7 +23358,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "20:54",
+   "end": "20:19",
    "vehicle": "M9",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -23621,81 +23375,11 @@
     {
      "code": "C4-04",
      "name": "Mubadala Tower, Sultan Bin Zayed St",
-     "time": "20:54",
+     "time": "20:19",
      "action": "set_down",
      "lat": 24.4223437,
      "lng": 54.4544927,
      "where_exactly": "Outside the Ministry of Human Resources & Emiratisation (Abu Dhabi Labour Office) entrance of Mubadala Tower, Sultan Bin Zayed the First St - pin from rider 6 Oct; kerb to confirm on audit."
-    }
-   ]
-  },
-  {
-   "run_id": "2026-10-18-R7-O1",
-   "date": "2026-10-18",
-   "day": "Sun",
-   "route": "R7",
-   "direction": "to_campus",
-   "service": "undergraduate",
-   "arrive_campus": "08:45",
-   "leave_campus": null,
-   "start": "07:31",
-   "end": "08:45",
-   "vehicle": "M11",
-   "vehicle_type": "Hiace",
-   "seats": 12,
-   "stops": [
-    {
-     "code": "C5-18",
-     "name": "The First Collection Business Bay (hotel), Al A'amal St",
-     "time": "07:31",
-     "action": "pick_up",
-     "lat": 25.1783788,
-     "lng": 55.2679776,
-     "where_exactly": "Kerbside outside the hotel entrance on Al A'amal Street, 280 m from Ubora Tower."
-    },
-    {
-     "code": "UOB",
-     "name": "University of Birmingham Dubai",
-     "time": "08:45",
-     "action": "set_down",
-     "lat": 25.1321925,
-     "lng": 55.4223161,
-     "where_exactly": ""
-    }
-   ]
-  },
-  {
-   "run_id": "2026-10-18-R7-R3",
-   "date": "2026-10-18",
-   "day": "Sun",
-   "route": "R7",
-   "direction": "from_campus",
-   "service": "undergraduate",
-   "arrive_campus": null,
-   "leave_campus": "18:15",
-   "start": "18:15",
-   "end": "19:50",
-   "vehicle": "M11",
-   "vehicle_type": "Hiace",
-   "seats": 12,
-   "stops": [
-    {
-     "code": "UOB",
-     "name": "University of Birmingham Dubai",
-     "time": "18:15",
-     "action": "pick_up",
-     "lat": 25.1321925,
-     "lng": 55.4223161,
-     "where_exactly": ""
-    },
-    {
-     "code": "C5-18",
-     "name": "The First Collection Business Bay (hotel), Al A'amal St",
-     "time": "19:50",
-     "action": "set_down",
-     "lat": 25.1783788,
-     "lng": 55.2679776,
-     "where_exactly": "Kerbside outside the hotel entrance on Al A'amal Street, 280 m from Ubora Tower."
     }
    ]
   }
