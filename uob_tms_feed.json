@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-09T12:46:38Z",
+ "generated_at": "2026-10-09T13:28:38Z",
  "week": "2026-10-09 to 2026-10-18",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -1271,8 +1271,27 @@
      "type": "rider_only"
     },
     {
-     "code": "C4-17",
+     "code": "C4-24",
      "order": 4,
+     "name": "Al Dibsi Street, Tourist Club Area, Abu Dhabi",
+     "lat": 24.49105,
+     "lng": 54.38039,
+     "google_place_id": "ChIJr4qFPABnXj4RUJ2kTjLqfow",
+     "where_exactly": "Kerbside on Al Dibsi Street outside the rider's building, Tourist Club Area (Al Zahiyah). Rider-only stop.",
+     "pickup_lat": 24.49105,
+     "pickup_lng": 54.38039,
+     "pickup_where_exactly": "Kerbside on Al Dibsi Street outside the rider's building, Tourist Club Area (Al Zahiyah). Rider-only stop.",
+     "setdown_lat": 24.49105,
+     "setdown_lng": 54.38039,
+     "setdown_where_exactly": "Kerbside on Al Dibsi Street outside the rider's building, Tourist Club Area (Al Zahiyah). Rider-only stop.",
+     "audited": false,
+     "rider_instructions": "Wait at the kerb outside your building on Al Dibsi Street. Be here 5 minutes before your time and look for the yellow M sign in the bus windscreen.",
+     "driver_instructions": "Kerbside on Al Dibsi Street outside the rider's building, Tourist Club Area, Abu Dhabi. Only served on booked days.",
+     "type": "rider_only"
+    },
+    {
+     "code": "C4-17",
+     "order": 5,
      "name": "Al Falah St / Ministry of Finance bus stop",
      "lat": 24.4843472,
      "lng": 54.377167,
@@ -1291,7 +1310,7 @@
     },
     {
      "code": "C4-02",
-     "order": 5,
+     "order": 6,
      "name": "The Gate Towers, Al Reem Island",
      "lat": 24.492995,
      "lng": 54.408057,
@@ -1310,7 +1329,7 @@
     },
     {
      "code": "C4-21",
-     "order": 6,
+     "order": 7,
      "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
      "lat": 24.4757537,
      "lng": 54.3663931,
@@ -1329,7 +1348,7 @@
     },
     {
      "code": "C4-03",
-     "order": 7,
+     "order": 8,
      "name": "Al Wahda Mall",
      "lat": 24.471638,
      "lng": 54.372417,
@@ -1348,7 +1367,7 @@
     },
     {
      "code": "C4-04",
-     "order": 8,
+     "order": 9,
      "name": "Mubadala Tower, Sultan Bin Zayed St",
      "lat": 24.4223437,
      "lng": 54.4544927,
@@ -1367,7 +1386,7 @@
     },
     {
      "code": "C4-05",
-     "order": 9,
+     "order": 10,
      "name": "Yasmina School back gate, Raha Gardens",
      "lat": 24.426,
      "lng": 54.5467,
@@ -1386,7 +1405,7 @@
     },
     {
      "code": "C4-18",
-     "order": 10,
+     "order": 11,
      "name": "Super Nanny Nursery, Khalifa City, Abu Dhabi",
      "lat": 24.41338,
      "lng": 54.5594598,
@@ -1405,7 +1424,7 @@
     },
     {
      "code": "C4-06",
-     "order": 11,
+     "order": 12,
      "name": "Al Forsan Village main gate",
      "lat": 24.4044,
      "lng": 54.5514,
@@ -1424,7 +1443,7 @@
     },
     {
      "code": "C4-07",
-     "order": 12,
+     "order": 13,
      "name": "Al Zeina, Al Raha Beach",
      "lat": 24.4555591,
      "lng": 54.6131136,
@@ -1443,7 +1462,7 @@
     },
     {
      "code": "C4-15",
-     "order": 13,
+     "order": 14,
      "name": "Deerfields Mall, Al Bahia",
      "lat": 24.523305,
      "lng": 54.671536,
@@ -1462,7 +1481,7 @@
     },
     {
      "code": "C4-08",
-     "order": 14,
+     "order": 15,
      "name": "Al Ghadeer community gate",
      "lat": 24.8443745,
      "lng": 55.0261656,
@@ -6530,7 +6549,7 @@
    "arrive_campus": null,
    "leave_campus": "16:15",
    "start": "16:15",
-   "end": "18:01",
+   "end": "18:04",
    "vehicle": "M3",
    "vehicle_type": "Rosa",
    "seats": 34,
@@ -6545,9 +6564,18 @@
      "where_exactly": ""
     },
     {
+     "code": "C2-08",
+     "name": "Mall of the Emirates",
+     "time": "16:50",
+     "action": "set_down",
+     "lat": 25.1201411,
+     "lng": 55.2011196,
+     "where_exactly": "Pick-up point at 25.1201411, 55.2011196 (metro side)."
+    },
+    {
      "code": "C2-10",
      "name": "Al Manaf Building, Al Barsha 1",
-     "time": "16:52",
+     "time": "16:59",
      "action": "set_down",
      "lat": 25.1110756,
      "lng": 55.2057285,
@@ -6556,7 +6584,7 @@
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "17:05",
+     "time": "17:11",
      "action": "set_down",
      "lat": 25.1021161,
      "lng": 55.1740882,
@@ -6565,7 +6593,7 @@
     {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "17:14",
+     "time": "17:19",
      "action": "set_down",
      "lat": 25.093492,
      "lng": 55.177807,
@@ -6574,7 +6602,7 @@
     {
      "code": "C2-05",
      "name": "The Meadows Village",
-     "time": "17:28",
+     "time": "17:33",
      "action": "set_down",
      "lat": 25.0637,
      "lng": 55.1573,
@@ -6583,7 +6611,7 @@
     {
      "code": "C2-04",
      "name": "Sobha Realty Metro Station",
-     "time": "17:43",
+     "time": "17:47",
      "action": "set_down",
      "lat": 25.08243,
      "lng": 55.148317,
@@ -6592,7 +6620,7 @@
     {
      "code": "C2-03",
      "name": "DMCC Metro Station",
-     "time": "17:55",
+     "time": "17:58",
      "action": "set_down",
      "lat": 25.07122,
      "lng": 55.137072,
@@ -6601,7 +6629,7 @@
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "18:01",
+     "time": "18:04",
      "action": "set_down",
      "lat": 25.075735,
      "lng": 55.140981,
@@ -7616,13 +7644,13 @@
      "where_exactly": "Outside the front of Al Mariah Mall."
     },
     {
-     "code": "C4-17",
-     "name": "Al Falah St / Ministry of Finance bus stop",
+     "code": "C4-24",
+     "name": "Al Dibsi Street, Tourist Club Area, Abu Dhabi",
      "time": "08:58",
      "action": "pick_up",
-     "lat": 24.4843472,
-     "lng": 54.377167,
-     "where_exactly": "RTA/ITC bus stop on Al Falah St opposite the Ministry of Finance; 2 minutes maximum."
+     "lat": 24.49105,
+     "lng": 54.38039,
+     "where_exactly": "Kerbside on Al Dibsi Street outside the rider's building, Tourist Club Area (Al Zahiyah). Rider-only stop."
     },
     {
      "code": "C4-08",
@@ -7777,20 +7805,20 @@
     {
      "code": "C4-03",
      "name": "Al Wahda Mall",
-     "time": "19:14",
+     "time": "19:13",
      "action": "set_down",
      "lat": 24.471638,
      "lng": 54.372417,
      "where_exactly": "Bus stop shelter by Al Wahda Mall (as shown in the photo)."
     },
     {
-     "code": "C4-17",
-     "name": "Al Falah St / Ministry of Finance bus stop",
+     "code": "C4-24",
+     "name": "Al Dibsi Street, Tourist Club Area, Abu Dhabi",
      "time": "19:17",
      "action": "set_down",
-     "lat": 24.4843472,
-     "lng": 54.377167,
-     "where_exactly": "RTA/ITC bus stop on Al Falah St opposite the Ministry of Finance; 2 minutes maximum."
+     "lat": 24.49105,
+     "lng": 54.38039,
+     "where_exactly": "Kerbside on Al Dibsi Street outside the rider's building, Tourist Club Area (Al Zahiyah). Rider-only stop."
     },
     {
      "code": "C4-01",
@@ -8813,7 +8841,7 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:03",
+   "start": "05:06",
    "end": "07:45",
    "vehicle": "M1",
    "vehicle_type": "Rosa",
@@ -8822,25 +8850,16 @@
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "05:03",
+     "time": "05:06",
      "action": "pick_up",
      "lat": 25.337533,
      "lng": 55.39061,
      "where_exactly": "Main entrance on King Faisal St."
     },
     {
-     "code": "C1-18",
-     "name": "Shamseen Bakeries Building, Al Majaz",
-     "time": "05:21",
-     "action": "pick_up",
-     "lat": 25.33253,
-     "lng": 55.37588,
-     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
-    },
-    {
      "code": "C1-05",
      "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "05:42",
+     "time": "05:35",
      "action": "pick_up",
      "lat": 25.305885121719236,
      "lng": 55.363729380596915,
@@ -8849,7 +8868,7 @@
     {
      "code": "C1-02",
      "name": "City Centre Al Zahia",
-     "time": "06:39",
+     "time": "06:35",
      "action": "pick_up",
      "lat": 25.318044,
      "lng": 55.457279,
@@ -9120,7 +9139,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "21:07",
+   "end": "21:04",
    "vehicle": "M1",
    "vehicle_type": "Rosa",
    "seats": 34,
@@ -9137,7 +9156,7 @@
     {
      "code": "C1-02",
      "name": "City Centre Al Zahia",
-     "time": "19:22",
+     "time": "19:24",
      "action": "set_down",
      "lat": 25.318044,
      "lng": 55.457279,
@@ -9146,7 +9165,7 @@
     {
      "code": "C1-06",
      "name": "Sahara Centre",
-     "time": "19:53",
+     "time": "19:57",
      "action": "set_down",
      "lat": 25.297153,
      "lng": 55.371026,
@@ -9155,7 +9174,7 @@
     {
      "code": "C1-16",
      "name": "LuLu Hypermarket Al Nahda, Sharjah",
-     "time": "20:04",
+     "time": "20:09",
      "action": "set_down",
      "lat": 25.303505,
      "lng": 55.375491,
@@ -9164,7 +9183,7 @@
     {
      "code": "C1-05",
      "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "20:16",
+     "time": "20:21",
      "action": "set_down",
      "lat": 25.305885121719236,
      "lng": 55.363729380596915,
@@ -9173,7 +9192,7 @@
     {
      "code": "C1-21",
      "name": "Sahab Al Emarat, Al Mamzar, Sharjah",
-     "time": "20:27",
+     "time": "20:33",
      "action": "set_down",
      "lat": 25.31578,
      "lng": 55.35863,
@@ -9182,25 +9201,16 @@
     {
      "code": "C1-20",
      "name": "Al Buhaira Police Station bus stop, Al Majaz 3",
-     "time": "20:44",
+     "time": "20:50",
      "action": "set_down",
      "lat": 25.323284,
      "lng": 55.381418,
      "where_exactly": "Bus stop by Al Buhaira Police Station on Al Intifada St; 2 minutes maximum."
     },
     {
-     "code": "C1-18",
-     "name": "Shamseen Bakeries Building, Al Majaz",
-     "time": "20:55",
-     "action": "set_down",
-     "lat": 25.33253,
-     "lng": 55.37588,
-     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
-    },
-    {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "21:07",
+     "time": "21:04",
      "action": "set_down",
      "lat": 25.337533,
      "lng": 55.39061,
@@ -10165,7 +10175,7 @@
    "arrive_campus": null,
    "leave_campus": "16:15",
    "start": "16:15",
-   "end": "17:55",
+   "end": "17:58",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -10182,7 +10192,7 @@
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "17:03",
+     "time": "16:59",
      "action": "set_down",
      "lat": 25.1021161,
      "lng": 55.1740882,
@@ -10191,7 +10201,7 @@
     {
      "code": "C2-15",
      "name": "Al Nakheel 2A, The Greens",
-     "time": "17:12",
+     "time": "17:07",
      "action": "set_down",
      "lat": 25.09445,
      "lng": 55.1697,
@@ -10200,16 +10210,25 @@
     {
      "code": "C2-09",
      "name": "Springs 10 Gatehouse",
-     "time": "17:30",
+     "time": "17:23",
      "action": "set_down",
      "lat": 25.0556628,
      "lng": 55.1803096,
      "where_exactly": "Outside the Springs 10 gatehouse on Street 1, before the barrier."
     },
     {
+     "code": "C2-04",
+     "name": "Sobha Realty Metro Station",
+     "time": "17:40",
+     "action": "set_down",
+     "lat": 25.08243,
+     "lng": 55.148317,
+     "where_exactly": "Sea side of Sobha Realty Metro Station, near the Carrefour Market sign; bus pick-up point."
+    },
+    {
      "code": "C2-03",
      "name": "DMCC Metro Station",
-     "time": "17:48",
+     "time": "17:52",
      "action": "set_down",
      "lat": 25.07122,
      "lng": 55.137072,
@@ -10218,7 +10237,7 @@
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "17:55",
+     "time": "17:58",
      "action": "set_down",
      "lat": 25.075735,
      "lng": 55.140981,
@@ -10334,7 +10353,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "19:53",
+   "end": "19:56",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -10349,9 +10368,18 @@
      "where_exactly": ""
     },
     {
+     "code": "C2-08",
+     "name": "Mall of the Emirates",
+     "time": "18:54",
+     "action": "set_down",
+     "lat": 25.1201411,
+     "lng": 55.2011196,
+     "where_exactly": "Pick-up point at 25.1201411, 55.2011196 (metro side)."
+    },
+    {
      "code": "C2-16",
      "name": "Umm Suqeim Rd bus stop by ENOC 1099, Al Barsha 1",
-     "time": "18:55",
+     "time": "19:00",
      "action": "set_down",
      "lat": 25.1184,
      "lng": 55.2077,
@@ -10360,7 +10388,7 @@
     {
      "code": "C2-10",
      "name": "Al Manaf Building, Al Barsha 1",
-     "time": "19:02",
+     "time": "19:08",
      "action": "set_down",
      "lat": 25.1110756,
      "lng": 55.2057285,
@@ -10369,7 +10397,7 @@
     {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "19:17",
+     "time": "19:21",
      "action": "set_down",
      "lat": 25.093492,
      "lng": 55.177807,
@@ -10378,7 +10406,7 @@
     {
      "code": "C2-03",
      "name": "DMCC Metro Station",
-     "time": "19:35",
+     "time": "19:39",
      "action": "set_down",
      "lat": 25.07122,
      "lng": 55.137072,
@@ -10387,7 +10415,7 @@
     {
      "code": "C2-01",
      "name": "Al Sarood, Shoreline 13, Palm Jumeirah",
-     "time": "19:53",
+     "time": "19:56",
      "action": "set_down",
      "lat": 25.11202,
      "lng": 55.142781,
@@ -11278,18 +11306,18 @@
      "where_exactly": "Outside the front of Al Mariah Mall."
     },
     {
-     "code": "C4-17",
-     "name": "Al Falah St / Ministry of Finance bus stop",
+     "code": "C4-24",
+     "name": "Al Dibsi Street, Tourist Club Area, Abu Dhabi",
      "time": "04:40",
      "action": "pick_up",
-     "lat": 24.4843472,
-     "lng": 54.377167,
-     "where_exactly": "RTA/ITC bus stop on Al Falah St opposite the Ministry of Finance; 2 minutes maximum."
+     "lat": 24.49105,
+     "lng": 54.38039,
+     "where_exactly": "Kerbside on Al Dibsi Street outside the rider's building, Tourist Club Area (Al Zahiyah). Rider-only stop."
     },
     {
      "code": "C4-21",
      "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
-     "time": "04:48",
+     "time": "04:50",
      "action": "pick_up",
      "lat": 24.4757537,
      "lng": 54.3663931,
@@ -11298,7 +11326,7 @@
     {
      "code": "C4-03",
      "name": "Al Wahda Mall",
-     "time": "04:54",
+     "time": "04:56",
      "action": "pick_up",
      "lat": 24.471638,
      "lng": 54.372417,
@@ -11307,7 +11335,7 @@
     {
      "code": "C4-18",
      "name": "Super Nanny Nursery, Khalifa City, Abu Dhabi",
-     "time": "05:20",
+     "time": "05:22",
      "action": "pick_up",
      "lat": 24.41338,
      "lng": 54.5594598,
@@ -11316,7 +11344,7 @@
     {
      "code": "C4-06",
      "name": "Al Forsan Village main gate",
-     "time": "05:27",
+     "time": "05:29",
      "action": "pick_up",
      "lat": 24.4044,
      "lng": 54.5514,
@@ -11632,13 +11660,13 @@
      "where_exactly": "Kerbside on Airport Road (Sheikh Rashid Bin Saeed St) at the Al Falah Street junction, outside Ramee Garden Hotel Apartments opposite NBAD - southbound side for pick-ups (towards Al Wahda), northbound side for set-downs."
     },
     {
-     "code": "C4-17",
-     "name": "Al Falah St / Ministry of Finance bus stop",
-     "time": "20:46",
+     "code": "C4-24",
+     "name": "Al Dibsi Street, Tourist Club Area, Abu Dhabi",
+     "time": "20:48",
      "action": "set_down",
-     "lat": 24.4843472,
-     "lng": 54.377167,
-     "where_exactly": "RTA/ITC bus stop on Al Falah St opposite the Ministry of Finance; 2 minutes maximum."
+     "lat": 24.49105,
+     "lng": 54.38039,
+     "where_exactly": "Kerbside on Al Dibsi Street outside the rider's building, Tourist Club Area (Al Zahiyah). Rider-only stop."
     },
     {
      "code": "C4-23",
@@ -12685,7 +12713,7 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:00",
+   "start": "05:03",
    "end": "07:45",
    "vehicle": "M1",
    "vehicle_type": "Rosa",
@@ -12694,25 +12722,16 @@
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "05:00",
+     "time": "05:03",
      "action": "pick_up",
      "lat": 25.337533,
      "lng": 55.39061,
      "where_exactly": "Main entrance on King Faisal St."
     },
     {
-     "code": "C1-18",
-     "name": "Shamseen Bakeries Building, Al Majaz",
-     "time": "05:17",
-     "action": "pick_up",
-     "lat": 25.33253,
-     "lng": 55.37588,
-     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
-    },
-    {
      "code": "C1-20",
      "name": "Al Buhaira Police Station bus stop, Al Majaz 3",
-     "time": "05:30",
+     "time": "05:23",
      "action": "pick_up",
      "lat": 25.323284,
      "lng": 55.381418,
@@ -12721,7 +12740,7 @@
     {
      "code": "C1-05",
      "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "05:55",
+     "time": "05:49",
      "action": "pick_up",
      "lat": 25.305885121719236,
      "lng": 55.363729380596915,
@@ -12730,7 +12749,7 @@
     {
      "code": "C1-02",
      "name": "City Centre Al Zahia",
-     "time": "06:46",
+     "time": "06:43",
      "action": "pick_up",
      "lat": 25.318044,
      "lng": 55.457279,
@@ -12968,7 +12987,7 @@
     {
      "code": "C1-02",
      "name": "City Centre Al Zahia",
-     "time": "19:27",
+     "time": "19:32",
      "action": "set_down",
      "lat": 25.318044,
      "lng": 55.457279,
@@ -12977,7 +12996,7 @@
     {
      "code": "C1-16",
      "name": "LuLu Hypermarket Al Nahda, Sharjah",
-     "time": "19:59",
+     "time": "20:06",
      "action": "set_down",
      "lat": 25.303505,
      "lng": 55.375491,
@@ -12986,7 +13005,7 @@
     {
      "code": "C1-05",
      "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "20:12",
+     "time": "20:19",
      "action": "set_down",
      "lat": 25.305885121719236,
      "lng": 55.363729380596915,
@@ -12995,7 +13014,7 @@
     {
      "code": "C1-21",
      "name": "Sahab Al Emarat, Al Mamzar, Sharjah",
-     "time": "20:24",
+     "time": "20:32",
      "action": "set_down",
      "lat": 25.31578,
      "lng": 55.35863,
@@ -13004,20 +13023,11 @@
     {
      "code": "C1-20",
      "name": "Al Buhaira Police Station bus stop, Al Majaz 3",
-     "time": "20:42",
+     "time": "20:51",
      "action": "set_down",
      "lat": 25.323284,
      "lng": 55.381418,
      "where_exactly": "Bus stop by Al Buhaira Police Station on Al Intifada St; 2 minutes maximum."
-    },
-    {
-     "code": "C1-18",
-     "name": "Shamseen Bakeries Building, Al Majaz",
-     "time": "20:54",
-     "action": "set_down",
-     "lat": 25.33253,
-     "lng": 55.37588,
-     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
     },
     {
      "code": "C1-04",
@@ -13992,7 +14002,7 @@
     {
      "code": "C2-10",
      "name": "Al Manaf Building, Al Barsha 1",
-     "time": "14:40",
+     "time": "14:39",
      "action": "set_down",
      "lat": 25.1110756,
      "lng": 55.2057285,
@@ -14001,7 +14011,7 @@
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "14:49",
+     "time": "14:48",
      "action": "set_down",
      "lat": 25.1021161,
      "lng": 55.1740882,
@@ -14010,7 +14020,7 @@
     {
      "code": "C2-15",
      "name": "Al Nakheel 2A, The Greens",
-     "time": "14:55",
+     "time": "14:54",
      "action": "set_down",
      "lat": 25.09445,
      "lng": 55.1697,
@@ -14019,16 +14029,25 @@
     {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "15:01",
+     "time": "15:00",
      "action": "set_down",
      "lat": 25.093492,
      "lng": 55.177807,
      "where_exactly": "Pick and drop area outside the Al Asmawi Building."
     },
     {
+     "code": "C2-04",
+     "name": "Sobha Realty Metro Station",
+     "time": "15:09",
+     "action": "set_down",
+     "lat": 25.08243,
+     "lng": 55.148317,
+     "where_exactly": "Sea side of Sobha Realty Metro Station, near the Carrefour Market sign; bus pick-up point."
+    },
+    {
      "code": "C2-03",
      "name": "DMCC Metro Station",
-     "time": "15:14",
+     "time": "15:17",
      "action": "set_down",
      "lat": 25.07122,
      "lng": 55.137072,
@@ -14037,7 +14056,7 @@
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "15:19",
+     "time": "15:22",
      "action": "set_down",
      "lat": 25.075735,
      "lng": 55.140981,
@@ -14046,7 +14065,7 @@
     {
      "code": "C2-01",
      "name": "Al Sarood, Shoreline 13, Palm Jumeirah",
-     "time": "15:30",
+     "time": "15:33",
      "action": "set_down",
      "lat": 25.11202,
      "lng": 55.142781,
@@ -14152,7 +14171,7 @@
    "arrive_campus": null,
    "leave_campus": "16:15",
    "start": "16:15",
-   "end": "18:03",
+   "end": "18:00",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -14167,18 +14186,18 @@
      "where_exactly": ""
     },
     {
-     "code": "C2-10",
-     "name": "Al Manaf Building, Al Barsha 1",
-     "time": "16:48",
+     "code": "C2-08",
+     "name": "Mall of the Emirates",
+     "time": "16:51",
      "action": "set_down",
-     "lat": 25.1110756,
-     "lng": 55.2057285,
-     "where_exactly": "Kerbside outside the building entrance; do not enter the car park."
+     "lat": 25.1201411,
+     "lng": 55.2011196,
+     "where_exactly": "Pick-up point at 25.1201411, 55.2011196 (metro side)."
     },
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "17:00",
+     "time": "17:04",
      "action": "set_down",
      "lat": 25.1021161,
      "lng": 55.1740882,
@@ -14187,7 +14206,7 @@
     {
      "code": "C2-06",
      "name": "The Springs Souk",
-     "time": "17:14",
+     "time": "17:20",
      "action": "set_down",
      "lat": 25.065917,
      "lng": 55.192107,
@@ -14196,7 +14215,7 @@
     {
      "code": "C2-09",
      "name": "Springs 10 Gatehouse",
-     "time": "17:25",
+     "time": "17:31",
      "action": "set_down",
      "lat": 25.0556628,
      "lng": 55.1803096,
@@ -14205,25 +14224,16 @@
     {
      "code": "C2-05",
      "name": "The Meadows Village",
-     "time": "17:39",
+     "time": "17:46",
      "action": "set_down",
      "lat": 25.0637,
      "lng": 55.1573,
      "where_exactly": "Car park by the fountain."
     },
     {
-     "code": "C2-04",
-     "name": "Sobha Realty Metro Station",
-     "time": "17:52",
-     "action": "set_down",
-     "lat": 25.08243,
-     "lng": 55.148317,
-     "where_exactly": "Sea side of Sobha Realty Metro Station, near the Carrefour Market sign; bus pick-up point."
-    },
-    {
      "code": "C2-03",
      "name": "DMCC Metro Station",
-     "time": "18:03",
+     "time": "18:00",
      "action": "set_down",
      "lat": 25.07122,
      "lng": 55.137072,
@@ -15131,18 +15141,18 @@
      "where_exactly": "Outside the front of Al Mariah Mall."
     },
     {
-     "code": "C4-17",
-     "name": "Al Falah St / Ministry of Finance bus stop",
+     "code": "C4-24",
+     "name": "Al Dibsi Street, Tourist Club Area, Abu Dhabi",
      "time": "04:38",
      "action": "pick_up",
-     "lat": 24.4843472,
-     "lng": 54.377167,
-     "where_exactly": "RTA/ITC bus stop on Al Falah St opposite the Ministry of Finance; 2 minutes maximum."
+     "lat": 24.49105,
+     "lng": 54.38039,
+     "where_exactly": "Kerbside on Al Dibsi Street outside the rider's building, Tourist Club Area (Al Zahiyah). Rider-only stop."
     },
     {
      "code": "C4-21",
      "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
-     "time": "04:47",
+     "time": "04:49",
      "action": "pick_up",
      "lat": 24.4757537,
      "lng": 54.3663931,
@@ -15151,7 +15161,7 @@
     {
      "code": "C4-03",
      "name": "Al Wahda Mall",
-     "time": "04:53",
+     "time": "04:55",
      "action": "pick_up",
      "lat": 24.471638,
      "lng": 54.372417,
@@ -15160,7 +15170,7 @@
     {
      "code": "C4-18",
      "name": "Super Nanny Nursery, Khalifa City, Abu Dhabi",
-     "time": "05:20",
+     "time": "05:22",
      "action": "pick_up",
      "lat": 24.41338,
      "lng": 54.5594598,
@@ -15169,7 +15179,7 @@
     {
      "code": "C4-08",
      "name": "Al Ghadeer community gate",
-     "time": "06:43",
+     "time": "06:44",
      "action": "pick_up",
      "lat": 24.8443745,
      "lng": 55.0261656,
@@ -15441,13 +15451,13 @@
      "where_exactly": "Kerbside on Airport Road (Sheikh Rashid Bin Saeed St) at the Al Falah Street junction, outside Ramee Garden Hotel Apartments opposite NBAD - southbound side for pick-ups (towards Al Wahda), northbound side for set-downs."
     },
     {
-     "code": "C4-17",
-     "name": "Al Falah St / Ministry of Finance bus stop",
-     "time": "20:48",
+     "code": "C4-24",
+     "name": "Al Dibsi Street, Tourist Club Area, Abu Dhabi",
+     "time": "20:49",
      "action": "set_down",
-     "lat": 24.4843472,
-     "lng": 54.377167,
-     "where_exactly": "RTA/ITC bus stop on Al Falah St opposite the Ministry of Finance; 2 minutes maximum."
+     "lat": 24.49105,
+     "lng": 54.38039,
+     "where_exactly": "Kerbside on Al Dibsi Street outside the rider's building, Tourist Club Area (Al Zahiyah). Rider-only stop."
     },
     {
      "code": "C4-23",
@@ -16757,7 +16767,7 @@
    "service": "undergraduate",
    "arrive_campus": "10:45",
    "leave_campus": null,
-   "start": "08:25",
+   "start": "08:28",
    "end": "10:45",
    "vehicle": "M1",
    "vehicle_type": "Hiace",
@@ -16766,25 +16776,16 @@
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "08:25",
+     "time": "08:28",
      "action": "pick_up",
      "lat": 25.337533,
      "lng": 55.39061,
      "where_exactly": "Main entrance on King Faisal St."
     },
     {
-     "code": "C1-18",
-     "name": "Shamseen Bakeries Building, Al Majaz",
-     "time": "08:43",
-     "action": "pick_up",
-     "lat": 25.33253,
-     "lng": 55.37588,
-     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
-    },
-    {
      "code": "C1-20",
      "name": "Al Buhaira Police Station bus stop, Al Majaz 3",
-     "time": "08:56",
+     "time": "08:49",
      "action": "pick_up",
      "lat": 25.323284,
      "lng": 55.381418,
@@ -16793,7 +16794,7 @@
     {
      "code": "C1-21",
      "name": "Sahab Al Emarat, Al Mamzar, Sharjah",
-     "time": "09:22",
+     "time": "09:16",
      "action": "pick_up",
      "lat": 25.31578,
      "lng": 55.35863,
@@ -16802,7 +16803,7 @@
     {
      "code": "C1-16",
      "name": "LuLu Hypermarket Al Nahda, Sharjah",
-     "time": "09:45",
+     "time": "09:41",
      "action": "pick_up",
      "lat": 25.303505,
      "lng": 55.375491,
@@ -16829,7 +16830,7 @@
    "arrive_campus": null,
    "leave_campus": "14:15",
    "start": "14:15",
-   "end": "16:36",
+   "end": "16:33",
    "vehicle": "M1",
    "vehicle_type": "Rosa",
    "seats": 34,
@@ -16846,7 +16847,7 @@
     {
      "code": "C1-02",
      "name": "City Centre Al Zahia",
-     "time": "14:58",
+     "time": "15:01",
      "action": "set_down",
      "lat": 25.318044,
      "lng": 55.457279,
@@ -16855,7 +16856,7 @@
     {
      "code": "C1-06",
      "name": "Sahara Centre",
-     "time": "15:34",
+     "time": "15:38",
      "action": "set_down",
      "lat": 25.297153,
      "lng": 55.371026,
@@ -16864,7 +16865,7 @@
     {
      "code": "C1-16",
      "name": "LuLu Hypermarket Al Nahda, Sharjah",
-     "time": "15:43",
+     "time": "15:47",
      "action": "set_down",
      "lat": 25.303505,
      "lng": 55.375491,
@@ -16873,7 +16874,7 @@
     {
      "code": "C1-05",
      "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "15:53",
+     "time": "15:58",
      "action": "set_down",
      "lat": 25.305885121719236,
      "lng": 55.363729380596915,
@@ -16882,25 +16883,16 @@
     {
      "code": "C1-20",
      "name": "Al Buhaira Police Station bus stop, Al Majaz 3",
-     "time": "16:13",
+     "time": "16:18",
      "action": "set_down",
      "lat": 25.323284,
      "lng": 55.381418,
      "where_exactly": "Bus stop by Al Buhaira Police Station on Al Intifada St; 2 minutes maximum."
     },
     {
-     "code": "C1-18",
-     "name": "Shamseen Bakeries Building, Al Majaz",
-     "time": "16:23",
-     "action": "set_down",
-     "lat": 25.33253,
-     "lng": 55.37588,
-     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
-    },
-    {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "16:36",
+     "time": "16:33",
      "action": "set_down",
      "lat": 25.337533,
      "lng": 55.39061,
@@ -17987,7 +17979,7 @@
     {
      "code": "C2-10",
      "name": "Al Manaf Building, Al Barsha 1",
-     "time": "14:49",
+     "time": "14:45",
      "action": "set_down",
      "lat": 25.1110756,
      "lng": 55.2057285,
@@ -17996,7 +17988,7 @@
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "15:02",
+     "time": "14:56",
      "action": "set_down",
      "lat": 25.1021161,
      "lng": 55.1740882,
@@ -18005,16 +17997,25 @@
     {
      "code": "C2-15",
      "name": "Al Nakheel 2A, The Greens",
-     "time": "15:09",
+     "time": "15:03",
      "action": "set_down",
      "lat": 25.09445,
      "lng": 55.1697,
      "where_exactly": "Kerbside outside Al Nakheel 2A on Street 2, The Greens. Do not enter the building car park."
     },
     {
+     "code": "C2-04",
+     "name": "Sobha Realty Metro Station",
+     "time": "15:17",
+     "action": "set_down",
+     "lat": 25.08243,
+     "lng": 55.148317,
+     "where_exactly": "Sea side of Sobha Realty Metro Station, near the Carrefour Market sign; bus pick-up point."
+    },
+    {
      "code": "C2-03",
      "name": "DMCC Metro Station",
-     "time": "15:24",
+     "time": "15:27",
      "action": "set_down",
      "lat": 25.07122,
      "lng": 55.137072,
@@ -18171,27 +18172,27 @@
      "where_exactly": ""
     },
     {
+     "code": "C2-08",
+     "name": "Mall of the Emirates",
+     "time": "18:49",
+     "action": "set_down",
+     "lat": 25.1201411,
+     "lng": 55.2011196,
+     "where_exactly": "Pick-up point at 25.1201411, 55.2011196 (metro side)."
+    },
+    {
      "code": "C2-16",
      "name": "Umm Suqeim Rd bus stop by ENOC 1099, Al Barsha 1",
-     "time": "18:48",
+     "time": "18:55",
      "action": "set_down",
      "lat": 25.1184,
      "lng": 55.2077,
      "where_exactly": "RTA bus stop on Umm Suqeim Rd (D63) beside ENOC 1099, Al Barsha 1 - northbound kerb for pick-ups, southbound for set-downs; exact pin to confirm."
     },
     {
-     "code": "C2-10",
-     "name": "Al Manaf Building, Al Barsha 1",
-     "time": "18:55",
-     "action": "set_down",
-     "lat": 25.1110756,
-     "lng": 55.2057285,
-     "where_exactly": "Kerbside outside the building entrance; do not enter the car park."
-    },
-    {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "19:07",
+     "time": "19:08",
      "action": "set_down",
      "lat": 25.1021161,
      "lng": 55.1740882,
@@ -18200,7 +18201,7 @@
     {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "19:15",
+     "time": "19:16",
      "action": "set_down",
      "lat": 25.093492,
      "lng": 55.177807,
@@ -19038,18 +19039,18 @@
      "where_exactly": "Kerbside on Al Sindan Street outside Al Swedi Building 6 (same building as Makaram Dry Clean), in front of the large car park behind Future Pharmacy."
     },
     {
-     "code": "C4-17",
-     "name": "Al Falah St / Ministry of Finance bus stop",
-     "time": "04:43",
+     "code": "C4-24",
+     "name": "Al Dibsi Street, Tourist Club Area, Abu Dhabi",
+     "time": "04:40",
      "action": "pick_up",
-     "lat": 24.4843472,
-     "lng": 54.377167,
-     "where_exactly": "RTA/ITC bus stop on Al Falah St opposite the Ministry of Finance; 2 minutes maximum."
+     "lat": 24.49105,
+     "lng": 54.38039,
+     "where_exactly": "Kerbside on Al Dibsi Street outside the rider's building, Tourist Club Area (Al Zahiyah). Rider-only stop."
     },
     {
      "code": "C4-21",
      "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
-     "time": "04:50",
+     "time": "04:51",
      "action": "pick_up",
      "lat": 24.4757537,
      "lng": 54.3663931,
@@ -19076,7 +19077,7 @@
     {
      "code": "C4-06",
      "name": "Al Forsan Village main gate",
-     "time": "05:27",
+     "time": "05:28",
      "action": "pick_up",
      "lat": 24.4044,
      "lng": 54.5514,
@@ -19286,13 +19287,13 @@
      "where_exactly": "Bus stop shelter by Al Wahda Mall (as shown in the photo)."
     },
     {
-     "code": "C4-17",
-     "name": "Al Falah St / Ministry of Finance bus stop",
-     "time": "20:54",
+     "code": "C4-24",
+     "name": "Al Dibsi Street, Tourist Club Area, Abu Dhabi",
+     "time": "20:56",
      "action": "set_down",
-     "lat": 24.4843472,
-     "lng": 54.377167,
-     "where_exactly": "RTA/ITC bus stop on Al Falah St opposite the Ministry of Finance; 2 minutes maximum."
+     "lat": 24.49105,
+     "lng": 54.38039,
+     "where_exactly": "Kerbside on Al Dibsi Street outside the rider's building, Tourist Club Area (Al Zahiyah). Rider-only stop."
     },
     {
      "code": "C4-23",
@@ -20286,7 +20287,7 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:00",
+   "start": "05:03",
    "end": "07:45",
    "vehicle": "M1",
    "vehicle_type": "Rosa",
@@ -20295,25 +20296,16 @@
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "05:00",
+     "time": "05:03",
      "action": "pick_up",
      "lat": 25.337533,
      "lng": 55.39061,
      "where_exactly": "Main entrance on King Faisal St."
     },
     {
-     "code": "C1-18",
-     "name": "Shamseen Bakeries Building, Al Majaz",
-     "time": "05:17",
-     "action": "pick_up",
-     "lat": 25.33253,
-     "lng": 55.37588,
-     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
-    },
-    {
      "code": "C1-20",
      "name": "Al Buhaira Police Station bus stop, Al Majaz 3",
-     "time": "05:30",
+     "time": "05:23",
      "action": "pick_up",
      "lat": 25.323284,
      "lng": 55.381418,
@@ -20322,7 +20314,7 @@
     {
      "code": "C1-05",
      "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "05:55",
+     "time": "05:49",
      "action": "pick_up",
      "lat": 25.305885121719236,
      "lng": 55.363729380596915,
@@ -20331,7 +20323,7 @@
     {
      "code": "C1-02",
      "name": "City Centre Al Zahia",
-     "time": "06:46",
+     "time": "06:43",
      "action": "pick_up",
      "lat": 25.318044,
      "lng": 55.457279,
@@ -20358,7 +20350,7 @@
    "arrive_campus": null,
    "leave_campus": "12:15",
    "start": "12:15",
-   "end": "14:20",
+   "end": "14:17",
    "vehicle": "M1",
    "vehicle_type": "Rosa",
    "seats": 34,
@@ -20375,7 +20367,7 @@
     {
      "code": "C1-02",
      "name": "City Centre Al Zahia",
-     "time": "12:59",
+     "time": "13:01",
      "action": "set_down",
      "lat": 25.318044,
      "lng": 55.457279,
@@ -20384,7 +20376,7 @@
     {
      "code": "C1-05",
      "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "13:37",
+     "time": "13:41",
      "action": "set_down",
      "lat": 25.305885121719236,
      "lng": 55.363729380596915,
@@ -20393,25 +20385,16 @@
     {
      "code": "C1-20",
      "name": "Al Buhaira Police Station bus stop, Al Majaz 3",
-     "time": "13:57",
+     "time": "14:02",
      "action": "set_down",
      "lat": 25.323284,
      "lng": 55.381418,
      "where_exactly": "Bus stop by Al Buhaira Police Station on Al Intifada St; 2 minutes maximum."
     },
     {
-     "code": "C1-18",
-     "name": "Shamseen Bakeries Building, Al Majaz",
-     "time": "14:07",
-     "action": "set_down",
-     "lat": 25.33253,
-     "lng": 55.37588,
-     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
-    },
-    {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "14:20",
+     "time": "14:17",
      "action": "set_down",
      "lat": 25.337533,
      "lng": 55.39061,
@@ -21039,9 +21022,18 @@
      "where_exactly": ""
     },
     {
+     "code": "C2-08",
+     "name": "Mall of the Emirates",
+     "time": "12:45",
+     "action": "set_down",
+     "lat": 25.1201411,
+     "lng": 55.2011196,
+     "where_exactly": "Pick-up point at 25.1201411, 55.2011196 (metro side)."
+    },
+    {
      "code": "C2-16",
      "name": "Umm Suqeim Rd bus stop by ENOC 1099, Al Barsha 1",
-     "time": "12:45",
+     "time": "12:51",
      "action": "set_down",
      "lat": 25.1184,
      "lng": 55.2077,
@@ -21050,7 +21042,7 @@
     {
      "code": "C2-10",
      "name": "Al Manaf Building, Al Barsha 1",
-     "time": "12:51",
+     "time": "12:57",
      "action": "set_down",
      "lat": 25.1110756,
      "lng": 55.2057285,
@@ -21059,7 +21051,7 @@
     {
      "code": "C2-15",
      "name": "Al Nakheel 2A, The Greens",
-     "time": "13:04",
+     "time": "13:10",
      "action": "set_down",
      "lat": 25.09445,
      "lng": 55.1697,
@@ -21068,20 +21060,11 @@
     {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "13:11",
+     "time": "13:16",
      "action": "set_down",
      "lat": 25.093492,
      "lng": 55.177807,
      "where_exactly": "Pick and drop area outside the Al Asmawi Building."
-    },
-    {
-     "code": "C2-04",
-     "name": "Sobha Realty Metro Station",
-     "time": "13:22",
-     "action": "set_down",
-     "lat": 25.08243,
-     "lng": 55.148317,
-     "where_exactly": "Sea side of Sobha Realty Metro Station, near the Carrefour Market sign; bus pick-up point."
     },
     {
      "code": "C2-02",
