@@ -1,9 +1,9 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-09T10:04:23Z",
+ "generated_at": "2026-10-09T12:29:10Z",
  "week": "2026-10-09 to 2026-10-18",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
- "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
+ "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. Vehicle callsign (vehicle) is the ROUTE sign M1-M7 shown in the windscreen; bus_id is the physical bus (B1-B15).",
  "timetable_slots": {
   "weekday": {
    "arrivals": [
@@ -2062,6 +2062,7 @@
    "start": "05:00",
    "end": "07:45",
    "vehicle": "M1",
+   "bus_id": "B1",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -2132,7 +2133,8 @@
    "leave_campus": null,
    "start": "10:52",
    "end": "12:45",
-   "vehicle": "M3",
+   "vehicle": "M1",
+   "bus_id": "B3",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -2168,6 +2170,7 @@
    "start": "12:15",
    "end": "14:20",
    "vehicle": "M1",
+   "bus_id": "B1",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -2238,7 +2241,8 @@
    "leave_campus": null,
    "start": "15:02",
    "end": "17:45",
-   "vehicle": "M2",
+   "vehicle": "M1",
+   "bus_id": "B2",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -2282,7 +2286,8 @@
    "leave_campus": "21:36",
    "start": "21:36",
    "end": "23:19",
-   "vehicle": "M2",
+   "vehicle": "M1",
+   "bus_id": "B2",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -2327,6 +2332,7 @@
    "start": "05:48",
    "end": "07:45",
    "vehicle": "M2",
+   "bus_id": "B2",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -2426,6 +2432,7 @@
    "start": "12:15",
    "end": "13:32",
    "vehicle": "M2",
+   "bus_id": "B2",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -2682,7 +2689,8 @@
    "leave_campus": null,
    "start": "05:52",
    "end": "07:45",
-   "vehicle": "M4",
+   "vehicle": "M3",
+   "bus_id": "B4",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -2762,7 +2770,8 @@
    "leave_campus": "12:15",
    "start": "12:15",
    "end": "13:29",
-   "vehicle": "M4",
+   "vehicle": "M3",
+   "bus_id": "B4",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -3000,7 +3009,8 @@
    "leave_campus": null,
    "start": "06:13",
    "end": "07:45",
-   "vehicle": "M6",
+   "vehicle": "M4",
+   "bus_id": "B6",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -3044,7 +3054,8 @@
    "leave_campus": null,
    "start": "08:48",
    "end": "09:45",
-   "vehicle": "M7",
+   "vehicle": "M4",
+   "bus_id": "B7",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -3097,7 +3108,8 @@
    "leave_campus": "12:15",
    "start": "12:15",
    "end": "13:18",
-   "vehicle": "M6",
+   "vehicle": "M4",
+   "bus_id": "B6",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -3422,7 +3434,8 @@
    "leave_campus": null,
    "start": "04:42",
    "end": "07:45",
-   "vehicle": "M8",
+   "vehicle": "M5",
+   "bus_id": "B8",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -3466,7 +3479,8 @@
    "leave_campus": "14:15",
    "start": "14:15",
    "end": "16:06",
-   "vehicle": "M8",
+   "vehicle": "M5",
+   "bus_id": "B8",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -3510,7 +3524,8 @@
    "leave_campus": null,
    "start": "16:00",
    "end": "17:45",
-   "vehicle": "M9",
+   "vehicle": "M5",
+   "bus_id": "B9",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -3545,7 +3560,8 @@
    "leave_campus": "21:36",
    "start": "21:36",
    "end": "23:13",
-   "vehicle": "M9",
+   "vehicle": "M5",
+   "bus_id": "B9",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -3580,7 +3596,8 @@
    "leave_campus": null,
    "start": "06:18",
    "end": "07:45",
-   "vehicle": "M10",
+   "vehicle": "M6",
+   "bus_id": "B10",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -3615,7 +3632,8 @@
    "leave_campus": null,
    "start": "08:51",
    "end": "09:45",
-   "vehicle": "M14",
+   "vehicle": "M6",
+   "bus_id": "B14",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -3668,7 +3686,8 @@
    "leave_campus": "12:15",
    "start": "12:15",
    "end": "13:16",
-   "vehicle": "M10",
+   "vehicle": "M6",
+   "bus_id": "B10",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -3730,7 +3749,8 @@
    "leave_campus": null,
    "start": "16:39",
    "end": "17:45",
-   "vehicle": "M10",
+   "vehicle": "M6",
+   "bus_id": "B10",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -3765,7 +3785,8 @@
    "leave_campus": "21:36",
    "start": "21:36",
    "end": "22:37",
-   "vehicle": "M10",
+   "vehicle": "M6",
+   "bus_id": "B10",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -3800,7 +3821,8 @@
    "leave_campus": null,
    "start": "05:39",
    "end": "07:45",
-   "vehicle": "M11",
+   "vehicle": "M7",
+   "bus_id": "B11",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -3862,7 +3884,8 @@
    "leave_campus": null,
    "start": "08:36",
    "end": "09:45",
-   "vehicle": "M12",
+   "vehicle": "M7",
+   "bus_id": "B12",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -3915,7 +3938,8 @@
    "leave_campus": "12:15",
    "start": "12:15",
    "end": "13:36",
-   "vehicle": "M11",
+   "vehicle": "M7",
+   "bus_id": "B11",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -4211,6 +4235,7 @@
    "start": "06:42",
    "end": "08:45",
    "vehicle": "M1",
+   "bus_id": "B1",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -4246,6 +4271,7 @@
    "start": "16:55",
    "end": "19:38",
    "vehicle": "M1",
+   "bus_id": "B1",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -4281,6 +4307,7 @@
    "start": "07:31",
    "end": "08:45",
    "vehicle": "M2",
+   "bus_id": "B2",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -4326,6 +4353,7 @@
    "start": "18:15",
    "end": "19:50",
    "vehicle": "M2",
+   "bus_id": "B2",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -4370,7 +4398,8 @@
    "leave_campus": null,
    "start": "07:33",
    "end": "08:45",
-   "vehicle": "M4",
+   "vehicle": "M3",
+   "bus_id": "B4",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -4414,7 +4443,8 @@
    "leave_campus": null,
    "start": "11:45",
    "end": "12:45",
-   "vehicle": "M4",
+   "vehicle": "M3",
+   "bus_id": "B4",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -4449,7 +4479,8 @@
    "leave_campus": "18:15",
    "start": "18:15",
    "end": "19:49",
-   "vehicle": "M4",
+   "vehicle": "M3",
+   "bus_id": "B4",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -4502,7 +4533,8 @@
    "leave_campus": null,
    "start": "07:25",
    "end": "08:45",
-   "vehicle": "M6",
+   "vehicle": "M4",
+   "bus_id": "B6",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -4564,7 +4596,8 @@
    "leave_campus": "18:15",
    "start": "18:15",
    "end": "19:56",
-   "vehicle": "M6",
+   "vehicle": "M4",
+   "bus_id": "B6",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -4626,7 +4659,8 @@
    "leave_campus": null,
    "start": "06:39",
    "end": "08:45",
-   "vehicle": "M8",
+   "vehicle": "M5",
+   "bus_id": "B8",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -4670,7 +4704,8 @@
    "leave_campus": "18:15",
    "start": "18:15",
    "end": "20:56",
-   "vehicle": "M9",
+   "vehicle": "M5",
+   "bus_id": "B9",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -4714,7 +4749,8 @@
    "leave_campus": null,
    "start": "07:28",
    "end": "08:45",
-   "vehicle": "M10",
+   "vehicle": "M6",
+   "bus_id": "B10",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -4749,7 +4785,8 @@
    "leave_campus": "18:15",
    "start": "18:15",
    "end": "19:54",
-   "vehicle": "M10",
+   "vehicle": "M6",
+   "bus_id": "B10",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -4784,7 +4821,8 @@
    "leave_campus": null,
    "start": "07:14",
    "end": "08:45",
-   "vehicle": "M11",
+   "vehicle": "M7",
+   "bus_id": "B11",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -4837,7 +4875,8 @@
    "leave_campus": "16:55",
    "start": "16:55",
    "end": "18:47",
-   "vehicle": "M11",
+   "vehicle": "M7",
+   "bus_id": "B11",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -4881,7 +4920,8 @@
    "leave_campus": "18:15",
    "start": "18:15",
    "end": "19:50",
-   "vehicle": "M12",
+   "vehicle": "M7",
+   "bus_id": "B12",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -4917,6 +4957,7 @@
    "start": "07:31",
    "end": "08:45",
    "vehicle": "M2",
+   "bus_id": "B2",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -4962,6 +5003,7 @@
    "start": "18:15",
    "end": "19:50",
    "vehicle": "M2",
+   "bus_id": "B2",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -5006,7 +5048,8 @@
    "leave_campus": null,
    "start": "07:32",
    "end": "08:45",
-   "vehicle": "M4",
+   "vehicle": "M3",
+   "bus_id": "B4",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -5050,7 +5093,8 @@
    "leave_campus": "18:15",
    "start": "18:15",
    "end": "19:48",
-   "vehicle": "M4",
+   "vehicle": "M3",
+   "bus_id": "B4",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -5094,7 +5138,8 @@
    "leave_campus": null,
    "start": "07:24",
    "end": "08:45",
-   "vehicle": "M6",
+   "vehicle": "M4",
+   "bus_id": "B6",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -5138,7 +5183,8 @@
    "leave_campus": "18:15",
    "start": "18:15",
    "end": "19:59",
-   "vehicle": "M6",
+   "vehicle": "M4",
+   "bus_id": "B6",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -5182,7 +5228,8 @@
    "leave_campus": null,
    "start": "06:41",
    "end": "08:45",
-   "vehicle": "M8",
+   "vehicle": "M5",
+   "bus_id": "B8",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -5217,7 +5264,8 @@
    "leave_campus": "18:15",
    "start": "18:15",
    "end": "20:54",
-   "vehicle": "M9",
+   "vehicle": "M5",
+   "bus_id": "B9",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -5252,7 +5300,8 @@
    "leave_campus": null,
    "start": "07:31",
    "end": "08:45",
-   "vehicle": "M11",
+   "vehicle": "M7",
+   "bus_id": "B11",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -5287,7 +5336,8 @@
    "leave_campus": "18:15",
    "start": "18:15",
    "end": "19:50",
-   "vehicle": "M11",
+   "vehicle": "M7",
+   "bus_id": "B11",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -5323,6 +5373,7 @@
    "start": "05:03",
    "end": "07:45",
    "vehicle": "M1",
+   "bus_id": "B1",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -5384,7 +5435,8 @@
    "leave_campus": null,
    "start": "07:22",
    "end": "09:45",
-   "vehicle": "M3",
+   "vehicle": "M1",
+   "bus_id": "B3",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -5420,6 +5472,7 @@
    "start": "10:43",
    "end": "12:45",
    "vehicle": "M1",
+   "bus_id": "B1",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -5482,6 +5535,7 @@
    "start": "14:15",
    "end": "16:24",
    "vehicle": "M1",
+   "bus_id": "B1",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -5601,7 +5655,8 @@
    "leave_campus": "18:15",
    "start": "18:15",
    "end": "21:10",
-   "vehicle": "M3",
+   "vehicle": "M1",
+   "bus_id": "B3",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -5740,6 +5795,7 @@
    "start": "05:59",
    "end": "07:45",
    "vehicle": "M2",
+   "bus_id": "B2",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -5811,7 +5867,8 @@
    "leave_campus": null,
    "start": "08:46",
    "end": "09:45",
-   "vehicle": "M13",
+   "vehicle": "M2",
+   "bus_id": "B13",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -5847,6 +5904,7 @@
    "start": "09:28",
    "end": "10:45",
    "vehicle": "M2",
+   "bus_id": "B2",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -5927,7 +5985,8 @@
    "leave_campus": null,
    "start": "11:28",
    "end": "12:45",
-   "vehicle": "M13",
+   "vehicle": "M2",
+   "bus_id": "B13",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -6009,6 +6068,7 @@
    "start": "14:15",
    "end": "15:26",
    "vehicle": "M2",
+   "bus_id": "B2",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -6140,7 +6200,8 @@
    "leave_campus": "18:15",
    "start": "18:15",
    "end": "20:00",
-   "vehicle": "M1",
+   "vehicle": "M2",
+   "bus_id": "B1",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -6327,7 +6388,8 @@
    "leave_campus": null,
    "start": "05:49",
    "end": "07:45",
-   "vehicle": "M4",
+   "vehicle": "M3",
+   "bus_id": "B4",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -6416,7 +6478,8 @@
    "leave_campus": null,
    "start": "08:36",
    "end": "09:45",
-   "vehicle": "M5",
+   "vehicle": "M3",
+   "bus_id": "B5",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -6487,7 +6550,8 @@
    "leave_campus": null,
    "start": "11:43",
    "end": "12:45",
-   "vehicle": "M5",
+   "vehicle": "M3",
+   "bus_id": "B5",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -6531,7 +6595,8 @@
    "leave_campus": "16:15",
    "start": "16:15",
    "end": "18:01",
-   "vehicle": "M13",
+   "vehicle": "M3",
+   "bus_id": "B13",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -6620,7 +6685,8 @@
    "leave_campus": null,
    "start": "16:38",
    "end": "17:45",
-   "vehicle": "M4",
+   "vehicle": "M3",
+   "bus_id": "B4",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -6700,7 +6766,8 @@
    "leave_campus": "18:15",
    "start": "18:15",
    "end": "19:50",
-   "vehicle": "M4",
+   "vehicle": "M3",
+   "bus_id": "B4",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -6762,7 +6829,8 @@
    "leave_campus": "21:36",
    "start": "21:36",
    "end": "22:38",
-   "vehicle": "M4",
+   "vehicle": "M3",
+   "bus_id": "B4",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -6842,7 +6910,8 @@
    "leave_campus": null,
    "start": "05:42",
    "end": "07:45",
-   "vehicle": "M6",
+   "vehicle": "M4",
+   "bus_id": "B6",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -6949,7 +7018,8 @@
    "leave_campus": null,
    "start": "08:50",
    "end": "09:45",
-   "vehicle": "M7",
+   "vehicle": "M4",
+   "bus_id": "B7",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -6993,7 +7063,8 @@
    "leave_campus": null,
    "start": "09:34",
    "end": "10:45",
-   "vehicle": "M6",
+   "vehicle": "M4",
+   "bus_id": "B6",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -7055,7 +7126,8 @@
    "leave_campus": null,
    "start": "11:51",
    "end": "12:45",
-   "vehicle": "M7",
+   "vehicle": "M4",
+   "bus_id": "B7",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -7226,7 +7298,8 @@
    "leave_campus": "16:15",
    "start": "16:15",
    "end": "18:12",
-   "vehicle": "M7",
+   "vehicle": "M4",
+   "bus_id": "B7",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -7333,7 +7406,8 @@
    "leave_campus": "18:15",
    "start": "18:15",
    "end": "19:48",
-   "vehicle": "M6",
+   "vehicle": "M4",
+   "bus_id": "B6",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -7540,7 +7614,8 @@
    "leave_campus": null,
    "start": "04:34",
    "end": "07:45",
-   "vehicle": "M8",
+   "vehicle": "M5",
+   "bus_id": "B8",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -7602,7 +7677,8 @@
    "leave_campus": null,
    "start": "08:51",
    "end": "10:45",
-   "vehicle": "M9",
+   "vehicle": "M5",
+   "bus_id": "B9",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -7655,7 +7731,8 @@
    "leave_campus": "14:15",
    "start": "14:15",
    "end": "16:09",
-   "vehicle": "M8",
+   "vehicle": "M5",
+   "bus_id": "B8",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -7708,7 +7785,8 @@
    "leave_campus": null,
    "start": "15:57",
    "end": "17:45",
-   "vehicle": "M15",
+   "vehicle": "M5",
+   "bus_id": "B15",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -7743,7 +7821,8 @@
    "leave_campus": "18:15",
    "start": "18:15",
    "end": "19:20",
-   "vehicle": "M9",
+   "vehicle": "M5",
+   "bus_id": "B9",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -7814,7 +7893,8 @@
    "leave_campus": "21:36",
    "start": "21:36",
    "end": "23:15",
-   "vehicle": "M15",
+   "vehicle": "M5",
+   "bus_id": "B15",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -7849,7 +7929,8 @@
    "leave_campus": null,
    "start": "06:19",
    "end": "07:45",
-   "vehicle": "M10",
+   "vehicle": "M6",
+   "bus_id": "B10",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -7902,7 +7983,8 @@
    "leave_campus": null,
    "start": "08:50",
    "end": "09:45",
-   "vehicle": "M14",
+   "vehicle": "M6",
+   "bus_id": "B14",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -7955,7 +8037,8 @@
    "leave_campus": null,
    "start": "11:54",
    "end": "12:45",
-   "vehicle": "M14",
+   "vehicle": "M6",
+   "bus_id": "B14",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -8060,7 +8143,8 @@
    "leave_campus": "18:15",
    "start": "18:15",
    "end": "19:37",
-   "vehicle": "M14",
+   "vehicle": "M6",
+   "bus_id": "B14",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -8192,7 +8276,8 @@
    "leave_campus": null,
    "start": "05:47",
    "end": "07:45",
-   "vehicle": "M11",
+   "vehicle": "M7",
+   "bus_id": "B11",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -8263,7 +8348,8 @@
    "leave_campus": null,
    "start": "08:35",
    "end": "09:45",
-   "vehicle": "M12",
+   "vehicle": "M7",
+   "bus_id": "B12",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -8307,7 +8393,8 @@
    "leave_campus": null,
    "start": "09:22",
    "end": "10:45",
-   "vehicle": "M11",
+   "vehicle": "M7",
+   "bus_id": "B11",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -8387,7 +8474,8 @@
    "leave_campus": null,
    "start": "11:29",
    "end": "12:45",
-   "vehicle": "M12",
+   "vehicle": "M7",
+   "bus_id": "B12",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -8440,7 +8528,8 @@
    "leave_campus": "14:15",
    "start": "14:15",
    "end": "15:35",
-   "vehicle": "M11",
+   "vehicle": "M7",
+   "bus_id": "B11",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -8614,7 +8703,8 @@
    "leave_campus": "18:15",
    "start": "18:15",
    "end": "20:08",
-   "vehicle": "M2",
+   "vehicle": "M7",
+   "bus_id": "B2",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -8816,6 +8906,7 @@
    "start": "05:03",
    "end": "07:45",
    "vehicle": "M1",
+   "bus_id": "B1",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -8877,7 +8968,8 @@
    "leave_campus": null,
    "start": "07:19",
    "end": "09:45",
-   "vehicle": "M3",
+   "vehicle": "M1",
+   "bus_id": "B3",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -8922,6 +9014,7 @@
    "start": "10:37",
    "end": "12:45",
    "vehicle": "M1",
+   "bus_id": "B1",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -9002,6 +9095,7 @@
    "start": "14:15",
    "end": "16:24",
    "vehicle": "M1",
+   "bus_id": "B1",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -9121,7 +9215,8 @@
    "leave_campus": "18:15",
    "start": "18:15",
    "end": "21:07",
-   "vehicle": "M13",
+   "vehicle": "M1",
+   "bus_id": "B13",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -9287,6 +9382,7 @@
    "start": "05:39",
    "end": "07:45",
    "vehicle": "M2",
+   "bus_id": "B2",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -9412,7 +9508,8 @@
    "leave_campus": null,
    "start": "08:40",
    "end": "09:45",
-   "vehicle": "M13",
+   "vehicle": "M2",
+   "bus_id": "B13",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -9465,7 +9562,8 @@
    "leave_campus": null,
    "start": "11:28",
    "end": "12:45",
-   "vehicle": "M13",
+   "vehicle": "M2",
+   "bus_id": "B13",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -9547,6 +9645,7 @@
    "start": "14:15",
    "end": "15:17",
    "vehicle": "M2",
+   "bus_id": "B2",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -9670,6 +9769,7 @@
    "start": "18:15",
    "end": "20:08",
    "vehicle": "M2",
+   "bus_id": "B2",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -9865,7 +9965,8 @@
    "leave_campus": null,
    "start": "05:55",
    "end": "07:45",
-   "vehicle": "M4",
+   "vehicle": "M3",
+   "bus_id": "B4",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -9936,7 +10037,8 @@
    "leave_campus": null,
    "start": "09:00",
    "end": "09:45",
-   "vehicle": "M5",
+   "vehicle": "M3",
+   "bus_id": "B5",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -9971,7 +10073,8 @@
    "leave_campus": null,
    "start": "09:39",
    "end": "10:45",
-   "vehicle": "M4",
+   "vehicle": "M3",
+   "bus_id": "B4",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -10033,7 +10136,8 @@
    "leave_campus": null,
    "start": "11:36",
    "end": "12:45",
-   "vehicle": "M5",
+   "vehicle": "M3",
+   "bus_id": "B5",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -10095,7 +10199,8 @@
    "leave_campus": "14:15",
    "start": "14:15",
    "end": "15:42",
-   "vehicle": "M4",
+   "vehicle": "M3",
+   "bus_id": "B4",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -10166,7 +10271,8 @@
    "leave_campus": "16:15",
    "start": "16:15",
    "end": "17:55",
-   "vehicle": "M5",
+   "vehicle": "M3",
+   "bus_id": "B5",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -10237,7 +10343,8 @@
    "leave_campus": null,
    "start": "16:35",
    "end": "17:45",
-   "vehicle": "M4",
+   "vehicle": "M3",
+   "bus_id": "B4",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -10335,7 +10442,8 @@
    "leave_campus": "18:15",
    "start": "18:15",
    "end": "19:53",
-   "vehicle": "M4",
+   "vehicle": "M3",
+   "bus_id": "B4",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -10406,7 +10514,8 @@
    "leave_campus": "21:36",
    "start": "21:36",
    "end": "22:41",
-   "vehicle": "M4",
+   "vehicle": "M3",
+   "bus_id": "B4",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -10504,7 +10613,8 @@
    "leave_campus": null,
    "start": "05:42",
    "end": "07:45",
-   "vehicle": "M6",
+   "vehicle": "M4",
+   "bus_id": "B6",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -10611,7 +10721,8 @@
    "leave_campus": null,
    "start": "08:32",
    "end": "09:45",
-   "vehicle": "M7",
+   "vehicle": "M4",
+   "bus_id": "B7",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -10664,7 +10775,8 @@
    "leave_campus": null,
    "start": "09:38",
    "end": "10:45",
-   "vehicle": "M6",
+   "vehicle": "M4",
+   "bus_id": "B6",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -10717,7 +10829,8 @@
    "leave_campus": null,
    "start": "11:37",
    "end": "12:45",
-   "vehicle": "M7",
+   "vehicle": "M4",
+   "bus_id": "B7",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -10770,7 +10883,8 @@
    "leave_campus": "14:15",
    "start": "14:15",
    "end": "15:34",
-   "vehicle": "M6",
+   "vehicle": "M4",
+   "bus_id": "B6",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -10968,7 +11082,8 @@
    "leave_campus": "16:15",
    "start": "16:15",
    "end": "18:03",
-   "vehicle": "M7",
+   "vehicle": "M4",
+   "bus_id": "B7",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -11048,7 +11163,8 @@
    "leave_campus": "18:15",
    "start": "18:15",
    "end": "19:59",
-   "vehicle": "M6",
+   "vehicle": "M4",
+   "bus_id": "B6",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -11255,7 +11371,8 @@
    "leave_campus": null,
    "start": "04:26",
    "end": "07:45",
-   "vehicle": "M8",
+   "vehicle": "M5",
+   "bus_id": "B8",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -11344,7 +11461,8 @@
    "leave_campus": null,
    "start": "08:51",
    "end": "10:45",
-   "vehicle": "M9",
+   "vehicle": "M5",
+   "bus_id": "B9",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -11397,7 +11515,8 @@
    "leave_campus": null,
    "start": "10:54",
    "end": "12:45",
-   "vehicle": "M8",
+   "vehicle": "M5",
+   "bus_id": "B8",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -11441,7 +11560,8 @@
    "leave_campus": "14:15",
    "start": "14:15",
    "end": "16:16",
-   "vehicle": "M8",
+   "vehicle": "M5",
+   "bus_id": "B8",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -11591,7 +11711,8 @@
    "leave_campus": "18:15",
    "start": "18:15",
    "end": "21:03",
-   "vehicle": "M9",
+   "vehicle": "M5",
+   "bus_id": "B9",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -11750,7 +11871,8 @@
    "leave_campus": null,
    "start": "06:15",
    "end": "07:45",
-   "vehicle": "M10",
+   "vehicle": "M6",
+   "bus_id": "B10",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -11794,7 +11916,8 @@
    "leave_campus": null,
    "start": "08:50",
    "end": "09:45",
-   "vehicle": "M14",
+   "vehicle": "M6",
+   "bus_id": "B14",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -11847,7 +11970,8 @@
    "leave_campus": null,
    "start": "11:44",
    "end": "12:45",
-   "vehicle": "M14",
+   "vehicle": "M6",
+   "bus_id": "B14",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -11909,7 +12033,8 @@
    "leave_campus": "14:15",
    "start": "14:15",
    "end": "15:10",
-   "vehicle": "M10",
+   "vehicle": "M6",
+   "bus_id": "B10",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -12014,7 +12139,8 @@
    "leave_campus": "18:15",
    "start": "18:15",
    "end": "19:34",
-   "vehicle": "M14",
+   "vehicle": "M6",
+   "bus_id": "B14",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -12155,7 +12281,8 @@
    "leave_campus": null,
    "start": "05:35",
    "end": "07:45",
-   "vehicle": "M11",
+   "vehicle": "M7",
+   "bus_id": "B11",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -12226,7 +12353,8 @@
    "leave_campus": null,
    "start": "08:30",
    "end": "09:45",
-   "vehicle": "M12",
+   "vehicle": "M7",
+   "bus_id": "B12",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -12261,7 +12389,8 @@
    "leave_campus": null,
    "start": "09:25",
    "end": "10:45",
-   "vehicle": "M11",
+   "vehicle": "M7",
+   "bus_id": "B11",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -12332,7 +12461,8 @@
    "leave_campus": null,
    "start": "11:27",
    "end": "12:45",
-   "vehicle": "M12",
+   "vehicle": "M7",
+   "bus_id": "B12",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -12412,7 +12542,8 @@
    "leave_campus": "14:15",
    "start": "14:15",
    "end": "15:37",
-   "vehicle": "M11",
+   "vehicle": "M7",
+   "bus_id": "B11",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -12483,7 +12614,8 @@
    "leave_campus": null,
    "start": "16:39",
    "end": "17:45",
-   "vehicle": "M3",
+   "vehicle": "M7",
+   "bus_id": "B3",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -12527,7 +12659,8 @@
    "leave_campus": "18:15",
    "start": "18:15",
    "end": "20:06",
-   "vehicle": "M8",
+   "vehicle": "M7",
+   "bus_id": "B8",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -12643,7 +12776,8 @@
    "leave_campus": "21:36",
    "start": "21:36",
    "end": "22:37",
-   "vehicle": "M3",
+   "vehicle": "M7",
+   "bus_id": "B3",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -12688,6 +12822,7 @@
    "start": "05:00",
    "end": "07:45",
    "vehicle": "M1",
+   "bus_id": "B1",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -12758,7 +12893,8 @@
    "leave_campus": null,
    "start": "07:19",
    "end": "09:45",
-   "vehicle": "M3",
+   "vehicle": "M1",
+   "bus_id": "B3",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -12803,6 +12939,7 @@
    "start": "10:46",
    "end": "12:45",
    "vehicle": "M1",
+   "bus_id": "B1",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -12856,6 +12993,7 @@
    "start": "14:15",
    "end": "16:21",
    "vehicle": "M1",
+   "bus_id": "B1",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -12899,7 +13037,8 @@
    "leave_campus": null,
    "start": "14:59",
    "end": "17:45",
-   "vehicle": "M3",
+   "vehicle": "M1",
+   "bus_id": "B3",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -12952,7 +13091,8 @@
    "leave_campus": "18:15",
    "start": "18:15",
    "end": "21:07",
-   "vehicle": "M13",
+   "vehicle": "M1",
+   "bus_id": "B13",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -13041,7 +13181,8 @@
    "leave_campus": "21:36",
    "start": "21:36",
    "end": "23:19",
-   "vehicle": "M3",
+   "vehicle": "M1",
+   "bus_id": "B3",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -13086,6 +13227,7 @@
    "start": "05:38",
    "end": "07:45",
    "vehicle": "M2",
+   "bus_id": "B2",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -13184,7 +13326,8 @@
    "leave_campus": null,
    "start": "08:40",
    "end": "09:45",
-   "vehicle": "M13",
+   "vehicle": "M2",
+   "bus_id": "B13",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -13238,6 +13381,7 @@
    "start": "09:30",
    "end": "10:45",
    "vehicle": "M2",
+   "bus_id": "B2",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -13309,7 +13453,8 @@
    "leave_campus": null,
    "start": "11:33",
    "end": "12:45",
-   "vehicle": "M13",
+   "vehicle": "M2",
+   "bus_id": "B13",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -13373,6 +13518,7 @@
    "start": "14:15",
    "end": "15:30",
    "vehicle": "M2",
+   "bus_id": "B2",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -13524,6 +13670,7 @@
    "start": "18:15",
    "end": "20:14",
    "vehicle": "M2",
+   "bus_id": "B2",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -13728,7 +13875,8 @@
    "leave_campus": null,
    "start": "05:54",
    "end": "07:45",
-   "vehicle": "M4",
+   "vehicle": "M3",
+   "bus_id": "B4",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -13808,7 +13956,8 @@
    "leave_campus": null,
    "start": "08:46",
    "end": "09:45",
-   "vehicle": "M5",
+   "vehicle": "M3",
+   "bus_id": "B5",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -13852,7 +14001,8 @@
    "leave_campus": null,
    "start": "09:33",
    "end": "10:45",
-   "vehicle": "M4",
+   "vehicle": "M3",
+   "bus_id": "B4",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -13923,7 +14073,8 @@
    "leave_campus": null,
    "start": "11:40",
    "end": "12:45",
-   "vehicle": "M5",
+   "vehicle": "M3",
+   "bus_id": "B5",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -13976,7 +14127,8 @@
    "leave_campus": "14:15",
    "start": "14:15",
    "end": "15:42",
-   "vehicle": "M4",
+   "vehicle": "M3",
+   "bus_id": "B4",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -14153,7 +14305,8 @@
    "leave_campus": "16:15",
    "start": "16:15",
    "end": "18:03",
-   "vehicle": "M5",
+   "vehicle": "M3",
+   "bus_id": "B5",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -14242,7 +14395,8 @@
    "leave_campus": "18:15",
    "start": "18:15",
    "end": "19:55",
-   "vehicle": "M4",
+   "vehicle": "M3",
+   "bus_id": "B4",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -14392,7 +14546,8 @@
    "leave_campus": null,
    "start": "05:45",
    "end": "07:45",
-   "vehicle": "M6",
+   "vehicle": "M4",
+   "bus_id": "B6",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -14490,7 +14645,8 @@
    "leave_campus": null,
    "start": "08:41",
    "end": "09:45",
-   "vehicle": "M7",
+   "vehicle": "M4",
+   "bus_id": "B7",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -14561,7 +14717,8 @@
    "leave_campus": null,
    "start": "11:35",
    "end": "12:45",
-   "vehicle": "M7",
+   "vehicle": "M4",
+   "bus_id": "B7",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -14623,7 +14780,8 @@
    "leave_campus": "14:15",
    "start": "14:15",
    "end": "15:19",
-   "vehicle": "M6",
+   "vehicle": "M4",
+   "bus_id": "B6",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -14821,7 +14979,8 @@
    "leave_campus": "16:15",
    "start": "16:15",
    "end": "17:59",
-   "vehicle": "M7",
+   "vehicle": "M4",
+   "bus_id": "B7",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -14901,7 +15060,8 @@
    "leave_campus": "18:15",
    "start": "18:15",
    "end": "20:02",
-   "vehicle": "M6",
+   "vehicle": "M4",
+   "bus_id": "B6",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -15117,7 +15277,8 @@
    "leave_campus": null,
    "start": "04:30",
    "end": "07:45",
-   "vehicle": "M8",
+   "vehicle": "M5",
+   "bus_id": "B8",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -15197,7 +15358,8 @@
    "leave_campus": null,
    "start": "08:52",
    "end": "10:45",
-   "vehicle": "M9",
+   "vehicle": "M5",
+   "bus_id": "B9",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -15250,7 +15412,8 @@
    "leave_campus": null,
    "start": "10:53",
    "end": "12:45",
-   "vehicle": "M8",
+   "vehicle": "M5",
+   "bus_id": "B8",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -15294,7 +15457,8 @@
    "leave_campus": "14:15",
    "start": "14:15",
    "end": "16:06",
-   "vehicle": "M8",
+   "vehicle": "M5",
+   "bus_id": "B8",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -15338,7 +15502,8 @@
    "leave_campus": null,
    "start": "15:54",
    "end": "17:45",
-   "vehicle": "M15",
+   "vehicle": "M5",
+   "bus_id": "B15",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -15382,7 +15547,8 @@
    "leave_campus": "18:15",
    "start": "18:15",
    "end": "21:07",
-   "vehicle": "M9",
+   "vehicle": "M5",
+   "bus_id": "B9",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -15489,7 +15655,8 @@
    "leave_campus": "21:36",
    "start": "21:36",
    "end": "23:18",
-   "vehicle": "M15",
+   "vehicle": "M5",
+   "bus_id": "B15",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -15533,7 +15700,8 @@
    "leave_campus": null,
    "start": "06:18",
    "end": "07:45",
-   "vehicle": "M10",
+   "vehicle": "M6",
+   "bus_id": "B10",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -15586,7 +15754,8 @@
    "leave_campus": null,
    "start": "08:50",
    "end": "09:45",
-   "vehicle": "M14",
+   "vehicle": "M6",
+   "bus_id": "B14",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -15630,7 +15799,8 @@
    "leave_campus": null,
    "start": "09:51",
    "end": "10:45",
-   "vehicle": "M10",
+   "vehicle": "M6",
+   "bus_id": "B10",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -15683,7 +15853,8 @@
    "leave_campus": null,
    "start": "11:53",
    "end": "12:45",
-   "vehicle": "M14",
+   "vehicle": "M6",
+   "bus_id": "B14",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -15718,7 +15889,8 @@
    "leave_campus": "14:15",
    "start": "14:15",
    "end": "15:10",
-   "vehicle": "M10",
+   "vehicle": "M6",
+   "bus_id": "B10",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -15771,7 +15943,8 @@
    "leave_campus": null,
    "start": "16:34",
    "end": "17:45",
-   "vehicle": "M4",
+   "vehicle": "M6",
+   "bus_id": "B4",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -15869,7 +16042,8 @@
    "leave_campus": "18:15",
    "start": "18:15",
    "end": "19:34",
-   "vehicle": "M14",
+   "vehicle": "M6",
+   "bus_id": "B14",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -15931,7 +16105,8 @@
    "leave_campus": "21:36",
    "start": "21:36",
    "end": "22:41",
-   "vehicle": "M4",
+   "vehicle": "M6",
+   "bus_id": "B4",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -16029,7 +16204,8 @@
    "leave_campus": null,
    "start": "05:23",
    "end": "07:45",
-   "vehicle": "M11",
+   "vehicle": "M7",
+   "bus_id": "B11",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -16136,7 +16312,8 @@
    "leave_campus": null,
    "start": "08:25",
    "end": "09:45",
-   "vehicle": "M12",
+   "vehicle": "M7",
+   "bus_id": "B12",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -16207,7 +16384,8 @@
    "leave_campus": null,
    "start": "09:29",
    "end": "10:45",
-   "vehicle": "M11",
+   "vehicle": "M7",
+   "bus_id": "B11",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -16260,7 +16438,8 @@
    "leave_campus": null,
    "start": "11:53",
    "end": "12:45",
-   "vehicle": "M12",
+   "vehicle": "M7",
+   "bus_id": "B12",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -16304,7 +16483,8 @@
    "leave_campus": "14:15",
    "start": "14:15",
    "end": "15:35",
-   "vehicle": "M11",
+   "vehicle": "M7",
+   "bus_id": "B11",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -16478,7 +16658,8 @@
    "leave_campus": "18:15",
    "start": "18:15",
    "end": "20:22",
-   "vehicle": "M8",
+   "vehicle": "M7",
+   "bus_id": "B8",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -16689,6 +16870,7 @@
    "start": "05:00",
    "end": "07:45",
    "vehicle": "M1",
+   "bus_id": "B1",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -16759,7 +16941,8 @@
    "leave_campus": null,
    "start": "08:25",
    "end": "10:45",
-   "vehicle": "M3",
+   "vehicle": "M1",
+   "bus_id": "B3",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -16831,6 +17014,7 @@
    "start": "14:15",
    "end": "16:36",
    "vehicle": "M1",
+   "bus_id": "B1",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -16986,7 +17170,8 @@
    "leave_campus": "18:15",
    "start": "18:15",
    "end": "21:07",
-   "vehicle": "M13",
+   "vehicle": "M1",
+   "bus_id": "B13",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -17116,6 +17301,7 @@
    "start": "05:48",
    "end": "07:45",
    "vehicle": "M2",
+   "bus_id": "B2",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -17214,7 +17400,8 @@
    "leave_campus": null,
    "start": "08:40",
    "end": "09:45",
-   "vehicle": "M13",
+   "vehicle": "M2",
+   "bus_id": "B13",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -17278,6 +17465,7 @@
    "start": "09:28",
    "end": "10:45",
    "vehicle": "M2",
+   "bus_id": "B2",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -17358,7 +17546,8 @@
    "leave_campus": null,
    "start": "11:36",
    "end": "12:45",
-   "vehicle": "M13",
+   "vehicle": "M2",
+   "bus_id": "B13",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -17403,6 +17592,7 @@
    "start": "14:15",
    "end": "15:26",
    "vehicle": "M2",
+   "bus_id": "B2",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -17563,6 +17753,7 @@
    "start": "18:15",
    "end": "20:14",
    "vehicle": "M2",
+   "bus_id": "B2",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -17758,7 +17949,8 @@
    "leave_campus": null,
    "start": "05:56",
    "end": "07:45",
-   "vehicle": "M4",
+   "vehicle": "M3",
+   "bus_id": "B4",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -17820,7 +18012,8 @@
    "leave_campus": null,
    "start": "08:34",
    "end": "09:45",
-   "vehicle": "M5",
+   "vehicle": "M3",
+   "bus_id": "B5",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -17891,7 +18084,8 @@
    "leave_campus": null,
    "start": "11:33",
    "end": "12:45",
-   "vehicle": "M5",
+   "vehicle": "M3",
+   "bus_id": "B5",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -17971,7 +18165,8 @@
    "leave_campus": "14:15",
    "start": "14:15",
    "end": "15:42",
-   "vehicle": "M4",
+   "vehicle": "M3",
+   "bus_id": "B4",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -18042,7 +18237,8 @@
    "leave_campus": "16:15",
    "start": "16:15",
    "end": "17:52",
-   "vehicle": "M5",
+   "vehicle": "M3",
+   "bus_id": "B5",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -18104,7 +18300,8 @@
    "leave_campus": null,
    "start": "16:35",
    "end": "17:45",
-   "vehicle": "M4",
+   "vehicle": "M3",
+   "bus_id": "B4",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -18157,7 +18354,8 @@
    "leave_campus": "18:15",
    "start": "18:15",
    "end": "19:59",
-   "vehicle": "M4",
+   "vehicle": "M3",
+   "bus_id": "B4",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -18246,7 +18444,8 @@
    "leave_campus": "21:36",
    "start": "21:36",
    "end": "22:41",
-   "vehicle": "M4",
+   "vehicle": "M3",
+   "bus_id": "B4",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -18308,7 +18507,8 @@
    "leave_campus": null,
    "start": "05:45",
    "end": "07:45",
-   "vehicle": "M6",
+   "vehicle": "M4",
+   "bus_id": "B6",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -18406,7 +18606,8 @@
    "leave_campus": null,
    "start": "08:29",
    "end": "09:45",
-   "vehicle": "M7",
+   "vehicle": "M4",
+   "bus_id": "B7",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -18468,7 +18669,8 @@
    "leave_campus": null,
    "start": "11:34",
    "end": "12:45",
-   "vehicle": "M7",
+   "vehicle": "M4",
+   "bus_id": "B7",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -18530,7 +18732,8 @@
    "leave_campus": "14:15",
    "start": "14:15",
    "end": "15:07",
-   "vehicle": "M6",
+   "vehicle": "M4",
+   "bus_id": "B6",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -18692,7 +18895,8 @@
    "leave_campus": "16:15",
    "start": "16:15",
    "end": "17:56",
-   "vehicle": "M7",
+   "vehicle": "M4",
+   "bus_id": "B7",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -18763,7 +18967,8 @@
    "leave_campus": "18:15",
    "start": "18:15",
    "end": "20:15",
-   "vehicle": "M6",
+   "vehicle": "M4",
+   "bus_id": "B6",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -19006,7 +19211,8 @@
    "leave_campus": null,
    "start": "04:20",
    "end": "07:45",
-   "vehicle": "M8",
+   "vehicle": "M5",
+   "bus_id": "B8",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -19113,7 +19319,8 @@
    "leave_campus": null,
    "start": "10:54",
    "end": "12:45",
-   "vehicle": "M8",
+   "vehicle": "M5",
+   "bus_id": "B8",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -19157,7 +19364,8 @@
    "leave_campus": "14:15",
    "start": "14:15",
    "end": "16:04",
-   "vehicle": "M8",
+   "vehicle": "M5",
+   "bus_id": "B8",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -19192,7 +19400,8 @@
    "leave_campus": null,
    "start": "15:57",
    "end": "17:45",
-   "vehicle": "M15",
+   "vehicle": "M5",
+   "bus_id": "B15",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -19227,7 +19436,8 @@
    "leave_campus": "18:15",
    "start": "18:15",
    "end": "21:15",
-   "vehicle": "M9",
+   "vehicle": "M5",
+   "bus_id": "B9",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -19334,7 +19544,8 @@
    "leave_campus": "21:36",
    "start": "21:36",
    "end": "23:15",
-   "vehicle": "M15",
+   "vehicle": "M5",
+   "bus_id": "B15",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -19369,7 +19580,8 @@
    "leave_campus": null,
    "start": "06:12",
    "end": "07:45",
-   "vehicle": "M10",
+   "vehicle": "M6",
+   "bus_id": "B10",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -19422,7 +19634,8 @@
    "leave_campus": null,
    "start": "08:48",
    "end": "09:45",
-   "vehicle": "M14",
+   "vehicle": "M6",
+   "bus_id": "B14",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -19484,7 +19697,8 @@
    "leave_campus": null,
    "start": "11:53",
    "end": "12:45",
-   "vehicle": "M14",
+   "vehicle": "M6",
+   "bus_id": "B14",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -19528,7 +19742,8 @@
    "leave_campus": "14:15",
    "start": "14:15",
    "end": "15:13",
-   "vehicle": "M10",
+   "vehicle": "M6",
+   "bus_id": "B10",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -19642,7 +19857,8 @@
    "leave_campus": "18:15",
    "start": "18:15",
    "end": "19:40",
-   "vehicle": "M14",
+   "vehicle": "M6",
+   "bus_id": "B14",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -19774,7 +19990,8 @@
    "leave_campus": null,
    "start": "05:29",
    "end": "07:45",
-   "vehicle": "M11",
+   "vehicle": "M7",
+   "bus_id": "B11",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -19863,7 +20080,8 @@
    "leave_campus": null,
    "start": "08:39",
    "end": "09:45",
-   "vehicle": "M12",
+   "vehicle": "M7",
+   "bus_id": "B12",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -19907,7 +20125,8 @@
    "leave_campus": null,
    "start": "09:29",
    "end": "10:45",
-   "vehicle": "M11",
+   "vehicle": "M7",
+   "bus_id": "B11",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -19960,7 +20179,8 @@
    "leave_campus": null,
    "start": "11:28",
    "end": "12:45",
-   "vehicle": "M12",
+   "vehicle": "M7",
+   "bus_id": "B12",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -20022,7 +20242,8 @@
    "leave_campus": "14:15",
    "start": "14:15",
    "end": "15:34",
-   "vehicle": "M11",
+   "vehicle": "M7",
+   "bus_id": "B11",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -20084,7 +20305,8 @@
    "leave_campus": null,
    "start": "16:39",
    "end": "17:45",
-   "vehicle": "M3",
+   "vehicle": "M7",
+   "bus_id": "B3",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -20128,7 +20350,8 @@
    "leave_campus": "18:15",
    "start": "18:15",
    "end": "20:24",
-   "vehicle": "M8",
+   "vehicle": "M7",
+   "bus_id": "B8",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -20244,7 +20467,8 @@
    "leave_campus": "21:36",
    "start": "21:36",
    "end": "22:37",
-   "vehicle": "M3",
+   "vehicle": "M7",
+   "bus_id": "B3",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -20289,6 +20513,7 @@
    "start": "05:00",
    "end": "07:45",
    "vehicle": "M1",
+   "bus_id": "B1",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -20360,6 +20585,7 @@
    "start": "12:15",
    "end": "14:20",
    "vehicle": "M1",
+   "bus_id": "B1",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -20430,7 +20656,8 @@
    "leave_campus": null,
    "start": "15:02",
    "end": "17:45",
-   "vehicle": "M3",
+   "vehicle": "M1",
+   "bus_id": "B3",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -20474,7 +20701,8 @@
    "leave_campus": "21:36",
    "start": "21:36",
    "end": "23:19",
-   "vehicle": "M3",
+   "vehicle": "M1",
+   "bus_id": "B3",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -20519,6 +20747,7 @@
    "start": "05:42",
    "end": "07:45",
    "vehicle": "M2",
+   "bus_id": "B2",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -20636,6 +20865,7 @@
    "start": "12:15",
    "end": "13:38",
    "vehicle": "M2",
+   "bus_id": "B2",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -20910,7 +21140,8 @@
    "leave_campus": null,
    "start": "06:01",
    "end": "07:45",
-   "vehicle": "M4",
+   "vehicle": "M3",
+   "bus_id": "B4",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -20972,7 +21203,8 @@
    "leave_campus": null,
    "start": "08:40",
    "end": "09:45",
-   "vehicle": "M5",
+   "vehicle": "M3",
+   "bus_id": "B5",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -21025,7 +21257,8 @@
    "leave_campus": "12:15",
    "start": "12:15",
    "end": "13:29",
-   "vehicle": "M4",
+   "vehicle": "M3",
+   "bus_id": "B4",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -21263,7 +21496,8 @@
    "leave_campus": null,
    "start": "05:54",
    "end": "07:45",
-   "vehicle": "M6",
+   "vehicle": "M4",
+   "bus_id": "B6",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -21334,7 +21568,8 @@
    "leave_campus": null,
    "start": "08:44",
    "end": "09:45",
-   "vehicle": "M7",
+   "vehicle": "M4",
+   "bus_id": "B7",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -21396,7 +21631,8 @@
    "leave_campus": "12:15",
    "start": "12:15",
    "end": "13:35",
-   "vehicle": "M6",
+   "vehicle": "M4",
+   "bus_id": "B6",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -21748,7 +21984,8 @@
    "leave_campus": null,
    "start": "04:42",
    "end": "07:45",
-   "vehicle": "M8",
+   "vehicle": "M5",
+   "bus_id": "B8",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -21792,7 +22029,8 @@
    "leave_campus": "12:15",
    "start": "12:15",
    "end": "14:06",
-   "vehicle": "M8",
+   "vehicle": "M5",
+   "bus_id": "B8",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -21836,7 +22074,8 @@
    "leave_campus": null,
    "start": "16:00",
    "end": "17:45",
-   "vehicle": "M15",
+   "vehicle": "M5",
+   "bus_id": "B15",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -21871,7 +22110,8 @@
    "leave_campus": "21:36",
    "start": "21:36",
    "end": "23:13",
-   "vehicle": "M15",
+   "vehicle": "M5",
+   "bus_id": "B15",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -21906,7 +22146,8 @@
    "leave_campus": null,
    "start": "06:18",
    "end": "07:45",
-   "vehicle": "M10",
+   "vehicle": "M6",
+   "bus_id": "B10",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -21941,7 +22182,8 @@
    "leave_campus": null,
    "start": "08:51",
    "end": "09:45",
-   "vehicle": "M14",
+   "vehicle": "M6",
+   "bus_id": "B14",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -21994,7 +22236,8 @@
    "leave_campus": "12:15",
    "start": "12:15",
    "end": "13:16",
-   "vehicle": "M10",
+   "vehicle": "M6",
+   "bus_id": "B10",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -22056,7 +22299,8 @@
    "leave_campus": null,
    "start": "16:39",
    "end": "17:45",
-   "vehicle": "M4",
+   "vehicle": "M6",
+   "bus_id": "B4",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -22091,7 +22335,8 @@
    "leave_campus": "21:36",
    "start": "21:36",
    "end": "22:37",
-   "vehicle": "M4",
+   "vehicle": "M6",
+   "bus_id": "B4",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -22126,7 +22371,8 @@
    "leave_campus": null,
    "start": "05:39",
    "end": "07:45",
-   "vehicle": "M11",
+   "vehicle": "M7",
+   "bus_id": "B11",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -22188,7 +22434,8 @@
    "leave_campus": null,
    "start": "08:36",
    "end": "09:45",
-   "vehicle": "M12",
+   "vehicle": "M7",
+   "bus_id": "B12",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -22241,7 +22488,8 @@
    "leave_campus": "12:15",
    "start": "12:15",
    "end": "13:36",
-   "vehicle": "M11",
+   "vehicle": "M7",
+   "bus_id": "B11",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -22536,7 +22784,8 @@
    "leave_campus": null,
    "start": "07:12",
    "end": "08:45",
-   "vehicle": "M3",
+   "vehicle": "M1",
+   "bus_id": "B3",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -22580,7 +22829,8 @@
    "leave_campus": "18:15",
    "start": "18:15",
    "end": "19:48",
-   "vehicle": "M3",
+   "vehicle": "M1",
+   "bus_id": "B3",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -22624,7 +22874,8 @@
    "leave_campus": null,
    "start": "06:44",
    "end": "08:45",
-   "vehicle": "M4",
+   "vehicle": "M3",
+   "bus_id": "B4",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -22713,7 +22964,8 @@
    "leave_campus": "18:15",
    "start": "18:15",
    "end": "19:55",
-   "vehicle": "M4",
+   "vehicle": "M3",
+   "bus_id": "B4",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -22775,7 +23027,8 @@
    "leave_campus": "18:15",
    "start": "18:15",
    "end": "19:35",
-   "vehicle": "M8",
+   "vehicle": "M4",
+   "bus_id": "B8",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -22837,7 +23090,8 @@
    "leave_campus": null,
    "start": "06:39",
    "end": "08:45",
-   "vehicle": "M8",
+   "vehicle": "M5",
+   "bus_id": "B8",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -22881,7 +23135,8 @@
    "leave_campus": "18:15",
    "start": "18:15",
    "end": "20:21",
-   "vehicle": "M9",
+   "vehicle": "M5",
+   "bus_id": "B9",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -22925,7 +23180,8 @@
    "leave_campus": null,
    "start": "07:28",
    "end": "08:45",
-   "vehicle": "M10",
+   "vehicle": "M6",
+   "bus_id": "B10",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -22960,7 +23216,8 @@
    "leave_campus": null,
    "start": "07:14",
    "end": "08:45",
-   "vehicle": "M11",
+   "vehicle": "M7",
+   "bus_id": "B11",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -23013,7 +23270,8 @@
    "leave_campus": "18:15",
    "start": "18:15",
    "end": "19:43",
-   "vehicle": "M11",
+   "vehicle": "M7",
+   "bus_id": "B11",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -23066,7 +23324,8 @@
    "leave_campus": null,
    "start": "06:54",
    "end": "08:45",
-   "vehicle": "M11",
+   "vehicle": "M2",
+   "bus_id": "B11",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -23120,7 +23379,8 @@
    "leave_campus": "18:15",
    "start": "18:15",
    "end": "20:06",
-   "vehicle": "M11",
+   "vehicle": "M2",
+   "bus_id": "B11",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -23174,7 +23434,8 @@
    "leave_campus": null,
    "start": "06:51",
    "end": "08:45",
-   "vehicle": "M4",
+   "vehicle": "M3",
+   "bus_id": "B4",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -23236,7 +23497,8 @@
    "leave_campus": "14:15",
    "start": "14:15",
    "end": "15:25",
-   "vehicle": "M4",
+   "vehicle": "M3",
+   "bus_id": "B4",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -23271,7 +23533,8 @@
    "leave_campus": "18:15",
    "start": "18:15",
    "end": "19:52",
-   "vehicle": "M4",
+   "vehicle": "M3",
+   "bus_id": "B4",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
@@ -23324,7 +23587,8 @@
    "leave_campus": null,
    "start": "06:41",
    "end": "08:45",
-   "vehicle": "M8",
+   "vehicle": "M5",
+   "bus_id": "B8",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
@@ -23359,7 +23623,8 @@
    "leave_campus": "18:15",
    "start": "18:15",
    "end": "20:19",
-   "vehicle": "M9",
+   "vehicle": "M5",
+   "bus_id": "B9",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
