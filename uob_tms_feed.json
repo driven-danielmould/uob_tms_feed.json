@@ -1,24 +1,49 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-09T03:32:48Z",
+ "generated_at": "2026-10-09T04:56:03Z",
  "week": "2026-10-09 to 2026-10-18",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
  "timetable_slots": {
-  "undergraduate_arrivals": [
-   "07:45 (Route 1 planned 07:35)",
-   "09:45 (Route 3 Mon/Tue only)",
-   "10:45",
-   "12:45"
-  ],
-  "masters_arrival": "17:45",
-  "undergraduate_departures": [
-   "14:15",
-   "16:55 (Route 2 Tue 16:15)",
-   "18:15",
-   "Friday 12:15 only"
-  ],
-  "masters_departure": "21:15 (21:36 on Route 5 Tue/Thu, Route 3 Mon/Tue)"
+  "weekday": {
+   "arrivals": [
+    "07:45",
+    "09:45",
+    "10:45",
+    "12:45"
+   ],
+   "masters_arrival": "17:45",
+   "departures": [
+    "14:15",
+    "16:15",
+    "18:15"
+   ],
+   "masters_departure": "21:36",
+   "friday_departure": "12:15"
+  },
+  "weekend": {
+   "arrivals": [
+    "08:45",
+    "12:45"
+   ],
+   "masters_arrival": "17:45",
+   "departures": [
+    "14:15",
+    "16:55",
+    "18:15"
+   ],
+   "masters_departure": "21:36"
+  },
+  "per_route": {
+   "R1": "no 09:45 on days with fewer than 3 riders for it; 16:15 folds into 18:15",
+   "R2": "16:15 folds into 18:15",
+   "R3": "all slots",
+   "R4": "all slots",
+   "R5": "no 09:45 (2h40 run cannot turn round); 16:15 folds into 18:15",
+   "R6": "16:15 folds into 18:15",
+   "R7": "16:15 folds into 18:15"
+  },
+  "note": "A slot appears in runs[] for a route and date only when someone is booked on it; runs[] is the truth for what operates."
  },
  "campus": {
   "code": "UOB",
