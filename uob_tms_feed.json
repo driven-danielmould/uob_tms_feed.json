@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-10T06:30:09Z",
+ "generated_at": "2026-10-10T06:43:41Z",
  "week": "2026-10-09 to 2026-10-18",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -15112,7 +15112,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "20:14",
+   "end": "20:11",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "seats": 34,
@@ -15129,7 +15129,7 @@
     {
      "code": "C1-13",
      "name": "Nasayem Avenue, Mirdif Hills",
-     "time": "18:38",
+     "time": "18:37",
      "action": "set_down",
      "lat": 25.221963,
      "lng": 55.440775,
@@ -15147,7 +15147,7 @@
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "18:53",
+     "time": "18:52",
      "action": "set_down",
      "lat": 25.224246,
      "lng": 55.423615,
@@ -15156,7 +15156,7 @@
     {
      "code": "C1-23",
      "name": "Centrepoint, Mirdif City Centre",
-     "time": "19:02",
+     "time": "19:00",
      "action": "set_down",
      "lat": 25.2180926,
      "lng": 55.4085703,
@@ -15166,7 +15166,7 @@
     {
      "code": "C1-15",
      "name": "Wasl Village, Central Parking",
-     "time": "19:11",
+     "time": "19:09",
      "action": "set_down",
      "lat": 25.289501,
      "lng": 55.4111465,
@@ -15175,7 +15175,7 @@
     {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "19:27",
+     "time": "19:25",
      "action": "set_down",
      "lat": 25.270214,
      "lng": 55.373696,
@@ -15184,7 +15184,7 @@
     {
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
-     "time": "19:37",
+     "time": "19:35",
      "action": "set_down",
      "lat": 25.288631,
      "lng": 55.364044,
@@ -15193,7 +15193,7 @@
     {
      "code": "C1-17",
      "name": "Bahwan Tower, Al Nahda 1",
-     "time": "19:45",
+     "time": "19:43",
      "action": "set_down",
      "lat": 25.287666,
      "lng": 55.361619,
@@ -15202,7 +15202,7 @@
     {
      "code": "C1-22",
      "name": "Baghdad Street 55, Al Nahda 1",
-     "time": "19:53",
+     "time": "19:50",
      "action": "set_down",
      "lat": 25.2874799,
      "lng": 55.367603,
@@ -15211,7 +15211,7 @@
     {
      "code": "C1-07",
      "name": "Masafi 1, Al Nahda 2",
-     "time": "20:00",
+     "time": "19:58",
      "action": "set_down",
      "lat": 25.289367,
      "lng": 55.372375,
@@ -15220,7 +15220,7 @@
     {
      "code": "C1-24",
      "name": "EK2 Accommodation, Muhaisnah 4",
-     "time": "20:14",
+     "time": "20:11",
      "action": "set_down",
      "lat": 25.2795117,
      "lng": 55.402653,
@@ -19368,25 +19368,16 @@
    "service": "undergraduate",
    "arrive_campus": "12:45",
    "leave_campus": null,
-   "start": "11:36",
+   "start": "11:47",
    "end": "12:45",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
     {
-     "code": "C1-17",
-     "name": "Bahwan Tower, Al Nahda 1",
-     "time": "11:36",
-     "action": "pick_up",
-     "lat": 25.287666,
-     "lng": 55.361619,
-     "where_exactly": "Kerbside outside the Bahwan Tower entrance; no lay-by, bus stops in the road."
-    },
-    {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "11:52",
+     "time": "11:47",
      "action": "pick_up",
      "lat": 25.270214,
      "lng": 55.373696,
