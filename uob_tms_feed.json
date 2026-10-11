@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-11T13:19:58Z",
+ "generated_at": "2026-10-11T13:30:32Z",
  "week": "2026-10-09 to 2026-10-18",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -6556,7 +6556,7 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:59",
+   "start": "06:02",
    "end": "07:45",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
@@ -6565,25 +6565,16 @@
     {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "05:59",
+     "time": "06:02",
      "action": "pick_up",
      "lat": 25.270214,
      "lng": 55.373696,
      "where_exactly": "21B Street footpath by DAFZA Metro Station Entrance 1."
     },
     {
-     "code": "C1-15",
-     "name": "Wasl Village, Central Parking",
-     "time": "06:19",
-     "action": "pick_up",
-     "lat": 25.289501,
-     "lng": 55.4111465,
-     "where_exactly": "Other side of the road, outside Urban Slice; students wait at the bench."
-    },
-    {
      "code": "C1-23",
      "name": "Centrepoint, Mirdif City Centre",
-     "time": "06:35",
+     "time": "06:34",
      "action": "pick_up",
      "lat": 25.2180926,
      "lng": 55.4085703,
@@ -6593,7 +6584,7 @@
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "06:51",
+     "time": "06:39",
      "action": "pick_up",
      "lat": 25.224246,
      "lng": 55.423615,
@@ -6602,7 +6593,7 @@
     {
      "code": "C1-13",
      "name": "Nasayem Avenue, Mirdif Hills",
-     "time": "07:05",
+     "time": "06:57",
      "action": "pick_up",
      "lat": 25.221963,
      "lng": 55.440775,
@@ -6663,7 +6654,7 @@
    "service": "undergraduate",
    "arrive_campus": "10:45",
    "leave_campus": null,
-   "start": "09:28",
+   "start": "09:25",
    "end": "10:45",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
@@ -6672,7 +6663,7 @@
     {
      "code": "C1-07",
      "name": "Masafi 1, Al Nahda 2",
-     "time": "09:28",
+     "time": "09:25",
      "action": "pick_up",
      "lat": 25.289367,
      "lng": 55.372375,
@@ -6681,7 +6672,7 @@
     {
      "code": "C1-17",
      "name": "Bahwan Tower, Al Nahda 1",
-     "time": "09:36",
+     "time": "09:32",
      "action": "pick_up",
      "lat": 25.287666,
      "lng": 55.361619,
@@ -6690,11 +6681,20 @@
     {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "09:50",
+     "time": "09:44",
      "action": "pick_up",
      "lat": 25.270214,
      "lng": 55.373696,
      "where_exactly": "21B Street footpath by DAFZA Metro Station Entrance 1."
+    },
+    {
+     "code": "C1-15",
+     "name": "Wasl Village, Central Parking",
+     "time": "09:57",
+     "action": "pick_up",
+     "lat": 25.289501,
+     "lng": 55.4111465,
+     "where_exactly": "Other side of the road, outside Urban Slice; students wait at the bench."
     },
     {
      "code": "C1-23",
@@ -6709,7 +6709,7 @@
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "10:12",
+     "time": "10:17",
      "action": "pick_up",
      "lat": 25.224246,
      "lng": 55.423615,
@@ -6718,7 +6718,7 @@
     {
      "code": "C1-19",
      "name": "Shorooq Gate 3, Mirdif",
-     "time": "10:20",
+     "time": "10:24",
      "action": "pick_up",
      "lat": 25.214495,
      "lng": 55.428185,
@@ -6744,7 +6744,7 @@
    "service": "undergraduate",
    "arrive_campus": "12:45",
    "leave_campus": null,
-   "start": "11:28",
+   "start": "11:31",
    "end": "12:45",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
@@ -6753,7 +6753,7 @@
     {
      "code": "C1-22",
      "name": "Baghdad Street 55, Al Nahda 1",
-     "time": "11:28",
+     "time": "11:31",
      "action": "pick_up",
      "lat": 25.2874799,
      "lng": 55.367603,
@@ -6762,25 +6762,16 @@
     {
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
-     "time": "11:33",
+     "time": "11:36",
      "action": "pick_up",
      "lat": 25.288631,
      "lng": 55.364044,
      "where_exactly": "Outside Noor Ladies Salon, by the clothes donation box."
     },
     {
-     "code": "C1-09",
-     "name": "DAFZA Metro Station",
-     "time": "11:45",
-     "action": "pick_up",
-     "lat": 25.270214,
-     "lng": 55.373696,
-     "where_exactly": "21B Street footpath by DAFZA Metro Station Entrance 1."
-    },
-    {
      "code": "C1-15",
      "name": "Wasl Village, Central Parking",
-     "time": "11:58",
+     "time": "11:52",
      "action": "pick_up",
      "lat": 25.289501,
      "lng": 55.4111465,
@@ -6789,7 +6780,7 @@
     {
      "code": "C1-23",
      "name": "Centrepoint, Mirdif City Centre",
-     "time": "12:03",
+     "time": "11:57",
      "action": "pick_up",
      "lat": 25.2180926,
      "lng": 55.4085703,
@@ -6799,7 +6790,7 @@
     {
      "code": "C1-13",
      "name": "Nasayem Avenue, Mirdif Hills",
-     "time": "12:21",
+     "time": "12:17",
      "action": "pick_up",
      "lat": 25.221963,
      "lng": 55.440775,
@@ -8498,7 +8489,7 @@
    "arrive_campus": null,
    "leave_campus": "14:15",
    "start": "14:15",
-   "end": "16:09",
+   "end": "16:06",
    "vehicle": "M5",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -8513,18 +8504,9 @@
      "where_exactly": ""
     },
     {
-     "code": "C4-06",
-     "name": "Al Forsan Village main gate",
-     "time": "15:43",
-     "action": "set_down",
-     "lat": 24.4044,
-     "lng": 54.5514,
-     "where_exactly": "Main gate, Khalifa City."
-    },
-    {
      "code": "C4-21",
      "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
-     "time": "16:01",
+     "time": "15:58",
      "action": "set_down",
      "lat": 24.4757537,
      "lng": 54.3663931,
@@ -8533,7 +8515,7 @@
     {
      "code": "C4-01",
      "name": "Al Mariah Mall, Hamdan St",
-     "time": "16:09",
+     "time": "16:06",
      "action": "set_down",
      "lat": 24.494038,
      "lng": 54.366864,
@@ -8630,7 +8612,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "19:20",
+   "end": "20:50",
    "vehicle": "M5",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -8647,16 +8629,25 @@
     {
      "code": "C4-08",
      "name": "Al Ghadeer community gate",
-     "time": "18:34",
+     "time": "18:59",
      "action": "set_down",
      "lat": 24.8443745,
      "lng": 55.0261656,
      "where_exactly": "Main gate on Al Fayah Rd."
     },
     {
+     "code": "C4-06",
+     "name": "Al Forsan Village main gate",
+     "time": "19:58",
+     "action": "set_down",
+     "lat": 24.4044,
+     "lng": 54.5514,
+     "where_exactly": "Main gate, Khalifa City."
+    },
+    {
      "code": "C4-18",
      "name": "Super Nanny Nursery, Khalifa City, Abu Dhabi",
-     "time": "18:59",
+     "time": "20:04",
      "action": "set_down",
      "lat": 24.41338,
      "lng": 54.5594598,
@@ -8665,7 +8656,7 @@
     {
      "code": "C4-03",
      "name": "Al Wahda Mall",
-     "time": "19:14",
+     "time": "20:37",
      "action": "set_down",
      "lat": 24.471638,
      "lng": 54.372417,
@@ -8674,7 +8665,7 @@
     {
      "code": "C4-17",
      "name": "Al Falah St / Ministry of Finance bus stop",
-     "time": "19:17",
+     "time": "20:43",
      "action": "set_down",
      "lat": 24.4843472,
      "lng": 54.377167,
@@ -8683,7 +8674,7 @@
     {
      "code": "C4-01",
      "name": "Al Mariah Mall, Hamdan St",
-     "time": "19:20",
+     "time": "20:50",
      "action": "set_down",
      "lat": 24.494038,
      "lng": 54.366864,
@@ -9193,16 +9184,25 @@
    "service": "undergraduate",
    "arrive_campus": "09:45",
    "leave_campus": null,
-   "start": "08:35",
+   "start": "08:24",
    "end": "09:45",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
     {
+     "code": "C5-17",
+     "name": "New Gold Souq, Al Raffa, Bur Dubai",
+     "time": "08:24",
+     "action": "pick_up",
+     "lat": 25.2515903,
+     "lng": 55.2824733,
+     "where_exactly": "ENOC petrol station beside the New Gold Souq (by Shabab Al Khan Cafeteria)."
+    },
+    {
      "code": "C5-07",
      "name": "World Trade Centre Metro Station",
-     "time": "08:35",
+     "time": "08:43",
      "action": "pick_up",
      "lat": 25.225614,
      "lng": 55.284365,
@@ -9211,7 +9211,7 @@
     {
      "code": "C5-11",
      "name": "One Park Avenue, Sobha Hartland",
-     "time": "08:59",
+     "time": "09:05",
      "action": "pick_up",
      "lat": 25.1784466,
      "lng": 55.3086196,
@@ -9237,7 +9237,7 @@
    "service": "undergraduate",
    "arrive_campus": "10:45",
    "leave_campus": null,
-   "start": "09:22",
+   "start": "09:25",
    "end": "10:45",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
@@ -9246,7 +9246,7 @@
     {
      "code": "C5-02",
      "name": "Al Rigga Metro Station",
-     "time": "09:22",
+     "time": "09:25",
      "action": "pick_up",
      "lat": 25.262847,
      "lng": 55.324368,
@@ -9255,7 +9255,7 @@
     {
      "code": "C5-21",
      "name": "Al Ghurair Centre bus stop (Ghurair City 2), Al Rigga Rd",
-     "time": "09:28",
+     "time": "09:31",
      "action": "pick_up",
      "lat": 25.266621,
      "lng": 55.317593,
@@ -9264,25 +9264,16 @@
     {
      "code": "C5-04",
      "name": "Oud Metha Metro Station",
-     "time": "09:40",
+     "time": "09:43",
      "action": "pick_up",
      "lat": 25.243624,
      "lng": 55.315799,
      "where_exactly": "RTA bus stop Oud Metha 1, other side of the road, outside Super Saver supermarket."
     },
     {
-     "code": "C5-17",
-     "name": "New Gold Souq, Al Raffa, Bur Dubai",
-     "time": "09:49",
-     "action": "pick_up",
-     "lat": 25.2515903,
-     "lng": 55.2824733,
-     "where_exactly": "ENOC petrol station beside the New Gold Souq (by Shabab Al Khan Cafeteria)."
-    },
-    {
      "code": "C5-06",
      "name": "Al Wasl Building, Al Hudaiba",
-     "time": "09:56",
+     "time": "09:54",
      "action": "pick_up",
      "lat": 25.243,
      "lng": 55.2788,
@@ -9291,7 +9282,7 @@
     {
      "code": "C5-09",
      "name": "Bay Avenue Mall, Business Bay",
-     "time": "10:11",
+     "time": "10:09",
      "action": "pick_up",
      "lat": 25.191143,
      "lng": 55.265598,
@@ -10180,7 +10171,7 @@
    "arrive_campus": null,
    "leave_campus": "14:15",
    "start": "14:15",
-   "end": "16:24",
+   "end": "16:21",
    "vehicle": "M1",
    "vehicle_type": "Rosa",
    "seats": 34,
@@ -10197,7 +10188,7 @@
     {
      "code": "C1-02",
      "name": "City Centre Al Zahia",
-     "time": "15:11",
+     "time": "15:23",
      "action": "set_down",
      "lat": 25.318044,
      "lng": 55.457279,
@@ -10206,20 +10197,11 @@
     {
      "code": "C1-05",
      "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "16:00",
+     "time": "16:21",
      "action": "set_down",
      "lat": 25.305885121719236,
      "lng": 55.363729380596915,
      "where_exactly": "Sheikha Maryam Tower, Al Taawun - pick-up at the pin set by Dan 7 Oct (Al Taawun St side); kerb text to confirm."
-    },
-    {
-     "code": "C1-04",
-     "name": "Nesto Hypermarket, King Faisal St",
-     "time": "16:24",
-     "action": "set_down",
-     "lat": 25.337533,
-     "lng": 55.39061,
-     "where_exactly": "Main entrance on King Faisal St."
     }
    ]
   },
@@ -10464,7 +10446,7 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:39",
+   "start": "05:42",
    "end": "07:45",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
@@ -10473,7 +10455,7 @@
     {
      "code": "C1-24",
      "name": "EK2 Accommodation, Muhaisnah 4",
-     "time": "05:39",
+     "time": "05:42",
      "action": "pick_up",
      "lat": 25.2795117,
      "lng": 55.402653,
@@ -10482,7 +10464,7 @@
     {
      "code": "C1-07",
      "name": "Masafi 1, Al Nahda 2",
-     "time": "05:51",
+     "time": "05:55",
      "action": "pick_up",
      "lat": 25.289367,
      "lng": 55.372375,
@@ -10491,7 +10473,7 @@
     {
      "code": "C1-22",
      "name": "Baghdad Street 55, Al Nahda 1",
-     "time": "05:56",
+     "time": "06:01",
      "action": "pick_up",
      "lat": 25.2874799,
      "lng": 55.367603,
@@ -10500,7 +10482,7 @@
     {
      "code": "C1-17",
      "name": "Bahwan Tower, Al Nahda 1",
-     "time": "06:02",
+     "time": "06:07",
      "action": "pick_up",
      "lat": 25.287666,
      "lng": 55.361619,
@@ -10509,7 +10491,7 @@
     {
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
-     "time": "06:06",
+     "time": "06:12",
      "action": "pick_up",
      "lat": 25.288631,
      "lng": 55.364044,
@@ -10518,25 +10500,16 @@
     {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "06:20",
+     "time": "06:27",
      "action": "pick_up",
      "lat": 25.270214,
      "lng": 55.373696,
      "where_exactly": "21B Street footpath by DAFZA Metro Station Entrance 1."
     },
     {
-     "code": "C1-15",
-     "name": "Wasl Village, Central Parking",
-     "time": "06:35",
-     "action": "pick_up",
-     "lat": 25.289501,
-     "lng": 55.4111465,
-     "where_exactly": "Other side of the road, outside Urban Slice; students wait at the bench."
-    },
-    {
      "code": "C1-23",
      "name": "Centrepoint, Mirdif City Centre",
-     "time": "06:46",
+     "time": "06:47",
      "action": "pick_up",
      "lat": 25.2180926,
      "lng": 55.4085703,
@@ -10546,7 +10519,7 @@
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "06:58",
+     "time": "06:52",
      "action": "pick_up",
      "lat": 25.224246,
      "lng": 55.423615,
@@ -10555,7 +10528,7 @@
     {
      "code": "C1-19",
      "name": "Shorooq Gate 3, Mirdif",
-     "time": "07:07",
+     "time": "07:02",
      "action": "pick_up",
      "lat": 25.214495,
      "lng": 55.428185,
@@ -10564,7 +10537,7 @@
     {
      "code": "C1-13",
      "name": "Nasayem Avenue, Mirdif Hills",
-     "time": "07:17",
+     "time": "07:13",
      "action": "pick_up",
      "lat": 25.221963,
      "lng": 55.440775,
@@ -10590,7 +10563,7 @@
    "service": "undergraduate",
    "arrive_campus": "09:45",
    "leave_campus": null,
-   "start": "08:40",
+   "start": "08:37",
    "end": "09:45",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
@@ -10599,7 +10572,7 @@
     {
      "code": "C1-24",
      "name": "EK2 Accommodation, Muhaisnah 4",
-     "time": "08:40",
+     "time": "08:37",
      "action": "pick_up",
      "lat": 25.2795117,
      "lng": 55.402653,
@@ -10608,7 +10581,7 @@
     {
      "code": "C1-17",
      "name": "Bahwan Tower, Al Nahda 1",
-     "time": "08:53",
+     "time": "08:48",
      "action": "pick_up",
      "lat": 25.287666,
      "lng": 55.361619,
@@ -10617,11 +10590,30 @@
     {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "09:06",
+     "time": "08:59",
      "action": "pick_up",
      "lat": 25.270214,
      "lng": 55.373696,
      "where_exactly": "21B Street footpath by DAFZA Metro Station Entrance 1."
+    },
+    {
+     "code": "C1-15",
+     "name": "Wasl Village, Central Parking",
+     "time": "09:11",
+     "action": "pick_up",
+     "lat": 25.289501,
+     "lng": 55.4111465,
+     "where_exactly": "Other side of the road, outside Urban Slice; students wait at the bench."
+    },
+    {
+     "code": "C1-23",
+     "name": "Centrepoint, Mirdif City Centre",
+     "time": "09:16",
+     "action": "pick_up",
+     "lat": 25.2180926,
+     "lng": 55.4085703,
+     "where_exactly": "Centrepoint entrance, Mirdif City Centre (Tripoli St side) - kerb to be confirmed on audit.",
+     "offer_only_stop": true
     },
     {
      "code": "UOB",
@@ -12546,25 +12538,16 @@
    "service": "undergraduate",
    "arrive_campus": "12:45",
    "leave_campus": null,
-   "start": "10:54",
+   "start": "10:58",
    "end": "12:45",
    "vehicle": "M5",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
     {
-     "code": "C4-01",
-     "name": "Al Mariah Mall, Hamdan St",
-     "time": "10:54",
-     "action": "pick_up",
-     "lat": 24.494038,
-     "lng": 54.366864,
-     "where_exactly": "Outside the front of Al Mariah Mall."
-    },
-    {
      "code": "C4-23",
      "name": "Al Swedi Building 6, Al Sindan St, Al Zahiyah, Abu Dhabi",
-     "time": "11:01",
+     "time": "10:58",
      "action": "pick_up",
      "lat": 24.5022611,
      "lng": 54.377864,
@@ -12591,7 +12574,7 @@
    "arrive_campus": null,
    "leave_campus": "14:15",
    "start": "14:15",
-   "end": "16:16",
+   "end": "16:13",
    "vehicle": "M5",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -12606,18 +12589,9 @@
      "where_exactly": ""
     },
     {
-     "code": "C4-06",
-     "name": "Al Forsan Village main gate",
-     "time": "15:40",
-     "action": "set_down",
-     "lat": 24.4044,
-     "lng": 54.5514,
-     "where_exactly": "Main gate, Khalifa City."
-    },
-    {
      "code": "C4-18",
      "name": "Super Nanny Nursery, Khalifa City, Abu Dhabi",
-     "time": "15:46",
+     "time": "15:42",
      "action": "set_down",
      "lat": 24.41338,
      "lng": 54.5594598,
@@ -12626,7 +12600,7 @@
     {
      "code": "C4-03",
      "name": "Al Wahda Mall",
-     "time": "16:03",
+     "time": "16:00",
      "action": "set_down",
      "lat": 24.471638,
      "lng": 54.372417,
@@ -12635,7 +12609,7 @@
     {
      "code": "C4-01",
      "name": "Al Mariah Mall, Hamdan St",
-     "time": "16:11",
+     "time": "16:08",
      "action": "set_down",
      "lat": 24.494038,
      "lng": 54.366864,
@@ -12644,7 +12618,7 @@
     {
      "code": "C4-22",
      "name": "Silver Tower, Al Marakib St, Corniche Area, Abu Dhabi",
-     "time": "16:16",
+     "time": "16:13",
      "action": "set_down",
      "lat": 24.49302727241724,
      "lng": 54.359155308731616,
@@ -12741,7 +12715,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "21:03",
+   "end": "21:06",
    "vehicle": "M5",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -12758,7 +12732,7 @@
     {
      "code": "C4-08",
      "name": "Al Ghadeer community gate",
-     "time": "19:08",
+     "time": "19:00",
      "action": "set_down",
      "lat": 24.8443745,
      "lng": 55.0261656,
@@ -12767,16 +12741,25 @@
     {
      "code": "C4-07",
      "name": "Al Zeina, Al Raha Beach",
-     "time": "20:10",
+     "time": "19:54",
      "action": "set_down",
      "lat": 24.4555591,
      "lng": 54.6131136,
      "where_exactly": "Al Zeina main entrance."
     },
     {
+     "code": "C4-06",
+     "name": "Al Forsan Village main gate",
+     "time": "20:10",
+     "action": "set_down",
+     "lat": 24.4044,
+     "lng": 54.5514,
+     "where_exactly": "Main gate, Khalifa City."
+    },
+    {
      "code": "C4-21",
      "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
-     "time": "20:39",
+     "time": "20:45",
      "action": "set_down",
      "lat": 24.4757537,
      "lng": 54.3663931,
@@ -12785,7 +12768,7 @@
     {
      "code": "C4-17",
      "name": "Al Falah St / Ministry of Finance bus stop",
-     "time": "20:46",
+     "time": "20:51",
      "action": "set_down",
      "lat": 24.4843472,
      "lng": 54.377167,
@@ -12794,7 +12777,7 @@
     {
      "code": "C4-23",
      "name": "Al Swedi Building 6, Al Sindan St, Al Zahiyah, Abu Dhabi",
-     "time": "20:55",
+     "time": "20:59",
      "action": "set_down",
      "lat": 24.5022611,
      "lng": 54.377864,
@@ -12803,7 +12786,7 @@
     {
      "code": "C4-01",
      "name": "Al Mariah Mall, Hamdan St",
-     "time": "21:03",
+     "time": "21:06",
      "action": "set_down",
      "lat": 24.494038,
      "lng": 54.366864,
@@ -13304,7 +13287,7 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:35",
+   "start": "05:32",
    "end": "07:45",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
@@ -13313,7 +13296,7 @@
     {
      "code": "C5-21",
      "name": "Al Ghurair Centre bus stop (Ghurair City 2), Al Rigga Rd",
-     "time": "05:35",
+     "time": "05:32",
      "action": "pick_up",
      "lat": 25.266621,
      "lng": 55.317593,
@@ -13322,16 +13305,25 @@
     {
      "code": "C5-05",
      "name": "BurJuman Mall",
-     "time": "05:51",
+     "time": "05:47",
      "action": "pick_up",
      "lat": 25.254331,
      "lng": 55.303661,
      "where_exactly": "Bus stop outside Asia Kitchen, BurJuman Mall."
     },
     {
+     "code": "C5-17",
+     "name": "New Gold Souq, Al Raffa, Bur Dubai",
+     "time": "06:03",
+     "action": "pick_up",
+     "lat": 25.2515903,
+     "lng": 55.2824733,
+     "where_exactly": "ENOC petrol station beside the New Gold Souq (by Shabab Al Khan Cafeteria)."
+    },
+    {
      "code": "C5-09",
      "name": "Bay Avenue Mall, Business Bay",
-     "time": "06:25",
+     "time": "06:31",
      "action": "pick_up",
      "lat": 25.191143,
      "lng": 55.265598,
@@ -13340,7 +13332,7 @@
     {
      "code": "C5-11",
      "name": "One Park Avenue, Sobha Hartland",
-     "time": "06:45",
+     "time": "06:50",
      "action": "pick_up",
      "lat": 25.1784466,
      "lng": 55.3086196,
@@ -13349,7 +13341,7 @@
     {
      "code": "C5-14",
      "name": "Meydan Heights, Nad Al Sheba 1",
-     "time": "07:03",
+     "time": "07:06",
      "action": "pick_up",
      "lat": 25.14468,
      "lng": 55.3152,
@@ -13359,41 +13351,6 @@
      "code": "UOB",
      "name": "University of Birmingham Dubai",
      "time": "07:45",
-     "action": "set_down",
-     "lat": 25.1321925,
-     "lng": 55.4223161,
-     "where_exactly": ""
-    }
-   ]
-  },
-  {
-   "run_id": "2026-10-13-R7-O2",
-   "date": "2026-10-13",
-   "day": "Tue",
-   "route": "R7",
-   "direction": "to_campus",
-   "service": "undergraduate",
-   "arrive_campus": "09:45",
-   "leave_campus": null,
-   "start": "08:30",
-   "end": "09:45",
-   "vehicle": "M7",
-   "vehicle_type": "Hiace",
-   "seats": 12,
-   "stops": [
-    {
-     "code": "C5-17",
-     "name": "New Gold Souq, Al Raffa, Bur Dubai",
-     "time": "08:30",
-     "action": "pick_up",
-     "lat": 25.2515903,
-     "lng": 55.2824733,
-     "where_exactly": "ENOC petrol station beside the New Gold Souq (by Shabab Al Khan Cafeteria)."
-    },
-    {
-     "code": "UOB",
-     "name": "University of Birmingham Dubai",
-     "time": "09:45",
      "action": "set_down",
      "lat": 25.1321925,
      "lng": 55.4223161,
@@ -13562,7 +13519,7 @@
    "arrive_campus": null,
    "leave_campus": "14:15",
    "start": "14:15",
-   "end": "15:37",
+   "end": "15:34",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -13579,7 +13536,7 @@
     {
      "code": "C5-14",
      "name": "Meydan Heights, Nad Al Sheba 1",
-     "time": "14:40",
+     "time": "14:44",
      "action": "set_down",
      "lat": 25.14468,
      "lng": 55.3152,
@@ -13588,7 +13545,7 @@
     {
      "code": "C5-09",
      "name": "Bay Avenue Mall, Business Bay",
-     "time": "14:59",
+     "time": "15:06",
      "action": "set_down",
      "lat": 25.191143,
      "lng": 55.265598,
@@ -13597,25 +13554,16 @@
     {
      "code": "C5-07",
      "name": "World Trade Centre Metro Station",
-     "time": "15:11",
+     "time": "15:21",
      "action": "set_down",
      "lat": 25.225614,
      "lng": 55.284365,
      "where_exactly": "Outside World Trade Centre Metro Station Exit 2 (Fairmont side). Pick-up towards campus only."
     },
     {
-     "code": "C5-17",
-     "name": "New Gold Souq, Al Raffa, Bur Dubai",
-     "time": "15:26",
-     "action": "set_down",
-     "lat": 25.2515903,
-     "lng": 55.2824733,
-     "where_exactly": "ENOC petrol station beside the New Gold Souq (by Shabab Al Khan Cafeteria)."
-    },
-    {
      "code": "C5-05",
      "name": "BurJuman Mall",
-     "time": "15:37",
+     "time": "15:34",
      "action": "set_down",
      "lat": 25.254331,
      "lng": 55.303661,
@@ -13736,7 +13684,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "20:06",
+   "end": "20:09",
    "vehicle": "M7",
    "vehicle_type": "Rosa",
    "seats": 34,
@@ -13780,7 +13728,7 @@
     {
      "code": "C5-09",
      "name": "Bay Avenue Mall, Business Bay",
-     "time": "18:59",
+     "time": "18:58",
      "action": "set_down",
      "lat": 25.191143,
      "lng": 55.265598,
@@ -13789,16 +13737,25 @@
     {
      "code": "C5-06",
      "name": "Al Wasl Building, Al Hudaiba",
-     "time": "19:16",
+     "time": "19:15",
      "action": "set_down",
      "lat": 25.243,
      "lng": 55.2788,
      "where_exactly": "S2/PR399 Al Wasl Bldg Block A, 4B St."
     },
     {
+     "code": "C5-17",
+     "name": "New Gold Souq, Al Raffa, Bur Dubai",
+     "time": "19:21",
+     "action": "set_down",
+     "lat": 25.2515903,
+     "lng": 55.2824733,
+     "where_exactly": "ENOC petrol station beside the New Gold Souq (by Shabab Al Khan Cafeteria)."
+    },
+    {
      "code": "C5-05",
      "name": "BurJuman Mall",
-     "time": "19:25",
+     "time": "19:29",
      "action": "set_down",
      "lat": 25.254331,
      "lng": 55.303661,
@@ -13807,7 +13764,7 @@
     {
      "code": "C5-04",
      "name": "Oud Metha Metro Station",
-     "time": "19:32",
+     "time": "19:36",
      "action": "set_down",
      "lat": 25.243624,
      "lng": 55.315799,
@@ -13816,7 +13773,7 @@
     {
      "code": "C5-03",
      "name": "Creek Metro Station, Al Jaddaf",
-     "time": "19:43",
+     "time": "19:47",
      "action": "set_down",
      "lat": 25.219122,
      "lng": 55.339319,
@@ -13825,7 +13782,7 @@
     {
      "code": "C5-21",
      "name": "Al Ghurair Centre bus stop (Ghurair City 2), Al Rigga Rd",
-     "time": "20:00",
+     "time": "20:03",
      "action": "set_down",
      "lat": 25.266621,
      "lng": 55.317593,
@@ -13834,7 +13791,7 @@
     {
      "code": "C5-02",
      "name": "Al Rigga Metro Station",
-     "time": "20:06",
+     "time": "20:09",
      "action": "set_down",
      "lat": 25.262847,
      "lng": 55.324368,
@@ -14238,25 +14195,16 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:00",
+   "start": "05:03",
    "end": "07:45",
    "vehicle": "M1",
    "vehicle_type": "Rosa",
    "seats": 34,
    "stops": [
     {
-     "code": "C1-04",
-     "name": "Nesto Hypermarket, King Faisal St",
-     "time": "05:00",
-     "action": "pick_up",
-     "lat": 25.337533,
-     "lng": 55.39061,
-     "where_exactly": "Main entrance on King Faisal St."
-    },
-    {
      "code": "C1-18",
      "name": "Shamseen Bakeries Building, Al Majaz",
-     "time": "05:17",
+     "time": "05:03",
      "action": "pick_up",
      "lat": 25.33253,
      "lng": 55.37588,
@@ -14265,7 +14213,7 @@
     {
      "code": "C1-20",
      "name": "Al Buhaira Police Station bus stop, Al Majaz 3",
-     "time": "05:30",
+     "time": "05:17",
      "action": "pick_up",
      "lat": 25.323284,
      "lng": 55.381418,
@@ -14274,7 +14222,7 @@
     {
      "code": "C1-05",
      "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "05:55",
+     "time": "05:45",
      "action": "pick_up",
      "lat": 25.305885121719236,
      "lng": 55.363729380596915,
@@ -14283,7 +14231,7 @@
     {
      "code": "C1-02",
      "name": "City Centre Al Zahia",
-     "time": "06:46",
+     "time": "06:40",
      "action": "pick_up",
      "lat": 25.318044,
      "lng": 55.457279,
@@ -14897,7 +14845,7 @@
    "service": "undergraduate",
    "arrive_campus": "12:45",
    "leave_campus": null,
-   "start": "11:33",
+   "start": "11:36",
    "end": "12:45",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
@@ -14906,35 +14854,16 @@
     {
      "code": "C1-17",
      "name": "Bahwan Tower, Al Nahda 1",
-     "time": "11:33",
+     "time": "11:36",
      "action": "pick_up",
      "lat": 25.287666,
      "lng": 55.361619,
      "where_exactly": "Kerbside outside the Bahwan Tower entrance; no lay-by, bus stops in the road."
     },
     {
-     "code": "C1-15",
-     "name": "Wasl Village, Central Parking",
-     "time": "11:50",
-     "action": "pick_up",
-     "lat": 25.289501,
-     "lng": 55.4111465,
-     "where_exactly": "Other side of the road, outside Urban Slice; students wait at the bench."
-    },
-    {
-     "code": "C1-23",
-     "name": "Centrepoint, Mirdif City Centre",
-     "time": "11:55",
-     "action": "pick_up",
-     "lat": 25.2180926,
-     "lng": 55.4085703,
-     "where_exactly": "Centrepoint entrance, Mirdif City Centre (Tripoli St side) - kerb to be confirmed on audit.",
-     "offer_only_stop": true
-    },
-    {
      "code": "C1-13",
      "name": "Nasayem Avenue, Mirdif Hills",
-     "time": "12:16",
+     "time": "12:13",
      "action": "pick_up",
      "lat": 25.221963,
      "lng": 55.440775,
@@ -15112,7 +15041,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "20:11",
+   "end": "20:08",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "seats": 34,
@@ -15129,7 +15058,7 @@
     {
      "code": "C1-13",
      "name": "Nasayem Avenue, Mirdif Hills",
-     "time": "18:37",
+     "time": "18:36",
      "action": "set_down",
      "lat": 25.221963,
      "lng": 55.440775,
@@ -15138,7 +15067,7 @@
     {
      "code": "C1-19",
      "name": "Shorooq Gate 3, Mirdif",
-     "time": "18:45",
+     "time": "18:44",
      "action": "set_down",
      "lat": 25.214495,
      "lng": 55.428185,
@@ -15147,7 +15076,7 @@
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "18:52",
+     "time": "18:51",
      "action": "set_down",
      "lat": 25.224246,
      "lng": 55.423615,
@@ -15156,7 +15085,7 @@
     {
      "code": "C1-23",
      "name": "Centrepoint, Mirdif City Centre",
-     "time": "19:00",
+     "time": "18:59",
      "action": "set_down",
      "lat": 25.2180926,
      "lng": 55.4085703,
@@ -15166,7 +15095,7 @@
     {
      "code": "C1-15",
      "name": "Wasl Village, Central Parking",
-     "time": "19:09",
+     "time": "19:08",
      "action": "set_down",
      "lat": 25.289501,
      "lng": 55.4111465,
@@ -15175,7 +15104,7 @@
     {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "19:25",
+     "time": "19:24",
      "action": "set_down",
      "lat": 25.270214,
      "lng": 55.373696,
@@ -15184,7 +15113,7 @@
     {
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
-     "time": "19:35",
+     "time": "19:33",
      "action": "set_down",
      "lat": 25.288631,
      "lng": 55.364044,
@@ -15193,7 +15122,7 @@
     {
      "code": "C1-17",
      "name": "Bahwan Tower, Al Nahda 1",
-     "time": "19:43",
+     "time": "19:40",
      "action": "set_down",
      "lat": 25.287666,
      "lng": 55.361619,
@@ -15202,7 +15131,7 @@
     {
      "code": "C1-22",
      "name": "Baghdad Street 55, Al Nahda 1",
-     "time": "19:50",
+     "time": "19:48",
      "action": "set_down",
      "lat": 25.2874799,
      "lng": 55.367603,
@@ -15211,7 +15140,7 @@
     {
      "code": "C1-07",
      "name": "Masafi 1, Al Nahda 2",
-     "time": "19:58",
+     "time": "19:55",
      "action": "set_down",
      "lat": 25.289367,
      "lng": 55.372375,
@@ -15220,7 +15149,7 @@
     {
      "code": "C1-24",
      "name": "EK2 Accommodation, Muhaisnah 4",
-     "time": "20:11",
+     "time": "20:08",
      "action": "set_down",
      "lat": 25.2795117,
      "lng": 55.402653,
@@ -16901,50 +16830,6 @@
    ]
   },
   {
-   "run_id": "2026-10-14-R5-R1",
-   "date": "2026-10-14",
-   "day": "Wed",
-   "route": "R5",
-   "direction": "from_campus",
-   "service": "undergraduate",
-   "arrive_campus": null,
-   "leave_campus": "14:15",
-   "start": "14:15",
-   "end": "16:06",
-   "vehicle": "M5",
-   "vehicle_type": "Hiace",
-   "seats": 12,
-   "stops": [
-    {
-     "code": "UOB",
-     "name": "University of Birmingham Dubai",
-     "time": "14:15",
-     "action": "pick_up",
-     "lat": 25.1321925,
-     "lng": 55.4223161,
-     "where_exactly": ""
-    },
-    {
-     "code": "C4-08",
-     "name": "Al Ghadeer community gate",
-     "time": "14:58",
-     "action": "set_down",
-     "lat": 24.8443745,
-     "lng": 55.0261656,
-     "where_exactly": "Main gate on Al Fayah Rd."
-    },
-    {
-     "code": "C4-01",
-     "name": "Al Mariah Mall, Hamdan St",
-     "time": "16:06",
-     "action": "set_down",
-     "lat": 24.494038,
-     "lng": 54.366864,
-     "where_exactly": "Outside the front of Al Mariah Mall."
-    }
-   ]
-  },
-  {
    "run_id": "2026-10-14-R5-O4",
    "date": "2026-10-14",
    "day": "Wed",
@@ -17048,9 +16933,18 @@
      "where_exactly": ""
     },
     {
+     "code": "C4-08",
+     "name": "Al Ghadeer community gate",
+     "time": "18:56",
+     "action": "set_down",
+     "lat": 24.8443745,
+     "lng": 55.0261656,
+     "where_exactly": "Main gate on Al Fayah Rd."
+    },
+    {
      "code": "C4-07",
      "name": "Al Zeina, Al Raha Beach",
-     "time": "19:43",
+     "time": "19:45",
      "action": "set_down",
      "lat": 24.4555591,
      "lng": 54.6131136,
@@ -17059,7 +16953,7 @@
     {
      "code": "C4-06",
      "name": "Al Forsan Village main gate",
-     "time": "19:58",
+     "time": "19:59",
      "action": "set_down",
      "lat": 24.4044,
      "lng": 54.5514,
@@ -17068,7 +16962,7 @@
     {
      "code": "C4-18",
      "name": "Super Nanny Nursery, Khalifa City, Abu Dhabi",
-     "time": "20:04",
+     "time": "20:05",
      "action": "set_down",
      "lat": 24.41338,
      "lng": 54.5594598,
@@ -17596,7 +17490,7 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:23",
+   "start": "05:20",
    "end": "07:45",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
@@ -17605,7 +17499,7 @@
     {
      "code": "C5-21",
      "name": "Al Ghurair Centre bus stop (Ghurair City 2), Al Rigga Rd",
-     "time": "05:23",
+     "time": "05:20",
      "action": "pick_up",
      "lat": 25.266621,
      "lng": 55.317593,
@@ -17614,7 +17508,7 @@
     {
      "code": "C5-04",
      "name": "Oud Metha Metro Station",
-     "time": "05:38",
+     "time": "05:35",
      "action": "pick_up",
      "lat": 25.243624,
      "lng": 55.315799,
@@ -17623,16 +17517,25 @@
     {
      "code": "C5-05",
      "name": "BurJuman Mall",
-     "time": "05:49",
+     "time": "05:46",
      "action": "pick_up",
      "lat": 25.254331,
      "lng": 55.303661,
      "where_exactly": "Bus stop outside Asia Kitchen, BurJuman Mall."
     },
     {
+     "code": "C5-17",
+     "name": "New Gold Souq, Al Raffa, Bur Dubai",
+     "time": "05:59",
+     "action": "pick_up",
+     "lat": 25.2515903,
+     "lng": 55.2824733,
+     "where_exactly": "ENOC petrol station beside the New Gold Souq (by Shabab Al Khan Cafeteria)."
+    },
+    {
      "code": "C5-06",
      "name": "Al Wasl Building, Al Hudaiba",
-     "time": "06:06",
+     "time": "06:07",
      "action": "pick_up",
      "lat": 25.243,
      "lng": 55.2788,
@@ -17641,7 +17544,7 @@
     {
      "code": "C5-07",
      "name": "World Trade Centre Metro Station",
-     "time": "06:18",
+     "time": "06:19",
      "action": "pick_up",
      "lat": 25.225614,
      "lng": 55.284365,
@@ -17650,7 +17553,7 @@
     {
      "code": "C5-09",
      "name": "Bay Avenue Mall, Business Bay",
-     "time": "06:33",
+     "time": "06:34",
      "action": "pick_up",
      "lat": 25.191143,
      "lng": 55.265598,
@@ -17668,7 +17571,7 @@
     {
      "code": "C5-14",
      "name": "Meydan Heights, Nad Al Sheba 1",
-     "time": "07:02",
+     "time": "07:03",
      "action": "pick_up",
      "lat": 25.14468,
      "lng": 55.3152,
@@ -17703,7 +17606,7 @@
    "service": "undergraduate",
    "arrive_campus": "09:45",
    "leave_campus": null,
-   "start": "08:25",
+   "start": "08:28",
    "end": "09:45",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
@@ -17712,7 +17615,7 @@
     {
      "code": "C5-02",
      "name": "Al Rigga Metro Station",
-     "time": "08:25",
+     "time": "08:28",
      "action": "pick_up",
      "lat": 25.262847,
      "lng": 55.324368,
@@ -17721,25 +17624,16 @@
     {
      "code": "C5-04",
      "name": "Oud Metha Metro Station",
-     "time": "08:37",
+     "time": "08:40",
      "action": "pick_up",
      "lat": 25.243624,
      "lng": 55.315799,
      "where_exactly": "RTA bus stop Oud Metha 1, other side of the road, outside Super Saver supermarket."
     },
     {
-     "code": "C5-17",
-     "name": "New Gold Souq, Al Raffa, Bur Dubai",
-     "time": "08:47",
-     "action": "pick_up",
-     "lat": 25.2515903,
-     "lng": 55.2824733,
-     "where_exactly": "ENOC petrol station beside the New Gold Souq (by Shabab Al Khan Cafeteria)."
-    },
-    {
      "code": "C5-09",
      "name": "Bay Avenue Mall, Business Bay",
-     "time": "09:05",
+     "time": "09:02",
      "action": "pick_up",
      "lat": 25.191143,
      "lng": 55.265598,
@@ -17748,7 +17642,7 @@
     {
      "code": "C5-11",
      "name": "One Park Avenue, Sobha Hartland",
-     "time": "09:18",
+     "time": "09:15",
      "action": "pick_up",
      "lat": 25.1784466,
      "lng": 55.3086196,
@@ -17872,7 +17766,7 @@
    "arrive_campus": null,
    "leave_campus": "14:15",
    "start": "14:15",
-   "end": "15:35",
+   "end": "15:32",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -17889,25 +17783,16 @@
     {
      "code": "C5-06",
      "name": "Al Wasl Building, Al Hudaiba",
-     "time": "14:56",
+     "time": "14:57",
      "action": "set_down",
      "lat": 25.243,
      "lng": 55.2788,
      "where_exactly": "S2/PR399 Al Wasl Bldg Block A, 4B St."
     },
     {
-     "code": "C5-17",
-     "name": "New Gold Souq, Al Raffa, Bur Dubai",
-     "time": "15:03",
-     "action": "set_down",
-     "lat": 25.2515903,
-     "lng": 55.2824733,
-     "where_exactly": "ENOC petrol station beside the New Gold Souq (by Shabab Al Khan Cafeteria)."
-    },
-    {
      "code": "C5-05",
      "name": "BurJuman Mall",
-     "time": "15:14",
+     "time": "15:11",
      "action": "set_down",
      "lat": 25.254331,
      "lng": 55.303661,
@@ -17916,7 +17801,7 @@
     {
      "code": "C5-04",
      "name": "Oud Metha Metro Station",
-     "time": "15:23",
+     "time": "15:20",
      "action": "set_down",
      "lat": 25.243624,
      "lng": 55.315799,
@@ -17925,7 +17810,7 @@
     {
      "code": "C5-02",
      "name": "Al Rigga Metro Station",
-     "time": "15:35",
+     "time": "15:32",
      "action": "set_down",
      "lat": 25.262847,
      "lng": 55.324368,
@@ -18046,7 +17931,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "20:22",
+   "end": "20:25",
    "vehicle": "M7",
    "vehicle_type": "Rosa",
    "seats": 34,
@@ -18063,7 +17948,7 @@
     {
      "code": "C5-12",
      "name": "Wasl Green Park, Ras Al Khor",
-     "time": "18:30",
+     "time": "18:29",
      "action": "set_down",
      "lat": 25.1801628,
      "lng": 55.3729096,
@@ -18072,7 +17957,7 @@
     {
      "code": "C5-14",
      "name": "Meydan Heights, Nad Al Sheba 1",
-     "time": "18:45",
+     "time": "18:44",
      "action": "set_down",
      "lat": 25.14468,
      "lng": 55.3152,
@@ -18081,7 +17966,7 @@
     {
      "code": "C5-11",
      "name": "One Park Avenue, Sobha Hartland",
-     "time": "18:59",
+     "time": "18:58",
      "action": "set_down",
      "lat": 25.1784466,
      "lng": 55.3086196,
@@ -18090,7 +17975,7 @@
     {
      "code": "C5-15",
      "name": "Ubora Tower, Business Bay",
-     "time": "19:12",
+     "time": "19:11",
      "action": "set_down",
      "lat": 25.180398,
      "lng": 55.269675,
@@ -18099,7 +17984,7 @@
     {
      "code": "C5-09",
      "name": "Bay Avenue Mall, Business Bay",
-     "time": "19:19",
+     "time": "19:17",
      "action": "set_down",
      "lat": 25.191143,
      "lng": 55.265598,
@@ -18108,16 +17993,25 @@
     {
      "code": "C5-07",
      "name": "World Trade Centre Metro Station",
-     "time": "19:33",
+     "time": "19:31",
      "action": "set_down",
      "lat": 25.225614,
      "lng": 55.284365,
      "where_exactly": "Outside World Trade Centre Metro Station Exit 2 (Fairmont side). Pick-up towards campus only."
     },
     {
+     "code": "C5-17",
+     "name": "New Gold Souq, Al Raffa, Bur Dubai",
+     "time": "19:41",
+     "action": "set_down",
+     "lat": 25.2515903,
+     "lng": 55.2824733,
+     "where_exactly": "ENOC petrol station beside the New Gold Souq (by Shabab Al Khan Cafeteria)."
+    },
+    {
      "code": "C5-05",
      "name": "BurJuman Mall",
-     "time": "19:46",
+     "time": "19:50",
      "action": "set_down",
      "lat": 25.254331,
      "lng": 55.303661,
@@ -18126,7 +18020,7 @@
     {
      "code": "C5-03",
      "name": "Creek Metro Station, Al Jaddaf",
-     "time": "20:03",
+     "time": "20:07",
      "action": "set_down",
      "lat": 25.219122,
      "lng": 55.339319,
@@ -18135,7 +18029,7 @@
     {
      "code": "C5-21",
      "name": "Al Ghurair Centre bus stop (Ghurair City 2), Al Rigga Rd",
-     "time": "20:22",
+     "time": "20:25",
      "action": "set_down",
      "lat": 25.266621,
      "lng": 55.317593,
@@ -19180,7 +19074,7 @@
    "service": "undergraduate",
    "arrive_campus": "09:45",
    "leave_campus": null,
-   "start": "08:40",
+   "start": "08:37",
    "end": "09:45",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
@@ -19189,7 +19083,7 @@
     {
      "code": "C1-24",
      "name": "EK2 Accommodation, Muhaisnah 4",
-     "time": "08:40",
+     "time": "08:37",
      "action": "pick_up",
      "lat": 25.2795117,
      "lng": 55.402653,
@@ -19198,16 +19092,25 @@
     {
      "code": "C1-07",
      "name": "Masafi 1, Al Nahda 2",
-     "time": "08:52",
+     "time": "08:48",
      "action": "pick_up",
      "lat": 25.289367,
      "lng": 55.372375,
      "where_exactly": "RTA bus shelter \"Al Nahda 2, 6A St 1\" (817301), facing Masafi tower."
     },
     {
+     "code": "C1-15",
+     "name": "Wasl Village, Central Parking",
+     "time": "09:00",
+     "action": "pick_up",
+     "lat": 25.289501,
+     "lng": 55.4111465,
+     "where_exactly": "Other side of the road, outside Urban Slice; students wait at the bench."
+    },
+    {
      "code": "C1-23",
      "name": "Centrepoint, Mirdif City Centre",
-     "time": "09:13",
+     "time": "09:10",
      "action": "pick_up",
      "lat": 25.2180926,
      "lng": 55.4085703,
@@ -19217,7 +19120,7 @@
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "09:18",
+     "time": "09:21",
      "action": "pick_up",
      "lat": 25.224246,
      "lng": 55.423615,
@@ -19243,7 +19146,7 @@
    "service": "undergraduate",
    "arrive_campus": "10:45",
    "leave_campus": null,
-   "start": "09:28",
+   "start": "09:31",
    "end": "10:45",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
@@ -19252,7 +19155,7 @@
     {
      "code": "C1-22",
      "name": "Baghdad Street 55, Al Nahda 1",
-     "time": "09:28",
+     "time": "09:31",
      "action": "pick_up",
      "lat": 25.2874799,
      "lng": 55.367603,
@@ -19261,25 +19164,16 @@
     {
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
-     "time": "09:33",
+     "time": "09:36",
      "action": "pick_up",
      "lat": 25.288631,
      "lng": 55.364044,
      "where_exactly": "Outside Noor Ladies Salon, by the clothes donation box."
     },
     {
-     "code": "C1-09",
-     "name": "DAFZA Metro Station",
-     "time": "09:45",
-     "action": "pick_up",
-     "lat": 25.270214,
-     "lng": 55.373696,
-     "where_exactly": "21B Street footpath by DAFZA Metro Station Entrance 1."
-    },
-    {
      "code": "C1-15",
      "name": "Wasl Village, Central Parking",
-     "time": "09:58",
+     "time": "09:52",
      "action": "pick_up",
      "lat": 25.289501,
      "lng": 55.4111465,
@@ -19288,7 +19182,7 @@
     {
      "code": "C1-23",
      "name": "Centrepoint, Mirdif City Centre",
-     "time": "10:03",
+     "time": "09:57",
      "action": "pick_up",
      "lat": 25.2180926,
      "lng": 55.4085703,
@@ -19298,7 +19192,7 @@
     {
      "code": "C1-13",
      "name": "Nasayem Avenue, Mirdif Hills",
-     "time": "10:21",
+     "time": "10:17",
      "action": "pick_up",
      "lat": 25.221963,
      "lng": 55.440775,
@@ -19360,7 +19254,7 @@
    "arrive_campus": null,
    "leave_campus": "14:15",
    "start": "14:15",
-   "end": "15:26",
+   "end": "15:29",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "seats": 34,
@@ -19377,7 +19271,7 @@
     {
      "code": "C1-13",
      "name": "Nasayem Avenue, Mirdif Hills",
-     "time": "14:37",
+     "time": "14:36",
      "action": "set_down",
      "lat": 25.221963,
      "lng": 55.440775,
@@ -19386,7 +19280,7 @@
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "14:47",
+     "time": "14:45",
      "action": "set_down",
      "lat": 25.224246,
      "lng": 55.423615,
@@ -19395,7 +19289,7 @@
     {
      "code": "C1-23",
      "name": "Centrepoint, Mirdif City Centre",
-     "time": "14:52",
+     "time": "14:50",
      "action": "set_down",
      "lat": 25.2180926,
      "lng": 55.4085703,
@@ -19403,9 +19297,18 @@
      "offer_only_stop": true
     },
     {
+     "code": "C1-09",
+     "name": "DAFZA Metro Station",
+     "time": "15:03",
+     "action": "set_down",
+     "lat": 25.270214,
+     "lng": 55.373696,
+     "where_exactly": "21B Street footpath by DAFZA Metro Station Entrance 1."
+    },
+    {
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
-     "time": "15:10",
+     "time": "15:13",
      "action": "set_down",
      "lat": 25.288631,
      "lng": 55.364044,
@@ -19414,7 +19317,7 @@
     {
      "code": "C1-07",
      "name": "Masafi 1, Al Nahda 2",
-     "time": "15:16",
+     "time": "15:19",
      "action": "set_down",
      "lat": 25.289367,
      "lng": 55.372375,
@@ -19423,7 +19326,7 @@
     {
      "code": "C1-24",
      "name": "EK2 Accommodation, Muhaisnah 4",
-     "time": "15:26",
+     "time": "15:29",
      "action": "set_down",
      "lat": 25.2795117,
      "lng": 55.402653,
@@ -21272,7 +21175,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "21:15",
+   "end": "21:18",
    "vehicle": "M5",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -21289,7 +21192,7 @@
     {
      "code": "C4-08",
      "name": "Al Ghadeer community gate",
-     "time": "18:59",
+     "time": "19:00",
      "action": "set_down",
      "lat": 24.8443745,
      "lng": 55.0261656,
@@ -21298,7 +21201,7 @@
     {
      "code": "C4-07",
      "name": "Al Zeina, Al Raha Beach",
-     "time": "19:52",
+     "time": "19:54",
      "action": "set_down",
      "lat": 24.4555591,
      "lng": 54.6131136,
@@ -21307,7 +21210,7 @@
     {
      "code": "C4-06",
      "name": "Al Forsan Village main gate",
-     "time": "20:08",
+     "time": "20:10",
      "action": "set_down",
      "lat": 24.4044,
      "lng": 54.5514,
@@ -21316,7 +21219,7 @@
     {
      "code": "C4-18",
      "name": "Super Nanny Nursery, Khalifa City, Abu Dhabi",
-     "time": "20:14",
+     "time": "20:16",
      "action": "set_down",
      "lat": 24.41338,
      "lng": 54.5594598,
@@ -21325,7 +21228,7 @@
     {
      "code": "C4-03",
      "name": "Al Wahda Mall",
-     "time": "20:48",
+     "time": "20:51",
      "action": "set_down",
      "lat": 24.471638,
      "lng": 54.372417,
@@ -21334,7 +21237,7 @@
     {
      "code": "C4-17",
      "name": "Al Falah St / Ministry of Finance bus stop",
-     "time": "20:54",
+     "time": "20:57",
      "action": "set_down",
      "lat": 24.4843472,
      "lng": 54.377167,
@@ -21343,7 +21246,7 @@
     {
      "code": "C4-23",
      "name": "Al Swedi Building 6, Al Sindan St, Al Zahiyah, Abu Dhabi",
-     "time": "21:02",
+     "time": "21:05",
      "action": "set_down",
      "lat": 24.5022611,
      "lng": 54.377864,
@@ -21352,7 +21255,7 @@
     {
      "code": "C4-01",
      "name": "Al Mariah Mall, Hamdan St",
-     "time": "21:08",
+     "time": "21:11",
      "action": "set_down",
      "lat": 24.494038,
      "lng": 54.366864,
@@ -21361,7 +21264,7 @@
     {
      "code": "C4-22",
      "name": "Silver Tower, Al Marakib St, Corniche Area, Abu Dhabi",
-     "time": "21:15",
+     "time": "21:18",
      "action": "set_down",
      "lat": 24.49302727241724,
      "lng": 54.359155308731616,
@@ -22048,7 +21951,7 @@
    "service": "undergraduate",
    "arrive_campus": "12:45",
    "leave_campus": null,
-   "start": "11:28",
+   "start": "11:25",
    "end": "12:45",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
@@ -22057,7 +21960,7 @@
     {
      "code": "C5-02",
      "name": "Al Rigga Metro Station",
-     "time": "11:28",
+     "time": "11:25",
      "action": "pick_up",
      "lat": 25.262847,
      "lng": 55.324368,
@@ -22066,16 +21969,25 @@
     {
      "code": "C5-04",
      "name": "Oud Metha Metro Station",
-     "time": "11:40",
+     "time": "11:37",
      "action": "pick_up",
      "lat": 25.243624,
      "lng": 55.315799,
      "where_exactly": "RTA bus stop Oud Metha 1, other side of the road, outside Super Saver supermarket."
     },
     {
+     "code": "C5-17",
+     "name": "New Gold Souq, Al Raffa, Bur Dubai",
+     "time": "11:47",
+     "action": "pick_up",
+     "lat": 25.2515903,
+     "lng": 55.2824733,
+     "where_exactly": "ENOC petrol station beside the New Gold Souq (by Shabab Al Khan Cafeteria)."
+    },
+    {
      "code": "C5-06",
      "name": "Al Wasl Building, Al Hudaiba",
-     "time": "11:51",
+     "time": "11:54",
      "action": "pick_up",
      "lat": 25.243,
      "lng": 55.2788,
@@ -22084,7 +21996,7 @@
     {
      "code": "C5-14",
      "name": "Meydan Heights, Nad Al Sheba 1",
-     "time": "12:20",
+     "time": "12:22",
      "action": "pick_up",
      "lat": 25.14468,
      "lng": 55.3152,
@@ -22276,7 +22188,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "20:24",
+   "end": "20:27",
    "vehicle": "M7",
    "vehicle_type": "Rosa",
    "seats": 34,
@@ -22293,7 +22205,7 @@
     {
      "code": "C5-12",
      "name": "Wasl Green Park, Ras Al Khor",
-     "time": "18:31",
+     "time": "18:30",
      "action": "set_down",
      "lat": 25.1801628,
      "lng": 55.3729096,
@@ -22302,7 +22214,7 @@
     {
      "code": "C5-11",
      "name": "One Park Avenue, Sobha Hartland",
-     "time": "18:46",
+     "time": "18:45",
      "action": "set_down",
      "lat": 25.1784466,
      "lng": 55.3086196,
@@ -22311,7 +22223,7 @@
     {
      "code": "C5-09",
      "name": "Bay Avenue Mall, Business Bay",
-     "time": "19:02",
+     "time": "19:01",
      "action": "set_down",
      "lat": 25.191143,
      "lng": 55.265598,
@@ -22320,7 +22232,7 @@
     {
      "code": "C5-07",
      "name": "World Trade Centre Metro Station",
-     "time": "19:17",
+     "time": "19:16",
      "action": "set_down",
      "lat": 25.225614,
      "lng": 55.284365,
@@ -22329,16 +22241,25 @@
     {
      "code": "C5-06",
      "name": "Al Wasl Building, Al Hudaiba",
-     "time": "19:26",
+     "time": "19:24",
      "action": "set_down",
      "lat": 25.243,
      "lng": 55.2788,
      "where_exactly": "S2/PR399 Al Wasl Bldg Block A, 4B St."
     },
     {
+     "code": "C5-17",
+     "name": "New Gold Souq, Al Raffa, Bur Dubai",
+     "time": "19:31",
+     "action": "set_down",
+     "lat": 25.2515903,
+     "lng": 55.2824733,
+     "where_exactly": "ENOC petrol station beside the New Gold Souq (by Shabab Al Khan Cafeteria)."
+    },
+    {
      "code": "C5-05",
      "name": "BurJuman Mall",
-     "time": "19:37",
+     "time": "19:40",
      "action": "set_down",
      "lat": 25.254331,
      "lng": 55.303661,
@@ -22347,7 +22268,7 @@
     {
      "code": "C5-04",
      "name": "Oud Metha Metro Station",
-     "time": "19:45",
+     "time": "19:48",
      "action": "set_down",
      "lat": 25.243624,
      "lng": 55.315799,
@@ -22356,7 +22277,7 @@
     {
      "code": "C5-03",
      "name": "Creek Metro Station, Al Jaddaf",
-     "time": "19:58",
+     "time": "20:01",
      "action": "set_down",
      "lat": 25.219122,
      "lng": 55.339319,
@@ -22365,7 +22286,7 @@
     {
      "code": "C5-21",
      "name": "Al Ghurair Centre bus stop (Ghurair City 2), Al Rigga Rd",
-     "time": "20:17",
+     "time": "20:20",
      "action": "set_down",
      "lat": 25.266621,
      "lng": 55.317593,
@@ -22374,7 +22295,7 @@
     {
      "code": "C5-02",
      "name": "Al Rigga Metro Station",
-     "time": "20:24",
+     "time": "20:27",
      "action": "set_down",
      "lat": 25.262847,
      "lng": 55.324368,
@@ -23025,7 +22946,7 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:42",
+   "start": "05:45",
    "end": "07:45",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
@@ -23034,7 +22955,7 @@
     {
      "code": "C1-24",
      "name": "EK2 Accommodation, Muhaisnah 4",
-     "time": "05:42",
+     "time": "05:45",
      "action": "pick_up",
      "lat": 25.2795117,
      "lng": 55.402653,
@@ -23043,7 +22964,7 @@
     {
      "code": "C1-07",
      "name": "Masafi 1, Al Nahda 2",
-     "time": "05:54",
+     "time": "05:59",
      "action": "pick_up",
      "lat": 25.289367,
      "lng": 55.372375,
@@ -23052,7 +22973,7 @@
     {
      "code": "C1-22",
      "name": "Baghdad Street 55, Al Nahda 1",
-     "time": "06:00",
+     "time": "06:05",
      "action": "pick_up",
      "lat": 25.2874799,
      "lng": 55.367603,
@@ -23061,7 +22982,7 @@
     {
      "code": "C1-17",
      "name": "Bahwan Tower, Al Nahda 1",
-     "time": "06:06",
+     "time": "06:11",
      "action": "pick_up",
      "lat": 25.287666,
      "lng": 55.361619,
@@ -23070,7 +22991,7 @@
     {
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
-     "time": "06:10",
+     "time": "06:16",
      "action": "pick_up",
      "lat": 25.288631,
      "lng": 55.364044,
@@ -23079,25 +23000,16 @@
     {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "06:24",
+     "time": "06:32",
      "action": "pick_up",
      "lat": 25.270214,
      "lng": 55.373696,
      "where_exactly": "21B Street footpath by DAFZA Metro Station Entrance 1."
     },
     {
-     "code": "C1-15",
-     "name": "Wasl Village, Central Parking",
-     "time": "06:40",
-     "action": "pick_up",
-     "lat": 25.289501,
-     "lng": 55.4111465,
-     "where_exactly": "Other side of the road, outside Urban Slice; students wait at the bench."
-    },
-    {
      "code": "C1-23",
      "name": "Centrepoint, Mirdif City Centre",
-     "time": "06:52",
+     "time": "06:53",
      "action": "pick_up",
      "lat": 25.2180926,
      "lng": 55.4085703,
@@ -23107,7 +23019,7 @@
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "07:04",
+     "time": "06:58",
      "action": "pick_up",
      "lat": 25.224246,
      "lng": 55.423615,
@@ -23116,7 +23028,7 @@
     {
      "code": "C1-13",
      "name": "Nasayem Avenue, Mirdif Hills",
-     "time": "07:16",
+     "time": "07:11",
      "action": "pick_up",
      "lat": 25.221963,
      "lng": 55.440775,
@@ -23143,7 +23055,7 @@
    "arrive_campus": null,
    "leave_campus": "12:15",
    "start": "12:15",
-   "end": "13:38",
+   "end": "13:35",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "seats": 34,
@@ -23160,7 +23072,7 @@
     {
      "code": "C1-13",
      "name": "Nasayem Avenue, Mirdif Hills",
-     "time": "12:32",
+     "time": "12:35",
      "action": "set_down",
      "lat": 25.221963,
      "lng": 55.440775,
@@ -23169,7 +23081,7 @@
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "12:41",
+     "time": "12:44",
      "action": "set_down",
      "lat": 25.224246,
      "lng": 55.423615,
@@ -23178,7 +23090,7 @@
     {
      "code": "C1-23",
      "name": "Centrepoint, Mirdif City Centre",
-     "time": "12:48",
+     "time": "12:49",
      "action": "set_down",
      "lat": 25.2180926,
      "lng": 55.4085703,
@@ -23186,18 +23098,9 @@
      "offer_only_stop": true
     },
     {
-     "code": "C1-15",
-     "name": "Wasl Village, Central Parking",
-     "time": "12:56",
-     "action": "set_down",
-     "lat": 25.289501,
-     "lng": 55.4111465,
-     "where_exactly": "Other side of the road, outside Urban Slice; students wait at the bench."
-    },
-    {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "13:07",
+     "time": "13:01",
      "action": "set_down",
      "lat": 25.270214,
      "lng": 55.373696,
@@ -23206,7 +23109,7 @@
     {
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
-     "time": "13:16",
+     "time": "13:12",
      "action": "set_down",
      "lat": 25.288631,
      "lng": 55.364044,
@@ -23215,7 +23118,7 @@
     {
      "code": "C1-17",
      "name": "Bahwan Tower, Al Nahda 1",
-     "time": "13:20",
+     "time": "13:16",
      "action": "set_down",
      "lat": 25.287666,
      "lng": 55.361619,
@@ -23224,7 +23127,7 @@
     {
      "code": "C1-22",
      "name": "Baghdad Street 55, Al Nahda 1",
-     "time": "13:25",
+     "time": "13:21",
      "action": "set_down",
      "lat": 25.2874799,
      "lng": 55.367603,
@@ -23233,7 +23136,7 @@
     {
      "code": "C1-07",
      "name": "Masafi 1, Al Nahda 2",
-     "time": "13:29",
+     "time": "13:26",
      "action": "set_down",
      "lat": 25.289367,
      "lng": 55.372375,
@@ -23242,7 +23145,7 @@
     {
      "code": "C1-24",
      "name": "EK2 Accommodation, Muhaisnah 4",
-     "time": "13:38",
+     "time": "13:35",
      "action": "set_down",
      "lat": 25.2795117,
      "lng": 55.402653,
