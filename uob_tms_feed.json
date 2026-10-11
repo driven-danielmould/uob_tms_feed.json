@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-10T06:43:41Z",
+ "generated_at": "2026-10-11T13:19:58Z",
  "week": "2026-10-09 to 2026-10-18",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -8500,8 +8500,8 @@
    "start": "14:15",
    "end": "16:09",
    "vehicle": "M5",
-   "vehicle_type": "Rosa",
-   "seats": 34,
+   "vehicle_type": "Hiace",
+   "seats": 12,
    "stops": [
     {
      "code": "UOB",
@@ -12593,8 +12593,8 @@
    "start": "14:15",
    "end": "16:16",
    "vehicle": "M5",
-   "vehicle_type": "Rosa",
-   "seats": 34,
+   "vehicle_type": "Hiace",
+   "seats": 12,
    "stops": [
     {
      "code": "UOB",
@@ -16912,8 +16912,8 @@
    "start": "14:15",
    "end": "16:06",
    "vehicle": "M5",
-   "vehicle_type": "Rosa",
-   "seats": 34,
+   "vehicle_type": "Hiace",
+   "seats": 12,
    "stops": [
     {
      "code": "UOB",
@@ -17287,6 +17287,15 @@
      "where_exactly": "Car park entrance."
     },
     {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "09:45",
+     "action": "set_down",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    },
+    {
      "code": "C4-13",
      "name": "Gardens Metro Station",
      "time": "09:03",
@@ -17296,41 +17305,6 @@
      "where_exactly": "Exit 1 of the metro station, at the bus stop (Discovery Gardens side)."
     },
     {
-     "code": "UOB",
-     "name": "University of Birmingham Dubai",
-     "time": "09:45",
-     "action": "set_down",
-     "lat": 25.1321925,
-     "lng": 55.4223161,
-     "where_exactly": ""
-    }
-   ]
-  },
-  {
-   "run_id": "2026-10-14-R6-O3",
-   "date": "2026-10-14",
-   "day": "Wed",
-   "route": "R6",
-   "direction": "to_campus",
-   "service": "undergraduate",
-   "arrive_campus": "10:45",
-   "leave_campus": null,
-   "start": "09:51",
-   "end": "10:45",
-   "vehicle": "M6",
-   "vehicle_type": "Hiace",
-   "seats": 12,
-   "stops": [
-    {
-     "code": "C4-19",
-     "name": "Masakin Al Furjan Gate 2, Al Furjan",
-     "time": "09:51",
-     "action": "pick_up",
-     "lat": 25.0308,
-     "lng": 55.14978,
-     "where_exactly": "Masakin Al Furjan, Gate 2 (by Arcadia Global School) - exact gate pin to be confirmed from her map link."
-    },
-    {
      "code": "C4-16",
      "name": "Discovery Gardens Metro Station",
      "time": "09:57",
@@ -17338,24 +17312,6 @@
      "lat": 25.035204,
      "lng": 55.1453653,
      "where_exactly": "Bus and taxi lay-by at the station entrance."
-    },
-    {
-     "code": "C4-13",
-     "name": "Gardens Metro Station",
-     "time": "10:05",
-     "action": "pick_up",
-     "lat": 25.043761,
-     "lng": 55.134832,
-     "where_exactly": "Exit 1 of the metro station, at the bus stop (Discovery Gardens side)."
-    },
-    {
-     "code": "UOB",
-     "name": "University of Birmingham Dubai",
-     "time": "10:45",
-     "action": "set_down",
-     "lat": 25.1321925,
-     "lng": 55.4223161,
-     "where_exactly": ""
     }
    ]
   },
@@ -21204,8 +21160,8 @@
    "start": "14:15",
    "end": "16:04",
    "vehicle": "M5",
-   "vehicle_type": "Rosa",
-   "seats": 34,
+   "vehicle_type": "Hiace",
+   "seats": 12,
    "stops": [
     {
      "code": "UOB",
