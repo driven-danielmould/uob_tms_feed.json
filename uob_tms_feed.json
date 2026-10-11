@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-11T13:41:14Z",
+ "generated_at": "2026-10-11T13:42:17Z",
  "week": "2026-10-09 to 2026-10-18",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -297,7 +297,7 @@
      "type": "public"
     },
     {
-     "code": "R2-92",
+     "code": "C1-22",
      "order": 3,
      "name": "Al Nahda 1, Al Banai 1 (RTA bus stop AN1AB1)",
      "lat": 25.291551,
@@ -2765,11 +2765,11 @@
     },
     {
      "code": "C1-22",
-     "name": "Baghdad Street 55, Al Nahda 1",
+     "name": "Al Nahda 1, Al Banai 1 (RTA bus stop AN1AB1)",
      "time": "06:08",
      "action": "pick_up",
-     "lat": 25.2874799,
-     "lng": 55.367603,
+     "lat": 25.291551,
+     "lng": 55.36486,
      "where_exactly": "Kerbside on Baghdad Street outside building 55."
     },
     {
@@ -2901,11 +2901,11 @@
     },
     {
      "code": "C1-22",
-     "name": "Baghdad Street 55, Al Nahda 1",
+     "name": "Al Nahda 1, Al Banai 1 (RTA bus stop AN1AB1)",
      "time": "13:18",
      "action": "set_down",
-     "lat": 25.2874799,
-     "lng": 55.367603,
+     "lat": 25.291551,
+     "lng": 55.36486,
      "where_exactly": "Kerbside on Baghdad Street outside building 55."
     },
     {
@@ -6769,7 +6769,7 @@
    "seats": 34,
    "stops": [
     {
-     "code": "R2-92",
+     "code": "C1-22",
      "name": "Al Nahda 1, Al Banai 1 (RTA bus stop AN1AB1)",
      "time": "11:30",
      "action": "pick_up",
@@ -7046,7 +7046,7 @@
      "where_exactly": "Outside Noor Ladies Salon, by the clothes donation box."
     },
     {
-     "code": "R2-92",
+     "code": "C1-22",
      "name": "Al Nahda 1, Al Banai 1 (RTA bus stop AN1AB1)",
      "time": "19:43",
      "action": "set_down",
@@ -10480,7 +10480,7 @@
      "where_exactly": "RTA bus shelter \"Al Nahda 2, 6A St 1\" (817301), facing Masafi tower."
     },
     {
-     "code": "R2-92",
+     "code": "C1-22",
      "name": "Al Nahda 1, Al Banai 1 (RTA bus stop AN1AB1)",
      "time": "06:04",
      "action": "pick_up",
@@ -10937,7 +10937,7 @@
      "where_exactly": "Kerbside outside the Bahwan Tower entrance; no lay-by, bus stops in the road."
     },
     {
-     "code": "R2-92",
+     "code": "C1-22",
      "name": "Al Nahda 1, Al Banai 1 (RTA bus stop AN1AB1)",
      "time": "19:58",
      "action": "set_down",
@@ -14655,7 +14655,7 @@
      "where_exactly": "RTA bus shelter \"Al Nahda 2, 6A St 1\" (817301), facing Masafi tower."
     },
     {
-     "code": "R2-92",
+     "code": "C1-22",
      "name": "Al Nahda 1, Al Banai 1 (RTA bus stop AN1AB1)",
      "time": "05:48",
      "action": "pick_up",
@@ -15147,7 +15147,7 @@
      "where_exactly": "Kerbside outside the Bahwan Tower entrance; no lay-by, bus stops in the road."
     },
     {
-     "code": "R2-92",
+     "code": "C1-22",
      "name": "Al Nahda 1, Al Banai 1 (RTA bus stop AN1AB1)",
      "time": "19:48",
      "action": "set_down",
@@ -19135,7 +19135,7 @@
    "seats": 34,
    "stops": [
     {
-     "code": "R2-92",
+     "code": "C1-22",
      "name": "Al Nahda 1, Al Banai 1 (RTA bus stop AN1AB1)",
      "time": "09:30",
      "action": "pick_up",
@@ -19493,7 +19493,7 @@
      "where_exactly": "Kerbside outside the Bahwan Tower entrance; no lay-by, bus stops in the road."
     },
     {
-     "code": "R2-92",
+     "code": "C1-22",
      "name": "Al Nahda 1, Al Banai 1 (RTA bus stop AN1AB1)",
      "time": "19:58",
      "action": "set_down",
@@ -22935,7 +22935,7 @@
      "where_exactly": "RTA bus shelter \"Al Nahda 2, 6A St 1\" (817301), facing Masafi tower."
     },
     {
-     "code": "R2-92",
+     "code": "C1-22",
      "name": "Al Nahda 1, Al Banai 1 (RTA bus stop AN1AB1)",
      "time": "06:08",
      "action": "pick_up",
@@ -23089,7 +23089,7 @@
      "where_exactly": "Kerbside outside the Bahwan Tower entrance; no lay-by, bus stops in the road."
     },
     {
-     "code": "R2-92",
+     "code": "C1-22",
      "name": "Al Nahda 1, Al Banai 1 (RTA bus stop AN1AB1)",
      "time": "13:19",
      "action": "set_down",
