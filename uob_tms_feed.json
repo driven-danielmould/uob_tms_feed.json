@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-11T16:33:09Z",
+ "generated_at": "2026-10-11T16:35:19Z",
  "week": "2026-10-09 to 2026-10-18",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -9106,7 +9106,7 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:47",
+   "start": "05:44",
    "end": "07:45",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
@@ -9115,7 +9115,7 @@
     {
      "code": "C5-04",
      "name": "Oud Metha Metro Station",
-     "time": "05:47",
+     "time": "05:44",
      "action": "pick_up",
      "lat": 25.243624,
      "lng": 55.315799,
@@ -9124,7 +9124,7 @@
     {
      "code": "C5-05",
      "name": "BurJuman Mall",
-     "time": "06:01",
+     "time": "05:56",
      "action": "pick_up",
      "lat": 25.254331,
      "lng": 55.303661,
@@ -9133,7 +9133,7 @@
     {
      "code": "C5-09",
      "name": "Bay Avenue Mall, Business Bay",
-     "time": "06:33",
+     "time": "06:24",
      "action": "pick_up",
      "lat": 25.191143,
      "lng": 55.265598,
@@ -9142,16 +9142,25 @@
     {
      "code": "C5-11",
      "name": "One Park Avenue, Sobha Hartland",
-     "time": "06:52",
+     "time": "06:42",
      "action": "pick_up",
      "lat": 25.1784466,
      "lng": 55.3086196,
      "where_exactly": "Main entrance."
     },
     {
+     "code": "C5-14",
+     "name": "Meydan Heights, Nad Al Sheba 1",
+     "time": "06:57",
+     "action": "pick_up",
+     "lat": 25.14468,
+     "lng": 55.3152,
+     "where_exactly": "Meydan Heights villas gate, Nad Al Sheba 1."
+    },
+    {
      "code": "C5-12",
      "name": "Wasl Green Park, Ras Al Khor",
-     "time": "07:19",
+     "time": "07:22",
      "action": "pick_up",
      "lat": 25.1801628,
      "lng": 55.3729096,
@@ -9546,16 +9555,25 @@
     {
      "code": "C5-12",
      "name": "Wasl Green Park, Ras Al Khor",
-     "time": "18:34",
+     "time": "18:31",
      "action": "set_down",
      "lat": 25.1801628,
      "lng": 55.3729096,
      "where_exactly": "R1, near the roundabout."
     },
     {
+     "code": "C5-14",
+     "name": "Meydan Heights, Nad Al Sheba 1",
+     "time": "18:48",
+     "action": "set_down",
+     "lat": 25.14468,
+     "lng": 55.3152,
+     "where_exactly": "Meydan Heights villas gate, Nad Al Sheba 1."
+    },
+    {
      "code": "C5-11",
      "name": "One Park Avenue, Sobha Hartland",
-     "time": "18:52",
+     "time": "19:02",
      "action": "set_down",
      "lat": 25.1784466,
      "lng": 55.3086196,
@@ -9564,7 +9582,7 @@
     {
      "code": "C5-15",
      "name": "Ubora Tower, Business Bay",
-     "time": "19:08",
+     "time": "19:17",
      "action": "set_down",
      "lat": 25.180398,
      "lng": 55.269675,
@@ -9573,7 +9591,7 @@
     {
      "code": "C5-09",
      "name": "Bay Avenue Mall, Business Bay",
-     "time": "19:17",
+     "time": "19:24",
      "action": "set_down",
      "lat": 25.191143,
      "lng": 55.265598,
@@ -9582,7 +9600,7 @@
     {
      "code": "C5-06",
      "name": "Al Wasl Building, Al Hudaiba",
-     "time": "19:41",
+     "time": "19:45",
      "action": "set_down",
      "lat": 25.243,
      "lng": 55.2788,
@@ -9591,7 +9609,7 @@
     {
      "code": "C5-05",
      "name": "BurJuman Mall",
-     "time": "19:54",
+     "time": "19:57",
      "action": "set_down",
      "lat": 25.254331,
      "lng": 55.303661,
@@ -9600,7 +9618,7 @@
     {
      "code": "C5-04",
      "name": "Oud Metha Metro Station",
-     "time": "20:04",
+     "time": "20:05",
      "action": "set_down",
      "lat": 25.243624,
      "lng": 55.315799,
@@ -13342,7 +13360,7 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:32",
+   "start": "05:35",
    "end": "07:45",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
@@ -13351,7 +13369,7 @@
     {
      "code": "C5-21",
      "name": "Al Ghurair Centre bus stop (Ghurair City 2), Al Rigga Rd",
-     "time": "05:32",
+     "time": "05:35",
      "action": "pick_up",
      "lat": 25.266621,
      "lng": 55.317593,
@@ -13360,7 +13378,7 @@
     {
      "code": "C5-05",
      "name": "BurJuman Mall",
-     "time": "05:47",
+     "time": "05:51",
      "action": "pick_up",
      "lat": 25.254331,
      "lng": 55.303661,
@@ -13369,7 +13387,7 @@
     {
      "code": "C5-17",
      "name": "New Gold Souq, Al Raffa, Bur Dubai",
-     "time": "06:03",
+     "time": "06:08",
      "action": "pick_up",
      "lat": 25.2515903,
      "lng": 55.2824733,
@@ -13378,7 +13396,7 @@
     {
      "code": "C5-09",
      "name": "Bay Avenue Mall, Business Bay",
-     "time": "06:31",
+     "time": "06:37",
      "action": "pick_up",
      "lat": 25.191143,
      "lng": 55.265598,
@@ -13387,20 +13405,11 @@
     {
      "code": "C5-11",
      "name": "One Park Avenue, Sobha Hartland",
-     "time": "06:50",
+     "time": "06:57",
      "action": "pick_up",
      "lat": 25.1784466,
      "lng": 55.3086196,
      "where_exactly": "Main entrance."
-    },
-    {
-     "code": "C5-14",
-     "name": "Meydan Heights, Nad Al Sheba 1",
-     "time": "07:06",
-     "action": "pick_up",
-     "lat": 25.14468,
-     "lng": 55.3152,
-     "where_exactly": "Meydan Heights villas gate, Nad Al Sheba 1."
     },
     {
      "code": "UOB",
@@ -13574,7 +13583,7 @@
    "arrive_campus": null,
    "leave_campus": "14:15",
    "start": "14:15",
-   "end": "15:34",
+   "end": "15:31",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -13589,18 +13598,9 @@
      "where_exactly": ""
     },
     {
-     "code": "C5-14",
-     "name": "Meydan Heights, Nad Al Sheba 1",
-     "time": "14:44",
-     "action": "set_down",
-     "lat": 25.14468,
-     "lng": 55.3152,
-     "where_exactly": "Meydan Heights villas gate, Nad Al Sheba 1."
-    },
-    {
      "code": "C5-09",
      "name": "Bay Avenue Mall, Business Bay",
-     "time": "15:06",
+     "time": "15:03",
      "action": "set_down",
      "lat": 25.191143,
      "lng": 55.265598,
@@ -13609,7 +13609,7 @@
     {
      "code": "C5-07",
      "name": "World Trade Centre Metro Station",
-     "time": "15:21",
+     "time": "15:18",
      "action": "set_down",
      "lat": 25.225614,
      "lng": 55.284365,
@@ -13618,7 +13618,7 @@
     {
      "code": "C5-05",
      "name": "BurJuman Mall",
-     "time": "15:34",
+     "time": "15:31",
      "action": "set_down",
      "lat": 25.254331,
      "lng": 55.303661,
@@ -17859,7 +17859,7 @@
    "arrive_campus": null,
    "leave_campus": "14:15",
    "start": "14:15",
-   "end": "15:32",
+   "end": "15:35",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -17874,9 +17874,18 @@
      "where_exactly": ""
     },
     {
+     "code": "C5-14",
+     "name": "Meydan Heights, Nad Al Sheba 1",
+     "time": "14:37",
+     "action": "set_down",
+     "lat": 25.14468,
+     "lng": 55.3152,
+     "where_exactly": "Meydan Heights villas gate, Nad Al Sheba 1."
+    },
+    {
      "code": "C5-06",
      "name": "Al Wasl Building, Al Hudaiba",
-     "time": "14:57",
+     "time": "15:03",
      "action": "set_down",
      "lat": 25.243,
      "lng": 55.2788,
@@ -17885,7 +17894,7 @@
     {
      "code": "C5-05",
      "name": "BurJuman Mall",
-     "time": "15:11",
+     "time": "15:15",
      "action": "set_down",
      "lat": 25.254331,
      "lng": 55.303661,
@@ -17894,7 +17903,7 @@
     {
      "code": "C5-04",
      "name": "Oud Metha Metro Station",
-     "time": "15:20",
+     "time": "15:24",
      "action": "set_down",
      "lat": 25.243624,
      "lng": 55.315799,
@@ -17903,7 +17912,7 @@
     {
      "code": "C5-02",
      "name": "Al Rigga Metro Station",
-     "time": "15:32",
+     "time": "15:35",
      "action": "set_down",
      "lat": 25.262847,
      "lng": 55.324368,
@@ -18024,7 +18033,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "20:25",
+   "end": "20:22",
    "vehicle": "M7",
    "vehicle_type": "Rosa",
    "seats": 34,
@@ -18041,25 +18050,16 @@
     {
      "code": "C5-12",
      "name": "Wasl Green Park, Ras Al Khor",
-     "time": "18:29",
+     "time": "18:31",
      "action": "set_down",
      "lat": 25.1801628,
      "lng": 55.3729096,
      "where_exactly": "R1, near the roundabout."
     },
     {
-     "code": "C5-14",
-     "name": "Meydan Heights, Nad Al Sheba 1",
-     "time": "18:44",
-     "action": "set_down",
-     "lat": 25.14468,
-     "lng": 55.3152,
-     "where_exactly": "Meydan Heights villas gate, Nad Al Sheba 1."
-    },
-    {
      "code": "C5-11",
      "name": "One Park Avenue, Sobha Hartland",
-     "time": "18:58",
+     "time": "18:46",
      "action": "set_down",
      "lat": 25.1784466,
      "lng": 55.3086196,
@@ -18068,7 +18068,7 @@
     {
      "code": "C5-15",
      "name": "Ubora Tower, Business Bay",
-     "time": "19:11",
+     "time": "19:01",
      "action": "set_down",
      "lat": 25.180398,
      "lng": 55.269675,
@@ -18077,7 +18077,7 @@
     {
      "code": "C5-09",
      "name": "Bay Avenue Mall, Business Bay",
-     "time": "19:17",
+     "time": "19:08",
      "action": "set_down",
      "lat": 25.191143,
      "lng": 55.265598,
@@ -18086,7 +18086,7 @@
     {
      "code": "C5-07",
      "name": "World Trade Centre Metro Station",
-     "time": "19:31",
+     "time": "19:23",
      "action": "set_down",
      "lat": 25.225614,
      "lng": 55.284365,
@@ -18095,7 +18095,7 @@
     {
      "code": "C5-17",
      "name": "New Gold Souq, Al Raffa, Bur Dubai",
-     "time": "19:41",
+     "time": "19:34",
      "action": "set_down",
      "lat": 25.2515903,
      "lng": 55.2824733,
@@ -18104,7 +18104,7 @@
     {
      "code": "C5-05",
      "name": "BurJuman Mall",
-     "time": "19:50",
+     "time": "19:44",
      "action": "set_down",
      "lat": 25.254331,
      "lng": 55.303661,
@@ -18113,7 +18113,7 @@
     {
      "code": "C5-03",
      "name": "Creek Metro Station, Al Jaddaf",
-     "time": "20:07",
+     "time": "20:02",
      "action": "set_down",
      "lat": 25.219122,
      "lng": 55.339319,
@@ -18122,7 +18122,7 @@
     {
      "code": "C5-21",
      "name": "Al Ghurair Centre bus stop (Ghurair City 2), Al Rigga Rd",
-     "time": "20:25",
+     "time": "20:22",
      "action": "set_down",
      "lat": 25.266621,
      "lng": 55.317593,
@@ -21832,7 +21832,7 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:29",
+   "start": "05:26",
    "end": "07:45",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
@@ -21841,7 +21841,7 @@
     {
      "code": "C5-21",
      "name": "Al Ghurair Centre bus stop (Ghurair City 2), Al Rigga Rd",
-     "time": "05:29",
+     "time": "05:26",
      "action": "pick_up",
      "lat": 25.266621,
      "lng": 55.317593,
@@ -21850,7 +21850,7 @@
     {
      "code": "C5-03",
      "name": "Creek Metro Station, Al Jaddaf",
-     "time": "05:50",
+     "time": "05:46",
      "action": "pick_up",
      "lat": 25.219122,
      "lng": 55.339319,
@@ -21859,7 +21859,7 @@
     {
      "code": "C5-04",
      "name": "Oud Metha Metro Station",
-     "time": "06:04",
+     "time": "06:00",
      "action": "pick_up",
      "lat": 25.243624,
      "lng": 55.315799,
@@ -21868,7 +21868,7 @@
     {
      "code": "C5-05",
      "name": "BurJuman Mall",
-     "time": "06:17",
+     "time": "06:12",
      "action": "pick_up",
      "lat": 25.254331,
      "lng": 55.303661,
@@ -21877,7 +21877,7 @@
     {
      "code": "C5-07",
      "name": "World Trade Centre Metro Station",
-     "time": "06:31",
+     "time": "06:26",
      "action": "pick_up",
      "lat": 25.225614,
      "lng": 55.284365,
@@ -21886,7 +21886,7 @@
     {
      "code": "C5-09",
      "name": "Bay Avenue Mall, Business Bay",
-     "time": "06:48",
+     "time": "06:42",
      "action": "pick_up",
      "lat": 25.191143,
      "lng": 55.265598,
@@ -21895,11 +21895,20 @@
     {
      "code": "C5-11",
      "name": "One Park Avenue, Sobha Hartland",
-     "time": "07:05",
+     "time": "06:58",
      "action": "pick_up",
      "lat": 25.1784466,
      "lng": 55.3086196,
      "where_exactly": "Main entrance."
+    },
+    {
+     "code": "C5-14",
+     "name": "Meydan Heights, Nad Al Sheba 1",
+     "time": "07:13",
+     "action": "pick_up",
+     "lat": 25.14468,
+     "lng": 55.3152,
+     "where_exactly": "Meydan Heights villas gate, Nad Al Sheba 1."
     },
     {
      "code": "UOB",
@@ -22018,7 +22027,7 @@
    "service": "undergraduate",
    "arrive_campus": "12:45",
    "leave_campus": null,
-   "start": "11:25",
+   "start": "11:28",
    "end": "12:45",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
@@ -22027,7 +22036,7 @@
     {
      "code": "C5-02",
      "name": "Al Rigga Metro Station",
-     "time": "11:25",
+     "time": "11:28",
      "action": "pick_up",
      "lat": 25.262847,
      "lng": 55.324368,
@@ -22036,7 +22045,7 @@
     {
      "code": "C5-04",
      "name": "Oud Metha Metro Station",
-     "time": "11:37",
+     "time": "11:41",
      "action": "pick_up",
      "lat": 25.243624,
      "lng": 55.315799,
@@ -22045,7 +22054,7 @@
     {
      "code": "C5-17",
      "name": "New Gold Souq, Al Raffa, Bur Dubai",
-     "time": "11:47",
+     "time": "11:52",
      "action": "pick_up",
      "lat": 25.2515903,
      "lng": 55.2824733,
@@ -22054,20 +22063,11 @@
     {
      "code": "C5-06",
      "name": "Al Wasl Building, Al Hudaiba",
-     "time": "11:54",
+     "time": "11:59",
      "action": "pick_up",
      "lat": 25.243,
      "lng": 55.2788,
      "where_exactly": "S2/PR399 Al Wasl Bldg Block A, 4B St."
-    },
-    {
-     "code": "C5-14",
-     "name": "Meydan Heights, Nad Al Sheba 1",
-     "time": "12:22",
-     "action": "pick_up",
-     "lat": 25.14468,
-     "lng": 55.3152,
-     "where_exactly": "Meydan Heights villas gate, Nad Al Sheba 1."
     },
     {
      "code": "UOB",
@@ -22090,7 +22090,7 @@
    "arrive_campus": null,
    "leave_campus": "14:15",
    "start": "14:15",
-   "end": "15:34",
+   "end": "15:31",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -22105,18 +22105,9 @@
      "where_exactly": ""
     },
     {
-     "code": "C5-14",
-     "name": "Meydan Heights, Nad Al Sheba 1",
-     "time": "14:43",
-     "action": "set_down",
-     "lat": 25.14468,
-     "lng": 55.3152,
-     "where_exactly": "Meydan Heights villas gate, Nad Al Sheba 1."
-    },
-    {
      "code": "C5-11",
      "name": "One Park Avenue, Sobha Hartland",
-     "time": "14:55",
+     "time": "14:50",
      "action": "set_down",
      "lat": 25.1784466,
      "lng": 55.3086196,
@@ -22125,7 +22116,7 @@
     {
      "code": "C5-15",
      "name": "Ubora Tower, Business Bay",
-     "time": "15:08",
+     "time": "15:03",
      "action": "set_down",
      "lat": 25.180398,
      "lng": 55.269675,
@@ -22134,7 +22125,7 @@
     {
      "code": "C5-05",
      "name": "BurJuman Mall",
-     "time": "15:34",
+     "time": "15:31",
      "action": "set_down",
      "lat": 25.254331,
      "lng": 55.303661,
@@ -22255,7 +22246,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "20:27",
+   "end": "20:30",
    "vehicle": "M7",
    "vehicle_type": "Rosa",
    "seats": 34,
@@ -22272,16 +22263,25 @@
     {
      "code": "C5-12",
      "name": "Wasl Green Park, Ras Al Khor",
-     "time": "18:30",
+     "time": "18:29",
      "action": "set_down",
      "lat": 25.1801628,
      "lng": 55.3729096,
      "where_exactly": "R1, near the roundabout."
     },
     {
+     "code": "C5-14",
+     "name": "Meydan Heights, Nad Al Sheba 1",
+     "time": "18:43",
+     "action": "set_down",
+     "lat": 25.14468,
+     "lng": 55.3152,
+     "where_exactly": "Meydan Heights villas gate, Nad Al Sheba 1."
+    },
+    {
      "code": "C5-11",
      "name": "One Park Avenue, Sobha Hartland",
-     "time": "18:45",
+     "time": "18:56",
      "action": "set_down",
      "lat": 25.1784466,
      "lng": 55.3086196,
@@ -22290,7 +22290,7 @@
     {
      "code": "C5-09",
      "name": "Bay Avenue Mall, Business Bay",
-     "time": "19:01",
+     "time": "19:11",
      "action": "set_down",
      "lat": 25.191143,
      "lng": 55.265598,
@@ -22299,7 +22299,7 @@
     {
      "code": "C5-07",
      "name": "World Trade Centre Metro Station",
-     "time": "19:16",
+     "time": "19:24",
      "action": "set_down",
      "lat": 25.225614,
      "lng": 55.284365,
@@ -22308,7 +22308,7 @@
     {
      "code": "C5-06",
      "name": "Al Wasl Building, Al Hudaiba",
-     "time": "19:24",
+     "time": "19:32",
      "action": "set_down",
      "lat": 25.243,
      "lng": 55.2788,
@@ -22317,7 +22317,7 @@
     {
      "code": "C5-17",
      "name": "New Gold Souq, Al Raffa, Bur Dubai",
-     "time": "19:31",
+     "time": "19:39",
      "action": "set_down",
      "lat": 25.2515903,
      "lng": 55.2824733,
@@ -22326,7 +22326,7 @@
     {
      "code": "C5-05",
      "name": "BurJuman Mall",
-     "time": "19:40",
+     "time": "19:47",
      "action": "set_down",
      "lat": 25.254331,
      "lng": 55.303661,
@@ -22335,7 +22335,7 @@
     {
      "code": "C5-04",
      "name": "Oud Metha Metro Station",
-     "time": "19:48",
+     "time": "19:54",
      "action": "set_down",
      "lat": 25.243624,
      "lng": 55.315799,
@@ -22344,7 +22344,7 @@
     {
      "code": "C5-03",
      "name": "Creek Metro Station, Al Jaddaf",
-     "time": "20:01",
+     "time": "20:06",
      "action": "set_down",
      "lat": 25.219122,
      "lng": 55.339319,
@@ -22353,7 +22353,7 @@
     {
      "code": "C5-21",
      "name": "Al Ghurair Centre bus stop (Ghurair City 2), Al Rigga Rd",
-     "time": "20:20",
+     "time": "20:23",
      "action": "set_down",
      "lat": 25.266621,
      "lng": 55.317593,
@@ -22362,7 +22362,7 @@
     {
      "code": "C5-02",
      "name": "Al Rigga Metro Station",
-     "time": "20:27",
+     "time": "20:30",
      "action": "set_down",
      "lat": 25.262847,
      "lng": 55.324368,
