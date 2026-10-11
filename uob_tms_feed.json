@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-11T13:30:32Z",
+ "generated_at": "2026-10-11T13:34:28Z",
  "week": "2026-10-09 to 2026-10-18",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -2182,8 +2182,26 @@
      ]
     },
     {
-     "code": "C2-07",
+     "code": "C3-21",
      "order": 7,
+     "name": "DAMAC Hills Mall, DAMAC Hills",
+     "lat": 25.0179838,
+     "lng": 55.2468052,
+     "google_place_id": "ChIJTzidfedxXz4RnhNB3noM9GU",
+     "where_exactly": "Mall drop-off, DAMAC Hills.",
+     "pickup_lat": 25.0179838,
+     "pickup_lng": 55.2468052,
+     "pickup_where_exactly": "Mall drop-off, DAMAC Hills.",
+     "setdown_lat": 25.0179838,
+     "setdown_lng": 55.2468052,
+     "setdown_where_exactly": "Mall drop-off, DAMAC Hills.",
+     "served_by_routes": [
+      "R4"
+     ]
+    },
+    {
+     "code": "C2-07",
+     "order": 8,
      "name": "Dubai Internet City Metro Station",
      "lat": 25.1021161,
      "lng": 55.1740882,
@@ -2201,7 +2219,7 @@
     },
     {
      "code": "C3-15",
-     "order": 8,
+     "order": 9,
      "name": "Silicon Oasis Avenue Mall 2",
      "lat": 25.11174,
      "lng": 55.375866,
@@ -2219,7 +2237,7 @@
     },
     {
      "code": "C5-18",
-     "order": 9,
+     "order": 10,
      "name": "The First Collection Business Bay (hotel), Al A'amal St",
      "lat": 25.1783788,
      "lng": 55.2679776,
@@ -2237,7 +2255,7 @@
     },
     {
      "code": "C5-20",
-     "order": 10,
+     "order": 11,
      "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
      "lat": 25.186457,
      "lng": 55.282055,
@@ -2255,7 +2273,7 @@
     },
     {
      "code": "C3-05",
-     "order": 11,
+     "order": 12,
      "name": "City Centre Me'aisem",
      "lat": 25.040494,
      "lng": 55.195971,
@@ -2273,7 +2291,7 @@
     },
     {
      "code": "C2-08",
-     "order": 12,
+     "order": 13,
      "name": "Mall of the Emirates",
      "lat": 25.1201411,
      "lng": 55.2011196,
@@ -2291,7 +2309,7 @@
     },
     {
      "code": "C3-12",
-     "order": 13,
+     "order": 14,
      "name": "Arabian Ranches 3",
      "lat": 25.069629,
      "lng": 55.323824,
@@ -2309,7 +2327,7 @@
     },
     {
      "code": "C4-02",
-     "order": 14,
+     "order": 15,
      "name": "The Gate Towers, Al Reem Island",
      "lat": 24.492995,
      "lng": 54.408057,
@@ -2327,7 +2345,7 @@
     },
     {
      "code": "C4-09",
-     "order": 15,
+     "order": 16,
      "name": "Holiday Inn, Al Maktoum Airport",
      "lat": 24.867791,
      "lng": 55.146192,
@@ -2345,7 +2363,7 @@
     },
     {
      "code": "C1-04",
-     "order": 16,
+     "order": 17,
      "name": "Nesto Hypermarket, King Faisal St",
      "lat": 25.337533,
      "lng": 55.39061,
@@ -2363,7 +2381,7 @@
     },
     {
      "code": "C1-20",
-     "order": 17,
+     "order": 18,
      "name": "Al Buhaira Police Station bus stop, Al Majaz 3",
      "lat": 25.323284,
      "lng": 55.381418,
@@ -2381,7 +2399,7 @@
     },
     {
      "code": "C5-19",
-     "order": 18,
+     "order": 19,
      "name": "Al Raffa, 7E Street (near Al Khaleej Centre)",
      "lat": 25.25816,
      "lng": 55.297127,
@@ -8149,7 +8167,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "19:54",
+   "end": "19:51",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -8166,7 +8184,7 @@
     {
      "code": "C3-14",
      "name": "Skycourts Towers",
-     "time": "18:24",
+     "time": "18:25",
      "action": "set_down",
      "lat": 25.0898954,
      "lng": 55.3865139,
@@ -8175,7 +8193,7 @@
     {
      "code": "C3-13",
      "name": "Villanova, La Rosa",
-     "time": "18:35",
+     "time": "18:36",
      "action": "set_down",
      "lat": 25.073945,
      "lng": 55.367,
@@ -8184,7 +8202,7 @@
     {
      "code": "C3-10",
      "name": "Carrefour, Damac Hills 2",
-     "time": "18:51",
+     "time": "18:54",
      "action": "set_down",
      "lat": 24.9980356,
      "lng": 55.3832291,
@@ -8193,7 +8211,7 @@
     {
      "code": "C3-09",
      "name": "Spinneys, Town Square",
-     "time": "19:09",
+     "time": "19:13",
      "action": "set_down",
      "lat": 25.0099047,
      "lng": 55.2902856,
@@ -8202,25 +8220,16 @@
     {
      "code": "C3-07",
      "name": "First Avenue Mall, Motor City",
-     "time": "19:22",
+     "time": "19:27",
      "action": "set_down",
      "lat": 25.046685,
      "lng": 55.243063,
      "where_exactly": "Pick and drop point in front of First Avenue Mall, by Shake Shack."
     },
     {
-     "code": "C3-21",
-     "name": "DAMAC Hills Mall, DAMAC Hills",
-     "time": "19:30",
-     "action": "set_down",
-     "lat": 25.0179838,
-     "lng": 55.2468052,
-     "where_exactly": "Mall drop-off, DAMAC Hills."
-    },
-    {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "19:42",
+     "time": "19:38",
      "action": "set_down",
      "lat": 25.040494,
      "lng": 55.195971,
@@ -8229,7 +8238,7 @@
     {
      "code": "C3-03",
      "name": "Dubai Miracle Garden",
-     "time": "19:54",
+     "time": "19:51",
      "action": "set_down",
      "lat": 25.061132,
      "lng": 55.246185,
@@ -9780,7 +9789,7 @@
    "service": "masters",
    "arrive_campus": "17:45",
    "leave_campus": null,
-   "start": "16:38",
+   "start": "16:35",
    "end": "17:45",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
@@ -9789,7 +9798,7 @@
     {
      "code": "C3-19",
      "name": "Regina Tower, JVC",
-     "time": "16:38",
+     "time": "16:35",
      "action": "pick_up",
      "lat": 25.057284,
      "lng": 55.212609,
@@ -9807,7 +9816,7 @@
     {
      "code": "C3-17",
      "name": "Eagle Heights, Dubai Sports City",
-     "time": "16:50",
+     "time": "16:47",
      "action": "pick_up",
      "lat": 25.036628,
      "lng": 55.221187,
@@ -9823,6 +9832,15 @@
      "where_exactly": "Pick and drop area outside the Al Asmawi Building."
     },
     {
+     "code": "C3-21",
+     "name": "DAMAC Hills Mall, DAMAC Hills",
+     "time": "16:57",
+     "action": "pick_up",
+     "lat": 25.0179838,
+     "lng": 55.2468052,
+     "where_exactly": "Mall drop-off, DAMAC Hills."
+    },
+    {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
      "time": "17:03",
@@ -9834,7 +9852,7 @@
     {
      "code": "C3-15",
      "name": "Silicon Oasis Avenue Mall 2",
-     "time": "17:33",
+     "time": "17:34",
      "action": "pick_up",
      "lat": 25.11174,
      "lng": 55.375866,
@@ -9905,7 +9923,7 @@
    "arrive_campus": null,
    "leave_campus": "21:36",
    "start": "21:36",
-   "end": "22:38",
+   "end": "22:41",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -9922,7 +9940,7 @@
     {
      "code": "C3-15",
      "name": "Silicon Oasis Avenue Mall 2",
-     "time": "21:47",
+     "time": "21:46",
      "action": "set_down",
      "lat": 25.11174,
      "lng": 55.375866,
@@ -9938,6 +9956,15 @@
      "where_exactly": "Dubai Internet City Metro Station - pin as set 6 Oct (Dan); kerb text to confirm on audit."
     },
     {
+     "code": "C3-21",
+     "name": "DAMAC Hills Mall, DAMAC Hills",
+     "time": "22:21",
+     "action": "set_down",
+     "lat": 25.0179838,
+     "lng": 55.2468052,
+     "where_exactly": "Mall drop-off, DAMAC Hills."
+    },
+    {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
      "time": "22:22",
@@ -9949,7 +9976,7 @@
     {
      "code": "C3-17",
      "name": "Eagle Heights, Dubai Sports City",
-     "time": "22:26",
+     "time": "22:30",
      "action": "set_down",
      "lat": 25.036628,
      "lng": 55.221187,
@@ -9967,7 +9994,7 @@
     {
      "code": "C3-19",
      "name": "Regina Tower, JVC",
-     "time": "22:38",
+     "time": "22:41",
      "action": "set_down",
      "lat": 25.057284,
      "lng": 55.212609,
@@ -12181,7 +12208,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "20:02",
+   "end": "19:59",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -12198,7 +12225,7 @@
     {
      "code": "C3-14",
      "name": "Skycourts Towers",
-     "time": "18:28",
+     "time": "18:30",
      "action": "set_down",
      "lat": 25.0898954,
      "lng": 55.3865139,
@@ -12207,7 +12234,7 @@
     {
      "code": "C3-13",
      "name": "Villanova, La Rosa",
-     "time": "18:41",
+     "time": "18:44",
      "action": "set_down",
      "lat": 25.073945,
      "lng": 55.367,
@@ -12216,7 +12243,7 @@
     {
      "code": "C3-09",
      "name": "Spinneys, Town Square",
-     "time": "19:08",
+     "time": "19:14",
      "action": "set_down",
      "lat": 25.0099047,
      "lng": 55.2902856,
@@ -12225,25 +12252,16 @@
     {
      "code": "C3-07",
      "name": "First Avenue Mall, Motor City",
-     "time": "19:25",
+     "time": "19:32",
      "action": "set_down",
      "lat": 25.046685,
      "lng": 55.243063,
      "where_exactly": "Pick and drop point in front of First Avenue Mall, by Shake Shack."
     },
     {
-     "code": "C3-21",
-     "name": "DAMAC Hills Mall, DAMAC Hills",
-     "time": "19:35",
-     "action": "set_down",
-     "lat": 25.0179838,
-     "lng": 55.2468052,
-     "where_exactly": "Mall drop-off, DAMAC Hills."
-    },
-    {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "19:51",
+     "time": "19:47",
      "action": "set_down",
      "lat": 25.040494,
      "lng": 55.195971,
@@ -12252,7 +12270,7 @@
     {
      "code": "C3-02",
      "name": "Circle Mall, JVC",
-     "time": "20:02",
+     "time": "19:59",
      "action": "set_down",
      "lat": 25.0660395,
      "lng": 55.2162257,
@@ -13911,7 +13929,7 @@
    "service": "masters",
    "arrive_campus": "17:45",
    "leave_campus": null,
-   "start": "16:35",
+   "start": "16:32",
    "end": "17:45",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
@@ -13920,7 +13938,7 @@
     {
      "code": "C3-19",
      "name": "Regina Tower, JVC",
-     "time": "16:35",
+     "time": "16:32",
      "action": "pick_up",
      "lat": 25.057284,
      "lng": 55.212609,
@@ -13938,7 +13956,7 @@
     {
      "code": "C3-17",
      "name": "Eagle Heights, Dubai Sports City",
-     "time": "16:46",
+     "time": "16:42",
      "action": "pick_up",
      "lat": 25.036628,
      "lng": 55.221187,
@@ -13956,7 +13974,7 @@
     {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "16:56",
+     "time": "16:53",
      "action": "pick_up",
      "lat": 25.040494,
      "lng": 55.195971,
@@ -13972,6 +13990,15 @@
      "where_exactly": "Dubai Internet City Metro Station - pin as set 6 Oct (Dan); kerb text to confirm on audit."
     },
     {
+     "code": "C3-21",
+     "name": "DAMAC Hills Mall, DAMAC Hills",
+     "time": "17:05",
+     "action": "pick_up",
+     "lat": 25.0179838,
+     "lng": 55.2468052,
+     "where_exactly": "Mall drop-off, DAMAC Hills."
+    },
+    {
      "code": "C2-08",
      "name": "Mall of the Emirates",
      "time": "17:11",
@@ -13983,7 +14010,7 @@
     {
      "code": "C3-12",
      "name": "Arabian Ranches 3",
-     "time": "17:23",
+     "time": "17:25",
      "action": "pick_up",
      "lat": 25.069629,
      "lng": 55.323824,
@@ -14098,7 +14125,7 @@
    "arrive_campus": null,
    "leave_campus": "21:36",
    "start": "21:36",
-   "end": "22:41",
+   "end": "22:44",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -14115,7 +14142,7 @@
     {
      "code": "C3-12",
      "name": "Arabian Ranches 3",
-     "time": "21:56",
+     "time": "21:55",
      "action": "set_down",
      "lat": 25.069629,
      "lng": 55.323824,
@@ -14131,6 +14158,15 @@
      "where_exactly": "Pick-up point at 25.1201411, 55.2011196 (metro side)."
     },
     {
+     "code": "C3-21",
+     "name": "DAMAC Hills Mall, DAMAC Hills",
+     "time": "22:13",
+     "action": "set_down",
+     "lat": 25.0179838,
+     "lng": 55.2468052,
+     "where_exactly": "Mall drop-off, DAMAC Hills."
+    },
+    {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
      "time": "22:18",
@@ -14142,7 +14178,7 @@
     {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "22:21",
+     "time": "22:25",
      "action": "set_down",
      "lat": 25.040494,
      "lng": 55.195971,
@@ -14160,7 +14196,7 @@
     {
      "code": "C3-17",
      "name": "Eagle Heights, Dubai Sports City",
-     "time": "22:31",
+     "time": "22:34",
      "action": "set_down",
      "lat": 25.036628,
      "lng": 55.221187,
@@ -14178,7 +14214,7 @@
     {
      "code": "C3-19",
      "name": "Regina Tower, JVC",
-     "time": "22:41",
+     "time": "22:44",
      "action": "set_down",
      "lat": 25.057284,
      "lng": 55.212609,
@@ -16428,7 +16464,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "20:08",
+   "end": "20:05",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -16445,7 +16481,7 @@
     {
      "code": "C3-16",
      "name": "Souq Extra, Silicon Oasis",
-     "time": "18:23",
+     "time": "18:24",
      "action": "set_down",
      "lat": 25.1192507,
      "lng": 55.3955344,
@@ -16454,7 +16490,7 @@
     {
      "code": "C3-13",
      "name": "Villanova, La Rosa",
-     "time": "18:36",
+     "time": "18:37",
      "action": "set_down",
      "lat": 25.073945,
      "lng": 55.367,
@@ -16463,7 +16499,7 @@
     {
      "code": "C3-10",
      "name": "Carrefour, Damac Hills 2",
-     "time": "18:53",
+     "time": "18:55",
      "action": "set_down",
      "lat": 24.9980356,
      "lng": 55.3832291,
@@ -16472,7 +16508,7 @@
     {
      "code": "C3-09",
      "name": "Spinneys, Town Square",
-     "time": "19:11",
+     "time": "19:15",
      "action": "set_down",
      "lat": 25.0099047,
      "lng": 55.2902856,
@@ -16481,25 +16517,16 @@
     {
      "code": "C3-07",
      "name": "First Avenue Mall, Motor City",
-     "time": "19:24",
+     "time": "19:29",
      "action": "set_down",
      "lat": 25.046685,
      "lng": 55.243063,
      "where_exactly": "Pick and drop point in front of First Avenue Mall, by Shake Shack."
     },
     {
-     "code": "C3-21",
-     "name": "DAMAC Hills Mall, DAMAC Hills",
-     "time": "19:32",
-     "action": "set_down",
-     "lat": 25.0179838,
-     "lng": 55.2468052,
-     "where_exactly": "Mall drop-off, DAMAC Hills."
-    },
-    {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "19:45",
+     "time": "19:40",
      "action": "set_down",
      "lat": 25.040494,
      "lng": 55.195971,
@@ -16508,7 +16535,7 @@
     {
      "code": "C3-03",
      "name": "Dubai Miracle Garden",
-     "time": "19:57",
+     "time": "19:53",
      "action": "set_down",
      "lat": 25.061132,
      "lng": 55.246185,
@@ -16517,7 +16544,7 @@
     {
      "code": "C3-02",
      "name": "Circle Mall, JVC",
-     "time": "20:08",
+     "time": "20:05",
      "action": "set_down",
      "lat": 25.0660395,
      "lng": 55.2162257,
@@ -25402,7 +25429,7 @@
    "service": "undergraduate",
    "arrive_campus": "08:45",
    "leave_campus": null,
-   "start": "06:44",
+   "start": "06:41",
    "end": "08:45",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
@@ -25411,7 +25438,7 @@
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "06:44",
+     "time": "06:41",
      "action": "pick_up",
      "lat": 25.075735,
      "lng": 55.140981,
@@ -25420,7 +25447,7 @@
     {
      "code": "C2-03",
      "name": "DMCC Metro Station",
-     "time": "06:51",
+     "time": "06:48",
      "action": "pick_up",
      "lat": 25.07122,
      "lng": 55.137072,
@@ -25429,7 +25456,7 @@
     {
      "code": "C2-08",
      "name": "Mall of the Emirates",
-     "time": "07:09",
+     "time": "07:06",
      "action": "pick_up",
      "lat": 25.1201411,
      "lng": 55.2011196,
@@ -25438,7 +25465,7 @@
     {
      "code": "C3-19",
      "name": "Regina Tower, JVC",
-     "time": "07:25",
+     "time": "07:22",
      "action": "pick_up",
      "lat": 25.057284,
      "lng": 55.212609,
@@ -25447,16 +25474,25 @@
     {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "07:38",
+     "time": "07:34",
      "action": "pick_up",
      "lat": 25.040494,
      "lng": 55.195971,
      "where_exactly": "Outside drop-off area by Tim Hortons, City Centre Me'aisem."
     },
     {
+     "code": "C3-21",
+     "name": "DAMAC Hills Mall, DAMAC Hills",
+     "time": "07:50",
+     "action": "pick_up",
+     "lat": 25.0179838,
+     "lng": 55.2468052,
+     "where_exactly": "Mall drop-off, DAMAC Hills."
+    },
+    {
      "code": "C3-12",
      "name": "Arabian Ranches 3",
-     "time": "08:12",
+     "time": "08:14",
      "action": "pick_up",
      "lat": 25.069629,
      "lng": 55.323824,
@@ -25465,7 +25501,7 @@
     {
      "code": "C3-14",
      "name": "Skycourts Towers",
-     "time": "08:31",
+     "time": "08:32",
      "action": "pick_up",
      "lat": 25.0898954,
      "lng": 55.3865139,
