@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-11T15:33:26Z",
+ "generated_at": "2026-10-11T15:36:21Z",
  "week": "2026-10-09 to 2026-10-18",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -6263,7 +6263,7 @@
    "service": "undergraduate",
    "arrive_campus": "12:45",
    "leave_campus": null,
-   "start": "10:43",
+   "start": "10:40",
    "end": "12:45",
    "vehicle": "M1",
    "vehicle_type": "Rosa",
@@ -6272,16 +6272,25 @@
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "10:43",
+     "time": "10:40",
      "action": "pick_up",
      "lat": 25.337533,
      "lng": 55.39061,
      "where_exactly": "Main entrance on King Faisal St."
     },
     {
+     "code": "C1-18",
+     "name": "Shamseen Bakeries Building, Al Majaz",
+     "time": "10:56",
+     "action": "pick_up",
+     "lat": 25.33253,
+     "lng": 55.37588,
+     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
+    },
+    {
      "code": "C1-20",
      "name": "Al Buhaira Police Station bus stop, Al Majaz 3",
-     "time": "11:02",
+     "time": "11:08",
      "action": "pick_up",
      "lat": 25.323284,
      "lng": 55.381418,
@@ -6290,7 +6299,7 @@
     {
      "code": "C1-21",
      "name": "Sahab Al Emarat, Al Mamzar, Sharjah",
-     "time": "11:26",
+     "time": "11:31",
      "action": "pick_up",
      "lat": 25.31578,
      "lng": 55.35863,
@@ -6299,7 +6308,7 @@
     {
      "code": "C1-16",
      "name": "LuLu Hypermarket Al Nahda, Sharjah",
-     "time": "11:48",
+     "time": "11:52",
      "action": "pick_up",
      "lat": 25.303505,
      "lng": 55.375491,
@@ -6463,7 +6472,7 @@
     {
      "code": "C1-16",
      "name": "LuLu Hypermarket Al Nahda, Sharjah",
-     "time": "19:50",
+     "time": "19:42",
      "action": "set_down",
      "lat": 25.303505,
      "lng": 55.375491,
@@ -6472,7 +6481,7 @@
     {
      "code": "C1-05",
      "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "20:07",
+     "time": "19:58",
      "action": "set_down",
      "lat": 25.305885121719236,
      "lng": 55.363729380596915,
@@ -6481,7 +6490,7 @@
     {
      "code": "C1-21",
      "name": "Sahab Al Emarat, Al Mamzar, Sharjah",
-     "time": "20:25",
+     "time": "20:14",
      "action": "set_down",
      "lat": 25.31578,
      "lng": 55.35863,
@@ -6490,11 +6499,20 @@
     {
      "code": "C1-20",
      "name": "Al Buhaira Police Station bus stop, Al Majaz 3",
-     "time": "20:50",
+     "time": "20:37",
      "action": "set_down",
      "lat": 25.323284,
      "lng": 55.381418,
      "where_exactly": "Bus stop by Al Buhaira Police Station on Al Intifada St; 2 minutes maximum."
+    },
+    {
+     "code": "C1-18",
+     "name": "Shamseen Bakeries Building, Al Majaz",
+     "time": "20:53",
+     "action": "set_down",
+     "lat": 25.33253,
+     "lng": 55.37588,
+     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
     },
     {
      "code": "C1-04",
@@ -14511,7 +14529,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "21:07",
+   "end": "21:04",
    "vehicle": "M1",
    "vehicle_type": "Rosa",
    "seats": 34,
@@ -14528,7 +14546,7 @@
     {
      "code": "C1-02",
      "name": "City Centre Al Zahia",
-     "time": "19:27",
+     "time": "19:26",
      "action": "set_down",
      "lat": 25.318044,
      "lng": 55.457279,
@@ -14537,7 +14555,7 @@
     {
      "code": "C1-16",
      "name": "LuLu Hypermarket Al Nahda, Sharjah",
-     "time": "19:59",
+     "time": "19:57",
      "action": "set_down",
      "lat": 25.303505,
      "lng": 55.375491,
@@ -14546,7 +14564,7 @@
     {
      "code": "C1-05",
      "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "20:12",
+     "time": "20:09",
      "action": "set_down",
      "lat": 25.305885121719236,
      "lng": 55.363729380596915,
@@ -14555,7 +14573,7 @@
     {
      "code": "C1-21",
      "name": "Sahab Al Emarat, Al Mamzar, Sharjah",
-     "time": "20:24",
+     "time": "20:22",
      "action": "set_down",
      "lat": 25.31578,
      "lng": 55.35863,
@@ -14564,7 +14582,7 @@
     {
      "code": "C1-20",
      "name": "Al Buhaira Police Station bus stop, Al Majaz 3",
-     "time": "20:42",
+     "time": "20:39",
      "action": "set_down",
      "lat": 25.323284,
      "lng": 55.381418,
@@ -14573,7 +14591,7 @@
     {
      "code": "C1-18",
      "name": "Shamseen Bakeries Building, Al Majaz",
-     "time": "20:54",
+     "time": "20:51",
      "action": "set_down",
      "lat": 25.33253,
      "lng": 55.37588,
@@ -14582,7 +14600,7 @@
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "21:07",
+     "time": "21:04",
      "action": "set_down",
      "lat": 25.337533,
      "lng": 55.39061,
