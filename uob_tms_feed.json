@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-11T14:02:18Z",
+ "generated_at": "2026-10-11T14:24:32Z",
  "week": "2026-10-09 to 2026-10-18",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -16402,86 +16402,6 @@
    ]
   },
   {
-   "run_id": "2026-10-14-R4-R2",
-   "date": "2026-10-14",
-   "day": "Wed",
-   "route": "R4",
-   "direction": "from_campus",
-   "service": "undergraduate",
-   "arrive_campus": null,
-   "leave_campus": "16:15",
-   "start": "16:15",
-   "end": "17:59",
-   "vehicle": "M4",
-   "vehicle_type": "Hiace",
-   "seats": 12,
-   "stops": [
-    {
-     "code": "UOB",
-     "name": "University of Birmingham Dubai",
-     "time": "16:15",
-     "action": "pick_up",
-     "lat": 25.1321925,
-     "lng": 55.4223161,
-     "where_exactly": ""
-    },
-    {
-     "code": "C3-14",
-     "name": "Skycourts Towers",
-     "time": "16:29",
-     "action": "set_down",
-     "lat": 25.0898954,
-     "lng": 55.3865139,
-     "where_exactly": "Tower D, near Aster Pharmacy."
-    },
-    {
-     "code": "C3-11",
-     "name": "Living Legends",
-     "time": "16:52",
-     "action": "set_down",
-     "lat": 25.0910153,
-     "lng": 55.3026039,
-     "where_exactly": "Main gate."
-    },
-    {
-     "code": "C3-09",
-     "name": "Spinneys, Town Square",
-     "time": "17:16",
-     "action": "set_down",
-     "lat": 25.0099047,
-     "lng": 55.2902856,
-     "where_exactly": "Nshama Community Centre car park."
-    },
-    {
-     "code": "C3-08",
-     "name": "Serena, Bella Casa",
-     "time": "17:26",
-     "action": "set_down",
-     "lat": 25.0389716,
-     "lng": 55.2890906,
-     "where_exactly": "Community entrance off D54."
-    },
-    {
-     "code": "C3-04",
-     "name": "Dubai International Cricket Stadium",
-     "time": "17:46",
-     "action": "set_down",
-     "lat": 25.043579,
-     "lng": 55.218241,
-     "where_exactly": "Dubai Cricket Stadium bus stop 1 (wooden shelter)."
-    },
-    {
-     "code": "C3-02",
-     "name": "Circle Mall, JVC",
-     "time": "17:59",
-     "action": "set_down",
-     "lat": 25.0660395,
-     "lng": 55.2162257,
-     "where_exactly": "Main entrance."
-    }
-   ]
-  },
-  {
    "run_id": "2026-10-14-R4-R3",
    "date": "2026-10-14",
    "day": "Wed",
@@ -16515,6 +16435,15 @@
      "where_exactly": "Damascus St entrance."
     },
     {
+     "code": "C3-14",
+     "name": "Skycourts Towers",
+     "time": "18:29",
+     "action": "set_down",
+     "lat": 25.0898954,
+     "lng": 55.3865139,
+     "where_exactly": "Tower D, near Aster Pharmacy."
+    },
+    {
      "code": "C3-13",
      "name": "Villanova, La Rosa",
      "time": "18:37",
@@ -16522,6 +16451,15 @@
      "lat": 25.073945,
      "lng": 55.367,
      "where_exactly": "Front entrance of Villanova Centre by Dubai Retail."
+    },
+    {
+     "code": "C3-11",
+     "name": "Living Legends",
+     "time": "18:52",
+     "action": "set_down",
+     "lat": 25.0910153,
+     "lng": 55.3026039,
+     "where_exactly": "Main gate."
     },
     {
      "code": "C3-10",
@@ -16542,6 +16480,15 @@
      "where_exactly": "Nshama Community Centre car park."
     },
     {
+     "code": "C3-08",
+     "name": "Serena, Bella Casa",
+     "time": "19:26",
+     "action": "set_down",
+     "lat": 25.0389716,
+     "lng": 55.2890906,
+     "where_exactly": "Community entrance off D54."
+    },
+    {
      "code": "C3-07",
      "name": "First Avenue Mall, Motor City",
      "time": "19:29",
@@ -16558,6 +16505,15 @@
      "lat": 25.040494,
      "lng": 55.195971,
      "where_exactly": "Outside drop-off area by Tim Hortons, City Centre Me'aisem."
+    },
+    {
+     "code": "C3-04",
+     "name": "Dubai International Cricket Stadium",
+     "time": "19:46",
+     "action": "set_down",
+     "lat": 25.043579,
+     "lng": 55.218241,
+     "where_exactly": "Dubai Cricket Stadium bus stop 1 (wooden shelter)."
     },
     {
      "code": "C3-03",
