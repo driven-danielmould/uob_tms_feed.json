@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-11T16:29:41Z",
+ "generated_at": "2026-10-11T16:33:09Z",
  "week": "2026-10-09 to 2026-10-18",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -1208,20 +1208,20 @@
     {
      "code": "C3-25",
      "order": 23,
-     "name": "Villanova La Rosa, home stop (Baradie)",
-     "lat": 25.07656,
-     "lng": 55.36093,
+     "name": "Villanova La Rosa 1, Villa 46",
+     "lat": 25.0765573,
+     "lng": 55.3609188,
      "google_place_id": null,
-     "where_exactly": "Kerbside outside the rider's villa in La Rosa, Villanova. Provisional pin (community centre of the cluster) until the villa pin is confirmed. Rider-only stop.",
-     "pickup_lat": 25.07656,
-     "pickup_lng": 55.36093,
-     "pickup_where_exactly": "Kerbside outside the rider's villa in La Rosa, Villanova. Provisional pin (community centre of the cluster) until the villa pin is confirmed. Rider-only stop.",
-     "setdown_lat": 25.07656,
-     "setdown_lng": 55.36093,
-     "setdown_where_exactly": "Kerbside outside the rider's villa in La Rosa, Villanova. Provisional pin (community centre of the cluster) until the villa pin is confirmed. Rider-only stop.",
+     "where_exactly": "Kerbside outside Villa 46, La Rosa 1, Villanova (parent's pin 11 Oct). Rider-only stop.",
+     "pickup_lat": 25.0765573,
+     "pickup_lng": 55.3609188,
+     "pickup_where_exactly": "Kerbside outside Villa 46, La Rosa 1, Villanova (parent's pin 11 Oct). Rider-only stop.",
+     "setdown_lat": 25.0765573,
+     "setdown_lng": 55.3609188,
+     "setdown_where_exactly": "Kerbside outside Villa 46, La Rosa 1, Villanova (parent's pin 11 Oct). Rider-only stop.",
      "audited": false,
      "rider_instructions": "Wait at the kerb outside your villa. Be here 5 minutes before your time and look for the yellow M sign in the bus windscreen.",
-     "driver_instructions": "Kerbside outside the rider's villa in La Rosa, Villanova (provisional pin). Only served on booked days.",
+     "driver_instructions": "Kerbside outside Villa 46, La Rosa 1, Villanova. Only served on booked days.",
      "type": "rider_only"
     }
    ]
@@ -7801,12 +7801,12 @@
     },
     {
      "code": "C3-25",
-     "name": "Villanova La Rosa, home stop (Baradie)",
+     "name": "Villanova La Rosa 1, Villa 46",
      "time": "07:33",
      "action": "pick_up",
-     "lat": 25.07656,
-     "lng": 55.36093,
-     "where_exactly": "Kerbside outside the rider's villa in La Rosa, Villanova. Provisional pin (community centre of the cluster) until the villa pin is confirmed. Rider-only stop."
+     "lat": 25.0765573,
+     "lng": 55.3609188,
+     "where_exactly": "Kerbside outside Villa 46, La Rosa 1, Villanova (parent's pin 11 Oct). Rider-only stop."
     },
     {
      "code": "UOB",
@@ -8131,12 +8131,12 @@
     },
     {
      "code": "C3-25",
-     "name": "Villanova La Rosa, home stop (Baradie)",
+     "name": "Villanova La Rosa 1, Villa 46",
      "time": "18:29",
      "action": "set_down",
-     "lat": 25.07656,
-     "lng": 55.36093,
-     "where_exactly": "Kerbside outside the rider's villa in La Rosa, Villanova. Provisional pin (community centre of the cluster) until the villa pin is confirmed. Rider-only stop."
+     "lat": 25.0765573,
+     "lng": 55.3609188,
+     "where_exactly": "Kerbside outside Villa 46, La Rosa 1, Villanova (parent's pin 11 Oct). Rider-only stop."
     },
     {
      "code": "C3-14",
@@ -11771,12 +11771,12 @@
     },
     {
      "code": "C3-25",
-     "name": "Villanova La Rosa, home stop (Baradie)",
+     "name": "Villanova La Rosa 1, Villa 46",
      "time": "07:33",
      "action": "pick_up",
-     "lat": 25.07656,
-     "lng": 55.36093,
-     "where_exactly": "Kerbside outside the rider's villa in La Rosa, Villanova. Provisional pin (community centre of the cluster) until the villa pin is confirmed. Rider-only stop."
+     "lat": 25.0765573,
+     "lng": 55.3609188,
+     "where_exactly": "Kerbside outside Villa 46, La Rosa 1, Villanova (parent's pin 11 Oct). Rider-only stop."
     },
     {
      "code": "UOB",
@@ -12252,12 +12252,12 @@
     },
     {
      "code": "C3-25",
-     "name": "Villanova La Rosa, home stop (Baradie)",
+     "name": "Villanova La Rosa 1, Villa 46",
      "time": "18:34",
      "action": "set_down",
-     "lat": 25.07656,
-     "lng": 55.36093,
-     "where_exactly": "Kerbside outside the rider's villa in La Rosa, Villanova. Provisional pin (community centre of the cluster) until the villa pin is confirmed. Rider-only stop."
+     "lat": 25.0765573,
+     "lng": 55.3609188,
+     "where_exactly": "Kerbside outside Villa 46, La Rosa 1, Villanova (parent's pin 11 Oct). Rider-only stop."
     },
     {
      "code": "C3-14",
@@ -16090,12 +16090,12 @@
     },
     {
      "code": "C3-25",
-     "name": "Villanova La Rosa, home stop (Baradie)",
+     "name": "Villanova La Rosa 1, Villa 46",
      "time": "07:32",
      "action": "pick_up",
-     "lat": 25.07656,
-     "lng": 55.36093,
-     "where_exactly": "Kerbside outside the rider's villa in La Rosa, Villanova. Provisional pin (community centre of the cluster) until the villa pin is confirmed. Rider-only stop."
+     "lat": 25.0765573,
+     "lng": 55.3609188,
+     "where_exactly": "Kerbside outside Villa 46, La Rosa 1, Villanova (parent's pin 11 Oct). Rider-only stop."
     },
     {
      "code": "UOB",
@@ -16483,12 +16483,12 @@
     },
     {
      "code": "C3-25",
-     "name": "Villanova La Rosa, home stop (Baradie)",
+     "name": "Villanova La Rosa 1, Villa 46",
      "time": "18:28",
      "action": "set_down",
-     "lat": 25.07656,
-     "lng": 55.36093,
-     "where_exactly": "Kerbside outside the rider's villa in La Rosa, Villanova. Provisional pin (community centre of the cluster) until the villa pin is confirmed. Rider-only stop."
+     "lat": 25.0765573,
+     "lng": 55.3609188,
+     "where_exactly": "Kerbside outside Villa 46, La Rosa 1, Villanova (parent's pin 11 Oct). Rider-only stop."
     },
     {
      "code": "C3-14",
@@ -20393,12 +20393,12 @@
     },
     {
      "code": "C3-25",
-     "name": "Villanova La Rosa, home stop (Baradie)",
+     "name": "Villanova La Rosa 1, Villa 46",
      "time": "07:32",
      "action": "pick_up",
-     "lat": 25.07656,
-     "lng": 55.36093,
-     "where_exactly": "Kerbside outside the rider's villa in La Rosa, Villanova. Provisional pin (community centre of the cluster) until the villa pin is confirmed. Rider-only stop."
+     "lat": 25.0765573,
+     "lng": 55.3609188,
+     "where_exactly": "Kerbside outside Villa 46, La Rosa 1, Villanova (parent's pin 11 Oct). Rider-only stop."
     },
     {
      "code": "UOB",
@@ -20803,12 +20803,12 @@
     },
     {
      "code": "C3-25",
-     "name": "Villanova La Rosa, home stop (Baradie)",
+     "name": "Villanova La Rosa 1, Villa 46",
      "time": "18:30",
      "action": "set_down",
-     "lat": 25.07656,
-     "lng": 55.36093,
-     "where_exactly": "Kerbside outside the rider's villa in La Rosa, Villanova. Provisional pin (community centre of the cluster) until the villa pin is confirmed. Rider-only stop."
+     "lat": 25.0765573,
+     "lng": 55.3609188,
+     "where_exactly": "Kerbside outside Villa 46, La Rosa 1, Villanova (parent's pin 11 Oct). Rider-only stop."
     },
     {
      "code": "C3-16",
@@ -23802,12 +23802,12 @@
     },
     {
      "code": "C3-25",
-     "name": "Villanova La Rosa, home stop (Baradie)",
+     "name": "Villanova La Rosa 1, Villa 46",
      "time": "07:17",
      "action": "pick_up",
-     "lat": 25.07656,
-     "lng": 55.36093,
-     "where_exactly": "Kerbside outside the rider's villa in La Rosa, Villanova. Provisional pin (community centre of the cluster) until the villa pin is confirmed. Rider-only stop."
+     "lat": 25.0765573,
+     "lng": 55.3609188,
+     "where_exactly": "Kerbside outside Villa 46, La Rosa 1, Villanova (parent's pin 11 Oct). Rider-only stop."
     },
     {
      "code": "UOB",
@@ -23908,12 +23908,12 @@
     },
     {
      "code": "C3-25",
-     "name": "Villanova La Rosa, home stop (Baradie)",
+     "name": "Villanova La Rosa 1, Villa 46",
      "time": "12:26",
      "action": "set_down",
-     "lat": 25.07656,
-     "lng": 55.36093,
-     "where_exactly": "Kerbside outside the rider's villa in La Rosa, Villanova. Provisional pin (community centre of the cluster) until the villa pin is confirmed. Rider-only stop."
+     "lat": 25.0765573,
+     "lng": 55.3609188,
+     "where_exactly": "Kerbside outside Villa 46, La Rosa 1, Villanova (parent's pin 11 Oct). Rider-only stop."
     },
     {
      "code": "C3-16",
