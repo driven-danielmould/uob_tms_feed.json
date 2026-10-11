@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-11T16:35:19Z",
+ "generated_at": "2026-10-11T16:36:54Z",
  "week": "2026-10-09 to 2026-10-18",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -6372,7 +6372,7 @@
    "arrive_campus": null,
    "leave_campus": "14:15",
    "start": "14:15",
-   "end": "16:24",
+   "end": "16:27",
    "vehicle": "M1",
    "vehicle_type": "Rosa",
    "seats": 34,
@@ -6389,16 +6389,25 @@
     {
      "code": "C1-02",
      "name": "City Centre Al Zahia",
-     "time": "15:11",
+     "time": "15:08",
      "action": "set_down",
      "lat": 25.318044,
      "lng": 55.457279,
      "where_exactly": "Bus stop by the VOX sign, City Centre Al Zahia."
     },
     {
+     "code": "C1-06",
+     "name": "Sahara Centre",
+     "time": "15:51",
+     "action": "set_down",
+     "lat": 25.297153,
+     "lng": 55.371026,
+     "where_exactly": "Public bus stop shelter on 13th Street, facing the Sahara Centre mall entrance."
+    },
+    {
      "code": "C1-05",
      "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "16:00",
+     "time": "16:04",
      "action": "set_down",
      "lat": 25.305885121719236,
      "lng": 55.363729380596915,
@@ -6407,7 +6416,7 @@
     {
      "code": "C1-20",
      "name": "Al Buhaira Police Station bus stop, Al Majaz 3",
-     "time": "16:24",
+     "time": "16:27",
      "action": "set_down",
      "lat": 25.323284,
      "lng": 55.381418,
