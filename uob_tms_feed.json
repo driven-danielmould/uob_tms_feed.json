@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-12T15:42:05Z",
+ "generated_at": "2026-10-12T17:18:35Z",
  "week": "2026-10-09 to 2026-10-18",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -2050,19 +2050,19 @@
      "code": "C5-12",
      "order": 22,
      "name": "Wasl Green Park, Ras Al Khor",
-     "lat": 25.1801628,
-     "lng": 55.3729096,
-     "google_place_id": "ChIJazd3BFFnXz4R4skVNmBYnzI",
-     "where_exactly": "R1, near the roundabout.",
-     "pickup_lat": 25.1801628,
-     "pickup_lng": 55.3729096,
-     "pickup_where_exactly": "R1, near the roundabout.",
-     "setdown_lat": 25.1801628,
-     "setdown_lng": 55.3729096,
-     "setdown_where_exactly": "R1, near the roundabout.",
-     "audited": false,
-     "rider_instructions": "Wait near the roundabout by the R1 building. Be here 5 minutes before your time and look for the yellow M sign in the bus windscreen.",
-     "driver_instructions": "R1 building near the roundabout, kerbside. Open area, height clear.",
+     "lat": 25.181059,
+     "lng": 55.375545,
+     "google_place_id": null,
+     "where_exactly": "Kerbside at 25.181059, 55.375545 by Aurahues Beauty Lounge, Wasl Green Park (rider-confirmed point 12 Oct) - pick-up and set-down here, not at the roundabout.",
+     "pickup_lat": 25.181059,
+     "pickup_lng": 55.375545,
+     "pickup_where_exactly": "Kerbside at 25.181059, 55.375545 by Aurahues Beauty Lounge, Wasl Green Park (rider-confirmed point 12 Oct) - pick-up and set-down here, not at the roundabout.",
+     "setdown_lat": 25.181059,
+     "setdown_lng": 55.375545,
+     "setdown_where_exactly": "Kerbside by Aurahues Beauty Lounge, Wasl Green Park (rider-confirmed point 12 Oct).",
+     "audited": true,
+     "rider_instructions": "Wait at the kerb by Aurahues Beauty Lounge. Be here 5 minutes before your time and look for the yellow M sign in the bus windscreen.",
+     "driver_instructions": "Kerbside by Aurahues Beauty Lounge, Wasl Green Park (25.181059, 55.375545). Only served on booked days.",
      "type": "public"
     }
    ]
@@ -3654,97 +3654,91 @@
     {
      "code": "C3-02",
      "name": "Circle Mall, JVC",
-     "time": "16:06",
+     "time": "16:07",
      "action": "pick_up"
     },
     {
      "code": "C3-03",
      "name": "Dubai Miracle Garden",
-     "time": "16:12",
+     "time": "16:13",
      "action": "pick_up"
     },
     {
      "code": "C3-04",
      "name": "Dubai International Cricket Stadium",
-     "time": "16:19",
+     "time": "16:20",
      "action": "pick_up"
     },
     {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "16:25",
+     "time": "16:26",
      "action": "pick_up"
     },
     {
      "code": "C3-06",
      "name": "Elan 1, Tilal Al Ghaf",
-     "time": "16:31",
+     "time": "16:33",
      "action": "pick_up"
     },
     {
      "code": "C3-07",
      "name": "First Avenue Mall, Motor City",
-     "time": "16:37",
+     "time": "16:39",
      "action": "pick_up"
     },
     {
      "code": "C3-08",
      "name": "Serena, Bella Casa",
-     "time": "16:43",
+     "time": "16:46",
      "action": "pick_up"
     },
     {
      "code": "C3-09",
      "name": "Spinneys, Town Square",
-     "time": "16:49",
-     "action": "pick_up"
-    },
-    {
-     "code": "C3-10",
-     "name": "Carrefour, Damac Hills 2",
-     "time": "16:56",
+     "time": "16:52",
      "action": "pick_up"
     },
     {
      "code": "C3-11",
      "name": "Living Legends",
-     "time": "17:02",
+     "time": "16:59",
      "action": "pick_up"
     },
     {
      "code": "C3-12",
      "name": "Arabian Ranches 3",
-     "time": "17:08",
+     "time": "17:06",
      "action": "pick_up"
     },
     {
      "code": "C3-13",
      "name": "Villanova, La Rosa",
-     "time": "17:14",
+     "time": "17:12",
      "action": "pick_up"
     },
     {
      "code": "C3-14",
      "name": "Skycourts Towers",
-     "time": "17:20",
+     "time": "17:19",
      "action": "pick_up"
     },
     {
      "code": "C3-15",
      "name": "Silicon Oasis Avenue Mall 2",
-     "time": "17:26",
+     "time": "17:25",
      "action": "pick_up"
     },
     {
      "code": "C3-22",
      "name": "Oasis Star, Nadd Hessa (Silicon Oasis)",
-     "time": "17:33",
+     "time": "17:32",
      "action": "pick_up"
     },
     {
      "code": "C3-16",
      "name": "Souq Extra, Silicon Oasis",
-     "time": "17:39",
+     "time": "17:38",
      "action": "pick_up"
     },
     {
@@ -3793,73 +3787,67 @@
     {
      "code": "C3-15",
      "name": "Silicon Oasis Avenue Mall 2",
-     "time": "21:51",
+     "time": "21:52",
      "action": "set_down"
     },
     {
      "code": "C3-14",
      "name": "Skycourts Towers",
-     "time": "21:56",
+     "time": "21:57",
      "action": "set_down"
     },
     {
      "code": "C3-13",
      "name": "Villanova, La Rosa",
-     "time": "22:01",
+     "time": "22:02",
      "action": "set_down"
     },
     {
      "code": "C3-12",
      "name": "Arabian Ranches 3",
-     "time": "22:06",
+     "time": "22:08",
      "action": "set_down"
     },
     {
      "code": "C3-11",
      "name": "Living Legends",
-     "time": "22:11",
-     "action": "set_down"
-    },
-    {
-     "code": "C3-10",
-     "name": "Carrefour, Damac Hills 2",
-     "time": "22:16",
+     "time": "22:13",
      "action": "set_down"
     },
     {
      "code": "C3-09",
      "name": "Spinneys, Town Square",
-     "time": "22:20",
+     "time": "22:18",
      "action": "set_down"
     },
     {
      "code": "C3-08",
      "name": "Serena, Bella Casa",
-     "time": "22:25",
+     "time": "22:23",
      "action": "set_down"
     },
     {
      "code": "C3-07",
      "name": "First Avenue Mall, Motor City",
-     "time": "22:30",
+     "time": "22:28",
      "action": "set_down"
     },
     {
      "code": "C3-06",
      "name": "Elan 1, Tilal Al Ghaf",
-     "time": "22:35",
+     "time": "22:34",
      "action": "set_down"
     },
     {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "22:40",
+     "time": "22:39",
      "action": "set_down"
     },
     {
      "code": "C3-04",
      "name": "Dubai International Cricket Stadium",
-     "time": "22:45",
+     "time": "22:44",
      "action": "set_down"
     },
     {
@@ -4459,8 +4447,8 @@
      "name": "Wasl Green Park, Ras Al Khor",
      "time": "07:16",
      "action": "pick_up",
-     "lat": 25.1801628,
-     "lng": 55.3729096,
+     "lat": 25.181059,
+     "lng": 55.375545,
      "where_exactly": "R1, near the roundabout."
     },
     {
@@ -4560,8 +4548,8 @@
      "name": "Wasl Green Park, Ras Al Khor",
      "time": "12:29",
      "action": "set_down",
-     "lat": 25.1801628,
-     "lng": 55.3729096,
+     "lat": 25.181059,
+     "lng": 55.375545,
      "where_exactly": "R1, near the roundabout."
     },
     {
@@ -10121,9 +10109,9 @@
      "name": "Wasl Green Park, Ras Al Khor",
      "time": "10:30",
      "action": "pick_up",
-     "lat": 25.1801628,
-     "lng": 55.3729096,
-     "where_exactly": "R1, near the roundabout."
+     "lat": 25.181059,
+     "lng": 55.375545,
+     "where_exactly": "Kerbside at 25.181059, 55.375545 by Aurahues Beauty Lounge, Wasl Green Park (rider-confirmed point 12 Oct) - pick-up and set-down here, not at the roundabout."
     },
     {
      "code": "UOB",
@@ -10486,9 +10474,9 @@
      "name": "Wasl Green Park, Ras Al Khor",
      "time": "18:36",
      "action": "set_down",
-     "lat": 25.1801628,
-     "lng": 55.3729096,
-     "where_exactly": "R1, near the roundabout."
+     "lat": 25.181059,
+     "lng": 55.375545,
+     "where_exactly": "Kerbside at 25.181059, 55.375545 by Aurahues Beauty Lounge, Wasl Green Park (rider-confirmed point 12 Oct) - pick-up and set-down here, not at the roundabout."
     },
     {
      "code": "C5-09",
@@ -10520,7 +10508,7 @@
     {
      "code": "C5-04",
      "name": "Oud Metha Metro Station",
-     "time": "19:59",
+     "time": "20:00",
      "action": "set_down",
      "lat": 25.243624,
      "lng": 55.315799,
@@ -14663,7 +14651,7 @@
     {
      "code": "C5-17",
      "name": "New Gold Souq, Al Raffa, Bur Dubai",
-     "time": "05:55",
+     "time": "05:54",
      "action": "pick_up",
      "lat": 25.2515903,
      "lng": 55.2824733,
@@ -14681,7 +14669,7 @@
     {
      "code": "C5-07",
      "name": "World Trade Centre Metro Station",
-     "time": "06:16",
+     "time": "06:15",
      "action": "pick_up",
      "lat": 25.225614,
      "lng": 55.284365,
@@ -14719,9 +14707,9 @@
      "name": "Wasl Green Park, Ras Al Khor",
      "time": "07:24",
      "action": "pick_up",
-     "lat": 25.1801628,
-     "lng": 55.3729096,
-     "where_exactly": "R1, near the roundabout."
+     "lat": 25.181059,
+     "lng": 55.375545,
+     "where_exactly": "Kerbside at 25.181059, 55.375545 by Aurahues Beauty Lounge, Wasl Green Park (rider-confirmed point 12 Oct) - pick-up and set-down here, not at the roundabout."
     },
     {
      "code": "UOB",
@@ -14838,9 +14826,9 @@
      "name": "Wasl Green Park, Ras Al Khor",
      "time": "10:26",
      "action": "pick_up",
-     "lat": 25.1801628,
-     "lng": 55.3729096,
-     "where_exactly": "R1, near the roundabout."
+     "lat": 25.181059,
+     "lng": 55.375545,
+     "where_exactly": "Kerbside at 25.181059, 55.375545 by Aurahues Beauty Lounge, Wasl Green Park (rider-confirmed point 12 Oct) - pick-up and set-down here, not at the roundabout."
     },
     {
      "code": "UOB",
@@ -15112,9 +15100,9 @@
      "name": "Wasl Green Park, Ras Al Khor",
      "time": "18:31",
      "action": "set_down",
-     "lat": 25.1801628,
-     "lng": 55.3729096,
-     "where_exactly": "R1, near the roundabout."
+     "lat": 25.181059,
+     "lng": 55.375545,
+     "where_exactly": "Kerbside at 25.181059, 55.375545 by Aurahues Beauty Lounge, Wasl Green Park (rider-confirmed point 12 Oct) - pick-up and set-down here, not at the roundabout."
     },
     {
      "code": "C5-11",
@@ -19446,9 +19434,9 @@
      "name": "Wasl Green Park, Ras Al Khor",
      "time": "10:26",
      "action": "pick_up",
-     "lat": 25.1801628,
-     "lng": 55.3729096,
-     "where_exactly": "R1, near the roundabout."
+     "lat": 25.181059,
+     "lng": 55.375545,
+     "where_exactly": "Kerbside at 25.181059, 55.375545 by Aurahues Beauty Lounge, Wasl Green Park (rider-confirmed point 12 Oct) - pick-up and set-down here, not at the roundabout."
     },
     {
      "code": "UOB",
@@ -19720,9 +19708,9 @@
      "name": "Wasl Green Park, Ras Al Khor",
      "time": "18:30",
      "action": "set_down",
-     "lat": 25.1801628,
-     "lng": 55.3729096,
-     "where_exactly": "R1, near the roundabout."
+     "lat": 25.181059,
+     "lng": 55.375545,
+     "where_exactly": "Kerbside at 25.181059, 55.375545 by Aurahues Beauty Lounge, Wasl Green Park (rider-confirmed point 12 Oct) - pick-up and set-down here, not at the roundabout."
     },
     {
      "code": "C5-14",
@@ -22574,11 +22562,11 @@
     {
      "code": "C5-12",
      "name": "Wasl Green Park, Ras Al Khor",
-     "time": "07:16",
+     "time": "07:17",
      "action": "pick_up",
-     "lat": 25.1801628,
-     "lng": 55.3729096,
-     "where_exactly": "R1, near the roundabout."
+     "lat": 25.181059,
+     "lng": 55.375545,
+     "where_exactly": "Kerbside at 25.181059, 55.375545 by Aurahues Beauty Lounge, Wasl Green Park (rider-confirmed point 12 Oct) - pick-up and set-down here, not at the roundabout."
     },
     {
      "code": "UOB",
@@ -22675,11 +22663,11 @@
     {
      "code": "C5-12",
      "name": "Wasl Green Park, Ras Al Khor",
-     "time": "12:29",
+     "time": "12:28",
      "action": "set_down",
-     "lat": 25.1801628,
-     "lng": 55.3729096,
-     "where_exactly": "R1, near the roundabout."
+     "lat": 25.181059,
+     "lng": 55.375545,
+     "where_exactly": "Kerbside at 25.181059, 55.375545 by Aurahues Beauty Lounge, Wasl Green Park (rider-confirmed point 12 Oct) - pick-up and set-down here, not at the roundabout."
     },
     {
      "code": "C5-14",
