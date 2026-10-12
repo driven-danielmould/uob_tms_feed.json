@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-12T13:16:33Z",
+ "generated_at": "2026-10-12T13:34:03Z",
  "week": "2026-10-09 to 2026-10-18",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -11774,7 +11774,7 @@
    "vehicle": "M3",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 2,
+   "booked": 6,
    "seats": 15,
    "stops": [
     {
@@ -11785,6 +11785,42 @@
      "lat": 25.07122,
      "lng": 55.137072,
      "where_exactly": "Outside the Yacht Bay sign (Yacht Bay building)."
+    },
+    {
+     "code": "C2-09",
+     "name": "Springs 10 Gatehouse",
+     "time": "08:52",
+     "action": "pick_up",
+     "lat": 25.0556628,
+     "lng": 55.1803096,
+     "where_exactly": "Outside the Springs 10 gatehouse on Street 1, before the barrier."
+    },
+    {
+     "code": "C2-06",
+     "name": "The Springs Souk",
+     "time": "08:52",
+     "action": "pick_up",
+     "lat": 25.065917,
+     "lng": 55.192107,
+     "where_exactly": "Drop-off area outside Russo's New York Pizzeria, The Springs Souk."
+    },
+    {
+     "code": "C2-01",
+     "name": "Al Sarood, Shoreline 13, Palm Jumeirah",
+     "time": "08:55",
+     "action": "pick_up",
+     "lat": 25.11202,
+     "lng": 55.142781,
+     "where_exactly": "Outside building 13, Shoreline St."
+    },
+    {
+     "code": "C2-07",
+     "name": "Dubai Internet City Metro Station",
+     "time": "09:05",
+     "action": "pick_up",
+     "lat": 25.099769538054428,
+     "lng": 55.17320213081937,
+     "where_exactly": "RTA bus stop \"Dubai Internet City Metro Bus Stop Landside 1\" (landside, Barsha Heights side of the metro) - pick-up and set-down here; coordinator-confirmed pin 12 Oct."
     },
     {
      "code": "C2-10",
@@ -11799,70 +11835,6 @@
      "code": "UOB",
      "name": "University of Birmingham Dubai",
      "time": "09:45",
-     "action": "set_down",
-     "lat": 25.1321925,
-     "lng": 55.4223161,
-     "where_exactly": ""
-    }
-   ]
-  },
-  {
-   "run_id": "2026-10-13-R3-O3",
-   "date": "2026-10-13",
-   "day": "Tue",
-   "route": "R3",
-   "direction": "to_campus",
-   "service": "undergraduate",
-   "arrive_campus": "10:45",
-   "leave_campus": null,
-   "start": "09:39",
-   "end": "10:45",
-   "vehicle": "M3",
-   "vehicle_type": "Hiace",
-   "capacity": 15,
-   "booked": 4,
-   "seats": 15,
-   "stops": [
-    {
-     "code": "C2-01",
-     "name": "Al Sarood, Shoreline 13, Palm Jumeirah",
-     "time": "09:39",
-     "action": "pick_up",
-     "lat": 25.11202,
-     "lng": 55.142781,
-     "where_exactly": "Outside building 13, Shoreline St."
-    },
-    {
-     "code": "C2-09",
-     "name": "Springs 10 Gatehouse",
-     "time": "09:57",
-     "action": "pick_up",
-     "lat": 25.0556628,
-     "lng": 55.1803096,
-     "where_exactly": "Outside the Springs 10 gatehouse on Street 1, before the barrier."
-    },
-    {
-     "code": "C2-06",
-     "name": "The Springs Souk",
-     "time": "10:05",
-     "action": "pick_up",
-     "lat": 25.065917,
-     "lng": 55.192107,
-     "where_exactly": "Drop-off area outside Russo's New York Pizzeria, The Springs Souk."
-    },
-    {
-     "code": "C2-07",
-     "name": "Dubai Internet City Metro Station",
-     "time": "10:17",
-     "action": "pick_up",
-     "lat": 25.099769538054428,
-     "lng": 55.17320213081937,
-     "where_exactly": "RTA bus stop \"Dubai Internet City Metro Bus Stop Landside 1\" (landside, Barsha Heights side of the metro) - pick-up and set-down here; coordinator-confirmed pin 12 Oct."
-    },
-    {
-     "code": "UOB",
-     "name": "University of Birmingham Dubai",
-     "time": "10:45",
      "action": "set_down",
      "lat": 25.1321925,
      "lng": 55.4223161,
