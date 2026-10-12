@@ -1,9 +1,9 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-12T09:05:49Z",
+ "generated_at": "2026-10-12T11:29:20Z",
  "week": "2026-10-09 to 2026-10-18",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
- "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. Bookable capacity: Hiace 15 (12 seats plus a no-show allowance), Rosa 34; see capacity/seats and booked on each run.",
+ "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
  "timetable_slots": {
   "weekday": {
    "arrivals": [
@@ -6684,18 +6684,18 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:47",
+   "start": "05:37",
    "end": "07:45",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 10,
+   "booked": 11,
    "seats": 34,
    "stops": [
     {
      "code": "C1-24",
      "name": "EK2 Accommodation, Muhaisnah 4",
-     "time": "05:47",
+     "time": "05:37",
      "action": "pick_up",
      "lat": 25.2795117,
      "lng": 55.402653,
@@ -6704,7 +6704,7 @@
     {
      "code": "C1-07",
      "name": "Masafi 1, Al Nahda 2",
-     "time": "06:00",
+     "time": "05:49",
      "action": "pick_up",
      "lat": 25.289367,
      "lng": 55.372375,
@@ -6713,7 +6713,7 @@
     {
      "code": "C1-17",
      "name": "Bahwan Tower, Al Nahda 1",
-     "time": "06:09",
+     "time": "05:58",
      "action": "pick_up",
      "lat": 25.287666,
      "lng": 55.361619,
@@ -6722,7 +6722,7 @@
     {
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
-     "time": "06:13",
+     "time": "06:02",
      "action": "pick_up",
      "lat": 25.288631,
      "lng": 55.364044,
@@ -6731,16 +6731,25 @@
     {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "06:28",
+     "time": "06:16",
      "action": "pick_up",
      "lat": 25.270214,
      "lng": 55.373696,
      "where_exactly": "21B Street footpath by DAFZA Metro Station Entrance 1."
     },
     {
+     "code": "C1-15",
+     "name": "Wasl Village, Central Parking",
+     "time": "06:32",
+     "action": "pick_up",
+     "lat": 25.289501,
+     "lng": 55.4111465,
+     "where_exactly": "Other side of the road, outside Urban Slice; students wait at the bench."
+    },
+    {
      "code": "C1-23",
      "name": "Centrepoint, Mirdif City Centre",
-     "time": "06:48",
+     "time": "06:44",
      "action": "pick_up",
      "lat": 25.2180926,
      "lng": 55.4085703,
@@ -6750,7 +6759,7 @@
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "06:53",
+     "time": "06:56",
      "action": "pick_up",
      "lat": 25.224246,
      "lng": 55.423615,
@@ -6759,7 +6768,7 @@
     {
      "code": "C1-19",
      "name": "Shorooq Gate 3, Mirdif",
-     "time": "07:03",
+     "time": "07:05",
      "action": "pick_up",
      "lat": 25.214495,
      "lng": 55.428185,
@@ -6768,7 +6777,7 @@
     {
      "code": "C1-13",
      "name": "Nasayem Avenue, Mirdif Hills",
-     "time": "07:14",
+     "time": "07:16",
      "action": "pick_up",
      "lat": 25.221963,
      "lng": 55.440775,
@@ -7081,7 +7090,7 @@
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 19,
+   "booked": 20,
    "seats": 34,
    "stops": [
     {
@@ -11268,18 +11277,18 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:40",
+   "start": "05:37",
    "end": "07:45",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 10,
+   "booked": 11,
    "seats": 34,
    "stops": [
     {
      "code": "C1-07",
      "name": "Masafi 1, Al Nahda 2",
-     "time": "05:40",
+     "time": "05:37",
      "action": "pick_up",
      "lat": 25.289367,
      "lng": 55.372375,
@@ -11288,7 +11297,7 @@
     {
      "code": "C1-22",
      "name": "Al Nahda 1, Al Banai 1 (RTA bus stop AN1AB1)",
-     "time": "05:48",
+     "time": "05:44",
      "action": "pick_up",
      "lat": 25.291551,
      "lng": 55.36486,
@@ -11297,7 +11306,7 @@
     {
      "code": "C1-17",
      "name": "Bahwan Tower, Al Nahda 1",
-     "time": "05:55",
+     "time": "05:50",
      "action": "pick_up",
      "lat": 25.287666,
      "lng": 55.361619,
@@ -11306,16 +11315,25 @@
     {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "06:13",
+     "time": "06:06",
      "action": "pick_up",
      "lat": 25.270214,
      "lng": 55.373696,
      "where_exactly": "21B Street footpath by DAFZA Metro Station Entrance 1."
     },
     {
+     "code": "C1-15",
+     "name": "Wasl Village, Central Parking",
+     "time": "06:24",
+     "action": "pick_up",
+     "lat": 25.289501,
+     "lng": 55.4111465,
+     "where_exactly": "Other side of the road, outside Urban Slice; students wait at the bench."
+    },
+    {
      "code": "C1-23",
      "name": "Centrepoint, Mirdif City Centre",
-     "time": "06:38",
+     "time": "06:37",
      "action": "pick_up",
      "lat": 25.2180926,
      "lng": 55.4085703,
@@ -11325,7 +11343,7 @@
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "06:43",
+     "time": "06:51",
      "action": "pick_up",
      "lat": 25.224246,
      "lng": 55.423615,
@@ -11334,7 +11352,7 @@
     {
      "code": "C1-19",
      "name": "Shorooq Gate 3, Mirdif",
-     "time": "06:54",
+     "time": "07:00",
      "action": "pick_up",
      "lat": 25.214495,
      "lng": 55.428185,
@@ -11343,7 +11361,7 @@
     {
      "code": "C1-13",
      "name": "Nasayem Avenue, Mirdif Hills",
-     "time": "07:06",
+     "time": "07:12",
      "action": "pick_up",
      "lat": 25.221963,
      "lng": 55.440775,
@@ -11730,7 +11748,7 @@
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 16,
+   "booked": 17,
    "seats": 34,
    "stops": [
     {
@@ -16042,18 +16060,18 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:47",
+   "start": "05:37",
    "end": "07:45",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 10,
+   "booked": 11,
    "seats": 34,
    "stops": [
     {
      "code": "C1-24",
      "name": "EK2 Accommodation, Muhaisnah 4",
-     "time": "05:47",
+     "time": "05:37",
      "action": "pick_up",
      "lat": 25.2795117,
      "lng": 55.402653,
@@ -16062,7 +16080,7 @@
     {
      "code": "C1-22",
      "name": "Al Nahda 1, Al Banai 1 (RTA bus stop AN1AB1)",
-     "time": "06:03",
+     "time": "05:52",
      "action": "pick_up",
      "lat": 25.291551,
      "lng": 55.36486,
@@ -16071,7 +16089,7 @@
     {
      "code": "C1-17",
      "name": "Bahwan Tower, Al Nahda 1",
-     "time": "06:08",
+     "time": "05:57",
      "action": "pick_up",
      "lat": 25.287666,
      "lng": 55.361619,
@@ -16080,7 +16098,7 @@
     {
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
-     "time": "06:13",
+     "time": "06:02",
      "action": "pick_up",
      "lat": 25.288631,
      "lng": 55.364044,
@@ -16089,16 +16107,25 @@
     {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "06:28",
+     "time": "06:16",
      "action": "pick_up",
      "lat": 25.270214,
      "lng": 55.373696,
      "where_exactly": "21B Street footpath by DAFZA Metro Station Entrance 1."
     },
     {
+     "code": "C1-15",
+     "name": "Wasl Village, Central Parking",
+     "time": "06:32",
+     "action": "pick_up",
+     "lat": 25.289501,
+     "lng": 55.4111465,
+     "where_exactly": "Other side of the road, outside Urban Slice; students wait at the bench."
+    },
+    {
      "code": "C1-23",
      "name": "Centrepoint, Mirdif City Centre",
-     "time": "06:48",
+     "time": "06:44",
      "action": "pick_up",
      "lat": 25.2180926,
      "lng": 55.4085703,
@@ -16108,7 +16135,7 @@
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "06:53",
+     "time": "06:56",
      "action": "pick_up",
      "lat": 25.224246,
      "lng": 55.423615,
@@ -16117,7 +16144,7 @@
     {
      "code": "C1-19",
      "name": "Shorooq Gate 3, Mirdif",
-     "time": "07:02",
+     "time": "07:05",
      "action": "pick_up",
      "lat": 25.214495,
      "lng": 55.428185,
@@ -16126,7 +16153,7 @@
     {
      "code": "C1-13",
      "name": "Nasayem Avenue, Mirdif Hills",
-     "time": "07:13",
+     "time": "07:15",
      "action": "pick_up",
      "lat": 25.221963,
      "lng": 55.440775,
@@ -16504,7 +16531,7 @@
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 15,
+   "booked": 16,
    "seats": 34,
    "stops": [
     {
