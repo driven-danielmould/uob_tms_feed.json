@@ -1,9 +1,9 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-12T08:15:14Z",
+ "generated_at": "2026-10-12T09:05:49Z",
  "week": "2026-10-09 to 2026-10-18",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
- "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
+ "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. Bookable capacity: Hiace 15 (12 seats plus a no-show allowance), Rosa 34; see capacity/seats and booked on each run.",
  "timetable_slots": {
   "weekday": {
    "arrivals": [
@@ -2558,7 +2558,7 @@
    "end": "12:45",
    "vehicle": "M1",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "stops": [
     {
      "code": "C1-04",
@@ -2664,7 +2664,7 @@
    "end": "17:45",
    "vehicle": "M1",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "offer_only": true,
    "status": "runs_when_booked",
    "stops": [
@@ -2731,7 +2731,7 @@
    "end": "23:00",
    "vehicle": "M1",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "offer_only": true,
    "status": "runs_when_booked",
    "stops": [
@@ -2996,7 +2996,7 @@
    "end": "17:45",
    "vehicle": "M2",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "offer_only": true,
    "status": "runs_when_booked",
    "stops": [
@@ -3075,7 +3075,7 @@
    "end": "23:00",
    "vehicle": "M2",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "offer_only": true,
    "status": "runs_when_booked",
    "stops": [
@@ -3154,7 +3154,7 @@
    "end": "07:45",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "stops": [
     {
      "code": "C2-02",
@@ -3234,7 +3234,7 @@
    "end": "13:29",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "stops": [
     {
      "code": "UOB",
@@ -3314,7 +3314,7 @@
    "end": "17:45",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "offer_only": true,
    "status": "runs_when_booked",
    "stops": [
@@ -3393,7 +3393,7 @@
    "end": "23:00",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "offer_only": true,
    "status": "runs_when_booked",
    "stops": [
@@ -3472,7 +3472,7 @@
    "end": "07:45",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "stops": [
     {
      "code": "C3-23",
@@ -3516,7 +3516,7 @@
    "end": "09:45",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "stops": [
     {
      "code": "C3-09",
@@ -3569,7 +3569,7 @@
    "end": "13:18",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "stops": [
     {
      "code": "UOB",
@@ -3640,7 +3640,7 @@
    "end": "17:45",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "offer_only": true,
    "status": "runs_when_booked",
    "stops": [
@@ -3767,7 +3767,7 @@
    "end": "23:00",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "offer_only": true,
    "status": "runs_when_booked",
    "stops": [
@@ -3982,7 +3982,7 @@
    "end": "17:45",
    "vehicle": "M5",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "offer_only": true,
    "status": "runs_when_booked",
    "stops": [
@@ -4061,7 +4061,7 @@
    "end": "23:30",
    "vehicle": "M5",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "offer_only": true,
    "status": "runs_when_booked",
    "stops": [
@@ -4140,7 +4140,7 @@
    "end": "07:45",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "stops": [
     {
      "code": "C4-11",
@@ -4175,7 +4175,7 @@
    "end": "09:45",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "stops": [
     {
      "code": "C4-12",
@@ -4228,7 +4228,7 @@
    "end": "13:16",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "stops": [
     {
      "code": "UOB",
@@ -4290,7 +4290,7 @@
    "end": "17:45",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "offer_only": true,
    "status": "runs_when_booked",
    "stops": [
@@ -4351,7 +4351,7 @@
    "end": "23:00",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "offer_only": true,
    "status": "runs_when_booked",
    "stops": [
@@ -4412,7 +4412,7 @@
    "end": "07:45",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "stops": [
     {
      "code": "C5-05",
@@ -4474,7 +4474,7 @@
    "end": "09:45",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "stops": [
     {
      "code": "C5-04",
@@ -4527,7 +4527,7 @@
    "end": "13:36",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "stops": [
     {
      "code": "UOB",
@@ -4616,7 +4616,7 @@
    "end": "17:45",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "offer_only": true,
    "status": "runs_when_booked",
    "stops": [
@@ -4719,7 +4719,7 @@
    "end": "23:00",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "offer_only": true,
    "status": "runs_when_booked",
    "stops": [
@@ -4866,7 +4866,7 @@
    "end": "17:45",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "stops": [
     {
      "code": "C4-02",
@@ -4901,7 +4901,7 @@
    "end": "17:45",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "stops": [
     {
      "code": "C4-09",
@@ -4936,7 +4936,7 @@
    "end": "23:13",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "stops": [
     {
      "code": "UOB",
@@ -4971,7 +4971,7 @@
    "end": "22:37",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "stops": [
     {
      "code": "UOB",
@@ -5210,7 +5210,7 @@
    "end": "08:45",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "stops": [
     {
      "code": "C2-02",
@@ -5254,7 +5254,7 @@
    "end": "12:45",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "stops": [
     {
      "code": "C2-03",
@@ -5289,7 +5289,7 @@
    "end": "19:49",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "stops": [
     {
      "code": "UOB",
@@ -5342,7 +5342,7 @@
    "end": "08:45",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "stops": [
     {
      "code": "C3-19",
@@ -5404,7 +5404,7 @@
    "end": "19:56",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "stops": [
     {
      "code": "UOB",
@@ -5519,7 +5519,7 @@
    "end": "20:56",
    "vehicle": "M5",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "stops": [
     {
      "code": "UOB",
@@ -5572,7 +5572,7 @@
    "end": "08:45",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "stops": [
     {
      "code": "C4-09",
@@ -5607,7 +5607,7 @@
    "end": "19:54",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "stops": [
     {
      "code": "UOB",
@@ -5642,7 +5642,7 @@
    "end": "08:45",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "stops": [
     {
      "code": "C5-19",
@@ -5695,7 +5695,7 @@
    "end": "18:47",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "stops": [
     {
      "code": "UOB",
@@ -5739,7 +5739,7 @@
    "end": "19:50",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "stops": [
     {
      "code": "UOB",
@@ -5864,7 +5864,7 @@
    "end": "08:45",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "stops": [
     {
      "code": "C2-03",
@@ -5917,7 +5917,7 @@
    "end": "19:48",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "stops": [
     {
      "code": "UOB",
@@ -5970,7 +5970,7 @@
    "end": "08:45",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "stops": [
     {
      "code": "C3-05",
@@ -6014,7 +6014,7 @@
    "end": "19:59",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "stops": [
     {
      "code": "UOB",
@@ -6102,7 +6102,7 @@
    "end": "20:54",
    "vehicle": "M5",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "stops": [
     {
      "code": "UOB",
@@ -6146,7 +6146,7 @@
    "end": "08:45",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "stops": [
     {
      "code": "C5-18",
@@ -6181,7 +6181,7 @@
    "end": "19:50",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "stops": [
     {
      "code": "UOB",
@@ -6216,6 +6216,8 @@
    "end": "07:45",
    "vehicle": "M1",
    "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 5,
    "seats": 34,
    "stops": [
     {
@@ -6278,7 +6280,9 @@
    "end": "10:45",
    "vehicle": "M1",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 3,
+   "seats": 15,
    "stops": [
     {
      "code": "C1-05",
@@ -6331,6 +6335,8 @@
    "end": "12:45",
    "vehicle": "M1",
    "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 8,
    "seats": 34,
    "stops": [
     {
@@ -6402,6 +6408,8 @@
    "end": "16:21",
    "vehicle": "M1",
    "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 2,
    "seats": 34,
    "stops": [
     {
@@ -6446,7 +6454,7 @@
    "end": "17:45",
    "vehicle": "M1",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "offer_only": true,
    "status": "runs_when_booked",
    "stops": [
@@ -6513,6 +6521,8 @@
    "end": "21:07",
    "vehicle": "M1",
    "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 14,
    "seats": 34,
    "stops": [
     {
@@ -6611,7 +6621,7 @@
    "end": "23:00",
    "vehicle": "M1",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "offer_only": true,
    "status": "runs_when_booked",
    "stops": [
@@ -6678,6 +6688,8 @@
    "end": "07:45",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 10,
    "seats": 34,
    "stops": [
     {
@@ -6786,6 +6798,8 @@
    "end": "09:45",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 6,
    "seats": 34,
    "stops": [
     {
@@ -6867,6 +6881,8 @@
    "end": "12:45",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 6,
    "seats": 34,
    "stops": [
     {
@@ -6939,6 +6955,8 @@
    "end": "15:16",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 3,
    "seats": 34,
    "stops": [
     {
@@ -6983,7 +7001,7 @@
    "end": "17:45",
    "vehicle": "M2",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "offer_only": true,
    "status": "runs_when_booked",
    "stops": [
@@ -7062,6 +7080,8 @@
    "end": "20:01",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 19,
    "seats": 34,
    "stops": [
     {
@@ -7179,7 +7199,7 @@
    "end": "23:00",
    "vehicle": "M2",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "offer_only": true,
    "status": "runs_when_booked",
    "stops": [
@@ -7258,7 +7278,9 @@
    "end": "07:45",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 11,
+   "seats": 15,
    "stops": [
     {
      "code": "C2-02",
@@ -7338,7 +7360,9 @@
    "end": "09:45",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 2,
+   "seats": 15,
    "stops": [
     {
      "code": "C2-03",
@@ -7382,7 +7406,9 @@
    "end": "10:45",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 4,
+   "seats": 15,
    "stops": [
     {
      "code": "C2-01",
@@ -7444,7 +7470,9 @@
    "end": "12:45",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 3,
+   "seats": 15,
    "stops": [
     {
      "code": "C2-03",
@@ -7497,7 +7525,9 @@
    "end": "15:42",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 5,
+   "seats": 15,
    "stops": [
     {
      "code": "UOB",
@@ -7568,7 +7598,7 @@
    "end": "17:45",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "offer_only": true,
    "status": "runs_when_booked",
    "stops": [
@@ -7647,7 +7677,9 @@
    "end": "17:52",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 7,
+   "seats": 15,
    "stops": [
     {
      "code": "UOB",
@@ -7709,7 +7741,9 @@
    "end": "19:56",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 8,
+   "seats": 15,
    "stops": [
     {
      "code": "UOB",
@@ -7789,7 +7823,7 @@
    "end": "23:00",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "offer_only": true,
    "status": "runs_when_booked",
    "stops": [
@@ -7868,7 +7902,9 @@
    "end": "07:45",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 10,
+   "seats": 15,
    "stops": [
     {
      "code": "C3-02",
@@ -7984,7 +8020,9 @@
    "end": "09:45",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 4,
+   "seats": 15,
    "stops": [
     {
      "code": "C3-18",
@@ -8046,7 +8084,9 @@
    "end": "10:45",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 3,
+   "seats": 15,
    "stops": [
     {
      "code": "C3-04",
@@ -8099,7 +8139,9 @@
    "end": "12:45",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 2,
+   "seats": 15,
    "stops": [
     {
      "code": "C3-03",
@@ -8143,7 +8185,9 @@
    "end": "15:32",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 6,
+   "seats": 15,
    "stops": [
     {
      "code": "UOB",
@@ -8223,7 +8267,7 @@
    "end": "17:45",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "offer_only": true,
    "status": "runs_when_booked",
    "stops": [
@@ -8350,7 +8394,9 @@
    "end": "17:45",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 6,
+   "seats": 15,
    "stops": [
     {
      "code": "UOB",
@@ -8421,7 +8467,9 @@
    "end": "19:59",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 6,
+   "seats": 15,
    "stops": [
     {
      "code": "UOB",
@@ -8501,7 +8549,7 @@
    "end": "23:00",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "offer_only": true,
    "status": "runs_when_booked",
    "stops": [
@@ -8628,6 +8676,8 @@
    "end": "07:45",
    "vehicle": "M5",
    "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 8,
    "seats": 34,
    "stops": [
     {
@@ -8717,7 +8767,9 @@
    "end": "10:45",
    "vehicle": "M5",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 3,
+   "seats": 15,
    "stops": [
     {
      "code": "C4-01",
@@ -8770,6 +8822,8 @@
    "end": "12:45",
    "vehicle": "M5",
    "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 1,
    "seats": 34,
    "stops": [
     {
@@ -8805,7 +8859,9 @@
    "end": "16:13",
    "vehicle": "M5",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 4,
+   "seats": 15,
    "stops": [
     {
      "code": "UOB",
@@ -8867,7 +8923,7 @@
    "end": "17:45",
    "vehicle": "M5",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "offer_only": true,
    "status": "runs_when_booked",
    "stops": [
@@ -8946,7 +9002,9 @@
    "end": "21:06",
    "vehicle": "M5",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 8,
+   "seats": 15,
    "stops": [
     {
      "code": "UOB",
@@ -9035,7 +9093,7 @@
    "end": "23:30",
    "vehicle": "M5",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "offer_only": true,
    "status": "runs_when_booked",
    "stops": [
@@ -9114,7 +9172,9 @@
    "end": "07:45",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 2,
+   "seats": 15,
    "stops": [
     {
      "code": "C4-11",
@@ -9158,7 +9218,9 @@
    "end": "09:45",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 4,
+   "seats": 15,
    "stops": [
     {
      "code": "C4-10",
@@ -9211,7 +9273,9 @@
    "end": "12:45",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 5,
+   "seats": 15,
    "stops": [
     {
      "code": "C4-11",
@@ -9273,7 +9337,9 @@
    "end": "15:13",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 4,
+   "seats": 15,
    "stops": [
     {
      "code": "UOB",
@@ -9326,7 +9392,7 @@
    "end": "17:45",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "offer_only": true,
    "status": "runs_when_booked",
    "stops": [
@@ -9387,7 +9453,9 @@
    "end": "19:42",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 7,
+   "seats": 15,
    "stops": [
     {
      "code": "UOB",
@@ -9467,7 +9535,7 @@
    "end": "23:00",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "offer_only": true,
    "status": "runs_when_booked",
    "stops": [
@@ -9528,7 +9596,9 @@
    "end": "07:45",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 8,
+   "seats": 15,
    "stops": [
     {
      "code": "C5-21",
@@ -9599,7 +9669,9 @@
    "end": "10:45",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 5,
+   "seats": 15,
    "stops": [
     {
      "code": "C5-02",
@@ -9670,7 +9742,9 @@
    "end": "12:45",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 7,
+   "seats": 15,
    "stops": [
     {
      "code": "C5-04",
@@ -9750,7 +9824,9 @@
    "end": "15:31",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 6,
+   "seats": 15,
    "stops": [
     {
      "code": "UOB",
@@ -9803,7 +9879,7 @@
    "end": "17:45",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "offer_only": true,
    "status": "runs_when_booked",
    "stops": [
@@ -9912,6 +9988,8 @@
    "end": "20:19",
    "vehicle": "M7",
    "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 14,
    "seats": 34,
    "stops": [
     {
@@ -10037,7 +10115,7 @@
    "end": "23:00",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "offer_only": true,
    "status": "runs_when_booked",
    "stops": [
@@ -10146,7 +10224,9 @@
    "end": "17:45",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 10,
+   "seats": 15,
    "stops": [
     {
      "code": "C2-02",
@@ -10253,6 +10333,8 @@
    "end": "17:45",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 0,
    "offer_only": true,
    "stops": [
     {
@@ -10402,7 +10484,9 @@
    "end": "17:45",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 2,
+   "seats": 15,
    "stops": [
     {
      "code": "C5-18",
@@ -10446,7 +10530,9 @@
    "end": "22:03",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 2,
+   "seats": 15,
    "stops": [
     {
      "code": "UOB",
@@ -10490,7 +10576,9 @@
    "end": "23:13",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 10,
+   "seats": 15,
    "stops": [
     {
      "code": "UOB",
@@ -10597,6 +10685,8 @@
    "end": "23:06",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 0,
    "offer_only": true,
    "stops": [
     {
@@ -10746,6 +10836,8 @@
    "end": "07:45",
    "vehicle": "M1",
    "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 7,
    "seats": 34,
    "stops": [
     {
@@ -10808,7 +10900,9 @@
    "end": "09:45",
    "vehicle": "M1",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 4,
+   "seats": 15,
    "stops": [
     {
      "code": "C1-04",
@@ -10852,6 +10946,8 @@
    "end": "12:45",
    "vehicle": "M1",
    "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 3,
    "seats": 34,
    "stops": [
     {
@@ -10905,6 +11001,8 @@
    "end": "16:21",
    "vehicle": "M1",
    "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 3,
    "seats": 34,
    "stops": [
     {
@@ -10949,7 +11047,7 @@
    "end": "17:45",
    "vehicle": "M1",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "offer_only": true,
    "status": "runs_when_booked",
    "stops": [
@@ -11016,7 +11114,9 @@
    "end": "21:10",
    "vehicle": "M1",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 11,
+   "seats": 15,
    "stops": [
     {
      "code": "UOB",
@@ -11105,7 +11205,7 @@
    "end": "23:00",
    "vehicle": "M1",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "offer_only": true,
    "status": "runs_when_booked",
    "stops": [
@@ -11172,6 +11272,8 @@
    "end": "07:45",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 10,
    "seats": 34,
    "stops": [
     {
@@ -11271,6 +11373,8 @@
    "end": "09:45",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 6,
    "seats": 34,
    "stops": [
     {
@@ -11343,6 +11447,8 @@
    "end": "10:45",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 5,
    "seats": 34,
    "stops": [
     {
@@ -11415,6 +11521,8 @@
    "end": "12:45",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 2,
    "seats": 34,
    "stops": [
     {
@@ -11459,6 +11567,8 @@
    "end": "15:25",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 7,
    "seats": 34,
    "stops": [
     {
@@ -11540,7 +11650,7 @@
    "end": "17:45",
    "vehicle": "M2",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "offer_only": true,
    "status": "runs_when_booked",
    "stops": [
@@ -11619,6 +11729,8 @@
    "end": "20:09",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 16,
    "seats": 34,
    "stops": [
     {
@@ -11745,7 +11857,7 @@
    "end": "23:00",
    "vehicle": "M2",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "offer_only": true,
    "status": "runs_when_booked",
    "stops": [
@@ -11824,7 +11936,9 @@
    "end": "07:45",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 11,
+   "seats": 15,
    "stops": [
     {
      "code": "C2-01",
@@ -11904,7 +12018,9 @@
    "end": "09:45",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 3,
+   "seats": 15,
    "stops": [
     {
      "code": "C2-05",
@@ -11948,7 +12064,9 @@
    "end": "10:45",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 5,
+   "seats": 15,
    "stops": [
     {
      "code": "C2-03",
@@ -12019,7 +12137,9 @@
    "end": "12:45",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 3,
+   "seats": 15,
    "stops": [
     {
      "code": "C2-02",
@@ -12072,7 +12192,9 @@
    "end": "15:42",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 8,
+   "seats": 15,
    "stops": [
     {
      "code": "UOB",
@@ -12161,7 +12283,7 @@
    "end": "17:45",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "offer_only": true,
    "status": "runs_when_booked",
    "stops": [
@@ -12240,7 +12362,9 @@
    "end": "18:03",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 7,
+   "seats": 15,
    "stops": [
     {
      "code": "UOB",
@@ -12329,7 +12453,9 @@
    "end": "19:58",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 7,
+   "seats": 15,
    "stops": [
     {
      "code": "UOB",
@@ -12409,7 +12535,7 @@
    "end": "23:00",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "offer_only": true,
    "status": "runs_when_booked",
    "stops": [
@@ -12488,7 +12614,9 @@
    "end": "07:45",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 11,
+   "seats": 15,
    "stops": [
     {
      "code": "C3-02",
@@ -12595,7 +12723,9 @@
    "end": "09:45",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 6,
+   "seats": 15,
    "stops": [
     {
      "code": "C3-18",
@@ -12675,7 +12805,9 @@
    "end": "12:45",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 4,
+   "seats": 15,
    "stops": [
     {
      "code": "C3-04",
@@ -12737,7 +12869,9 @@
    "end": "15:32",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 7,
+   "seats": 15,
    "stops": [
     {
      "code": "UOB",
@@ -12817,7 +12951,7 @@
    "end": "17:45",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "offer_only": true,
    "status": "runs_when_booked",
    "stops": [
@@ -12944,6 +13078,8 @@
    "end": "20:05",
    "vehicle": "M4",
    "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 14,
    "seats": 34,
    "stops": [
     {
@@ -13078,7 +13214,7 @@
    "end": "23:00",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "offer_only": true,
    "status": "runs_when_booked",
    "stops": [
@@ -13205,6 +13341,8 @@
    "end": "07:45",
    "vehicle": "M5",
    "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 7,
    "seats": 34,
    "stops": [
     {
@@ -13285,7 +13423,9 @@
    "end": "10:45",
    "vehicle": "M5",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 3,
+   "seats": 15,
    "stops": [
     {
      "code": "C4-23",
@@ -13338,6 +13478,8 @@
    "end": "12:45",
    "vehicle": "M5",
    "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 2,
    "seats": 34,
    "stops": [
     {
@@ -13382,7 +13524,7 @@
    "end": "17:45",
    "vehicle": "M5",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "offer_only": true,
    "status": "runs_when_booked",
    "stops": [
@@ -13461,7 +13603,9 @@
    "end": "21:10",
    "vehicle": "M5",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 12,
+   "seats": 15,
    "stops": [
     {
      "code": "UOB",
@@ -13577,7 +13721,7 @@
    "end": "23:30",
    "vehicle": "M5",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "offer_only": true,
    "status": "runs_when_booked",
    "stops": [
@@ -13656,7 +13800,9 @@
    "end": "07:45",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 4,
+   "seats": 15,
    "stops": [
     {
      "code": "C4-10",
@@ -13709,7 +13855,9 @@
    "end": "09:45",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 7,
+   "seats": 15,
    "stops": [
     {
      "code": "C4-11",
@@ -13780,7 +13928,9 @@
    "end": "12:45",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 1,
+   "seats": 15,
    "stops": [
     {
      "code": "C4-11",
@@ -13815,7 +13965,9 @@
    "end": "15:10",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 3,
+   "seats": 15,
    "stops": [
     {
      "code": "UOB",
@@ -13868,7 +14020,7 @@
    "end": "17:45",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "offer_only": true,
    "status": "runs_when_booked",
    "stops": [
@@ -13929,7 +14081,9 @@
    "end": "19:39",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 9,
+   "seats": 15,
    "stops": [
     {
      "code": "UOB",
@@ -14000,7 +14154,7 @@
    "end": "23:00",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "offer_only": true,
    "status": "runs_when_booked",
    "stops": [
@@ -14061,7 +14215,9 @@
    "end": "07:45",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 12,
+   "seats": 15,
    "stops": [
     {
      "code": "C5-21",
@@ -14177,7 +14333,9 @@
    "end": "09:45",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 5,
+   "seats": 15,
    "stops": [
     {
      "code": "C5-02",
@@ -14239,7 +14397,9 @@
    "end": "10:45",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 3,
+   "seats": 15,
    "stops": [
     {
      "code": "C5-05",
@@ -14292,7 +14452,9 @@
    "end": "12:45",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 2,
+   "seats": 15,
    "stops": [
     {
      "code": "C5-03",
@@ -14336,7 +14498,9 @@
    "end": "15:35",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 7,
+   "seats": 15,
    "stops": [
     {
      "code": "UOB",
@@ -14407,7 +14571,7 @@
    "end": "17:45",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "offer_only": true,
    "status": "runs_when_booked",
    "stops": [
@@ -14516,6 +14680,8 @@
    "end": "20:22",
    "vehicle": "M7",
    "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 15,
    "seats": 34,
    "stops": [
     {
@@ -14623,7 +14789,7 @@
    "end": "23:00",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "offer_only": true,
    "status": "runs_when_booked",
    "stops": [
@@ -14732,7 +14898,9 @@
    "end": "17:45",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 3,
+   "seats": 15,
    "stops": [
     {
      "code": "C4-03",
@@ -14785,7 +14953,9 @@
    "end": "17:45",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 8,
+   "seats": 15,
    "stops": [
     {
      "code": "C4-09",
@@ -14883,6 +15053,8 @@
    "end": "17:45",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 0,
    "offer_only": true,
    "stops": [
     {
@@ -15032,7 +15204,9 @@
    "end": "17:45",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 4,
+   "seats": 15,
    "stops": [
     {
      "code": "C1-04",
@@ -15085,7 +15259,9 @@
    "end": "23:50",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 3,
+   "seats": 15,
    "stops": [
     {
      "code": "UOB",
@@ -15138,7 +15314,9 @@
    "end": "23:25",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 8,
+   "seats": 15,
    "stops": [
     {
      "code": "UOB",
@@ -15236,6 +15414,8 @@
    "end": "22:21",
    "vehicle": "M8",
    "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 3,
    "seats": 34,
    "stops": [
     {
@@ -15280,6 +15460,8 @@
    "end": "23:06",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 0,
    "offer_only": true,
    "stops": [
     {
@@ -15429,6 +15611,8 @@
    "end": "07:45",
    "vehicle": "M1",
    "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 10,
    "seats": 34,
    "stops": [
     {
@@ -15500,7 +15684,9 @@
    "end": "10:45",
    "vehicle": "M1",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 7,
+   "seats": 15,
    "stops": [
     {
      "code": "C1-04",
@@ -15571,6 +15757,8 @@
    "end": "16:36",
    "vehicle": "M1",
    "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 11,
    "seats": 34,
    "stops": [
     {
@@ -15660,7 +15848,7 @@
    "end": "17:45",
    "vehicle": "M1",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "offer_only": true,
    "status": "runs_when_booked",
    "stops": [
@@ -15727,6 +15915,8 @@
    "end": "21:07",
    "vehicle": "M1",
    "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 5,
    "seats": 34,
    "stops": [
     {
@@ -15789,7 +15979,7 @@
    "end": "23:00",
    "vehicle": "M1",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "offer_only": true,
    "status": "runs_when_booked",
    "stops": [
@@ -15856,6 +16046,8 @@
    "end": "07:45",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 10,
    "seats": 34,
    "stops": [
     {
@@ -15964,6 +16156,8 @@
    "end": "09:45",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 6,
    "seats": 34,
    "stops": [
     {
@@ -16036,6 +16230,8 @@
    "end": "10:45",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 3,
    "seats": 34,
    "stops": [
     {
@@ -16099,6 +16295,8 @@
    "end": "12:45",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 3,
    "seats": 34,
    "stops": [
     {
@@ -16134,6 +16332,8 @@
    "end": "15:28",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 7,
    "seats": 34,
    "stops": [
     {
@@ -16224,7 +16424,7 @@
    "end": "17:45",
    "vehicle": "M2",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "offer_only": true,
    "status": "runs_when_booked",
    "stops": [
@@ -16303,6 +16503,8 @@
    "end": "20:13",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 15,
    "seats": 34,
    "stops": [
     {
@@ -16420,7 +16622,7 @@
    "end": "23:00",
    "vehicle": "M2",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "offer_only": true,
    "status": "runs_when_booked",
    "stops": [
@@ -16499,7 +16701,9 @@
    "end": "07:45",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 6,
+   "seats": 15,
    "stops": [
     {
      "code": "C2-03",
@@ -16561,7 +16765,9 @@
    "end": "09:45",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 6,
+   "seats": 15,
    "stops": [
     {
      "code": "C2-02",
@@ -16632,7 +16838,9 @@
    "end": "12:45",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 7,
+   "seats": 15,
    "stops": [
     {
      "code": "C2-01",
@@ -16712,7 +16920,9 @@
    "end": "15:42",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 5,
+   "seats": 15,
    "stops": [
     {
      "code": "UOB",
@@ -16783,7 +16993,7 @@
    "end": "17:45",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "offer_only": true,
    "status": "runs_when_booked",
    "stops": [
@@ -16862,7 +17072,9 @@
    "end": "17:52",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 6,
+   "seats": 15,
    "stops": [
     {
      "code": "UOB",
@@ -16924,7 +17136,9 @@
    "end": "20:02",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 8,
+   "seats": 15,
    "stops": [
     {
      "code": "UOB",
@@ -17022,7 +17236,7 @@
    "end": "23:00",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "offer_only": true,
    "status": "runs_when_booked",
    "stops": [
@@ -17101,7 +17315,9 @@
    "end": "07:45",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 10,
+   "seats": 15,
    "stops": [
     {
      "code": "C3-02",
@@ -17208,7 +17424,9 @@
    "end": "09:45",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 5,
+   "seats": 15,
    "stops": [
     {
      "code": "C3-18",
@@ -17279,7 +17497,9 @@
    "end": "12:45",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 5,
+   "seats": 15,
    "stops": [
     {
      "code": "C3-05",
@@ -17332,7 +17552,9 @@
    "end": "15:07",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 1,
+   "seats": 15,
    "stops": [
     {
      "code": "UOB",
@@ -17367,7 +17589,7 @@
    "end": "17:45",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "offer_only": true,
    "status": "runs_when_booked",
    "stops": [
@@ -17494,7 +17716,9 @@
    "end": "18:03",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 7,
+   "seats": 15,
    "stops": [
     {
      "code": "UOB",
@@ -17574,7 +17798,9 @@
    "end": "20:17",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 11,
+   "seats": 15,
    "stops": [
     {
      "code": "UOB",
@@ -17681,7 +17907,7 @@
    "end": "23:00",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "offer_only": true,
    "status": "runs_when_booked",
    "stops": [
@@ -17808,6 +18034,8 @@
    "end": "07:45",
    "vehicle": "M5",
    "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 8,
    "seats": 34,
    "stops": [
     {
@@ -17906,6 +18134,8 @@
    "end": "12:45",
    "vehicle": "M5",
    "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 2,
    "seats": 34,
    "stops": [
     {
@@ -17950,7 +18180,7 @@
    "end": "17:45",
    "vehicle": "M5",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "offer_only": true,
    "status": "runs_when_booked",
    "stops": [
@@ -18029,7 +18259,9 @@
    "end": "21:18",
    "vehicle": "M5",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 10,
+   "seats": 15,
    "stops": [
     {
      "code": "UOB",
@@ -18136,7 +18368,7 @@
    "end": "23:30",
    "vehicle": "M5",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "offer_only": true,
    "status": "runs_when_booked",
    "stops": [
@@ -18215,7 +18447,9 @@
    "end": "07:45",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 4,
+   "seats": 15,
    "stops": [
     {
      "code": "C4-11",
@@ -18268,7 +18502,9 @@
    "end": "09:45",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 6,
+   "seats": 15,
    "stops": [
     {
      "code": "C4-12",
@@ -18330,7 +18566,9 @@
    "end": "12:45",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 2,
+   "seats": 15,
    "stops": [
     {
      "code": "C4-10",
@@ -18374,7 +18612,9 @@
    "end": "15:13",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 3,
+   "seats": 15,
    "stops": [
     {
      "code": "UOB",
@@ -18427,7 +18667,7 @@
    "end": "17:45",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "offer_only": true,
    "status": "runs_when_booked",
    "stops": [
@@ -18488,7 +18728,9 @@
    "end": "19:40",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 9,
+   "seats": 15,
    "stops": [
     {
      "code": "UOB",
@@ -18559,7 +18801,7 @@
    "end": "23:00",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "offer_only": true,
    "status": "runs_when_booked",
    "stops": [
@@ -18620,7 +18862,9 @@
    "end": "07:45",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 10,
+   "seats": 15,
    "stops": [
     {
      "code": "C5-21",
@@ -18718,7 +18962,9 @@
    "end": "09:45",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 2,
+   "seats": 15,
    "stops": [
     {
      "code": "C5-04",
@@ -18762,7 +19008,9 @@
    "end": "10:45",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 4,
+   "seats": 15,
    "stops": [
     {
      "code": "C5-05",
@@ -18815,7 +19063,9 @@
    "end": "12:45",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 4,
+   "seats": 15,
    "stops": [
     {
      "code": "C5-02",
@@ -18877,7 +19127,9 @@
    "end": "15:31",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 3,
+   "seats": 15,
    "stops": [
     {
      "code": "UOB",
@@ -18930,7 +19182,7 @@
    "end": "17:45",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "offer_only": true,
    "status": "runs_when_booked",
    "stops": [
@@ -19039,6 +19291,8 @@
    "end": "20:36",
    "vehicle": "M7",
    "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 17,
    "seats": 34,
    "stops": [
     {
@@ -19173,7 +19427,7 @@
    "end": "23:00",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "offer_only": true,
    "status": "runs_when_booked",
    "stops": [
@@ -19282,7 +19536,9 @@
    "end": "17:45",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 1,
+   "seats": 15,
    "stops": [
     {
      "code": "C4-01",
@@ -19317,6 +19573,8 @@
    "end": "17:45",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 0,
    "offer_only": true,
    "stops": [
     {
@@ -19466,7 +19724,9 @@
    "end": "17:45",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 3,
+   "seats": 15,
    "stops": [
     {
      "code": "C2-07",
@@ -19519,7 +19779,9 @@
    "end": "17:45",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 1,
+   "seats": 15,
    "stops": [
     {
      "code": "C5-18",
@@ -19554,7 +19816,9 @@
    "end": "23:35",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 1,
+   "seats": 15,
    "stops": [
     {
      "code": "UOB",
@@ -19589,7 +19853,9 @@
    "end": "21:59",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 1,
+   "seats": 15,
    "stops": [
     {
      "code": "UOB",
@@ -19624,7 +19890,9 @@
    "end": "22:29",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 4,
+   "seats": 15,
    "stops": [
     {
      "code": "UOB",
@@ -19686,6 +19954,8 @@
    "end": "23:06",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 0,
    "offer_only": true,
    "stops": [
     {
@@ -19835,6 +20105,8 @@
    "end": "07:45",
    "vehicle": "M1",
    "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 6,
    "seats": 34,
    "stops": [
     {
@@ -19906,6 +20178,8 @@
    "end": "14:20",
    "vehicle": "M1",
    "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 6,
    "seats": 34,
    "stops": [
     {
@@ -19977,7 +20251,7 @@
    "end": "17:45",
    "vehicle": "M1",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "offer_only": true,
    "status": "runs_when_booked",
    "stops": [
@@ -20044,7 +20318,7 @@
    "end": "23:00",
    "vehicle": "M1",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "offer_only": true,
    "status": "runs_when_booked",
    "stops": [
@@ -20111,6 +20385,8 @@
    "end": "07:45",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 10,
    "seats": 34,
    "stops": [
     {
@@ -20219,6 +20495,8 @@
    "end": "13:34",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 10,
    "seats": 34,
    "stops": [
     {
@@ -20327,7 +20605,7 @@
    "end": "17:45",
    "vehicle": "M2",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "offer_only": true,
    "status": "runs_when_booked",
    "stops": [
@@ -20406,7 +20684,7 @@
    "end": "23:00",
    "vehicle": "M2",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "offer_only": true,
    "status": "runs_when_booked",
    "stops": [
@@ -20485,7 +20763,9 @@
    "end": "07:45",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 5,
+   "seats": 15,
    "stops": [
     {
      "code": "C2-03",
@@ -20556,7 +20836,9 @@
    "end": "09:45",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 3,
+   "seats": 15,
    "stops": [
     {
      "code": "C2-02",
@@ -20609,7 +20891,9 @@
    "end": "13:32",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 8,
+   "seats": 15,
    "stops": [
     {
      "code": "UOB",
@@ -20698,7 +20982,7 @@
    "end": "17:45",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "offer_only": true,
    "status": "runs_when_booked",
    "stops": [
@@ -20777,7 +21061,7 @@
    "end": "23:00",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "offer_only": true,
    "status": "runs_when_booked",
    "stops": [
@@ -20856,7 +21140,9 @@
    "end": "07:45",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 5,
+   "seats": 15,
    "stops": [
     {
      "code": "C3-02",
@@ -20927,7 +21213,9 @@
    "end": "09:45",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 4,
+   "seats": 15,
    "stops": [
     {
      "code": "C3-03",
@@ -20989,7 +21277,9 @@
    "end": "13:35",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 9,
+   "seats": 15,
    "stops": [
     {
      "code": "UOB",
@@ -21087,7 +21377,7 @@
    "end": "17:45",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "offer_only": true,
    "status": "runs_when_booked",
    "stops": [
@@ -21214,7 +21504,7 @@
    "end": "23:00",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "offer_only": true,
    "status": "runs_when_booked",
    "stops": [
@@ -21341,6 +21631,8 @@
    "end": "07:45",
    "vehicle": "M5",
    "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 3,
    "seats": 34,
    "stops": [
     {
@@ -21385,6 +21677,8 @@
    "end": "14:06",
    "vehicle": "M5",
    "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 3,
    "seats": 34,
    "stops": [
     {
@@ -21429,7 +21723,7 @@
    "end": "17:45",
    "vehicle": "M5",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "offer_only": true,
    "status": "runs_when_booked",
    "stops": [
@@ -21508,7 +21802,7 @@
    "end": "23:30",
    "vehicle": "M5",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "offer_only": true,
    "status": "runs_when_booked",
    "stops": [
@@ -21587,7 +21881,9 @@
    "end": "07:45",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 1,
+   "seats": 15,
    "stops": [
     {
      "code": "C4-11",
@@ -21622,7 +21918,9 @@
    "end": "09:45",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 3,
+   "seats": 15,
    "stops": [
     {
      "code": "C4-16",
@@ -21666,7 +21964,9 @@
    "end": "13:13",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 4,
+   "seats": 15,
    "stops": [
     {
      "code": "UOB",
@@ -21719,7 +22019,7 @@
    "end": "17:45",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "offer_only": true,
    "status": "runs_when_booked",
    "stops": [
@@ -21780,7 +22080,7 @@
    "end": "23:00",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "offer_only": true,
    "status": "runs_when_booked",
    "stops": [
@@ -21841,7 +22141,9 @@
    "end": "07:45",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 6,
+   "seats": 15,
    "stops": [
     {
      "code": "C5-05",
@@ -21903,7 +22205,9 @@
    "end": "09:45",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 4,
+   "seats": 15,
    "stops": [
     {
      "code": "C5-04",
@@ -21956,7 +22260,9 @@
    "end": "13:36",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 10,
+   "seats": 15,
    "stops": [
     {
      "code": "UOB",
@@ -22045,7 +22351,7 @@
    "end": "17:45",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "offer_only": true,
    "status": "runs_when_booked",
    "stops": [
@@ -22154,7 +22460,7 @@
    "end": "23:00",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "seats": 15,
    "offer_only": true,
    "status": "runs_when_booked",
    "stops": [
@@ -22263,7 +22569,9 @@
    "end": "17:45",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 1,
+   "seats": 15,
    "stops": [
     {
      "code": "C4-02",
@@ -22298,6 +22606,8 @@
    "end": "17:45",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 0,
    "offer_only": true,
    "stops": [
     {
@@ -22447,7 +22757,9 @@
    "end": "17:45",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 3,
+   "seats": 15,
    "stops": [
     {
      "code": "C1-04",
@@ -22491,7 +22803,9 @@
    "end": "17:45",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 1,
+   "seats": 15,
    "stops": [
     {
      "code": "C4-09",
@@ -22526,7 +22840,9 @@
    "end": "23:32",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 1,
+   "seats": 15,
    "stops": [
     {
      "code": "UOB",
@@ -22561,7 +22877,9 @@
    "end": "22:15",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 1,
+   "seats": 15,
    "stops": [
     {
      "code": "UOB",
@@ -22596,7 +22914,9 @@
    "end": "22:21",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 3,
+   "seats": 15,
    "stops": [
     {
      "code": "UOB",
@@ -22640,6 +22960,8 @@
    "end": "23:06",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 0,
    "offer_only": true,
    "stops": [
     {
@@ -22789,7 +23111,9 @@
    "end": "08:45",
    "vehicle": "M1",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 3,
+   "seats": 15,
    "stops": [
     {
      "code": "C1-04",
@@ -22833,7 +23157,9 @@
    "end": "19:46",
    "vehicle": "M1",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 3,
+   "seats": 15,
    "stops": [
     {
      "code": "UOB",
@@ -22877,7 +23203,9 @@
    "end": "08:45",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 8,
+   "seats": 15,
    "stops": [
     {
      "code": "C2-02",
@@ -22975,7 +23303,9 @@
    "end": "19:55",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 4,
+   "seats": 15,
    "stops": [
     {
      "code": "UOB",
@@ -23037,6 +23367,8 @@
    "end": "19:38",
    "vehicle": "M4",
    "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 5,
    "seats": 34,
    "stops": [
     {
@@ -23108,6 +23440,8 @@
    "end": "08:45",
    "vehicle": "M5",
    "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 2,
    "seats": 34,
    "stops": [
     {
@@ -23152,7 +23486,9 @@
    "end": "20:21",
    "vehicle": "M5",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 2,
+   "seats": 15,
    "stops": [
     {
      "code": "UOB",
@@ -23196,7 +23532,9 @@
    "end": "08:45",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 1,
+   "seats": 15,
    "stops": [
     {
      "code": "C4-09",
@@ -23231,7 +23569,9 @@
    "end": "08:45",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 3,
+   "seats": 15,
    "stops": [
     {
      "code": "C5-19",
@@ -23284,7 +23624,9 @@
    "end": "19:40",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 3,
+   "seats": 15,
    "stops": [
     {
      "code": "UOB",
@@ -23337,7 +23679,9 @@
    "end": "08:45",
    "vehicle": "M2",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 2,
+   "seats": 15,
    "stops": [
     {
      "code": "C1-15",
@@ -23391,7 +23735,9 @@
    "end": "20:06",
    "vehicle": "M2",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 2,
+   "seats": 15,
    "stops": [
     {
      "code": "UOB",
@@ -23445,7 +23791,9 @@
    "end": "08:45",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 4,
+   "seats": 15,
    "stops": [
     {
      "code": "C2-03",
@@ -23507,7 +23855,9 @@
    "end": "15:25",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 1,
+   "seats": 15,
    "stops": [
     {
      "code": "UOB",
@@ -23542,7 +23892,9 @@
    "end": "19:52",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 3,
+   "seats": 15,
    "stops": [
     {
      "code": "UOB",
@@ -23595,6 +23947,8 @@
    "end": "08:45",
    "vehicle": "M5",
    "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 1,
    "seats": 34,
    "stops": [
     {
@@ -23630,7 +23984,9 @@
    "end": "20:19",
    "vehicle": "M5",
    "vehicle_type": "Hiace",
-   "seats": 12,
+   "capacity": 15,
+   "booked": 1,
+   "seats": 15,
    "stops": [
     {
      "code": "UOB",
