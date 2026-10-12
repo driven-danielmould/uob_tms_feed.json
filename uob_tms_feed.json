@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-12T11:43:08Z",
+ "generated_at": "2026-10-12T12:53:03Z",
  "week": "2026-10-09 to 2026-10-18",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -2273,8 +2273,26 @@
      ]
     },
     {
-     "code": "C1-21",
+     "code": "C5-20",
      "order": 11,
+     "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
+     "lat": 25.186457,
+     "lng": 55.282055,
+     "google_place_id": "ChIJo7BfkTpoXz4RFHw13gwYTpE",
+     "where_exactly": "Kerbside on Abraj Street outside the DAMAC Maison Majestine entrance, opposite Bay Square 13.",
+     "pickup_lat": 25.186457,
+     "pickup_lng": 55.282055,
+     "pickup_where_exactly": "Kerbside on Abraj Street outside the DAMAC Maison Majestine entrance, opposite Bay Square 13.",
+     "setdown_lat": 25.186457,
+     "setdown_lng": 55.282055,
+     "setdown_where_exactly": "Kerbside on Abraj Street outside the DAMAC Maison Majestine entrance, opposite Bay Square 13.",
+     "served_by_routes": [
+      "R7"
+     ]
+    },
+    {
+     "code": "C1-21",
+     "order": 12,
      "name": "Sahab Al Emarat, Al Mamzar, Sharjah",
      "lat": 25.31578,
      "lng": 55.35863,
@@ -2292,7 +2310,7 @@
     },
     {
      "code": "C5-18",
-     "order": 12,
+     "order": 13,
      "name": "The First Collection Business Bay (hotel), Al A'amal St",
      "lat": 25.1783788,
      "lng": 55.2679776,
@@ -2304,24 +2322,6 @@
      "setdown_lat": 25.1783788,
      "setdown_lng": 55.2679776,
      "setdown_where_exactly": "Kerbside outside the hotel entrance on Al A'amal Street, 280 m from Ubora Tower.",
-     "served_by_routes": [
-      "R7"
-     ]
-    },
-    {
-     "code": "C5-20",
-     "order": 13,
-     "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
-     "lat": 25.186457,
-     "lng": 55.282055,
-     "google_place_id": "ChIJo7BfkTpoXz4RFHw13gwYTpE",
-     "where_exactly": "Kerbside on Abraj Street outside the DAMAC Maison Majestine entrance, opposite Bay Square 13.",
-     "pickup_lat": 25.186457,
-     "pickup_lng": 55.282055,
-     "pickup_where_exactly": "Kerbside on Abraj Street outside the DAMAC Maison Majestine entrance, opposite Bay Square 13.",
-     "setdown_lat": 25.186457,
-     "setdown_lng": 55.282055,
-     "setdown_where_exactly": "Kerbside on Abraj Street outside the DAMAC Maison Majestine entrance, opposite Bay Square 13.",
      "served_by_routes": [
       "R7"
      ]
@@ -9971,20 +9971,20 @@
      "action": "pick_up"
     },
     {
+     "code": "C5-20",
+     "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
+     "time": "16:58",
+     "action": "pick_up"
+    },
+    {
      "code": "C1-21",
      "name": "Sahab Al Emarat, Al Mamzar, Sharjah",
-     "time": "16:58",
+     "time": "17:02",
      "action": "pick_up"
     },
     {
      "code": "C5-18",
      "name": "The First Collection Business Bay (hotel), Al A'amal St",
-     "time": "17:02",
-     "action": "pick_up"
-    },
-    {
-     "code": "C5-20",
-     "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
      "time": "17:06",
      "action": "pick_up"
     },
@@ -10282,11 +10282,11 @@
    "arrive_campus": null,
    "leave_campus": "21:36",
    "start": "21:36",
-   "end": "22:35",
+   "end": "22:27",
    "vehicle": "M8",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 1,
+   "booked": 2,
    "seats": 34,
    "stops": [
     {
@@ -10299,9 +10299,18 @@
      "where_exactly": ""
     },
     {
+     "code": "C5-20",
+     "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
+     "time": "22:01",
+     "action": "set_down",
+     "lat": 25.186457,
+     "lng": 55.282055,
+     "where_exactly": "Kerbside on Abraj Street outside the DAMAC Maison Majestine entrance, opposite Bay Square 13."
+    },
+    {
      "code": "C1-21",
      "name": "Sahab Al Emarat, Al Mamzar, Sharjah",
-     "time": "22:35",
+     "time": "22:27",
      "action": "set_down",
      "lat": 25.31578,
      "lng": 55.35863,
@@ -10393,20 +10402,20 @@
      "action": "set_down"
     },
     {
+     "code": "C5-20",
+     "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
+     "time": "22:23",
+     "action": "set_down"
+    },
+    {
      "code": "C1-21",
      "name": "Sahab Al Emarat, Al Mamzar, Sharjah",
-     "time": "22:23",
+     "time": "22:27",
      "action": "set_down"
     },
     {
      "code": "C5-18",
      "name": "The First Collection Business Bay (hotel), Al A'amal St",
-     "time": "22:27",
-     "action": "set_down"
-    },
-    {
-     "code": "C5-20",
-     "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
      "time": "22:32",
      "action": "set_down"
     },
@@ -14664,20 +14673,20 @@
      "action": "pick_up"
     },
     {
+     "code": "C5-20",
+     "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
+     "time": "16:58",
+     "action": "pick_up"
+    },
+    {
      "code": "C1-21",
      "name": "Sahab Al Emarat, Al Mamzar, Sharjah",
-     "time": "16:58",
+     "time": "17:02",
      "action": "pick_up"
     },
     {
      "code": "C5-18",
      "name": "The First Collection Business Bay (hotel), Al A'amal St",
-     "time": "17:02",
-     "action": "pick_up"
-    },
-    {
-     "code": "C5-20",
-     "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
      "time": "17:06",
      "action": "pick_up"
     },
@@ -15022,20 +15031,20 @@
      "action": "set_down"
     },
     {
+     "code": "C5-20",
+     "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
+     "time": "22:23",
+     "action": "set_down"
+    },
+    {
      "code": "C1-21",
      "name": "Sahab Al Emarat, Al Mamzar, Sharjah",
-     "time": "22:23",
+     "time": "22:27",
      "action": "set_down"
     },
     {
      "code": "C5-18",
      "name": "The First Collection Business Bay (hotel), Al A'amal St",
-     "time": "22:27",
-     "action": "set_down"
-    },
-    {
-     "code": "C5-20",
-     "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
      "time": "22:32",
      "action": "set_down"
     },
@@ -19393,20 +19402,20 @@
      "action": "pick_up"
     },
     {
+     "code": "C5-20",
+     "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
+     "time": "16:58",
+     "action": "pick_up"
+    },
+    {
      "code": "C1-21",
      "name": "Sahab Al Emarat, Al Mamzar, Sharjah",
-     "time": "16:58",
+     "time": "17:02",
      "action": "pick_up"
     },
     {
      "code": "C5-18",
      "name": "The First Collection Business Bay (hotel), Al A'amal St",
-     "time": "17:02",
-     "action": "pick_up"
-    },
-    {
-     "code": "C5-20",
-     "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
      "time": "17:06",
      "action": "pick_up"
     },
@@ -19806,20 +19815,20 @@
      "action": "set_down"
     },
     {
+     "code": "C5-20",
+     "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
+     "time": "22:23",
+     "action": "set_down"
+    },
+    {
      "code": "C1-21",
      "name": "Sahab Al Emarat, Al Mamzar, Sharjah",
-     "time": "22:23",
+     "time": "22:27",
      "action": "set_down"
     },
     {
      "code": "C5-18",
      "name": "The First Collection Business Bay (hotel), Al A'amal St",
-     "time": "22:27",
-     "action": "set_down"
-    },
-    {
-     "code": "C5-20",
-     "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
      "time": "22:32",
      "action": "set_down"
     },
@@ -23922,20 +23931,20 @@
      "action": "pick_up"
     },
     {
+     "code": "C5-20",
+     "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
+     "time": "16:58",
+     "action": "pick_up"
+    },
+    {
      "code": "C1-21",
      "name": "Sahab Al Emarat, Al Mamzar, Sharjah",
-     "time": "16:58",
+     "time": "17:02",
      "action": "pick_up"
     },
     {
      "code": "C5-18",
      "name": "The First Collection Business Bay (hotel), Al A'amal St",
-     "time": "17:02",
-     "action": "pick_up"
-    },
-    {
-     "code": "C5-20",
-     "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
      "time": "17:06",
      "action": "pick_up"
     },
@@ -24309,20 +24318,20 @@
      "action": "set_down"
     },
     {
+     "code": "C5-20",
+     "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
+     "time": "22:23",
+     "action": "set_down"
+    },
+    {
      "code": "C1-21",
      "name": "Sahab Al Emarat, Al Mamzar, Sharjah",
-     "time": "22:23",
+     "time": "22:27",
      "action": "set_down"
     },
     {
      "code": "C5-18",
      "name": "The First Collection Business Bay (hotel), Al A'amal St",
-     "time": "22:27",
-     "action": "set_down"
-    },
-    {
-     "code": "C5-20",
-     "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
      "time": "22:32",
      "action": "set_down"
     },
@@ -26955,20 +26964,20 @@
      "action": "pick_up"
     },
     {
+     "code": "C5-20",
+     "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
+     "time": "16:58",
+     "action": "pick_up"
+    },
+    {
      "code": "C1-21",
      "name": "Sahab Al Emarat, Al Mamzar, Sharjah",
-     "time": "16:58",
+     "time": "17:02",
      "action": "pick_up"
     },
     {
      "code": "C5-18",
      "name": "The First Collection Business Bay (hotel), Al A'amal St",
-     "time": "17:02",
-     "action": "pick_up"
-    },
-    {
-     "code": "C5-20",
-     "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
      "time": "17:06",
      "action": "pick_up"
     },
@@ -27315,20 +27324,20 @@
      "action": "set_down"
     },
     {
+     "code": "C5-20",
+     "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
+     "time": "22:23",
+     "action": "set_down"
+    },
+    {
      "code": "C1-21",
      "name": "Sahab Al Emarat, Al Mamzar, Sharjah",
-     "time": "22:23",
+     "time": "22:27",
      "action": "set_down"
     },
     {
      "code": "C5-18",
      "name": "The First Collection Business Bay (hotel), Al A'amal St",
-     "time": "22:27",
-     "action": "set_down"
-    },
-    {
-     "code": "C5-20",
-     "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
      "time": "22:32",
      "action": "set_down"
     },
