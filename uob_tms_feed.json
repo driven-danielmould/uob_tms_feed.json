@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-12T07:10:48Z",
+ "generated_at": "2026-10-12T07:17:36Z",
  "week": "2026-10-09 to 2026-10-18",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -9756,29 +9756,29 @@
    "service": "masters",
    "arrive_campus": "17:45",
    "leave_campus": null,
-   "start": "15:54",
+   "start": "15:39",
    "end": "17:45",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
     {
-     "code": "C4-01",
-     "name": "Al Mariah Mall, Hamdan St",
-     "time": "15:54",
-     "action": "pick_up",
-     "lat": 24.494038,
-     "lng": 54.366864,
-     "where_exactly": "Outside the front of Al Mariah Mall."
-    },
-    {
      "code": "C4-03",
      "name": "Al Wahda Mall",
-     "time": "16:03",
+     "time": "15:39",
      "action": "pick_up",
      "lat": 24.471019,
      "lng": 54.370278,
      "where_exactly": "Kerbside at 24.471019, 54.370278 beside Al Wahda Mall - the parent-confirmed point (12 Oct), NOT the RTA shelter on Hazza Bin Zayed St."
+    },
+    {
+     "code": "C4-01",
+     "name": "Al Mariah Mall, Hamdan St",
+     "time": "15:46",
+     "action": "pick_up",
+     "lat": 24.494038,
+     "lng": 54.366864,
+     "where_exactly": "Outside the front of Al Mariah Mall."
     },
     {
      "code": "UOB",
@@ -9800,70 +9800,70 @@
    "service": "masters",
    "arrive_campus": "17:45",
    "leave_campus": null,
-   "start": "16:35",
+   "start": "16:23",
    "end": "17:45",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "seats": 12,
    "stops": [
     {
-     "code": "C3-19",
-     "name": "Regina Tower, JVC",
-     "time": "16:35",
-     "action": "pick_up",
-     "lat": 25.057284,
-     "lng": 55.212609,
-     "where_exactly": "Kerbside on 24 Street outside the tower entrance; do not enter the car park."
-    },
-    {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "16:40",
+     "time": "16:23",
      "action": "pick_up",
      "lat": 25.075735,
      "lng": 55.140981,
      "where_exactly": "Pick and drop point at Dubai Marina Mall."
     },
     {
-     "code": "C3-17",
-     "name": "Eagle Heights, Dubai Sports City",
-     "time": "16:47",
-     "action": "pick_up",
-     "lat": 25.036628,
-     "lng": 55.221187,
-     "where_exactly": "Outside the front of the Eagle Heights building."
-    },
-    {
-     "code": "C2-11",
-     "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "16:55",
-     "action": "pick_up",
-     "lat": 25.093492,
-     "lng": 55.177807,
-     "where_exactly": "Pick and drop area outside the Al Asmawi Building."
-    },
-    {
-     "code": "C3-21",
-     "name": "DAMAC Hills Mall, DAMAC Hills",
-     "time": "16:57",
-     "action": "pick_up",
-     "lat": 25.0179838,
-     "lng": 55.2468052,
-     "where_exactly": "Mall drop-off, DAMAC Hills."
-    },
-    {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "17:03",
+     "time": "16:34",
      "action": "pick_up",
      "lat": 25.1021161,
      "lng": 55.1740882,
      "where_exactly": "Dubai Internet City Metro Station - pin as set 6 Oct (Dan); kerb text to confirm on audit."
     },
     {
+     "code": "C2-11",
+     "name": "Al Asmawi Building, Al Thanyah 1",
+     "time": "16:39",
+     "action": "pick_up",
+     "lat": 25.093492,
+     "lng": 55.177807,
+     "where_exactly": "Pick and drop area outside the Al Asmawi Building."
+    },
+    {
+     "code": "C3-19",
+     "name": "Regina Tower, JVC",
+     "time": "16:52",
+     "action": "pick_up",
+     "lat": 25.057284,
+     "lng": 55.212609,
+     "where_exactly": "Kerbside on 24 Street outside the tower entrance; do not enter the car park."
+    },
+    {
+     "code": "C3-17",
+     "name": "Eagle Heights, Dubai Sports City",
+     "time": "16:59",
+     "action": "pick_up",
+     "lat": 25.036628,
+     "lng": 55.221187,
+     "where_exactly": "Outside the front of the Eagle Heights building."
+    },
+    {
+     "code": "C3-21",
+     "name": "DAMAC Hills Mall, DAMAC Hills",
+     "time": "17:08",
+     "action": "pick_up",
+     "lat": 25.0179838,
+     "lng": 55.2468052,
+     "where_exactly": "Mall drop-off, DAMAC Hills."
+    },
+    {
      "code": "C3-15",
      "name": "Silicon Oasis Avenue Mall 2",
-     "time": "17:34",
+     "time": "17:32",
      "action": "pick_up",
      "lat": 25.11174,
      "lng": 55.375866,
@@ -9890,7 +9890,7 @@
    "arrive_campus": null,
    "leave_campus": "21:36",
    "start": "21:36",
-   "end": "23:18",
+   "end": "23:42",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -9905,22 +9905,22 @@
      "where_exactly": ""
     },
     {
-     "code": "C4-03",
-     "name": "Al Wahda Mall",
-     "time": "23:09",
-     "action": "set_down",
-     "lat": 24.471019,
-     "lng": 54.370278,
-     "where_exactly": "Kerbside at 24.471019, 54.370278 beside Al Wahda Mall - the parent-confirmed point (12 Oct), NOT the RTA shelter on Hazza Bin Zayed St."
-    },
-    {
      "code": "C4-01",
      "name": "Al Mariah Mall, Hamdan St",
-     "time": "23:18",
+     "time": "23:35",
      "action": "set_down",
      "lat": 24.494038,
      "lng": 54.366864,
      "where_exactly": "Outside the front of Al Mariah Mall."
+    },
+    {
+     "code": "C4-03",
+     "name": "Al Wahda Mall",
+     "time": "23:42",
+     "action": "set_down",
+     "lat": 24.471019,
+     "lng": 54.370278,
+     "where_exactly": "Kerbside at 24.471019, 54.370278 beside Al Wahda Mall - the parent-confirmed point (12 Oct), NOT the RTA shelter on Hazza Bin Zayed St."
     }
    ]
   },
@@ -9934,7 +9934,7 @@
    "arrive_campus": null,
    "leave_campus": "21:36",
    "start": "21:36",
-   "end": "22:41",
+   "end": "22:58",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "seats": 12,
@@ -9951,65 +9951,65 @@
     {
      "code": "C3-15",
      "name": "Silicon Oasis Avenue Mall 2",
-     "time": "21:46",
+     "time": "21:49",
      "action": "set_down",
      "lat": 25.11174,
      "lng": 55.375866,
      "where_exactly": "Bus stop shelter outside LuLu Hypermarket, Silicon Oasis Avenue Mall."
     },
     {
-     "code": "C2-07",
-     "name": "Dubai Internet City Metro Station",
-     "time": "22:14",
-     "action": "set_down",
-     "lat": 25.1021161,
-     "lng": 55.1740882,
-     "where_exactly": "Dubai Internet City Metro Station - pin as set 6 Oct (Dan); kerb text to confirm on audit."
-    },
-    {
      "code": "C3-21",
      "name": "DAMAC Hills Mall, DAMAC Hills",
-     "time": "22:21",
+     "time": "22:13",
      "action": "set_down",
      "lat": 25.0179838,
      "lng": 55.2468052,
      "where_exactly": "Mall drop-off, DAMAC Hills."
     },
     {
-     "code": "C2-11",
-     "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "22:22",
-     "action": "set_down",
-     "lat": 25.093492,
-     "lng": 55.177807,
-     "where_exactly": "Pick and drop area outside the Al Asmawi Building."
-    },
-    {
      "code": "C3-17",
      "name": "Eagle Heights, Dubai Sports City",
-     "time": "22:30",
+     "time": "22:22",
      "action": "set_down",
      "lat": 25.036628,
      "lng": 55.221187,
      "where_exactly": "Outside the front of the Eagle Heights building."
     },
     {
-     "code": "C2-02",
-     "name": "Dubai Marina Mall",
-     "time": "22:36",
-     "action": "set_down",
-     "lat": 25.075735,
-     "lng": 55.140981,
-     "where_exactly": "Pick and drop point at Dubai Marina Mall."
-    },
-    {
      "code": "C3-19",
      "name": "Regina Tower, JVC",
-     "time": "22:41",
+     "time": "22:29",
      "action": "set_down",
      "lat": 25.057284,
      "lng": 55.212609,
      "where_exactly": "Kerbside on 24 Street outside the tower entrance; do not enter the car park."
+    },
+    {
+     "code": "C2-11",
+     "name": "Al Asmawi Building, Al Thanyah 1",
+     "time": "22:42",
+     "action": "set_down",
+     "lat": 25.093492,
+     "lng": 55.177807,
+     "where_exactly": "Pick and drop area outside the Al Asmawi Building."
+    },
+    {
+     "code": "C2-07",
+     "name": "Dubai Internet City Metro Station",
+     "time": "22:47",
+     "action": "set_down",
+     "lat": 25.1021161,
+     "lng": 55.1740882,
+     "where_exactly": "Dubai Internet City Metro Station - pin as set 6 Oct (Dan); kerb text to confirm on audit."
+    },
+    {
+     "code": "C2-02",
+     "name": "Dubai Marina Mall",
+     "time": "22:58",
+     "action": "set_down",
+     "lat": 25.075735,
+     "lng": 55.140981,
+     "where_exactly": "Pick and drop point at Dubai Marina Mall."
     }
    ]
   },
