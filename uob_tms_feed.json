@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-12T17:23:38Z",
+ "generated_at": "2026-10-12T17:39:21Z",
  "week": "2026-10-09 to 2026-10-18",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -373,8 +373,27 @@
      "type": "public"
     },
     {
-     "code": "C1-10",
+     "code": "C1-25",
      "order": 7,
+     "name": "Al Qusais, Damascus St side (rider stop)",
+     "lat": 25.2736454565247,
+     "lng": 55.38143264449788,
+     "google_place_id": null,
+     "where_exactly": "Kerbside at the rider's pin 25.273645, 55.381433 in Al Qusais, east of DAFZA Metro. Rider-only stop (Angella Joseph); kerb side to confirm with the rider.",
+     "pickup_lat": 25.2736454565247,
+     "pickup_lng": 55.38143264449788,
+     "pickup_where_exactly": "Kerbside at the rider's pin 25.273645, 55.381433 in Al Qusais, east of DAFZA Metro. Rider-only stop (Angella Joseph); kerb side to confirm with the rider.",
+     "setdown_lat": 25.2736454565247,
+     "setdown_lng": 55.38143264449788,
+     "setdown_where_exactly": "Kerbside at the rider's pin 25.273645, 55.381433 in Al Qusais, east of DAFZA Metro. Rider-only stop (Angella Joseph); kerb side to confirm with the rider.",
+     "audited": false,
+     "rider_instructions": "Wait at the kerb at your pin; the bus stops on the road. Be here 5 minutes before your time and look for the yellow M sign in the bus windscreen.",
+     "driver_instructions": "Kerbside at 25.273645, 55.381433 in Al Qusais (east of DAFZA Metro). Only served on booked days.",
+     "type": "rider_only"
+    },
+    {
+     "code": "C1-10",
+     "order": 8,
      "name": "Dubai Festival City Mall",
      "lat": 25.222621,
      "lng": 55.35461,
@@ -393,7 +412,7 @@
     },
     {
      "code": "C1-11",
-     "order": 8,
+     "order": 9,
      "name": "Madina Mall",
      "lat": 25.283419,
      "lng": 55.398584,
@@ -412,7 +431,7 @@
     },
     {
      "code": "C1-15",
-     "order": 9,
+     "order": 10,
      "name": "Wasl Village, Central Parking",
      "lat": 25.289501,
      "lng": 55.4111465,
@@ -431,7 +450,7 @@
     },
     {
      "code": "C1-23",
-     "order": 10,
+     "order": 11,
      "name": "Centrepoint, Mirdif City Centre",
      "lat": 25.2180926,
      "lng": 55.4085703,
@@ -450,7 +469,7 @@
     },
     {
      "code": "C1-12",
-     "order": 11,
+     "order": 12,
      "name": "Uptown Mirdif",
      "lat": 25.224246,
      "lng": 55.423615,
@@ -469,7 +488,7 @@
     },
     {
      "code": "C1-19",
-     "order": 12,
+     "order": 13,
      "name": "Shorooq Gate 3, Mirdif",
      "lat": 25.214495,
      "lng": 55.428185,
@@ -488,7 +507,7 @@
     },
     {
      "code": "C1-13",
-     "order": 13,
+     "order": 14,
      "name": "Nasayem Avenue, Mirdif Hills",
      "lat": 25.221963,
      "lng": 55.440775,
@@ -507,7 +526,7 @@
     },
     {
      "code": "C1-14",
-     "order": 14,
+     "order": 15,
      "name": "Olivz Residence, Warsan 1",
      "lat": 25.166179,
      "lng": 55.395812,
@@ -6917,7 +6936,7 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:46",
+   "start": "05:43",
    "end": "07:45",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
@@ -6928,7 +6947,7 @@
     {
      "code": "C1-22",
      "name": "Al Nahda 1, Al Banai 1 (RTA bus stop AN1AB1)",
-     "time": "05:46",
+     "time": "05:43",
      "action": "pick_up",
      "lat": 25.291551,
      "lng": 55.36486,
@@ -6937,16 +6956,25 @@
     {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "06:08",
+     "time": "06:04",
      "action": "pick_up",
      "lat": 25.270214,
      "lng": 55.373696,
      "where_exactly": "21B Street footpath by DAFZA Metro Station Entrance 1."
     },
     {
+     "code": "C1-25",
+     "name": "Al Qusais, Damascus St side (rider stop)",
+     "time": "06:14",
+     "action": "pick_up",
+     "lat": 25.2736454565247,
+     "lng": 55.38143264449788,
+     "where_exactly": "Kerbside at the rider's pin 25.273645, 55.381433 in Al Qusais, east of DAFZA Metro. Rider-only stop (Angella Joseph); kerb side to confirm with the rider."
+    },
+    {
      "code": "C1-23",
      "name": "Centrepoint, Mirdif City Centre",
-     "time": "06:38",
+     "time": "06:41",
      "action": "pick_up",
      "lat": 25.2180926,
      "lng": 55.4085703,
@@ -6956,7 +6984,7 @@
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "06:43",
+     "time": "06:46",
      "action": "pick_up",
      "lat": 25.224246,
      "lng": 55.423615,
@@ -6965,7 +6993,7 @@
     {
      "code": "C1-13",
      "name": "Nasayem Avenue, Mirdif Hills",
-     "time": "07:00",
+     "time": "07:02",
      "action": "pick_up",
      "lat": 25.221963,
      "lng": 55.440775,
@@ -7339,7 +7367,7 @@
     {
      "code": "C1-13",
      "name": "Nasayem Avenue, Mirdif Hills",
-     "time": "18:37",
+     "time": "18:36",
      "action": "set_down",
      "lat": 25.221963,
      "lng": 55.440775,
@@ -7348,7 +7376,7 @@
     {
      "code": "C1-19",
      "name": "Shorooq Gate 3, Mirdif",
-     "time": "18:45",
+     "time": "18:43",
      "action": "set_down",
      "lat": 25.214495,
      "lng": 55.428185,
@@ -7357,7 +7385,7 @@
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "18:52",
+     "time": "18:50",
      "action": "set_down",
      "lat": 25.224246,
      "lng": 55.423615,
@@ -7366,7 +7394,7 @@
     {
      "code": "C1-23",
      "name": "Centrepoint, Mirdif City Centre",
-     "time": "19:00",
+     "time": "18:58",
      "action": "set_down",
      "lat": 25.2180926,
      "lng": 55.4085703,
@@ -7376,16 +7404,25 @@
     {
      "code": "C1-15",
      "name": "Wasl Village, Central Parking",
-     "time": "19:09",
+     "time": "19:07",
      "action": "set_down",
      "lat": 25.289501,
      "lng": 55.4111465,
      "where_exactly": "Other side of the road, outside Urban Slice; students wait at the bench."
     },
     {
+     "code": "C1-25",
+     "name": "Al Qusais, Damascus St side (rider stop)",
+     "time": "19:20",
+     "action": "set_down",
+     "lat": 25.2736454565247,
+     "lng": 55.38143264449788,
+     "where_exactly": "Kerbside at the rider's pin 25.273645, 55.381433 in Al Qusais, east of DAFZA Metro. Rider-only stop (Angella Joseph); kerb side to confirm with the rider."
+    },
+    {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "19:25",
+     "time": "19:27",
      "action": "set_down",
      "lat": 25.270214,
      "lng": 55.373696,
@@ -7394,7 +7431,7 @@
     {
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
-     "time": "19:35",
+     "time": "19:36",
      "action": "set_down",
      "lat": 25.288631,
      "lng": 55.364044,
@@ -7403,7 +7440,7 @@
     {
      "code": "C1-22",
      "name": "Al Nahda 1, Al Banai 1 (RTA bus stop AN1AB1)",
-     "time": "19:42",
+     "time": "19:43",
      "action": "set_down",
      "lat": 25.291551,
      "lng": 55.36486,
@@ -11226,7 +11263,7 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:37",
+   "start": "05:34",
    "end": "07:45",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
@@ -11237,7 +11274,7 @@
     {
      "code": "C1-24",
      "name": "EK2 Accommodation, Muhaisnah 4",
-     "time": "05:37",
+     "time": "05:34",
      "action": "pick_up",
      "lat": 25.2795117,
      "lng": 55.402653,
@@ -11246,7 +11283,7 @@
     {
      "code": "C1-07",
      "name": "Masafi 1, Al Nahda 2",
-     "time": "05:49",
+     "time": "05:46",
      "action": "pick_up",
      "lat": 25.289367,
      "lng": 55.372375,
@@ -11255,7 +11292,7 @@
     {
      "code": "C1-17",
      "name": "Bahwan Tower, Al Nahda 1",
-     "time": "05:58",
+     "time": "05:55",
      "action": "pick_up",
      "lat": 25.287666,
      "lng": 55.361619,
@@ -11264,7 +11301,7 @@
     {
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
-     "time": "06:02",
+     "time": "05:59",
      "action": "pick_up",
      "lat": 25.288631,
      "lng": 55.364044,
@@ -11273,16 +11310,25 @@
     {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "06:16",
+     "time": "06:13",
      "action": "pick_up",
      "lat": 25.270214,
      "lng": 55.373696,
      "where_exactly": "21B Street footpath by DAFZA Metro Station Entrance 1."
     },
     {
+     "code": "C1-25",
+     "name": "Al Qusais, Damascus St side (rider stop)",
+     "time": "06:20",
+     "action": "pick_up",
+     "lat": 25.2736454565247,
+     "lng": 55.38143264449788,
+     "where_exactly": "Kerbside at the rider's pin 25.273645, 55.381433 in Al Qusais, east of DAFZA Metro. Rider-only stop (Angella Joseph); kerb side to confirm with the rider."
+    },
+    {
      "code": "C1-15",
      "name": "Wasl Village, Central Parking",
-     "time": "06:32",
+     "time": "06:33",
      "action": "pick_up",
      "lat": 25.289501,
      "lng": 55.4111465,
@@ -11291,7 +11337,7 @@
     {
      "code": "C1-23",
      "name": "Centrepoint, Mirdif City Centre",
-     "time": "06:44",
+     "time": "06:45",
      "action": "pick_up",
      "lat": 25.2180926,
      "lng": 55.4085703,
@@ -11301,7 +11347,7 @@
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "06:56",
+     "time": "06:57",
      "action": "pick_up",
      "lat": 25.224246,
      "lng": 55.423615,
@@ -11310,7 +11356,7 @@
     {
      "code": "C1-19",
      "name": "Shorooq Gate 3, Mirdif",
-     "time": "07:05",
+     "time": "07:06",
      "action": "pick_up",
      "lat": 25.214495,
      "lng": 55.428185,
@@ -11520,13 +11566,13 @@
      "where_exactly": ""
     },
     {
-     "code": "C1-09",
-     "name": "DAFZA Metro Station",
-     "time": "15:04",
+     "code": "C1-25",
+     "name": "Al Qusais, Damascus St side (rider stop)",
+     "time": "15:02",
      "action": "set_down",
-     "lat": 25.270214,
-     "lng": 55.373696,
-     "where_exactly": "21B Street footpath by DAFZA Metro Station Entrance 1."
+     "lat": 25.2736454565247,
+     "lng": 55.38143264449788,
+     "where_exactly": "Kerbside at the rider's pin 25.273645, 55.381433 in Al Qusais, east of DAFZA Metro. Rider-only stop (Angella Joseph); kerb side to confirm with the rider."
     },
     {
      "code": "C1-24",
@@ -16064,18 +16110,18 @@
      "where_exactly": "RTA bus shelter \"Al Nahda 2, 6A St 1\" (817301), facing Masafi tower."
     },
     {
-     "code": "C1-09",
-     "name": "DAFZA Metro Station",
+     "code": "C1-25",
+     "name": "Al Qusais, Damascus St side (rider stop)",
      "time": "09:00",
      "action": "pick_up",
-     "lat": 25.270214,
-     "lng": 55.373696,
-     "where_exactly": "21B Street footpath by DAFZA Metro Station Entrance 1."
+     "lat": 25.2736454565247,
+     "lng": 55.38143264449788,
+     "where_exactly": "Kerbside at the rider's pin 25.273645, 55.381433 in Al Qusais, east of DAFZA Metro. Rider-only stop (Angella Joseph); kerb side to confirm with the rider."
     },
     {
      "code": "C1-23",
      "name": "Centrepoint, Mirdif City Centre",
-     "time": "09:16",
+     "time": "09:15",
      "action": "pick_up",
      "lat": 25.2180926,
      "lng": 55.4085703,
@@ -16085,7 +16131,7 @@
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "09:21",
+     "time": "09:20",
      "action": "pick_up",
      "lat": 25.224246,
      "lng": 55.423615,
@@ -16413,7 +16459,7 @@
     {
      "code": "C1-13",
      "name": "Nasayem Avenue, Mirdif Hills",
-     "time": "18:37",
+     "time": "18:36",
      "action": "set_down",
      "lat": 25.221963,
      "lng": 55.440775,
@@ -16422,7 +16468,7 @@
     {
      "code": "C1-19",
      "name": "Shorooq Gate 3, Mirdif",
-     "time": "18:44",
+     "time": "18:43",
      "action": "set_down",
      "lat": 25.214495,
      "lng": 55.428185,
@@ -16431,7 +16477,7 @@
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "18:51",
+     "time": "18:50",
      "action": "set_down",
      "lat": 25.224246,
      "lng": 55.423615,
@@ -16440,7 +16486,7 @@
     {
      "code": "C1-23",
      "name": "Centrepoint, Mirdif City Centre",
-     "time": "18:59",
+     "time": "18:58",
      "action": "set_down",
      "lat": 25.2180926,
      "lng": 55.4085703,
@@ -16450,16 +16496,25 @@
     {
      "code": "C1-15",
      "name": "Wasl Village, Central Parking",
-     "time": "19:08",
+     "time": "19:06",
      "action": "set_down",
      "lat": 25.289501,
      "lng": 55.4111465,
      "where_exactly": "Other side of the road, outside Urban Slice; students wait at the bench."
     },
     {
+     "code": "C1-25",
+     "name": "Al Qusais, Damascus St side (rider stop)",
+     "time": "19:19",
+     "action": "set_down",
+     "lat": 25.2736454565247,
+     "lng": 55.38143264449788,
+     "where_exactly": "Kerbside at the rider's pin 25.273645, 55.381433 in Al Qusais, east of DAFZA Metro. Rider-only stop (Angella Joseph); kerb side to confirm with the rider."
+    },
+    {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "19:24",
+     "time": "19:26",
      "action": "set_down",
      "lat": 25.270214,
      "lng": 55.373696,
@@ -16468,7 +16523,7 @@
     {
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
-     "time": "19:34",
+     "time": "19:35",
      "action": "set_down",
      "lat": 25.288631,
      "lng": 55.364044,
@@ -16477,7 +16532,7 @@
     {
      "code": "C1-17",
      "name": "Bahwan Tower, Al Nahda 1",
-     "time": "19:41",
+     "time": "19:42",
      "action": "set_down",
      "lat": 25.287666,
      "lng": 55.361619,
@@ -16486,7 +16541,7 @@
     {
      "code": "C1-22",
      "name": "Al Nahda 1, Al Banai 1 (RTA bus stop AN1AB1)",
-     "time": "19:48",
+     "time": "19:49",
      "action": "set_down",
      "lat": 25.291551,
      "lng": 55.36486,
@@ -20938,7 +20993,7 @@
    "service": "undergraduate",
    "arrive_campus": "12:45",
    "leave_campus": null,
-   "start": "11:48",
+   "start": "11:45",
    "end": "12:45",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
@@ -20949,11 +21004,20 @@
     {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "11:48",
+     "time": "11:45",
      "action": "pick_up",
      "lat": 25.270214,
      "lng": 55.373696,
      "where_exactly": "21B Street footpath by DAFZA Metro Station Entrance 1."
+    },
+    {
+     "code": "C1-25",
+     "name": "Al Qusais, Damascus St side (rider stop)",
+     "time": "11:53",
+     "action": "pick_up",
+     "lat": 25.2736454565247,
+     "lng": 55.38143264449788,
+     "where_exactly": "Kerbside at the rider's pin 25.273645, 55.381433 in Al Qusais, east of DAFZA Metro. Rider-only stop (Angella Joseph); kerb side to confirm with the rider."
     },
     {
      "code": "UOB",
@@ -21166,7 +21230,7 @@
     {
      "code": "C1-13",
      "name": "Nasayem Avenue, Mirdif Hills",
-     "time": "18:39",
+     "time": "18:37",
      "action": "set_down",
      "lat": 25.221963,
      "lng": 55.440775,
@@ -21175,7 +21239,7 @@
     {
      "code": "C1-19",
      "name": "Shorooq Gate 3, Mirdif",
-     "time": "18:47",
+     "time": "18:45",
      "action": "set_down",
      "lat": 25.214495,
      "lng": 55.428185,
@@ -21184,7 +21248,7 @@
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "18:55",
+     "time": "18:53",
      "action": "set_down",
      "lat": 25.224246,
      "lng": 55.423615,
@@ -21193,7 +21257,7 @@
     {
      "code": "C1-23",
      "name": "Centrepoint, Mirdif City Centre",
-     "time": "19:04",
+     "time": "19:01",
      "action": "set_down",
      "lat": 25.2180926,
      "lng": 55.4085703,
@@ -21203,16 +21267,25 @@
     {
      "code": "C1-15",
      "name": "Wasl Village, Central Parking",
-     "time": "19:13",
+     "time": "19:10",
      "action": "set_down",
      "lat": 25.289501,
      "lng": 55.4111465,
      "where_exactly": "Other side of the road, outside Urban Slice; students wait at the bench."
     },
     {
+     "code": "C1-25",
+     "name": "Al Qusais, Damascus St side (rider stop)",
+     "time": "19:24",
+     "action": "set_down",
+     "lat": 25.2736454565247,
+     "lng": 55.38143264449788,
+     "where_exactly": "Kerbside at the rider's pin 25.273645, 55.381433 in Al Qusais, east of DAFZA Metro. Rider-only stop (Angella Joseph); kerb side to confirm with the rider."
+    },
+    {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "19:30",
+     "time": "19:32",
      "action": "set_down",
      "lat": 25.270214,
      "lng": 55.373696,
@@ -21221,7 +21294,7 @@
     {
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
-     "time": "19:40",
+     "time": "19:42",
      "action": "set_down",
      "lat": 25.288631,
      "lng": 55.364044,
@@ -21230,7 +21303,7 @@
     {
      "code": "C1-17",
      "name": "Bahwan Tower, Al Nahda 1",
-     "time": "19:48",
+     "time": "19:50",
      "action": "set_down",
      "lat": 25.287666,
      "lng": 55.361619,
@@ -21239,7 +21312,7 @@
     {
      "code": "C1-22",
      "name": "Al Nahda 1, Al Banai 1 (RTA bus stop AN1AB1)",
-     "time": "19:56",
+     "time": "19:57",
      "action": "set_down",
      "lat": 25.291551,
      "lng": 55.36486,
