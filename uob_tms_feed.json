@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-12T13:34:03Z",
+ "generated_at": "2026-10-12T13:41:07Z",
  "week": "2026-10-09 to 2026-10-18",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -15,7 +15,7 @@
    "masters_arrival": "17:45",
    "departures": [
     "14:15",
-    "16:15",
+    "16:30",
     "18:15"
    ],
    "masters_departure": "21:36",
@@ -35,13 +35,13 @@
    "masters_departure": "21:36"
   },
   "per_route": {
-   "R1": "no 09:45 on days with fewer than 3 riders for it; 16:15 folds into 18:15",
-   "R2": "16:15 folds into 18:15",
+   "R1": "no 09:45 on days with fewer than 3 riders for it",
+   "R2": "all slots",
    "R3": "all slots",
    "R4": "all slots",
    "R5": "no 09:45 (2h40 run cannot turn round); 16:15 folds into 18:15",
-   "R6": "16:15 folds into 18:15",
-   "R7": "16:15 folds into 18:15"
+   "R6": "all slots",
+   "R7": "all slots"
   },
   "note": "A slot appears in runs[] for a route and date only when someone is booked on it; runs[] is the truth for what operates."
  },
@@ -10782,9 +10782,9 @@
    "direction": "from_campus",
    "service": "undergraduate",
    "arrive_campus": null,
-   "leave_campus": "16:15",
-   "start": "16:15",
-   "end": "19:16",
+   "leave_campus": "16:30",
+   "start": "16:30",
+   "end": "19:31",
    "vehicle": "M1",
    "vehicle_type": "Hiace",
    "capacity": 15,
@@ -10794,7 +10794,7 @@
     {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
-     "time": "16:15",
+     "time": "16:30",
      "action": "pick_up",
      "lat": 25.1321925,
      "lng": 55.4223161,
@@ -10803,7 +10803,7 @@
     {
      "code": "C1-02",
      "name": "City Centre Al Zahia",
-     "time": "17:12",
+     "time": "17:27",
      "action": "set_down",
      "lat": 25.318044,
      "lng": 55.457279,
@@ -10812,7 +10812,7 @@
     {
      "code": "C1-06",
      "name": "Sahara Centre",
-     "time": "17:59",
+     "time": "18:14",
      "action": "set_down",
      "lat": 25.297153,
      "lng": 55.371026,
@@ -10821,7 +10821,7 @@
     {
      "code": "C1-16",
      "name": "LuLu Hypermarket Al Nahda, Sharjah",
-     "time": "18:09",
+     "time": "18:24",
      "action": "set_down",
      "lat": 25.303505,
      "lng": 55.375491,
@@ -10830,7 +10830,7 @@
     {
      "code": "C1-05",
      "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "18:22",
+     "time": "18:37",
      "action": "set_down",
      "lat": 25.305885121719236,
      "lng": 55.363729380596915,
@@ -10839,7 +10839,7 @@
     {
      "code": "C1-21",
      "name": "Sahab Al Emarat, Al Mamzar, Sharjah",
-     "time": "18:35",
+     "time": "18:50",
      "action": "set_down",
      "lat": 25.31578,
      "lng": 55.35863,
@@ -10848,7 +10848,7 @@
     {
      "code": "C1-20",
      "name": "Al Buhaira Police Station bus stop, Al Majaz 3",
-     "time": "18:58",
+     "time": "19:13",
      "action": "set_down",
      "lat": 25.323284,
      "lng": 55.381418,
@@ -10857,7 +10857,7 @@
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "19:16",
+     "time": "19:31",
      "action": "set_down",
      "lat": 25.337533,
      "lng": 55.39061,
@@ -11405,9 +11405,9 @@
    "direction": "from_campus",
    "service": "undergraduate",
    "arrive_campus": null,
-   "leave_campus": "16:15",
-   "start": "16:15",
-   "end": "18:10",
+   "leave_campus": "16:30",
+   "start": "16:30",
+   "end": "18:25",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "capacity": 34,
@@ -11417,7 +11417,7 @@
     {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
-     "time": "16:15",
+     "time": "16:30",
      "action": "pick_up",
      "lat": 25.1321925,
      "lng": 55.4223161,
@@ -11426,7 +11426,7 @@
     {
      "code": "C1-13",
      "name": "Nasayem Avenue, Mirdif Hills",
-     "time": "16:49",
+     "time": "17:04",
      "action": "set_down",
      "lat": 25.221963,
      "lng": 55.440775,
@@ -11435,7 +11435,7 @@
     {
      "code": "C1-19",
      "name": "Shorooq Gate 3, Mirdif",
-     "time": "17:00",
+     "time": "17:15",
      "action": "set_down",
      "lat": 25.214495,
      "lng": 55.428185,
@@ -11444,7 +11444,7 @@
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "17:10",
+     "time": "17:25",
      "action": "set_down",
      "lat": 25.224246,
      "lng": 55.423615,
@@ -11453,7 +11453,7 @@
     {
      "code": "C1-23",
      "name": "Centrepoint, Mirdif City Centre",
-     "time": "17:24",
+     "time": "17:39",
      "action": "set_down",
      "lat": 25.2180926,
      "lng": 55.4085703,
@@ -11463,7 +11463,7 @@
     {
      "code": "C1-15",
      "name": "Wasl Village, Central Parking",
-     "time": "17:38",
+     "time": "17:53",
      "action": "set_down",
      "lat": 25.289501,
      "lng": 55.4111465,
@@ -11472,7 +11472,7 @@
     {
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
-     "time": "17:56",
+     "time": "18:11",
      "action": "set_down",
      "lat": 25.288631,
      "lng": 55.364044,
@@ -11481,7 +11481,7 @@
     {
      "code": "C1-17",
      "name": "Bahwan Tower, Al Nahda 1",
-     "time": "18:01",
+     "time": "18:16",
      "action": "set_down",
      "lat": 25.287666,
      "lng": 55.361619,
@@ -11490,7 +11490,7 @@
     {
      "code": "C1-07",
      "name": "Masafi 1, Al Nahda 2",
-     "time": "18:10",
+     "time": "18:25",
      "action": "set_down",
      "lat": 25.289367,
      "lng": 55.372375,
@@ -12057,9 +12057,9 @@
    "direction": "from_campus",
    "service": "undergraduate",
    "arrive_campus": null,
-   "leave_campus": "16:15",
-   "start": "16:15",
-   "end": "17:52",
+   "leave_campus": "16:30",
+   "start": "16:30",
+   "end": "18:07",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
    "capacity": 15,
@@ -12069,7 +12069,7 @@
     {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
-     "time": "16:15",
+     "time": "16:30",
      "action": "pick_up",
      "lat": 25.1321925,
      "lng": 55.4223161,
@@ -12078,7 +12078,7 @@
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "17:05",
+     "time": "17:20",
      "action": "set_down",
      "lat": 25.099769538054428,
      "lng": 55.17320213081937,
@@ -12087,7 +12087,7 @@
     {
      "code": "C2-09",
      "name": "Springs 10 Gatehouse",
-     "time": "17:26",
+     "time": "17:41",
      "action": "set_down",
      "lat": 25.0556628,
      "lng": 55.1803096,
@@ -12096,7 +12096,7 @@
     {
      "code": "C2-03",
      "name": "DMCC Metro Station",
-     "time": "17:45",
+     "time": "18:00",
      "action": "set_down",
      "lat": 25.07122,
      "lng": 55.137072,
@@ -12105,7 +12105,7 @@
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "17:52",
+     "time": "18:07",
      "action": "set_down",
      "lat": 25.075735,
      "lng": 55.140981,
@@ -12774,9 +12774,9 @@
    "direction": "from_campus",
    "service": "undergraduate",
    "arrive_campus": null,
-   "leave_campus": "16:15",
-   "start": "16:15",
-   "end": "17:45",
+   "leave_campus": "16:30",
+   "start": "16:30",
+   "end": "18:00",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
@@ -12786,7 +12786,7 @@
     {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
-     "time": "16:15",
+     "time": "16:30",
      "action": "pick_up",
      "lat": 25.1321925,
      "lng": 55.4223161,
@@ -12795,7 +12795,7 @@
     {
      "code": "C3-09",
      "name": "Spinneys, Town Square",
-     "time": "16:53",
+     "time": "17:08",
      "action": "set_down",
      "lat": 25.0099047,
      "lng": 55.2902856,
@@ -12804,7 +12804,7 @@
     {
      "code": "C3-08",
      "name": "Serena, Bella Casa",
-     "time": "17:03",
+     "time": "17:18",
      "action": "set_down",
      "lat": 25.0389716,
      "lng": 55.2890906,
@@ -12813,7 +12813,7 @@
     {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "17:24",
+     "time": "17:39",
      "action": "set_down",
      "lat": 25.040494,
      "lng": 55.195971,
@@ -12822,7 +12822,7 @@
     {
      "code": "C3-04",
      "name": "Dubai International Cricket Stadium",
-     "time": "17:35",
+     "time": "17:50",
      "action": "set_down",
      "lat": 25.043579,
      "lng": 55.218241,
@@ -12831,7 +12831,7 @@
     {
      "code": "C3-03",
      "name": "Dubai Miracle Garden",
-     "time": "17:45",
+     "time": "18:00",
      "action": "set_down",
      "lat": 25.061132,
      "lng": 55.246185,
@@ -13833,9 +13833,9 @@
    "direction": "from_campus",
    "service": "undergraduate",
    "arrive_campus": null,
-   "leave_campus": "16:15",
-   "start": "16:15",
-   "end": "17:42",
+   "leave_campus": "16:30",
+   "start": "16:30",
+   "end": "17:57",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
    "capacity": 15,
@@ -13845,7 +13845,7 @@
     {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
-     "time": "16:15",
+     "time": "16:30",
      "action": "pick_up",
      "lat": 25.1321925,
      "lng": 55.4223161,
@@ -13854,7 +13854,7 @@
     {
      "code": "C4-13",
      "name": "Gardens Metro Station",
-     "time": "17:10",
+     "time": "17:25",
      "action": "set_down",
      "lat": 25.043761,
      "lng": 55.134832,
@@ -13863,7 +13863,7 @@
     {
      "code": "C4-16",
      "name": "Discovery Gardens Metro Station",
-     "time": "17:20",
+     "time": "17:35",
      "action": "set_down",
      "lat": 25.035204,
      "lng": 55.1453653,
@@ -13872,7 +13872,7 @@
     {
      "code": "C4-19",
      "name": "Masakin Al Furjan Gate 2, Al Furjan",
-     "time": "17:27",
+     "time": "17:42",
      "action": "set_down",
      "lat": 25.0308,
      "lng": 55.14978,
@@ -13881,7 +13881,7 @@
     {
      "code": "C4-11",
      "name": "Al Furjan West Centre",
-     "time": "17:42",
+     "time": "17:57",
      "action": "set_down",
      "lat": 25.021958,
      "lng": 55.129796,
@@ -14405,9 +14405,9 @@
    "direction": "from_campus",
    "service": "undergraduate",
    "arrive_campus": null,
-   "leave_campus": "16:15",
-   "start": "16:15",
-   "end": "18:19",
+   "leave_campus": "16:30",
+   "start": "16:30",
+   "end": "18:34",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
@@ -14417,7 +14417,7 @@
     {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
-     "time": "16:15",
+     "time": "16:30",
      "action": "pick_up",
      "lat": 25.1321925,
      "lng": 55.4223161,
@@ -14426,7 +14426,7 @@
     {
      "code": "C5-12",
      "name": "Wasl Green Park, Ras Al Khor",
-     "time": "16:35",
+     "time": "16:50",
      "action": "set_down",
      "lat": 25.1801628,
      "lng": 55.3729096,
@@ -14435,7 +14435,7 @@
     {
      "code": "C5-11",
      "name": "One Park Avenue, Sobha Hartland",
-     "time": "16:56",
+     "time": "17:11",
      "action": "set_down",
      "lat": 25.1784466,
      "lng": 55.3086196,
@@ -14444,7 +14444,7 @@
     {
      "code": "C5-15",
      "name": "Ubora Tower, Business Bay",
-     "time": "17:09",
+     "time": "17:24",
      "action": "set_down",
      "lat": 25.180398,
      "lng": 55.269675,
@@ -14453,7 +14453,7 @@
     {
      "code": "C5-09",
      "name": "Bay Avenue Mall, Business Bay",
-     "time": "17:18",
+     "time": "17:33",
      "action": "set_down",
      "lat": 25.191143,
      "lng": 55.265598,
@@ -14462,7 +14462,7 @@
     {
      "code": "C5-05",
      "name": "BurJuman Mall",
-     "time": "17:43",
+     "time": "17:58",
      "action": "set_down",
      "lat": 25.254331,
      "lng": 55.303661,
@@ -14471,7 +14471,7 @@
     {
      "code": "C5-03",
      "name": "Creek Metro Station, Al Jaddaf",
-     "time": "18:00",
+     "time": "18:15",
      "action": "set_down",
      "lat": 25.219122,
      "lng": 55.339319,
@@ -14480,7 +14480,7 @@
     {
      "code": "C5-21",
      "name": "Al Ghurair Centre bus stop (Ghurair City 2), Al Rigga Rd",
-     "time": "18:19",
+     "time": "18:34",
      "action": "set_down",
      "lat": 25.266621,
      "lng": 55.317593,
@@ -16825,9 +16825,9 @@
    "direction": "from_campus",
    "service": "undergraduate",
    "arrive_campus": null,
-   "leave_campus": "16:15",
-   "start": "16:15",
-   "end": "18:03",
+   "leave_campus": "16:30",
+   "start": "16:30",
+   "end": "18:18",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
    "capacity": 15,
@@ -16837,7 +16837,7 @@
     {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
-     "time": "16:15",
+     "time": "16:30",
      "action": "pick_up",
      "lat": 25.1321925,
      "lng": 55.4223161,
@@ -16846,7 +16846,7 @@
     {
      "code": "C2-10",
      "name": "Al Manaf Building, Al Barsha 1",
-     "time": "16:48",
+     "time": "17:03",
      "action": "set_down",
      "lat": 25.1110756,
      "lng": 55.2057285,
@@ -16855,7 +16855,7 @@
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "17:00",
+     "time": "17:15",
      "action": "set_down",
      "lat": 25.099769538054428,
      "lng": 55.17320213081937,
@@ -16864,7 +16864,7 @@
     {
      "code": "C2-06",
      "name": "The Springs Souk",
-     "time": "17:14",
+     "time": "17:29",
      "action": "set_down",
      "lat": 25.065917,
      "lng": 55.192107,
@@ -16873,7 +16873,7 @@
     {
      "code": "C2-09",
      "name": "Springs 10 Gatehouse",
-     "time": "17:25",
+     "time": "17:40",
      "action": "set_down",
      "lat": 25.0556628,
      "lng": 55.1803096,
@@ -16882,7 +16882,7 @@
     {
      "code": "C2-05",
      "name": "The Meadows Village",
-     "time": "17:39",
+     "time": "17:54",
      "action": "set_down",
      "lat": 25.0637,
      "lng": 55.1573,
@@ -16891,7 +16891,7 @@
     {
      "code": "C2-04",
      "name": "Sobha Realty Metro Station",
-     "time": "17:52",
+     "time": "18:07",
      "action": "set_down",
      "lat": 25.08243,
      "lng": 55.148317,
@@ -16900,7 +16900,7 @@
     {
      "code": "C2-03",
      "name": "DMCC Metro Station",
-     "time": "18:03",
+     "time": "18:18",
      "action": "set_down",
      "lat": 25.07122,
      "lng": 55.137072,
@@ -21544,9 +21544,9 @@
    "direction": "from_campus",
    "service": "undergraduate",
    "arrive_campus": null,
-   "leave_campus": "16:15",
-   "start": "16:15",
-   "end": "17:52",
+   "leave_campus": "16:30",
+   "start": "16:30",
+   "end": "18:07",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
    "capacity": 15,
@@ -21556,7 +21556,7 @@
     {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
-     "time": "16:15",
+     "time": "16:30",
      "action": "pick_up",
      "lat": 25.1321925,
      "lng": 55.4223161,
@@ -21565,7 +21565,7 @@
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "17:09",
+     "time": "17:24",
      "action": "set_down",
      "lat": 25.099769538054428,
      "lng": 55.17320213081937,
@@ -21574,7 +21574,7 @@
     {
      "code": "C2-05",
      "name": "The Meadows Village",
-     "time": "17:28",
+     "time": "17:43",
      "action": "set_down",
      "lat": 25.0637,
      "lng": 55.1573,
@@ -21583,7 +21583,7 @@
     {
      "code": "C2-03",
      "name": "DMCC Metro Station",
-     "time": "17:45",
+     "time": "18:00",
      "action": "set_down",
      "lat": 25.07122,
      "lng": 55.137072,
@@ -21592,7 +21592,7 @@
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "17:52",
+     "time": "18:07",
      "action": "set_down",
      "lat": 25.075735,
      "lng": 55.140981,
@@ -22188,9 +22188,9 @@
    "direction": "from_campus",
    "service": "undergraduate",
    "arrive_campus": null,
-   "leave_campus": "16:15",
-   "start": "16:15",
-   "end": "18:03",
+   "leave_campus": "16:30",
+   "start": "16:30",
+   "end": "18:18",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
@@ -22200,7 +22200,7 @@
     {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
-     "time": "16:15",
+     "time": "16:30",
      "action": "pick_up",
      "lat": 25.1321925,
      "lng": 55.4223161,
@@ -22209,7 +22209,7 @@
     {
      "code": "C3-09",
      "name": "Spinneys, Town Square",
-     "time": "17:00",
+     "time": "17:15",
      "action": "set_down",
      "lat": 25.0099047,
      "lng": 55.2902856,
@@ -22218,7 +22218,7 @@
     {
      "code": "C3-07",
      "name": "First Avenue Mall, Motor City",
-     "time": "17:18",
+     "time": "17:33",
      "action": "set_down",
      "lat": 25.046685,
      "lng": 55.243063,
@@ -22227,7 +22227,7 @@
     {
      "code": "C3-21",
      "name": "DAMAC Hills Mall, DAMAC Hills",
-     "time": "17:28",
+     "time": "17:43",
      "action": "set_down",
      "lat": 25.0179838,
      "lng": 55.2468052,
@@ -22236,7 +22236,7 @@
     {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "17:45",
+     "time": "18:00",
      "action": "set_down",
      "lat": 25.040494,
      "lng": 55.195971,
@@ -22245,7 +22245,7 @@
     {
      "code": "C3-02",
      "name": "Circle Mall, JVC",
-     "time": "17:56",
+     "time": "18:11",
      "action": "set_down",
      "lat": 25.0660395,
      "lng": 55.2162257,
@@ -22254,7 +22254,7 @@
     {
      "code": "C3-18",
      "name": "Tuscan Residence Siena 1, JVC",
-     "time": "18:03",
+     "time": "18:18",
      "action": "set_down",
      "lat": 25.063605,
      "lng": 55.207328,
