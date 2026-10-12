@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-12T03:48:53Z",
+ "generated_at": "2026-10-12T03:49:55Z",
  "week": "2026-10-09 to 2026-10-18",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -1369,16 +1369,16 @@
      "code": "C4-03",
      "order": 8,
      "name": "Al Wahda Mall",
-     "lat": 24.471638,
-     "lng": 54.372417,
+     "lat": 24.471019,
+     "lng": 54.370278,
      "google_place_id": "ChIJW9qY8TxmXj4RzUExrgrD5XI",
-     "where_exactly": "Bus stop shelter by Al Wahda Mall (as shown in the photo).",
-     "pickup_lat": 24.471638,
-     "pickup_lng": 54.372417,
-     "pickup_where_exactly": "Bus stop shelter by Al Wahda Mall (as shown in the photo).",
-     "setdown_lat": 24.471631,
-     "setdown_lng": 54.372867,
-     "setdown_where_exactly": "Bus stop shelter by Al Wahda Mall (as shown in the photo).",
+     "where_exactly": "Kerbside at 24.471019, 54.370278 beside Al Wahda Mall - the parent-confirmed point (12 Oct), NOT the RTA shelter on Hazza Bin Zayed St.",
+     "pickup_lat": 24.471019,
+     "pickup_lng": 54.370278,
+     "pickup_where_exactly": "Kerbside at 24.471019, 54.370278 beside Al Wahda Mall - the parent-confirmed point (12 Oct), NOT the RTA shelter on Hazza Bin Zayed St.",
+     "setdown_lat": 24.471019,
+     "setdown_lng": 54.370278,
+     "setdown_where_exactly": "Kerbside at 24.471019, 54.370278 beside Al Wahda Mall - the parent-confirmed point (12 Oct), NOT the RTA shelter on Hazza Bin Zayed St.",
      "audited": true,
      "rider_instructions": "Wait at the kerb at the pin shown, beside Al Wahda Mall. Be here 5 minutes before your time and look for the yellow M sign in the bus windscreen.",
      "driver_instructions": "Kerbside at 24.471019, 54.370278 beside Al Wahda Mall (parent-confirmed point, 12 Oct) - not the RTA shelter on Hazza Bin Zayed St. Only served on booked days.",
@@ -2114,16 +2114,16 @@
      "code": "C4-03",
      "order": 2,
      "name": "Al Wahda Mall",
-     "lat": 24.471638,
-     "lng": 54.372417,
+     "lat": 24.471019,
+     "lng": 54.370278,
      "google_place_id": "ChIJW9qY8TxmXj4RzUExrgrD5XI",
-     "where_exactly": "Bus stop shelter by Al Wahda Mall (as shown in the photo).",
-     "pickup_lat": 24.471638,
-     "pickup_lng": 54.372417,
-     "pickup_where_exactly": "Bus stop shelter by Al Wahda Mall (as shown in the photo).",
-     "setdown_lat": 24.471631,
-     "setdown_lng": 54.372867,
-     "setdown_where_exactly": "Bus stop shelter by Al Wahda Mall (as shown in the photo).",
+     "where_exactly": "Kerbside at 24.471019, 54.370278 beside Al Wahda Mall - the parent-confirmed point (12 Oct), NOT the RTA shelter on Hazza Bin Zayed St.",
+     "pickup_lat": 24.471019,
+     "pickup_lng": 54.370278,
+     "pickup_where_exactly": "Kerbside at 24.471019, 54.370278 beside Al Wahda Mall - the parent-confirmed point (12 Oct), NOT the RTA shelter on Hazza Bin Zayed St.",
+     "setdown_lat": 24.471019,
+     "setdown_lng": 54.370278,
+     "setdown_where_exactly": "Kerbside at 24.471019, 54.370278 beside Al Wahda Mall - the parent-confirmed point (12 Oct), NOT the RTA shelter on Hazza Bin Zayed St.",
      "served_by_routes": [
       "R5"
      ]
@@ -8395,14 +8395,14 @@
      "name": "Al Wahda Mall",
      "time": "04:37",
      "action": "pick_up",
-     "lat": 24.471638,
-     "lng": 54.372417,
-     "where_exactly": "Bus stop shelter by Al Wahda Mall (as shown in the photo)."
+     "lat": 24.471019,
+     "lng": 54.370278,
+     "where_exactly": "Kerbside at 24.471019, 54.370278 beside Al Wahda Mall - the parent-confirmed point (12 Oct), NOT the RTA shelter on Hazza Bin Zayed St."
     },
     {
      "code": "C4-18",
      "name": "Super Nanny Nursery, Khalifa City, Abu Dhabi",
-     "time": "05:05",
+     "time": "05:06",
      "action": "pick_up",
      "lat": 24.41338,
      "lng": 54.5594598,
@@ -8411,7 +8411,7 @@
     {
      "code": "C4-06",
      "name": "Al Forsan Village main gate",
-     "time": "05:13",
+     "time": "05:14",
      "action": "pick_up",
      "lat": 24.4044,
      "lng": 54.5514,
@@ -8667,11 +8667,11 @@
     {
      "code": "C4-03",
      "name": "Al Wahda Mall",
-     "time": "20:36",
+     "time": "20:35",
      "action": "set_down",
-     "lat": 24.471638,
-     "lng": 54.372417,
-     "where_exactly": "Bus stop shelter by Al Wahda Mall (as shown in the photo)."
+     "lat": 24.471019,
+     "lng": 54.370278,
+     "where_exactly": "Kerbside at 24.471019, 54.370278 beside Al Wahda Mall - the parent-confirmed point (12 Oct), NOT the RTA shelter on Hazza Bin Zayed St."
     },
     {
      "code": "C4-24",
@@ -9776,9 +9776,9 @@
      "name": "Al Wahda Mall",
      "time": "16:03",
      "action": "pick_up",
-     "lat": 24.471638,
-     "lng": 54.372417,
-     "where_exactly": "Bus stop shelter by Al Wahda Mall (as shown in the photo)."
+     "lat": 24.471019,
+     "lng": 54.370278,
+     "where_exactly": "Kerbside at 24.471019, 54.370278 beside Al Wahda Mall - the parent-confirmed point (12 Oct), NOT the RTA shelter on Hazza Bin Zayed St."
     },
     {
      "code": "UOB",
@@ -9909,9 +9909,9 @@
      "name": "Al Wahda Mall",
      "time": "23:09",
      "action": "set_down",
-     "lat": 24.471638,
-     "lng": 54.372417,
-     "where_exactly": "Bus stop shelter by Al Wahda Mall (as shown in the photo)."
+     "lat": 24.471019,
+     "lng": 54.370278,
+     "where_exactly": "Kerbside at 24.471019, 54.370278 beside Al Wahda Mall - the parent-confirmed point (12 Oct), NOT the RTA shelter on Hazza Bin Zayed St."
     },
     {
      "code": "C4-01",
@@ -12516,9 +12516,9 @@
      "name": "Al Wahda Mall",
      "time": "04:56",
      "action": "pick_up",
-     "lat": 24.471638,
-     "lng": 54.372417,
-     "where_exactly": "Bus stop shelter by Al Wahda Mall (as shown in the photo)."
+     "lat": 24.471019,
+     "lng": 54.370278,
+     "where_exactly": "Kerbside at 24.471019, 54.370278 beside Al Wahda Mall - the parent-confirmed point (12 Oct), NOT the RTA shelter on Hazza Bin Zayed St."
     },
     {
      "code": "C4-18",
@@ -12673,11 +12673,11 @@
     {
      "code": "C4-03",
      "name": "Al Wahda Mall",
-     "time": "16:00",
+     "time": "15:59",
      "action": "set_down",
-     "lat": 24.471638,
-     "lng": 54.372417,
-     "where_exactly": "Bus stop shelter by Al Wahda Mall (as shown in the photo)."
+     "lat": 24.471019,
+     "lng": 54.370278,
+     "where_exactly": "Kerbside at 24.471019, 54.370278 beside Al Wahda Mall - the parent-confirmed point (12 Oct), NOT the RTA shelter on Hazza Bin Zayed St."
     },
     {
      "code": "C4-01",
@@ -16772,16 +16772,16 @@
     {
      "code": "C4-03",
      "name": "Al Wahda Mall",
-     "time": "04:55",
+     "time": "04:54",
      "action": "pick_up",
-     "lat": 24.471638,
-     "lng": 54.372417,
-     "where_exactly": "Bus stop shelter by Al Wahda Mall (as shown in the photo)."
+     "lat": 24.471019,
+     "lng": 54.370278,
+     "where_exactly": "Kerbside at 24.471019, 54.370278 beside Al Wahda Mall - the parent-confirmed point (12 Oct), NOT the RTA shelter on Hazza Bin Zayed St."
     },
     {
      "code": "C4-18",
      "name": "Super Nanny Nursery, Khalifa City, Abu Dhabi",
-     "time": "05:22",
+     "time": "05:21",
      "action": "pick_up",
      "lat": 24.41338,
      "lng": 54.5594598,
@@ -17048,9 +17048,9 @@
      "name": "Al Wahda Mall",
      "time": "20:39",
      "action": "set_down",
-     "lat": 24.471638,
-     "lng": 54.372417,
-     "where_exactly": "Bus stop shelter by Al Wahda Mall (as shown in the photo)."
+     "lat": 24.471019,
+     "lng": 54.370278,
+     "where_exactly": "Kerbside at 24.471019, 54.370278 beside Al Wahda Mall - the parent-confirmed point (12 Oct), NOT the RTA shelter on Hazza Bin Zayed St."
     },
     {
      "code": "C4-21",
@@ -18331,11 +18331,11 @@
     {
      "code": "C4-03",
      "name": "Al Wahda Mall",
-     "time": "16:08",
+     "time": "16:09",
      "action": "pick_up",
-     "lat": 24.471638,
-     "lng": 54.372417,
-     "where_exactly": "Bus stop shelter by Al Wahda Mall (as shown in the photo)."
+     "lat": 24.471019,
+     "lng": 54.370278,
+     "where_exactly": "Kerbside at 24.471019, 54.370278 beside Al Wahda Mall - the parent-confirmed point (12 Oct), NOT the RTA shelter on Hazza Bin Zayed St."
     },
     {
      "code": "UOB",
@@ -18473,11 +18473,11 @@
     {
      "code": "C4-03",
      "name": "Al Wahda Mall",
-     "time": "23:05",
+     "time": "23:04",
      "action": "set_down",
-     "lat": 24.471638,
-     "lng": 54.372417,
-     "where_exactly": "Bus stop shelter by Al Wahda Mall (as shown in the photo)."
+     "lat": 24.471019,
+     "lng": 54.370278,
+     "where_exactly": "Kerbside at 24.471019, 54.370278 beside Al Wahda Mall - the parent-confirmed point (12 Oct), NOT the RTA shelter on Hazza Bin Zayed St."
     },
     {
      "code": "C4-02",
@@ -21076,9 +21076,9 @@
      "name": "Al Wahda Mall",
      "time": "04:54",
      "action": "pick_up",
-     "lat": 24.471638,
-     "lng": 54.372417,
-     "where_exactly": "Bus stop shelter by Al Wahda Mall (as shown in the photo)."
+     "lat": 24.471019,
+     "lng": 54.370278,
+     "where_exactly": "Kerbside at 24.471019, 54.370278 beside Al Wahda Mall - the parent-confirmed point (12 Oct), NOT the RTA shelter on Hazza Bin Zayed St."
     },
     {
      "code": "C4-18",
@@ -21277,7 +21277,7 @@
     {
      "code": "C4-07",
      "name": "Al Zeina, Al Raha Beach",
-     "time": "19:54",
+     "time": "19:53",
      "action": "set_down",
      "lat": 24.4555591,
      "lng": 54.6131136,
@@ -21286,7 +21286,7 @@
     {
      "code": "C4-06",
      "name": "Al Forsan Village main gate",
-     "time": "20:10",
+     "time": "20:09",
      "action": "set_down",
      "lat": 24.4044,
      "lng": 54.5514,
@@ -21295,7 +21295,7 @@
     {
      "code": "C4-18",
      "name": "Super Nanny Nursery, Khalifa City, Abu Dhabi",
-     "time": "20:16",
+     "time": "20:15",
      "action": "set_down",
      "lat": 24.41338,
      "lng": 54.5594598,
@@ -21304,11 +21304,11 @@
     {
      "code": "C4-03",
      "name": "Al Wahda Mall",
-     "time": "20:51",
+     "time": "20:50",
      "action": "set_down",
-     "lat": 24.471638,
-     "lng": 54.372417,
-     "where_exactly": "Bus stop shelter by Al Wahda Mall (as shown in the photo)."
+     "lat": 24.471019,
+     "lng": 54.370278,
+     "where_exactly": "Kerbside at 24.471019, 54.370278 beside Al Wahda Mall - the parent-confirmed point (12 Oct), NOT the RTA shelter on Hazza Bin Zayed St."
     },
     {
      "code": "C4-24",
