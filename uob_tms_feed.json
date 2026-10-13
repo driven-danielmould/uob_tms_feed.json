@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-13T11:28:09Z",
+ "generated_at": "2026-10-13T11:32:44Z",
  "week": "2026-10-09 to 2026-10-18",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -12067,14 +12067,23 @@
    "service": "undergraduate",
    "arrive_campus": "09:45",
    "leave_campus": null,
-   "start": "08:42",
+   "start": "08:29",
    "end": "09:45",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 6,
+   "booked": 5,
    "seats": 15,
    "stops": [
+    {
+     "code": "C2-01",
+     "name": "Al Sarood, Shoreline 13, Palm Jumeirah",
+     "time": "08:29",
+     "action": "pick_up",
+     "lat": 25.11202,
+     "lng": 55.142781,
+     "where_exactly": "Outside building 13, Shoreline St."
+    },
     {
      "code": "C2-03",
      "name": "DMCC Metro Station",
@@ -12085,36 +12094,18 @@
      "where_exactly": "Outside the Yacht Bay sign (Yacht Bay building)."
     },
     {
-     "code": "C2-09",
-     "name": "Springs 10 Gatehouse",
-     "time": "08:52",
-     "action": "pick_up",
-     "lat": 25.0556628,
-     "lng": 55.1803096,
-     "where_exactly": "Outside the Springs 10 gatehouse on Street 1, before the barrier."
-    },
-    {
      "code": "C2-06",
      "name": "The Springs Souk",
-     "time": "08:52",
+     "time": "08:57",
      "action": "pick_up",
      "lat": 25.065917,
      "lng": 55.192107,
      "where_exactly": "Drop-off area outside Russo's New York Pizzeria, The Springs Souk."
     },
     {
-     "code": "C2-01",
-     "name": "Al Sarood, Shoreline 13, Palm Jumeirah",
-     "time": "08:55",
-     "action": "pick_up",
-     "lat": 25.11202,
-     "lng": 55.142781,
-     "where_exactly": "Outside building 13, Shoreline St."
-    },
-    {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "09:05",
+     "time": "09:06",
      "action": "pick_up",
      "lat": 25.099769538054428,
      "lng": 55.17320213081937,
@@ -16936,18 +16927,18 @@
    "service": "undergraduate",
    "arrive_campus": "10:45",
    "leave_campus": null,
-   "start": "09:33",
+   "start": "09:36",
    "end": "10:45",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 5,
+   "booked": 4,
    "seats": 15,
    "stops": [
     {
      "code": "C2-03",
      "name": "DMCC Metro Station",
-     "time": "09:33",
+     "time": "09:36",
      "action": "pick_up",
      "lat": 25.07122,
      "lng": 55.137072,
@@ -16956,25 +16947,16 @@
     {
      "code": "C2-04",
      "name": "Sobha Realty Metro Station",
-     "time": "09:42",
+     "time": "09:46",
      "action": "pick_up",
      "lat": 25.08243,
      "lng": 55.148317,
      "where_exactly": "Sea side of Sobha Realty Metro Station, near the Carrefour Market sign; bus pick-up point."
     },
     {
-     "code": "C2-09",
-     "name": "Springs 10 Gatehouse",
-     "time": "09:55",
-     "action": "pick_up",
-     "lat": 25.0556628,
-     "lng": 55.1803096,
-     "where_exactly": "Outside the Springs 10 gatehouse on Street 1, before the barrier."
-    },
-    {
      "code": "C2-06",
      "name": "The Springs Souk",
-     "time": "10:04",
+     "time": "10:00",
      "action": "pick_up",
      "lat": 25.065917,
      "lng": 55.192107,
@@ -16983,7 +16965,7 @@
     {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "10:14",
+     "time": "10:11",
      "action": "pick_up",
      "lat": 25.093492,
      "lng": 55.177807,
@@ -21656,36 +21638,27 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:56",
+   "start": "05:59",
    "end": "07:45",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 6,
+   "booked": 5,
    "seats": 15,
    "stops": [
     {
      "code": "C2-03",
      "name": "DMCC Metro Station",
-     "time": "05:56",
+     "time": "05:59",
      "action": "pick_up",
      "lat": 25.07122,
      "lng": 55.137072,
      "where_exactly": "Outside the Yacht Bay sign (Yacht Bay building)."
     },
     {
-     "code": "C2-09",
-     "name": "Springs 10 Gatehouse",
-     "time": "06:17",
-     "action": "pick_up",
-     "lat": 25.0556628,
-     "lng": 55.1803096,
-     "where_exactly": "Outside the Springs 10 gatehouse on Street 1, before the barrier."
-    },
-    {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "06:40",
+     "time": "06:25",
      "action": "pick_up",
      "lat": 25.099769538054428,
      "lng": 55.17320213081937,
@@ -21694,7 +21667,7 @@
     {
      "code": "C2-10",
      "name": "Al Manaf Building, Al Barsha 1",
-     "time": "06:56",
+     "time": "06:45",
      "action": "pick_up",
      "lat": 25.1110756,
      "lng": 55.2057285,
