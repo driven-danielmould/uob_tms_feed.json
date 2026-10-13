@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-13T08:37:16Z",
+ "generated_at": "2026-10-13T09:52:12Z",
  "week": "2026-10-09 to 2026-10-18",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -12200,18 +12200,9 @@
      "where_exactly": ""
     },
     {
-     "code": "C2-07",
-     "name": "Dubai Internet City Metro Station",
-     "time": "14:48",
-     "action": "set_down",
-     "lat": 25.099769538054428,
-     "lng": 55.17320213081937,
-     "where_exactly": "RTA bus stop \"Dubai Internet City Metro Bus Stop Landside 1\" (landside, Barsha Heights side of the metro) - pick-up and set-down here; coordinator-confirmed pin 12 Oct."
-    },
-    {
      "code": "C2-06",
      "name": "The Springs Souk",
-     "time": "15:01",
+     "time": "14:43",
      "action": "set_down",
      "lat": 25.065917,
      "lng": 55.192107,
@@ -12220,7 +12211,7 @@
     {
      "code": "C2-05",
      "name": "The Meadows Village",
-     "time": "15:12",
+     "time": "14:54",
      "action": "set_down",
      "lat": 25.0637,
      "lng": 55.1573,
@@ -12229,11 +12220,20 @@
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "15:23",
+     "time": "15:04",
      "action": "set_down",
      "lat": 25.075735,
      "lng": 55.140981,
      "where_exactly": "Pick and drop point at Dubai Marina Mall."
+    },
+    {
+     "code": "C2-07",
+     "name": "Dubai Internet City Metro Station",
+     "time": "15:16",
+     "action": "set_down",
+     "lat": 25.099769538054428,
+     "lng": 55.17320213081937,
+     "where_exactly": "RTA bus stop \"Dubai Internet City Metro Bus Stop Landside 1\" (landside, Barsha Heights side of the metro) - pick-up and set-down here; coordinator-confirmed pin 12 Oct."
     },
     {
      "code": "C2-08",
@@ -12335,7 +12335,7 @@
    "arrive_campus": null,
    "leave_campus": "16:30",
    "start": "16:30",
-   "end": "18:07",
+   "end": "17:56",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
    "capacity": 15,
@@ -12352,18 +12352,9 @@
      "where_exactly": ""
     },
     {
-     "code": "C2-07",
-     "name": "Dubai Internet City Metro Station",
-     "time": "17:20",
-     "action": "set_down",
-     "lat": 25.099769538054428,
-     "lng": 55.17320213081937,
-     "where_exactly": "RTA bus stop \"Dubai Internet City Metro Bus Stop Landside 1\" (landside, Barsha Heights side of the metro) - pick-up and set-down here; coordinator-confirmed pin 12 Oct."
-    },
-    {
      "code": "C2-09",
      "name": "Springs 10 Gatehouse",
-     "time": "17:41",
+     "time": "17:16",
      "action": "set_down",
      "lat": 25.0556628,
      "lng": 55.1803096,
@@ -12372,7 +12363,7 @@
     {
      "code": "C2-03",
      "name": "DMCC Metro Station",
-     "time": "18:00",
+     "time": "17:33",
      "action": "set_down",
      "lat": 25.07122,
      "lng": 55.137072,
@@ -12381,11 +12372,20 @@
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "18:07",
+     "time": "17:40",
      "action": "set_down",
      "lat": 25.075735,
      "lng": 55.140981,
      "where_exactly": "Pick and drop point at Dubai Marina Mall."
+    },
+    {
+     "code": "C2-07",
+     "name": "Dubai Internet City Metro Station",
+     "time": "17:56",
+     "action": "set_down",
+     "lat": 25.099769538054428,
+     "lng": 55.17320213081937,
+     "where_exactly": "RTA bus stop \"Dubai Internet City Metro Bus Stop Landside 1\" (landside, Barsha Heights side of the metro) - pick-up and set-down here; coordinator-confirmed pin 12 Oct."
     }
    ]
   },
@@ -17041,25 +17041,16 @@
     {
      "code": "C2-10",
      "name": "Al Manaf Building, Al Barsha 1",
-     "time": "14:41",
+     "time": "14:37",
      "action": "set_down",
      "lat": 25.1110756,
      "lng": 55.2057285,
      "where_exactly": "Kerbside outside the building entrance; do not enter the car park."
     },
     {
-     "code": "C2-07",
-     "name": "Dubai Internet City Metro Station",
-     "time": "14:51",
-     "action": "set_down",
-     "lat": 25.099769538054428,
-     "lng": 55.17320213081937,
-     "where_exactly": "RTA bus stop \"Dubai Internet City Metro Bus Stop Landside 1\" (landside, Barsha Heights side of the metro) - pick-up and set-down here; coordinator-confirmed pin 12 Oct."
-    },
-    {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "14:57",
+     "time": "14:46",
      "action": "set_down",
      "lat": 25.093492,
      "lng": 55.177807,
@@ -17068,7 +17059,7 @@
     {
      "code": "C2-03",
      "name": "DMCC Metro Station",
-     "time": "15:10",
+     "time": "14:58",
      "action": "set_down",
      "lat": 25.07122,
      "lng": 55.137072,
@@ -17077,7 +17068,7 @@
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "15:16",
+     "time": "15:03",
      "action": "set_down",
      "lat": 25.075735,
      "lng": 55.140981,
@@ -17086,11 +17077,20 @@
     {
      "code": "C2-01",
      "name": "Al Sarood, Shoreline 13, Palm Jumeirah",
-     "time": "15:27",
+     "time": "15:13",
      "action": "set_down",
      "lat": 25.11202,
      "lng": 55.142781,
      "where_exactly": "Outside building 13, Shoreline St."
+    },
+    {
+     "code": "C2-07",
+     "name": "Dubai Internet City Metro Station",
+     "time": "15:22",
+     "action": "set_down",
+     "lat": 25.099769538054428,
+     "lng": 55.17320213081937,
+     "where_exactly": "RTA bus stop \"Dubai Internet City Metro Bus Stop Landside 1\" (landside, Barsha Heights side of the metro) - pick-up and set-down here; coordinator-confirmed pin 12 Oct."
     },
     {
      "code": "C2-08",
@@ -17192,7 +17192,7 @@
    "arrive_campus": null,
    "leave_campus": "16:30",
    "start": "16:30",
-   "end": "18:18",
+   "end": "18:05",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
    "capacity": 15,
@@ -17211,25 +17211,16 @@
     {
      "code": "C2-10",
      "name": "Al Manaf Building, Al Barsha 1",
-     "time": "17:03",
+     "time": "16:56",
      "action": "set_down",
      "lat": 25.1110756,
      "lng": 55.2057285,
      "where_exactly": "Kerbside outside the building entrance; do not enter the car park."
     },
     {
-     "code": "C2-07",
-     "name": "Dubai Internet City Metro Station",
-     "time": "17:15",
-     "action": "set_down",
-     "lat": 25.099769538054428,
-     "lng": 55.17320213081937,
-     "where_exactly": "RTA bus stop \"Dubai Internet City Metro Bus Stop Landside 1\" (landside, Barsha Heights side of the metro) - pick-up and set-down here; coordinator-confirmed pin 12 Oct."
-    },
-    {
      "code": "C2-06",
      "name": "The Springs Souk",
-     "time": "17:29",
+     "time": "17:10",
      "action": "set_down",
      "lat": 25.065917,
      "lng": 55.192107,
@@ -17238,7 +17229,7 @@
     {
      "code": "C2-09",
      "name": "Springs 10 Gatehouse",
-     "time": "17:40",
+     "time": "17:19",
      "action": "set_down",
      "lat": 25.0556628,
      "lng": 55.1803096,
@@ -17247,7 +17238,7 @@
     {
      "code": "C2-05",
      "name": "The Meadows Village",
-     "time": "17:54",
+     "time": "17:31",
      "action": "set_down",
      "lat": 25.0637,
      "lng": 55.1573,
@@ -17256,7 +17247,7 @@
     {
      "code": "C2-04",
      "name": "Sobha Realty Metro Station",
-     "time": "18:07",
+     "time": "17:43",
      "action": "set_down",
      "lat": 25.08243,
      "lng": 55.148317,
@@ -17265,11 +17256,20 @@
     {
      "code": "C2-03",
      "name": "DMCC Metro Station",
-     "time": "18:18",
+     "time": "17:52",
      "action": "set_down",
      "lat": 25.07122,
      "lng": 55.137072,
      "where_exactly": "Outside the Yacht Bay sign (Yacht Bay building)."
+    },
+    {
+     "code": "C2-07",
+     "name": "Dubai Internet City Metro Station",
+     "time": "18:05",
+     "action": "set_down",
+     "lat": 25.099769538054428,
+     "lng": 55.17320213081937,
+     "where_exactly": "RTA bus stop \"Dubai Internet City Metro Bus Stop Landside 1\" (landside, Barsha Heights side of the metro) - pick-up and set-down here; coordinator-confirmed pin 12 Oct."
     }
    ]
   },
@@ -17283,7 +17283,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "19:58",
+   "end": "19:47",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
    "capacity": 15,
@@ -17302,25 +17302,16 @@
     {
      "code": "C2-16",
      "name": "Umm Suqeim Rd bus stop by ENOC 1099, Al Barsha 1",
-     "time": "18:57",
+     "time": "18:47",
      "action": "set_down",
      "lat": 25.1184,
      "lng": 55.2077,
      "where_exactly": "RTA bus stop on Umm Suqeim Rd (D63) beside ENOC 1099, Al Barsha 1 - northbound kerb for pick-ups, southbound for set-downs; exact pin to confirm."
     },
     {
-     "code": "C2-07",
-     "name": "Dubai Internet City Metro Station",
-     "time": "19:14",
-     "action": "set_down",
-     "lat": 25.099769538054428,
-     "lng": 55.17320213081937,
-     "where_exactly": "RTA bus stop \"Dubai Internet City Metro Bus Stop Landside 1\" (landside, Barsha Heights side of the metro) - pick-up and set-down here; coordinator-confirmed pin 12 Oct."
-    },
-    {
      "code": "C2-15",
      "name": "Al Nakheel 2A, The Greens",
-     "time": "19:21",
+     "time": "19:02",
      "action": "set_down",
      "lat": 25.09445,
      "lng": 55.1697,
@@ -17329,7 +17320,7 @@
     {
      "code": "C2-04",
      "name": "Sobha Realty Metro Station",
-     "time": "19:38",
+     "time": "19:17",
      "action": "set_down",
      "lat": 25.08243,
      "lng": 55.148317,
@@ -17338,7 +17329,7 @@
     {
      "code": "C2-03",
      "name": "DMCC Metro Station",
-     "time": "19:51",
+     "time": "19:27",
      "action": "set_down",
      "lat": 25.07122,
      "lng": 55.137072,
@@ -17347,11 +17338,20 @@
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "19:58",
+     "time": "19:33",
      "action": "set_down",
      "lat": 25.075735,
      "lng": 55.140981,
      "where_exactly": "Pick and drop point at Dubai Marina Mall."
+    },
+    {
+     "code": "C2-07",
+     "name": "Dubai Internet City Metro Station",
+     "time": "19:47",
+     "action": "set_down",
+     "lat": 25.099769538054428,
+     "lng": 55.17320213081937,
+     "where_exactly": "RTA bus stop \"Dubai Internet City Metro Bus Stop Landside 1\" (landside, Barsha Heights side of the metro) - pick-up and set-down here; coordinator-confirmed pin 12 Oct."
     }
    ]
   },
@@ -21840,25 +21840,16 @@
     {
      "code": "C2-10",
      "name": "Al Manaf Building, Al Barsha 1",
-     "time": "14:50",
+     "time": "14:40",
      "action": "set_down",
      "lat": 25.1110756,
      "lng": 55.2057285,
      "where_exactly": "Kerbside outside the building entrance; do not enter the car park."
     },
     {
-     "code": "C2-07",
-     "name": "Dubai Internet City Metro Station",
-     "time": "15:03",
-     "action": "set_down",
-     "lat": 25.099769538054428,
-     "lng": 55.17320213081937,
-     "where_exactly": "RTA bus stop \"Dubai Internet City Metro Bus Stop Landside 1\" (landside, Barsha Heights side of the metro) - pick-up and set-down here; coordinator-confirmed pin 12 Oct."
-    },
-    {
      "code": "C2-15",
      "name": "Al Nakheel 2A, The Greens",
-     "time": "15:09",
+     "time": "14:52",
      "action": "set_down",
      "lat": 25.09445,
      "lng": 55.1697,
@@ -21867,11 +21858,20 @@
     {
      "code": "C2-03",
      "name": "DMCC Metro Station",
-     "time": "15:24",
+     "time": "15:03",
      "action": "set_down",
      "lat": 25.07122,
      "lng": 55.137072,
      "where_exactly": "Outside the Yacht Bay sign (Yacht Bay building)."
+    },
+    {
+     "code": "C2-07",
+     "name": "Dubai Internet City Metro Station",
+     "time": "15:16",
+     "action": "set_down",
+     "lat": 25.099769538054428,
+     "lng": 55.17320213081937,
+     "where_exactly": "RTA bus stop \"Dubai Internet City Metro Bus Stop Landside 1\" (landside, Barsha Heights side of the metro) - pick-up and set-down here; coordinator-confirmed pin 12 Oct."
     },
     {
      "code": "C2-08",
@@ -21973,7 +21973,7 @@
    "arrive_campus": null,
    "leave_campus": "16:30",
    "start": "16:30",
-   "end": "18:07",
+   "end": "17:56",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
    "capacity": 15,
@@ -21990,18 +21990,9 @@
      "where_exactly": ""
     },
     {
-     "code": "C2-07",
-     "name": "Dubai Internet City Metro Station",
-     "time": "17:24",
-     "action": "set_down",
-     "lat": 25.099769538054428,
-     "lng": 55.17320213081937,
-     "where_exactly": "RTA bus stop \"Dubai Internet City Metro Bus Stop Landside 1\" (landside, Barsha Heights side of the metro) - pick-up and set-down here; coordinator-confirmed pin 12 Oct."
-    },
-    {
      "code": "C2-05",
      "name": "The Meadows Village",
-     "time": "17:43",
+     "time": "17:19",
      "action": "set_down",
      "lat": 25.0637,
      "lng": 55.1573,
@@ -22010,7 +22001,7 @@
     {
      "code": "C2-03",
      "name": "DMCC Metro Station",
-     "time": "18:00",
+     "time": "17:34",
      "action": "set_down",
      "lat": 25.07122,
      "lng": 55.137072,
@@ -22019,11 +22010,20 @@
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "18:07",
+     "time": "17:40",
      "action": "set_down",
      "lat": 25.075735,
      "lng": 55.140981,
      "where_exactly": "Pick and drop point at Dubai Marina Mall."
+    },
+    {
+     "code": "C2-07",
+     "name": "Dubai Internet City Metro Station",
+     "time": "17:56",
+     "action": "set_down",
+     "lat": 25.099769538054428,
+     "lng": 55.17320213081937,
+     "where_exactly": "RTA bus stop \"Dubai Internet City Metro Bus Stop Landside 1\" (landside, Barsha Heights side of the metro) - pick-up and set-down here; coordinator-confirmed pin 12 Oct."
     }
    ]
   },
@@ -22037,7 +22037,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "20:02",
+   "end": "19:53",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
    "capacity": 15,
@@ -22056,7 +22056,7 @@
     {
      "code": "C2-16",
      "name": "Umm Suqeim Rd bus stop by ENOC 1099, Al Barsha 1",
-     "time": "18:47",
+     "time": "18:42",
      "action": "set_down",
      "lat": 25.1184,
      "lng": 55.2077,
@@ -22065,25 +22065,16 @@
     {
      "code": "C2-10",
      "name": "Al Manaf Building, Al Barsha 1",
-     "time": "18:54",
+     "time": "18:49",
      "action": "set_down",
      "lat": 25.1110756,
      "lng": 55.2057285,
      "where_exactly": "Kerbside outside the building entrance; do not enter the car park."
     },
     {
-     "code": "C2-07",
-     "name": "Dubai Internet City Metro Station",
-     "time": "19:06",
-     "action": "set_down",
-     "lat": 25.099769538054428,
-     "lng": 55.17320213081937,
-     "where_exactly": "RTA bus stop \"Dubai Internet City Metro Bus Stop Landside 1\" (landside, Barsha Heights side of the metro) - pick-up and set-down here; coordinator-confirmed pin 12 Oct."
-    },
-    {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "19:13",
+     "time": "18:59",
      "action": "set_down",
      "lat": 25.093492,
      "lng": 55.177807,
@@ -22092,7 +22083,7 @@
     {
      "code": "C2-09",
      "name": "Springs 10 Gatehouse",
-     "time": "19:27",
+     "time": "19:12",
      "action": "set_down",
      "lat": 25.0556628,
      "lng": 55.1803096,
@@ -22101,7 +22092,7 @@
     {
      "code": "C2-03",
      "name": "DMCC Metro Station",
-     "time": "19:42",
+     "time": "19:25",
      "action": "set_down",
      "lat": 25.07122,
      "lng": 55.137072,
@@ -22110,7 +22101,7 @@
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "19:48",
+     "time": "19:30",
      "action": "set_down",
      "lat": 25.075735,
      "lng": 55.140981,
@@ -22119,11 +22110,20 @@
     {
      "code": "C2-01",
      "name": "Al Sarood, Shoreline 13, Palm Jumeirah",
-     "time": "20:02",
+     "time": "19:43",
      "action": "set_down",
      "lat": 25.11202,
      "lng": 55.142781,
      "where_exactly": "Outside building 13, Shoreline St."
+    },
+    {
+     "code": "C2-07",
+     "name": "Dubai Internet City Metro Station",
+     "time": "19:53",
+     "action": "set_down",
+     "lat": 25.099769538054428,
+     "lng": 55.17320213081937,
+     "where_exactly": "RTA bus stop \"Dubai Internet City Metro Bus Stop Landside 1\" (landside, Barsha Heights side of the metro) - pick-up and set-down here; coordinator-confirmed pin 12 Oct."
     }
    ]
   },
