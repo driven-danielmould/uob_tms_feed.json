@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-13T11:56:02Z",
+ "generated_at": "2026-10-13T12:19:06Z",
  "week": "2026-10-09 to 2026-10-18",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -12209,7 +12209,7 @@
    "vehicle": "M3",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 7,
+   "booked": 8,
    "seats": 15,
    "stops": [
     {
@@ -12224,7 +12224,7 @@
     {
      "code": "C2-06",
      "name": "The Springs Souk",
-     "time": "14:43",
+     "time": "14:42",
      "action": "set_down",
      "lat": 25.065917,
      "lng": 55.192107,
@@ -12233,16 +12233,25 @@
     {
      "code": "C2-05",
      "name": "The Meadows Village",
-     "time": "14:54",
+     "time": "14:52",
      "action": "set_down",
      "lat": 25.0637,
      "lng": 55.1573,
      "where_exactly": "Car park by the fountain."
     },
     {
+     "code": "C2-03",
+     "name": "DMCC Metro Station",
+     "time": "15:03",
+     "action": "set_down",
+     "lat": 25.07122,
+     "lng": 55.137072,
+     "where_exactly": "Outside the Yacht Bay sign (Yacht Bay building)."
+    },
+    {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "15:04",
+     "time": "15:08",
      "action": "set_down",
      "lat": 25.075735,
      "lng": 55.140981,
@@ -12251,7 +12260,7 @@
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "15:16",
+     "time": "15:19",
      "action": "set_down",
      "lat": 25.099769538054428,
      "lng": 55.17320213081937,
@@ -12425,7 +12434,7 @@
    "vehicle": "M3",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 8,
+   "booked": 7,
    "seats": 15,
    "stops": [
     {
