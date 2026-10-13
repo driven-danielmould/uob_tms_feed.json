@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-13T00:35:14Z",
+ "generated_at": "2026-10-13T00:41:55Z",
  "week": "2026-10-09 to 2026-10-18",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -12659,36 +12659,27 @@
    "service": "undergraduate",
    "arrive_campus": "09:45",
    "leave_campus": null,
-   "start": "08:34",
+   "start": "08:37",
    "end": "09:45",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 4,
+   "booked": 3,
    "seats": 15,
    "stops": [
     {
      "code": "C3-18",
      "name": "Tuscan Residence Siena 1, JVC",
-     "time": "08:34",
+     "time": "08:37",
      "action": "pick_up",
      "lat": 25.063605,
      "lng": 55.207328,
      "where_exactly": "Kerbside on 22 Street outside Siena 1; do not enter the building car park."
     },
     {
-     "code": "C3-05",
-     "name": "City Centre Me'aisem",
-     "time": "08:46",
-     "action": "pick_up",
-     "lat": 25.040494,
-     "lng": 55.195971,
-     "where_exactly": "Outside drop-off area by Tim Hortons, City Centre Me'aisem."
-    },
-    {
      "code": "C3-21",
      "name": "DAMAC Hills Mall, DAMAC Hills",
-     "time": "08:59",
+     "time": "08:53",
      "action": "pick_up",
      "lat": 25.0179838,
      "lng": 55.2468052,
@@ -12697,7 +12688,7 @@
     {
      "code": "C3-09",
      "name": "Spinneys, Town Square",
-     "time": "09:10",
+     "time": "09:06",
      "action": "pick_up",
      "lat": 25.0099047,
      "lng": 55.2902856,
@@ -12728,7 +12719,7 @@
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 3,
+   "booked": 4,
    "seats": 15,
    "stops": [
     {
@@ -13028,11 +13019,11 @@
    "arrive_campus": null,
    "leave_campus": "16:30",
    "start": "16:30",
-   "end": "18:00",
+   "end": "17:57",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 6,
+   "booked": 5,
    "seats": 15,
    "stops": [
     {
@@ -13047,7 +13038,7 @@
     {
      "code": "C3-09",
      "name": "Spinneys, Town Square",
-     "time": "17:08",
+     "time": "17:15",
      "action": "set_down",
      "lat": 25.0099047,
      "lng": 55.2902856,
@@ -13056,25 +13047,16 @@
     {
      "code": "C3-08",
      "name": "Serena, Bella Casa",
-     "time": "17:18",
+     "time": "17:26",
      "action": "set_down",
      "lat": 25.0389716,
      "lng": 55.2890906,
      "where_exactly": "Community entrance off D54."
     },
     {
-     "code": "C3-05",
-     "name": "City Centre Me'aisem",
-     "time": "17:39",
-     "action": "set_down",
-     "lat": 25.040494,
-     "lng": 55.195971,
-     "where_exactly": "Outside drop-off area by Tim Hortons, City Centre Me'aisem."
-    },
-    {
      "code": "C3-04",
      "name": "Dubai International Cricket Stadium",
-     "time": "17:50",
+     "time": "17:46",
      "action": "set_down",
      "lat": 25.043579,
      "lng": 55.218241,
@@ -13083,7 +13065,7 @@
     {
      "code": "C3-03",
      "name": "Dubai Miracle Garden",
-     "time": "18:00",
+     "time": "17:57",
      "action": "set_down",
      "lat": 25.061132,
      "lng": 55.246185,
@@ -13105,7 +13087,7 @@
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 6,
+   "booked": 7,
    "seats": 15,
    "stops": [
     {
