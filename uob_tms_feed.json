@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-13T09:52:12Z",
+ "generated_at": "2026-10-13T11:28:09Z",
  "week": "2026-10-09 to 2026-10-18",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -316,8 +316,27 @@
      "type": "public"
     },
     {
-     "code": "C1-22",
+     "code": "C1-26",
      "order": 4,
+     "name": "Dubai Carmel School, Amman St, Al Nahda 2",
+     "lat": 25.2967627,
+     "lng": 55.3794549,
+     "google_place_id": null,
+     "where_exactly": "Kerbside outside the main gate of Dubai Carmel School on Amman Street, Al Nahda 2 (opposite Al Gurg 212). Use the school bus bay; do not enter the compound.",
+     "pickup_lat": 25.2967627,
+     "pickup_lng": 55.3794549,
+     "pickup_where_exactly": "Kerbside outside the main gate of Dubai Carmel School on Amman Street, Al Nahda 2 (opposite Al Gurg 212). Use the school bus bay; do not enter the compound.",
+     "setdown_lat": 25.2967627,
+     "setdown_lng": 55.3794549,
+     "setdown_where_exactly": "Kerbside outside the main gate of Dubai Carmel School on Amman Street, Al Nahda 2 (opposite Al Gurg 212). Use the school bus bay; do not enter the compound.",
+     "audited": false,
+     "rider_instructions": "Wait outside the school main gate on Amman Street. Be here 5 minutes before your time and look for the yellow M sign in the bus windscreen.",
+     "driver_instructions": "Kerbside outside the main gate of Dubai Carmel School, Amman Street, Al Nahda 2; the bus uses the school bus bay. Only served on booked days.",
+     "type": "public"
+    },
+    {
+     "code": "C1-22",
+     "order": 5,
      "name": "Al Nahda 1, Al Banai 1 (RTA bus stop AN1AB1)",
      "lat": 25.291551,
      "lng": 55.36486,
@@ -336,7 +355,7 @@
     },
     {
      "code": "C1-17",
-     "order": 5,
+     "order": 6,
      "name": "Bahwan Tower, Al Nahda 1",
      "lat": 25.287666,
      "lng": 55.361619,
@@ -355,7 +374,7 @@
     },
     {
      "code": "C1-08",
-     "order": 6,
+     "order": 7,
      "name": "Mattar Tower, Al Nahda 1",
      "lat": 25.288631,
      "lng": 55.364044,
@@ -374,7 +393,7 @@
     },
     {
      "code": "C1-09",
-     "order": 7,
+     "order": 8,
      "name": "DAFZA Metro Station",
      "lat": 25.270214,
      "lng": 55.373696,
@@ -393,7 +412,7 @@
     },
     {
      "code": "C1-25",
-     "order": 8,
+     "order": 9,
      "name": "Al Qusais, Damascus St side (rider stop)",
      "lat": 25.2736454565247,
      "lng": 55.38143264449788,
@@ -412,7 +431,7 @@
     },
     {
      "code": "C1-10",
-     "order": 9,
+     "order": 10,
      "name": "Dubai Festival City Mall",
      "lat": 25.222621,
      "lng": 55.35461,
@@ -431,7 +450,7 @@
     },
     {
      "code": "C1-11",
-     "order": 10,
+     "order": 11,
      "name": "Madina Mall",
      "lat": 25.283419,
      "lng": 55.398584,
@@ -450,7 +469,7 @@
     },
     {
      "code": "C1-23",
-     "order": 11,
+     "order": 12,
      "name": "Centrepoint, Mirdif City Centre",
      "lat": 25.2180926,
      "lng": 55.4085703,
@@ -469,7 +488,7 @@
     },
     {
      "code": "C1-12",
-     "order": 12,
+     "order": 13,
      "name": "Uptown Mirdif",
      "lat": 25.224246,
      "lng": 55.423615,
@@ -488,7 +507,7 @@
     },
     {
      "code": "C1-19",
-     "order": 13,
+     "order": 14,
      "name": "Shorooq Gate 3, Mirdif",
      "lat": 25.214495,
      "lng": 55.428185,
@@ -507,7 +526,7 @@
     },
     {
      "code": "C1-13",
-     "order": 14,
+     "order": 15,
      "name": "Nasayem Avenue, Mirdif Hills",
      "lat": 25.221963,
      "lng": 55.440775,
@@ -526,7 +545,7 @@
     },
     {
      "code": "C1-14",
-     "order": 15,
+     "order": 16,
      "name": "Olivz Residence, Warsan 1",
      "lat": 25.166179,
      "lng": 55.395812,
@@ -11263,7 +11282,7 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:28",
+   "start": "05:29",
    "end": "07:45",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
@@ -11274,7 +11293,7 @@
     {
      "code": "C1-15",
      "name": "Wasl Village, Central Parking",
-     "time": "05:28",
+     "time": "05:29",
      "action": "pick_up",
      "lat": 25.289501,
      "lng": 55.4111465,
@@ -11292,7 +11311,7 @@
     {
      "code": "C1-07",
      "name": "Masafi 1, Al Nahda 2",
-     "time": "05:52",
+     "time": "05:53",
      "action": "pick_up",
      "lat": 25.289367,
      "lng": 55.372375,
@@ -11310,7 +11329,7 @@
     {
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
-     "time": "06:05",
+     "time": "06:06",
      "action": "pick_up",
      "lat": 25.288631,
      "lng": 55.364044,
@@ -11319,7 +11338,7 @@
     {
      "code": "C1-23",
      "name": "Centrepoint, Mirdif City Centre",
-     "time": "06:10",
+     "time": "06:11",
      "action": "pick_up",
      "lat": 25.2180926,
      "lng": 55.4085703,
@@ -11329,7 +11348,7 @@
     {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "06:20",
+     "time": "06:21",
      "action": "pick_up",
      "lat": 25.270214,
      "lng": 55.373696,
@@ -11609,51 +11628,57 @@
      "action": "pick_up"
     },
     {
+     "code": "C1-26",
+     "name": "Dubai Carmel School, Amman St, Al Nahda 2",
+     "time": "16:10",
+     "action": "pick_up"
+    },
+    {
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
-     "time": "16:12",
+     "time": "16:21",
      "action": "pick_up"
     },
     {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "16:23",
+     "time": "16:32",
      "action": "pick_up"
     },
     {
      "code": "C1-10",
      "name": "Dubai Festival City Mall",
-     "time": "16:35",
+     "time": "16:42",
      "action": "pick_up"
     },
     {
      "code": "C1-11",
      "name": "Madina Mall",
-     "time": "16:47",
+     "time": "16:52",
      "action": "pick_up"
     },
     {
      "code": "C1-23",
      "name": "Centrepoint, Mirdif City Centre",
-     "time": "16:58",
+     "time": "17:03",
      "action": "pick_up"
     },
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "17:10",
+     "time": "17:14",
      "action": "pick_up"
     },
     {
      "code": "C1-13",
      "name": "Nasayem Avenue, Mirdif Hills",
-     "time": "17:22",
+     "time": "17:24",
      "action": "pick_up"
     },
     {
      "code": "C1-14",
      "name": "Olivz Residence, Warsan 1",
-     "time": "17:33",
+     "time": "17:34",
      "action": "pick_up"
     },
     {
@@ -11674,7 +11699,7 @@
    "arrive_campus": null,
    "leave_campus": "16:30",
    "start": "16:30",
-   "end": "18:21",
+   "end": "18:20",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "capacity": 34,
@@ -11720,7 +11745,7 @@
     {
      "code": "C1-23",
      "name": "Centrepoint, Mirdif City Centre",
-     "time": "17:51",
+     "time": "17:50",
      "action": "set_down",
      "lat": 25.2180926,
      "lng": 55.4085703,
@@ -11730,7 +11755,7 @@
     {
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
-     "time": "17:53",
+     "time": "17:52",
      "action": "set_down",
      "lat": 25.288631,
      "lng": 55.364044,
@@ -11739,7 +11764,7 @@
     {
      "code": "C1-17",
      "name": "Bahwan Tower, Al Nahda 1",
-     "time": "17:57",
+     "time": "17:56",
      "action": "set_down",
      "lat": 25.287666,
      "lng": 55.361619,
@@ -11748,7 +11773,7 @@
     {
      "code": "C1-07",
      "name": "Masafi 1, Al Nahda 2",
-     "time": "18:06",
+     "time": "18:05",
      "action": "set_down",
      "lat": 25.289367,
      "lng": 55.372375,
@@ -11757,7 +11782,7 @@
     {
      "code": "C1-15",
      "name": "Wasl Village, Central Parking",
-     "time": "18:21",
+     "time": "18:20",
      "action": "set_down",
      "lat": 25.289501,
      "lng": 55.4111465,
@@ -11775,7 +11800,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "20:06",
+   "end": "20:05",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "capacity": 34,
@@ -11821,7 +11846,7 @@
     {
      "code": "C1-23",
      "name": "Centrepoint, Mirdif City Centre",
-     "time": "19:25",
+     "time": "19:24",
      "action": "set_down",
      "lat": 25.2180926,
      "lng": 55.4085703,
@@ -11831,7 +11856,7 @@
     {
      "code": "C1-17",
      "name": "Bahwan Tower, Al Nahda 1",
-     "time": "19:29",
+     "time": "19:28",
      "action": "set_down",
      "lat": 25.287666,
      "lng": 55.361619,
@@ -11840,7 +11865,7 @@
     {
      "code": "C1-07",
      "name": "Masafi 1, Al Nahda 2",
-     "time": "19:39",
+     "time": "19:38",
      "action": "set_down",
      "lat": 25.289367,
      "lng": 55.372375,
@@ -11849,7 +11874,7 @@
     {
      "code": "C1-24",
      "name": "EK2 Accommodation, Muhaisnah 4",
-     "time": "19:56",
+     "time": "19:55",
      "action": "set_down",
      "lat": 25.2795117,
      "lng": 55.402653,
@@ -11858,7 +11883,7 @@
     {
      "code": "C1-15",
      "name": "Wasl Village, Central Parking",
-     "time": "20:06",
+     "time": "20:05",
      "action": "set_down",
      "lat": 25.289501,
      "lng": 55.4111465,
@@ -11892,49 +11917,55 @@
     {
      "code": "C1-14",
      "name": "Olivz Residence, Warsan 1",
-     "time": "21:45",
+     "time": "21:44",
      "action": "set_down"
     },
     {
      "code": "C1-13",
      "name": "Nasayem Avenue, Mirdif Hills",
-     "time": "21:55",
+     "time": "21:53",
      "action": "set_down"
     },
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "22:04",
+     "time": "22:01",
      "action": "set_down"
     },
     {
      "code": "C1-23",
      "name": "Centrepoint, Mirdif City Centre",
-     "time": "22:13",
+     "time": "22:10",
      "action": "set_down"
     },
     {
      "code": "C1-11",
      "name": "Madina Mall",
-     "time": "22:23",
+     "time": "22:18",
      "action": "set_down"
     },
     {
      "code": "C1-10",
      "name": "Dubai Festival City Mall",
-     "time": "22:32",
+     "time": "22:26",
      "action": "set_down"
     },
     {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "22:41",
+     "time": "22:35",
      "action": "set_down"
     },
     {
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
-     "time": "22:51",
+     "time": "22:43",
+     "action": "set_down"
+    },
+    {
+     "code": "C1-26",
+     "name": "Dubai Carmel School, Amman St, Al Nahda 2",
+     "time": "22:52",
      "action": "set_down"
     },
     {
@@ -16341,7 +16372,7 @@
    "service": "undergraduate",
    "arrive_campus": "12:45",
    "leave_campus": null,
-   "start": "11:37",
+   "start": "11:38",
    "end": "12:45",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
@@ -16352,7 +16383,7 @@
     {
      "code": "C1-17",
      "name": "Bahwan Tower, Al Nahda 1",
-     "time": "11:37",
+     "time": "11:38",
      "action": "pick_up",
      "lat": 25.287666,
      "lng": 55.361619,
@@ -16485,51 +16516,57 @@
      "action": "pick_up"
     },
     {
+     "code": "C1-26",
+     "name": "Dubai Carmel School, Amman St, Al Nahda 2",
+     "time": "16:10",
+     "action": "pick_up"
+    },
+    {
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
-     "time": "16:12",
+     "time": "16:21",
      "action": "pick_up"
     },
     {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "16:23",
+     "time": "16:32",
      "action": "pick_up"
     },
     {
      "code": "C1-10",
      "name": "Dubai Festival City Mall",
-     "time": "16:35",
+     "time": "16:42",
      "action": "pick_up"
     },
     {
      "code": "C1-11",
      "name": "Madina Mall",
-     "time": "16:47",
+     "time": "16:52",
      "action": "pick_up"
     },
     {
      "code": "C1-23",
      "name": "Centrepoint, Mirdif City Centre",
-     "time": "16:58",
+     "time": "17:03",
      "action": "pick_up"
     },
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "17:10",
+     "time": "17:14",
      "action": "pick_up"
     },
     {
      "code": "C1-13",
      "name": "Nasayem Avenue, Mirdif Hills",
-     "time": "17:22",
+     "time": "17:24",
      "action": "pick_up"
     },
     {
      "code": "C1-14",
      "name": "Olivz Residence, Warsan 1",
-     "time": "17:33",
+     "time": "17:34",
      "action": "pick_up"
     },
     {
@@ -16550,7 +16587,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "20:06",
+   "end": "20:05",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "capacity": 34,
@@ -16596,7 +16633,7 @@
     {
      "code": "C1-25",
      "name": "Al Qusais, Damascus St side (rider stop)",
-     "time": "19:07",
+     "time": "19:06",
      "action": "set_down",
      "lat": 25.2736454565247,
      "lng": 55.38143264449788,
@@ -16614,7 +16651,7 @@
     {
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
-     "time": "19:24",
+     "time": "19:23",
      "action": "set_down",
      "lat": 25.288631,
      "lng": 55.364044,
@@ -16633,7 +16670,7 @@
     {
      "code": "C1-17",
      "name": "Bahwan Tower, Al Nahda 1",
-     "time": "19:31",
+     "time": "19:30",
      "action": "set_down",
      "lat": 25.287666,
      "lng": 55.361619,
@@ -16651,7 +16688,7 @@
     {
      "code": "C1-07",
      "name": "Masafi 1, Al Nahda 2",
-     "time": "19:46",
+     "time": "19:45",
      "action": "set_down",
      "lat": 25.289367,
      "lng": 55.372375,
@@ -16660,7 +16697,7 @@
     {
      "code": "C1-24",
      "name": "EK2 Accommodation, Muhaisnah 4",
-     "time": "19:58",
+     "time": "19:57",
      "action": "set_down",
      "lat": 25.2795117,
      "lng": 55.402653,
@@ -16669,7 +16706,7 @@
     {
      "code": "C1-15",
      "name": "Wasl Village, Central Parking",
-     "time": "20:06",
+     "time": "20:05",
      "action": "set_down",
      "lat": 25.289501,
      "lng": 55.4111465,
@@ -16703,49 +16740,55 @@
     {
      "code": "C1-14",
      "name": "Olivz Residence, Warsan 1",
-     "time": "21:45",
+     "time": "21:44",
      "action": "set_down"
     },
     {
      "code": "C1-13",
      "name": "Nasayem Avenue, Mirdif Hills",
-     "time": "21:55",
+     "time": "21:53",
      "action": "set_down"
     },
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "22:04",
+     "time": "22:01",
      "action": "set_down"
     },
     {
      "code": "C1-23",
      "name": "Centrepoint, Mirdif City Centre",
-     "time": "22:13",
+     "time": "22:10",
      "action": "set_down"
     },
     {
      "code": "C1-11",
      "name": "Madina Mall",
-     "time": "22:23",
+     "time": "22:18",
      "action": "set_down"
     },
     {
      "code": "C1-10",
      "name": "Dubai Festival City Mall",
-     "time": "22:32",
+     "time": "22:26",
      "action": "set_down"
     },
     {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "22:41",
+     "time": "22:35",
      "action": "set_down"
     },
     {
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
-     "time": "22:51",
+     "time": "22:43",
+     "action": "set_down"
+    },
+    {
+     "code": "C1-26",
+     "name": "Dubai Carmel School, Amman St, Al Nahda 2",
+     "time": "22:52",
      "action": "set_down"
     },
     {
@@ -20919,7 +20962,7 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:31",
+   "start": "05:32",
    "end": "07:45",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
@@ -20930,7 +20973,7 @@
     {
      "code": "C1-15",
      "name": "Wasl Village, Central Parking",
-     "time": "05:31",
+     "time": "05:32",
      "action": "pick_up",
      "lat": 25.289501,
      "lng": 55.4111465,
@@ -20939,7 +20982,7 @@
     {
      "code": "C1-24",
      "name": "EK2 Accommodation, Muhaisnah 4",
-     "time": "05:42",
+     "time": "05:43",
      "action": "pick_up",
      "lat": 25.2795117,
      "lng": 55.402653,
@@ -20948,7 +20991,7 @@
     {
      "code": "C1-22",
      "name": "Al Nahda 1, Al Banai 1 (RTA bus stop AN1AB1)",
-     "time": "05:58",
+     "time": "05:59",
      "action": "pick_up",
      "lat": 25.291551,
      "lng": 55.36486,
@@ -20957,7 +21000,7 @@
     {
      "code": "C1-17",
      "name": "Bahwan Tower, Al Nahda 1",
-     "time": "06:04",
+     "time": "06:05",
      "action": "pick_up",
      "lat": 25.287666,
      "lng": 55.361619,
@@ -20985,7 +21028,7 @@
     {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "06:24",
+     "time": "06:25",
      "action": "pick_up",
      "lat": 25.270214,
      "lng": 55.373696,
@@ -21003,7 +21046,7 @@
     {
      "code": "C1-19",
      "name": "Shorooq Gate 3, Mirdif",
-     "time": "07:00",
+     "time": "07:01",
      "action": "pick_up",
      "lat": 25.214495,
      "lng": 55.428185,
@@ -21330,51 +21373,57 @@
      "action": "pick_up"
     },
     {
+     "code": "C1-26",
+     "name": "Dubai Carmel School, Amman St, Al Nahda 2",
+     "time": "16:10",
+     "action": "pick_up"
+    },
+    {
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
-     "time": "16:12",
+     "time": "16:21",
      "action": "pick_up"
     },
     {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "16:23",
+     "time": "16:32",
      "action": "pick_up"
     },
     {
      "code": "C1-10",
      "name": "Dubai Festival City Mall",
-     "time": "16:35",
+     "time": "16:42",
      "action": "pick_up"
     },
     {
      "code": "C1-11",
      "name": "Madina Mall",
-     "time": "16:47",
+     "time": "16:52",
      "action": "pick_up"
     },
     {
      "code": "C1-23",
      "name": "Centrepoint, Mirdif City Centre",
-     "time": "16:58",
+     "time": "17:03",
      "action": "pick_up"
     },
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "17:10",
+     "time": "17:14",
      "action": "pick_up"
     },
     {
      "code": "C1-13",
      "name": "Nasayem Avenue, Mirdif Hills",
-     "time": "17:22",
+     "time": "17:24",
      "action": "pick_up"
     },
     {
      "code": "C1-14",
      "name": "Olivz Residence, Warsan 1",
-     "time": "17:33",
+     "time": "17:34",
      "action": "pick_up"
     },
     {
@@ -21395,7 +21444,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "20:19",
+   "end": "20:18",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "capacity": 34,
@@ -21441,7 +21490,7 @@
     {
      "code": "C1-25",
      "name": "Al Qusais, Damascus St side (rider stop)",
-     "time": "19:16",
+     "time": "19:15",
      "action": "set_down",
      "lat": 25.2736454565247,
      "lng": 55.38143264449788,
@@ -21459,7 +21508,7 @@
     {
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
-     "time": "19:36",
+     "time": "19:35",
      "action": "set_down",
      "lat": 25.288631,
      "lng": 55.364044,
@@ -21468,7 +21517,7 @@
     {
      "code": "C1-23",
      "name": "Centrepoint, Mirdif City Centre",
-     "time": "19:38",
+     "time": "19:37",
      "action": "set_down",
      "lat": 25.2180926,
      "lng": 55.4085703,
@@ -21478,7 +21527,7 @@
     {
      "code": "C1-17",
      "name": "Bahwan Tower, Al Nahda 1",
-     "time": "19:44",
+     "time": "19:43",
      "action": "set_down",
      "lat": 25.287666,
      "lng": 55.361619,
@@ -21487,7 +21536,7 @@
     {
      "code": "C1-22",
      "name": "Al Nahda 1, Al Banai 1 (RTA bus stop AN1AB1)",
-     "time": "19:53",
+     "time": "19:52",
      "action": "set_down",
      "lat": 25.291551,
      "lng": 55.36486,
@@ -21496,7 +21545,7 @@
     {
      "code": "C1-24",
      "name": "EK2 Accommodation, Muhaisnah 4",
-     "time": "20:10",
+     "time": "20:09",
      "action": "set_down",
      "lat": 25.2795117,
      "lng": 55.402653,
@@ -21505,7 +21554,7 @@
     {
      "code": "C1-15",
      "name": "Wasl Village, Central Parking",
-     "time": "20:19",
+     "time": "20:18",
      "action": "set_down",
      "lat": 25.289501,
      "lng": 55.4111465,
@@ -21539,49 +21588,55 @@
     {
      "code": "C1-14",
      "name": "Olivz Residence, Warsan 1",
-     "time": "21:45",
+     "time": "21:44",
      "action": "set_down"
     },
     {
      "code": "C1-13",
      "name": "Nasayem Avenue, Mirdif Hills",
-     "time": "21:55",
+     "time": "21:53",
      "action": "set_down"
     },
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "22:04",
+     "time": "22:01",
      "action": "set_down"
     },
     {
      "code": "C1-23",
      "name": "Centrepoint, Mirdif City Centre",
-     "time": "22:13",
+     "time": "22:10",
      "action": "set_down"
     },
     {
      "code": "C1-11",
      "name": "Madina Mall",
-     "time": "22:23",
+     "time": "22:18",
      "action": "set_down"
     },
     {
      "code": "C1-10",
      "name": "Dubai Festival City Mall",
-     "time": "22:32",
+     "time": "22:26",
      "action": "set_down"
     },
     {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "22:41",
+     "time": "22:35",
      "action": "set_down"
     },
     {
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
-     "time": "22:51",
+     "time": "22:43",
+     "action": "set_down"
+    },
+    {
+     "code": "C1-26",
+     "name": "Dubai Carmel School, Amman St, Al Nahda 2",
+     "time": "22:52",
      "action": "set_down"
     },
     {
@@ -25508,51 +25563,57 @@
      "action": "pick_up"
     },
     {
+     "code": "C1-26",
+     "name": "Dubai Carmel School, Amman St, Al Nahda 2",
+     "time": "16:10",
+     "action": "pick_up"
+    },
+    {
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
-     "time": "16:12",
+     "time": "16:21",
      "action": "pick_up"
     },
     {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "16:23",
+     "time": "16:32",
      "action": "pick_up"
     },
     {
      "code": "C1-10",
      "name": "Dubai Festival City Mall",
-     "time": "16:35",
+     "time": "16:42",
      "action": "pick_up"
     },
     {
      "code": "C1-11",
      "name": "Madina Mall",
-     "time": "16:47",
+     "time": "16:52",
      "action": "pick_up"
     },
     {
      "code": "C1-23",
      "name": "Centrepoint, Mirdif City Centre",
-     "time": "16:58",
+     "time": "17:03",
      "action": "pick_up"
     },
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "17:10",
+     "time": "17:14",
      "action": "pick_up"
     },
     {
      "code": "C1-13",
      "name": "Nasayem Avenue, Mirdif Hills",
-     "time": "17:22",
+     "time": "17:24",
      "action": "pick_up"
     },
     {
      "code": "C1-14",
      "name": "Olivz Residence, Warsan 1",
-     "time": "17:33",
+     "time": "17:34",
      "action": "pick_up"
     },
     {
@@ -25589,49 +25650,55 @@
     {
      "code": "C1-14",
      "name": "Olivz Residence, Warsan 1",
-     "time": "21:45",
+     "time": "21:44",
      "action": "set_down"
     },
     {
      "code": "C1-13",
      "name": "Nasayem Avenue, Mirdif Hills",
-     "time": "21:55",
+     "time": "21:53",
      "action": "set_down"
     },
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "22:04",
+     "time": "22:01",
      "action": "set_down"
     },
     {
      "code": "C1-23",
      "name": "Centrepoint, Mirdif City Centre",
-     "time": "22:13",
+     "time": "22:10",
      "action": "set_down"
     },
     {
      "code": "C1-11",
      "name": "Madina Mall",
-     "time": "22:23",
+     "time": "22:18",
      "action": "set_down"
     },
     {
      "code": "C1-10",
      "name": "Dubai Festival City Mall",
-     "time": "22:32",
+     "time": "22:26",
      "action": "set_down"
     },
     {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "22:41",
+     "time": "22:35",
      "action": "set_down"
     },
     {
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
-     "time": "22:51",
+     "time": "22:43",
+     "action": "set_down"
+    },
+    {
+     "code": "C1-26",
+     "name": "Dubai Carmel School, Amman St, Al Nahda 2",
+     "time": "22:52",
      "action": "set_down"
     },
     {
