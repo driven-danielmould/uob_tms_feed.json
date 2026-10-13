@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-13T16:47:59Z",
+ "generated_at": "2026-10-13T17:51:27Z",
  "week": "2026-10-09 to 2026-10-18",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -17079,18 +17079,18 @@
    "service": "undergraduate",
    "arrive_campus": "10:45",
    "leave_campus": null,
-   "start": "09:34",
+   "start": "09:31",
    "end": "10:45",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 5,
+   "booked": 7,
    "seats": 34,
    "stops": [
     {
      "code": "C1-15",
      "name": "Wasl Village, Central Parking",
-     "time": "09:34",
+     "time": "09:31",
      "action": "pick_up",
      "lat": 25.289501,
      "lng": 55.4111465,
@@ -17099,7 +17099,7 @@
     {
      "code": "C1-23",
      "name": "Centrepoint, Mirdif City Centre",
-     "time": "09:39",
+     "time": "09:36",
      "action": "pick_up",
      "lat": 25.2180926,
      "lng": 55.4085703,
@@ -17107,9 +17107,18 @@
      "offer_only_stop": true
     },
     {
+     "code": "C1-17",
+     "name": "Bahwan Tower, Al Nahda 1",
+     "time": "09:45",
+     "action": "pick_up",
+     "lat": 25.287666,
+     "lng": 55.361619,
+     "where_exactly": "Kerbside outside the Bahwan Tower entrance; no lay-by, bus stops in the road."
+    },
+    {
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
-     "time": "09:48",
+     "time": "09:49",
      "action": "pick_up",
      "lat": 25.288631,
      "lng": 55.364044,
@@ -17118,7 +17127,7 @@
     {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "10:00",
+     "time": "10:01",
      "action": "pick_up",
      "lat": 25.270214,
      "lng": 55.373696,
@@ -17127,7 +17136,7 @@
     {
      "code": "C1-13",
      "name": "Nasayem Avenue, Mirdif Hills",
-     "time": "10:22",
+     "time": "10:23",
      "action": "pick_up",
      "lat": 25.221963,
      "lng": 55.440775,
@@ -17151,46 +17160,86 @@
    "day": "Wed",
    "route": "R2",
    "direction": "to_campus",
-   "service": "undergraduate",
+   "service": "regular",
    "arrive_campus": "12:45",
    "leave_campus": null,
-   "start": "11:38",
+   "start": "10:45",
    "end": "12:45",
    "vehicle": "M2",
-   "vehicle_type": "Rosa",
-   "capacity": 34,
-   "booked": 2,
-   "seats": 34,
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 0,
+   "seats": 15,
+   "offer_only": true,
    "stops": [
     {
-     "code": "C1-17",
-     "name": "Bahwan Tower, Al Nahda 1",
-     "time": "11:38",
-     "action": "pick_up",
-     "lat": 25.287666,
-     "lng": 55.361619,
-     "where_exactly": "Kerbside outside the Bahwan Tower entrance; no lay-by, bus stops in the road."
+     "code": "C1-14",
+     "name": "Olivz Residence, Warsan 1",
+     "time": "10:45",
+     "action": "pick_up"
     },
     {
      "code": "C1-13",
      "name": "Nasayem Avenue, Mirdif Hills",
-     "time": "12:14",
-     "action": "pick_up",
-     "lat": 25.221963,
-     "lng": 55.440775,
-     "where_exactly": "RTA bus stop pole (F40 / F03) on 78th Street, Mirdif Hills Avenue."
+     "time": "10:57",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-12",
+     "name": "Uptown Mirdif",
+     "time": "11:09",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-23",
+     "name": "Centrepoint, Mirdif City Centre",
+     "time": "11:21",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-11",
+     "name": "Madina Mall",
+     "time": "11:33",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-10",
+     "name": "Dubai Festival City Mall",
+     "time": "11:45",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-09",
+     "name": "DAFZA Metro Station",
+     "time": "11:57",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-08",
+     "name": "Mattar Tower, Al Nahda 1",
+     "time": "12:09",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-26",
+     "name": "Dubai Carmel School, Amman St, Al Nahda 2",
+     "time": "12:21",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-07",
+     "name": "Masafi 1, Al Nahda 2",
+     "time": "12:33",
+     "action": "pick_up"
     },
     {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
      "time": "12:45",
-     "action": "set_down",
-     "lat": 25.1321925,
-     "lng": 55.4223161,
-     "where_exactly": ""
+     "action": "set_down"
     }
    ],
-   "status": "operating"
+   "status": "on_request"
   },
   {
    "run_id": "2026-10-14-R2-R1",
