@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-13T12:45:21Z",
+ "generated_at": "2026-10-13T16:45:26Z",
  "week": "2026-10-09 to 2026-10-18",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -10811,6 +10811,74 @@
    ]
   },
   {
+   "run_id": "2026-10-13-R1-O2",
+   "date": "2026-10-13",
+   "day": "Tue",
+   "route": "R1",
+   "direction": "to_campus",
+   "service": "regular",
+   "arrive_campus": "09:45",
+   "leave_campus": null,
+   "start": "07:45",
+   "end": "09:45",
+   "vehicle": "M1",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 0,
+   "seats": 15,
+   "offer_only": true,
+   "stops": [
+    {
+     "code": "C1-02",
+     "name": "City Centre Al Zahia",
+     "time": "07:45",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-06",
+     "name": "Sahara Centre",
+     "time": "08:02",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-16",
+     "name": "LuLu Hypermarket Al Nahda, Sharjah",
+     "time": "08:19",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-05",
+     "name": "Sheikha Maryam Tower, Al Taawun",
+     "time": "08:36",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-04",
+     "name": "Nesto Hypermarket, King Faisal St",
+     "time": "08:54",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-03",
+     "name": "Lulu Hypermarket Maysaloon",
+     "time": "09:11",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-01",
+     "name": "Al Khor Towers, Ajman",
+     "time": "09:28",
+     "action": "pick_up"
+    },
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "09:45",
+     "action": "set_down"
+    }
+   ]
+  },
+  {
    "run_id": "2026-10-13-R1-O3",
    "date": "2026-10-13",
    "day": "Tue",
@@ -11485,6 +11553,92 @@
    ]
   },
   {
+   "run_id": "2026-10-13-R2-O3",
+   "date": "2026-10-13",
+   "day": "Tue",
+   "route": "R2",
+   "direction": "to_campus",
+   "service": "regular",
+   "arrive_campus": "10:45",
+   "leave_campus": null,
+   "start": "08:45",
+   "end": "10:45",
+   "vehicle": "M2",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 0,
+   "seats": 15,
+   "offer_only": true,
+   "stops": [
+    {
+     "code": "C1-14",
+     "name": "Olivz Residence, Warsan 1",
+     "time": "08:45",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-13",
+     "name": "Nasayem Avenue, Mirdif Hills",
+     "time": "08:57",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-12",
+     "name": "Uptown Mirdif",
+     "time": "09:09",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-23",
+     "name": "Centrepoint, Mirdif City Centre",
+     "time": "09:21",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-11",
+     "name": "Madina Mall",
+     "time": "09:33",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-10",
+     "name": "Dubai Festival City Mall",
+     "time": "09:45",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-09",
+     "name": "DAFZA Metro Station",
+     "time": "09:57",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-08",
+     "name": "Mattar Tower, Al Nahda 1",
+     "time": "10:09",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-26",
+     "name": "Dubai Carmel School, Amman St, Al Nahda 2",
+     "time": "10:21",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-07",
+     "name": "Masafi 1, Al Nahda 2",
+     "time": "10:33",
+     "action": "pick_up"
+    },
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "10:45",
+     "action": "set_down"
+    }
+   ]
+  },
+  {
    "run_id": "2026-10-13-R2-O4",
    "date": "2026-10-13",
    "day": "Tue",
@@ -12128,6 +12282,86 @@
      "lat": 25.1321925,
      "lng": 55.4223161,
      "where_exactly": ""
+    }
+   ]
+  },
+  {
+   "run_id": "2026-10-13-R3-O3",
+   "date": "2026-10-13",
+   "day": "Tue",
+   "route": "R3",
+   "direction": "to_campus",
+   "service": "regular",
+   "arrive_campus": "10:45",
+   "leave_campus": null,
+   "start": "08:45",
+   "end": "10:45",
+   "vehicle": "M3",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 0,
+   "seats": 15,
+   "offer_only": true,
+   "stops": [
+    {
+     "code": "C2-08",
+     "name": "Mall of the Emirates",
+     "time": "08:45",
+     "action": "pick_up"
+    },
+    {
+     "code": "C2-16",
+     "name": "Umm Suqeim Rd bus stop by ENOC 1099, Al Barsha 1",
+     "time": "08:58",
+     "action": "pick_up"
+    },
+    {
+     "code": "C2-07",
+     "name": "Dubai Internet City Metro Station",
+     "time": "09:12",
+     "action": "pick_up"
+    },
+    {
+     "code": "C2-06",
+     "name": "The Springs Souk",
+     "time": "09:25",
+     "action": "pick_up"
+    },
+    {
+     "code": "C2-05",
+     "name": "The Meadows Village",
+     "time": "09:38",
+     "action": "pick_up"
+    },
+    {
+     "code": "C2-04",
+     "name": "Sobha Realty Metro Station",
+     "time": "09:52",
+     "action": "pick_up"
+    },
+    {
+     "code": "C2-03",
+     "name": "DMCC Metro Station",
+     "time": "10:05",
+     "action": "pick_up"
+    },
+    {
+     "code": "C2-02",
+     "name": "Dubai Marina Mall",
+     "time": "10:18",
+     "action": "pick_up"
+    },
+    {
+     "code": "C2-01",
+     "name": "Al Sarood, Shoreline 13, Palm Jumeirah",
+     "time": "10:32",
+     "action": "pick_up"
+    },
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "10:45",
+     "action": "set_down"
     }
    ]
   },
@@ -13679,6 +13913,86 @@
    ]
   },
   {
+   "run_id": "2026-10-13-R5-R2",
+   "date": "2026-10-13",
+   "day": "Tue",
+   "route": "R5",
+   "direction": "from_campus",
+   "service": "regular",
+   "arrive_campus": null,
+   "leave_campus": "16:30",
+   "start": "16:30",
+   "end": "18:15",
+   "vehicle": "M5",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 0,
+   "seats": 15,
+   "offer_only": true,
+   "stops": [
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "16:30",
+     "action": "pick_up"
+    },
+    {
+     "code": "C4-01",
+     "name": "Al Mariah Mall, Hamdan St",
+     "time": "16:42",
+     "action": "set_down"
+    },
+    {
+     "code": "C4-02",
+     "name": "The Gate Towers, Al Reem Island",
+     "time": "16:53",
+     "action": "set_down"
+    },
+    {
+     "code": "C4-21",
+     "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
+     "time": "17:05",
+     "action": "set_down"
+    },
+    {
+     "code": "C4-03",
+     "name": "Al Wahda Mall",
+     "time": "17:17",
+     "action": "set_down"
+    },
+    {
+     "code": "C4-04",
+     "name": "Mubadala Tower, Sultan Bin Zayed St",
+     "time": "17:28",
+     "action": "set_down"
+    },
+    {
+     "code": "C4-05",
+     "name": "Yasmina School back gate, Raha Gardens",
+     "time": "17:40",
+     "action": "set_down"
+    },
+    {
+     "code": "C4-06",
+     "name": "Al Forsan Village main gate",
+     "time": "17:52",
+     "action": "set_down"
+    },
+    {
+     "code": "C4-07",
+     "name": "Al Zeina, Al Raha Beach",
+     "time": "18:03",
+     "action": "set_down"
+    },
+    {
+     "code": "C4-08",
+     "name": "Al Ghadeer community gate",
+     "time": "18:15",
+     "action": "set_down"
+    }
+   ]
+  },
+  {
    "run_id": "2026-10-13-R5-R3",
    "date": "2026-10-13",
    "day": "Tue",
@@ -13900,6 +14214,68 @@
      "lat": 25.1321925,
      "lng": 55.4223161,
      "where_exactly": ""
+    }
+   ]
+  },
+  {
+   "run_id": "2026-10-13-R6-O3",
+   "date": "2026-10-13",
+   "day": "Tue",
+   "route": "R6",
+   "direction": "to_campus",
+   "service": "regular",
+   "arrive_campus": "10:45",
+   "leave_campus": null,
+   "start": "08:45",
+   "end": "10:45",
+   "vehicle": "M6",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 0,
+   "seats": 15,
+   "offer_only": true,
+   "stops": [
+    {
+     "code": "C4-14",
+     "name": "Dubai British School, Jumeirah Park",
+     "time": "08:45",
+     "action": "pick_up"
+    },
+    {
+     "code": "C4-13",
+     "name": "Gardens Metro Station",
+     "time": "09:05",
+     "action": "pick_up"
+    },
+    {
+     "code": "C4-12",
+     "name": "Al Furjan Centre (Pavilion)",
+     "time": "09:25",
+     "action": "pick_up"
+    },
+    {
+     "code": "C4-11",
+     "name": "Al Furjan West Centre",
+     "time": "09:45",
+     "action": "pick_up"
+    },
+    {
+     "code": "C4-10",
+     "name": "Green Community West gate",
+     "time": "10:05",
+     "action": "pick_up"
+    },
+    {
+     "code": "C4-09",
+     "name": "Holiday Inn, Al Maktoum Airport",
+     "time": "10:25",
+     "action": "pick_up"
+    },
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "10:45",
+     "action": "set_down"
     }
    ]
   },
@@ -14379,6 +14755,116 @@
      "lat": 25.1321925,
      "lng": 55.4223161,
      "where_exactly": ""
+    }
+   ]
+  },
+  {
+   "run_id": "2026-10-13-R7-O2",
+   "date": "2026-10-13",
+   "day": "Tue",
+   "route": "R7",
+   "direction": "to_campus",
+   "service": "regular",
+   "arrive_campus": "09:45",
+   "leave_campus": null,
+   "start": "07:45",
+   "end": "09:45",
+   "vehicle": "M7",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 0,
+   "seats": 15,
+   "offer_only": true,
+   "stops": [
+    {
+     "code": "C5-12",
+     "name": "Wasl Green Park, Ras Al Khor",
+     "time": "07:45",
+     "action": "pick_up"
+    },
+    {
+     "code": "C5-11",
+     "name": "One Park Avenue, Sobha Hartland",
+     "time": "07:54",
+     "action": "pick_up"
+    },
+    {
+     "code": "C5-10",
+     "name": "Bay Square, Business Bay",
+     "time": "08:02",
+     "action": "pick_up"
+    },
+    {
+     "code": "C5-09",
+     "name": "Bay Avenue Mall, Business Bay",
+     "time": "08:11",
+     "action": "pick_up"
+    },
+    {
+     "code": "C5-08",
+     "name": "Financial Centre Metro Station",
+     "time": "08:19",
+     "action": "pick_up"
+    },
+    {
+     "code": "C5-07",
+     "name": "World Trade Centre Metro Station",
+     "time": "08:28",
+     "action": "pick_up"
+    },
+    {
+     "code": "C5-06",
+     "name": "Al Wasl Building, Al Hudaiba",
+     "time": "08:36",
+     "action": "pick_up"
+    },
+    {
+     "code": "C5-05",
+     "name": "BurJuman Mall",
+     "time": "08:45",
+     "action": "pick_up"
+    },
+    {
+     "code": "C5-04",
+     "name": "Oud Metha Metro Station",
+     "time": "08:54",
+     "action": "pick_up"
+    },
+    {
+     "code": "C5-22",
+     "name": "Al Jaddaf Metro Station",
+     "time": "09:02",
+     "action": "pick_up"
+    },
+    {
+     "code": "C5-03",
+     "name": "Creek Metro Station, Al Jaddaf",
+     "time": "09:11",
+     "action": "pick_up"
+    },
+    {
+     "code": "C5-21",
+     "name": "Al Ghurair Centre bus stop (Ghurair City 2), Al Rigga Rd",
+     "time": "09:19",
+     "action": "pick_up"
+    },
+    {
+     "code": "C5-02",
+     "name": "Al Rigga Metro Station",
+     "time": "09:28",
+     "action": "pick_up"
+    },
+    {
+     "code": "C5-01",
+     "name": "Gold Souq Metro Station",
+     "time": "09:36",
+     "action": "pick_up"
+    },
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "09:45",
+     "action": "set_down"
     }
    ]
   },
@@ -15780,6 +16266,74 @@
    ]
   },
   {
+   "run_id": "2026-10-14-R1-O3",
+   "date": "2026-10-14",
+   "day": "Wed",
+   "route": "R1",
+   "direction": "to_campus",
+   "service": "regular",
+   "arrive_campus": "10:45",
+   "leave_campus": null,
+   "start": "08:45",
+   "end": "10:45",
+   "vehicle": "M1",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 0,
+   "seats": 15,
+   "offer_only": true,
+   "stops": [
+    {
+     "code": "C1-02",
+     "name": "City Centre Al Zahia",
+     "time": "08:45",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-06",
+     "name": "Sahara Centre",
+     "time": "09:02",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-16",
+     "name": "LuLu Hypermarket Al Nahda, Sharjah",
+     "time": "09:19",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-05",
+     "name": "Sheikha Maryam Tower, Al Taawun",
+     "time": "09:36",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-04",
+     "name": "Nesto Hypermarket, King Faisal St",
+     "time": "09:54",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-03",
+     "name": "Lulu Hypermarket Maysaloon",
+     "time": "10:11",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-01",
+     "name": "Al Khor Towers, Ajman",
+     "time": "10:28",
+     "action": "pick_up"
+    },
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "10:45",
+     "action": "set_down"
+    }
+   ]
+  },
+  {
    "run_id": "2026-10-14-R1-O4",
    "date": "2026-10-14",
    "day": "Wed",
@@ -15943,6 +16497,74 @@
      "code": "UOB",
      "name": "University of Birmingham Dubai",
      "time": "17:45",
+     "action": "set_down"
+    }
+   ]
+  },
+  {
+   "run_id": "2026-10-14-R1-R2",
+   "date": "2026-10-14",
+   "day": "Wed",
+   "route": "R1",
+   "direction": "from_campus",
+   "service": "regular",
+   "arrive_campus": null,
+   "leave_campus": "16:30",
+   "start": "16:30",
+   "end": "18:15",
+   "vehicle": "M1",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 0,
+   "seats": 15,
+   "offer_only": true,
+   "stops": [
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "16:30",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-01",
+     "name": "Al Khor Towers, Ajman",
+     "time": "16:45",
+     "action": "set_down"
+    },
+    {
+     "code": "C1-03",
+     "name": "Lulu Hypermarket Maysaloon",
+     "time": "17:00",
+     "action": "set_down"
+    },
+    {
+     "code": "C1-04",
+     "name": "Nesto Hypermarket, King Faisal St",
+     "time": "17:15",
+     "action": "set_down"
+    },
+    {
+     "code": "C1-05",
+     "name": "Sheikha Maryam Tower, Al Taawun",
+     "time": "17:30",
+     "action": "set_down"
+    },
+    {
+     "code": "C1-16",
+     "name": "LuLu Hypermarket Al Nahda, Sharjah",
+     "time": "17:45",
+     "action": "set_down"
+    },
+    {
+     "code": "C1-06",
+     "name": "Sahara Centre",
+     "time": "18:00",
+     "action": "set_down"
+    },
+    {
+     "code": "C1-02",
+     "name": "City Centre Al Zahia",
+     "time": "18:15",
      "action": "set_down"
     }
    ]
@@ -16573,6 +17195,92 @@
      "code": "UOB",
      "name": "University of Birmingham Dubai",
      "time": "17:45",
+     "action": "set_down"
+    }
+   ]
+  },
+  {
+   "run_id": "2026-10-14-R2-R2",
+   "date": "2026-10-14",
+   "day": "Wed",
+   "route": "R2",
+   "direction": "from_campus",
+   "service": "regular",
+   "arrive_campus": null,
+   "leave_campus": "16:30",
+   "start": "16:30",
+   "end": "18:15",
+   "vehicle": "M2",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 0,
+   "seats": 15,
+   "offer_only": true,
+   "stops": [
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "16:30",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-07",
+     "name": "Masafi 1, Al Nahda 2",
+     "time": "16:40",
+     "action": "set_down"
+    },
+    {
+     "code": "C1-26",
+     "name": "Dubai Carmel School, Amman St, Al Nahda 2",
+     "time": "16:51",
+     "action": "set_down"
+    },
+    {
+     "code": "C1-08",
+     "name": "Mattar Tower, Al Nahda 1",
+     "time": "17:02",
+     "action": "set_down"
+    },
+    {
+     "code": "C1-09",
+     "name": "DAFZA Metro Station",
+     "time": "17:12",
+     "action": "set_down"
+    },
+    {
+     "code": "C1-10",
+     "name": "Dubai Festival City Mall",
+     "time": "17:22",
+     "action": "set_down"
+    },
+    {
+     "code": "C1-11",
+     "name": "Madina Mall",
+     "time": "17:33",
+     "action": "set_down"
+    },
+    {
+     "code": "C1-23",
+     "name": "Centrepoint, Mirdif City Centre",
+     "time": "17:44",
+     "action": "set_down"
+    },
+    {
+     "code": "C1-12",
+     "name": "Uptown Mirdif",
+     "time": "17:54",
+     "action": "set_down"
+    },
+    {
+     "code": "C1-13",
+     "name": "Nasayem Avenue, Mirdif Hills",
+     "time": "18:04",
+     "action": "set_down"
+    },
+    {
+     "code": "C1-14",
+     "name": "Olivz Residence, Warsan 1",
+     "time": "18:15",
      "action": "set_down"
     }
    ]
@@ -17651,6 +18359,128 @@
    ]
   },
   {
+   "run_id": "2026-10-14-R4-O3",
+   "date": "2026-10-14",
+   "day": "Wed",
+   "route": "R4",
+   "direction": "to_campus",
+   "service": "regular",
+   "arrive_campus": "10:45",
+   "leave_campus": null,
+   "start": "08:45",
+   "end": "10:45",
+   "vehicle": "M4",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 0,
+   "seats": 15,
+   "offer_only": true,
+   "stops": [
+    {
+     "code": "C3-16",
+     "name": "Souq Extra, Silicon Oasis",
+     "time": "08:45",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-22",
+     "name": "Oasis Star, Nadd Hessa (Silicon Oasis)",
+     "time": "08:53",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-15",
+     "name": "Silicon Oasis Avenue Mall 2",
+     "time": "09:00",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-14",
+     "name": "Skycourts Towers",
+     "time": "09:07",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-13",
+     "name": "Villanova, La Rosa",
+     "time": "09:15",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-12",
+     "name": "Arabian Ranches 3",
+     "time": "09:23",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-11",
+     "name": "Living Legends",
+     "time": "09:30",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-09",
+     "name": "Spinneys, Town Square",
+     "time": "09:37",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-08",
+     "name": "Serena, Bella Casa",
+     "time": "09:45",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-07",
+     "name": "First Avenue Mall, Motor City",
+     "time": "09:53",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-06",
+     "name": "Elan 1, Tilal Al Ghaf",
+     "time": "10:00",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-05",
+     "name": "City Centre Me'aisem",
+     "time": "10:07",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-04",
+     "name": "Dubai International Cricket Stadium",
+     "time": "10:15",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-03",
+     "name": "Dubai Miracle Garden",
+     "time": "10:23",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-02",
+     "name": "Circle Mall, JVC",
+     "time": "10:30",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-01",
+     "name": "JSS International School",
+     "time": "10:37",
+     "action": "pick_up"
+    },
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "10:45",
+     "action": "set_down"
+    }
+   ]
+  },
+  {
    "run_id": "2026-10-14-R4-O4",
    "date": "2026-10-14",
    "day": "Wed",
@@ -17904,6 +18734,128 @@
      "code": "UOB",
      "name": "University of Birmingham Dubai",
      "time": "17:45",
+     "action": "set_down"
+    }
+   ]
+  },
+  {
+   "run_id": "2026-10-14-R4-R2",
+   "date": "2026-10-14",
+   "day": "Wed",
+   "route": "R4",
+   "direction": "from_campus",
+   "service": "regular",
+   "arrive_campus": null,
+   "leave_campus": "16:30",
+   "start": "16:30",
+   "end": "18:15",
+   "vehicle": "M4",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 0,
+   "seats": 15,
+   "offer_only": true,
+   "stops": [
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "16:30",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-01",
+     "name": "JSS International School",
+     "time": "16:37",
+     "action": "set_down"
+    },
+    {
+     "code": "C3-02",
+     "name": "Circle Mall, JVC",
+     "time": "16:43",
+     "action": "set_down"
+    },
+    {
+     "code": "C3-03",
+     "name": "Dubai Miracle Garden",
+     "time": "16:50",
+     "action": "set_down"
+    },
+    {
+     "code": "C3-04",
+     "name": "Dubai International Cricket Stadium",
+     "time": "16:56",
+     "action": "set_down"
+    },
+    {
+     "code": "C3-05",
+     "name": "City Centre Me'aisem",
+     "time": "17:03",
+     "action": "set_down"
+    },
+    {
+     "code": "C3-06",
+     "name": "Elan 1, Tilal Al Ghaf",
+     "time": "17:09",
+     "action": "set_down"
+    },
+    {
+     "code": "C3-07",
+     "name": "First Avenue Mall, Motor City",
+     "time": "17:16",
+     "action": "set_down"
+    },
+    {
+     "code": "C3-08",
+     "name": "Serena, Bella Casa",
+     "time": "17:22",
+     "action": "set_down"
+    },
+    {
+     "code": "C3-09",
+     "name": "Spinneys, Town Square",
+     "time": "17:29",
+     "action": "set_down"
+    },
+    {
+     "code": "C3-11",
+     "name": "Living Legends",
+     "time": "17:36",
+     "action": "set_down"
+    },
+    {
+     "code": "C3-12",
+     "name": "Arabian Ranches 3",
+     "time": "17:42",
+     "action": "set_down"
+    },
+    {
+     "code": "C3-13",
+     "name": "Villanova, La Rosa",
+     "time": "17:49",
+     "action": "set_down"
+    },
+    {
+     "code": "C3-14",
+     "name": "Skycourts Towers",
+     "time": "17:55",
+     "action": "set_down"
+    },
+    {
+     "code": "C3-15",
+     "name": "Silicon Oasis Avenue Mall 2",
+     "time": "18:02",
+     "action": "set_down"
+    },
+    {
+     "code": "C3-22",
+     "name": "Oasis Star, Nadd Hessa (Silicon Oasis)",
+     "time": "18:08",
+     "action": "set_down"
+    },
+    {
+     "code": "C3-16",
+     "name": "Souq Extra, Silicon Oasis",
+     "time": "18:15",
      "action": "set_down"
     }
    ]
@@ -18349,6 +19301,86 @@
    ]
   },
   {
+   "run_id": "2026-10-14-R5-R1",
+   "date": "2026-10-14",
+   "day": "Wed",
+   "route": "R5",
+   "direction": "from_campus",
+   "service": "regular",
+   "arrive_campus": null,
+   "leave_campus": "14:15",
+   "start": "14:15",
+   "end": "16:00",
+   "vehicle": "M5",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 0,
+   "seats": 15,
+   "offer_only": true,
+   "stops": [
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "14:15",
+     "action": "pick_up"
+    },
+    {
+     "code": "C4-01",
+     "name": "Al Mariah Mall, Hamdan St",
+     "time": "14:27",
+     "action": "set_down"
+    },
+    {
+     "code": "C4-02",
+     "name": "The Gate Towers, Al Reem Island",
+     "time": "14:38",
+     "action": "set_down"
+    },
+    {
+     "code": "C4-21",
+     "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
+     "time": "14:50",
+     "action": "set_down"
+    },
+    {
+     "code": "C4-03",
+     "name": "Al Wahda Mall",
+     "time": "15:02",
+     "action": "set_down"
+    },
+    {
+     "code": "C4-04",
+     "name": "Mubadala Tower, Sultan Bin Zayed St",
+     "time": "15:13",
+     "action": "set_down"
+    },
+    {
+     "code": "C4-05",
+     "name": "Yasmina School back gate, Raha Gardens",
+     "time": "15:25",
+     "action": "set_down"
+    },
+    {
+     "code": "C4-06",
+     "name": "Al Forsan Village main gate",
+     "time": "15:37",
+     "action": "set_down"
+    },
+    {
+     "code": "C4-07",
+     "name": "Al Zeina, Al Raha Beach",
+     "time": "15:48",
+     "action": "set_down"
+    },
+    {
+     "code": "C4-08",
+     "name": "Al Ghadeer community gate",
+     "time": "16:00",
+     "action": "set_down"
+    }
+   ]
+  },
+  {
    "run_id": "2026-10-14-R5-O4",
    "date": "2026-10-14",
    "day": "Wed",
@@ -18423,6 +19455,86 @@
      "code": "UOB",
      "name": "University of Birmingham Dubai",
      "time": "17:45",
+     "action": "set_down"
+    }
+   ]
+  },
+  {
+   "run_id": "2026-10-14-R5-R2",
+   "date": "2026-10-14",
+   "day": "Wed",
+   "route": "R5",
+   "direction": "from_campus",
+   "service": "regular",
+   "arrive_campus": null,
+   "leave_campus": "16:30",
+   "start": "16:30",
+   "end": "18:15",
+   "vehicle": "M5",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 0,
+   "seats": 15,
+   "offer_only": true,
+   "stops": [
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "16:30",
+     "action": "pick_up"
+    },
+    {
+     "code": "C4-01",
+     "name": "Al Mariah Mall, Hamdan St",
+     "time": "16:42",
+     "action": "set_down"
+    },
+    {
+     "code": "C4-02",
+     "name": "The Gate Towers, Al Reem Island",
+     "time": "16:53",
+     "action": "set_down"
+    },
+    {
+     "code": "C4-21",
+     "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
+     "time": "17:05",
+     "action": "set_down"
+    },
+    {
+     "code": "C4-03",
+     "name": "Al Wahda Mall",
+     "time": "17:17",
+     "action": "set_down"
+    },
+    {
+     "code": "C4-04",
+     "name": "Mubadala Tower, Sultan Bin Zayed St",
+     "time": "17:28",
+     "action": "set_down"
+    },
+    {
+     "code": "C4-05",
+     "name": "Yasmina School back gate, Raha Gardens",
+     "time": "17:40",
+     "action": "set_down"
+    },
+    {
+     "code": "C4-06",
+     "name": "Al Forsan Village main gate",
+     "time": "17:52",
+     "action": "set_down"
+    },
+    {
+     "code": "C4-07",
+     "name": "Al Zeina, Al Raha Beach",
+     "time": "18:03",
+     "action": "set_down"
+    },
+    {
+     "code": "C4-08",
+     "name": "Al Ghadeer community gate",
+     "time": "18:15",
      "action": "set_down"
     }
    ]
@@ -18762,6 +19874,68 @@
    ]
   },
   {
+   "run_id": "2026-10-14-R6-O3",
+   "date": "2026-10-14",
+   "day": "Wed",
+   "route": "R6",
+   "direction": "to_campus",
+   "service": "regular",
+   "arrive_campus": "10:45",
+   "leave_campus": null,
+   "start": "08:45",
+   "end": "10:45",
+   "vehicle": "M6",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 0,
+   "seats": 15,
+   "offer_only": true,
+   "stops": [
+    {
+     "code": "C4-14",
+     "name": "Dubai British School, Jumeirah Park",
+     "time": "08:45",
+     "action": "pick_up"
+    },
+    {
+     "code": "C4-13",
+     "name": "Gardens Metro Station",
+     "time": "09:05",
+     "action": "pick_up"
+    },
+    {
+     "code": "C4-12",
+     "name": "Al Furjan Centre (Pavilion)",
+     "time": "09:25",
+     "action": "pick_up"
+    },
+    {
+     "code": "C4-11",
+     "name": "Al Furjan West Centre",
+     "time": "09:45",
+     "action": "pick_up"
+    },
+    {
+     "code": "C4-10",
+     "name": "Green Community West gate",
+     "time": "10:05",
+     "action": "pick_up"
+    },
+    {
+     "code": "C4-09",
+     "name": "Holiday Inn, Al Maktoum Airport",
+     "time": "10:25",
+     "action": "pick_up"
+    },
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "10:45",
+     "action": "set_down"
+    }
+   ]
+  },
+  {
    "run_id": "2026-10-14-R6-O4",
    "date": "2026-10-14",
    "day": "Wed",
@@ -18910,6 +20084,68 @@
      "code": "UOB",
      "name": "University of Birmingham Dubai",
      "time": "17:45",
+     "action": "set_down"
+    }
+   ]
+  },
+  {
+   "run_id": "2026-10-14-R6-R2",
+   "date": "2026-10-14",
+   "day": "Wed",
+   "route": "R6",
+   "direction": "from_campus",
+   "service": "regular",
+   "arrive_campus": null,
+   "leave_campus": "16:30",
+   "start": "16:30",
+   "end": "18:15",
+   "vehicle": "M6",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 0,
+   "seats": 15,
+   "offer_only": true,
+   "stops": [
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "16:30",
+     "action": "pick_up"
+    },
+    {
+     "code": "C4-09",
+     "name": "Holiday Inn, Al Maktoum Airport",
+     "time": "16:48",
+     "action": "set_down"
+    },
+    {
+     "code": "C4-10",
+     "name": "Green Community West gate",
+     "time": "17:05",
+     "action": "set_down"
+    },
+    {
+     "code": "C4-11",
+     "name": "Al Furjan West Centre",
+     "time": "17:22",
+     "action": "set_down"
+    },
+    {
+     "code": "C4-12",
+     "name": "Al Furjan Centre (Pavilion)",
+     "time": "17:40",
+     "action": "set_down"
+    },
+    {
+     "code": "C4-13",
+     "name": "Gardens Metro Station",
+     "time": "17:58",
+     "action": "set_down"
+    },
+    {
+     "code": "C4-14",
+     "name": "Dubai British School, Jumeirah Park",
+     "time": "18:15",
      "action": "set_down"
     }
    ]
@@ -19509,6 +20745,116 @@
      "code": "UOB",
      "name": "University of Birmingham Dubai",
      "time": "17:45",
+     "action": "set_down"
+    }
+   ]
+  },
+  {
+   "run_id": "2026-10-14-R7-R2",
+   "date": "2026-10-14",
+   "day": "Wed",
+   "route": "R7",
+   "direction": "from_campus",
+   "service": "regular",
+   "arrive_campus": null,
+   "leave_campus": "16:30",
+   "start": "16:30",
+   "end": "18:15",
+   "vehicle": "M7",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 0,
+   "seats": 15,
+   "offer_only": true,
+   "stops": [
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "16:30",
+     "action": "pick_up"
+    },
+    {
+     "code": "C5-01",
+     "name": "Gold Souq Metro Station",
+     "time": "16:38",
+     "action": "set_down"
+    },
+    {
+     "code": "C5-02",
+     "name": "Al Rigga Metro Station",
+     "time": "16:45",
+     "action": "set_down"
+    },
+    {
+     "code": "C5-21",
+     "name": "Al Ghurair Centre bus stop (Ghurair City 2), Al Rigga Rd",
+     "time": "16:52",
+     "action": "set_down"
+    },
+    {
+     "code": "C5-03",
+     "name": "Creek Metro Station, Al Jaddaf",
+     "time": "17:00",
+     "action": "set_down"
+    },
+    {
+     "code": "C5-22",
+     "name": "Al Jaddaf Metro Station",
+     "time": "17:08",
+     "action": "set_down"
+    },
+    {
+     "code": "C5-04",
+     "name": "Oud Metha Metro Station",
+     "time": "17:15",
+     "action": "set_down"
+    },
+    {
+     "code": "C5-05",
+     "name": "BurJuman Mall",
+     "time": "17:22",
+     "action": "set_down"
+    },
+    {
+     "code": "C5-06",
+     "name": "Al Wasl Building, Al Hudaiba",
+     "time": "17:30",
+     "action": "set_down"
+    },
+    {
+     "code": "C5-07",
+     "name": "World Trade Centre Metro Station",
+     "time": "17:38",
+     "action": "set_down"
+    },
+    {
+     "code": "C5-08",
+     "name": "Financial Centre Metro Station",
+     "time": "17:45",
+     "action": "set_down"
+    },
+    {
+     "code": "C5-09",
+     "name": "Bay Avenue Mall, Business Bay",
+     "time": "17:52",
+     "action": "set_down"
+    },
+    {
+     "code": "C5-10",
+     "name": "Bay Square, Business Bay",
+     "time": "18:00",
+     "action": "set_down"
+    },
+    {
+     "code": "C5-11",
+     "name": "One Park Avenue, Sobha Hartland",
+     "time": "18:08",
+     "action": "set_down"
+    },
+    {
+     "code": "C5-12",
+     "name": "Wasl Green Park, Ras Al Khor",
+     "time": "18:15",
      "action": "set_down"
     }
    ]
@@ -20574,6 +21920,74 @@
    ]
   },
   {
+   "run_id": "2026-10-15-R1-O2",
+   "date": "2026-10-15",
+   "day": "Thu",
+   "route": "R1",
+   "direction": "to_campus",
+   "service": "regular",
+   "arrive_campus": "09:45",
+   "leave_campus": null,
+   "start": "07:45",
+   "end": "09:45",
+   "vehicle": "M1",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 0,
+   "seats": 15,
+   "offer_only": true,
+   "stops": [
+    {
+     "code": "C1-02",
+     "name": "City Centre Al Zahia",
+     "time": "07:45",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-06",
+     "name": "Sahara Centre",
+     "time": "08:02",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-16",
+     "name": "LuLu Hypermarket Al Nahda, Sharjah",
+     "time": "08:19",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-05",
+     "name": "Sheikha Maryam Tower, Al Taawun",
+     "time": "08:36",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-04",
+     "name": "Nesto Hypermarket, King Faisal St",
+     "time": "08:54",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-03",
+     "name": "Lulu Hypermarket Maysaloon",
+     "time": "09:11",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-01",
+     "name": "Al Khor Towers, Ajman",
+     "time": "09:28",
+     "action": "pick_up"
+    },
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "09:45",
+     "action": "set_down"
+    }
+   ]
+  },
+  {
    "run_id": "2026-10-15-R1-O3",
    "date": "2026-10-15",
    "day": "Thu",
@@ -20652,6 +22066,74 @@
      "lat": 25.1321925,
      "lng": 55.4223161,
      "where_exactly": ""
+    }
+   ]
+  },
+  {
+   "run_id": "2026-10-15-R1-O4",
+   "date": "2026-10-15",
+   "day": "Thu",
+   "route": "R1",
+   "direction": "to_campus",
+   "service": "regular",
+   "arrive_campus": "12:45",
+   "leave_campus": null,
+   "start": "10:45",
+   "end": "12:45",
+   "vehicle": "M1",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 0,
+   "seats": 15,
+   "offer_only": true,
+   "stops": [
+    {
+     "code": "C1-02",
+     "name": "City Centre Al Zahia",
+     "time": "10:45",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-06",
+     "name": "Sahara Centre",
+     "time": "11:02",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-16",
+     "name": "LuLu Hypermarket Al Nahda, Sharjah",
+     "time": "11:19",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-05",
+     "name": "Sheikha Maryam Tower, Al Taawun",
+     "time": "11:36",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-04",
+     "name": "Nesto Hypermarket, King Faisal St",
+     "time": "11:54",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-03",
+     "name": "Lulu Hypermarket Maysaloon",
+     "time": "12:11",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-01",
+     "name": "Al Khor Towers, Ajman",
+     "time": "12:28",
+     "action": "pick_up"
+    },
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "12:45",
+     "action": "set_down"
     }
    ]
   },
@@ -20809,6 +22291,74 @@
      "code": "UOB",
      "name": "University of Birmingham Dubai",
      "time": "17:45",
+     "action": "set_down"
+    }
+   ]
+  },
+  {
+   "run_id": "2026-10-15-R1-R2",
+   "date": "2026-10-15",
+   "day": "Thu",
+   "route": "R1",
+   "direction": "from_campus",
+   "service": "regular",
+   "arrive_campus": null,
+   "leave_campus": "16:30",
+   "start": "16:30",
+   "end": "18:15",
+   "vehicle": "M1",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 0,
+   "seats": 15,
+   "offer_only": true,
+   "stops": [
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "16:30",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-01",
+     "name": "Al Khor Towers, Ajman",
+     "time": "16:45",
+     "action": "set_down"
+    },
+    {
+     "code": "C1-03",
+     "name": "Lulu Hypermarket Maysaloon",
+     "time": "17:00",
+     "action": "set_down"
+    },
+    {
+     "code": "C1-04",
+     "name": "Nesto Hypermarket, King Faisal St",
+     "time": "17:15",
+     "action": "set_down"
+    },
+    {
+     "code": "C1-05",
+     "name": "Sheikha Maryam Tower, Al Taawun",
+     "time": "17:30",
+     "action": "set_down"
+    },
+    {
+     "code": "C1-16",
+     "name": "LuLu Hypermarket Al Nahda, Sharjah",
+     "time": "17:45",
+     "action": "set_down"
+    },
+    {
+     "code": "C1-06",
+     "name": "Sahara Centre",
+     "time": "18:00",
+     "action": "set_down"
+    },
+    {
+     "code": "C1-02",
+     "name": "City Centre Al Zahia",
+     "time": "18:15",
      "action": "set_down"
     }
    ]
@@ -21426,6 +22976,92 @@
    ]
   },
   {
+   "run_id": "2026-10-15-R2-R2",
+   "date": "2026-10-15",
+   "day": "Thu",
+   "route": "R2",
+   "direction": "from_campus",
+   "service": "regular",
+   "arrive_campus": null,
+   "leave_campus": "16:30",
+   "start": "16:30",
+   "end": "18:15",
+   "vehicle": "M2",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 0,
+   "seats": 15,
+   "offer_only": true,
+   "stops": [
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "16:30",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-07",
+     "name": "Masafi 1, Al Nahda 2",
+     "time": "16:40",
+     "action": "set_down"
+    },
+    {
+     "code": "C1-26",
+     "name": "Dubai Carmel School, Amman St, Al Nahda 2",
+     "time": "16:51",
+     "action": "set_down"
+    },
+    {
+     "code": "C1-08",
+     "name": "Mattar Tower, Al Nahda 1",
+     "time": "17:02",
+     "action": "set_down"
+    },
+    {
+     "code": "C1-09",
+     "name": "DAFZA Metro Station",
+     "time": "17:12",
+     "action": "set_down"
+    },
+    {
+     "code": "C1-10",
+     "name": "Dubai Festival City Mall",
+     "time": "17:22",
+     "action": "set_down"
+    },
+    {
+     "code": "C1-11",
+     "name": "Madina Mall",
+     "time": "17:33",
+     "action": "set_down"
+    },
+    {
+     "code": "C1-23",
+     "name": "Centrepoint, Mirdif City Centre",
+     "time": "17:44",
+     "action": "set_down"
+    },
+    {
+     "code": "C1-12",
+     "name": "Uptown Mirdif",
+     "time": "17:54",
+     "action": "set_down"
+    },
+    {
+     "code": "C1-13",
+     "name": "Nasayem Avenue, Mirdif Hills",
+     "time": "18:04",
+     "action": "set_down"
+    },
+    {
+     "code": "C1-14",
+     "name": "Olivz Residence, Warsan 1",
+     "time": "18:15",
+     "action": "set_down"
+    }
+   ]
+  },
+  {
    "run_id": "2026-10-15-R2-R3",
    "date": "2026-10-15",
    "day": "Thu",
@@ -21763,6 +23399,86 @@
      "lat": 25.1321925,
      "lng": 55.4223161,
      "where_exactly": ""
+    }
+   ]
+  },
+  {
+   "run_id": "2026-10-15-R3-O3",
+   "date": "2026-10-15",
+   "day": "Thu",
+   "route": "R3",
+   "direction": "to_campus",
+   "service": "regular",
+   "arrive_campus": "10:45",
+   "leave_campus": null,
+   "start": "08:45",
+   "end": "10:45",
+   "vehicle": "M3",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 0,
+   "seats": 15,
+   "offer_only": true,
+   "stops": [
+    {
+     "code": "C2-08",
+     "name": "Mall of the Emirates",
+     "time": "08:45",
+     "action": "pick_up"
+    },
+    {
+     "code": "C2-16",
+     "name": "Umm Suqeim Rd bus stop by ENOC 1099, Al Barsha 1",
+     "time": "08:58",
+     "action": "pick_up"
+    },
+    {
+     "code": "C2-07",
+     "name": "Dubai Internet City Metro Station",
+     "time": "09:12",
+     "action": "pick_up"
+    },
+    {
+     "code": "C2-06",
+     "name": "The Springs Souk",
+     "time": "09:25",
+     "action": "pick_up"
+    },
+    {
+     "code": "C2-05",
+     "name": "The Meadows Village",
+     "time": "09:38",
+     "action": "pick_up"
+    },
+    {
+     "code": "C2-04",
+     "name": "Sobha Realty Metro Station",
+     "time": "09:52",
+     "action": "pick_up"
+    },
+    {
+     "code": "C2-03",
+     "name": "DMCC Metro Station",
+     "time": "10:05",
+     "action": "pick_up"
+    },
+    {
+     "code": "C2-02",
+     "name": "Dubai Marina Mall",
+     "time": "10:18",
+     "action": "pick_up"
+    },
+    {
+     "code": "C2-01",
+     "name": "Al Sarood, Shoreline 13, Palm Jumeirah",
+     "time": "10:32",
+     "action": "pick_up"
+    },
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "10:45",
+     "action": "set_down"
     }
    ]
   },
@@ -22422,6 +24138,128 @@
      "lat": 25.1321925,
      "lng": 55.4223161,
      "where_exactly": ""
+    }
+   ]
+  },
+  {
+   "run_id": "2026-10-15-R4-O3",
+   "date": "2026-10-15",
+   "day": "Thu",
+   "route": "R4",
+   "direction": "to_campus",
+   "service": "regular",
+   "arrive_campus": "10:45",
+   "leave_campus": null,
+   "start": "08:45",
+   "end": "10:45",
+   "vehicle": "M4",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 0,
+   "seats": 15,
+   "offer_only": true,
+   "stops": [
+    {
+     "code": "C3-16",
+     "name": "Souq Extra, Silicon Oasis",
+     "time": "08:45",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-22",
+     "name": "Oasis Star, Nadd Hessa (Silicon Oasis)",
+     "time": "08:53",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-15",
+     "name": "Silicon Oasis Avenue Mall 2",
+     "time": "09:00",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-14",
+     "name": "Skycourts Towers",
+     "time": "09:07",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-13",
+     "name": "Villanova, La Rosa",
+     "time": "09:15",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-12",
+     "name": "Arabian Ranches 3",
+     "time": "09:23",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-11",
+     "name": "Living Legends",
+     "time": "09:30",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-09",
+     "name": "Spinneys, Town Square",
+     "time": "09:37",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-08",
+     "name": "Serena, Bella Casa",
+     "time": "09:45",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-07",
+     "name": "First Avenue Mall, Motor City",
+     "time": "09:53",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-06",
+     "name": "Elan 1, Tilal Al Ghaf",
+     "time": "10:00",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-05",
+     "name": "City Centre Me'aisem",
+     "time": "10:07",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-04",
+     "name": "Dubai International Cricket Stadium",
+     "time": "10:15",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-03",
+     "name": "Dubai Miracle Garden",
+     "time": "10:23",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-02",
+     "name": "Circle Mall, JVC",
+     "time": "10:30",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-01",
+     "name": "JSS International School",
+     "time": "10:37",
+     "action": "pick_up"
+    },
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "10:45",
+     "action": "set_down"
     }
    ]
   },
@@ -23097,6 +24935,86 @@
    ]
   },
   {
+   "run_id": "2026-10-15-R5-R1",
+   "date": "2026-10-15",
+   "day": "Thu",
+   "route": "R5",
+   "direction": "from_campus",
+   "service": "regular",
+   "arrive_campus": null,
+   "leave_campus": "14:15",
+   "start": "14:15",
+   "end": "16:00",
+   "vehicle": "M5",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 0,
+   "seats": 15,
+   "offer_only": true,
+   "stops": [
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "14:15",
+     "action": "pick_up"
+    },
+    {
+     "code": "C4-01",
+     "name": "Al Mariah Mall, Hamdan St",
+     "time": "14:27",
+     "action": "set_down"
+    },
+    {
+     "code": "C4-02",
+     "name": "The Gate Towers, Al Reem Island",
+     "time": "14:38",
+     "action": "set_down"
+    },
+    {
+     "code": "C4-21",
+     "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
+     "time": "14:50",
+     "action": "set_down"
+    },
+    {
+     "code": "C4-03",
+     "name": "Al Wahda Mall",
+     "time": "15:02",
+     "action": "set_down"
+    },
+    {
+     "code": "C4-04",
+     "name": "Mubadala Tower, Sultan Bin Zayed St",
+     "time": "15:13",
+     "action": "set_down"
+    },
+    {
+     "code": "C4-05",
+     "name": "Yasmina School back gate, Raha Gardens",
+     "time": "15:25",
+     "action": "set_down"
+    },
+    {
+     "code": "C4-06",
+     "name": "Al Forsan Village main gate",
+     "time": "15:37",
+     "action": "set_down"
+    },
+    {
+     "code": "C4-07",
+     "name": "Al Zeina, Al Raha Beach",
+     "time": "15:48",
+     "action": "set_down"
+    },
+    {
+     "code": "C4-08",
+     "name": "Al Ghadeer community gate",
+     "time": "16:00",
+     "action": "set_down"
+    }
+   ]
+  },
+  {
    "run_id": "2026-10-15-R5-O4",
    "date": "2026-10-15",
    "day": "Thu",
@@ -23171,6 +25089,86 @@
      "code": "UOB",
      "name": "University of Birmingham Dubai",
      "time": "17:45",
+     "action": "set_down"
+    }
+   ]
+  },
+  {
+   "run_id": "2026-10-15-R5-R2",
+   "date": "2026-10-15",
+   "day": "Thu",
+   "route": "R5",
+   "direction": "from_campus",
+   "service": "regular",
+   "arrive_campus": null,
+   "leave_campus": "16:30",
+   "start": "16:30",
+   "end": "18:15",
+   "vehicle": "M5",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 0,
+   "seats": 15,
+   "offer_only": true,
+   "stops": [
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "16:30",
+     "action": "pick_up"
+    },
+    {
+     "code": "C4-01",
+     "name": "Al Mariah Mall, Hamdan St",
+     "time": "16:42",
+     "action": "set_down"
+    },
+    {
+     "code": "C4-02",
+     "name": "The Gate Towers, Al Reem Island",
+     "time": "16:53",
+     "action": "set_down"
+    },
+    {
+     "code": "C4-21",
+     "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
+     "time": "17:05",
+     "action": "set_down"
+    },
+    {
+     "code": "C4-03",
+     "name": "Al Wahda Mall",
+     "time": "17:17",
+     "action": "set_down"
+    },
+    {
+     "code": "C4-04",
+     "name": "Mubadala Tower, Sultan Bin Zayed St",
+     "time": "17:28",
+     "action": "set_down"
+    },
+    {
+     "code": "C4-05",
+     "name": "Yasmina School back gate, Raha Gardens",
+     "time": "17:40",
+     "action": "set_down"
+    },
+    {
+     "code": "C4-06",
+     "name": "Al Forsan Village main gate",
+     "time": "17:52",
+     "action": "set_down"
+    },
+    {
+     "code": "C4-07",
+     "name": "Al Zeina, Al Raha Beach",
+     "time": "18:03",
+     "action": "set_down"
+    },
+    {
+     "code": "C4-08",
+     "name": "Al Ghadeer community gate",
+     "time": "18:15",
      "action": "set_down"
     }
    ]
@@ -23419,6 +25417,68 @@
    ]
   },
   {
+   "run_id": "2026-10-15-R6-O3",
+   "date": "2026-10-15",
+   "day": "Thu",
+   "route": "R6",
+   "direction": "to_campus",
+   "service": "regular",
+   "arrive_campus": "10:45",
+   "leave_campus": null,
+   "start": "08:45",
+   "end": "10:45",
+   "vehicle": "M6",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 0,
+   "seats": 15,
+   "offer_only": true,
+   "stops": [
+    {
+     "code": "C4-14",
+     "name": "Dubai British School, Jumeirah Park",
+     "time": "08:45",
+     "action": "pick_up"
+    },
+    {
+     "code": "C4-13",
+     "name": "Gardens Metro Station",
+     "time": "09:05",
+     "action": "pick_up"
+    },
+    {
+     "code": "C4-12",
+     "name": "Al Furjan Centre (Pavilion)",
+     "time": "09:25",
+     "action": "pick_up"
+    },
+    {
+     "code": "C4-11",
+     "name": "Al Furjan West Centre",
+     "time": "09:45",
+     "action": "pick_up"
+    },
+    {
+     "code": "C4-10",
+     "name": "Green Community West gate",
+     "time": "10:05",
+     "action": "pick_up"
+    },
+    {
+     "code": "C4-09",
+     "name": "Holiday Inn, Al Maktoum Airport",
+     "time": "10:25",
+     "action": "pick_up"
+    },
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "10:45",
+     "action": "set_down"
+    }
+   ]
+  },
+  {
    "run_id": "2026-10-15-R6-O2",
    "date": "2026-10-15",
    "day": "Thu",
@@ -23640,6 +25700,68 @@
      "code": "UOB",
      "name": "University of Birmingham Dubai",
      "time": "17:45",
+     "action": "set_down"
+    }
+   ]
+  },
+  {
+   "run_id": "2026-10-15-R6-R2",
+   "date": "2026-10-15",
+   "day": "Thu",
+   "route": "R6",
+   "direction": "from_campus",
+   "service": "regular",
+   "arrive_campus": null,
+   "leave_campus": "16:30",
+   "start": "16:30",
+   "end": "18:15",
+   "vehicle": "M6",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 0,
+   "seats": 15,
+   "offer_only": true,
+   "stops": [
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "16:30",
+     "action": "pick_up"
+    },
+    {
+     "code": "C4-09",
+     "name": "Holiday Inn, Al Maktoum Airport",
+     "time": "16:48",
+     "action": "set_down"
+    },
+    {
+     "code": "C4-10",
+     "name": "Green Community West gate",
+     "time": "17:05",
+     "action": "set_down"
+    },
+    {
+     "code": "C4-11",
+     "name": "Al Furjan West Centre",
+     "time": "17:22",
+     "action": "set_down"
+    },
+    {
+     "code": "C4-12",
+     "name": "Al Furjan Centre (Pavilion)",
+     "time": "17:40",
+     "action": "set_down"
+    },
+    {
+     "code": "C4-13",
+     "name": "Gardens Metro Station",
+     "time": "17:58",
+     "action": "set_down"
+    },
+    {
+     "code": "C4-14",
+     "name": "Dubai British School, Jumeirah Park",
+     "time": "18:15",
      "action": "set_down"
     }
    ]
@@ -24203,6 +26325,116 @@
      "code": "UOB",
      "name": "University of Birmingham Dubai",
      "time": "17:45",
+     "action": "set_down"
+    }
+   ]
+  },
+  {
+   "run_id": "2026-10-15-R7-R2",
+   "date": "2026-10-15",
+   "day": "Thu",
+   "route": "R7",
+   "direction": "from_campus",
+   "service": "regular",
+   "arrive_campus": null,
+   "leave_campus": "16:30",
+   "start": "16:30",
+   "end": "18:15",
+   "vehicle": "M7",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 0,
+   "seats": 15,
+   "offer_only": true,
+   "stops": [
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "16:30",
+     "action": "pick_up"
+    },
+    {
+     "code": "C5-01",
+     "name": "Gold Souq Metro Station",
+     "time": "16:38",
+     "action": "set_down"
+    },
+    {
+     "code": "C5-02",
+     "name": "Al Rigga Metro Station",
+     "time": "16:45",
+     "action": "set_down"
+    },
+    {
+     "code": "C5-21",
+     "name": "Al Ghurair Centre bus stop (Ghurair City 2), Al Rigga Rd",
+     "time": "16:52",
+     "action": "set_down"
+    },
+    {
+     "code": "C5-03",
+     "name": "Creek Metro Station, Al Jaddaf",
+     "time": "17:00",
+     "action": "set_down"
+    },
+    {
+     "code": "C5-22",
+     "name": "Al Jaddaf Metro Station",
+     "time": "17:08",
+     "action": "set_down"
+    },
+    {
+     "code": "C5-04",
+     "name": "Oud Metha Metro Station",
+     "time": "17:15",
+     "action": "set_down"
+    },
+    {
+     "code": "C5-05",
+     "name": "BurJuman Mall",
+     "time": "17:22",
+     "action": "set_down"
+    },
+    {
+     "code": "C5-06",
+     "name": "Al Wasl Building, Al Hudaiba",
+     "time": "17:30",
+     "action": "set_down"
+    },
+    {
+     "code": "C5-07",
+     "name": "World Trade Centre Metro Station",
+     "time": "17:38",
+     "action": "set_down"
+    },
+    {
+     "code": "C5-08",
+     "name": "Financial Centre Metro Station",
+     "time": "17:45",
+     "action": "set_down"
+    },
+    {
+     "code": "C5-09",
+     "name": "Bay Avenue Mall, Business Bay",
+     "time": "17:52",
+     "action": "set_down"
+    },
+    {
+     "code": "C5-10",
+     "name": "Bay Square, Business Bay",
+     "time": "18:00",
+     "action": "set_down"
+    },
+    {
+     "code": "C5-11",
+     "name": "One Park Avenue, Sobha Hartland",
+     "time": "18:08",
+     "action": "set_down"
+    },
+    {
+     "code": "C5-12",
+     "name": "Wasl Green Park, Ras Al Khor",
+     "time": "18:15",
      "action": "set_down"
     }
    ]
@@ -25095,6 +27327,210 @@
    ]
   },
   {
+   "run_id": "2026-10-16-R1-O2",
+   "date": "2026-10-16",
+   "day": "Fri",
+   "route": "R1",
+   "direction": "to_campus",
+   "service": "regular",
+   "arrive_campus": "09:45",
+   "leave_campus": null,
+   "start": "07:45",
+   "end": "09:45",
+   "vehicle": "M1",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 0,
+   "seats": 15,
+   "offer_only": true,
+   "stops": [
+    {
+     "code": "C1-02",
+     "name": "City Centre Al Zahia",
+     "time": "07:45",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-06",
+     "name": "Sahara Centre",
+     "time": "08:02",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-16",
+     "name": "LuLu Hypermarket Al Nahda, Sharjah",
+     "time": "08:19",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-05",
+     "name": "Sheikha Maryam Tower, Al Taawun",
+     "time": "08:36",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-04",
+     "name": "Nesto Hypermarket, King Faisal St",
+     "time": "08:54",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-03",
+     "name": "Lulu Hypermarket Maysaloon",
+     "time": "09:11",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-01",
+     "name": "Al Khor Towers, Ajman",
+     "time": "09:28",
+     "action": "pick_up"
+    },
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "09:45",
+     "action": "set_down"
+    }
+   ]
+  },
+  {
+   "run_id": "2026-10-16-R1-O3",
+   "date": "2026-10-16",
+   "day": "Fri",
+   "route": "R1",
+   "direction": "to_campus",
+   "service": "regular",
+   "arrive_campus": "10:45",
+   "leave_campus": null,
+   "start": "08:45",
+   "end": "10:45",
+   "vehicle": "M1",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 0,
+   "seats": 15,
+   "offer_only": true,
+   "stops": [
+    {
+     "code": "C1-02",
+     "name": "City Centre Al Zahia",
+     "time": "08:45",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-06",
+     "name": "Sahara Centre",
+     "time": "09:02",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-16",
+     "name": "LuLu Hypermarket Al Nahda, Sharjah",
+     "time": "09:19",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-05",
+     "name": "Sheikha Maryam Tower, Al Taawun",
+     "time": "09:36",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-04",
+     "name": "Nesto Hypermarket, King Faisal St",
+     "time": "09:54",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-03",
+     "name": "Lulu Hypermarket Maysaloon",
+     "time": "10:11",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-01",
+     "name": "Al Khor Towers, Ajman",
+     "time": "10:28",
+     "action": "pick_up"
+    },
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "10:45",
+     "action": "set_down"
+    }
+   ]
+  },
+  {
+   "run_id": "2026-10-16-R1-O4",
+   "date": "2026-10-16",
+   "day": "Fri",
+   "route": "R1",
+   "direction": "to_campus",
+   "service": "regular",
+   "arrive_campus": "12:45",
+   "leave_campus": null,
+   "start": "10:45",
+   "end": "12:45",
+   "vehicle": "M1",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 0,
+   "seats": 15,
+   "offer_only": true,
+   "stops": [
+    {
+     "code": "C1-02",
+     "name": "City Centre Al Zahia",
+     "time": "10:45",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-06",
+     "name": "Sahara Centre",
+     "time": "11:02",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-16",
+     "name": "LuLu Hypermarket Al Nahda, Sharjah",
+     "time": "11:19",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-05",
+     "name": "Sheikha Maryam Tower, Al Taawun",
+     "time": "11:36",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-04",
+     "name": "Nesto Hypermarket, King Faisal St",
+     "time": "11:54",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-03",
+     "name": "Lulu Hypermarket Maysaloon",
+     "time": "12:11",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-01",
+     "name": "Al Khor Towers, Ajman",
+     "time": "12:28",
+     "action": "pick_up"
+    },
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "12:45",
+     "action": "set_down"
+    }
+   ]
+  },
+  {
    "run_id": "2026-10-16-R1-R0",
    "date": "2026-10-16",
    "day": "Fri",
@@ -25408,6 +27844,264 @@
      "lat": 25.1321925,
      "lng": 55.4223161,
      "where_exactly": ""
+    }
+   ]
+  },
+  {
+   "run_id": "2026-10-16-R2-O2",
+   "date": "2026-10-16",
+   "day": "Fri",
+   "route": "R2",
+   "direction": "to_campus",
+   "service": "regular",
+   "arrive_campus": "09:45",
+   "leave_campus": null,
+   "start": "07:45",
+   "end": "09:45",
+   "vehicle": "M2",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 0,
+   "seats": 15,
+   "offer_only": true,
+   "stops": [
+    {
+     "code": "C1-14",
+     "name": "Olivz Residence, Warsan 1",
+     "time": "07:45",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-13",
+     "name": "Nasayem Avenue, Mirdif Hills",
+     "time": "07:57",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-12",
+     "name": "Uptown Mirdif",
+     "time": "08:09",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-23",
+     "name": "Centrepoint, Mirdif City Centre",
+     "time": "08:21",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-11",
+     "name": "Madina Mall",
+     "time": "08:33",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-10",
+     "name": "Dubai Festival City Mall",
+     "time": "08:45",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-09",
+     "name": "DAFZA Metro Station",
+     "time": "08:57",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-08",
+     "name": "Mattar Tower, Al Nahda 1",
+     "time": "09:09",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-26",
+     "name": "Dubai Carmel School, Amman St, Al Nahda 2",
+     "time": "09:21",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-07",
+     "name": "Masafi 1, Al Nahda 2",
+     "time": "09:33",
+     "action": "pick_up"
+    },
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "09:45",
+     "action": "set_down"
+    }
+   ]
+  },
+  {
+   "run_id": "2026-10-16-R2-O3",
+   "date": "2026-10-16",
+   "day": "Fri",
+   "route": "R2",
+   "direction": "to_campus",
+   "service": "regular",
+   "arrive_campus": "10:45",
+   "leave_campus": null,
+   "start": "08:45",
+   "end": "10:45",
+   "vehicle": "M2",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 0,
+   "seats": 15,
+   "offer_only": true,
+   "stops": [
+    {
+     "code": "C1-14",
+     "name": "Olivz Residence, Warsan 1",
+     "time": "08:45",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-13",
+     "name": "Nasayem Avenue, Mirdif Hills",
+     "time": "08:57",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-12",
+     "name": "Uptown Mirdif",
+     "time": "09:09",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-23",
+     "name": "Centrepoint, Mirdif City Centre",
+     "time": "09:21",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-11",
+     "name": "Madina Mall",
+     "time": "09:33",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-10",
+     "name": "Dubai Festival City Mall",
+     "time": "09:45",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-09",
+     "name": "DAFZA Metro Station",
+     "time": "09:57",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-08",
+     "name": "Mattar Tower, Al Nahda 1",
+     "time": "10:09",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-26",
+     "name": "Dubai Carmel School, Amman St, Al Nahda 2",
+     "time": "10:21",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-07",
+     "name": "Masafi 1, Al Nahda 2",
+     "time": "10:33",
+     "action": "pick_up"
+    },
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "10:45",
+     "action": "set_down"
+    }
+   ]
+  },
+  {
+   "run_id": "2026-10-16-R2-O4",
+   "date": "2026-10-16",
+   "day": "Fri",
+   "route": "R2",
+   "direction": "to_campus",
+   "service": "regular",
+   "arrive_campus": "12:45",
+   "leave_campus": null,
+   "start": "10:45",
+   "end": "12:45",
+   "vehicle": "M2",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 0,
+   "seats": 15,
+   "offer_only": true,
+   "stops": [
+    {
+     "code": "C1-14",
+     "name": "Olivz Residence, Warsan 1",
+     "time": "10:45",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-13",
+     "name": "Nasayem Avenue, Mirdif Hills",
+     "time": "10:57",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-12",
+     "name": "Uptown Mirdif",
+     "time": "11:09",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-23",
+     "name": "Centrepoint, Mirdif City Centre",
+     "time": "11:21",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-11",
+     "name": "Madina Mall",
+     "time": "11:33",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-10",
+     "name": "Dubai Festival City Mall",
+     "time": "11:45",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-09",
+     "name": "DAFZA Metro Station",
+     "time": "11:57",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-08",
+     "name": "Mattar Tower, Al Nahda 1",
+     "time": "12:09",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-26",
+     "name": "Dubai Carmel School, Amman St, Al Nahda 2",
+     "time": "12:21",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-07",
+     "name": "Masafi 1, Al Nahda 2",
+     "time": "12:33",
+     "action": "pick_up"
+    },
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "12:45",
+     "action": "set_down"
     }
    ]
   },
@@ -25820,6 +28514,166 @@
    ]
   },
   {
+   "run_id": "2026-10-16-R3-O3",
+   "date": "2026-10-16",
+   "day": "Fri",
+   "route": "R3",
+   "direction": "to_campus",
+   "service": "regular",
+   "arrive_campus": "10:45",
+   "leave_campus": null,
+   "start": "08:45",
+   "end": "10:45",
+   "vehicle": "M3",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 0,
+   "seats": 15,
+   "offer_only": true,
+   "stops": [
+    {
+     "code": "C2-08",
+     "name": "Mall of the Emirates",
+     "time": "08:45",
+     "action": "pick_up"
+    },
+    {
+     "code": "C2-16",
+     "name": "Umm Suqeim Rd bus stop by ENOC 1099, Al Barsha 1",
+     "time": "08:58",
+     "action": "pick_up"
+    },
+    {
+     "code": "C2-07",
+     "name": "Dubai Internet City Metro Station",
+     "time": "09:12",
+     "action": "pick_up"
+    },
+    {
+     "code": "C2-06",
+     "name": "The Springs Souk",
+     "time": "09:25",
+     "action": "pick_up"
+    },
+    {
+     "code": "C2-05",
+     "name": "The Meadows Village",
+     "time": "09:38",
+     "action": "pick_up"
+    },
+    {
+     "code": "C2-04",
+     "name": "Sobha Realty Metro Station",
+     "time": "09:52",
+     "action": "pick_up"
+    },
+    {
+     "code": "C2-03",
+     "name": "DMCC Metro Station",
+     "time": "10:05",
+     "action": "pick_up"
+    },
+    {
+     "code": "C2-02",
+     "name": "Dubai Marina Mall",
+     "time": "10:18",
+     "action": "pick_up"
+    },
+    {
+     "code": "C2-01",
+     "name": "Al Sarood, Shoreline 13, Palm Jumeirah",
+     "time": "10:32",
+     "action": "pick_up"
+    },
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "10:45",
+     "action": "set_down"
+    }
+   ]
+  },
+  {
+   "run_id": "2026-10-16-R3-O4",
+   "date": "2026-10-16",
+   "day": "Fri",
+   "route": "R3",
+   "direction": "to_campus",
+   "service": "regular",
+   "arrive_campus": "12:45",
+   "leave_campus": null,
+   "start": "10:45",
+   "end": "12:45",
+   "vehicle": "M3",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 0,
+   "seats": 15,
+   "offer_only": true,
+   "stops": [
+    {
+     "code": "C2-08",
+     "name": "Mall of the Emirates",
+     "time": "10:45",
+     "action": "pick_up"
+    },
+    {
+     "code": "C2-16",
+     "name": "Umm Suqeim Rd bus stop by ENOC 1099, Al Barsha 1",
+     "time": "10:58",
+     "action": "pick_up"
+    },
+    {
+     "code": "C2-07",
+     "name": "Dubai Internet City Metro Station",
+     "time": "11:12",
+     "action": "pick_up"
+    },
+    {
+     "code": "C2-06",
+     "name": "The Springs Souk",
+     "time": "11:25",
+     "action": "pick_up"
+    },
+    {
+     "code": "C2-05",
+     "name": "The Meadows Village",
+     "time": "11:38",
+     "action": "pick_up"
+    },
+    {
+     "code": "C2-04",
+     "name": "Sobha Realty Metro Station",
+     "time": "11:52",
+     "action": "pick_up"
+    },
+    {
+     "code": "C2-03",
+     "name": "DMCC Metro Station",
+     "time": "12:05",
+     "action": "pick_up"
+    },
+    {
+     "code": "C2-02",
+     "name": "Dubai Marina Mall",
+     "time": "12:18",
+     "action": "pick_up"
+    },
+    {
+     "code": "C2-01",
+     "name": "Al Sarood, Shoreline 13, Palm Jumeirah",
+     "time": "12:32",
+     "action": "pick_up"
+    },
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "12:45",
+     "action": "set_down"
+    }
+   ]
+  },
+  {
    "run_id": "2026-10-16-R3-R0",
    "date": "2026-10-16",
    "day": "Fri",
@@ -26202,6 +29056,250 @@
      "lat": 25.1321925,
      "lng": 55.4223161,
      "where_exactly": ""
+    }
+   ]
+  },
+  {
+   "run_id": "2026-10-16-R4-O3",
+   "date": "2026-10-16",
+   "day": "Fri",
+   "route": "R4",
+   "direction": "to_campus",
+   "service": "regular",
+   "arrive_campus": "10:45",
+   "leave_campus": null,
+   "start": "08:45",
+   "end": "10:45",
+   "vehicle": "M4",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 0,
+   "seats": 15,
+   "offer_only": true,
+   "stops": [
+    {
+     "code": "C3-16",
+     "name": "Souq Extra, Silicon Oasis",
+     "time": "08:45",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-22",
+     "name": "Oasis Star, Nadd Hessa (Silicon Oasis)",
+     "time": "08:53",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-15",
+     "name": "Silicon Oasis Avenue Mall 2",
+     "time": "09:00",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-14",
+     "name": "Skycourts Towers",
+     "time": "09:07",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-13",
+     "name": "Villanova, La Rosa",
+     "time": "09:15",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-12",
+     "name": "Arabian Ranches 3",
+     "time": "09:23",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-11",
+     "name": "Living Legends",
+     "time": "09:30",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-09",
+     "name": "Spinneys, Town Square",
+     "time": "09:37",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-08",
+     "name": "Serena, Bella Casa",
+     "time": "09:45",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-07",
+     "name": "First Avenue Mall, Motor City",
+     "time": "09:53",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-06",
+     "name": "Elan 1, Tilal Al Ghaf",
+     "time": "10:00",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-05",
+     "name": "City Centre Me'aisem",
+     "time": "10:07",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-04",
+     "name": "Dubai International Cricket Stadium",
+     "time": "10:15",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-03",
+     "name": "Dubai Miracle Garden",
+     "time": "10:23",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-02",
+     "name": "Circle Mall, JVC",
+     "time": "10:30",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-01",
+     "name": "JSS International School",
+     "time": "10:37",
+     "action": "pick_up"
+    },
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "10:45",
+     "action": "set_down"
+    }
+   ]
+  },
+  {
+   "run_id": "2026-10-16-R4-O4",
+   "date": "2026-10-16",
+   "day": "Fri",
+   "route": "R4",
+   "direction": "to_campus",
+   "service": "regular",
+   "arrive_campus": "12:45",
+   "leave_campus": null,
+   "start": "10:45",
+   "end": "12:45",
+   "vehicle": "M4",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 0,
+   "seats": 15,
+   "offer_only": true,
+   "stops": [
+    {
+     "code": "C3-16",
+     "name": "Souq Extra, Silicon Oasis",
+     "time": "10:45",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-22",
+     "name": "Oasis Star, Nadd Hessa (Silicon Oasis)",
+     "time": "10:53",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-15",
+     "name": "Silicon Oasis Avenue Mall 2",
+     "time": "11:00",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-14",
+     "name": "Skycourts Towers",
+     "time": "11:07",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-13",
+     "name": "Villanova, La Rosa",
+     "time": "11:15",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-12",
+     "name": "Arabian Ranches 3",
+     "time": "11:23",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-11",
+     "name": "Living Legends",
+     "time": "11:30",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-09",
+     "name": "Spinneys, Town Square",
+     "time": "11:37",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-08",
+     "name": "Serena, Bella Casa",
+     "time": "11:45",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-07",
+     "name": "First Avenue Mall, Motor City",
+     "time": "11:53",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-06",
+     "name": "Elan 1, Tilal Al Ghaf",
+     "time": "12:00",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-05",
+     "name": "City Centre Me'aisem",
+     "time": "12:07",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-04",
+     "name": "Dubai International Cricket Stadium",
+     "time": "12:15",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-03",
+     "name": "Dubai Miracle Garden",
+     "time": "12:23",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-02",
+     "name": "Circle Mall, JVC",
+     "time": "12:30",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-01",
+     "name": "JSS International School",
+     "time": "12:37",
+     "action": "pick_up"
+    },
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "12:45",
+     "action": "set_down"
     }
    ]
   },
@@ -26594,6 +29692,86 @@
    ]
   },
   {
+   "run_id": "2026-10-16-R5-O3",
+   "date": "2026-10-16",
+   "day": "Fri",
+   "route": "R5",
+   "direction": "to_campus",
+   "service": "regular",
+   "arrive_campus": "10:45",
+   "leave_campus": null,
+   "start": "08:45",
+   "end": "10:45",
+   "vehicle": "M5",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 0,
+   "seats": 15,
+   "offer_only": true,
+   "stops": [
+    {
+     "code": "C4-08",
+     "name": "Al Ghadeer community gate",
+     "time": "08:45",
+     "action": "pick_up"
+    },
+    {
+     "code": "C4-07",
+     "name": "Al Zeina, Al Raha Beach",
+     "time": "08:58",
+     "action": "pick_up"
+    },
+    {
+     "code": "C4-06",
+     "name": "Al Forsan Village main gate",
+     "time": "09:12",
+     "action": "pick_up"
+    },
+    {
+     "code": "C4-05",
+     "name": "Yasmina School back gate, Raha Gardens",
+     "time": "09:25",
+     "action": "pick_up"
+    },
+    {
+     "code": "C4-04",
+     "name": "Mubadala Tower, Sultan Bin Zayed St",
+     "time": "09:38",
+     "action": "pick_up"
+    },
+    {
+     "code": "C4-03",
+     "name": "Al Wahda Mall",
+     "time": "09:52",
+     "action": "pick_up"
+    },
+    {
+     "code": "C4-21",
+     "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
+     "time": "10:05",
+     "action": "pick_up"
+    },
+    {
+     "code": "C4-02",
+     "name": "The Gate Towers, Al Reem Island",
+     "time": "10:18",
+     "action": "pick_up"
+    },
+    {
+     "code": "C4-01",
+     "name": "Al Mariah Mall, Hamdan St",
+     "time": "10:32",
+     "action": "pick_up"
+    },
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "10:45",
+     "action": "set_down"
+    }
+   ]
+  },
+  {
    "run_id": "2026-10-16-R5-R0",
    "date": "2026-10-16",
    "day": "Fri",
@@ -26835,6 +30013,68 @@
    ]
   },
   {
+   "run_id": "2026-10-16-R6-O3",
+   "date": "2026-10-16",
+   "day": "Fri",
+   "route": "R6",
+   "direction": "to_campus",
+   "service": "regular",
+   "arrive_campus": "10:45",
+   "leave_campus": null,
+   "start": "08:45",
+   "end": "10:45",
+   "vehicle": "M6",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 0,
+   "seats": 15,
+   "offer_only": true,
+   "stops": [
+    {
+     "code": "C4-14",
+     "name": "Dubai British School, Jumeirah Park",
+     "time": "08:45",
+     "action": "pick_up"
+    },
+    {
+     "code": "C4-13",
+     "name": "Gardens Metro Station",
+     "time": "09:05",
+     "action": "pick_up"
+    },
+    {
+     "code": "C4-12",
+     "name": "Al Furjan Centre (Pavilion)",
+     "time": "09:25",
+     "action": "pick_up"
+    },
+    {
+     "code": "C4-11",
+     "name": "Al Furjan West Centre",
+     "time": "09:45",
+     "action": "pick_up"
+    },
+    {
+     "code": "C4-10",
+     "name": "Green Community West gate",
+     "time": "10:05",
+     "action": "pick_up"
+    },
+    {
+     "code": "C4-09",
+     "name": "Holiday Inn, Al Maktoum Airport",
+     "time": "10:25",
+     "action": "pick_up"
+    },
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "10:45",
+     "action": "set_down"
+    }
+   ]
+  },
+  {
    "run_id": "2026-10-16-R6-O2",
    "date": "2026-10-16",
    "day": "Fri",
@@ -26877,6 +30117,68 @@
      "lat": 25.1321925,
      "lng": 55.4223161,
      "where_exactly": ""
+    }
+   ]
+  },
+  {
+   "run_id": "2026-10-16-R6-O4",
+   "date": "2026-10-16",
+   "day": "Fri",
+   "route": "R6",
+   "direction": "to_campus",
+   "service": "regular",
+   "arrive_campus": "12:45",
+   "leave_campus": null,
+   "start": "10:45",
+   "end": "12:45",
+   "vehicle": "M6",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 0,
+   "seats": 15,
+   "offer_only": true,
+   "stops": [
+    {
+     "code": "C4-14",
+     "name": "Dubai British School, Jumeirah Park",
+     "time": "10:45",
+     "action": "pick_up"
+    },
+    {
+     "code": "C4-13",
+     "name": "Gardens Metro Station",
+     "time": "11:05",
+     "action": "pick_up"
+    },
+    {
+     "code": "C4-12",
+     "name": "Al Furjan Centre (Pavilion)",
+     "time": "11:25",
+     "action": "pick_up"
+    },
+    {
+     "code": "C4-11",
+     "name": "Al Furjan West Centre",
+     "time": "11:45",
+     "action": "pick_up"
+    },
+    {
+     "code": "C4-10",
+     "name": "Green Community West gate",
+     "time": "12:05",
+     "action": "pick_up"
+    },
+    {
+     "code": "C4-09",
+     "name": "Holiday Inn, Al Maktoum Airport",
+     "time": "12:25",
+     "action": "pick_up"
+    },
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "12:45",
+     "action": "set_down"
     }
    ]
   },
@@ -27173,6 +30475,226 @@
      "lat": 25.1321925,
      "lng": 55.4223161,
      "where_exactly": ""
+    }
+   ]
+  },
+  {
+   "run_id": "2026-10-16-R7-O3",
+   "date": "2026-10-16",
+   "day": "Fri",
+   "route": "R7",
+   "direction": "to_campus",
+   "service": "regular",
+   "arrive_campus": "10:45",
+   "leave_campus": null,
+   "start": "08:45",
+   "end": "10:45",
+   "vehicle": "M7",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 0,
+   "seats": 15,
+   "offer_only": true,
+   "stops": [
+    {
+     "code": "C5-12",
+     "name": "Wasl Green Park, Ras Al Khor",
+     "time": "08:45",
+     "action": "pick_up"
+    },
+    {
+     "code": "C5-11",
+     "name": "One Park Avenue, Sobha Hartland",
+     "time": "08:54",
+     "action": "pick_up"
+    },
+    {
+     "code": "C5-10",
+     "name": "Bay Square, Business Bay",
+     "time": "09:02",
+     "action": "pick_up"
+    },
+    {
+     "code": "C5-09",
+     "name": "Bay Avenue Mall, Business Bay",
+     "time": "09:11",
+     "action": "pick_up"
+    },
+    {
+     "code": "C5-08",
+     "name": "Financial Centre Metro Station",
+     "time": "09:19",
+     "action": "pick_up"
+    },
+    {
+     "code": "C5-07",
+     "name": "World Trade Centre Metro Station",
+     "time": "09:28",
+     "action": "pick_up"
+    },
+    {
+     "code": "C5-06",
+     "name": "Al Wasl Building, Al Hudaiba",
+     "time": "09:36",
+     "action": "pick_up"
+    },
+    {
+     "code": "C5-05",
+     "name": "BurJuman Mall",
+     "time": "09:45",
+     "action": "pick_up"
+    },
+    {
+     "code": "C5-04",
+     "name": "Oud Metha Metro Station",
+     "time": "09:54",
+     "action": "pick_up"
+    },
+    {
+     "code": "C5-22",
+     "name": "Al Jaddaf Metro Station",
+     "time": "10:02",
+     "action": "pick_up"
+    },
+    {
+     "code": "C5-03",
+     "name": "Creek Metro Station, Al Jaddaf",
+     "time": "10:11",
+     "action": "pick_up"
+    },
+    {
+     "code": "C5-21",
+     "name": "Al Ghurair Centre bus stop (Ghurair City 2), Al Rigga Rd",
+     "time": "10:19",
+     "action": "pick_up"
+    },
+    {
+     "code": "C5-02",
+     "name": "Al Rigga Metro Station",
+     "time": "10:28",
+     "action": "pick_up"
+    },
+    {
+     "code": "C5-01",
+     "name": "Gold Souq Metro Station",
+     "time": "10:36",
+     "action": "pick_up"
+    },
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "10:45",
+     "action": "set_down"
+    }
+   ]
+  },
+  {
+   "run_id": "2026-10-16-R7-O4",
+   "date": "2026-10-16",
+   "day": "Fri",
+   "route": "R7",
+   "direction": "to_campus",
+   "service": "regular",
+   "arrive_campus": "12:45",
+   "leave_campus": null,
+   "start": "10:45",
+   "end": "12:45",
+   "vehicle": "M7",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 0,
+   "seats": 15,
+   "offer_only": true,
+   "stops": [
+    {
+     "code": "C5-12",
+     "name": "Wasl Green Park, Ras Al Khor",
+     "time": "10:45",
+     "action": "pick_up"
+    },
+    {
+     "code": "C5-11",
+     "name": "One Park Avenue, Sobha Hartland",
+     "time": "10:54",
+     "action": "pick_up"
+    },
+    {
+     "code": "C5-10",
+     "name": "Bay Square, Business Bay",
+     "time": "11:02",
+     "action": "pick_up"
+    },
+    {
+     "code": "C5-09",
+     "name": "Bay Avenue Mall, Business Bay",
+     "time": "11:11",
+     "action": "pick_up"
+    },
+    {
+     "code": "C5-08",
+     "name": "Financial Centre Metro Station",
+     "time": "11:19",
+     "action": "pick_up"
+    },
+    {
+     "code": "C5-07",
+     "name": "World Trade Centre Metro Station",
+     "time": "11:28",
+     "action": "pick_up"
+    },
+    {
+     "code": "C5-06",
+     "name": "Al Wasl Building, Al Hudaiba",
+     "time": "11:36",
+     "action": "pick_up"
+    },
+    {
+     "code": "C5-05",
+     "name": "BurJuman Mall",
+     "time": "11:45",
+     "action": "pick_up"
+    },
+    {
+     "code": "C5-04",
+     "name": "Oud Metha Metro Station",
+     "time": "11:54",
+     "action": "pick_up"
+    },
+    {
+     "code": "C5-22",
+     "name": "Al Jaddaf Metro Station",
+     "time": "12:02",
+     "action": "pick_up"
+    },
+    {
+     "code": "C5-03",
+     "name": "Creek Metro Station, Al Jaddaf",
+     "time": "12:11",
+     "action": "pick_up"
+    },
+    {
+     "code": "C5-21",
+     "name": "Al Ghurair Centre bus stop (Ghurair City 2), Al Rigga Rd",
+     "time": "12:19",
+     "action": "pick_up"
+    },
+    {
+     "code": "C5-02",
+     "name": "Al Rigga Metro Station",
+     "time": "12:28",
+     "action": "pick_up"
+    },
+    {
+     "code": "C5-01",
+     "name": "Gold Souq Metro Station",
+     "time": "12:36",
+     "action": "pick_up"
+    },
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "12:45",
+     "action": "set_down"
     }
    ]
   },
