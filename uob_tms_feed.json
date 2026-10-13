@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-13T08:04:31Z",
+ "generated_at": "2026-10-13T08:37:16Z",
  "week": "2026-10-09 to 2026-10-18",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional.",
@@ -19753,106 +19753,6 @@
    ]
   },
   {
-   "run_id": "2026-10-14-R8-O5S",
-   "date": "2026-10-14",
-   "day": "Wed",
-   "route": "R8",
-   "direction": "to_campus",
-   "service": "masters",
-   "arrive_campus": "17:45",
-   "leave_campus": null,
-   "start": "15:12",
-   "end": "17:45",
-   "vehicle": "M8",
-   "vehicle_type": "Rosa",
-   "capacity": 34,
-   "booked": 8,
-   "seats": 34,
-   "stops": [
-    {
-     "code": "C4-09",
-     "name": "Holiday Inn, Al Maktoum Airport",
-     "time": "15:12",
-     "action": "pick_up",
-     "lat": 24.867791,
-     "lng": 55.146192,
-     "where_exactly": "Hotel entrance, Aviation City."
-    },
-    {
-     "code": "C2-08",
-     "name": "Mall of the Emirates",
-     "time": "15:45",
-     "action": "pick_up",
-     "lat": 25.1201411,
-     "lng": 55.2011196,
-     "where_exactly": "Pick-up point at 25.1201411, 55.2011196 (metro side)."
-    },
-    {
-     "code": "C2-07",
-     "name": "Dubai Internet City Metro Station",
-     "time": "15:59",
-     "action": "pick_up",
-     "lat": 25.099769538054428,
-     "lng": 55.17320213081937,
-     "where_exactly": "RTA bus stop \"Dubai Internet City Metro Bus Stop Landside 1\" (landside, Barsha Heights side of the metro) - pick-up and set-down here; coordinator-confirmed pin 12 Oct."
-    },
-    {
-     "code": "C2-11",
-     "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "16:05",
-     "action": "pick_up",
-     "lat": 25.093492,
-     "lng": 55.177807,
-     "where_exactly": "Pick and drop area outside the Al Asmawi Building."
-    },
-    {
-     "code": "C3-05",
-     "name": "City Centre Me'aisem",
-     "time": "16:27",
-     "action": "pick_up",
-     "lat": 25.040494,
-     "lng": 55.195971,
-     "where_exactly": "Outside drop-off area by Tim Hortons, City Centre Me'aisem."
-    },
-    {
-     "code": "C3-17",
-     "name": "Eagle Heights, Dubai Sports City",
-     "time": "16:38",
-     "action": "pick_up",
-     "lat": 25.036628,
-     "lng": 55.221187,
-     "where_exactly": "Outside the front of the Eagle Heights building."
-    },
-    {
-     "code": "C3-12",
-     "name": "Arabian Ranches 3",
-     "time": "17:02",
-     "action": "pick_up",
-     "lat": 25.069629,
-     "lng": 55.323824,
-     "where_exactly": "Main entrance of the Arabian Ranches 3 souk."
-    },
-    {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
-     "time": "17:26",
-     "action": "pick_up",
-     "lat": 25.11174,
-     "lng": 55.375866,
-     "where_exactly": "Bus stop shelter outside LuLu Hypermarket, Silicon Oasis Avenue Mall."
-    },
-    {
-     "code": "UOB",
-     "name": "University of Birmingham Dubai",
-     "time": "17:45",
-     "action": "set_down",
-     "lat": 25.1321925,
-     "lng": 55.4223161,
-     "where_exactly": ""
-    }
-   ]
-  },
-  {
    "run_id": "2026-10-14-R8-O5X",
    "date": "2026-10-14",
    "day": "Wed",
@@ -20004,6 +19904,134 @@
    ]
   },
   {
+   "run_id": "2026-10-14-R8-O5C",
+   "date": "2026-10-14",
+   "day": "Wed",
+   "route": "R8",
+   "direction": "to_campus",
+   "service": "masters",
+   "arrive_campus": "17:45",
+   "leave_campus": null,
+   "start": "16:27",
+   "end": "17:45",
+   "vehicle": "M8",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 4,
+   "seats": 15,
+   "stops": [
+    {
+     "code": "C3-05",
+     "name": "City Centre Me'aisem",
+     "time": "16:27",
+     "action": "pick_up",
+     "lat": 25.040494,
+     "lng": 55.195971,
+     "where_exactly": "Outside drop-off area by Tim Hortons, City Centre Me'aisem."
+    },
+    {
+     "code": "C3-17",
+     "name": "Eagle Heights, Dubai Sports City",
+     "time": "16:38",
+     "action": "pick_up",
+     "lat": 25.036628,
+     "lng": 55.221187,
+     "where_exactly": "Outside the front of the Eagle Heights building."
+    },
+    {
+     "code": "C3-12",
+     "name": "Arabian Ranches 3",
+     "time": "17:02",
+     "action": "pick_up",
+     "lat": 25.069629,
+     "lng": 55.323824,
+     "where_exactly": "Main entrance of the Arabian Ranches 3 souk."
+    },
+    {
+     "code": "C3-15",
+     "name": "Silicon Oasis Avenue Mall 2",
+     "time": "17:26",
+     "action": "pick_up",
+     "lat": 25.11174,
+     "lng": 55.375866,
+     "where_exactly": "Bus stop shelter outside LuLu Hypermarket, Silicon Oasis Avenue Mall."
+    },
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "17:45",
+     "action": "set_down",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    }
+   ]
+  },
+  {
+   "run_id": "2026-10-14-R8-O5S",
+   "date": "2026-10-14",
+   "day": "Wed",
+   "route": "R8",
+   "direction": "to_campus",
+   "service": "masters",
+   "arrive_campus": "17:45",
+   "leave_campus": null,
+   "start": "16:30",
+   "end": "17:45",
+   "vehicle": "M8",
+   "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 4,
+   "seats": 34,
+   "stops": [
+    {
+     "code": "C4-09",
+     "name": "Holiday Inn, Al Maktoum Airport",
+     "time": "16:30",
+     "action": "pick_up",
+     "lat": 24.867791,
+     "lng": 55.146192,
+     "where_exactly": "Hotel entrance, Aviation City."
+    },
+    {
+     "code": "C2-11",
+     "name": "Al Asmawi Building, Al Thanyah 1",
+     "time": "16:59",
+     "action": "pick_up",
+     "lat": 25.093492,
+     "lng": 55.177807,
+     "where_exactly": "Pick and drop area outside the Al Asmawi Building."
+    },
+    {
+     "code": "C2-07",
+     "name": "Dubai Internet City Metro Station",
+     "time": "17:05",
+     "action": "pick_up",
+     "lat": 25.099769538054428,
+     "lng": 55.17320213081937,
+     "where_exactly": "RTA bus stop \"Dubai Internet City Metro Bus Stop Landside 1\" (landside, Barsha Heights side of the metro) - pick-up and set-down here; coordinator-confirmed pin 12 Oct."
+    },
+    {
+     "code": "C2-08",
+     "name": "Mall of the Emirates",
+     "time": "17:19",
+     "action": "pick_up",
+     "lat": 25.1201411,
+     "lng": 55.2011196,
+     "where_exactly": "Pick-up point at 25.1201411, 55.2011196 (metro side)."
+    },
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "17:45",
+     "action": "set_down",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    }
+   ]
+  },
+  {
    "run_id": "2026-10-14-R8-O5N",
    "date": "2026-10-14",
    "day": "Wed",
@@ -20123,11 +20151,75 @@
    "arrive_campus": null,
    "leave_campus": "21:36",
    "start": "21:36",
-   "end": "23:25",
+   "end": "22:37",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 8,
+   "booked": 4,
+   "seats": 15,
+   "stops": [
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "21:36",
+     "action": "pick_up",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    },
+    {
+     "code": "C2-08",
+     "name": "Mall of the Emirates",
+     "time": "21:58",
+     "action": "set_down",
+     "lat": 25.1201411,
+     "lng": 55.2011196,
+     "where_exactly": "Pick-up point at 25.1201411, 55.2011196 (metro side)."
+    },
+    {
+     "code": "C2-07",
+     "name": "Dubai Internet City Metro Station",
+     "time": "22:07",
+     "action": "set_down",
+     "lat": 25.099769538054428,
+     "lng": 55.17320213081937,
+     "where_exactly": "RTA bus stop \"Dubai Internet City Metro Bus Stop Landside 1\" (landside, Barsha Heights side of the metro) - pick-up and set-down here; coordinator-confirmed pin 12 Oct."
+    },
+    {
+     "code": "C2-11",
+     "name": "Al Asmawi Building, Al Thanyah 1",
+     "time": "22:12",
+     "action": "set_down",
+     "lat": 25.093492,
+     "lng": 55.177807,
+     "where_exactly": "Pick and drop area outside the Al Asmawi Building."
+    },
+    {
+     "code": "C4-09",
+     "name": "Holiday Inn, Al Maktoum Airport",
+     "time": "22:37",
+     "action": "set_down",
+     "lat": 24.867791,
+     "lng": 55.146192,
+     "where_exactly": "Hotel entrance, Aviation City."
+    }
+   ]
+  },
+  {
+   "run_id": "2026-10-14-R8-R4C",
+   "date": "2026-10-14",
+   "day": "Wed",
+   "route": "R8",
+   "direction": "from_campus",
+   "service": "masters",
+   "arrive_campus": null,
+   "leave_campus": "21:36",
+   "start": "21:36",
+   "end": "22:28",
+   "vehicle": "M8",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 4,
    "seats": 15,
    "stops": [
     {
@@ -20174,42 +20266,6 @@
      "lat": 25.040494,
      "lng": 55.195971,
      "where_exactly": "Outside drop-off area by Tim Hortons, City Centre Me'aisem."
-    },
-    {
-     "code": "C2-11",
-     "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "22:43",
-     "action": "set_down",
-     "lat": 25.093492,
-     "lng": 55.177807,
-     "where_exactly": "Pick and drop area outside the Al Asmawi Building."
-    },
-    {
-     "code": "C2-07",
-     "name": "Dubai Internet City Metro Station",
-     "time": "22:48",
-     "action": "set_down",
-     "lat": 25.099769538054428,
-     "lng": 55.17320213081937,
-     "where_exactly": "RTA bus stop \"Dubai Internet City Metro Bus Stop Landside 1\" (landside, Barsha Heights side of the metro) - pick-up and set-down here; coordinator-confirmed pin 12 Oct."
-    },
-    {
-     "code": "C2-08",
-     "name": "Mall of the Emirates",
-     "time": "22:57",
-     "action": "set_down",
-     "lat": 25.1201411,
-     "lng": 55.2011196,
-     "where_exactly": "Pick-up point at 25.1201411, 55.2011196 (metro side)."
-    },
-    {
-     "code": "C4-09",
-     "name": "Holiday Inn, Al Maktoum Airport",
-     "time": "23:25",
-     "action": "set_down",
-     "lat": 24.867791,
-     "lng": 55.146192,
-     "where_exactly": "Hotel entrance, Aviation City."
     }
    ]
   },
