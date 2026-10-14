@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-14T09:23:04Z",
+ "generated_at": "2026-10-14T10:33:01Z",
  "week": "2026-10-09 to 2026-10-18",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -16731,7 +16731,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "21:17",
+   "end": "20:28",
    "vehicle": "M1",
    "vehicle_type": "Hiace",
    "capacity": 15,
@@ -16748,18 +16748,9 @@
      "where_exactly": ""
     },
     {
-     "code": "C1-02",
-     "name": "City Centre Al Zahia",
-     "time": "19:31",
-     "action": "set_down",
-     "lat": 25.318044,
-     "lng": 55.457279,
-     "where_exactly": "Bus stop by the VOX sign, City Centre Al Zahia."
-    },
-    {
      "code": "C1-16",
      "name": "LuLu Hypermarket Al Nahda, Sharjah",
-     "time": "20:05",
+     "time": "19:09",
      "action": "set_down",
      "lat": 25.303505,
      "lng": 55.375491,
@@ -16768,7 +16759,7 @@
     {
      "code": "C1-05",
      "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "20:18",
+     "time": "19:18",
      "action": "set_down",
      "lat": 25.305885121719236,
      "lng": 55.363729380596915,
@@ -16777,7 +16768,7 @@
     {
      "code": "C1-21",
      "name": "Sahab Al Emarat, Al Mamzar, Sharjah",
-     "time": "20:31",
+     "time": "19:27",
      "action": "set_down",
      "lat": 25.31578,
      "lng": 55.35863,
@@ -16786,7 +16777,7 @@
     {
      "code": "C1-20",
      "name": "Al Buhaira Police Station bus stop, Al Majaz 3",
-     "time": "20:50",
+     "time": "19:40",
      "action": "set_down",
      "lat": 25.323284,
      "lng": 55.381418,
@@ -16795,7 +16786,7 @@
     {
      "code": "C1-18",
      "name": "Shamseen Bakeries Building, Al Majaz",
-     "time": "21:03",
+     "time": "19:49",
      "action": "set_down",
      "lat": 25.33253,
      "lng": 55.37588,
@@ -16804,11 +16795,20 @@
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "21:17",
+     "time": "19:58",
      "action": "set_down",
      "lat": 25.337533,
      "lng": 55.39061,
      "where_exactly": "Main entrance on King Faisal St."
+    },
+    {
+     "code": "C1-02",
+     "name": "City Centre Al Zahia",
+     "time": "20:28",
+     "action": "set_down",
+     "lat": 25.318044,
+     "lng": 55.457279,
+     "where_exactly": "Bus stop by the VOX sign, City Centre Al Zahia."
     }
    ],
    "status": "operating"
@@ -22407,18 +22407,9 @@
      "where_exactly": ""
     },
     {
-     "code": "C1-02",
-     "name": "City Centre Al Zahia",
-     "time": "14:58",
-     "action": "set_down",
-     "lat": 25.318044,
-     "lng": 55.457279,
-     "where_exactly": "Bus stop by the VOX sign, City Centre Al Zahia."
-    },
-    {
      "code": "C1-06",
      "name": "Sahara Centre",
-     "time": "15:34",
+     "time": "15:15",
      "action": "set_down",
      "lat": 25.297153,
      "lng": 55.371026,
@@ -22427,7 +22418,7 @@
     {
      "code": "C1-16",
      "name": "LuLu Hypermarket Al Nahda, Sharjah",
-     "time": "15:43",
+     "time": "15:23",
      "action": "set_down",
      "lat": 25.303505,
      "lng": 55.375491,
@@ -22436,7 +22427,7 @@
     {
      "code": "C1-05",
      "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "15:53",
+     "time": "15:32",
      "action": "set_down",
      "lat": 25.305885121719236,
      "lng": 55.363729380596915,
@@ -22445,7 +22436,7 @@
     {
      "code": "C1-20",
      "name": "Al Buhaira Police Station bus stop, Al Majaz 3",
-     "time": "16:13",
+     "time": "15:50",
      "action": "set_down",
      "lat": 25.323284,
      "lng": 55.381418,
@@ -22454,7 +22445,7 @@
     {
      "code": "C1-18",
      "name": "Shamseen Bakeries Building, Al Majaz",
-     "time": "16:23",
+     "time": "15:59",
      "action": "set_down",
      "lat": 25.33253,
      "lng": 55.37588,
@@ -22463,11 +22454,20 @@
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "16:36",
+     "time": "16:11",
      "action": "set_down",
      "lat": 25.337533,
      "lng": 55.39061,
      "where_exactly": "Main entrance on King Faisal St."
+    },
+    {
+     "code": "C1-02",
+     "name": "City Centre Al Zahia",
+     "time": "16:36",
+     "action": "set_down",
+     "lat": 25.318044,
+     "lng": 55.457279,
+     "where_exactly": "Bus stop by the VOX sign, City Centre Al Zahia."
     }
    ],
    "status": "operating"
@@ -22618,7 +22618,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "21:07",
+   "end": "20:03",
    "vehicle": "M1",
    "vehicle_type": "Rosa",
    "capacity": 34,
@@ -22635,18 +22635,9 @@
      "where_exactly": ""
     },
     {
-     "code": "C1-02",
-     "name": "City Centre Al Zahia",
-     "time": "19:44",
-     "action": "set_down",
-     "lat": 25.318044,
-     "lng": 55.457279,
-     "where_exactly": "Bus stop by the VOX sign, City Centre Al Zahia."
-    },
-    {
      "code": "C1-05",
      "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "20:27",
+     "time": "19:10",
      "action": "set_down",
      "lat": 25.305885121719236,
      "lng": 55.363729380596915,
@@ -22655,7 +22646,7 @@
     {
      "code": "C1-20",
      "name": "Al Buhaira Police Station bus stop, Al Majaz 3",
-     "time": "20:49",
+     "time": "19:23",
      "action": "set_down",
      "lat": 25.323284,
      "lng": 55.381418,
@@ -22664,11 +22655,20 @@
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "21:07",
+     "time": "19:33",
      "action": "set_down",
      "lat": 25.337533,
      "lng": 55.39061,
      "where_exactly": "Main entrance on King Faisal St."
+    },
+    {
+     "code": "C1-02",
+     "name": "City Centre Al Zahia",
+     "time": "20:03",
+     "action": "set_down",
+     "lat": 25.318044,
+     "lng": 55.457279,
+     "where_exactly": "Bus stop by the VOX sign, City Centre Al Zahia."
     }
    ],
    "status": "operating"
@@ -27798,18 +27798,9 @@
      "where_exactly": ""
     },
     {
-     "code": "C1-02",
-     "name": "City Centre Al Zahia",
-     "time": "12:59",
-     "action": "set_down",
-     "lat": 25.318044,
-     "lng": 55.457279,
-     "where_exactly": "Bus stop by the VOX sign, City Centre Al Zahia."
-    },
-    {
      "code": "C1-05",
      "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "13:37",
+     "time": "13:02",
      "action": "set_down",
      "lat": 25.305885121719236,
      "lng": 55.363729380596915,
@@ -27818,7 +27809,7 @@
     {
      "code": "C1-20",
      "name": "Al Buhaira Police Station bus stop, Al Majaz 3",
-     "time": "13:57",
+     "time": "13:23",
      "action": "set_down",
      "lat": 25.323284,
      "lng": 55.381418,
@@ -27827,7 +27818,7 @@
     {
      "code": "C1-18",
      "name": "Shamseen Bakeries Building, Al Majaz",
-     "time": "14:07",
+     "time": "13:34",
      "action": "set_down",
      "lat": 25.33253,
      "lng": 55.37588,
@@ -27836,11 +27827,20 @@
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "14:20",
+     "time": "13:48",
      "action": "set_down",
      "lat": 25.337533,
      "lng": 55.39061,
      "where_exactly": "Main entrance on King Faisal St."
+    },
+    {
+     "code": "C1-02",
+     "name": "City Centre Al Zahia",
+     "time": "14:20",
+     "action": "set_down",
+     "lat": 25.318044,
+     "lng": 55.457279,
+     "where_exactly": "Bus stop by the VOX sign, City Centre Al Zahia."
     }
    ],
    "status": "operating"
@@ -31872,7 +31872,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "19:46",
+   "end": "19:41",
    "vehicle": "M1",
    "vehicle_type": "Hiace",
    "capacity": 15,
@@ -31889,22 +31889,22 @@
      "where_exactly": ""
     },
     {
-     "code": "C1-15",
-     "name": "Wasl Village, Central Parking",
-     "time": "19:27",
-     "action": "set_down",
-     "lat": 25.289501,
-     "lng": 55.4111465,
-     "where_exactly": "Other side of the road, outside Urban Slice; students wait at the bench."
-    },
-    {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "19:46",
+     "time": "19:16",
      "action": "set_down",
      "lat": 25.337533,
      "lng": 55.39061,
      "where_exactly": "Main entrance on King Faisal St."
+    },
+    {
+     "code": "C1-15",
+     "name": "Wasl Village, Central Parking",
+     "time": "19:41",
+     "action": "set_down",
+     "lat": 25.289501,
+     "lng": 55.4111465,
+     "where_exactly": "Other side of the road, outside Urban Slice; students wait at the bench."
     }
    ],
    "status": "operating"
