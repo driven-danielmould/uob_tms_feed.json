@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-14T02:31:07Z",
+ "generated_at": "2026-10-14T03:26:30Z",
  "week": "2026-10-09 to 2026-10-18",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -18483,36 +18483,27 @@
    "service": "undergraduate",
    "arrive_campus": "09:45",
    "leave_campus": null,
-   "start": "08:28",
+   "start": "08:31",
    "end": "09:45",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 6,
+   "booked": 5,
    "seats": 15,
    "stops": [
     {
      "code": "C3-18",
      "name": "Tuscan Residence Siena 1, JVC",
-     "time": "08:28",
+     "time": "08:31",
      "action": "pick_up",
      "lat": 25.063605,
      "lng": 55.207328,
      "where_exactly": "Kerbside on 22 Street outside Siena 1; do not enter the building car park."
     },
     {
-     "code": "C3-03",
-     "name": "Dubai Miracle Garden",
-     "time": "08:37",
-     "action": "pick_up",
-     "lat": 25.061132,
-     "lng": 55.246185,
-     "where_exactly": "Bus stop between Dubai Miracle Garden and Dubai Butterfly Garden."
-    },
-    {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "08:48",
+     "time": "08:42",
      "action": "pick_up",
      "lat": 25.040494,
      "lng": 55.195971,
@@ -18521,7 +18512,7 @@
     {
      "code": "C3-21",
      "name": "DAMAC Hills Mall, DAMAC Hills",
-     "time": "08:59",
+     "time": "08:54",
      "action": "pick_up",
      "lat": 25.0179838,
      "lng": 55.2468052,
@@ -18530,7 +18521,7 @@
     {
      "code": "C3-08",
      "name": "Serena, Bella Casa",
-     "time": "09:09",
+     "time": "09:05",
      "action": "pick_up",
      "lat": 25.0389716,
      "lng": 55.2890906,
@@ -18539,7 +18530,7 @@
     {
      "code": "C3-09",
      "name": "Spinneys, Town Square",
-     "time": "09:17",
+     "time": "09:14",
      "action": "pick_up",
      "lat": 25.0099047,
      "lng": 55.2902856,
@@ -19082,11 +19073,11 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "20:02",
+   "end": "19:59",
    "vehicle": "M4",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 14,
+   "booked": 13,
    "seats": 34,
    "stops": [
     {
@@ -19101,7 +19092,7 @@
     {
      "code": "C3-25",
      "name": "Villanova La Rosa 1, Villa 46",
-     "time": "18:30",
+     "time": "18:32",
      "action": "set_down",
      "lat": 25.0765573,
      "lng": 55.3609188,
@@ -19110,7 +19101,7 @@
     {
      "code": "C3-16",
      "name": "Souq Extra, Silicon Oasis",
-     "time": "18:44",
+     "time": "18:47",
      "action": "set_down",
      "lat": 25.1192507,
      "lng": 55.3955344,
@@ -19119,7 +19110,7 @@
     {
      "code": "C3-14",
      "name": "Skycourts Towers",
-     "time": "18:55",
+     "time": "18:58",
      "action": "set_down",
      "lat": 25.0898954,
      "lng": 55.3865139,
@@ -19128,7 +19119,7 @@
     {
      "code": "C3-11",
      "name": "Living Legends",
-     "time": "19:13",
+     "time": "19:20",
      "action": "set_down",
      "lat": 25.0910153,
      "lng": 55.3026039,
@@ -19137,7 +19128,7 @@
     {
      "code": "C3-09",
      "name": "Spinneys, Town Square",
-     "time": "19:15",
+     "time": "19:22",
      "action": "set_down",
      "lat": 25.0099047,
      "lng": 55.2902856,
@@ -19146,7 +19137,7 @@
     {
      "code": "C3-08",
      "name": "Serena, Bella Casa",
-     "time": "19:25",
+     "time": "19:32",
      "action": "set_down",
      "lat": 25.0389716,
      "lng": 55.2890906,
@@ -19155,7 +19146,7 @@
     {
      "code": "C3-07",
      "name": "First Avenue Mall, Motor City",
-     "time": "19:30",
+     "time": "19:38",
      "action": "set_down",
      "lat": 25.046685,
      "lng": 55.243063,
@@ -19164,7 +19155,7 @@
     {
      "code": "C3-17",
      "name": "Eagle Heights, Dubai Sports City",
-     "time": "19:40",
+     "time": "19:49",
      "action": "set_down",
      "lat": 25.036628,
      "lng": 55.221187,
@@ -19173,25 +19164,16 @@
     {
      "code": "C3-04",
      "name": "Dubai International Cricket Stadium",
-     "time": "19:45",
+     "time": "19:54",
      "action": "set_down",
      "lat": 25.043579,
      "lng": 55.218241,
      "where_exactly": "Dubai Cricket Stadium bus stop 1 (wooden shelter)."
     },
     {
-     "code": "C3-03",
-     "name": "Dubai Miracle Garden",
-     "time": "19:50",
-     "action": "set_down",
-     "lat": 25.061132,
-     "lng": 55.246185,
-     "where_exactly": "Bus stop between Dubai Miracle Garden and Dubai Butterfly Garden."
-    },
-    {
      "code": "C3-02",
      "name": "Circle Mall, JVC",
-     "time": "20:02",
+     "time": "19:59",
      "action": "set_down",
      "lat": 25.0660395,
      "lng": 55.2162257,
@@ -29266,71 +29248,6 @@
    "status": "operating"
   },
   {
-   "run_id": "2026-10-16-R4-O2",
-   "date": "2026-10-16",
-   "day": "Fri",
-   "route": "R4",
-   "direction": "to_campus",
-   "service": "undergraduate",
-   "arrive_campus": "09:45",
-   "leave_campus": null,
-   "start": "08:44",
-   "end": "09:45",
-   "vehicle": "M4",
-   "vehicle_type": "Hiace",
-   "capacity": 15,
-   "booked": 4,
-   "seats": 15,
-   "stops": [
-    {
-     "code": "C3-03",
-     "name": "Dubai Miracle Garden",
-     "time": "08:44",
-     "action": "pick_up",
-     "lat": 25.061132,
-     "lng": 55.246185,
-     "where_exactly": "Bus stop between Dubai Miracle Garden and Dubai Butterfly Garden."
-    },
-    {
-     "code": "C3-09",
-     "name": "Spinneys, Town Square",
-     "time": "09:00",
-     "action": "pick_up",
-     "lat": 25.0099047,
-     "lng": 55.2902856,
-     "where_exactly": "Nshama Community Centre car park."
-    },
-    {
-     "code": "C3-14",
-     "name": "Skycourts Towers",
-     "time": "09:27",
-     "action": "pick_up",
-     "lat": 25.0898954,
-     "lng": 55.3865139,
-     "where_exactly": "Tower D, near Aster Pharmacy."
-    },
-    {
-     "code": "C3-16",
-     "name": "Souq Extra, Silicon Oasis",
-     "time": "09:36",
-     "action": "pick_up",
-     "lat": 25.1192507,
-     "lng": 55.3955344,
-     "where_exactly": "Damascus St entrance."
-    },
-    {
-     "code": "UOB",
-     "name": "University of Birmingham Dubai",
-     "time": "09:45",
-     "action": "set_down",
-     "lat": 25.1321925,
-     "lng": 55.4223161,
-     "where_exactly": ""
-    }
-   ],
-   "status": "operating"
-  },
-  {
    "run_id": "2026-10-16-R4-O3",
    "date": "2026-10-16",
    "day": "Fri",
@@ -29452,6 +29369,62 @@
     }
    ],
    "status": "on_request"
+  },
+  {
+   "run_id": "2026-10-16-R4-O2",
+   "date": "2026-10-16",
+   "day": "Fri",
+   "route": "R4",
+   "direction": "to_campus",
+   "service": "undergraduate",
+   "arrive_campus": "09:45",
+   "leave_campus": null,
+   "start": "08:48",
+   "end": "09:45",
+   "vehicle": "M4",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 3,
+   "seats": 15,
+   "stops": [
+    {
+     "code": "C3-09",
+     "name": "Spinneys, Town Square",
+     "time": "08:48",
+     "action": "pick_up",
+     "lat": 25.0099047,
+     "lng": 55.2902856,
+     "where_exactly": "Nshama Community Centre car park."
+    },
+    {
+     "code": "C3-14",
+     "name": "Skycourts Towers",
+     "time": "09:22",
+     "action": "pick_up",
+     "lat": 25.0898954,
+     "lng": 55.3865139,
+     "where_exactly": "Tower D, near Aster Pharmacy."
+    },
+    {
+     "code": "C3-16",
+     "name": "Souq Extra, Silicon Oasis",
+     "time": "09:33",
+     "action": "pick_up",
+     "lat": 25.1192507,
+     "lng": 55.3955344,
+     "where_exactly": "Damascus St entrance."
+    },
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "09:45",
+     "action": "set_down",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    }
+   ],
+   "status": "operating"
   },
   {
    "run_id": "2026-10-16-R4-O4",
@@ -29586,11 +29559,11 @@
    "arrive_campus": null,
    "leave_campus": "12:15",
    "start": "12:15",
-   "end": "13:35",
+   "end": "13:32",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 9,
+   "booked": 8,
    "seats": 15,
    "stops": [
     {
@@ -29605,7 +29578,7 @@
     {
      "code": "C3-25",
      "name": "Villanova La Rosa 1, Villa 46",
-     "time": "12:26",
+     "time": "12:27",
      "action": "set_down",
      "lat": 25.0765573,
      "lng": 55.3609188,
@@ -29614,7 +29587,7 @@
     {
      "code": "C3-16",
      "name": "Souq Extra, Silicon Oasis",
-     "time": "12:36",
+     "time": "12:38",
      "action": "set_down",
      "lat": 25.1192507,
      "lng": 55.3955344,
@@ -29623,7 +29596,7 @@
     {
      "code": "C3-14",
      "name": "Skycourts Towers",
-     "time": "12:43",
+     "time": "12:45",
      "action": "set_down",
      "lat": 25.0898954,
      "lng": 55.3865139,
@@ -29632,7 +29605,7 @@
     {
      "code": "C3-23",
      "name": "Reem Townhouses shuttle stop, Town Square",
-     "time": "13:03",
+     "time": "13:07",
      "action": "set_down",
      "lat": 25.01081,
      "lng": 55.27931,
@@ -29641,7 +29614,7 @@
     {
      "code": "C3-09",
      "name": "Spinneys, Town Square",
-     "time": "13:08",
+     "time": "13:13",
      "action": "set_down",
      "lat": 25.0099047,
      "lng": 55.2902856,
@@ -29650,25 +29623,16 @@
     {
      "code": "C3-07",
      "name": "First Avenue Mall, Motor City",
-     "time": "13:19",
+     "time": "13:24",
      "action": "set_down",
      "lat": 25.046685,
      "lng": 55.243063,
      "where_exactly": "Pick and drop point in front of First Avenue Mall, by Shake Shack."
     },
     {
-     "code": "C3-03",
-     "name": "Dubai Miracle Garden",
-     "time": "13:26",
-     "action": "set_down",
-     "lat": 25.061132,
-     "lng": 55.246185,
-     "where_exactly": "Bus stop between Dubai Miracle Garden and Dubai Butterfly Garden."
-    },
-    {
      "code": "C3-02",
      "name": "Circle Mall, JVC",
-     "time": "13:35",
+     "time": "13:32",
      "action": "set_down",
      "lat": 25.0660395,
      "lng": 55.2162257,
