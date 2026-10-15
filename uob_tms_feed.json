@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-15T09:18:30Z",
+ "generated_at": "2026-10-15T10:32:12Z",
  "week": "2026-10-09 to 2026-10-18",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -23905,11 +23905,11 @@
    "arrive_campus": null,
    "leave_campus": "16:30",
    "start": "16:30",
-   "end": "17:53",
+   "end": "17:56",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 5,
+   "booked": 6,
    "seats": 15,
    "stops": [
     {
@@ -23922,9 +23922,18 @@
      "where_exactly": ""
     },
     {
+     "code": "C2-15",
+     "name": "Al Nakheel 2A, The Greens",
+     "time": "17:12",
+     "action": "set_down",
+     "lat": 25.09445,
+     "lng": 55.1697,
+     "where_exactly": "Kerbside outside Al Nakheel 2A on Street 2, The Greens. Do not enter the building car park."
+    },
+    {
      "code": "C2-05",
      "name": "The Meadows Village",
-     "time": "17:20",
+     "time": "17:25",
      "action": "set_down",
      "lat": 25.0637,
      "lng": 55.1573,
@@ -23933,7 +23942,7 @@
     {
      "code": "C2-03",
      "name": "DMCC Metro Station",
-     "time": "17:35",
+     "time": "17:39",
      "action": "set_down",
      "lat": 25.07122,
      "lng": 55.137072,
@@ -23942,7 +23951,7 @@
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "17:53",
+     "time": "17:56",
      "action": "set_down",
      "lat": 25.099769538054428,
      "lng": 55.17320213081937,
@@ -23961,11 +23970,11 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "19:53",
+   "end": "19:50",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 9,
+   "booked": 8,
    "seats": 15,
    "stops": [
     {
@@ -23980,25 +23989,16 @@
     {
      "code": "C2-10",
      "name": "Al Manaf Building, Al Barsha 1",
-     "time": "18:42",
+     "time": "18:44",
      "action": "set_down",
      "lat": 25.1110756,
      "lng": 55.2057285,
      "where_exactly": "Kerbside outside the building entrance; do not enter the car park."
     },
     {
-     "code": "C2-15",
-     "name": "Al Nakheel 2A, The Greens",
-     "time": "18:54",
-     "action": "set_down",
-     "lat": 25.09445,
-     "lng": 55.1697,
-     "where_exactly": "Kerbside outside Al Nakheel 2A on Street 2, The Greens. Do not enter the building car park."
-    },
-    {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "19:00",
+     "time": "18:55",
      "action": "set_down",
      "lat": 25.093492,
      "lng": 55.177807,
@@ -24007,7 +24007,7 @@
     {
      "code": "C2-09",
      "name": "Springs 10 Gatehouse",
-     "time": "19:12",
+     "time": "19:07",
      "action": "set_down",
      "lat": 25.0556628,
      "lng": 55.1803096,
@@ -24016,7 +24016,7 @@
     {
      "code": "C2-03",
      "name": "DMCC Metro Station",
-     "time": "19:25",
+     "time": "19:21",
      "action": "set_down",
      "lat": 25.07122,
      "lng": 55.137072,
@@ -24025,7 +24025,7 @@
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "19:31",
+     "time": "19:27",
      "action": "set_down",
      "lat": 25.075735,
      "lng": 55.140981,
@@ -24034,7 +24034,7 @@
     {
      "code": "C2-01",
      "name": "Al Sarood, Shoreline 13, Palm Jumeirah",
-     "time": "19:43",
+     "time": "19:39",
      "action": "set_down",
      "lat": 25.11202,
      "lng": 55.142781,
@@ -24043,7 +24043,7 @@
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "19:53",
+     "time": "19:50",
      "action": "set_down",
      "lat": 25.099769538054428,
      "lng": 55.17320213081937,
