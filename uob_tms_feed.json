@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-15T16:09:49Z",
+ "generated_at": "2026-10-15T16:11:43Z",
  "week": "2026-10-09 to 2026-10-18",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -413,21 +413,21 @@
     {
      "code": "C1-25",
      "order": 9,
-     "name": "Al Qusais, Damascus St side (rider stop)",
-     "lat": 25.2736454565247,
-     "lng": 55.38143264449788,
-     "google_place_id": null,
-     "where_exactly": "Kerbside at the rider's pin 25.273645, 55.381433 in Al Qusais, east of DAFZA Metro. Rider-only stop (Angella Joseph); kerb side to confirm with the rider.",
-     "pickup_lat": 25.2736454565247,
-     "pickup_lng": 55.38143264449788,
-     "pickup_where_exactly": "Kerbside at the rider's pin 25.273645, 55.381433 in Al Qusais, east of DAFZA Metro. Rider-only stop (Angella Joseph); kerb side to confirm with the rider.",
-     "setdown_lat": 25.2736454565247,
-     "setdown_lng": 55.38143264449788,
-     "setdown_where_exactly": "Kerbside at the rider's pin 25.273645, 55.381433 in Al Qusais, east of DAFZA Metro. Rider-only stop (Angella Joseph); kerb side to confirm with the rider.",
+     "name": "Dubai Grand Hotel Bus Stop 1, Damascus St, Al Qusais",
+     "lat": 25.273102,
+     "lng": 55.38168,
+     "google_place_id": "ChIJsYyyPTZcXz4RumPSSHccLQE",
+     "where_exactly": "RTA bus stop \"Dubai Grand Hotel 1\" on Damascus Street (Al Twar 5 side), by the Dubai Grand Hotel. Public stop from 16 Oct.",
+     "pickup_lat": 25.273102,
+     "pickup_lng": 55.38168,
+     "pickup_where_exactly": "RTA bus stop \"Dubai Grand Hotel 1\" on Damascus Street (Al Twar 5 side), by the Dubai Grand Hotel. Public stop from 16 Oct.",
+     "setdown_lat": 25.273102,
+     "setdown_lng": 55.38168,
+     "setdown_where_exactly": "RTA bus stop \"Dubai Grand Hotel 1\" on Damascus Street (Al Twar 5 side), by the Dubai Grand Hotel. Public stop from 16 Oct.",
      "audited": false,
-     "rider_instructions": "Wait at the kerb at your pin; the bus stops on the road. Be here 5 minutes before your time and look for the yellow M sign in the bus windscreen.",
-     "driver_instructions": "Kerbside at 25.273645, 55.381433 in Al Qusais (east of DAFZA Metro). Only served on booked days.",
-     "type": "rider_only"
+     "rider_instructions": "Wait at the RTA shelter. Be here 5 minutes before your time and look for the yellow M sign in the bus windscreen.",
+     "driver_instructions": "RTA bus stop Dubai Grand Hotel 1 on Damascus Street, by the Dubai Grand Hotel.",
+     "type": "public"
     },
     {
      "code": "C1-10",
@@ -22718,7 +22718,7 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:32",
+   "start": "05:29",
    "end": "07:45",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
@@ -22729,7 +22729,7 @@
     {
      "code": "C1-15",
      "name": "Wasl Village, Central Parking",
-     "time": "05:32",
+     "time": "05:29",
      "action": "pick_up",
      "lat": 25.289501,
      "lng": 55.4111465,
@@ -22738,7 +22738,7 @@
     {
      "code": "C1-24",
      "name": "EK2 Accommodation, Muhaisnah 4",
-     "time": "05:43",
+     "time": "05:40",
      "action": "pick_up",
      "lat": 25.2795117,
      "lng": 55.402653,
@@ -22747,7 +22747,7 @@
     {
      "code": "C1-22",
      "name": "Al Nahda 1, Al Banai 1 (RTA bus stop AN1AB1)",
-     "time": "05:59",
+     "time": "05:55",
      "action": "pick_up",
      "lat": 25.291551,
      "lng": 55.36486,
@@ -22756,7 +22756,7 @@
     {
      "code": "C1-17",
      "name": "Bahwan Tower, Al Nahda 1",
-     "time": "06:05",
+     "time": "06:01",
      "action": "pick_up",
      "lat": 25.287666,
      "lng": 55.361619,
@@ -22765,7 +22765,7 @@
     {
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
-     "time": "06:09",
+     "time": "06:05",
      "action": "pick_up",
      "lat": 25.288631,
      "lng": 55.364044,
@@ -22784,16 +22784,25 @@
     {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "06:25",
+     "time": "06:21",
      "action": "pick_up",
      "lat": 25.270214,
      "lng": 55.373696,
      "where_exactly": "21B Street footpath by DAFZA Metro Station Entrance 1."
     },
     {
+     "code": "C1-25",
+     "name": "Dubai Grand Hotel Bus Stop 1, Damascus St, Al Qusais",
+     "time": "06:28",
+     "action": "pick_up",
+     "lat": 25.273102,
+     "lng": 55.38168,
+     "where_exactly": "RTA bus stop \"Dubai Grand Hotel 1\" on Damascus Street (Al Twar 5 side), by the Dubai Grand Hotel. Public stop from 16 Oct."
+    },
+    {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "06:51",
+     "time": "06:53",
      "action": "pick_up",
      "lat": 25.224246,
      "lng": 55.423615,
@@ -22802,7 +22811,7 @@
     {
      "code": "C1-19",
      "name": "Shorooq Gate 3, Mirdif",
-     "time": "07:01",
+     "time": "07:02",
      "action": "pick_up",
      "lat": 25.214495,
      "lng": 55.428185,
@@ -22811,7 +22820,7 @@
     {
      "code": "C1-13",
      "name": "Nasayem Avenue, Mirdif Hills",
-     "time": "07:12",
+     "time": "07:13",
      "action": "pick_up",
      "lat": 25.221963,
      "lng": 55.440775,
@@ -22998,12 +23007,12 @@
     },
     {
      "code": "C1-25",
-     "name": "Al Qusais, Damascus St side (rider stop)",
+     "name": "Dubai Grand Hotel Bus Stop 1, Damascus St, Al Qusais",
      "time": "11:53",
      "action": "pick_up",
-     "lat": 25.2736454565247,
-     "lng": 55.38143264449788,
-     "where_exactly": "Kerbside at the rider's pin 25.273645, 55.381433 in Al Qusais, east of DAFZA Metro. Rider-only stop (Angella Joseph); kerb side to confirm with the rider."
+     "lat": 25.273102,
+     "lng": 55.38168,
+     "where_exactly": "RTA bus stop \"Dubai Grand Hotel 1\" on Damascus Street (Al Twar 5 side), by the Dubai Grand Hotel. Public stop from 16 Oct."
     },
     {
      "code": "UOB",
@@ -23142,49 +23151,55 @@
     {
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
-     "time": "16:21",
+     "time": "16:19",
      "action": "pick_up"
     },
     {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "16:32",
+     "time": "16:29",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-25",
+     "name": "Dubai Grand Hotel Bus Stop 1, Damascus St, Al Qusais",
+     "time": "16:38",
      "action": "pick_up"
     },
     {
      "code": "C1-10",
      "name": "Dubai Festival City Mall",
-     "time": "16:42",
+     "time": "16:48",
      "action": "pick_up"
     },
     {
      "code": "C1-11",
      "name": "Madina Mall",
-     "time": "16:52",
+     "time": "16:57",
      "action": "pick_up"
     },
     {
      "code": "C1-23",
      "name": "Centrepoint, Mirdif City Centre",
-     "time": "17:03",
+     "time": "17:07",
      "action": "pick_up"
     },
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "17:14",
+     "time": "17:16",
      "action": "pick_up"
     },
     {
      "code": "C1-13",
      "name": "Nasayem Avenue, Mirdif Hills",
-     "time": "17:24",
+     "time": "17:26",
      "action": "pick_up"
     },
     {
      "code": "C1-14",
      "name": "Olivz Residence, Warsan 1",
-     "time": "17:34",
+     "time": "17:35",
      "action": "pick_up"
     },
     {
@@ -23232,12 +23247,12 @@
     },
     {
      "code": "C1-25",
-     "name": "Al Qusais, Damascus St side (rider stop)",
+     "name": "Dubai Grand Hotel Bus Stop 1, Damascus St, Al Qusais",
      "time": "17:42",
      "action": "set_down",
-     "lat": 25.2736454565247,
-     "lng": 55.38143264449788,
-     "where_exactly": "Kerbside at the rider's pin 25.273645, 55.381433 in Al Qusais, east of DAFZA Metro. Rider-only stop (Angella Joseph); kerb side to confirm with the rider."
+     "lat": 25.273102,
+     "lng": 55.38168,
+     "where_exactly": "RTA bus stop \"Dubai Grand Hotel 1\" on Damascus Street (Al Twar 5 side), by the Dubai Grand Hotel. Public stop from 16 Oct."
     },
     {
      "code": "C1-24",
@@ -23316,12 +23331,12 @@
     },
     {
      "code": "C1-25",
-     "name": "Al Qusais, Damascus St side (rider stop)",
+     "name": "Dubai Grand Hotel Bus Stop 1, Damascus St, Al Qusais",
      "time": "19:09",
      "action": "set_down",
-     "lat": 25.2736454565247,
-     "lng": 55.38143264449788,
-     "where_exactly": "Kerbside at the rider's pin 25.273645, 55.381433 in Al Qusais, east of DAFZA Metro. Rider-only stop (Angella Joseph); kerb side to confirm with the rider."
+     "lat": 25.273102,
+     "lng": 55.38168,
+     "where_exactly": "RTA bus stop \"Dubai Grand Hotel 1\" on Damascus Street (Al Twar 5 side), by the Dubai Grand Hotel. Public stop from 16 Oct."
     },
     {
      "code": "C1-09",
@@ -23422,43 +23437,49 @@
     {
      "code": "C1-13",
      "name": "Nasayem Avenue, Mirdif Hills",
-     "time": "21:53",
+     "time": "21:51",
      "action": "set_down"
     },
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "22:01",
+     "time": "21:59",
      "action": "set_down"
     },
     {
      "code": "C1-23",
      "name": "Centrepoint, Mirdif City Centre",
-     "time": "22:10",
+     "time": "22:07",
      "action": "set_down"
     },
     {
      "code": "C1-11",
      "name": "Madina Mall",
-     "time": "22:18",
+     "time": "22:14",
      "action": "set_down"
     },
     {
      "code": "C1-10",
      "name": "Dubai Festival City Mall",
-     "time": "22:26",
+     "time": "22:22",
+     "action": "set_down"
+    },
+    {
+     "code": "C1-25",
+     "name": "Dubai Grand Hotel Bus Stop 1, Damascus St, Al Qusais",
+     "time": "22:29",
      "action": "set_down"
     },
     {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "22:35",
+     "time": "22:37",
      "action": "set_down"
     },
     {
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
-     "time": "22:43",
+     "time": "22:45",
      "action": "set_down"
     },
     {
@@ -27920,7 +27941,7 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:38",
+   "start": "05:35",
    "end": "07:45",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
@@ -27931,7 +27952,7 @@
     {
      "code": "C1-24",
      "name": "EK2 Accommodation, Muhaisnah 4",
-     "time": "05:38",
+     "time": "05:35",
      "action": "pick_up",
      "lat": 25.2795117,
      "lng": 55.402653,
@@ -27940,7 +27961,7 @@
     {
      "code": "C1-07",
      "name": "Masafi 1, Al Nahda 2",
-     "time": "05:51",
+     "time": "05:48",
      "action": "pick_up",
      "lat": 25.289367,
      "lng": 55.372375,
@@ -27949,7 +27970,7 @@
     {
      "code": "C1-26",
      "name": "Dubai Carmel School, Amman St, Al Nahda 2",
-     "time": "06:00",
+     "time": "05:56",
      "action": "pick_up",
      "lat": 25.2967627,
      "lng": 55.3794549,
@@ -27958,7 +27979,7 @@
     {
      "code": "C1-22",
      "name": "Al Nahda 1, Al Banai 1 (RTA bus stop AN1AB1)",
-     "time": "06:11",
+     "time": "06:07",
      "action": "pick_up",
      "lat": 25.291551,
      "lng": 55.36486,
@@ -27967,7 +27988,7 @@
     {
      "code": "C1-17",
      "name": "Bahwan Tower, Al Nahda 1",
-     "time": "06:17",
+     "time": "06:13",
      "action": "pick_up",
      "lat": 25.287666,
      "lng": 55.361619,
@@ -27976,7 +27997,7 @@
     {
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
-     "time": "06:21",
+     "time": "06:17",
      "action": "pick_up",
      "lat": 25.288631,
      "lng": 55.364044,
@@ -27985,16 +28006,25 @@
     {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "06:36",
+     "time": "06:32",
      "action": "pick_up",
      "lat": 25.270214,
      "lng": 55.373696,
      "where_exactly": "21B Street footpath by DAFZA Metro Station Entrance 1."
     },
     {
+     "code": "C1-25",
+     "name": "Dubai Grand Hotel Bus Stop 1, Damascus St, Al Qusais",
+     "time": "06:39",
+     "action": "pick_up",
+     "lat": 25.273102,
+     "lng": 55.38168,
+     "where_exactly": "RTA bus stop \"Dubai Grand Hotel 1\" on Damascus Street (Al Twar 5 side), by the Dubai Grand Hotel. Public stop from 16 Oct."
+    },
+    {
      "code": "C1-23",
      "name": "Centrepoint, Mirdif City Centre",
-     "time": "06:56",
+     "time": "06:58",
      "action": "pick_up",
      "lat": 25.2180926,
      "lng": 55.4085703,
@@ -28004,7 +28034,7 @@
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "07:01",
+     "time": "07:03",
      "action": "pick_up",
      "lat": 25.224246,
      "lng": 55.423615,
@@ -28013,7 +28043,7 @@
     {
      "code": "C1-13",
      "name": "Nasayem Avenue, Mirdif Hills",
-     "time": "07:14",
+     "time": "07:15",
      "action": "pick_up",
      "lat": 25.221963,
      "lng": 55.440775,
@@ -28058,55 +28088,61 @@
     {
      "code": "C1-13",
      "name": "Nasayem Avenue, Mirdif Hills",
-     "time": "07:57",
+     "time": "07:56",
      "action": "pick_up"
     },
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "08:09",
+     "time": "08:07",
      "action": "pick_up"
     },
     {
      "code": "C1-23",
      "name": "Centrepoint, Mirdif City Centre",
-     "time": "08:21",
+     "time": "08:18",
      "action": "pick_up"
     },
     {
      "code": "C1-11",
      "name": "Madina Mall",
-     "time": "08:33",
+     "time": "08:29",
      "action": "pick_up"
     },
     {
      "code": "C1-10",
      "name": "Dubai Festival City Mall",
-     "time": "08:45",
+     "time": "08:40",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-25",
+     "name": "Dubai Grand Hotel Bus Stop 1, Damascus St, Al Qusais",
+     "time": "08:50",
      "action": "pick_up"
     },
     {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "08:57",
+     "time": "09:01",
      "action": "pick_up"
     },
     {
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
-     "time": "09:09",
+     "time": "09:12",
      "action": "pick_up"
     },
     {
      "code": "C1-26",
      "name": "Dubai Carmel School, Amman St, Al Nahda 2",
-     "time": "09:21",
+     "time": "09:23",
      "action": "pick_up"
     },
     {
      "code": "C1-07",
      "name": "Masafi 1, Al Nahda 2",
-     "time": "09:33",
+     "time": "09:34",
      "action": "pick_up"
     },
     {
@@ -28145,55 +28181,61 @@
     {
      "code": "C1-13",
      "name": "Nasayem Avenue, Mirdif Hills",
-     "time": "08:57",
+     "time": "08:56",
      "action": "pick_up"
     },
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "09:09",
+     "time": "09:07",
      "action": "pick_up"
     },
     {
      "code": "C1-23",
      "name": "Centrepoint, Mirdif City Centre",
-     "time": "09:21",
+     "time": "09:18",
      "action": "pick_up"
     },
     {
      "code": "C1-11",
      "name": "Madina Mall",
-     "time": "09:33",
+     "time": "09:29",
      "action": "pick_up"
     },
     {
      "code": "C1-10",
      "name": "Dubai Festival City Mall",
-     "time": "09:45",
+     "time": "09:40",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-25",
+     "name": "Dubai Grand Hotel Bus Stop 1, Damascus St, Al Qusais",
+     "time": "09:50",
      "action": "pick_up"
     },
     {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "09:57",
+     "time": "10:01",
      "action": "pick_up"
     },
     {
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
-     "time": "10:09",
+     "time": "10:12",
      "action": "pick_up"
     },
     {
      "code": "C1-26",
      "name": "Dubai Carmel School, Amman St, Al Nahda 2",
-     "time": "10:21",
+     "time": "10:23",
      "action": "pick_up"
     },
     {
      "code": "C1-07",
      "name": "Masafi 1, Al Nahda 2",
-     "time": "10:33",
+     "time": "10:34",
      "action": "pick_up"
     },
     {
@@ -28232,55 +28274,61 @@
     {
      "code": "C1-13",
      "name": "Nasayem Avenue, Mirdif Hills",
-     "time": "10:57",
+     "time": "10:56",
      "action": "pick_up"
     },
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "11:09",
+     "time": "11:07",
      "action": "pick_up"
     },
     {
      "code": "C1-23",
      "name": "Centrepoint, Mirdif City Centre",
-     "time": "11:21",
+     "time": "11:18",
      "action": "pick_up"
     },
     {
      "code": "C1-11",
      "name": "Madina Mall",
-     "time": "11:33",
+     "time": "11:29",
      "action": "pick_up"
     },
     {
      "code": "C1-10",
      "name": "Dubai Festival City Mall",
-     "time": "11:45",
+     "time": "11:40",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-25",
+     "name": "Dubai Grand Hotel Bus Stop 1, Damascus St, Al Qusais",
+     "time": "11:50",
      "action": "pick_up"
     },
     {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "11:57",
+     "time": "12:01",
      "action": "pick_up"
     },
     {
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
-     "time": "12:09",
+     "time": "12:12",
      "action": "pick_up"
     },
     {
      "code": "C1-26",
      "name": "Dubai Carmel School, Amman St, Al Nahda 2",
-     "time": "12:21",
+     "time": "12:23",
      "action": "pick_up"
     },
     {
      "code": "C1-07",
      "name": "Masafi 1, Al Nahda 2",
-     "time": "12:33",
+     "time": "12:34",
      "action": "pick_up"
     },
     {
@@ -28302,7 +28350,7 @@
    "arrive_campus": null,
    "leave_campus": "12:15",
    "start": "12:15",
-   "end": "13:43",
+   "end": "13:46",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "capacity": 34,
@@ -28330,7 +28378,7 @@
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "12:43",
+     "time": "12:42",
      "action": "set_down",
      "lat": 25.224246,
      "lng": 55.423615,
@@ -28339,7 +28387,7 @@
     {
      "code": "C1-23",
      "name": "Centrepoint, Mirdif City Centre",
-     "time": "12:48",
+     "time": "12:47",
      "action": "set_down",
      "lat": 25.2180926,
      "lng": 55.4085703,
@@ -28347,9 +28395,18 @@
      "offer_only_stop": true
     },
     {
+     "code": "C1-25",
+     "name": "Dubai Grand Hotel Bus Stop 1, Damascus St, Al Qusais",
+     "time": "12:58",
+     "action": "set_down",
+     "lat": 25.273102,
+     "lng": 55.38168,
+     "where_exactly": "RTA bus stop \"Dubai Grand Hotel 1\" on Damascus Street (Al Twar 5 side), by the Dubai Grand Hotel. Public stop from 16 Oct."
+    },
+    {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "13:00",
+     "time": "13:04",
      "action": "set_down",
      "lat": 25.270214,
      "lng": 55.373696,
@@ -28358,7 +28415,7 @@
     {
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
-     "time": "13:10",
+     "time": "13:14",
      "action": "set_down",
      "lat": 25.288631,
      "lng": 55.364044,
@@ -28367,7 +28424,7 @@
     {
      "code": "C1-17",
      "name": "Bahwan Tower, Al Nahda 1",
-     "time": "13:14",
+     "time": "13:18",
      "action": "set_down",
      "lat": 25.287666,
      "lng": 55.361619,
@@ -28376,7 +28433,7 @@
     {
      "code": "C1-22",
      "name": "Al Nahda 1, Al Banai 1 (RTA bus stop AN1AB1)",
-     "time": "13:19",
+     "time": "13:23",
      "action": "set_down",
      "lat": 25.291551,
      "lng": 55.36486,
@@ -28385,7 +28442,7 @@
     {
      "code": "C1-26",
      "name": "Dubai Carmel School, Amman St, Al Nahda 2",
-     "time": "13:27",
+     "time": "13:31",
      "action": "set_down",
      "lat": 25.2967627,
      "lng": 55.3794549,
@@ -28394,7 +28451,7 @@
     {
      "code": "C1-07",
      "name": "Masafi 1, Al Nahda 2",
-     "time": "13:34",
+     "time": "13:37",
      "action": "set_down",
      "lat": 25.289367,
      "lng": 55.372375,
@@ -28403,7 +28460,7 @@
     {
      "code": "C1-24",
      "name": "EK2 Accommodation, Muhaisnah 4",
-     "time": "13:43",
+     "time": "13:46",
      "action": "set_down",
      "lat": 25.2795117,
      "lng": 55.402653,
@@ -28444,49 +28501,55 @@
     {
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
-     "time": "16:21",
+     "time": "16:19",
      "action": "pick_up"
     },
     {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "16:32",
+     "time": "16:29",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-25",
+     "name": "Dubai Grand Hotel Bus Stop 1, Damascus St, Al Qusais",
+     "time": "16:38",
      "action": "pick_up"
     },
     {
      "code": "C1-10",
      "name": "Dubai Festival City Mall",
-     "time": "16:42",
+     "time": "16:48",
      "action": "pick_up"
     },
     {
      "code": "C1-11",
      "name": "Madina Mall",
-     "time": "16:52",
+     "time": "16:57",
      "action": "pick_up"
     },
     {
      "code": "C1-23",
      "name": "Centrepoint, Mirdif City Centre",
-     "time": "17:03",
+     "time": "17:07",
      "action": "pick_up"
     },
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "17:14",
+     "time": "17:16",
      "action": "pick_up"
     },
     {
      "code": "C1-13",
      "name": "Nasayem Avenue, Mirdif Hills",
-     "time": "17:24",
+     "time": "17:26",
      "action": "pick_up"
     },
     {
      "code": "C1-14",
      "name": "Olivz Residence, Warsan 1",
-     "time": "17:34",
+     "time": "17:35",
      "action": "pick_up"
     },
     {
@@ -28529,43 +28592,49 @@
     {
      "code": "C1-13",
      "name": "Nasayem Avenue, Mirdif Hills",
-     "time": "21:53",
+     "time": "21:51",
      "action": "set_down"
     },
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "22:01",
+     "time": "21:59",
      "action": "set_down"
     },
     {
      "code": "C1-23",
      "name": "Centrepoint, Mirdif City Centre",
-     "time": "22:10",
+     "time": "22:07",
      "action": "set_down"
     },
     {
      "code": "C1-11",
      "name": "Madina Mall",
-     "time": "22:18",
+     "time": "22:14",
      "action": "set_down"
     },
     {
      "code": "C1-10",
      "name": "Dubai Festival City Mall",
-     "time": "22:26",
+     "time": "22:22",
+     "action": "set_down"
+    },
+    {
+     "code": "C1-25",
+     "name": "Dubai Grand Hotel Bus Stop 1, Damascus St, Al Qusais",
+     "time": "22:29",
      "action": "set_down"
     },
     {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "22:35",
+     "time": "22:37",
      "action": "set_down"
     },
     {
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
-     "time": "22:43",
+     "time": "22:45",
      "action": "set_down"
     },
     {
