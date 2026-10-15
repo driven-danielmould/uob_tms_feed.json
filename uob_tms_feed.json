@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-15T11:32:20Z",
+ "generated_at": "2026-10-15T13:05:43Z",
  "week": "2026-10-09 to 2026-10-18",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -22578,11 +22578,11 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "20:03",
+   "end": "20:12",
    "vehicle": "M1",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 5,
+   "booked": 6,
    "seats": 34,
    "stops": [
     {
@@ -22604,9 +22604,18 @@
      "where_exactly": "Sheikha Maryam Tower, Al Taawun - pick-up at the pin set by Dan 7 Oct (Al Taawun St side); kerb text to confirm."
     },
     {
+     "code": "C1-21",
+     "name": "Sahab Al Emarat, Al Mamzar, Sharjah",
+     "time": "19:19",
+     "action": "set_down",
+     "lat": 25.31578,
+     "lng": 55.35863,
+     "where_exactly": "Kerbside on Corniche Rd outside Sahab Al Emarat."
+    },
+    {
      "code": "C1-20",
      "name": "Al Buhaira Police Station bus stop, Al Majaz 3",
-     "time": "19:23",
+     "time": "19:32",
      "action": "set_down",
      "lat": 25.323284,
      "lng": 55.381418,
@@ -22615,7 +22624,7 @@
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "19:33",
+     "time": "19:42",
      "action": "set_down",
      "lat": 25.337533,
      "lng": 55.39061,
@@ -22624,7 +22633,7 @@
     {
      "code": "C1-02",
      "name": "City Centre Al Zahia",
-     "time": "20:03",
+     "time": "20:12",
      "action": "set_down",
      "lat": 25.318044,
      "lng": 55.457279,
