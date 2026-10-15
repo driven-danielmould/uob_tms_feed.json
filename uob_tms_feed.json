@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-15T17:09:09Z",
+ "generated_at": "2026-10-15T17:11:03Z",
  "week": "2026-10-09 to 2026-10-18",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -32663,6 +32663,82 @@
      "lat": 25.099769538054428,
      "lng": 55.17320213081937,
      "where_exactly": "RTA bus stop \"Dubai Internet City Metro Bus Stop Landside 1\" (landside, Barsha Heights side of the metro) - pick-up and set-down here; coordinator-confirmed pin 12 Oct."
+    }
+   ],
+   "status": "operating"
+  },
+  {
+   "run_id": "2026-10-18-R5-O1",
+   "date": "2026-10-18",
+   "day": "Sun",
+   "route": "R5",
+   "direction": "to_campus",
+   "service": "undergraduate",
+   "arrive_campus": "08:45",
+   "leave_campus": null,
+   "start": "06:47",
+   "end": "08:45",
+   "vehicle": "M5",
+   "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 1,
+   "seats": 34,
+   "stops": [
+    {
+     "code": "C4-06",
+     "name": "Al Forsan Village main gate",
+     "time": "06:47",
+     "action": "pick_up",
+     "lat": 24.4044,
+     "lng": 54.5514,
+     "where_exactly": "Main gate, Khalifa City."
+    },
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "08:45",
+     "action": "set_down",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    }
+   ],
+   "status": "operating"
+  },
+  {
+   "run_id": "2026-10-18-R5-R3",
+   "date": "2026-10-18",
+   "day": "Sun",
+   "route": "R5",
+   "direction": "from_campus",
+   "service": "undergraduate",
+   "arrive_campus": null,
+   "leave_campus": "18:15",
+   "start": "18:15",
+   "end": "20:13",
+   "vehicle": "M5",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 1,
+   "seats": 15,
+   "stops": [
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "18:15",
+     "action": "pick_up",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    },
+    {
+     "code": "C4-06",
+     "name": "Al Forsan Village main gate",
+     "time": "20:13",
+     "action": "set_down",
+     "lat": 24.4044,
+     "lng": 54.5514,
+     "where_exactly": "Main gate, Khalifa City."
     }
    ],
    "status": "operating"
