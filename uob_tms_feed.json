@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-17T12:47:55Z",
+ "generated_at": "2026-10-17T12:54:17Z",
  "week": "2026-10-09 to 2026-11-15",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -1206,8 +1206,27 @@
      "type": "public"
     },
     {
-     "code": "C3-22",
+     "code": "C3-26",
      "order": 21,
+     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
+     "lat": 25.107412,
+     "lng": 55.3785071,
+     "google_place_id": "ChIJ41Qx9R5lXz4RjAJufeimtDs",
+     "where_exactly": "Kerbside outside Binghatti Crystals, near Axis 7, DSO. Rider-only stop (Nabeela); last call before campus on the central masters bus.",
+     "pickup_lat": 25.107412,
+     "pickup_lng": 55.3785071,
+     "pickup_where_exactly": "Kerbside outside Binghatti Crystals, near Axis 7, DSO. Rider-only stop (Nabeela); last call before campus on the central masters bus.",
+     "setdown_lat": 25.107412,
+     "setdown_lng": 55.3785071,
+     "setdown_where_exactly": "Kerbside outside Binghatti Crystals, near Axis 7, DSO. Rider-only stop (Nabeela); last call before campus on the central masters bus.",
+     "audited": false,
+     "rider_instructions": "Wait at the kerb outside the building entrance. Be here 5 minutes before your time and look for the yellow M sign in the bus windscreen.",
+     "driver_instructions": "Kerbside outside Binghatti Crystals, near Axis 7, Dubai Silicon Oasis. Only served on booked days.",
+     "type": "rider_only"
+    },
+    {
+     "code": "C3-22",
+     "order": 22,
      "name": "Oasis Star, Nadd Hessa (Silicon Oasis)",
      "lat": 25.1130426,
      "lng": 55.3854414,
@@ -1226,7 +1245,7 @@
     },
     {
      "code": "C3-16",
-     "order": 22,
+     "order": 23,
      "name": "Souq Extra, Silicon Oasis",
      "lat": 25.1192507,
      "lng": 55.3955344,
@@ -1245,7 +1264,7 @@
     },
     {
      "code": "C3-25",
-     "order": 23,
+     "order": 24,
      "name": "Villanova La Rosa 1, Villa 46",
      "lat": 25.0765573,
      "lng": 55.3609188,
@@ -2222,19 +2241,19 @@
      ]
     },
     {
-     "code": "C3-15",
+     "code": "C3-26",
      "order": 5,
-     "name": "Silicon Oasis Avenue Mall 2",
-     "lat": 25.11174,
-     "lng": 55.375866,
-     "google_place_id": "ChIJ7_qEcENkXz4RSGuc2vNMa44",
-     "where_exactly": "Bus stop shelter outside LuLu Hypermarket, Silicon Oasis Avenue Mall.",
-     "pickup_lat": 25.11174,
-     "pickup_lng": 55.375866,
-     "pickup_where_exactly": "Bus stop shelter outside LuLu Hypermarket, Silicon Oasis Avenue Mall.",
-     "setdown_lat": 25.11174,
-     "setdown_lng": 55.375866,
-     "setdown_where_exactly": "Bus stop shelter outside LuLu Hypermarket, Silicon Oasis Avenue Mall.",
+     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
+     "lat": 25.107412,
+     "lng": 55.3785071,
+     "google_place_id": "ChIJ41Qx9R5lXz4RjAJufeimtDs",
+     "where_exactly": "Kerbside outside Binghatti Crystals, near Axis 7, DSO. Rider-only stop (Nabeela); last call before campus on the central masters bus.",
+     "pickup_lat": 25.107412,
+     "pickup_lng": 55.3785071,
+     "pickup_where_exactly": "Kerbside outside Binghatti Crystals, near Axis 7, DSO. Rider-only stop (Nabeela); last call before campus on the central masters bus.",
+     "setdown_lat": 25.107412,
+     "setdown_lng": 55.3785071,
+     "setdown_where_exactly": "Kerbside outside Binghatti Crystals, near Axis 7, DSO. Rider-only stop (Nabeela); last call before campus on the central masters bus.",
      "served_by_routes": [
       "R4"
      ]
@@ -2453,6 +2472,24 @@
      "setdown_where_exactly": "Kerbside outside Exotic Fin Store, Uptown Mirdif, corner of Algeria St.",
      "served_by_routes": [
       "R2"
+     ]
+    },
+    {
+     "code": "C3-15",
+     "order": 5,
+     "name": "Silicon Oasis Avenue Mall 2",
+     "lat": 25.11174,
+     "lng": 55.375866,
+     "google_place_id": "ChIJ7_qEcENkXz4RSGuc2vNMa44",
+     "where_exactly": "Bus stop shelter outside LuLu Hypermarket, Silicon Oasis Avenue Mall.",
+     "pickup_lat": 25.11174,
+     "pickup_lng": 55.375866,
+     "pickup_where_exactly": "Bus stop shelter outside LuLu Hypermarket, Silicon Oasis Avenue Mall.",
+     "setdown_lat": 25.11174,
+     "setdown_lng": 55.375866,
+     "setdown_where_exactly": "Bus stop shelter outside LuLu Hypermarket, Silicon Oasis Avenue Mall.",
+     "served_by_routes": [
+      "R4"
      ]
     },
     {
@@ -37297,13 +37334,13 @@
      "where_exactly": "Kerbside on 24 Street outside the tower entrance; do not enter the car park."
     },
     {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
+     "code": "C3-26",
+     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
      "time": "17:06",
      "action": "pick_up",
-     "lat": 25.11174,
-     "lng": 55.375866,
-     "where_exactly": "Bus stop shelter outside LuLu Hypermarket, Silicon Oasis Avenue Mall."
+     "lat": 25.107412,
+     "lng": 55.3785071,
+     "where_exactly": "Kerbside outside Binghatti Crystals, near Axis 7, DSO. Rider-only stop (Nabeela); last call before campus on the central masters bus."
     },
     {
      "code": "UOB",
@@ -37409,8 +37446,8 @@
      "action": "pick_up"
     },
     {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
+     "code": "C3-26",
+     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
      "time": "16:31",
      "action": "pick_up"
     },
@@ -37528,13 +37565,13 @@
      "where_exactly": ""
     },
     {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
+     "code": "C3-26",
+     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
      "time": "21:49",
      "action": "set_down",
-     "lat": 25.11174,
-     "lng": 55.375866,
-     "where_exactly": "Bus stop shelter outside LuLu Hypermarket, Silicon Oasis Avenue Mall."
+     "lat": 25.107412,
+     "lng": 55.3785071,
+     "where_exactly": "Kerbside outside Binghatti Crystals, near Axis 7, DSO. Rider-only stop (Nabeela); last call before campus on the central masters bus."
     },
     {
      "code": "C3-19",
@@ -37655,8 +37692,8 @@
      "action": "set_down"
     },
     {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
+     "code": "C3-26",
+     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
      "time": "21:57",
      "action": "set_down"
     },
@@ -42666,8 +42703,8 @@
      "action": "pick_up"
     },
     {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
+     "code": "C3-26",
+     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
      "time": "16:31",
      "action": "pick_up"
     },
@@ -42977,8 +43014,8 @@
      "action": "set_down"
     },
     {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
+     "code": "C3-26",
+     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
      "time": "21:57",
      "action": "set_down"
     },
@@ -47750,13 +47787,13 @@
      "where_exactly": "Main entrance of the Arabian Ranches 3 souk."
     },
     {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
+     "code": "C3-26",
+     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
      "time": "17:06",
      "action": "pick_up",
-     "lat": 25.11174,
-     "lng": 55.375866,
-     "where_exactly": "Bus stop shelter outside LuLu Hypermarket, Silicon Oasis Avenue Mall."
+     "lat": 25.107412,
+     "lng": 55.3785071,
+     "where_exactly": "Kerbside outside Binghatti Crystals, near Axis 7, DSO. Rider-only stop (Nabeela); last call before campus on the central masters bus."
     },
     {
      "code": "UOB",
@@ -47918,8 +47955,8 @@
      "action": "pick_up"
     },
     {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
+     "code": "C3-26",
+     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
      "time": "16:31",
      "action": "pick_up"
     },
@@ -48075,13 +48112,13 @@
      "where_exactly": ""
     },
     {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
+     "code": "C3-26",
+     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
      "time": "21:49",
      "action": "set_down",
-     "lat": 25.11174,
-     "lng": 55.375866,
-     "where_exactly": "Bus stop shelter outside LuLu Hypermarket, Silicon Oasis Avenue Mall."
+     "lat": 25.107412,
+     "lng": 55.3785071,
+     "where_exactly": "Kerbside outside Binghatti Crystals, near Axis 7, DSO. Rider-only stop (Nabeela); last call before campus on the central masters bus."
     },
     {
      "code": "C3-12",
@@ -48267,8 +48304,8 @@
      "action": "set_down"
     },
     {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
+     "code": "C3-26",
+     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
      "time": "21:57",
      "action": "set_down"
     },
@@ -52916,13 +52953,13 @@
      "where_exactly": "Outside drop-off area by Tim Hortons, City Centre Me'aisem."
     },
     {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
+     "code": "C3-26",
+     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
      "time": "17:06",
      "action": "pick_up",
-     "lat": 25.11174,
-     "lng": 55.375866,
-     "where_exactly": "Bus stop shelter outside LuLu Hypermarket, Silicon Oasis Avenue Mall."
+     "lat": 25.107412,
+     "lng": 55.3785071,
+     "where_exactly": "Kerbside outside Binghatti Crystals, near Axis 7, DSO. Rider-only stop (Nabeela); last call before campus on the central masters bus."
     },
     {
      "code": "UOB",
@@ -52972,8 +53009,8 @@
      "action": "pick_up"
     },
     {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
+     "code": "C3-26",
+     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
      "time": "16:31",
      "action": "pick_up"
     },
@@ -53138,13 +53175,13 @@
      "where_exactly": ""
     },
     {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
+     "code": "C3-26",
+     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
      "time": "21:49",
      "action": "set_down",
-     "lat": 25.11174,
-     "lng": 55.375866,
-     "where_exactly": "Bus stop shelter outside LuLu Hypermarket, Silicon Oasis Avenue Mall."
+     "lat": 25.107412,
+     "lng": 55.3785071,
+     "where_exactly": "Kerbside outside Binghatti Crystals, near Axis 7, DSO. Rider-only stop (Nabeela); last call before campus on the central masters bus."
     },
     {
      "code": "C3-05",
@@ -53218,8 +53255,8 @@
      "action": "set_down"
     },
     {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
+     "code": "C3-26",
+     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
      "time": "21:57",
      "action": "set_down"
     },
@@ -57133,8 +57170,8 @@
      "action": "pick_up"
     },
     {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
+     "code": "C3-26",
+     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
      "time": "16:31",
      "action": "pick_up"
     },
@@ -57390,8 +57427,8 @@
      "action": "set_down"
     },
     {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
+     "code": "C3-26",
+     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
      "time": "21:57",
      "action": "set_down"
     },
@@ -62567,13 +62604,13 @@
      "where_exactly": "Kerbside on 24 Street outside the tower entrance; do not enter the car park."
     },
     {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
+     "code": "C3-26",
+     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
      "time": "17:06",
      "action": "pick_up",
-     "lat": 25.11174,
-     "lng": 55.375866,
-     "where_exactly": "Bus stop shelter outside LuLu Hypermarket, Silicon Oasis Avenue Mall."
+     "lat": 25.107412,
+     "lng": 55.3785071,
+     "where_exactly": "Kerbside outside Binghatti Crystals, near Axis 7, DSO. Rider-only stop (Nabeela); last call before campus on the central masters bus."
     },
     {
      "code": "UOB",
@@ -62670,8 +62707,8 @@
      "action": "pick_up"
     },
     {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
+     "code": "C3-26",
+     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
      "time": "16:33",
      "action": "pick_up"
     },
@@ -62777,13 +62814,13 @@
      "where_exactly": ""
     },
     {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
+     "code": "C3-26",
+     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
      "time": "21:49",
      "action": "set_down",
-     "lat": 25.11174,
-     "lng": 55.375866,
-     "where_exactly": "Bus stop shelter outside LuLu Hypermarket, Silicon Oasis Avenue Mall."
+     "lat": 25.107412,
+     "lng": 55.3785071,
+     "where_exactly": "Kerbside outside Binghatti Crystals, near Axis 7, DSO. Rider-only stop (Nabeela); last call before campus on the central masters bus."
     },
     {
      "code": "C3-19",
@@ -62895,8 +62932,8 @@
      "action": "set_down"
     },
     {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
+     "code": "C3-26",
+     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
      "time": "22:00",
      "action": "set_down"
     },
@@ -67484,8 +67521,8 @@
      "action": "pick_up"
     },
     {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
+     "code": "C3-26",
+     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
      "time": "16:33",
      "action": "pick_up"
     },
@@ -67774,8 +67811,8 @@
      "action": "set_down"
     },
     {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
+     "code": "C3-26",
+     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
      "time": "22:00",
      "action": "set_down"
     },
@@ -72136,13 +72173,13 @@
      "where_exactly": "Main entrance of the Arabian Ranches 3 souk."
     },
     {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
+     "code": "C3-26",
+     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
      "time": "17:06",
      "action": "pick_up",
-     "lat": 25.11174,
-     "lng": 55.375866,
-     "where_exactly": "Bus stop shelter outside LuLu Hypermarket, Silicon Oasis Avenue Mall."
+     "lat": 25.107412,
+     "lng": 55.3785071,
+     "where_exactly": "Kerbside outside Binghatti Crystals, near Axis 7, DSO. Rider-only stop (Nabeela); last call before campus on the central masters bus."
     },
     {
      "code": "UOB",
@@ -72304,8 +72341,8 @@
      "action": "pick_up"
     },
     {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
+     "code": "C3-26",
+     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
      "time": "16:33",
      "action": "pick_up"
     },
@@ -72449,13 +72486,13 @@
      "where_exactly": ""
     },
     {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
+     "code": "C3-26",
+     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
      "time": "21:49",
      "action": "set_down",
-     "lat": 25.11174,
-     "lng": 55.375866,
-     "where_exactly": "Bus stop shelter outside LuLu Hypermarket, Silicon Oasis Avenue Mall."
+     "lat": 25.107412,
+     "lng": 55.3785071,
+     "where_exactly": "Kerbside outside Binghatti Crystals, near Axis 7, DSO. Rider-only stop (Nabeela); last call before campus on the central masters bus."
     },
     {
      "code": "C3-12",
@@ -72641,8 +72678,8 @@
      "action": "set_down"
     },
     {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
+     "code": "C3-26",
+     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
      "time": "22:00",
      "action": "set_down"
     },
@@ -77051,13 +77088,13 @@
      "where_exactly": "Outside drop-off area by Tim Hortons, City Centre Me'aisem."
     },
     {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
+     "code": "C3-26",
+     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
      "time": "17:06",
      "action": "pick_up",
-     "lat": 25.11174,
-     "lng": 55.375866,
-     "where_exactly": "Bus stop shelter outside LuLu Hypermarket, Silicon Oasis Avenue Mall."
+     "lat": 25.107412,
+     "lng": 55.3785071,
+     "where_exactly": "Kerbside outside Binghatti Crystals, near Axis 7, DSO. Rider-only stop (Nabeela); last call before campus on the central masters bus."
     },
     {
      "code": "UOB",
@@ -77107,8 +77144,8 @@
      "action": "pick_up"
     },
     {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
+     "code": "C3-26",
+     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
      "time": "16:33",
      "action": "pick_up"
     },
@@ -77252,13 +77289,13 @@
      "where_exactly": ""
     },
     {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
+     "code": "C3-26",
+     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
      "time": "21:49",
      "action": "set_down",
-     "lat": 25.11174,
-     "lng": 55.375866,
-     "where_exactly": "Bus stop shelter outside LuLu Hypermarket, Silicon Oasis Avenue Mall."
+     "lat": 25.107412,
+     "lng": 55.3785071,
+     "where_exactly": "Kerbside outside Binghatti Crystals, near Axis 7, DSO. Rider-only stop (Nabeela); last call before campus on the central masters bus."
     },
     {
      "code": "C3-05",
@@ -77332,8 +77369,8 @@
      "action": "set_down"
     },
     {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
+     "code": "C3-26",
+     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
      "time": "22:00",
      "action": "set_down"
     },
@@ -81237,8 +81274,8 @@
      "action": "pick_up"
     },
     {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
+     "code": "C3-26",
+     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
      "time": "16:33",
      "action": "pick_up"
     },
@@ -81444,8 +81481,8 @@
      "action": "set_down"
     },
     {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
+     "code": "C3-26",
+     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
      "time": "22:00",
      "action": "set_down"
     },
@@ -86395,13 +86432,13 @@
      "where_exactly": "Kerbside on 24 Street outside the tower entrance; do not enter the car park."
     },
     {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
+     "code": "C3-26",
+     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
      "time": "17:06",
      "action": "pick_up",
-     "lat": 25.11174,
-     "lng": 55.375866,
-     "where_exactly": "Bus stop shelter outside LuLu Hypermarket, Silicon Oasis Avenue Mall."
+     "lat": 25.107412,
+     "lng": 55.3785071,
+     "where_exactly": "Kerbside outside Binghatti Crystals, near Axis 7, DSO. Rider-only stop (Nabeela); last call before campus on the central masters bus."
     },
     {
      "code": "UOB",
@@ -86498,8 +86535,8 @@
      "action": "pick_up"
     },
     {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
+     "code": "C3-26",
+     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
      "time": "16:37",
      "action": "pick_up"
     },
@@ -86587,13 +86624,13 @@
      "where_exactly": ""
     },
     {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
+     "code": "C3-26",
+     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
      "time": "21:49",
      "action": "set_down",
-     "lat": 25.11174,
-     "lng": 55.375866,
-     "where_exactly": "Bus stop shelter outside LuLu Hypermarket, Silicon Oasis Avenue Mall."
+     "lat": 25.107412,
+     "lng": 55.3785071,
+     "where_exactly": "Kerbside outside Binghatti Crystals, near Axis 7, DSO. Rider-only stop (Nabeela); last call before campus on the central masters bus."
     },
     {
      "code": "C3-19",
@@ -86705,8 +86742,8 @@
      "action": "set_down"
     },
     {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
+     "code": "C3-26",
+     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
      "time": "22:06",
      "action": "set_down"
     },
@@ -91111,8 +91148,8 @@
      "action": "pick_up"
     },
     {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
+     "code": "C3-26",
+     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
      "time": "16:37",
      "action": "pick_up"
     },
@@ -91365,8 +91402,8 @@
      "action": "set_down"
     },
     {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
+     "code": "C3-26",
+     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
      "time": "22:06",
      "action": "set_down"
     },
@@ -95509,13 +95546,13 @@
      "where_exactly": "Main entrance of the Arabian Ranches 3 souk."
     },
     {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
+     "code": "C3-26",
+     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
      "time": "17:06",
      "action": "pick_up",
-     "lat": 25.11174,
-     "lng": 55.375866,
-     "where_exactly": "Bus stop shelter outside LuLu Hypermarket, Silicon Oasis Avenue Mall."
+     "lat": 25.107412,
+     "lng": 55.3785071,
+     "where_exactly": "Kerbside outside Binghatti Crystals, near Axis 7, DSO. Rider-only stop (Nabeela); last call before campus on the central masters bus."
     },
     {
      "code": "UOB",
@@ -95668,8 +95705,8 @@
      "action": "pick_up"
     },
     {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
+     "code": "C3-26",
+     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
      "time": "16:37",
      "action": "pick_up"
     },
@@ -95757,13 +95794,13 @@
      "where_exactly": ""
     },
     {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
+     "code": "C3-26",
+     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
      "time": "21:49",
      "action": "set_down",
-     "lat": 25.11174,
-     "lng": 55.375866,
-     "where_exactly": "Bus stop shelter outside LuLu Hypermarket, Silicon Oasis Avenue Mall."
+     "lat": 25.107412,
+     "lng": 55.3785071,
+     "where_exactly": "Kerbside outside Binghatti Crystals, near Axis 7, DSO. Rider-only stop (Nabeela); last call before campus on the central masters bus."
     },
     {
      "code": "C3-12",
@@ -95931,8 +95968,8 @@
      "action": "set_down"
     },
     {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
+     "code": "C3-26",
+     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
      "time": "22:06",
      "action": "set_down"
     },
@@ -100319,7 +100356,7 @@
    "service": "masters",
    "arrive_campus": "17:45",
    "leave_campus": null,
-   "start": "16:42",
+   "start": "16:41",
    "end": "17:45",
    "vehicle": "M8",
    "vehicle_type": "Rosa",
@@ -100330,20 +100367,20 @@
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "16:42",
+     "time": "16:41",
      "action": "pick_up",
      "lat": 25.099769538054428,
      "lng": 55.17320213081937,
      "where_exactly": "RTA bus stop \"Dubai Internet City Metro Bus Stop Landside 1\" (landside, Barsha Heights side of the metro) - pick-up and set-down here; coordinator-confirmed pin 12 Oct."
     },
     {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
+     "code": "C3-26",
+     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
      "time": "17:06",
      "action": "pick_up",
-     "lat": 25.11174,
-     "lng": 55.375866,
-     "where_exactly": "Bus stop shelter outside LuLu Hypermarket, Silicon Oasis Avenue Mall."
+     "lat": 25.107412,
+     "lng": 55.3785071,
+     "where_exactly": "Kerbside outside Binghatti Crystals, near Axis 7, DSO. Rider-only stop (Nabeela); last call before campus on the central masters bus."
     },
     {
      "code": "UOB",
@@ -100393,8 +100430,8 @@
      "action": "pick_up"
     },
     {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
+     "code": "C3-26",
+     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
      "time": "16:37",
      "action": "pick_up"
     },
@@ -100503,7 +100540,7 @@
    "arrive_campus": null,
    "leave_campus": "21:36",
    "start": "21:36",
-   "end": "22:14",
+   "end": "22:15",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
@@ -100520,18 +100557,18 @@
      "where_exactly": ""
     },
     {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
+     "code": "C3-26",
+     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
      "time": "21:49",
      "action": "set_down",
-     "lat": 25.11174,
-     "lng": 55.375866,
-     "where_exactly": "Bus stop shelter outside LuLu Hypermarket, Silicon Oasis Avenue Mall."
+     "lat": 25.107412,
+     "lng": 55.3785071,
+     "where_exactly": "Kerbside outside Binghatti Crystals, near Axis 7, DSO. Rider-only stop (Nabeela); last call before campus on the central masters bus."
     },
     {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "22:09",
+     "time": "22:10",
      "action": "set_down",
      "lat": 25.093492,
      "lng": 55.177807,
@@ -100540,7 +100577,7 @@
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "22:14",
+     "time": "22:15",
      "action": "set_down",
      "lat": 25.099769538054428,
      "lng": 55.17320213081937,
@@ -100591,8 +100628,8 @@
      "action": "set_down"
     },
     {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
+     "code": "C3-26",
+     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
      "time": "22:06",
      "action": "set_down"
     },
@@ -104352,8 +104389,8 @@
      "action": "pick_up"
     },
     {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
+     "code": "C3-26",
+     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
      "time": "16:37",
      "action": "pick_up"
     },
@@ -104541,8 +104578,8 @@
      "action": "set_down"
     },
     {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
+     "code": "C3-26",
+     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
      "time": "22:06",
      "action": "set_down"
     },
@@ -109465,13 +109502,13 @@
      "where_exactly": "Kerbside on 24 Street outside the tower entrance; do not enter the car park."
     },
     {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
+     "code": "C3-26",
+     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
      "time": "17:06",
      "action": "pick_up",
-     "lat": 25.11174,
-     "lng": 55.375866,
-     "where_exactly": "Bus stop shelter outside LuLu Hypermarket, Silicon Oasis Avenue Mall."
+     "lat": 25.107412,
+     "lng": 55.3785071,
+     "where_exactly": "Kerbside outside Binghatti Crystals, near Axis 7, DSO. Rider-only stop (Nabeela); last call before campus on the central masters bus."
     },
     {
      "code": "UOB",
@@ -109612,8 +109649,8 @@
      "action": "pick_up"
     },
     {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
+     "code": "C3-26",
+     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
      "time": "16:45",
      "action": "pick_up"
     },
@@ -109695,13 +109732,13 @@
      "where_exactly": ""
     },
     {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
+     "code": "C3-26",
+     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
      "time": "21:49",
      "action": "set_down",
-     "lat": 25.11174,
-     "lng": 55.375866,
-     "where_exactly": "Bus stop shelter outside LuLu Hypermarket, Silicon Oasis Avenue Mall."
+     "lat": 25.107412,
+     "lng": 55.3785071,
+     "where_exactly": "Kerbside outside Binghatti Crystals, near Axis 7, DSO. Rider-only stop (Nabeela); last call before campus on the central masters bus."
     },
     {
      "code": "C3-19",
@@ -109857,8 +109894,8 @@
      "action": "set_down"
     },
     {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
+     "code": "C3-26",
+     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
      "time": "22:14",
      "action": "set_down"
     },
@@ -114261,8 +114298,8 @@
      "action": "pick_up"
     },
     {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
+     "code": "C3-26",
+     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
      "time": "16:45",
      "action": "pick_up"
     },
@@ -114515,8 +114552,8 @@
      "action": "set_down"
     },
     {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
+     "code": "C3-26",
+     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
      "time": "22:14",
      "action": "set_down"
     },
@@ -118600,13 +118637,13 @@
      "where_exactly": "Main entrance of the Arabian Ranches 3 souk."
     },
     {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
+     "code": "C3-26",
+     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
      "time": "17:06",
      "action": "pick_up",
-     "lat": 25.11174,
-     "lng": 55.375866,
-     "where_exactly": "Bus stop shelter outside LuLu Hypermarket, Silicon Oasis Avenue Mall."
+     "lat": 25.107412,
+     "lng": 55.3785071,
+     "where_exactly": "Kerbside outside Binghatti Crystals, near Axis 7, DSO. Rider-only stop (Nabeela); last call before campus on the central masters bus."
     },
     {
      "code": "UOB",
@@ -118774,8 +118811,8 @@
      "action": "pick_up"
     },
     {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
+     "code": "C3-26",
+     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
      "time": "16:45",
      "action": "pick_up"
     },
@@ -118857,13 +118894,13 @@
      "where_exactly": ""
     },
     {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
+     "code": "C3-26",
+     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
      "time": "21:49",
      "action": "set_down",
-     "lat": 25.11174,
-     "lng": 55.375866,
-     "where_exactly": "Bus stop shelter outside LuLu Hypermarket, Silicon Oasis Avenue Mall."
+     "lat": 25.107412,
+     "lng": 55.3785071,
+     "where_exactly": "Kerbside outside Binghatti Crystals, near Axis 7, DSO. Rider-only stop (Nabeela); last call before campus on the central masters bus."
     },
     {
      "code": "C3-12",
@@ -119046,8 +119083,8 @@
      "action": "set_down"
     },
     {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
+     "code": "C3-26",
+     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
      "time": "22:14",
      "action": "set_down"
     },
@@ -123318,7 +123355,7 @@
    "service": "masters",
    "arrive_campus": "17:45",
    "leave_campus": null,
-   "start": "16:42",
+   "start": "16:41",
    "end": "17:45",
    "vehicle": "M8",
    "vehicle_type": "Rosa",
@@ -123329,20 +123366,20 @@
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "16:42",
+     "time": "16:41",
      "action": "pick_up",
      "lat": 25.099769538054428,
      "lng": 55.17320213081937,
      "where_exactly": "RTA bus stop \"Dubai Internet City Metro Bus Stop Landside 1\" (landside, Barsha Heights side of the metro) - pick-up and set-down here; coordinator-confirmed pin 12 Oct."
     },
     {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
+     "code": "C3-26",
+     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
      "time": "17:06",
      "action": "pick_up",
-     "lat": 25.11174,
-     "lng": 55.375866,
-     "where_exactly": "Bus stop shelter outside LuLu Hypermarket, Silicon Oasis Avenue Mall."
+     "lat": 25.107412,
+     "lng": 55.3785071,
+     "where_exactly": "Kerbside outside Binghatti Crystals, near Axis 7, DSO. Rider-only stop (Nabeela); last call before campus on the central masters bus."
     },
     {
      "code": "UOB",
@@ -123398,8 +123435,8 @@
      "action": "pick_up"
     },
     {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
+     "code": "C3-26",
+     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
      "time": "16:45",
      "action": "pick_up"
     },
@@ -123464,7 +123501,7 @@
    "arrive_campus": null,
    "leave_campus": "21:36",
    "start": "21:36",
-   "end": "22:14",
+   "end": "22:15",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
@@ -123481,18 +123518,18 @@
      "where_exactly": ""
     },
     {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
+     "code": "C3-26",
+     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
      "time": "21:49",
      "action": "set_down",
-     "lat": 25.11174,
-     "lng": 55.375866,
-     "where_exactly": "Bus stop shelter outside LuLu Hypermarket, Silicon Oasis Avenue Mall."
+     "lat": 25.107412,
+     "lng": 55.3785071,
+     "where_exactly": "Kerbside outside Binghatti Crystals, near Axis 7, DSO. Rider-only stop (Nabeela); last call before campus on the central masters bus."
     },
     {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "22:09",
+     "time": "22:10",
      "action": "set_down",
      "lat": 25.093492,
      "lng": 55.177807,
@@ -123501,7 +123538,7 @@
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "22:14",
+     "time": "22:15",
      "action": "set_down",
      "lat": 25.099769538054428,
      "lng": 55.17320213081937,
@@ -123558,8 +123595,8 @@
      "action": "set_down"
     },
     {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
+     "code": "C3-26",
+     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
      "time": "22:14",
      "action": "set_down"
     },
@@ -127209,8 +127246,8 @@
      "action": "pick_up"
     },
     {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
+     "code": "C3-26",
+     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
      "time": "16:45",
      "action": "pick_up"
     },
@@ -127398,8 +127435,8 @@
      "action": "set_down"
     },
     {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
+     "code": "C3-26",
+     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
      "time": "22:14",
      "action": "set_down"
     },
