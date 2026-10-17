@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-16T08:56:54Z",
+ "generated_at": "2026-10-17T12:33:23Z",
  "week": "2026-10-09 to 2026-11-15",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -36168,22 +36168,31 @@
    "service": "undergraduate",
    "arrive_campus": "12:45",
    "leave_campus": null,
-   "start": "11:54",
+   "start": "11:51",
    "end": "12:45",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 2,
+   "booked": 3,
    "seats": 15,
    "stops": [
     {
      "code": "C4-19",
      "name": "Masakin Al Furjan Gate 2, Al Furjan",
-     "time": "11:54",
+     "time": "11:51",
      "action": "pick_up",
      "lat": 25.0308,
      "lng": 55.14978,
      "where_exactly": "Masakin Al Furjan, Gate 2 (by Arcadia Global School) - exact gate pin to be confirmed from her map link."
+    },
+    {
+     "code": "C4-16",
+     "name": "Discovery Gardens Metro Station",
+     "time": "11:57",
+     "action": "pick_up",
+     "lat": 25.035204,
+     "lng": 55.1453653,
+     "where_exactly": "Bus and taxi lay-by at the station entrance."
     },
     {
      "code": "C4-13",
@@ -36344,7 +36353,7 @@
    "vehicle": "M6",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 5,
+   "booked": 6,
    "seats": 15,
    "stops": [
     {
@@ -41153,27 +41162,36 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "06:15",
+   "start": "06:12",
    "end": "07:45",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 2,
+   "booked": 3,
    "seats": 15,
    "stops": [
     {
      "code": "C4-11",
      "name": "Al Furjan West Centre",
-     "time": "06:15",
+     "time": "06:12",
      "action": "pick_up",
      "lat": 25.021958,
      "lng": 55.129796,
      "where_exactly": "Car park entrance."
     },
     {
+     "code": "C4-16",
+     "name": "Discovery Gardens Metro Station",
+     "time": "06:29",
+     "action": "pick_up",
+     "lat": 25.035204,
+     "lng": 55.1453653,
+     "where_exactly": "Bus and taxi lay-by at the station entrance."
+    },
+    {
      "code": "C4-13",
      "name": "Gardens Metro Station",
-     "time": "06:35",
+     "time": "06:41",
      "action": "pick_up",
      "lat": 25.043761,
      "lng": 55.134832,
@@ -41324,7 +41342,7 @@
    "vehicle": "M6",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 4,
+   "booked": 3,
    "seats": 15,
    "stops": [
     {
@@ -46389,7 +46407,7 @@
    "vehicle": "M6",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 8,
+   "booked": 7,
    "seats": 15,
    "stops": [
     {
@@ -46527,62 +46545,37 @@
    "day": "Wed",
    "route": "R6",
    "direction": "to_campus",
-   "service": "regular",
+   "service": "undergraduate",
    "arrive_campus": "12:45",
    "leave_campus": null,
-   "start": "10:45",
+   "start": "11:56",
    "end": "12:45",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 0,
+   "booked": 1,
    "seats": 15,
-   "offer_only": true,
    "stops": [
     {
-     "code": "C4-14",
-     "name": "Dubai British School, Jumeirah Park",
-     "time": "10:45",
-     "action": "pick_up"
-    },
-    {
-     "code": "C4-13",
-     "name": "Gardens Metro Station",
-     "time": "11:05",
-     "action": "pick_up"
-    },
-    {
-     "code": "C4-12",
-     "name": "Al Furjan Centre (Pavilion)",
-     "time": "11:25",
-     "action": "pick_up"
-    },
-    {
-     "code": "C4-11",
-     "name": "Al Furjan West Centre",
-     "time": "11:45",
-     "action": "pick_up"
-    },
-    {
-     "code": "C4-10",
-     "name": "Green Community West gate",
-     "time": "12:05",
-     "action": "pick_up"
-    },
-    {
-     "code": "C4-09",
-     "name": "Holiday Inn, Al Maktoum Airport",
-     "time": "12:25",
-     "action": "pick_up"
+     "code": "C4-16",
+     "name": "Discovery Gardens Metro Station",
+     "time": "11:56",
+     "action": "pick_up",
+     "lat": 25.035204,
+     "lng": 55.1453653,
+     "where_exactly": "Bus and taxi lay-by at the station entrance."
     },
     {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
      "time": "12:45",
-     "action": "set_down"
+     "action": "set_down",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
     }
    ],
-   "status": "on_request"
+   "status": "operating"
   },
   {
    "run_id": "2026-10-21-R6-O5",
@@ -61499,22 +61492,31 @@
    "service": "undergraduate",
    "arrive_campus": "12:45",
    "leave_campus": null,
-   "start": "11:54",
+   "start": "11:51",
    "end": "12:45",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 2,
+   "booked": 3,
    "seats": 15,
    "stops": [
     {
      "code": "C4-19",
      "name": "Masakin Al Furjan Gate 2, Al Furjan",
-     "time": "11:54",
+     "time": "11:51",
      "action": "pick_up",
      "lat": 25.0308,
      "lng": 55.14978,
      "where_exactly": "Masakin Al Furjan, Gate 2 (by Arcadia Global School) - exact gate pin to be confirmed from her map link."
+    },
+    {
+     "code": "C4-16",
+     "name": "Discovery Gardens Metro Station",
+     "time": "11:57",
+     "action": "pick_up",
+     "lat": 25.035204,
+     "lng": 55.1453653,
+     "where_exactly": "Bus and taxi lay-by at the station entrance."
     },
     {
      "code": "C4-13",
@@ -61675,7 +61677,7 @@
    "vehicle": "M6",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 5,
+   "booked": 6,
    "seats": 15,
    "stops": [
     {
@@ -65962,18 +65964,27 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "06:22",
+   "start": "06:21",
    "end": "07:45",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 1,
+   "booked": 2,
    "seats": 15,
    "stops": [
     {
+     "code": "C4-16",
+     "name": "Discovery Gardens Metro Station",
+     "time": "06:21",
+     "action": "pick_up",
+     "lat": 25.035204,
+     "lng": 55.1453653,
+     "where_exactly": "Bus and taxi lay-by at the station entrance."
+    },
+    {
      "code": "C4-13",
      "name": "Gardens Metro Station",
-     "time": "06:22",
+     "time": "06:34",
      "action": "pick_up",
      "lat": 25.043761,
      "lng": 55.134832,
@@ -66106,7 +66117,7 @@
    "vehicle": "M6",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 4,
+   "booked": 3,
    "seats": 15,
    "stops": [
     {
@@ -70814,7 +70825,7 @@
    "vehicle": "M6",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 5,
+   "booked": 4,
    "seats": 15,
    "stops": [
     {
@@ -70925,62 +70936,37 @@
    "day": "Wed",
    "route": "R6",
    "direction": "to_campus",
-   "service": "regular",
+   "service": "undergraduate",
    "arrive_campus": "12:45",
    "leave_campus": null,
-   "start": "10:45",
+   "start": "11:56",
    "end": "12:45",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 0,
+   "booked": 1,
    "seats": 15,
-   "offer_only": true,
    "stops": [
     {
-     "code": "C4-14",
-     "name": "Dubai British School, Jumeirah Park",
-     "time": "10:45",
-     "action": "pick_up"
-    },
-    {
-     "code": "C4-13",
-     "name": "Gardens Metro Station",
-     "time": "11:05",
-     "action": "pick_up"
-    },
-    {
-     "code": "C4-12",
-     "name": "Al Furjan Centre (Pavilion)",
-     "time": "11:25",
-     "action": "pick_up"
-    },
-    {
-     "code": "C4-11",
-     "name": "Al Furjan West Centre",
-     "time": "11:45",
-     "action": "pick_up"
-    },
-    {
-     "code": "C4-10",
-     "name": "Green Community West gate",
-     "time": "12:05",
-     "action": "pick_up"
-    },
-    {
-     "code": "C4-09",
-     "name": "Holiday Inn, Al Maktoum Airport",
-     "time": "12:25",
-     "action": "pick_up"
+     "code": "C4-16",
+     "name": "Discovery Gardens Metro Station",
+     "time": "11:56",
+     "action": "pick_up",
+     "lat": 25.035204,
+     "lng": 55.1453653,
+     "where_exactly": "Bus and taxi lay-by at the station entrance."
     },
     {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
      "time": "12:45",
-     "action": "set_down"
+     "action": "set_down",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
     }
    ],
-   "status": "on_request"
+   "status": "operating"
   },
   {
    "run_id": "2026-10-28-R6-O5",
@@ -85229,22 +85215,31 @@
    "service": "undergraduate",
    "arrive_campus": "12:45",
    "leave_campus": null,
-   "start": "11:54",
+   "start": "11:51",
    "end": "12:45",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 2,
+   "booked": 3,
    "seats": 15,
    "stops": [
     {
      "code": "C4-19",
      "name": "Masakin Al Furjan Gate 2, Al Furjan",
-     "time": "11:54",
+     "time": "11:51",
      "action": "pick_up",
      "lat": 25.0308,
      "lng": 55.14978,
      "where_exactly": "Masakin Al Furjan, Gate 2 (by Arcadia Global School) - exact gate pin to be confirmed from her map link."
+    },
+    {
+     "code": "C4-16",
+     "name": "Discovery Gardens Metro Station",
+     "time": "11:57",
+     "action": "pick_up",
+     "lat": 25.035204,
+     "lng": 55.1453653,
+     "where_exactly": "Bus and taxi lay-by at the station entrance."
     },
     {
      "code": "C4-13",
@@ -85394,11 +85389,11 @@
    "arrive_campus": null,
    "leave_campus": "16:30",
    "start": "16:30",
-   "end": "17:45",
+   "end": "17:46",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 2,
+   "booked": 3,
    "seats": 15,
    "stops": [
     {
@@ -85413,11 +85408,20 @@
     {
      "code": "C4-13",
      "name": "Gardens Metro Station",
-     "time": "17:45",
+     "time": "17:34",
      "action": "set_down",
      "lat": 25.043761,
      "lng": 55.134832,
      "where_exactly": "Exit 1 of the metro station, at the bus stop (Discovery Gardens side)."
+    },
+    {
+     "code": "C4-16",
+     "name": "Discovery Gardens Metro Station",
+     "time": "17:46",
+     "action": "set_down",
+     "lat": 25.035204,
+     "lng": 55.1453653,
+     "where_exactly": "Bus and taxi lay-by at the station entrance."
     }
    ],
    "status": "operating"
@@ -89623,18 +89627,27 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "06:22",
+   "start": "06:21",
    "end": "07:45",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 2,
+   "booked": 3,
    "seats": 15,
    "stops": [
     {
+     "code": "C4-16",
+     "name": "Discovery Gardens Metro Station",
+     "time": "06:21",
+     "action": "pick_up",
+     "lat": 25.035204,
+     "lng": 55.1453653,
+     "where_exactly": "Bus and taxi lay-by at the station entrance."
+    },
+    {
      "code": "C4-13",
      "name": "Gardens Metro Station",
-     "time": "06:22",
+     "time": "06:34",
      "action": "pick_up",
      "lat": 25.043761,
      "lng": 55.134832,
@@ -89792,7 +89805,7 @@
    "vehicle": "M6",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 4,
+   "booked": 3,
    "seats": 15,
    "stops": [
     {
@@ -94227,7 +94240,7 @@
    "vehicle": "M6",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 5,
+   "booked": 4,
    "seats": 15,
    "stops": [
     {
@@ -94338,62 +94351,37 @@
    "day": "Wed",
    "route": "R6",
    "direction": "to_campus",
-   "service": "regular",
+   "service": "undergraduate",
    "arrive_campus": "12:45",
    "leave_campus": null,
-   "start": "10:45",
+   "start": "11:56",
    "end": "12:45",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 0,
+   "booked": 1,
    "seats": 15,
-   "offer_only": true,
    "stops": [
     {
-     "code": "C4-14",
-     "name": "Dubai British School, Jumeirah Park",
-     "time": "10:45",
-     "action": "pick_up"
-    },
-    {
-     "code": "C4-13",
-     "name": "Gardens Metro Station",
-     "time": "11:05",
-     "action": "pick_up"
-    },
-    {
-     "code": "C4-12",
-     "name": "Al Furjan Centre (Pavilion)",
-     "time": "11:25",
-     "action": "pick_up"
-    },
-    {
-     "code": "C4-11",
-     "name": "Al Furjan West Centre",
-     "time": "11:45",
-     "action": "pick_up"
-    },
-    {
-     "code": "C4-10",
-     "name": "Green Community West gate",
-     "time": "12:05",
-     "action": "pick_up"
-    },
-    {
-     "code": "C4-09",
-     "name": "Holiday Inn, Al Maktoum Airport",
-     "time": "12:25",
-     "action": "pick_up"
+     "code": "C4-16",
+     "name": "Discovery Gardens Metro Station",
+     "time": "11:56",
+     "action": "pick_up",
+     "lat": 25.035204,
+     "lng": 55.1453653,
+     "where_exactly": "Bus and taxi lay-by at the station entrance."
     },
     {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
      "time": "12:45",
-     "action": "set_down"
+     "action": "set_down",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
     }
    ],
-   "status": "on_request"
+   "status": "operating"
   },
   {
    "run_id": "2026-11-04-R6-O5",
@@ -108288,22 +108276,31 @@
    "service": "undergraduate",
    "arrive_campus": "12:45",
    "leave_campus": null,
-   "start": "11:54",
+   "start": "11:51",
    "end": "12:45",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 2,
+   "booked": 3,
    "seats": 15,
    "stops": [
     {
      "code": "C4-19",
      "name": "Masakin Al Furjan Gate 2, Al Furjan",
-     "time": "11:54",
+     "time": "11:51",
      "action": "pick_up",
      "lat": 25.0308,
      "lng": 55.14978,
      "where_exactly": "Masakin Al Furjan, Gate 2 (by Arcadia Global School) - exact gate pin to be confirmed from her map link."
+    },
+    {
+     "code": "C4-16",
+     "name": "Discovery Gardens Metro Station",
+     "time": "11:57",
+     "action": "pick_up",
+     "lat": 25.035204,
+     "lng": 55.1453653,
+     "where_exactly": "Bus and taxi lay-by at the station entrance."
     },
     {
      "code": "C4-13",
@@ -108464,7 +108461,7 @@
    "vehicle": "M6",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 5,
+   "booked": 6,
    "seats": 15,
    "stops": [
     {
@@ -112660,18 +112657,27 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "06:22",
+   "start": "06:21",
    "end": "07:45",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 1,
+   "booked": 2,
    "seats": 15,
    "stops": [
     {
+     "code": "C4-16",
+     "name": "Discovery Gardens Metro Station",
+     "time": "06:21",
+     "action": "pick_up",
+     "lat": 25.035204,
+     "lng": 55.1453653,
+     "where_exactly": "Bus and taxi lay-by at the station entrance."
+    },
+    {
      "code": "C4-13",
      "name": "Gardens Metro Station",
-     "time": "06:22",
+     "time": "06:34",
      "action": "pick_up",
      "lat": 25.043761,
      "lng": 55.134832,
@@ -112804,7 +112810,7 @@
    "vehicle": "M6",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 4,
+   "booked": 3,
    "seats": 15,
    "stops": [
     {
@@ -117313,7 +117319,7 @@
    "vehicle": "M6",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 4,
+   "booked": 3,
    "seats": 15,
    "stops": [
     {
@@ -117361,62 +117367,37 @@
    "day": "Wed",
    "route": "R6",
    "direction": "to_campus",
-   "service": "regular",
+   "service": "undergraduate",
    "arrive_campus": "12:45",
    "leave_campus": null,
-   "start": "10:45",
+   "start": "11:56",
    "end": "12:45",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 0,
+   "booked": 1,
    "seats": 15,
-   "offer_only": true,
    "stops": [
     {
-     "code": "C4-14",
-     "name": "Dubai British School, Jumeirah Park",
-     "time": "10:45",
-     "action": "pick_up"
-    },
-    {
-     "code": "C4-13",
-     "name": "Gardens Metro Station",
-     "time": "11:05",
-     "action": "pick_up"
-    },
-    {
-     "code": "C4-12",
-     "name": "Al Furjan Centre (Pavilion)",
-     "time": "11:25",
-     "action": "pick_up"
-    },
-    {
-     "code": "C4-11",
-     "name": "Al Furjan West Centre",
-     "time": "11:45",
-     "action": "pick_up"
-    },
-    {
-     "code": "C4-10",
-     "name": "Green Community West gate",
-     "time": "12:05",
-     "action": "pick_up"
-    },
-    {
-     "code": "C4-09",
-     "name": "Holiday Inn, Al Maktoum Airport",
-     "time": "12:25",
-     "action": "pick_up"
+     "code": "C4-16",
+     "name": "Discovery Gardens Metro Station",
+     "time": "11:56",
+     "action": "pick_up",
+     "lat": 25.035204,
+     "lng": 55.1453653,
+     "where_exactly": "Bus and taxi lay-by at the station entrance."
     },
     {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
      "time": "12:45",
-     "action": "set_down"
+     "action": "set_down",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
     }
    ],
-   "status": "on_request"
+   "status": "operating"
   },
   {
    "run_id": "2026-11-11-R6-O5",
