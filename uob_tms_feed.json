@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-18T11:19:38Z",
+ "generated_at": "2026-10-18T11:29:04Z",
  "week": "2026-10-09 to 2026-11-15",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -37040,11 +37040,11 @@
    "arrive_campus": null,
    "leave_campus": "14:15",
    "start": "14:15",
-   "end": "15:35",
+   "end": "15:32",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 5,
+   "booked": 4,
    "seats": 15,
    "stops": [
     {
@@ -37059,7 +37059,7 @@
     {
      "code": "C5-09",
      "name": "Bay Avenue Mall, Business Bay",
-     "time": "14:49",
+     "time": "14:55",
      "action": "set_down",
      "lat": 25.191143,
      "lng": 55.265598,
@@ -37068,25 +37068,16 @@
     {
      "code": "C5-07",
      "name": "World Trade Centre Metro Station",
-     "time": "15:01",
+     "time": "15:08",
      "action": "set_down",
      "lat": 25.225614,
      "lng": 55.284365,
      "where_exactly": "Outside World Trade Centre Metro Station Exit 2 (Fairmont side). Pick-up towards campus only."
     },
     {
-     "code": "C5-17",
-     "name": "New Gold Souq, Al Raffa, Bur Dubai",
-     "time": "15:14",
-     "action": "set_down",
-     "lat": 25.2515903,
-     "lng": 55.2824733,
-     "where_exactly": "ENOC petrol station beside the New Gold Souq (by Shabab Al Khan Cafeteria)."
-    },
-    {
      "code": "C5-05",
      "name": "BurJuman Mall",
-     "time": "15:24",
+     "time": "15:20",
      "action": "set_down",
      "lat": 25.254331,
      "lng": 55.303661,
@@ -37095,7 +37086,7 @@
     {
      "code": "C5-02",
      "name": "Al Rigga Metro Station",
-     "time": "15:35",
+     "time": "15:32",
      "action": "set_down",
      "lat": 25.262847,
      "lng": 55.324368,
@@ -37206,11 +37197,11 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "20:15",
+   "end": "20:18",
    "vehicle": "M7",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 6,
+   "booked": 7,
    "seats": 34,
    "stops": [
     {
@@ -37225,7 +37216,7 @@
     {
      "code": "C5-12",
      "name": "Wasl Green Park, Ras Al Khor",
-     "time": "18:38",
+     "time": "18:37",
      "action": "set_down",
      "lat": 25.181059,
      "lng": 55.375545,
@@ -37234,7 +37225,7 @@
     {
      "code": "C5-11",
      "name": "One Park Avenue, Sobha Hartland",
-     "time": "18:59",
+     "time": "18:58",
      "action": "set_down",
      "lat": 25.1784466,
      "lng": 55.3086196,
@@ -37243,7 +37234,7 @@
     {
      "code": "C5-15",
      "name": "Ubora Tower, Business Bay",
-     "time": "19:20",
+     "time": "19:17",
      "action": "set_down",
      "lat": 25.180398,
      "lng": 55.269675,
@@ -37252,7 +37243,7 @@
     {
      "code": "C5-09",
      "name": "Bay Avenue Mall, Business Bay",
-     "time": "19:30",
+     "time": "19:27",
      "action": "set_down",
      "lat": 25.191143,
      "lng": 55.265598,
@@ -37261,16 +37252,25 @@
     {
      "code": "C5-06",
      "name": "Al Wasl Building, Al Hudaiba",
-     "time": "19:59",
+     "time": "19:55",
      "action": "set_down",
      "lat": 25.243,
      "lng": 55.2788,
      "where_exactly": "S2/PR399 Al Wasl Bldg Block A, 4B St."
     },
     {
+     "code": "C5-17",
+     "name": "New Gold Souq, Al Raffa, Bur Dubai",
+     "time": "20:05",
+     "action": "set_down",
+     "lat": 25.2515903,
+     "lng": 55.2824733,
+     "where_exactly": "ENOC petrol station beside the New Gold Souq (by Shabab Al Khan Cafeteria)."
+    },
+    {
      "code": "C5-05",
      "name": "BurJuman Mall",
-     "time": "20:15",
+     "time": "20:18",
      "action": "set_down",
      "lat": 25.254331,
      "lng": 55.303661,
@@ -42260,11 +42260,11 @@
    "arrive_campus": null,
    "leave_campus": "14:15",
    "start": "14:15",
-   "end": "15:37",
+   "end": "15:34",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 7,
+   "booked": 6,
    "seats": 15,
    "stops": [
     {
@@ -42279,7 +42279,7 @@
     {
      "code": "C5-14",
      "name": "Meydan Heights, Nad Al Sheba 1",
-     "time": "14:40",
+     "time": "14:44",
      "action": "set_down",
      "lat": 25.14468,
      "lng": 55.3152,
@@ -42288,7 +42288,7 @@
     {
      "code": "C5-09",
      "name": "Bay Avenue Mall, Business Bay",
-     "time": "14:59",
+     "time": "15:06",
      "action": "set_down",
      "lat": 25.191143,
      "lng": 55.265598,
@@ -42297,25 +42297,16 @@
     {
      "code": "C5-07",
      "name": "World Trade Centre Metro Station",
-     "time": "15:11",
+     "time": "15:21",
      "action": "set_down",
      "lat": 25.225614,
      "lng": 55.284365,
      "where_exactly": "Outside World Trade Centre Metro Station Exit 2 (Fairmont side). Pick-up towards campus only."
     },
     {
-     "code": "C5-17",
-     "name": "New Gold Souq, Al Raffa, Bur Dubai",
-     "time": "15:26",
-     "action": "set_down",
-     "lat": 25.2515903,
-     "lng": 55.2824733,
-     "where_exactly": "ENOC petrol station beside the New Gold Souq (by Shabab Al Khan Cafeteria)."
-    },
-    {
      "code": "C5-05",
      "name": "BurJuman Mall",
-     "time": "15:37",
+     "time": "15:34",
      "action": "set_down",
      "lat": 25.254331,
      "lng": 55.303661,
@@ -42435,11 +42426,11 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "20:06",
+   "end": "20:09",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 4,
+   "booked": 5,
    "seats": 15,
    "stops": [
     {
@@ -42454,7 +42445,7 @@
     {
      "code": "C5-09",
      "name": "Bay Avenue Mall, Business Bay",
-     "time": "19:04",
+     "time": "19:01",
      "action": "set_down",
      "lat": 25.191143,
      "lng": 55.265598,
@@ -42463,16 +42454,25 @@
     {
      "code": "C5-06",
      "name": "Al Wasl Building, Al Hudaiba",
-     "time": "19:33",
+     "time": "19:29",
      "action": "set_down",
      "lat": 25.243,
      "lng": 55.2788,
      "where_exactly": "S2/PR399 Al Wasl Bldg Block A, 4B St."
     },
     {
+     "code": "C5-17",
+     "name": "New Gold Souq, Al Raffa, Bur Dubai",
+     "time": "19:38",
+     "action": "set_down",
+     "lat": 25.2515903,
+     "lng": 55.2824733,
+     "where_exactly": "ENOC petrol station beside the New Gold Souq (by Shabab Al Khan Cafeteria)."
+    },
+    {
      "code": "C5-04",
      "name": "Oud Metha Metro Station",
-     "time": "19:52",
+     "time": "19:56",
      "action": "set_down",
      "lat": 25.243624,
      "lng": 55.315799,
@@ -42481,7 +42481,7 @@
     {
      "code": "C5-02",
      "name": "Al Rigga Metro Station",
-     "time": "20:06",
+     "time": "20:09",
      "action": "set_down",
      "lat": 25.262847,
      "lng": 55.324368,
@@ -47536,11 +47536,11 @@
    "arrive_campus": null,
    "leave_campus": "14:15",
    "start": "14:15",
-   "end": "15:32",
+   "end": "15:29",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 4,
+   "booked": 3,
    "seats": 15,
    "stops": [
     {
@@ -47555,25 +47555,16 @@
     {
      "code": "C5-06",
      "name": "Al Wasl Building, Al Hudaiba",
-     "time": "15:01",
+     "time": "15:03",
      "action": "set_down",
      "lat": 25.243,
      "lng": 55.2788,
      "where_exactly": "S2/PR399 Al Wasl Bldg Block A, 4B St."
     },
     {
-     "code": "C5-17",
-     "name": "New Gold Souq, Al Raffa, Bur Dubai",
-     "time": "15:08",
-     "action": "set_down",
-     "lat": 25.2515903,
-     "lng": 55.2824733,
-     "where_exactly": "ENOC petrol station beside the New Gold Souq (by Shabab Al Khan Cafeteria)."
-    },
-    {
      "code": "C5-04",
      "name": "Oud Metha Metro Station",
-     "time": "15:19",
+     "time": "15:16",
      "action": "set_down",
      "lat": 25.243624,
      "lng": 55.315799,
@@ -47582,7 +47573,7 @@
     {
      "code": "C5-02",
      "name": "Al Rigga Metro Station",
-     "time": "15:32",
+     "time": "15:29",
      "action": "set_down",
      "lat": 25.262847,
      "lng": 55.324368,
@@ -47675,11 +47666,11 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "20:21",
+   "end": "20:32",
    "vehicle": "M7",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 10,
+   "booked": 11,
    "seats": 34,
    "stops": [
     {
@@ -47712,7 +47703,7 @@
     {
      "code": "C5-11",
      "name": "One Park Avenue, Sobha Hartland",
-     "time": "19:11",
+     "time": "19:12",
      "action": "set_down",
      "lat": 25.1784466,
      "lng": 55.3086196,
@@ -47721,7 +47712,7 @@
     {
      "code": "C5-15",
      "name": "Ubora Tower, Business Bay",
-     "time": "19:28",
+     "time": "19:29",
      "action": "set_down",
      "lat": 25.180398,
      "lng": 55.269675,
@@ -47730,7 +47721,7 @@
     {
      "code": "C5-09",
      "name": "Bay Avenue Mall, Business Bay",
-     "time": "19:37",
+     "time": "19:38",
      "action": "set_down",
      "lat": 25.191143,
      "lng": 55.265598,
@@ -47739,16 +47730,25 @@
     {
      "code": "C5-07",
      "name": "World Trade Centre Metro Station",
-     "time": "19:56",
+     "time": "19:57",
      "action": "set_down",
      "lat": 25.225614,
      "lng": 55.284365,
      "where_exactly": "Outside World Trade Centre Metro Station Exit 2 (Fairmont side). Pick-up towards campus only."
     },
     {
+     "code": "C5-17",
+     "name": "New Gold Souq, Al Raffa, Bur Dubai",
+     "time": "20:10",
+     "action": "set_down",
+     "lat": 25.2515903,
+     "lng": 55.2824733,
+     "where_exactly": "ENOC petrol station beside the New Gold Souq (by Shabab Al Khan Cafeteria)."
+    },
+    {
      "code": "C5-05",
      "name": "BurJuman Mall",
-     "time": "20:12",
+     "time": "20:22",
      "action": "set_down",
      "lat": 25.254331,
      "lng": 55.303661,
@@ -47757,7 +47757,7 @@
     {
      "code": "C5-21",
      "name": "Al Ghurair Centre bus stop (Ghurair City 2), Al Rigga Rd",
-     "time": "20:21",
+     "time": "20:32",
      "action": "set_down",
      "lat": 25.266621,
      "lng": 55.317593,
