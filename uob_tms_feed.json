@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-18T10:40:52Z",
+ "generated_at": "2026-10-18T11:19:38Z",
  "week": "2026-10-09 to 2026-11-15",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -34232,18 +34232,27 @@
    "service": "undergraduate",
    "arrive_campus": "09:45",
    "leave_campus": null,
-   "start": "08:50",
+   "start": "08:39",
    "end": "09:45",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 2,
+   "booked": 3,
    "seats": 15,
    "stops": [
     {
+     "code": "C2-03",
+     "name": "DMCC Metro Station",
+     "time": "08:39",
+     "action": "pick_up",
+     "lat": 25.07122,
+     "lng": 55.137072,
+     "where_exactly": "Outside the Yacht Bay sign (Yacht Bay building)."
+    },
+    {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "08:50",
+     "time": "08:56",
      "action": "pick_up",
      "lat": 25.099769538054428,
      "lng": 55.17320213081937,
@@ -34252,7 +34261,7 @@
     {
      "code": "C2-10",
      "name": "Al Manaf Building, Al Barsha 1",
-     "time": "09:04",
+     "time": "09:09",
      "action": "pick_up",
      "lat": 25.1110756,
      "lng": 55.2057285,
@@ -34538,7 +34547,7 @@
    "vehicle": "M3",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 13,
+   "booked": 14,
    "seats": 15,
    "stops": [
     {
@@ -36129,7 +36138,7 @@
    "vehicle": "M6",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 4,
+   "booked": 5,
    "seats": 15,
    "stops": [
     {
@@ -36484,7 +36493,7 @@
    "vehicle": "M6",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 6,
+   "booked": 7,
    "seats": 15,
    "stops": [
     {
@@ -36735,18 +36744,27 @@
    "service": "undergraduate",
    "arrive_campus": "09:45",
    "leave_campus": null,
-   "start": "08:35",
+   "start": "08:26",
    "end": "09:45",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 2,
+   "booked": 3,
    "seats": 15,
    "stops": [
     {
+     "code": "C5-06",
+     "name": "Al Wasl Building, Al Hudaiba",
+     "time": "08:26",
+     "action": "pick_up",
+     "lat": 25.243,
+     "lng": 55.2788,
+     "where_exactly": "S2/PR399 Al Wasl Bldg Block A, 4B St."
+    },
+    {
      "code": "C5-07",
      "name": "World Trade Centre Metro Station",
-     "time": "08:35",
+     "time": "08:41",
      "action": "pick_up",
      "lat": 25.225614,
      "lng": 55.284365,
@@ -36755,7 +36773,7 @@
     {
      "code": "C5-11",
      "name": "One Park Avenue, Sobha Hartland",
-     "time": "08:59",
+     "time": "09:03",
      "action": "pick_up",
      "lat": 25.1784466,
      "lng": 55.3086196,
@@ -37096,11 +37114,11 @@
    "arrive_campus": null,
    "leave_campus": "16:30",
    "start": "16:30",
-   "end": "18:31",
+   "end": "18:34",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 7,
+   "booked": 8,
    "seats": 15,
    "stops": [
     {
@@ -37115,7 +37133,7 @@
     {
      "code": "C5-12",
      "name": "Wasl Green Park, Ras Al Khor",
-     "time": "16:53",
+     "time": "16:51",
      "action": "set_down",
      "lat": 25.181059,
      "lng": 55.375545,
@@ -37124,7 +37142,7 @@
     {
      "code": "C5-11",
      "name": "One Park Avenue, Sobha Hartland",
-     "time": "17:17",
+     "time": "17:13",
      "action": "set_down",
      "lat": 25.1784466,
      "lng": 55.3086196,
@@ -37133,16 +37151,25 @@
     {
      "code": "C5-09",
      "name": "Bay Avenue Mall, Business Bay",
-     "time": "17:34",
+     "time": "17:30",
      "action": "set_down",
      "lat": 25.191143,
      "lng": 55.265598,
      "where_exactly": "North Entrance pick and drop area, Bay Avenue Mall."
     },
     {
+     "code": "C5-06",
+     "name": "Al Wasl Building, Al Hudaiba",
+     "time": "17:50",
+     "action": "set_down",
+     "lat": 25.243,
+     "lng": 55.2788,
+     "where_exactly": "S2/PR399 Al Wasl Bldg Block A, 4B St."
+    },
+    {
      "code": "C5-05",
      "name": "BurJuman Mall",
-     "time": "18:02",
+     "time": "18:07",
      "action": "set_down",
      "lat": 25.254331,
      "lng": 55.303661,
@@ -37151,7 +37178,7 @@
     {
      "code": "C5-04",
      "name": "Oud Metha Metro Station",
-     "time": "18:14",
+     "time": "18:18",
      "action": "set_down",
      "lat": 25.243624,
      "lng": 55.315799,
@@ -37160,7 +37187,7 @@
     {
      "code": "C5-21",
      "name": "Al Ghurair Centre bus stop (Ghurair City 2), Al Rigga Rd",
-     "time": "18:31",
+     "time": "18:34",
      "action": "set_down",
      "lat": 25.266621,
      "lng": 55.317593,
@@ -38151,11 +38178,11 @@
    "arrive_campus": null,
    "leave_campus": "14:15",
    "start": "14:15",
-   "end": "16:30",
+   "end": "16:27",
    "vehicle": "M1",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 5,
+   "booked": 4,
    "seats": 34,
    "stops": [
     {
@@ -38170,7 +38197,7 @@
     {
      "code": "C1-16",
      "name": "LuLu Hypermarket Al Nahda, Sharjah",
-     "time": "15:07",
+     "time": "15:10",
      "action": "set_down",
      "lat": 25.303505,
      "lng": 55.375491,
@@ -38179,7 +38206,7 @@
     {
      "code": "C1-05",
      "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "15:20",
+     "time": "15:24",
      "action": "set_down",
      "lat": 25.305885121719236,
      "lng": 55.363729380596915,
@@ -38188,25 +38215,16 @@
     {
      "code": "C1-18",
      "name": "Shamseen Bakeries Building, Al Majaz",
-     "time": "15:38",
+     "time": "15:42",
      "action": "set_down",
      "lat": 25.33253,
      "lng": 55.37588,
      "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
     },
     {
-     "code": "C1-04",
-     "name": "Nesto Hypermarket, King Faisal St",
-     "time": "15:54",
-     "action": "set_down",
-     "lat": 25.337533,
-     "lng": 55.39061,
-     "where_exactly": "Main entrance on King Faisal St."
-    },
-    {
      "code": "C1-02",
      "name": "City Centre Al Zahia",
-     "time": "16:30",
+     "time": "16:27",
      "action": "set_down",
      "lat": 25.318044,
      "lng": 55.457279,
@@ -38298,7 +38316,7 @@
    "vehicle": "M1",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 11,
+   "booked": 12,
    "seats": 34,
    "stops": [
     {
@@ -39493,7 +39511,7 @@
    "vehicle": "M3",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 4,
+   "booked": 5,
    "seats": 15,
    "stops": [
     {
@@ -39729,7 +39747,7 @@
    "vehicle": "M3",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 6,
+   "booked": 7,
    "seats": 15,
    "stops": [
     {
@@ -41522,7 +41540,7 @@
    "vehicle": "M6",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 3,
+   "booked": 4,
    "seats": 15,
    "stops": [
     {
@@ -41686,7 +41704,7 @@
    "vehicle": "M6",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 5,
+   "booked": 6,
    "seats": 15,
    "stops": [
     {
@@ -41863,18 +41881,18 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:35",
+   "start": "05:32",
    "end": "07:45",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 8,
+   "booked": 9,
    "seats": 15,
    "stops": [
     {
      "code": "C5-21",
      "name": "Al Ghurair Centre bus stop (Ghurair City 2), Al Rigga Rd",
-     "time": "05:35",
+     "time": "05:32",
      "action": "pick_up",
      "lat": 25.266621,
      "lng": 55.317593,
@@ -41883,16 +41901,25 @@
     {
      "code": "C5-05",
      "name": "BurJuman Mall",
-     "time": "05:51",
+     "time": "05:47",
      "action": "pick_up",
      "lat": 25.254331,
      "lng": 55.303661,
      "where_exactly": "Bus stop outside Asia Kitchen, BurJuman Mall."
     },
     {
+     "code": "C5-06",
+     "name": "Al Wasl Building, Al Hudaiba",
+     "time": "06:07",
+     "action": "pick_up",
+     "lat": 25.243,
+     "lng": 55.2788,
+     "where_exactly": "S2/PR399 Al Wasl Bldg Block A, 4B St."
+    },
+    {
      "code": "C5-09",
      "name": "Bay Avenue Mall, Business Bay",
-     "time": "06:25",
+     "time": "06:31",
      "action": "pick_up",
      "lat": 25.191143,
      "lng": 55.265598,
@@ -41901,7 +41928,7 @@
     {
      "code": "C5-11",
      "name": "One Park Avenue, Sobha Hartland",
-     "time": "06:45",
+     "time": "06:50",
      "action": "pick_up",
      "lat": 25.1784466,
      "lng": 55.3086196,
@@ -41910,7 +41937,7 @@
     {
      "code": "C5-14",
      "name": "Meydan Heights, Nad Al Sheba 1",
-     "time": "07:03",
+     "time": "07:06",
      "action": "pick_up",
      "lat": 25.14468,
      "lng": 55.3152,
@@ -42307,11 +42334,11 @@
    "arrive_campus": null,
    "leave_campus": "16:30",
    "start": "16:30",
-   "end": "18:34",
+   "end": "18:37",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 8,
+   "booked": 9,
    "seats": 15,
    "stops": [
     {
@@ -42326,7 +42353,7 @@
     {
      "code": "C5-12",
      "name": "Wasl Green Park, Ras Al Khor",
-     "time": "16:50",
+     "time": "16:49",
      "action": "set_down",
      "lat": 25.181059,
      "lng": 55.375545,
@@ -42335,7 +42362,7 @@
     {
      "code": "C5-11",
      "name": "One Park Avenue, Sobha Hartland",
-     "time": "17:12",
+     "time": "17:10",
      "action": "set_down",
      "lat": 25.1784466,
      "lng": 55.3086196,
@@ -42344,7 +42371,7 @@
     {
      "code": "C5-15",
      "name": "Ubora Tower, Business Bay",
-     "time": "17:26",
+     "time": "17:23",
      "action": "set_down",
      "lat": 25.180398,
      "lng": 55.269675,
@@ -42353,16 +42380,25 @@
     {
      "code": "C5-09",
      "name": "Bay Avenue Mall, Business Bay",
-     "time": "17:35",
+     "time": "17:31",
      "action": "set_down",
      "lat": 25.191143,
      "lng": 55.265598,
      "where_exactly": "North Entrance pick and drop area, Bay Avenue Mall."
     },
     {
+     "code": "C5-06",
+     "name": "Al Wasl Building, Al Hudaiba",
+     "time": "17:50",
+     "action": "set_down",
+     "lat": 25.243,
+     "lng": 55.2788,
+     "where_exactly": "S2/PR399 Al Wasl Bldg Block A, 4B St."
+    },
+    {
      "code": "C5-05",
      "name": "BurJuman Mall",
-     "time": "18:01",
+     "time": "18:06",
      "action": "set_down",
      "lat": 25.254331,
      "lng": 55.303661,
@@ -42371,7 +42407,7 @@
     {
      "code": "C5-23",
      "name": "Al Mesbar Building, Al Jaddaf (rider stop)",
-     "time": "18:16",
+     "time": "18:20",
      "action": "set_down",
      "lat": 25.2200683,
      "lng": 55.3263206,
@@ -42380,7 +42416,7 @@
     {
      "code": "C5-21",
      "name": "Al Ghurair Centre bus stop (Ghurair City 2), Al Rigga Rd",
-     "time": "18:34",
+     "time": "18:37",
      "action": "set_down",
      "lat": 25.266621,
      "lng": 55.317593,
@@ -44564,14 +44600,23 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "06:13",
+   "start": "05:50",
    "end": "07:45",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 10,
+   "booked": 11,
    "seats": 15,
    "stops": [
+    {
+     "code": "C2-03",
+     "name": "DMCC Metro Station",
+     "time": "05:50",
+     "action": "pick_up",
+     "lat": 25.07122,
+     "lng": 55.137072,
+     "where_exactly": "Outside the Yacht Bay sign (Yacht Bay building)."
+    },
     {
      "code": "C2-06",
      "name": "The Springs Souk",
@@ -45056,7 +45101,7 @@
    "vehicle": "M3",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 7,
+   "booked": 8,
    "seats": 15,
    "stops": [
     {
@@ -46611,18 +46656,18 @@
    "service": "undergraduate",
    "arrive_campus": "09:45",
    "leave_campus": null,
-   "start": "08:38",
+   "start": "08:35",
    "end": "09:45",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 7,
+   "booked": 8,
    "seats": 15,
    "stops": [
     {
      "code": "C4-10",
      "name": "Green Community West gate",
-     "time": "08:38",
+     "time": "08:35",
      "action": "pick_up",
      "lat": 25.001812,
      "lng": 55.164068,
@@ -46631,7 +46676,7 @@
     {
      "code": "C4-11",
      "name": "Al Furjan West Centre",
-     "time": "08:50",
+     "time": "08:47",
      "action": "pick_up",
      "lat": 25.021958,
      "lng": 55.129796,
@@ -46640,7 +46685,7 @@
     {
      "code": "C4-12",
      "name": "Al Furjan Centre (Pavilion)",
-     "time": "09:03",
+     "time": "08:58",
      "action": "pick_up",
      "lat": 25.026111,
      "lng": 55.153303,
@@ -46649,7 +46694,7 @@
     {
      "code": "C4-19",
      "name": "Masakin Al Furjan Gate 2, Al Furjan",
-     "time": "09:07",
+     "time": "09:02",
      "action": "pick_up",
      "lat": 25.0308,
      "lng": 55.14978,
@@ -46658,7 +46703,7 @@
     {
      "code": "C4-16",
      "name": "Discovery Gardens Metro Station",
-     "time": "09:09",
+     "time": "09:04",
      "action": "pick_up",
      "lat": 25.035204,
      "lng": 55.1453653,
@@ -46667,7 +46712,7 @@
     {
      "code": "C4-13",
      "name": "Gardens Metro Station",
-     "time": "09:12",
+     "time": "09:11",
      "action": "pick_up",
      "lat": 25.043761,
      "lng": 55.134832,
@@ -46857,11 +46902,11 @@
    "arrive_campus": null,
    "leave_campus": "14:15",
    "start": "14:15",
-   "end": "15:07",
+   "end": "15:10",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 3,
+   "booked": 4,
    "seats": 15,
    "stops": [
     {
@@ -46874,9 +46919,18 @@
      "where_exactly": ""
     },
     {
+     "code": "C4-13",
+     "name": "Gardens Metro Station",
+     "time": "14:46",
+     "action": "set_down",
+     "lat": 25.043761,
+     "lng": 55.134832,
+     "where_exactly": "Exit 1 of the metro station, at the bus stop (Discovery Gardens side)."
+    },
+    {
      "code": "C4-12",
      "name": "Al Furjan Centre (Pavilion)",
-     "time": "14:53",
+     "time": "14:58",
      "action": "set_down",
      "lat": 25.026111,
      "lng": 55.153303,
@@ -46885,7 +46939,7 @@
     {
      "code": "C4-10",
      "name": "Green Community West gate",
-     "time": "15:07",
+     "time": "15:10",
      "action": "set_down",
      "lat": 25.001812,
      "lng": 55.164068,
@@ -47177,18 +47231,18 @@
    "service": "undergraduate",
    "arrive_campus": "09:45",
    "leave_campus": null,
-   "start": "08:33",
+   "start": "08:30",
    "end": "09:45",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 4,
+   "booked": 5,
    "seats": 15,
    "stops": [
     {
      "code": "C5-04",
      "name": "Oud Metha Metro Station",
-     "time": "08:33",
+     "time": "08:30",
      "action": "pick_up",
      "lat": 25.243624,
      "lng": 55.315799,
@@ -47197,16 +47251,25 @@
     {
      "code": "C5-17",
      "name": "New Gold Souq, Al Raffa, Bur Dubai",
-     "time": "08:44",
+     "time": "08:41",
      "action": "pick_up",
      "lat": 25.2515903,
      "lng": 55.2824733,
      "where_exactly": "ENOC petrol station beside the New Gold Souq (by Shabab Al Khan Cafeteria)."
     },
     {
+     "code": "C5-06",
+     "name": "Al Wasl Building, Al Hudaiba",
+     "time": "08:48",
+     "action": "pick_up",
+     "lat": 25.243,
+     "lng": 55.2788,
+     "where_exactly": "S2/PR399 Al Wasl Bldg Block A, 4B St."
+    },
+    {
      "code": "C5-09",
      "name": "Bay Avenue Mall, Business Bay",
-     "time": "09:03",
+     "time": "09:04",
      "action": "pick_up",
      "lat": 25.191143,
      "lng": 55.265598,
@@ -47215,7 +47278,7 @@
     {
      "code": "C5-11",
      "name": "One Park Avenue, Sobha Hartland",
-     "time": "09:16",
+     "time": "09:17",
      "action": "pick_up",
      "lat": 25.1784466,
      "lng": 55.3086196,
@@ -47538,11 +47601,11 @@
    "arrive_campus": null,
    "leave_campus": "16:30",
    "start": "16:30",
-   "end": "17:59",
+   "end": "18:02",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 7,
+   "booked": 8,
    "seats": 15,
    "stops": [
     {
@@ -47557,16 +47620,25 @@
     {
      "code": "C5-09",
      "name": "Bay Avenue Mall, Business Bay",
-     "time": "17:12",
+     "time": "17:08",
      "action": "set_down",
      "lat": 25.191143,
      "lng": 55.265598,
      "where_exactly": "North Entrance pick and drop area, Bay Avenue Mall."
     },
     {
+     "code": "C5-06",
+     "name": "Al Wasl Building, Al Hudaiba",
+     "time": "17:25",
+     "action": "set_down",
+     "lat": 25.243,
+     "lng": 55.2788,
+     "where_exactly": "S2/PR399 Al Wasl Bldg Block A, 4B St."
+    },
+    {
      "code": "C5-05",
      "name": "BurJuman Mall",
-     "time": "17:34",
+     "time": "17:39",
      "action": "set_down",
      "lat": 25.254331,
      "lng": 55.303661,
@@ -47575,7 +47647,7 @@
     {
      "code": "C5-04",
      "name": "Oud Metha Metro Station",
-     "time": "17:44",
+     "time": "17:48",
      "action": "set_down",
      "lat": 25.243624,
      "lng": 55.315799,
@@ -47584,7 +47656,7 @@
     {
      "code": "C5-23",
      "name": "Al Mesbar Building, Al Jaddaf (rider stop)",
-     "time": "17:59",
+     "time": "18:02",
      "action": "set_down",
      "lat": 25.2200683,
      "lng": 55.3263206,
@@ -49832,7 +49904,7 @@
    "vehicle": "M3",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 5,
+   "booked": 6,
    "seats": 15,
    "stops": [
     {
@@ -50297,11 +50369,11 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "19:50",
+   "end": "19:53",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 9,
+   "booked": 10,
    "seats": 15,
    "stops": [
     {
@@ -50316,7 +50388,7 @@
     {
      "code": "C2-16",
      "name": "Umm Suqeim Rd bus stop by ENOC 1099, Al Barsha 1",
-     "time": "18:43",
+     "time": "18:42",
      "action": "set_down",
      "lat": 25.1184,
      "lng": 55.2077,
@@ -50325,7 +50397,7 @@
     {
      "code": "C2-10",
      "name": "Al Manaf Building, Al Barsha 1",
-     "time": "18:50",
+     "time": "18:49",
      "action": "set_down",
      "lat": 25.1110756,
      "lng": 55.2057285,
@@ -50334,7 +50406,7 @@
     {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "19:01",
+     "time": "18:59",
      "action": "set_down",
      "lat": 25.093492,
      "lng": 55.177807,
@@ -50343,16 +50415,25 @@
     {
      "code": "C2-09",
      "name": "Springs 10 Gatehouse",
-     "time": "19:13",
+     "time": "19:12",
      "action": "set_down",
      "lat": 25.0556628,
      "lng": 55.1803096,
      "where_exactly": "Outside the Springs 10 gatehouse on Street 1, before the barrier."
     },
     {
+     "code": "C2-03",
+     "name": "DMCC Metro Station",
+     "time": "19:25",
+     "action": "set_down",
+     "lat": 25.07122,
+     "lng": 55.137072,
+     "where_exactly": "Outside the Yacht Bay sign (Yacht Bay building)."
+    },
+    {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "19:27",
+     "time": "19:30",
      "action": "set_down",
      "lat": 25.075735,
      "lng": 55.140981,
@@ -50361,7 +50442,7 @@
     {
      "code": "C2-01",
      "name": "Al Sarood, Shoreline 13, Palm Jumeirah",
-     "time": "19:39",
+     "time": "19:43",
      "action": "set_down",
      "lat": 25.11202,
      "lng": 55.142781,
@@ -50370,7 +50451,7 @@
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "19:50",
+     "time": "19:53",
      "action": "set_down",
      "lat": 25.099769538054428,
      "lng": 55.17320213081937,
@@ -51881,7 +51962,7 @@
    "vehicle": "M6",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 5,
+   "booked": 6,
    "seats": 15,
    "stops": [
     {
@@ -52169,11 +52250,11 @@
    "arrive_campus": null,
    "leave_campus": "16:30",
    "start": "16:30",
-   "end": "17:42",
+   "end": "17:45",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 1,
+   "booked": 2,
    "seats": 15,
    "stops": [
     {
@@ -52186,9 +52267,18 @@
      "where_exactly": ""
     },
     {
+     "code": "C4-13",
+     "name": "Gardens Metro Station",
+     "time": "17:27",
+     "action": "set_down",
+     "lat": 25.043761,
+     "lng": 55.134832,
+     "where_exactly": "Exit 1 of the metro station, at the bus stop (Discovery Gardens side)."
+    },
+    {
      "code": "C4-12",
      "name": "Al Furjan Centre (Pavilion)",
-     "time": "17:42",
+     "time": "17:45",
      "action": "set_down",
      "lat": 25.026111,
      "lng": 55.153303,
@@ -52514,7 +52604,7 @@
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 5,
+   "booked": 6,
    "seats": 15,
    "stops": [
     {
@@ -52749,11 +52839,11 @@
    "arrive_campus": null,
    "leave_campus": "16:30",
    "start": "16:30",
-   "end": "17:33",
+   "end": "18:23",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 1,
+   "booked": 2,
    "seats": 15,
    "stops": [
     {
@@ -52768,11 +52858,20 @@
     {
      "code": "C5-14",
      "name": "Meydan Heights, Nad Al Sheba 1",
-     "time": "17:33",
+     "time": "17:23",
      "action": "set_down",
      "lat": 25.14468,
      "lng": 55.3152,
      "where_exactly": "Meydan Heights villas gate, Nad Al Sheba 1."
+    },
+    {
+     "code": "C5-06",
+     "name": "Al Wasl Building, Al Hudaiba",
+     "time": "18:23",
+     "action": "set_down",
+     "lat": 25.243,
+     "lng": 55.2788,
+     "where_exactly": "S2/PR399 Al Wasl Bldg Block A, 4B St."
     }
    ],
    "status": "operating"
@@ -53284,11 +53383,11 @@
    "arrive_campus": null,
    "leave_campus": "21:36",
    "start": "21:36",
-   "end": "22:29",
+   "end": "22:25",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 4,
+   "booked": 3,
    "seats": 15,
    "stops": [
     {
@@ -53319,18 +53418,9 @@
      "where_exactly": "Outside drop-off area by Tim Hortons, City Centre Me'aisem."
     },
     {
-     "code": "C2-11",
-     "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "22:24",
-     "action": "set_down",
-     "lat": 25.093492,
-     "lng": 55.177807,
-     "where_exactly": "Pick and drop area outside the Al Asmawi Building."
-    },
-    {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "22:29",
+     "time": "22:25",
      "action": "set_down",
      "lat": 25.099769538054428,
      "lng": 55.17320213081937,
@@ -54665,27 +54755,36 @@
    "service": "undergraduate",
    "arrive_campus": "09:45",
    "leave_campus": null,
-   "start": "08:40",
+   "start": "08:37",
    "end": "09:45",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 3,
+   "booked": 4,
    "seats": 15,
    "stops": [
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "08:40",
+     "time": "08:37",
      "action": "pick_up",
      "lat": 25.075735,
      "lng": 55.140981,
      "where_exactly": "Pick and drop point at Dubai Marina Mall."
     },
     {
+     "code": "C2-03",
+     "name": "DMCC Metro Station",
+     "time": "08:43",
+     "action": "pick_up",
+     "lat": 25.07122,
+     "lng": 55.137072,
+     "where_exactly": "Outside the Yacht Bay sign (Yacht Bay building)."
+    },
+    {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "08:55",
+     "time": "08:59",
      "action": "pick_up",
      "lat": 25.093492,
      "lng": 55.177807,
@@ -54694,7 +54793,7 @@
     {
      "code": "C2-10",
      "name": "Al Manaf Building, Al Barsha 1",
-     "time": "09:08",
+     "time": "09:11",
      "action": "pick_up",
      "lat": 25.1110756,
      "lng": 55.2057285,
@@ -54963,11 +55062,11 @@
    "arrive_campus": null,
    "leave_campus": "12:15",
    "start": "12:15",
-   "end": "13:29",
+   "end": "13:32",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 7,
+   "booked": 8,
    "seats": 15,
    "stops": [
     {
@@ -54982,7 +55081,7 @@
     {
      "code": "C2-16",
      "name": "Umm Suqeim Rd bus stop by ENOC 1099, Al Barsha 1",
-     "time": "12:45",
+     "time": "12:42",
      "action": "set_down",
      "lat": 25.1184,
      "lng": 55.2077,
@@ -54991,7 +55090,7 @@
     {
      "code": "C2-10",
      "name": "Al Manaf Building, Al Barsha 1",
-     "time": "12:51",
+     "time": "12:49",
      "action": "set_down",
      "lat": 25.1110756,
      "lng": 55.2057285,
@@ -55000,7 +55099,7 @@
     {
      "code": "C2-15",
      "name": "Al Nakheel 2A, The Greens",
-     "time": "13:04",
+     "time": "13:01",
      "action": "set_down",
      "lat": 25.09445,
      "lng": 55.1697,
@@ -55009,7 +55108,7 @@
     {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "13:11",
+     "time": "13:07",
      "action": "set_down",
      "lat": 25.093492,
      "lng": 55.177807,
@@ -55018,16 +55117,25 @@
     {
      "code": "C2-04",
      "name": "Sobha Realty Metro Station",
-     "time": "13:22",
+     "time": "13:17",
      "action": "set_down",
      "lat": 25.08243,
      "lng": 55.148317,
      "where_exactly": "Sea side of Sobha Realty Metro Station, near the Carrefour Market sign; bus pick-up point."
     },
     {
+     "code": "C2-03",
+     "name": "DMCC Metro Station",
+     "time": "13:27",
+     "action": "set_down",
+     "lat": 25.07122,
+     "lng": 55.137072,
+     "where_exactly": "Outside the Yacht Bay sign (Yacht Bay building)."
+    },
+    {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "13:29",
+     "time": "13:32",
      "action": "set_down",
      "lat": 25.075735,
      "lng": 55.140981,
@@ -57666,18 +57774,18 @@
    "service": "undergraduate",
    "arrive_campus": "08:45",
    "leave_campus": null,
-   "start": "07:14",
+   "start": "07:11",
    "end": "08:45",
    "vehicle": "M1",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 3,
+   "booked": 4,
    "seats": 15,
    "stops": [
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "07:14",
+     "time": "07:11",
      "action": "pick_up",
      "lat": 25.337533,
      "lng": 55.39061,
@@ -57686,11 +57794,20 @@
     {
      "code": "C1-15",
      "name": "Wasl Village, Central Parking",
-     "time": "07:33",
+     "time": "07:30",
      "action": "pick_up",
      "lat": 25.289501,
      "lng": 55.4111465,
      "where_exactly": "Other side of the road, outside Urban Slice; students wait at the bench."
+    },
+    {
+     "code": "C1-26",
+     "name": "Dubai Carmel School, Amman St, Al Nahda 2",
+     "time": "07:44",
+     "action": "pick_up",
+     "lat": 25.2967627,
+     "lng": 55.3794549,
+     "where_exactly": "Kerbside outside the main gate of Dubai Carmel School on Amman Street, Al Nahda 2 (opposite Al Gurg 212). Use the school bus bay; do not enter the compound."
     },
     {
      "code": "UOB",
@@ -58182,7 +58299,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "19:43",
+   "end": "19:40",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
@@ -58201,7 +58318,7 @@
     {
      "code": "C5-20",
      "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
-     "time": "19:11",
+     "time": "19:17",
      "action": "set_down",
      "lat": 25.186457,
      "lng": 55.282055,
@@ -58210,7 +58327,7 @@
     {
      "code": "C5-18",
      "name": "The First Collection Business Bay (hotel), Al A'amal St",
-     "time": "19:29",
+     "time": "19:32",
      "action": "set_down",
      "lat": 25.1783788,
      "lng": 55.2679776,
@@ -58219,7 +58336,7 @@
     {
      "code": "C5-19",
      "name": "Al Raffa, 7E Street (near Al Khaleej Centre)",
-     "time": "19:43",
+     "time": "19:40",
      "action": "set_down",
      "lat": 25.25816,
      "lng": 55.297127,
