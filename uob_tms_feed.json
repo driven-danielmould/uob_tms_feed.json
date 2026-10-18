@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-18T11:29:04Z",
+ "generated_at": "2026-10-18T11:40:52Z",
  "week": "2026-10-09 to 2026-11-15",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -32844,18 +32844,18 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:03",
+   "start": "05:06",
    "end": "07:45",
    "vehicle": "M1",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 5,
+   "booked": 4,
    "seats": 34,
    "stops": [
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "05:03",
+     "time": "05:06",
      "action": "pick_up",
      "lat": 25.337533,
      "lng": 55.39061,
@@ -32864,7 +32864,7 @@
     {
      "code": "C1-20",
      "name": "Al Buhaira Police Station bus stop, Al Majaz 3",
-     "time": "05:23",
+     "time": "05:34",
      "action": "pick_up",
      "lat": 25.323284,
      "lng": 55.381418,
@@ -32873,20 +32873,11 @@
     {
      "code": "C1-05",
      "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "05:49",
+     "time": "06:13",
      "action": "pick_up",
      "lat": 25.305885121719236,
      "lng": 55.363729380596915,
      "where_exactly": "Sheikha Maryam Tower, Al Taawun - pick-up at the pin set by Dan 7 Oct (Al Taawun St side); kerb text to confirm."
-    },
-    {
-     "code": "C1-02",
-     "name": "City Centre Al Zahia",
-     "time": "06:43",
-     "action": "pick_up",
-     "lat": 25.318044,
-     "lng": 55.457279,
-     "where_exactly": "Bus stop by the VOX sign, City Centre Al Zahia."
     },
     {
      "code": "UOB",
@@ -33149,11 +33140,11 @@
    "arrive_campus": null,
    "leave_campus": "14:15",
    "start": "14:15",
-   "end": "16:21",
+   "end": "16:18",
    "vehicle": "M1",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 2,
+   "booked": 1,
    "seats": 34,
    "stops": [
     {
@@ -33168,20 +33159,11 @@
     {
      "code": "C1-05",
      "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "15:22",
+     "time": "16:18",
      "action": "set_down",
      "lat": 25.305885121719236,
      "lng": 55.363729380596915,
      "where_exactly": "Sheikha Maryam Tower, Al Taawun - pick-up at the pin set by Dan 7 Oct (Al Taawun St side); kerb text to confirm."
-    },
-    {
-     "code": "C1-02",
-     "name": "City Centre Al Zahia",
-     "time": "16:21",
-     "action": "set_down",
-     "lat": 25.318044,
-     "lng": 55.457279,
-     "where_exactly": "Bus stop by the VOX sign, City Centre Al Zahia."
     }
    ],
    "status": "operating"
@@ -34991,18 +34973,27 @@
    "service": "undergraduate",
    "arrive_campus": "12:45",
    "leave_campus": null,
-   "start": "11:51",
+   "start": "11:40",
    "end": "12:45",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 2,
+   "booked": 3,
    "seats": 15,
    "stops": [
     {
+     "code": "C3-21",
+     "name": "DAMAC Hills Mall, DAMAC Hills",
+     "time": "11:40",
+     "action": "pick_up",
+     "lat": 25.0179838,
+     "lng": 55.2468052,
+     "where_exactly": "Mall drop-off, DAMAC Hills."
+    },
+    {
      "code": "C3-09",
      "name": "Spinneys, Town Square",
-     "time": "11:51",
+     "time": "11:53",
      "action": "pick_up",
      "lat": 25.0099047,
      "lng": 55.2902856,
@@ -35011,7 +35002,7 @@
     {
      "code": "C3-16",
      "name": "Souq Extra, Silicon Oasis",
-     "time": "12:32",
+     "time": "12:33",
      "action": "pick_up",
      "lat": 25.1192507,
      "lng": 55.3955344,
@@ -35402,11 +35393,11 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "20:05",
+   "end": "20:08",
    "vehicle": "M4",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 4,
+   "booked": 5,
    "seats": 34,
    "stops": [
     {
@@ -35439,16 +35430,25 @@
     {
      "code": "C3-09",
      "name": "Spinneys, Town Square",
-     "time": "19:35",
+     "time": "19:34",
      "action": "set_down",
      "lat": 25.0099047,
      "lng": 55.2902856,
      "where_exactly": "Nshama Community Centre car park."
     },
     {
+     "code": "C3-21",
+     "name": "DAMAC Hills Mall, DAMAC Hills",
+     "time": "19:50",
+     "action": "set_down",
+     "lat": 25.0179838,
+     "lng": 55.2468052,
+     "where_exactly": "Mall drop-off, DAMAC Hills."
+    },
+    {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "20:05",
+     "time": "20:08",
      "action": "set_down",
      "lat": 25.040494,
      "lng": 55.195971,
@@ -38178,11 +38178,11 @@
    "arrive_campus": null,
    "leave_campus": "14:15",
    "start": "14:15",
-   "end": "16:27",
+   "end": "16:24",
    "vehicle": "M1",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 4,
+   "booked": 3,
    "seats": 34,
    "stops": [
     {
@@ -38197,7 +38197,7 @@
     {
      "code": "C1-16",
      "name": "LuLu Hypermarket Al Nahda, Sharjah",
-     "time": "15:10",
+     "time": "15:38",
      "action": "set_down",
      "lat": 25.303505,
      "lng": 55.375491,
@@ -38206,7 +38206,7 @@
     {
      "code": "C1-05",
      "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "15:24",
+     "time": "15:57",
      "action": "set_down",
      "lat": 25.305885121719236,
      "lng": 55.363729380596915,
@@ -38215,20 +38215,11 @@
     {
      "code": "C1-18",
      "name": "Shamseen Bakeries Building, Al Majaz",
-     "time": "15:42",
+     "time": "16:24",
      "action": "set_down",
      "lat": 25.33253,
      "lng": 55.37588,
      "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
-    },
-    {
-     "code": "C1-02",
-     "name": "City Centre Al Zahia",
-     "time": "16:27",
-     "action": "set_down",
-     "lat": 25.318044,
-     "lng": 55.457279,
-     "where_exactly": "Bus stop by the VOX sign, City Centre Al Zahia."
     }
    ],
    "status": "operating"
@@ -38316,7 +38307,7 @@
    "vehicle": "M1",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 12,
+   "booked": 13,
    "seats": 34,
    "stops": [
     {
@@ -39960,18 +39951,18 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:40",
+   "start": "05:31",
    "end": "07:45",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 8,
+   "booked": 9,
    "seats": 15,
    "stops": [
     {
      "code": "C3-01",
      "name": "JSS International School",
-     "time": "05:40",
+     "time": "05:31",
      "action": "pick_up",
      "lat": 25.0665,
      "lng": 55.2046,
@@ -39980,7 +39971,7 @@
     {
      "code": "C3-03",
      "name": "Dubai Miracle Garden",
-     "time": "05:51",
+     "time": "05:42",
      "action": "pick_up",
      "lat": 25.061132,
      "lng": 55.246185,
@@ -39989,16 +39980,25 @@
     {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "06:04",
+     "time": "05:56",
      "action": "pick_up",
      "lat": 25.040494,
      "lng": 55.195971,
      "where_exactly": "Outside drop-off area by Tim Hortons, City Centre Me'aisem."
     },
     {
+     "code": "C3-21",
+     "name": "DAMAC Hills Mall, DAMAC Hills",
+     "time": "06:11",
+     "action": "pick_up",
+     "lat": 25.0179838,
+     "lng": 55.2468052,
+     "where_exactly": "Mall drop-off, DAMAC Hills."
+    },
+    {
      "code": "C3-09",
      "name": "Spinneys, Town Square",
-     "time": "06:26",
+     "time": "06:23",
      "action": "pick_up",
      "lat": 25.0099047,
      "lng": 55.2902856,
@@ -40007,7 +40007,7 @@
     {
      "code": "C3-11",
      "name": "Living Legends",
-     "time": "06:46",
+     "time": "06:44",
      "action": "pick_up",
      "lat": 25.0910153,
      "lng": 55.3026039,
@@ -40016,7 +40016,7 @@
     {
      "code": "C3-14",
      "name": "Skycourts Towers",
-     "time": "07:05",
+     "time": "07:03",
      "action": "pick_up",
      "lat": 25.0898954,
      "lng": 55.3865139,
@@ -40025,7 +40025,7 @@
     {
      "code": "C3-16",
      "name": "Souq Extra, Silicon Oasis",
-     "time": "07:15",
+     "time": "07:13",
      "action": "pick_up",
      "lat": 25.1192507,
      "lng": 55.3955344,
@@ -40034,7 +40034,7 @@
     {
      "code": "C3-25",
      "name": "Villanova La Rosa 1, Villa 46",
-     "time": "07:29",
+     "time": "07:28",
      "action": "pick_up",
      "lat": 25.0765573,
      "lng": 55.3609188,
@@ -45480,18 +45480,18 @@
    "service": "undergraduate",
    "arrive_campus": "12:45",
    "leave_campus": null,
-   "start": "11:34",
+   "start": "11:31",
    "end": "12:45",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 4,
+   "booked": 5,
    "seats": 15,
    "stops": [
     {
      "code": "C3-01",
      "name": "JSS International School",
-     "time": "11:34",
+     "time": "11:31",
      "action": "pick_up",
      "lat": 25.0665,
      "lng": 55.2046,
@@ -45500,11 +45500,20 @@
     {
      "code": "C3-04",
      "name": "Dubai International Cricket Stadium",
-     "time": "11:46",
+     "time": "11:43",
      "action": "pick_up",
      "lat": 25.043579,
      "lng": 55.218241,
      "where_exactly": "Dubai Cricket Stadium bus stop 1 (wooden shelter)."
+    },
+    {
+     "code": "C3-21",
+     "name": "DAMAC Hills Mall, DAMAC Hills",
+     "time": "11:53",
+     "action": "pick_up",
+     "lat": 25.0179838,
+     "lng": 55.2468052,
+     "where_exactly": "Mall drop-off, DAMAC Hills."
     },
     {
      "code": "C3-09",
@@ -48575,7 +48584,7 @@
    "vehicle": "M1",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 8,
+   "booked": 7,
    "seats": 34,
    "stops": [
     {
@@ -48729,18 +48738,18 @@
    "service": "undergraduate",
    "arrive_campus": "12:45",
    "leave_campus": null,
-   "start": "10:49",
+   "start": "10:46",
    "end": "12:45",
    "vehicle": "M1",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 2,
+   "booked": 3,
    "seats": 34,
    "stops": [
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "10:49",
+     "time": "10:46",
      "action": "pick_up",
      "lat": 25.337533,
      "lng": 55.39061,
@@ -48749,11 +48758,20 @@
     {
      "code": "C1-18",
      "name": "Shamseen Bakeries Building, Al Majaz",
-     "time": "11:12",
+     "time": "11:02",
      "action": "pick_up",
      "lat": 25.33253,
      "lng": 55.37588,
      "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
+    },
+    {
+     "code": "C1-02",
+     "name": "City Centre Al Zahia",
+     "time": "11:47",
+     "action": "pick_up",
+     "lat": 25.318044,
+     "lng": 55.457279,
+     "where_exactly": "Bus stop by the VOX sign, City Centre Al Zahia."
     },
     {
      "code": "UOB",
@@ -50667,18 +50685,18 @@
    "service": "undergraduate",
    "arrive_campus": "09:45",
    "leave_campus": null,
-   "start": "08:37",
+   "start": "08:34",
    "end": "09:45",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 3,
+   "booked": 4,
    "seats": 15,
    "stops": [
     {
      "code": "C3-18",
      "name": "Tuscan Residence Siena 1, JVC",
-     "time": "08:37",
+     "time": "08:34",
      "action": "pick_up",
      "lat": 25.063605,
      "lng": 55.207328,
@@ -50687,16 +50705,25 @@
     {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "08:53",
+     "time": "08:46",
      "action": "pick_up",
      "lat": 25.040494,
      "lng": 55.195971,
      "where_exactly": "Outside drop-off area by Tim Hortons, City Centre Me'aisem."
     },
     {
+     "code": "C3-21",
+     "name": "DAMAC Hills Mall, DAMAC Hills",
+     "time": "08:59",
+     "action": "pick_up",
+     "lat": 25.0179838,
+     "lng": 55.2468052,
+     "where_exactly": "Mall drop-off, DAMAC Hills."
+    },
+    {
      "code": "C3-16",
      "name": "Souq Extra, Silicon Oasis",
-     "time": "09:31",
+     "time": "09:36",
      "action": "pick_up",
      "lat": 25.1192507,
      "lng": 55.3955344,
