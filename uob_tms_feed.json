@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-18T06:38:47Z",
+ "generated_at": "2026-10-18T06:41:10Z",
  "week": "2026-10-09 to 2026-11-15",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -2187,8 +2187,26 @@
      ]
     },
     {
-     "code": "C3-17",
+     "code": "C5-20",
      "order": 2,
+     "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
+     "lat": 25.186457,
+     "lng": 55.282055,
+     "google_place_id": "ChIJo7BfkTpoXz4RFHw13gwYTpE",
+     "where_exactly": "Kerbside on Abraj Street outside the DAMAC Maison Majestine entrance, opposite Bay Square 13.",
+     "pickup_lat": 25.186457,
+     "pickup_lng": 55.282055,
+     "pickup_where_exactly": "Kerbside on Abraj Street outside the DAMAC Maison Majestine entrance, opposite Bay Square 13.",
+     "setdown_lat": 25.186457,
+     "setdown_lng": 55.282055,
+     "setdown_where_exactly": "Kerbside on Abraj Street outside the DAMAC Maison Majestine entrance, opposite Bay Square 13.",
+     "served_by_routes": [
+      "R7"
+     ]
+    },
+    {
+     "code": "C3-17",
+     "order": 3,
      "name": "Eagle Heights, Dubai Sports City",
      "lat": 25.036628,
      "lng": 55.221187,
@@ -2206,7 +2224,7 @@
     },
     {
      "code": "C3-19",
-     "order": 3,
+     "order": 4,
      "name": "Regina Tower, JVC",
      "lat": 25.057284,
      "lng": 55.212609,
@@ -2224,7 +2242,7 @@
     },
     {
      "code": "C3-26",
-     "order": 4,
+     "order": 5,
      "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
      "lat": 25.107412,
      "lng": 55.3785071,
@@ -2238,24 +2256,6 @@
      "setdown_where_exactly": "Kerbside outside Binghatti Crystals, near Axis 7, DSO. Rider-only stop (Nabeela); last call before campus on the central masters bus.",
      "served_by_routes": [
       "R4"
-     ]
-    },
-    {
-     "code": "C2-02",
-     "order": 5,
-     "name": "Dubai Marina Mall",
-     "lat": 25.075735,
-     "lng": 55.140981,
-     "google_place_id": "ChIJ_8ErX6psXz4RtzvrH76xoHs",
-     "where_exactly": "Pick and drop point at Dubai Marina Mall.",
-     "pickup_lat": 25.075735,
-     "pickup_lng": 55.140981,
-     "pickup_where_exactly": "Pick and drop point at Dubai Marina Mall.",
-     "setdown_lat": 25.070853,
-     "setdown_lng": 55.139483,
-     "setdown_where_exactly": "Pick and drop point at Dubai Marina Mall.",
-     "served_by_routes": [
-      "R3"
      ]
     },
     {
@@ -2295,21 +2295,147 @@
      ]
     },
     {
-     "code": "C5-20",
+     "code": "C3-12",
      "order": 8,
-     "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
-     "lat": 25.186457,
-     "lng": 55.282055,
-     "google_place_id": "ChIJo7BfkTpoXz4RFHw13gwYTpE",
-     "where_exactly": "Kerbside on Abraj Street outside the DAMAC Maison Majestine entrance, opposite Bay Square 13.",
-     "pickup_lat": 25.186457,
-     "pickup_lng": 55.282055,
-     "pickup_where_exactly": "Kerbside on Abraj Street outside the DAMAC Maison Majestine entrance, opposite Bay Square 13.",
-     "setdown_lat": 25.186457,
-     "setdown_lng": 55.282055,
-     "setdown_where_exactly": "Kerbside on Abraj Street outside the DAMAC Maison Majestine entrance, opposite Bay Square 13.",
+     "name": "Arabian Ranches 3",
+     "lat": 25.069629,
+     "lng": 55.323824,
+     "google_place_id": "ChIJ016GFd1vXz4Rfco2izB0OeM",
+     "where_exactly": "Main entrance of the Arabian Ranches 3 souk.",
+     "pickup_lat": 25.069629,
+     "pickup_lng": 55.323824,
+     "pickup_where_exactly": "Main entrance of the Arabian Ranches 3 souk.",
+     "setdown_lat": 25.069629,
+     "setdown_lng": 55.323824,
+     "setdown_where_exactly": "Main entrance of the Arabian Ranches 3 souk.",
+     "served_by_routes": [
+      "R4"
+     ]
+    },
+    {
+     "code": "C2-02",
+     "order": 9,
+     "name": "Dubai Marina Mall",
+     "lat": 25.075735,
+     "lng": 55.140981,
+     "google_place_id": "ChIJ_8ErX6psXz4RtzvrH76xoHs",
+     "where_exactly": "Pick and drop point at Dubai Marina Mall.",
+     "pickup_lat": 25.075735,
+     "pickup_lng": 55.140981,
+     "pickup_where_exactly": "Pick and drop point at Dubai Marina Mall.",
+     "setdown_lat": 25.070853,
+     "setdown_lng": 55.139483,
+     "setdown_where_exactly": "Pick and drop point at Dubai Marina Mall.",
+     "served_by_routes": [
+      "R3"
+     ]
+    },
+    {
+     "code": "C4-09",
+     "order": 10,
+     "name": "Holiday Inn, Al Maktoum Airport",
+     "lat": 24.867791,
+     "lng": 55.146192,
+     "google_place_id": "ChIJowBFSu91Xz4RLS9kcNQWxE8",
+     "where_exactly": "Hotel entrance, Aviation City.",
+     "pickup_lat": 24.867791,
+     "pickup_lng": 55.146192,
+     "pickup_where_exactly": "Hotel entrance, Aviation City.",
+     "setdown_lat": 24.867791,
+     "setdown_lng": 55.146192,
+     "setdown_where_exactly": "Hotel entrance, Aviation City.",
+     "served_by_routes": [
+      "R6"
+     ]
+    },
+    {
+     "code": "C1-04",
+     "order": 11,
+     "name": "Nesto Hypermarket, King Faisal St",
+     "lat": 25.337533,
+     "lng": 55.39061,
+     "google_place_id": "ChIJLS4X7hpbXz4RUhwwFiw8Esc",
+     "where_exactly": "Main entrance on King Faisal St.",
+     "pickup_lat": 25.337533,
+     "pickup_lng": 55.39061,
+     "pickup_where_exactly": "Main entrance on King Faisal St.",
+     "setdown_lat": 25.337533,
+     "setdown_lng": 55.39061,
+     "setdown_where_exactly": "Main entrance on King Faisal St.",
+     "served_by_routes": [
+      "R1"
+     ]
+    },
+    {
+     "code": "C5-19",
+     "order": 12,
+     "name": "Al Raffa, 7E Street (near Al Khaleej Centre)",
+     "lat": 25.25816,
+     "lng": 55.297127,
+     "google_place_id": null,
+     "where_exactly": "Kerbside at the pin on 7E Street, Al Raffa, near Al Khaleej Centre - wait on the main-road side; kerb to confirm on audit.",
+     "pickup_lat": 25.25816,
+     "pickup_lng": 55.297127,
+     "pickup_where_exactly": "Kerbside at the pin on 7E Street, Al Raffa, near Al Khaleej Centre - wait on the main-road side; kerb to confirm on audit.",
+     "setdown_lat": 25.25816,
+     "setdown_lng": 55.297127,
+     "setdown_where_exactly": "Kerbside at the pin on 7E Street, Al Raffa, near Al Khaleej Centre - wait on the main-road side; kerb to confirm on audit.",
      "served_by_routes": [
       "R7"
+     ]
+    },
+    {
+     "code": "C3-05",
+     "order": 8,
+     "name": "City Centre Me'aisem",
+     "lat": 25.040494,
+     "lng": 55.195971,
+     "google_place_id": "ChIJk79DPbptXz4RGHTZvtyE87s",
+     "where_exactly": "Outside drop-off area by Tim Hortons, City Centre Me'aisem.",
+     "pickup_lat": 25.040494,
+     "pickup_lng": 55.195971,
+     "pickup_where_exactly": "Outside drop-off area by Tim Hortons, City Centre Me'aisem.",
+     "setdown_lat": 25.040494,
+     "setdown_lng": 55.195971,
+     "setdown_where_exactly": "Outside drop-off area by Tim Hortons, City Centre Me'aisem.",
+     "served_by_routes": [
+      "R4"
+     ]
+    },
+    {
+     "code": "C2-08",
+     "order": 11,
+     "name": "Mall of the Emirates",
+     "lat": 25.1201411,
+     "lng": 55.2011196,
+     "google_place_id": "ChIJnTOfw75rXz4RTBV1aGLlr0c",
+     "where_exactly": "Pick-up point at 25.1201411, 55.2011196 (metro side).",
+     "pickup_lat": 25.1201411,
+     "pickup_lng": 55.2011196,
+     "pickup_where_exactly": "Pick-up point at 25.1201411, 55.2011196 (metro side).",
+     "setdown_lat": 25.1201411,
+     "setdown_lng": 55.2011196,
+     "setdown_where_exactly": "Pick-up point at 25.1201411, 55.2011196 (metro side).",
+     "served_by_routes": [
+      "R3"
+     ]
+    },
+    {
+     "code": "C4-02",
+     "order": 12,
+     "name": "The Gate Towers, Al Reem Island",
+     "lat": 24.492995,
+     "lng": 54.408057,
+     "google_place_id": "ChIJ6ReBILxnXj4RqC1IkJEARAQ",
+     "where_exactly": "Main drop-off.",
+     "pickup_lat": 24.492995,
+     "pickup_lng": 54.408057,
+     "pickup_where_exactly": "Main drop-off.",
+     "setdown_lat": 24.492995,
+     "setdown_lng": 54.408057,
+     "setdown_where_exactly": "Main drop-off.",
+     "served_by_routes": [
+      "R5"
      ]
     },
     {
@@ -2331,60 +2457,6 @@
      ]
     },
     {
-     "code": "C3-05",
-     "order": 10,
-     "name": "City Centre Me'aisem",
-     "lat": 25.040494,
-     "lng": 55.195971,
-     "google_place_id": "ChIJk79DPbptXz4RGHTZvtyE87s",
-     "where_exactly": "Outside drop-off area by Tim Hortons, City Centre Me'aisem.",
-     "pickup_lat": 25.040494,
-     "pickup_lng": 55.195971,
-     "pickup_where_exactly": "Outside drop-off area by Tim Hortons, City Centre Me'aisem.",
-     "setdown_lat": 25.040494,
-     "setdown_lng": 55.195971,
-     "setdown_where_exactly": "Outside drop-off area by Tim Hortons, City Centre Me'aisem.",
-     "served_by_routes": [
-      "R4"
-     ]
-    },
-    {
-     "code": "C3-12",
-     "order": 11,
-     "name": "Arabian Ranches 3",
-     "lat": 25.069629,
-     "lng": 55.323824,
-     "google_place_id": "ChIJ016GFd1vXz4Rfco2izB0OeM",
-     "where_exactly": "Main entrance of the Arabian Ranches 3 souk.",
-     "pickup_lat": 25.069629,
-     "pickup_lng": 55.323824,
-     "pickup_where_exactly": "Main entrance of the Arabian Ranches 3 souk.",
-     "setdown_lat": 25.069629,
-     "setdown_lng": 55.323824,
-     "setdown_where_exactly": "Main entrance of the Arabian Ranches 3 souk.",
-     "served_by_routes": [
-      "R4"
-     ]
-    },
-    {
-     "code": "C2-08",
-     "order": 12,
-     "name": "Mall of the Emirates",
-     "lat": 25.1201411,
-     "lng": 55.2011196,
-     "google_place_id": "ChIJnTOfw75rXz4RTBV1aGLlr0c",
-     "where_exactly": "Pick-up point at 25.1201411, 55.2011196 (metro side).",
-     "pickup_lat": 25.1201411,
-     "pickup_lng": 55.2011196,
-     "pickup_where_exactly": "Pick-up point at 25.1201411, 55.2011196 (metro side).",
-     "setdown_lat": 25.1201411,
-     "setdown_lng": 55.2011196,
-     "setdown_where_exactly": "Pick-up point at 25.1201411, 55.2011196 (metro side).",
-     "served_by_routes": [
-      "R3"
-     ]
-    },
-    {
      "code": "C1-12",
      "order": 13,
      "name": "Uptown Mirdif",
@@ -2400,78 +2472,6 @@
      "setdown_where_exactly": "Kerbside outside Exotic Fin Store, Uptown Mirdif, corner of Algeria St.",
      "served_by_routes": [
       "R2"
-     ]
-    },
-    {
-     "code": "C4-02",
-     "order": 14,
-     "name": "The Gate Towers, Al Reem Island",
-     "lat": 24.492995,
-     "lng": 54.408057,
-     "google_place_id": "ChIJ6ReBILxnXj4RqC1IkJEARAQ",
-     "where_exactly": "Main drop-off.",
-     "pickup_lat": 24.492995,
-     "pickup_lng": 54.408057,
-     "pickup_where_exactly": "Main drop-off.",
-     "setdown_lat": 24.492995,
-     "setdown_lng": 54.408057,
-     "setdown_where_exactly": "Main drop-off.",
-     "served_by_routes": [
-      "R5"
-     ]
-    },
-    {
-     "code": "C4-09",
-     "order": 15,
-     "name": "Holiday Inn, Al Maktoum Airport",
-     "lat": 24.867791,
-     "lng": 55.146192,
-     "google_place_id": "ChIJowBFSu91Xz4RLS9kcNQWxE8",
-     "where_exactly": "Hotel entrance, Aviation City.",
-     "pickup_lat": 24.867791,
-     "pickup_lng": 55.146192,
-     "pickup_where_exactly": "Hotel entrance, Aviation City.",
-     "setdown_lat": 24.867791,
-     "setdown_lng": 55.146192,
-     "setdown_where_exactly": "Hotel entrance, Aviation City.",
-     "served_by_routes": [
-      "R6"
-     ]
-    },
-    {
-     "code": "C1-04",
-     "order": 16,
-     "name": "Nesto Hypermarket, King Faisal St",
-     "lat": 25.337533,
-     "lng": 55.39061,
-     "google_place_id": "ChIJLS4X7hpbXz4RUhwwFiw8Esc",
-     "where_exactly": "Main entrance on King Faisal St.",
-     "pickup_lat": 25.337533,
-     "pickup_lng": 55.39061,
-     "pickup_where_exactly": "Main entrance on King Faisal St.",
-     "setdown_lat": 25.337533,
-     "setdown_lng": 55.39061,
-     "setdown_where_exactly": "Main entrance on King Faisal St.",
-     "served_by_routes": [
-      "R1"
-     ]
-    },
-    {
-     "code": "C5-19",
-     "order": 17,
-     "name": "Al Raffa, 7E Street (near Al Khaleej Centre)",
-     "lat": 25.25816,
-     "lng": 55.297127,
-     "google_place_id": null,
-     "where_exactly": "Kerbside at the pin on 7E Street, Al Raffa, near Al Khaleej Centre - wait on the main-road side; kerb to confirm on audit.",
-     "pickup_lat": 25.25816,
-     "pickup_lng": 55.297127,
-     "pickup_where_exactly": "Kerbside at the pin on 7E Street, Al Raffa, near Al Khaleej Centre - wait on the main-road side; kerb to confirm on audit.",
-     "setdown_lat": 25.25816,
-     "setdown_lng": 55.297127,
-     "setdown_where_exactly": "Kerbside at the pin on 7E Street, Al Raffa, near Al Khaleej Centre - wait on the main-road side; kerb to confirm on audit.",
-     "served_by_routes": [
-      "R7"
      ]
     },
     {
@@ -43145,18 +43145,18 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:03",
+   "start": "05:00",
    "end": "07:45",
    "vehicle": "M1",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 4,
+   "booked": 5,
    "seats": 34,
    "stops": [
     {
      "code": "C1-18",
      "name": "Shamseen Bakeries Building, Al Majaz",
-     "time": "05:03",
+     "time": "05:00",
      "action": "pick_up",
      "lat": 25.33253,
      "lng": 55.37588,
@@ -43165,7 +43165,7 @@
     {
      "code": "C1-20",
      "name": "Al Buhaira Police Station bus stop, Al Majaz 3",
-     "time": "05:17",
+     "time": "05:13",
      "action": "pick_up",
      "lat": 25.323284,
      "lng": 55.381418,
@@ -43174,16 +43174,25 @@
     {
      "code": "C1-05",
      "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "05:45",
+     "time": "05:40",
      "action": "pick_up",
      "lat": 25.305885121719236,
      "lng": 55.363729380596915,
      "where_exactly": "Sheikha Maryam Tower, Al Taawun - pick-up at the pin set by Dan 7 Oct (Al Taawun St side); kerb text to confirm."
     },
     {
+     "code": "C1-06",
+     "name": "Sahara Centre",
+     "time": "05:54",
+     "action": "pick_up",
+     "lat": 25.297153,
+     "lng": 55.371026,
+     "where_exactly": "Public bus stop shelter on 13th Street, facing the Sahara Centre mall entrance."
+    },
+    {
      "code": "C1-02",
      "name": "City Centre Al Zahia",
-     "time": "06:40",
+     "time": "06:43",
      "action": "pick_up",
      "lat": 25.318044,
      "lng": 55.457279,
@@ -43544,11 +43553,11 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "20:28",
+   "end": "20:35",
    "vehicle": "M1",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 11,
+   "booked": 12,
    "seats": 15,
    "stops": [
     {
@@ -43561,9 +43570,18 @@
      "where_exactly": ""
     },
     {
+     "code": "C1-06",
+     "name": "Sahara Centre",
+     "time": "19:07",
+     "action": "set_down",
+     "lat": 25.297153,
+     "lng": 55.371026,
+     "where_exactly": "Public bus stop shelter on 13th Street, facing the Sahara Centre mall entrance."
+    },
+    {
      "code": "C1-16",
      "name": "LuLu Hypermarket Al Nahda, Sharjah",
-     "time": "19:09",
+     "time": "19:16",
      "action": "set_down",
      "lat": 25.303505,
      "lng": 55.375491,
@@ -43572,7 +43590,7 @@
     {
      "code": "C1-05",
      "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "19:18",
+     "time": "19:25",
      "action": "set_down",
      "lat": 25.305885121719236,
      "lng": 55.363729380596915,
@@ -43581,7 +43599,7 @@
     {
      "code": "C1-21",
      "name": "Sahab Al Emarat, Al Mamzar, Sharjah",
-     "time": "19:27",
+     "time": "19:34",
      "action": "set_down",
      "lat": 25.31578,
      "lng": 55.35863,
@@ -43590,7 +43608,7 @@
     {
      "code": "C1-20",
      "name": "Al Buhaira Police Station bus stop, Al Majaz 3",
-     "time": "19:40",
+     "time": "19:47",
      "action": "set_down",
      "lat": 25.323284,
      "lng": 55.381418,
@@ -43599,7 +43617,7 @@
     {
      "code": "C1-18",
      "name": "Shamseen Bakeries Building, Al Majaz",
-     "time": "19:49",
+     "time": "19:56",
      "action": "set_down",
      "lat": 25.33253,
      "lng": 55.37588,
@@ -43608,7 +43626,7 @@
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "19:58",
+     "time": "20:05",
      "action": "set_down",
      "lat": 25.337533,
      "lng": 55.39061,
@@ -43617,7 +43635,7 @@
     {
      "code": "C1-02",
      "name": "City Centre Al Zahia",
-     "time": "20:28",
+     "time": "20:35",
      "action": "set_down",
      "lat": 25.318044,
      "lng": 55.457279,
@@ -67975,18 +67993,18 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:09",
+   "start": "05:06",
    "end": "07:45",
    "vehicle": "M1",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 2,
+   "booked": 3,
    "seats": 34,
    "stops": [
     {
      "code": "C1-18",
      "name": "Shamseen Bakeries Building, Al Majaz",
-     "time": "05:09",
+     "time": "05:06",
      "action": "pick_up",
      "lat": 25.33253,
      "lng": 55.37588,
@@ -67995,11 +68013,20 @@
     {
      "code": "C1-20",
      "name": "Al Buhaira Police Station bus stop, Al Majaz 3",
-     "time": "05:34",
+     "time": "05:22",
      "action": "pick_up",
      "lat": 25.323284,
      "lng": 55.381418,
      "where_exactly": "Bus stop by Al Buhaira Police Station on Al Intifada St; 2 minutes maximum."
+    },
+    {
+     "code": "C1-06",
+     "name": "Sahara Centre",
+     "time": "05:44",
+     "action": "pick_up",
+     "lat": 25.297153,
+     "lng": 55.371026,
+     "where_exactly": "Public bus stop shelter on 13th Street, facing the Sahara Centre mall entrance."
     },
     {
      "code": "UOB",
@@ -68107,18 +68134,18 @@
    "service": "undergraduate",
    "arrive_campus": "12:45",
    "leave_campus": null,
-   "start": "10:40",
+   "start": "10:43",
    "end": "12:45",
    "vehicle": "M1",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 6,
+   "booked": 5,
    "seats": 34,
    "stops": [
     {
      "code": "C1-20",
      "name": "Al Buhaira Police Station bus stop, Al Majaz 3",
-     "time": "10:40",
+     "time": "10:43",
      "action": "pick_up",
      "lat": 25.323284,
      "lng": 55.381418,
@@ -68127,7 +68154,7 @@
     {
      "code": "C1-21",
      "name": "Sahab Al Emarat, Al Mamzar, Sharjah",
-     "time": "10:59",
+     "time": "11:03",
      "action": "pick_up",
      "lat": 25.31578,
      "lng": 55.35863,
@@ -68136,25 +68163,16 @@
     {
      "code": "C1-05",
      "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "11:10",
+     "time": "11:15",
      "action": "pick_up",
      "lat": 25.305885121719236,
      "lng": 55.363729380596915,
      "where_exactly": "Sheikha Maryam Tower, Al Taawun - pick-up at the pin set by Dan 7 Oct (Al Taawun St side); kerb text to confirm."
     },
     {
-     "code": "C1-06",
-     "name": "Sahara Centre",
-     "time": "11:21",
-     "action": "pick_up",
-     "lat": 25.297153,
-     "lng": 55.371026,
-     "where_exactly": "Public bus stop shelter on 13th Street, facing the Sahara Centre mall entrance."
-    },
-    {
      "code": "C1-02",
      "name": "City Centre Al Zahia",
-     "time": "11:59",
+     "time": "11:57",
      "action": "pick_up",
      "lat": 25.318044,
      "lng": 55.457279,
@@ -91593,18 +91611,18 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:09",
+   "start": "05:06",
    "end": "07:45",
    "vehicle": "M1",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 2,
+   "booked": 3,
    "seats": 34,
    "stops": [
     {
      "code": "C1-18",
      "name": "Shamseen Bakeries Building, Al Majaz",
-     "time": "05:09",
+     "time": "05:06",
      "action": "pick_up",
      "lat": 25.33253,
      "lng": 55.37588,
@@ -91613,11 +91631,20 @@
     {
      "code": "C1-20",
      "name": "Al Buhaira Police Station bus stop, Al Majaz 3",
-     "time": "05:34",
+     "time": "05:22",
      "action": "pick_up",
      "lat": 25.323284,
      "lng": 55.381418,
      "where_exactly": "Bus stop by Al Buhaira Police Station on Al Intifada St; 2 minutes maximum."
+    },
+    {
+     "code": "C1-06",
+     "name": "Sahara Centre",
+     "time": "05:44",
+     "action": "pick_up",
+     "lat": 25.297153,
+     "lng": 55.371026,
+     "where_exactly": "Public bus stop shelter on 13th Street, facing the Sahara Centre mall entrance."
     },
     {
      "code": "UOB",
@@ -91965,11 +91992,11 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "20:25",
+   "end": "20:32",
    "vehicle": "M1",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 7,
+   "booked": 8,
    "seats": 15,
    "stops": [
     {
@@ -91982,9 +92009,18 @@
      "where_exactly": ""
     },
     {
+     "code": "C1-06",
+     "name": "Sahara Centre",
+     "time": "19:07",
+     "action": "set_down",
+     "lat": 25.297153,
+     "lng": 55.371026,
+     "where_exactly": "Public bus stop shelter on 13th Street, facing the Sahara Centre mall entrance."
+    },
+    {
      "code": "C1-16",
      "name": "LuLu Hypermarket Al Nahda, Sharjah",
-     "time": "19:09",
+     "time": "19:16",
      "action": "set_down",
      "lat": 25.303505,
      "lng": 55.375491,
@@ -91993,7 +92029,7 @@
     {
      "code": "C1-05",
      "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "19:18",
+     "time": "19:25",
      "action": "set_down",
      "lat": 25.305885121719236,
      "lng": 55.363729380596915,
@@ -92002,7 +92038,7 @@
     {
      "code": "C1-21",
      "name": "Sahab Al Emarat, Al Mamzar, Sharjah",
-     "time": "19:27",
+     "time": "19:34",
      "action": "set_down",
      "lat": 25.31578,
      "lng": 55.35863,
@@ -92011,7 +92047,7 @@
     {
      "code": "C1-20",
      "name": "Al Buhaira Police Station bus stop, Al Majaz 3",
-     "time": "19:40",
+     "time": "19:47",
      "action": "set_down",
      "lat": 25.323284,
      "lng": 55.381418,
@@ -92020,7 +92056,7 @@
     {
      "code": "C1-18",
      "name": "Shamseen Bakeries Building, Al Majaz",
-     "time": "19:49",
+     "time": "19:56",
      "action": "set_down",
      "lat": 25.33253,
      "lng": 55.37588,
@@ -92029,7 +92065,7 @@
     {
      "code": "C1-02",
      "name": "City Centre Al Zahia",
-     "time": "20:25",
+     "time": "20:32",
      "action": "set_down",
      "lat": 25.318044,
      "lng": 55.457279,
@@ -114782,18 +114818,18 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:06",
+   "start": "05:03",
    "end": "07:45",
    "vehicle": "M1",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 4,
+   "booked": 5,
    "seats": 34,
    "stops": [
     {
      "code": "C1-18",
      "name": "Shamseen Bakeries Building, Al Majaz",
-     "time": "05:06",
+     "time": "05:03",
      "action": "pick_up",
      "lat": 25.33253,
      "lng": 55.37588,
@@ -114802,7 +114838,7 @@
     {
      "code": "C1-20",
      "name": "Al Buhaira Police Station bus stop, Al Majaz 3",
-     "time": "05:26",
+     "time": "05:17",
      "action": "pick_up",
      "lat": 25.323284,
      "lng": 55.381418,
@@ -114811,11 +114847,20 @@
     {
      "code": "C1-05",
      "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "06:08",
+     "time": "05:45",
      "action": "pick_up",
      "lat": 25.305885121719236,
      "lng": 55.363729380596915,
      "where_exactly": "Sheikha Maryam Tower, Al Taawun - pick-up at the pin set by Dan 7 Oct (Al Taawun St side); kerb text to confirm."
+    },
+    {
+     "code": "C1-06",
+     "name": "Sahara Centre",
+     "time": "06:00",
+     "action": "pick_up",
+     "lat": 25.297153,
+     "lng": 55.371026,
+     "where_exactly": "Public bus stop shelter on 13th Street, facing the Sahara Centre mall entrance."
     },
     {
      "code": "UOB",
@@ -114923,18 +114968,18 @@
    "service": "undergraduate",
    "arrive_campus": "12:45",
    "leave_campus": null,
-   "start": "10:46",
+   "start": "10:49",
    "end": "12:45",
    "vehicle": "M1",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 3,
+   "booked": 2,
    "seats": 34,
    "stops": [
     {
      "code": "C1-21",
      "name": "Sahab Al Emarat, Al Mamzar, Sharjah",
-     "time": "10:46",
+     "time": "10:49",
      "action": "pick_up",
      "lat": 25.31578,
      "lng": 55.35863,
@@ -114943,20 +114988,11 @@
     {
      "code": "C1-05",
      "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "10:59",
+     "time": "11:09",
      "action": "pick_up",
      "lat": 25.305885121719236,
      "lng": 55.363729380596915,
      "where_exactly": "Sheikha Maryam Tower, Al Taawun - pick-up at the pin set by Dan 7 Oct (Al Taawun St side); kerb text to confirm."
-    },
-    {
-     "code": "C1-06",
-     "name": "Sahara Centre",
-     "time": "11:12",
-     "action": "pick_up",
-     "lat": 25.297153,
-     "lng": 55.371026,
-     "where_exactly": "Public bus stop shelter on 13th Street, facing the Sahara Centre mall entrance."
     },
     {
      "code": "UOB",
