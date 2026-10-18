@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-18T17:36:23Z",
+ "generated_at": "2026-10-18T17:39:56Z",
  "week": "2026-10-09 to 2026-11-15",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -39485,7 +39485,7 @@
    "vehicle": "M3",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 4,
+   "booked": 2,
    "seats": 15,
    "stops": [
     {
@@ -39498,27 +39498,9 @@
      "where_exactly": "Outside building 13, Shoreline St."
     },
     {
-     "code": "C2-06",
-     "name": "The Springs Souk",
-     "time": "09:04",
-     "action": "pick_up",
-     "lat": 25.065917,
-     "lng": 55.192107,
-     "where_exactly": "Drop-off area outside Russo's New York Pizzeria, The Springs Souk."
-    },
-    {
-     "code": "C2-07",
-     "name": "Dubai Internet City Metro Station",
-     "time": "09:06",
-     "action": "pick_up",
-     "lat": 25.099769538054428,
-     "lng": 55.17320213081937,
-     "where_exactly": "RTA bus stop \"Dubai Internet City Metro Bus Stop Landside 1\" (landside, Barsha Heights side of the metro) - pick-up and set-down here; coordinator-confirmed pin 12 Oct."
-    },
-    {
      "code": "C2-10",
      "name": "Al Manaf Building, Al Barsha 1",
-     "time": "09:08",
+     "time": "09:07",
      "action": "pick_up",
      "lat": 25.1110756,
      "lng": 55.2057285,
@@ -39542,80 +39524,46 @@
    "day": "Tue",
    "route": "R3",
    "direction": "to_campus",
-   "service": "regular",
+   "service": "undergraduate",
    "arrive_campus": "10:45",
    "leave_campus": null,
-   "start": "08:45",
+   "start": "09:53",
    "end": "10:45",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 0,
+   "booked": 2,
    "seats": 15,
-   "offer_only": true,
    "stops": [
     {
-     "code": "C2-08",
-     "name": "Mall of the Emirates",
-     "time": "08:45",
-     "action": "pick_up"
-    },
-    {
-     "code": "C2-16",
-     "name": "Umm Suqeim Rd bus stop by ENOC 1099, Al Barsha 1",
-     "time": "08:58",
-     "action": "pick_up"
+     "code": "C2-06",
+     "name": "The Springs Souk",
+     "time": "09:53",
+     "action": "pick_up",
+     "lat": 25.065917,
+     "lng": 55.192107,
+     "where_exactly": "Drop-off area outside Russo's New York Pizzeria, The Springs Souk."
     },
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "09:12",
-     "action": "pick_up"
-    },
-    {
-     "code": "C2-06",
-     "name": "The Springs Souk",
-     "time": "09:25",
-     "action": "pick_up"
-    },
-    {
-     "code": "C2-05",
-     "name": "The Meadows Village",
-     "time": "09:38",
-     "action": "pick_up"
-    },
-    {
-     "code": "C2-04",
-     "name": "Sobha Realty Metro Station",
-     "time": "09:52",
-     "action": "pick_up"
-    },
-    {
-     "code": "C2-03",
-     "name": "DMCC Metro Station",
-     "time": "10:05",
-     "action": "pick_up"
-    },
-    {
-     "code": "C2-02",
-     "name": "Dubai Marina Mall",
-     "time": "10:18",
-     "action": "pick_up"
-    },
-    {
-     "code": "C2-01",
-     "name": "Al Sarood, Shoreline 13, Palm Jumeirah",
-     "time": "10:32",
-     "action": "pick_up"
+     "time": "10:07",
+     "action": "pick_up",
+     "lat": 25.099769538054428,
+     "lng": 55.17320213081937,
+     "where_exactly": "RTA bus stop \"Dubai Internet City Metro Bus Stop Landside 1\" (landside, Barsha Heights side of the metro) - pick-up and set-down here; coordinator-confirmed pin 12 Oct."
     },
     {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
      "time": "10:45",
-     "action": "set_down"
+     "action": "set_down",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
     }
    ],
-   "status": "on_request"
+   "status": "operating"
   },
   {
    "run_id": "2026-10-20-R3-O4",
@@ -42611,10 +42559,10 @@
    "start": "18:15",
    "end": "20:09",
    "vehicle": "M7",
-   "vehicle_type": "Hiace",
-   "capacity": 15,
+   "vehicle_type": "Rosa",
+   "capacity": 34,
    "booked": 5,
-   "seats": 15,
+   "seats": 34,
    "stops": [
     {
      "code": "UOB",
@@ -65387,7 +65335,7 @@
    "vehicle": "M3",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 5,
+   "booked": 3,
    "seats": 15,
    "stops": [
     {
@@ -65398,15 +65346,6 @@
      "lat": 25.11202,
      "lng": 55.142781,
      "where_exactly": "Outside building 13, Shoreline St."
-    },
-    {
-     "code": "C2-06",
-     "name": "The Springs Souk",
-     "time": "08:52",
-     "action": "pick_up",
-     "lat": 25.065917,
-     "lng": 55.192107,
-     "where_exactly": "Drop-off area outside Russo's New York Pizzeria, The Springs Souk."
     },
     {
      "code": "C2-07",
@@ -65444,80 +65383,46 @@
    "day": "Tue",
    "route": "R3",
    "direction": "to_campus",
-   "service": "regular",
+   "service": "undergraduate",
    "arrive_campus": "10:45",
    "leave_campus": null,
-   "start": "08:45",
+   "start": "09:53",
    "end": "10:45",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 0,
+   "booked": 2,
    "seats": 15,
-   "offer_only": true,
    "stops": [
     {
-     "code": "C2-08",
-     "name": "Mall of the Emirates",
-     "time": "08:45",
-     "action": "pick_up"
-    },
-    {
-     "code": "C2-16",
-     "name": "Umm Suqeim Rd bus stop by ENOC 1099, Al Barsha 1",
-     "time": "08:58",
-     "action": "pick_up"
+     "code": "C2-06",
+     "name": "The Springs Souk",
+     "time": "09:53",
+     "action": "pick_up",
+     "lat": 25.065917,
+     "lng": 55.192107,
+     "where_exactly": "Drop-off area outside Russo's New York Pizzeria, The Springs Souk."
     },
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "09:12",
-     "action": "pick_up"
-    },
-    {
-     "code": "C2-06",
-     "name": "The Springs Souk",
-     "time": "09:25",
-     "action": "pick_up"
-    },
-    {
-     "code": "C2-05",
-     "name": "The Meadows Village",
-     "time": "09:38",
-     "action": "pick_up"
-    },
-    {
-     "code": "C2-04",
-     "name": "Sobha Realty Metro Station",
-     "time": "09:52",
-     "action": "pick_up"
-    },
-    {
-     "code": "C2-03",
-     "name": "DMCC Metro Station",
-     "time": "10:05",
-     "action": "pick_up"
-    },
-    {
-     "code": "C2-02",
-     "name": "Dubai Marina Mall",
-     "time": "10:18",
-     "action": "pick_up"
-    },
-    {
-     "code": "C2-01",
-     "name": "Al Sarood, Shoreline 13, Palm Jumeirah",
-     "time": "10:32",
-     "action": "pick_up"
+     "time": "10:07",
+     "action": "pick_up",
+     "lat": 25.099769538054428,
+     "lng": 55.17320213081937,
+     "where_exactly": "RTA bus stop \"Dubai Internet City Metro Bus Stop Landside 1\" (landside, Barsha Heights side of the metro) - pick-up and set-down here; coordinator-confirmed pin 12 Oct."
     },
     {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
      "time": "10:45",
-     "action": "set_down"
+     "action": "set_down",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
     }
    ],
-   "status": "on_request"
+   "status": "operating"
   },
   {
    "run_id": "2026-10-27-R3-O4",
@@ -68150,10 +68055,10 @@
    "start": "18:15",
    "end": "19:53",
    "vehicle": "M7",
-   "vehicle_type": "Hiace",
-   "capacity": 15,
+   "vehicle_type": "Rosa",
+   "capacity": 34,
    "booked": 2,
-   "seats": 15,
+   "seats": 34,
    "stops": [
     {
      "code": "UOB",
@@ -89505,32 +89410,14 @@
    "service": "undergraduate",
    "arrive_campus": "09:45",
    "leave_campus": null,
-   "start": "08:31",
+   "start": "08:50",
    "end": "09:45",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 5,
+   "booked": 2,
    "seats": 15,
    "stops": [
-    {
-     "code": "C2-01",
-     "name": "Al Sarood, Shoreline 13, Palm Jumeirah",
-     "time": "08:31",
-     "action": "pick_up",
-     "lat": 25.11202,
-     "lng": 55.142781,
-     "where_exactly": "Outside building 13, Shoreline St."
-    },
-    {
-     "code": "C2-06",
-     "name": "The Springs Souk",
-     "time": "08:38",
-     "action": "pick_up",
-     "lat": 25.065917,
-     "lng": 55.192107,
-     "where_exactly": "Drop-off area outside Russo's New York Pizzeria, The Springs Souk."
-    },
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
@@ -89567,80 +89454,55 @@
    "day": "Tue",
    "route": "R3",
    "direction": "to_campus",
-   "service": "regular",
+   "service": "undergraduate",
    "arrive_campus": "10:45",
    "leave_campus": null,
-   "start": "08:45",
+   "start": "09:42",
    "end": "10:45",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 0,
+   "booked": 3,
    "seats": 15,
-   "offer_only": true,
    "stops": [
     {
-     "code": "C2-08",
-     "name": "Mall of the Emirates",
-     "time": "08:45",
-     "action": "pick_up"
-    },
-    {
-     "code": "C2-16",
-     "name": "Umm Suqeim Rd bus stop by ENOC 1099, Al Barsha 1",
-     "time": "08:58",
-     "action": "pick_up"
-    },
-    {
-     "code": "C2-07",
-     "name": "Dubai Internet City Metro Station",
-     "time": "09:12",
-     "action": "pick_up"
+     "code": "C2-01",
+     "name": "Al Sarood, Shoreline 13, Palm Jumeirah",
+     "time": "09:42",
+     "action": "pick_up",
+     "lat": 25.11202,
+     "lng": 55.142781,
+     "where_exactly": "Outside building 13, Shoreline St."
     },
     {
      "code": "C2-06",
      "name": "The Springs Souk",
-     "time": "09:25",
-     "action": "pick_up"
+     "time": "10:01",
+     "action": "pick_up",
+     "lat": 25.065917,
+     "lng": 55.192107,
+     "where_exactly": "Drop-off area outside Russo's New York Pizzeria, The Springs Souk."
     },
     {
-     "code": "C2-05",
-     "name": "The Meadows Village",
-     "time": "09:38",
-     "action": "pick_up"
-    },
-    {
-     "code": "C2-04",
-     "name": "Sobha Realty Metro Station",
-     "time": "09:52",
-     "action": "pick_up"
-    },
-    {
-     "code": "C2-03",
-     "name": "DMCC Metro Station",
-     "time": "10:05",
-     "action": "pick_up"
-    },
-    {
-     "code": "C2-02",
-     "name": "Dubai Marina Mall",
-     "time": "10:18",
-     "action": "pick_up"
-    },
-    {
-     "code": "C2-01",
-     "name": "Al Sarood, Shoreline 13, Palm Jumeirah",
-     "time": "10:32",
-     "action": "pick_up"
+     "code": "C2-07",
+     "name": "Dubai Internet City Metro Station",
+     "time": "10:13",
+     "action": "pick_up",
+     "lat": 25.099769538054428,
+     "lng": 55.17320213081937,
+     "where_exactly": "RTA bus stop \"Dubai Internet City Metro Bus Stop Landside 1\" (landside, Barsha Heights side of the metro) - pick-up and set-down here; coordinator-confirmed pin 12 Oct."
     },
     {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
      "time": "10:45",
-     "action": "set_down"
+     "action": "set_down",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
     }
    ],
-   "status": "on_request"
+   "status": "operating"
   },
   {
    "run_id": "2026-11-03-R3-O4",
@@ -92180,10 +92042,10 @@
    "start": "18:15",
    "end": "19:50",
    "vehicle": "M7",
-   "vehicle_type": "Hiace",
-   "capacity": 15,
+   "vehicle_type": "Rosa",
+   "capacity": 34,
    "booked": 1,
-   "seats": 15,
+   "seats": 34,
    "stops": [
     {
      "code": "UOB",
@@ -115618,10 +115480,10 @@
    "start": "18:15",
    "end": "19:53",
    "vehicle": "M7",
-   "vehicle_type": "Hiace",
-   "capacity": 15,
+   "vehicle_type": "Rosa",
+   "capacity": 34,
    "booked": 2,
-   "seats": 15,
+   "seats": 34,
    "stops": [
     {
      "code": "UOB",
