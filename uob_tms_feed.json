@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-18T15:37:01Z",
+ "generated_at": "2026-10-18T15:53:52Z",
  "week": "2026-10-09 to 2026-11-15",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -2385,96 +2385,6 @@
      ]
     },
     {
-     "code": "C3-05",
-     "order": 8,
-     "name": "City Centre Me'aisem",
-     "lat": 25.040494,
-     "lng": 55.195971,
-     "google_place_id": "ChIJk79DPbptXz4RGHTZvtyE87s",
-     "where_exactly": "Outside drop-off area by Tim Hortons, City Centre Me'aisem.",
-     "pickup_lat": 25.040494,
-     "pickup_lng": 55.195971,
-     "pickup_where_exactly": "Outside drop-off area by Tim Hortons, City Centre Me'aisem.",
-     "setdown_lat": 25.040494,
-     "setdown_lng": 55.195971,
-     "setdown_where_exactly": "Outside drop-off area by Tim Hortons, City Centre Me'aisem.",
-     "served_by_routes": [
-      "R4"
-     ]
-    },
-    {
-     "code": "C2-08",
-     "order": 11,
-     "name": "Mall of the Emirates",
-     "lat": 25.1201411,
-     "lng": 55.2011196,
-     "google_place_id": "ChIJnTOfw75rXz4RTBV1aGLlr0c",
-     "where_exactly": "Pick-up point at 25.1201411, 55.2011196 (metro side).",
-     "pickup_lat": 25.1201411,
-     "pickup_lng": 55.2011196,
-     "pickup_where_exactly": "Pick-up point at 25.1201411, 55.2011196 (metro side).",
-     "setdown_lat": 25.1201411,
-     "setdown_lng": 55.2011196,
-     "setdown_where_exactly": "Pick-up point at 25.1201411, 55.2011196 (metro side).",
-     "served_by_routes": [
-      "R3"
-     ]
-    },
-    {
-     "code": "C4-02",
-     "order": 12,
-     "name": "The Gate Towers, Al Reem Island",
-     "lat": 24.492995,
-     "lng": 54.408057,
-     "google_place_id": "ChIJ6ReBILxnXj4RqC1IkJEARAQ",
-     "where_exactly": "Main drop-off.",
-     "pickup_lat": 24.492995,
-     "pickup_lng": 54.408057,
-     "pickup_where_exactly": "Main drop-off.",
-     "setdown_lat": 24.492995,
-     "setdown_lng": 54.408057,
-     "setdown_where_exactly": "Main drop-off.",
-     "served_by_routes": [
-      "R5"
-     ]
-    },
-    {
-     "code": "C5-18",
-     "order": 9,
-     "name": "The First Collection Business Bay (hotel), Al A'amal St",
-     "lat": 25.1783788,
-     "lng": 55.2679776,
-     "google_place_id": "ChIJM9Pc_1BpXz4RqWQy1MNvDtY",
-     "where_exactly": "Kerbside outside the hotel entrance on Al A'amal Street, 280 m from Ubora Tower.",
-     "pickup_lat": 25.1783788,
-     "pickup_lng": 55.2679776,
-     "pickup_where_exactly": "Kerbside outside the hotel entrance on Al A'amal Street, 280 m from Ubora Tower.",
-     "setdown_lat": 25.1783788,
-     "setdown_lng": 55.2679776,
-     "setdown_where_exactly": "Kerbside outside the hotel entrance on Al A'amal Street, 280 m from Ubora Tower.",
-     "served_by_routes": [
-      "R7"
-     ]
-    },
-    {
-     "code": "C1-12",
-     "order": 13,
-     "name": "Uptown Mirdif",
-     "lat": 25.224246,
-     "lng": 55.423615,
-     "google_place_id": "ChIJKQZsBb1gXz4R6XK2F9qNalE",
-     "where_exactly": "Kerbside outside Exotic Fin Store, Uptown Mirdif, corner of Algeria St.",
-     "pickup_lat": 25.224246,
-     "pickup_lng": 55.423615,
-     "pickup_where_exactly": "Kerbside outside Exotic Fin Store, Uptown Mirdif, corner of Algeria St.",
-     "setdown_lat": 25.224246,
-     "setdown_lng": 55.423615,
-     "setdown_where_exactly": "Kerbside outside Exotic Fin Store, Uptown Mirdif, corner of Algeria St.",
-     "served_by_routes": [
-      "R2"
-     ]
-    },
-    {
      "code": "C4-03",
      "order": 2,
      "name": "Al Wahda Mall",
@@ -2493,6 +2403,114 @@
      ]
     },
     {
+     "code": "C3-21",
+     "order": 5,
+     "name": "DAMAC Hills Mall, DAMAC Hills",
+     "lat": 25.0179838,
+     "lng": 55.2468052,
+     "google_place_id": "ChIJTzidfedxXz4RnhNB3noM9GU",
+     "where_exactly": "Mall drop-off, DAMAC Hills.",
+     "pickup_lat": 25.0179838,
+     "pickup_lng": 55.2468052,
+     "pickup_where_exactly": "Mall drop-off, DAMAC Hills.",
+     "setdown_lat": 25.0179838,
+     "setdown_lng": 55.2468052,
+     "setdown_where_exactly": "Mall drop-off, DAMAC Hills.",
+     "served_by_routes": [
+      "R4"
+     ]
+    },
+    {
+     "code": "C3-05",
+     "order": 10,
+     "name": "City Centre Me'aisem",
+     "lat": 25.040494,
+     "lng": 55.195971,
+     "google_place_id": "ChIJk79DPbptXz4RGHTZvtyE87s",
+     "where_exactly": "Outside drop-off area by Tim Hortons, City Centre Me'aisem.",
+     "pickup_lat": 25.040494,
+     "pickup_lng": 55.195971,
+     "pickup_where_exactly": "Outside drop-off area by Tim Hortons, City Centre Me'aisem.",
+     "setdown_lat": 25.040494,
+     "setdown_lng": 55.195971,
+     "setdown_where_exactly": "Outside drop-off area by Tim Hortons, City Centre Me'aisem.",
+     "served_by_routes": [
+      "R4"
+     ]
+    },
+    {
+     "code": "C2-08",
+     "order": 13,
+     "name": "Mall of the Emirates",
+     "lat": 25.1201411,
+     "lng": 55.2011196,
+     "google_place_id": "ChIJnTOfw75rXz4RTBV1aGLlr0c",
+     "where_exactly": "Pick-up point at 25.1201411, 55.2011196 (metro side).",
+     "pickup_lat": 25.1201411,
+     "pickup_lng": 55.2011196,
+     "pickup_where_exactly": "Pick-up point at 25.1201411, 55.2011196 (metro side).",
+     "setdown_lat": 25.1201411,
+     "setdown_lng": 55.2011196,
+     "setdown_where_exactly": "Pick-up point at 25.1201411, 55.2011196 (metro side).",
+     "served_by_routes": [
+      "R3"
+     ]
+    },
+    {
+     "code": "C4-02",
+     "order": 14,
+     "name": "The Gate Towers, Al Reem Island",
+     "lat": 24.492995,
+     "lng": 54.408057,
+     "google_place_id": "ChIJ6ReBILxnXj4RqC1IkJEARAQ",
+     "where_exactly": "Main drop-off.",
+     "pickup_lat": 24.492995,
+     "pickup_lng": 54.408057,
+     "pickup_where_exactly": "Main drop-off.",
+     "setdown_lat": 24.492995,
+     "setdown_lng": 54.408057,
+     "setdown_where_exactly": "Main drop-off.",
+     "served_by_routes": [
+      "R5"
+     ]
+    },
+    {
+     "code": "C5-18",
+     "order": 11,
+     "name": "The First Collection Business Bay (hotel), Al A'amal St",
+     "lat": 25.1783788,
+     "lng": 55.2679776,
+     "google_place_id": "ChIJM9Pc_1BpXz4RqWQy1MNvDtY",
+     "where_exactly": "Kerbside outside the hotel entrance on Al A'amal Street, 280 m from Ubora Tower.",
+     "pickup_lat": 25.1783788,
+     "pickup_lng": 55.2679776,
+     "pickup_where_exactly": "Kerbside outside the hotel entrance on Al A'amal Street, 280 m from Ubora Tower.",
+     "setdown_lat": 25.1783788,
+     "setdown_lng": 55.2679776,
+     "setdown_where_exactly": "Kerbside outside the hotel entrance on Al A'amal Street, 280 m from Ubora Tower.",
+     "served_by_routes": [
+      "R7"
+     ]
+    },
+    {
+     "code": "C1-12",
+     "order": 15,
+     "name": "Uptown Mirdif",
+     "lat": 25.224246,
+     "lng": 55.423615,
+     "google_place_id": "ChIJKQZsBb1gXz4R6XK2F9qNalE",
+     "where_exactly": "Kerbside outside Exotic Fin Store, Uptown Mirdif, corner of Algeria St.",
+     "pickup_lat": 25.224246,
+     "pickup_lng": 55.423615,
+     "pickup_where_exactly": "Kerbside outside Exotic Fin Store, Uptown Mirdif, corner of Algeria St.",
+     "setdown_lat": 25.224246,
+     "setdown_lng": 55.423615,
+     "setdown_where_exactly": "Kerbside outside Exotic Fin Store, Uptown Mirdif, corner of Algeria St.",
+     "served_by_routes": [
+      "R2"
+     ]
+    },
+    {
      "code": "C4-01",
      "order": 3,
      "name": "Al Mariah Mall, Hamdan St",
@@ -2508,24 +2526,6 @@
      "setdown_where_exactly": "Outside the front of Al Mariah Mall.",
      "served_by_routes": [
       "R5"
-     ]
-    },
-    {
-     "code": "C3-21",
-     "order": 9,
-     "name": "DAMAC Hills Mall, DAMAC Hills",
-     "lat": 25.0179838,
-     "lng": 55.2468052,
-     "google_place_id": "ChIJTzidfedxXz4RnhNB3noM9GU",
-     "where_exactly": "Mall drop-off, DAMAC Hills.",
-     "pickup_lat": 25.0179838,
-     "pickup_lng": 55.2468052,
-     "pickup_where_exactly": "Mall drop-off, DAMAC Hills.",
-     "setdown_lat": 25.0179838,
-     "setdown_lng": 55.2468052,
-     "setdown_where_exactly": "Mall drop-off, DAMAC Hills.",
-     "served_by_routes": [
-      "R4"
      ]
     },
     {
@@ -37382,6 +37382,44 @@
    ]
   },
   {
+   "run_id": "2026-10-19-R8-O4A",
+   "date": "2026-10-19",
+   "day": "Mon",
+   "route": "R8",
+   "direction": "to_campus",
+   "service": "masters",
+   "arrive_campus": "17:45",
+   "leave_campus": null,
+   "start": "15:08",
+   "end": "17:45",
+   "vehicle": "M8",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 1,
+   "seats": 15,
+   "stops": [
+    {
+     "code": "C4-03",
+     "name": "Al Wahda Mall",
+     "time": "15:08",
+     "action": "pick_up",
+     "lat": 24.471019,
+     "lng": 54.370278,
+     "where_exactly": "Kerbside at 24.471019, 54.370278 beside Al Wahda Mall - the parent-confirmed point (12 Oct), NOT the RTA shelter on Hazza Bin Zayed St."
+    },
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "17:45",
+     "action": "set_down",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    }
+   ],
+   "status": "operating"
+  },
+  {
    "run_id": "2026-10-19-R8-O5C",
    "date": "2026-10-19",
    "day": "Mon",
@@ -37390,31 +37428,40 @@
    "service": "masters",
    "arrive_campus": "17:45",
    "leave_campus": null,
-   "start": "16:19",
+   "start": "16:08",
    "end": "17:45",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 3,
+   "booked": 4,
    "seats": 15,
    "stops": [
     {
+     "code": "C3-19",
+     "name": "Regina Tower, JVC",
+     "time": "16:08",
+     "action": "pick_up",
+     "lat": 25.057284,
+     "lng": 55.212609,
+     "where_exactly": "Kerbside on 24 Street outside the tower entrance; do not enter the car park."
+    },
+    {
      "code": "C3-17",
      "name": "Eagle Heights, Dubai Sports City",
-     "time": "16:19",
+     "time": "16:18",
      "action": "pick_up",
      "lat": 25.036628,
      "lng": 55.221187,
      "where_exactly": "Outside the front of the Eagle Heights building."
     },
     {
-     "code": "C3-19",
-     "name": "Regina Tower, JVC",
-     "time": "16:29",
+     "code": "C3-21",
+     "name": "DAMAC Hills Mall, DAMAC Hills",
+     "time": "16:31",
      "action": "pick_up",
-     "lat": 25.057284,
-     "lng": 55.212609,
-     "where_exactly": "Kerbside on 24 Street outside the tower entrance; do not enter the car park."
+     "lat": 25.0179838,
+     "lng": 55.2468052,
+     "where_exactly": "Mall drop-off, DAMAC Hills."
     },
     {
      "code": "C3-26",
@@ -37517,93 +37564,105 @@
      "action": "pick_up"
     },
     {
-     "code": "C3-17",
-     "name": "Eagle Heights, Dubai Sports City",
+     "code": "C4-03",
+     "name": "Al Wahda Mall",
      "time": "16:20",
      "action": "pick_up"
     },
     {
      "code": "C3-19",
      "name": "Regina Tower, JVC",
-     "time": "16:26",
+     "time": "16:24",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-17",
+     "name": "Eagle Heights, Dubai Sports City",
+     "time": "16:29",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-21",
+     "name": "DAMAC Hills Mall, DAMAC Hills",
+     "time": "16:34",
      "action": "pick_up"
     },
     {
      "code": "C3-26",
      "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
-     "time": "16:31",
+     "time": "16:39",
      "action": "pick_up"
     },
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "16:36",
+     "time": "16:43",
      "action": "pick_up"
     },
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "16:41",
+     "time": "16:48",
      "action": "pick_up"
     },
     {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "16:47",
+     "time": "16:53",
      "action": "pick_up"
     },
     {
      "code": "C5-20",
      "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
-     "time": "16:52",
+     "time": "16:58",
      "action": "pick_up"
     },
     {
      "code": "C5-18",
      "name": "The First Collection Business Bay (hotel), Al A'amal St",
-     "time": "16:57",
+     "time": "17:02",
      "action": "pick_up"
     },
     {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "17:03",
+     "time": "17:07",
      "action": "pick_up"
     },
     {
      "code": "C3-12",
      "name": "Arabian Ranches 3",
-     "time": "17:08",
+     "time": "17:12",
      "action": "pick_up"
     },
     {
      "code": "C2-08",
      "name": "Mall of the Emirates",
-     "time": "17:13",
+     "time": "17:17",
      "action": "pick_up"
     },
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "17:19",
+     "time": "17:21",
      "action": "pick_up"
     },
     {
      "code": "C4-02",
      "name": "The Gate Towers, Al Reem Island",
-     "time": "17:24",
+     "time": "17:26",
      "action": "pick_up"
     },
     {
      "code": "C4-09",
      "name": "Holiday Inn, Al Maktoum Airport",
-     "time": "17:29",
+     "time": "17:31",
      "action": "pick_up"
     },
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "17:34",
+     "time": "17:36",
      "action": "pick_up"
     },
     {
@@ -37622,6 +37681,44 @@
    "status": "on_request"
   },
   {
+   "run_id": "2026-10-19-R8-R4A",
+   "date": "2026-10-19",
+   "day": "Mon",
+   "route": "R8",
+   "direction": "from_campus",
+   "service": "masters",
+   "arrive_campus": null,
+   "leave_campus": "21:36",
+   "start": "21:36",
+   "end": "23:37",
+   "vehicle": "M8",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 1,
+   "seats": 15,
+   "stops": [
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "21:36",
+     "action": "pick_up",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    },
+    {
+     "code": "C4-03",
+     "name": "Al Wahda Mall",
+     "time": "23:37",
+     "action": "set_down",
+     "lat": 24.471019,
+     "lng": 54.370278,
+     "where_exactly": "Kerbside at 24.471019, 54.370278 beside Al Wahda Mall - the parent-confirmed point (12 Oct), NOT the RTA shelter on Hazza Bin Zayed St."
+    }
+   ],
+   "status": "operating"
+  },
+  {
    "run_id": "2026-10-19-R8-R4C",
    "date": "2026-10-19",
    "day": "Mon",
@@ -37631,11 +37728,11 @@
    "arrive_campus": null,
    "leave_campus": "21:36",
    "start": "21:36",
-   "end": "22:21",
+   "end": "22:29",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 3,
+   "booked": 4,
    "seats": 15,
    "stops": [
     {
@@ -37657,22 +37754,31 @@
      "where_exactly": "Kerbside outside Binghatti Crystals, near Axis 7, DSO. Rider-only stop (Nabeela); last call before campus on the central masters bus."
     },
     {
-     "code": "C3-19",
-     "name": "Regina Tower, JVC",
-     "time": "22:14",
+     "code": "C3-21",
+     "name": "DAMAC Hills Mall, DAMAC Hills",
+     "time": "22:13",
      "action": "set_down",
-     "lat": 25.057284,
-     "lng": 55.212609,
-     "where_exactly": "Kerbside on 24 Street outside the tower entrance; do not enter the car park."
+     "lat": 25.0179838,
+     "lng": 55.2468052,
+     "where_exactly": "Mall drop-off, DAMAC Hills."
     },
     {
      "code": "C3-17",
      "name": "Eagle Heights, Dubai Sports City",
-     "time": "22:21",
+     "time": "22:22",
      "action": "set_down",
      "lat": 25.036628,
      "lng": 55.221187,
      "where_exactly": "Outside the front of the Eagle Heights building."
+    },
+    {
+     "code": "C3-19",
+     "name": "Regina Tower, JVC",
+     "time": "22:29",
+     "action": "set_down",
+     "lat": 25.057284,
+     "lng": 55.212609,
+     "where_exactly": "Kerbside on 24 Street outside the tower entrance; do not enter the car park."
     }
    ],
    "status": "operating"
@@ -37763,87 +37869,99 @@
      "action": "set_down"
     },
     {
-     "code": "C3-17",
-     "name": "Eagle Heights, Dubai Sports City",
-     "time": "21:47",
+     "code": "C4-03",
+     "name": "Al Wahda Mall",
+     "time": "21:45",
      "action": "set_down"
     },
     {
      "code": "C3-19",
      "name": "Regina Tower, JVC",
-     "time": "21:52",
+     "time": "21:50",
+     "action": "set_down"
+    },
+    {
+     "code": "C3-17",
+     "name": "Eagle Heights, Dubai Sports City",
+     "time": "21:55",
+     "action": "set_down"
+    },
+    {
+     "code": "C3-21",
+     "name": "DAMAC Hills Mall, DAMAC Hills",
+     "time": "22:00",
      "action": "set_down"
     },
     {
      "code": "C3-26",
      "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
-     "time": "21:57",
+     "time": "22:04",
      "action": "set_down"
     },
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "22:02",
+     "time": "22:09",
      "action": "set_down"
     },
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "22:08",
+     "time": "22:14",
      "action": "set_down"
     },
     {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "22:13",
+     "time": "22:19",
      "action": "set_down"
     },
     {
      "code": "C5-20",
      "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
-     "time": "22:18",
+     "time": "22:23",
      "action": "set_down"
     },
     {
      "code": "C5-18",
      "name": "The First Collection Business Bay (hotel), Al A'amal St",
-     "time": "22:24",
+     "time": "22:28",
      "action": "set_down"
     },
     {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "22:29",
+     "time": "22:33",
      "action": "set_down"
     },
     {
      "code": "C3-12",
      "name": "Arabian Ranches 3",
-     "time": "22:34",
+     "time": "22:38",
      "action": "set_down"
     },
     {
      "code": "C2-08",
      "name": "Mall of the Emirates",
-     "time": "22:40",
+     "time": "22:42",
      "action": "set_down"
     },
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "22:45",
+     "time": "22:47",
      "action": "set_down"
     },
     {
      "code": "C4-02",
      "name": "The Gate Towers, Al Reem Island",
-     "time": "22:50",
+     "time": "22:52",
      "action": "set_down"
     },
     {
      "code": "C4-09",
      "name": "Holiday Inn, Al Maktoum Airport",
-     "time": "22:55",
+     "time": "22:57",
      "action": "set_down"
     },
     {
@@ -40863,27 +40981,36 @@
    "service": "undergraduate",
    "arrive_campus": "10:45",
    "leave_campus": null,
-   "start": "08:54",
+   "start": "08:51",
    "end": "10:45",
    "vehicle": "M5",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 2,
+   "booked": 3,
    "seats": 15,
    "stops": [
     {
      "code": "C4-01",
      "name": "Al Mariah Mall, Hamdan St",
-     "time": "08:54",
+     "time": "08:51",
      "action": "pick_up",
      "lat": 24.494038,
      "lng": 54.366864,
      "where_exactly": "Outside the front of Al Mariah Mall."
     },
     {
+     "code": "C4-04",
+     "name": "Mubadala Tower, Sultan Bin Zayed St",
+     "time": "09:08",
+     "action": "pick_up",
+     "lat": 24.4223437,
+     "lng": 54.4544927,
+     "where_exactly": "Outside the Ministry of Human Resources & Emiratisation (Abu Dhabi Labour Office) entrance of Mubadala Tower, Sultan Bin Zayed the First St - pin from rider 6 Oct; kerb to confirm on audit."
+    },
+    {
      "code": "C4-07",
      "name": "Al Zeina, Al Raha Beach",
-     "time": "09:17",
+     "time": "09:31",
      "action": "pick_up",
      "lat": 24.4555591,
      "lng": 54.6131136,
@@ -41046,11 +41173,11 @@
    "arrive_campus": null,
    "leave_campus": "14:15",
    "start": "14:15",
-   "end": "16:12",
+   "end": "16:15",
    "vehicle": "M5",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 4,
+   "booked": 5,
    "seats": 15,
    "stops": [
     {
@@ -41065,7 +41192,7 @@
     {
      "code": "C4-06",
      "name": "Al Forsan Village main gate",
-     "time": "15:40",
+     "time": "15:32",
      "action": "set_down",
      "lat": 24.4044,
      "lng": 54.5514,
@@ -41074,16 +41201,25 @@
     {
      "code": "C4-18",
      "name": "Super Nanny Nursery, Khalifa City, Abu Dhabi",
-     "time": "15:46",
+     "time": "15:37",
      "action": "set_down",
      "lat": 24.41338,
      "lng": 54.5594598,
      "where_exactly": "An Nisaylat St frontage of Super Nanny Nursery, behind Choueifat school."
     },
     {
+     "code": "C4-04",
+     "name": "Mubadala Tower, Sultan Bin Zayed St",
+     "time": "15:52",
+     "action": "set_down",
+     "lat": 24.4223437,
+     "lng": 54.4544927,
+     "where_exactly": "Outside the Ministry of Human Resources & Emiratisation (Abu Dhabi Labour Office) entrance of Mubadala Tower, Sultan Bin Zayed the First St - pin from rider 6 Oct; kerb to confirm on audit."
+    },
+    {
      "code": "C4-03",
      "name": "Al Wahda Mall",
-     "time": "16:03",
+     "time": "16:07",
      "action": "set_down",
      "lat": 24.471019,
      "lng": 54.370278,
@@ -41092,7 +41228,7 @@
     {
      "code": "C4-01",
      "name": "Al Mariah Mall, Hamdan St",
-     "time": "16:12",
+     "time": "16:15",
      "action": "set_down",
      "lat": 24.494038,
      "lng": 54.366864,
@@ -42611,6 +42747,44 @@
    ]
   },
   {
+   "run_id": "2026-10-20-R8-O4A",
+   "date": "2026-10-20",
+   "day": "Tue",
+   "route": "R8",
+   "direction": "to_campus",
+   "service": "masters",
+   "arrive_campus": "17:45",
+   "leave_campus": null,
+   "start": "15:08",
+   "end": "17:45",
+   "vehicle": "M8",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 1,
+   "seats": 15,
+   "stops": [
+    {
+     "code": "C4-03",
+     "name": "Al Wahda Mall",
+     "time": "15:08",
+     "action": "pick_up",
+     "lat": 24.471019,
+     "lng": 54.370278,
+     "where_exactly": "Kerbside at 24.471019, 54.370278 beside Al Wahda Mall - the parent-confirmed point (12 Oct), NOT the RTA shelter on Hazza Bin Zayed St."
+    },
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "17:45",
+     "action": "set_down",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    }
+   ],
+   "status": "operating"
+  },
+  {
    "run_id": "2026-10-20-R8-O5C",
    "date": "2026-10-20",
    "day": "Tue",
@@ -42619,18 +42793,18 @@
    "service": "masters",
    "arrive_campus": "17:45",
    "leave_campus": null,
-   "start": "16:13",
+   "start": "16:02",
    "end": "17:45",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 4,
+   "booked": 5,
    "seats": 15,
    "stops": [
     {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "16:13",
+     "time": "16:02",
      "action": "pick_up",
      "lat": 25.040494,
      "lng": 55.195971,
@@ -42639,7 +42813,7 @@
     {
      "code": "C3-19",
      "name": "Regina Tower, JVC",
-     "time": "16:24",
+     "time": "16:13",
      "action": "pick_up",
      "lat": 25.057284,
      "lng": 55.212609,
@@ -42648,11 +42822,20 @@
     {
      "code": "C3-17",
      "name": "Eagle Heights, Dubai Sports City",
-     "time": "16:34",
+     "time": "16:23",
      "action": "pick_up",
      "lat": 25.036628,
      "lng": 55.221187,
      "where_exactly": "Outside the front of the Eagle Heights building."
+    },
+    {
+     "code": "C3-21",
+     "name": "DAMAC Hills Mall, DAMAC Hills",
+     "time": "16:36",
+     "action": "pick_up",
+     "lat": 25.0179838,
+     "lng": 55.2468052,
+     "where_exactly": "Mall drop-off, DAMAC Hills."
     },
     {
      "code": "C3-12",
@@ -42684,18 +42867,18 @@
    "service": "masters",
    "arrive_campus": "17:45",
    "leave_campus": null,
-   "start": "16:22",
+   "start": "16:10",
    "end": "17:45",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 3,
+   "booked": 4,
    "seats": 15,
    "stops": [
     {
      "code": "C5-18",
      "name": "The First Collection Business Bay (hotel), Al A'amal St",
-     "time": "16:22",
+     "time": "16:10",
      "action": "pick_up",
      "lat": 25.1783788,
      "lng": 55.2679776,
@@ -42704,11 +42887,20 @@
     {
      "code": "C5-20",
      "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
-     "time": "16:30",
+     "time": "16:18",
      "action": "pick_up",
      "lat": 25.186457,
      "lng": 55.282055,
      "where_exactly": "Kerbside on Abraj Street outside the DAMAC Maison Majestine entrance, opposite Bay Square 13."
+    },
+    {
+     "code": "C5-22",
+     "name": "Al Jaddaf Metro Station",
+     "time": "16:41",
+     "action": "pick_up",
+     "lat": 25.2249568,
+     "lng": 55.3336402,
+     "where_exactly": "Kerbside at the metro station entrance on Al Jaddaf Street (bus bay by the main exit). Masters evening bus only unless booked on day runs."
     },
     {
      "code": "C1-12",
@@ -42820,93 +43012,105 @@
      "action": "pick_up"
     },
     {
-     "code": "C3-17",
-     "name": "Eagle Heights, Dubai Sports City",
+     "code": "C4-03",
+     "name": "Al Wahda Mall",
      "time": "16:20",
      "action": "pick_up"
     },
     {
      "code": "C3-19",
      "name": "Regina Tower, JVC",
-     "time": "16:26",
+     "time": "16:24",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-17",
+     "name": "Eagle Heights, Dubai Sports City",
+     "time": "16:29",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-21",
+     "name": "DAMAC Hills Mall, DAMAC Hills",
+     "time": "16:34",
      "action": "pick_up"
     },
     {
      "code": "C3-26",
      "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
-     "time": "16:31",
+     "time": "16:39",
      "action": "pick_up"
     },
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "16:36",
+     "time": "16:43",
      "action": "pick_up"
     },
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "16:41",
+     "time": "16:48",
      "action": "pick_up"
     },
     {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "16:47",
+     "time": "16:53",
      "action": "pick_up"
     },
     {
      "code": "C5-20",
      "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
-     "time": "16:52",
+     "time": "16:58",
      "action": "pick_up"
     },
     {
      "code": "C5-18",
      "name": "The First Collection Business Bay (hotel), Al A'amal St",
-     "time": "16:57",
+     "time": "17:02",
      "action": "pick_up"
     },
     {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "17:03",
+     "time": "17:07",
      "action": "pick_up"
     },
     {
      "code": "C3-12",
      "name": "Arabian Ranches 3",
-     "time": "17:08",
+     "time": "17:12",
      "action": "pick_up"
     },
     {
      "code": "C2-08",
      "name": "Mall of the Emirates",
-     "time": "17:13",
+     "time": "17:17",
      "action": "pick_up"
     },
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "17:19",
+     "time": "17:21",
      "action": "pick_up"
     },
     {
      "code": "C4-02",
      "name": "The Gate Towers, Al Reem Island",
-     "time": "17:24",
+     "time": "17:26",
      "action": "pick_up"
     },
     {
      "code": "C4-09",
      "name": "Holiday Inn, Al Maktoum Airport",
-     "time": "17:29",
+     "time": "17:31",
      "action": "pick_up"
     },
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "17:34",
+     "time": "17:36",
      "action": "pick_up"
     },
     {
@@ -42925,6 +43129,44 @@
    "status": "on_request"
   },
   {
+   "run_id": "2026-10-20-R8-R4A",
+   "date": "2026-10-20",
+   "day": "Tue",
+   "route": "R8",
+   "direction": "from_campus",
+   "service": "masters",
+   "arrive_campus": null,
+   "leave_campus": "21:36",
+   "start": "21:36",
+   "end": "23:37",
+   "vehicle": "M8",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 1,
+   "seats": 15,
+   "stops": [
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "21:36",
+     "action": "pick_up",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    },
+    {
+     "code": "C4-03",
+     "name": "Al Wahda Mall",
+     "time": "23:37",
+     "action": "set_down",
+     "lat": 24.471019,
+     "lng": 54.370278,
+     "where_exactly": "Kerbside at 24.471019, 54.370278 beside Al Wahda Mall - the parent-confirmed point (12 Oct), NOT the RTA shelter on Hazza Bin Zayed St."
+    }
+   ],
+   "status": "operating"
+  },
+  {
    "run_id": "2026-10-20-R8-R4C",
    "date": "2026-10-20",
    "day": "Tue",
@@ -42934,11 +43176,11 @@
    "arrive_campus": null,
    "leave_campus": "21:36",
    "start": "21:36",
-   "end": "22:24",
+   "end": "22:32",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 4,
+   "booked": 5,
    "seats": 15,
    "stops": [
     {
@@ -42960,9 +43202,18 @@
      "where_exactly": "Main entrance of the Arabian Ranches 3 souk."
     },
     {
+     "code": "C3-21",
+     "name": "DAMAC Hills Mall, DAMAC Hills",
+     "time": "22:09",
+     "action": "set_down",
+     "lat": 25.0179838,
+     "lng": 55.2468052,
+     "where_exactly": "Mall drop-off, DAMAC Hills."
+    },
+    {
      "code": "C3-17",
      "name": "Eagle Heights, Dubai Sports City",
-     "time": "22:10",
+     "time": "22:18",
      "action": "set_down",
      "lat": 25.036628,
      "lng": 55.221187,
@@ -42971,7 +43222,7 @@
     {
      "code": "C3-19",
      "name": "Regina Tower, JVC",
-     "time": "22:17",
+     "time": "22:25",
      "action": "set_down",
      "lat": 25.057284,
      "lng": 55.212609,
@@ -42980,7 +43231,7 @@
     {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "22:24",
+     "time": "22:32",
      "action": "set_down",
      "lat": 25.040494,
      "lng": 55.195971,
@@ -42999,11 +43250,11 @@
    "arrive_campus": null,
    "leave_campus": "21:36",
    "start": "21:36",
-   "end": "22:03",
+   "end": "22:17",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 2,
+   "booked": 3,
    "seats": 15,
    "stops": [
     {
@@ -43016,9 +43267,18 @@
      "where_exactly": ""
     },
     {
+     "code": "C5-22",
+     "name": "Al Jaddaf Metro Station",
+     "time": "21:56",
+     "action": "set_down",
+     "lat": 25.2249568,
+     "lng": 55.3336402,
+     "where_exactly": "Kerbside at the metro station entrance on Al Jaddaf Street (bus bay by the main exit). Masters evening bus only unless booked on day runs."
+    },
+    {
      "code": "C5-20",
      "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
-     "time": "21:58",
+     "time": "22:12",
      "action": "set_down",
      "lat": 25.186457,
      "lng": 55.282055,
@@ -43027,7 +43287,7 @@
     {
      "code": "C5-18",
      "name": "The First Collection Business Bay (hotel), Al A'amal St",
-     "time": "22:03",
+     "time": "22:17",
      "action": "set_down",
      "lat": 25.1783788,
      "lng": 55.2679776,
@@ -43131,87 +43391,99 @@
      "action": "set_down"
     },
     {
-     "code": "C3-17",
-     "name": "Eagle Heights, Dubai Sports City",
-     "time": "21:47",
+     "code": "C4-03",
+     "name": "Al Wahda Mall",
+     "time": "21:45",
      "action": "set_down"
     },
     {
      "code": "C3-19",
      "name": "Regina Tower, JVC",
-     "time": "21:52",
+     "time": "21:50",
+     "action": "set_down"
+    },
+    {
+     "code": "C3-17",
+     "name": "Eagle Heights, Dubai Sports City",
+     "time": "21:55",
+     "action": "set_down"
+    },
+    {
+     "code": "C3-21",
+     "name": "DAMAC Hills Mall, DAMAC Hills",
+     "time": "22:00",
      "action": "set_down"
     },
     {
      "code": "C3-26",
      "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
-     "time": "21:57",
+     "time": "22:04",
      "action": "set_down"
     },
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "22:02",
+     "time": "22:09",
      "action": "set_down"
     },
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "22:08",
+     "time": "22:14",
      "action": "set_down"
     },
     {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "22:13",
+     "time": "22:19",
      "action": "set_down"
     },
     {
      "code": "C5-20",
      "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
-     "time": "22:18",
+     "time": "22:23",
      "action": "set_down"
     },
     {
      "code": "C5-18",
      "name": "The First Collection Business Bay (hotel), Al A'amal St",
-     "time": "22:24",
+     "time": "22:28",
      "action": "set_down"
     },
     {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "22:29",
+     "time": "22:33",
      "action": "set_down"
     },
     {
      "code": "C3-12",
      "name": "Arabian Ranches 3",
-     "time": "22:34",
+     "time": "22:38",
      "action": "set_down"
     },
     {
      "code": "C2-08",
      "name": "Mall of the Emirates",
-     "time": "22:40",
+     "time": "22:42",
      "action": "set_down"
     },
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "22:45",
+     "time": "22:47",
      "action": "set_down"
     },
     {
      "code": "C4-02",
      "name": "The Gate Towers, Al Reem Island",
-     "time": "22:50",
+     "time": "22:52",
      "action": "set_down"
     },
     {
      "code": "C4-09",
      "name": "Holiday Inn, Al Maktoum Airport",
-     "time": "22:55",
+     "time": "22:57",
      "action": "set_down"
     },
     {
@@ -45278,18 +45550,18 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:48",
+   "start": "05:45",
    "end": "07:45",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 7,
+   "booked": 8,
    "seats": 15,
    "stops": [
     {
      "code": "C3-02",
      "name": "Circle Mall, JVC",
-     "time": "05:48",
+     "time": "05:45",
      "action": "pick_up",
      "lat": 25.0660395,
      "lng": 55.2162257,
@@ -45298,16 +45570,25 @@
     {
      "code": "C3-03",
      "name": "Dubai Miracle Garden",
-     "time": "06:02",
+     "time": "05:59",
      "action": "pick_up",
      "lat": 25.061132,
      "lng": 55.246185,
      "where_exactly": "Bus stop between Dubai Miracle Garden and Dubai Butterfly Garden."
     },
     {
+     "code": "C3-17",
+     "name": "Eagle Heights, Dubai Sports City",
+     "time": "06:09",
+     "action": "pick_up",
+     "lat": 25.036628,
+     "lng": 55.221187,
+     "where_exactly": "Outside the front of the Eagle Heights building."
+    },
+    {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "06:17",
+     "time": "06:21",
      "action": "pick_up",
      "lat": 25.040494,
      "lng": 55.195971,
@@ -45316,7 +45597,7 @@
     {
      "code": "C3-09",
      "name": "Spinneys, Town Square",
-     "time": "06:42",
+     "time": "06:44",
      "action": "pick_up",
      "lat": 25.0099047,
      "lng": 55.2902856,
@@ -45325,7 +45606,7 @@
     {
      "code": "C3-23",
      "name": "Reem Townhouses shuttle stop, Town Square",
-     "time": "06:49",
+     "time": "06:51",
      "action": "pick_up",
      "lat": 25.01081,
      "lng": 55.27931,
@@ -45334,7 +45615,7 @@
     {
      "code": "C3-11",
      "name": "Living Legends",
-     "time": "07:11",
+     "time": "07:13",
      "action": "pick_up",
      "lat": 25.0910153,
      "lng": 55.3026039,
@@ -45343,7 +45624,7 @@
     {
      "code": "C3-14",
      "name": "Skycourts Towers",
-     "time": "07:32",
+     "time": "07:33",
      "action": "pick_up",
      "lat": 25.0898954,
      "lng": 55.3865139,
@@ -45862,11 +46143,11 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "19:59",
+   "end": "20:02",
    "vehicle": "M4",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 6,
+   "booked": 7,
    "seats": 34,
    "stops": [
     {
@@ -45881,7 +46162,7 @@
     {
      "code": "C3-25",
      "name": "Villanova La Rosa 1, Villa 46",
-     "time": "18:32",
+     "time": "18:31",
      "action": "set_down",
      "lat": 25.0765573,
      "lng": 55.3609188,
@@ -45890,7 +46171,7 @@
     {
      "code": "C3-16",
      "name": "Souq Extra, Silicon Oasis",
-     "time": "18:47",
+     "time": "18:44",
      "action": "set_down",
      "lat": 25.1192507,
      "lng": 55.3955344,
@@ -45899,7 +46180,7 @@
     {
      "code": "C3-09",
      "name": "Spinneys, Town Square",
-     "time": "19:21",
+     "time": "19:16",
      "action": "set_down",
      "lat": 25.0099047,
      "lng": 55.2902856,
@@ -45908,7 +46189,7 @@
     {
      "code": "C3-07",
      "name": "First Avenue Mall, Motor City",
-     "time": "19:37",
+     "time": "19:31",
      "action": "set_down",
      "lat": 25.046685,
      "lng": 55.243063,
@@ -45917,16 +46198,25 @@
     {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "19:49",
+     "time": "19:42",
      "action": "set_down",
      "lat": 25.040494,
      "lng": 55.195971,
      "where_exactly": "Outside drop-off area by Tim Hortons, City Centre Me'aisem."
     },
     {
+     "code": "C3-17",
+     "name": "Eagle Heights, Dubai Sports City",
+     "time": "19:53",
+     "action": "set_down",
+     "lat": 25.036628,
+     "lng": 55.221187,
+     "where_exactly": "Outside the front of the Eagle Heights building."
+    },
+    {
      "code": "C3-02",
      "name": "Circle Mall, JVC",
-     "time": "19:59",
+     "time": "20:02",
      "action": "set_down",
      "lat": 25.0660395,
      "lng": 55.2162257,
@@ -46139,18 +46429,18 @@
    "service": "undergraduate",
    "arrive_campus": "10:45",
    "leave_campus": null,
-   "start": "08:42",
+   "start": "08:39",
    "end": "10:45",
    "vehicle": "M5",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 6,
+   "booked": 7,
    "seats": 15,
    "stops": [
     {
      "code": "C4-01",
      "name": "Al Mariah Mall, Hamdan St",
-     "time": "08:42",
+     "time": "08:39",
      "action": "pick_up",
      "lat": 24.494038,
      "lng": 54.366864,
@@ -46159,7 +46449,7 @@
     {
      "code": "C4-23",
      "name": "Al Swedi Building 6, Al Sindan St, Al Zahiyah, Abu Dhabi",
-     "time": "08:48",
+     "time": "08:45",
      "action": "pick_up",
      "lat": 24.5022611,
      "lng": 54.377864,
@@ -46168,16 +46458,25 @@
     {
      "code": "C4-21",
      "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
-     "time": "08:55",
+     "time": "08:51",
      "action": "pick_up",
      "lat": 24.4757537,
      "lng": 54.3663931,
      "where_exactly": "Kerbside on Airport Road (Sheikh Rashid Bin Saeed St) at the Al Falah Street junction, outside Ramee Garden Hotel Apartments opposite NBAD - southbound side for pick-ups (towards Al Wahda), northbound side for set-downs."
     },
     {
+     "code": "C4-04",
+     "name": "Mubadala Tower, Sultan Bin Zayed St",
+     "time": "09:06",
+     "action": "pick_up",
+     "lat": 24.4223437,
+     "lng": 54.4544927,
+     "where_exactly": "Outside the Ministry of Human Resources & Emiratisation (Abu Dhabi Labour Office) entrance of Mubadala Tower, Sultan Bin Zayed the First St - pin from rider 6 Oct; kerb to confirm on audit."
+    },
+    {
      "code": "C4-06",
      "name": "Al Forsan Village main gate",
-     "time": "09:12",
+     "time": "09:20",
      "action": "pick_up",
      "lat": 24.4044,
      "lng": 54.5514,
@@ -46186,7 +46485,7 @@
     {
      "code": "C4-07",
      "name": "Al Zeina, Al Raha Beach",
-     "time": "09:25",
+     "time": "09:33",
      "action": "pick_up",
      "lat": 24.4555591,
      "lng": 54.6131136,
@@ -46195,7 +46494,7 @@
     {
      "code": "C4-08",
      "name": "Al Ghadeer community gate",
-     "time": "10:10",
+     "time": "10:13",
      "action": "pick_up",
      "lat": 24.8443745,
      "lng": 55.0261656,
@@ -46468,11 +46767,11 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "21:03",
+   "end": "21:06",
    "vehicle": "M5",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 9,
+   "booked": 10,
    "seats": 15,
    "stops": [
     {
@@ -46512,9 +46811,18 @@
      "where_exactly": "An Nisaylat St frontage of Super Nanny Nursery, behind Choueifat school."
     },
     {
+     "code": "C4-04",
+     "name": "Mubadala Tower, Sultan Bin Zayed St",
+     "time": "20:19",
+     "action": "set_down",
+     "lat": 24.4223437,
+     "lng": 54.4544927,
+     "where_exactly": "Outside the Ministry of Human Resources & Emiratisation (Abu Dhabi Labour Office) entrance of Mubadala Tower, Sultan Bin Zayed the First St - pin from rider 6 Oct; kerb to confirm on audit."
+    },
+    {
      "code": "C4-03",
      "name": "Al Wahda Mall",
-     "time": "20:33",
+     "time": "20:36",
      "action": "set_down",
      "lat": 24.471019,
      "lng": 54.370278,
@@ -46523,7 +46831,7 @@
     {
      "code": "C4-21",
      "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
-     "time": "20:38",
+     "time": "20:41",
      "action": "set_down",
      "lat": 24.4757537,
      "lng": 54.3663931,
@@ -46532,7 +46840,7 @@
     {
      "code": "C4-24",
      "name": "Al Dibsi Street, Tourist Club Area, Abu Dhabi",
-     "time": "20:46",
+     "time": "20:49",
      "action": "set_down",
      "lat": 24.49105,
      "lng": 54.38039,
@@ -46541,7 +46849,7 @@
     {
      "code": "C4-23",
      "name": "Al Swedi Building 6, Al Sindan St, Al Zahiyah, Abu Dhabi",
-     "time": "20:51",
+     "time": "20:54",
      "action": "set_down",
      "lat": 24.5022611,
      "lng": 54.377864,
@@ -46550,7 +46858,7 @@
     {
      "code": "C4-01",
      "name": "Al Mariah Mall, Hamdan St",
-     "time": "20:57",
+     "time": "21:00",
      "action": "set_down",
      "lat": 24.494038,
      "lng": 54.366864,
@@ -46559,7 +46867,7 @@
     {
      "code": "C4-22",
      "name": "Silver Tower, Al Marakib St, Corniche Area, Abu Dhabi",
-     "time": "21:03",
+     "time": "21:06",
      "action": "set_down",
      "lat": 24.49302727241724,
      "lng": 54.359155308731616,
@@ -47922,14 +48230,23 @@
    "service": "masters",
    "arrive_campus": "17:45",
    "leave_campus": null,
-   "start": "15:12",
+   "start": "14:55",
    "end": "17:45",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 1,
+   "booked": 2,
    "seats": 15,
    "stops": [
+    {
+     "code": "C4-03",
+     "name": "Al Wahda Mall",
+     "time": "14:55",
+     "action": "pick_up",
+     "lat": 24.471019,
+     "lng": 54.370278,
+     "where_exactly": "Kerbside at 24.471019, 54.370278 beside Al Wahda Mall - the parent-confirmed point (12 Oct), NOT the RTA shelter on Hazza Bin Zayed St."
+    },
     {
      "code": "C4-02",
      "name": "The Gate Towers, Al Reem Island",
@@ -48152,93 +48469,105 @@
      "action": "pick_up"
     },
     {
-     "code": "C3-17",
-     "name": "Eagle Heights, Dubai Sports City",
+     "code": "C4-03",
+     "name": "Al Wahda Mall",
      "time": "16:20",
      "action": "pick_up"
     },
     {
      "code": "C3-19",
      "name": "Regina Tower, JVC",
-     "time": "16:26",
+     "time": "16:24",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-17",
+     "name": "Eagle Heights, Dubai Sports City",
+     "time": "16:29",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-21",
+     "name": "DAMAC Hills Mall, DAMAC Hills",
+     "time": "16:34",
      "action": "pick_up"
     },
     {
      "code": "C3-26",
      "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
-     "time": "16:31",
+     "time": "16:39",
      "action": "pick_up"
     },
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "16:36",
+     "time": "16:43",
      "action": "pick_up"
     },
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "16:41",
+     "time": "16:48",
      "action": "pick_up"
     },
     {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "16:47",
+     "time": "16:53",
      "action": "pick_up"
     },
     {
      "code": "C5-20",
      "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
-     "time": "16:52",
+     "time": "16:58",
      "action": "pick_up"
     },
     {
      "code": "C5-18",
      "name": "The First Collection Business Bay (hotel), Al A'amal St",
-     "time": "16:57",
+     "time": "17:02",
      "action": "pick_up"
     },
     {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "17:03",
+     "time": "17:07",
      "action": "pick_up"
     },
     {
      "code": "C3-12",
      "name": "Arabian Ranches 3",
-     "time": "17:08",
+     "time": "17:12",
      "action": "pick_up"
     },
     {
      "code": "C2-08",
      "name": "Mall of the Emirates",
-     "time": "17:13",
+     "time": "17:17",
      "action": "pick_up"
     },
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "17:19",
+     "time": "17:21",
      "action": "pick_up"
     },
     {
      "code": "C4-02",
      "name": "The Gate Towers, Al Reem Island",
-     "time": "17:24",
+     "time": "17:26",
      "action": "pick_up"
     },
     {
      "code": "C4-09",
      "name": "Holiday Inn, Al Maktoum Airport",
-     "time": "17:29",
+     "time": "17:31",
      "action": "pick_up"
     },
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "17:34",
+     "time": "17:36",
      "action": "pick_up"
     },
     {
@@ -48266,11 +48595,11 @@
    "arrive_campus": null,
    "leave_campus": "21:36",
    "start": "21:36",
-   "end": "23:32",
+   "end": "23:43",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 1,
+   "booked": 2,
    "seats": 15,
    "stops": [
     {
@@ -48290,6 +48619,15 @@
      "lat": 24.492995,
      "lng": 54.408057,
      "where_exactly": "Main drop-off."
+    },
+    {
+     "code": "C4-03",
+     "name": "Al Wahda Mall",
+     "time": "23:43",
+     "action": "set_down",
+     "lat": 24.471019,
+     "lng": 54.370278,
+     "where_exactly": "Kerbside at 24.471019, 54.370278 beside Al Wahda Mall - the parent-confirmed point (12 Oct), NOT the RTA shelter on Hazza Bin Zayed St."
     }
    ],
    "status": "operating"
@@ -48501,87 +48839,99 @@
      "action": "set_down"
     },
     {
-     "code": "C3-17",
-     "name": "Eagle Heights, Dubai Sports City",
-     "time": "21:47",
+     "code": "C4-03",
+     "name": "Al Wahda Mall",
+     "time": "21:45",
      "action": "set_down"
     },
     {
      "code": "C3-19",
      "name": "Regina Tower, JVC",
-     "time": "21:52",
+     "time": "21:50",
+     "action": "set_down"
+    },
+    {
+     "code": "C3-17",
+     "name": "Eagle Heights, Dubai Sports City",
+     "time": "21:55",
+     "action": "set_down"
+    },
+    {
+     "code": "C3-21",
+     "name": "DAMAC Hills Mall, DAMAC Hills",
+     "time": "22:00",
      "action": "set_down"
     },
     {
      "code": "C3-26",
      "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
-     "time": "21:57",
+     "time": "22:04",
      "action": "set_down"
     },
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "22:02",
+     "time": "22:09",
      "action": "set_down"
     },
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "22:08",
+     "time": "22:14",
      "action": "set_down"
     },
     {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "22:13",
+     "time": "22:19",
      "action": "set_down"
     },
     {
      "code": "C5-20",
      "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
-     "time": "22:18",
+     "time": "22:23",
      "action": "set_down"
     },
     {
      "code": "C5-18",
      "name": "The First Collection Business Bay (hotel), Al A'amal St",
-     "time": "22:24",
+     "time": "22:28",
      "action": "set_down"
     },
     {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "22:29",
+     "time": "22:33",
      "action": "set_down"
     },
     {
      "code": "C3-12",
      "name": "Arabian Ranches 3",
-     "time": "22:34",
+     "time": "22:38",
      "action": "set_down"
     },
     {
      "code": "C2-08",
      "name": "Mall of the Emirates",
-     "time": "22:40",
+     "time": "22:42",
      "action": "set_down"
     },
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "22:45",
+     "time": "22:47",
      "action": "set_down"
     },
     {
      "code": "C4-02",
      "name": "The Gate Towers, Al Reem Island",
-     "time": "22:50",
+     "time": "22:52",
      "action": "set_down"
     },
     {
      "code": "C4-09",
      "name": "Holiday Inn, Al Maktoum Airport",
-     "time": "22:55",
+     "time": "22:57",
      "action": "set_down"
     },
     {
@@ -50119,7 +50469,7 @@
    "vehicle": "M3",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 7,
+   "booked": 6,
    "seats": 15,
    "stops": [
     {
@@ -50411,7 +50761,7 @@
    "vehicle": "M3",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 10,
+   "booked": 9,
    "seats": 15,
    "stops": [
     {
@@ -53207,22 +53557,31 @@
    "service": "masters",
    "arrive_campus": "17:45",
    "leave_campus": null,
-   "start": "16:18",
+   "start": "16:03",
    "end": "17:45",
    "vehicle": "M8",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 3,
+   "booked": 4,
    "seats": 34,
    "stops": [
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "16:18",
+     "time": "16:03",
      "action": "pick_up",
      "lat": 25.099769538054428,
      "lng": 55.17320213081937,
      "where_exactly": "RTA bus stop \"Dubai Internet City Metro Bus Stop Landside 1\" (landside, Barsha Heights side of the metro) - pick-up and set-down here; coordinator-confirmed pin 12 Oct."
+    },
+    {
+     "code": "C2-02",
+     "name": "Dubai Marina Mall",
+     "time": "16:19",
+     "action": "pick_up",
+     "lat": 25.075735,
+     "lng": 55.140981,
+     "where_exactly": "Pick and drop point at Dubai Marina Mall."
     },
     {
      "code": "C3-05",
@@ -53278,93 +53637,105 @@
      "action": "pick_up"
     },
     {
-     "code": "C3-17",
-     "name": "Eagle Heights, Dubai Sports City",
+     "code": "C4-03",
+     "name": "Al Wahda Mall",
      "time": "16:20",
      "action": "pick_up"
     },
     {
      "code": "C3-19",
      "name": "Regina Tower, JVC",
-     "time": "16:26",
+     "time": "16:24",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-17",
+     "name": "Eagle Heights, Dubai Sports City",
+     "time": "16:29",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-21",
+     "name": "DAMAC Hills Mall, DAMAC Hills",
+     "time": "16:34",
      "action": "pick_up"
     },
     {
      "code": "C3-26",
      "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
-     "time": "16:31",
+     "time": "16:39",
      "action": "pick_up"
     },
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "16:36",
+     "time": "16:43",
      "action": "pick_up"
     },
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "16:41",
+     "time": "16:48",
      "action": "pick_up"
     },
     {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "16:47",
+     "time": "16:53",
      "action": "pick_up"
     },
     {
      "code": "C5-20",
      "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
-     "time": "16:52",
+     "time": "16:58",
      "action": "pick_up"
     },
     {
      "code": "C5-18",
      "name": "The First Collection Business Bay (hotel), Al A'amal St",
-     "time": "16:57",
+     "time": "17:02",
      "action": "pick_up"
     },
     {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "17:03",
+     "time": "17:07",
      "action": "pick_up"
     },
     {
      "code": "C3-12",
      "name": "Arabian Ranches 3",
-     "time": "17:08",
+     "time": "17:12",
      "action": "pick_up"
     },
     {
      "code": "C2-08",
      "name": "Mall of the Emirates",
-     "time": "17:13",
+     "time": "17:17",
      "action": "pick_up"
     },
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "17:19",
+     "time": "17:21",
      "action": "pick_up"
     },
     {
      "code": "C4-02",
      "name": "The Gate Towers, Al Reem Island",
-     "time": "17:24",
+     "time": "17:26",
      "action": "pick_up"
     },
     {
      "code": "C4-09",
      "name": "Holiday Inn, Al Maktoum Airport",
-     "time": "17:29",
+     "time": "17:31",
      "action": "pick_up"
     },
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "17:34",
+     "time": "17:36",
      "action": "pick_up"
     },
     {
@@ -53439,11 +53810,11 @@
    "arrive_campus": null,
    "leave_campus": "21:36",
    "start": "21:36",
-   "end": "22:25",
+   "end": "22:36",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 3,
+   "booked": 4,
    "seats": 15,
    "stops": [
     {
@@ -53474,9 +53845,18 @@
      "where_exactly": "Outside drop-off area by Tim Hortons, City Centre Me'aisem."
     },
     {
+     "code": "C2-02",
+     "name": "Dubai Marina Mall",
+     "time": "22:25",
+     "action": "set_down",
+     "lat": 25.075735,
+     "lng": 55.140981,
+     "where_exactly": "Pick and drop point at Dubai Marina Mall."
+    },
+    {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "22:25",
+     "time": "22:36",
      "action": "set_down",
      "lat": 25.099769538054428,
      "lng": 55.17320213081937,
@@ -53515,87 +53895,99 @@
      "action": "set_down"
     },
     {
-     "code": "C3-17",
-     "name": "Eagle Heights, Dubai Sports City",
-     "time": "21:47",
+     "code": "C4-03",
+     "name": "Al Wahda Mall",
+     "time": "21:45",
      "action": "set_down"
     },
     {
      "code": "C3-19",
      "name": "Regina Tower, JVC",
-     "time": "21:52",
+     "time": "21:50",
+     "action": "set_down"
+    },
+    {
+     "code": "C3-17",
+     "name": "Eagle Heights, Dubai Sports City",
+     "time": "21:55",
+     "action": "set_down"
+    },
+    {
+     "code": "C3-21",
+     "name": "DAMAC Hills Mall, DAMAC Hills",
+     "time": "22:00",
      "action": "set_down"
     },
     {
      "code": "C3-26",
      "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
-     "time": "21:57",
+     "time": "22:04",
      "action": "set_down"
     },
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "22:02",
+     "time": "22:09",
      "action": "set_down"
     },
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "22:08",
+     "time": "22:14",
      "action": "set_down"
     },
     {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "22:13",
+     "time": "22:19",
      "action": "set_down"
     },
     {
      "code": "C5-20",
      "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
-     "time": "22:18",
+     "time": "22:23",
      "action": "set_down"
     },
     {
      "code": "C5-18",
      "name": "The First Collection Business Bay (hotel), Al A'amal St",
-     "time": "22:24",
+     "time": "22:28",
      "action": "set_down"
     },
     {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "22:29",
+     "time": "22:33",
      "action": "set_down"
     },
     {
      "code": "C3-12",
      "name": "Arabian Ranches 3",
-     "time": "22:34",
+     "time": "22:38",
      "action": "set_down"
     },
     {
      "code": "C2-08",
      "name": "Mall of the Emirates",
-     "time": "22:40",
+     "time": "22:42",
      "action": "set_down"
     },
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "22:45",
+     "time": "22:47",
      "action": "set_down"
     },
     {
      "code": "C4-02",
      "name": "The Gate Towers, Al Reem Island",
-     "time": "22:50",
+     "time": "22:52",
      "action": "set_down"
     },
     {
      "code": "C4-09",
      "name": "Holiday Inn, Al Maktoum Airport",
-     "time": "22:55",
+     "time": "22:57",
      "action": "set_down"
     },
     {
@@ -57484,93 +57876,105 @@
      "action": "pick_up"
     },
     {
-     "code": "C3-17",
-     "name": "Eagle Heights, Dubai Sports City",
+     "code": "C4-03",
+     "name": "Al Wahda Mall",
      "time": "16:20",
      "action": "pick_up"
     },
     {
      "code": "C3-19",
      "name": "Regina Tower, JVC",
-     "time": "16:26",
+     "time": "16:24",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-17",
+     "name": "Eagle Heights, Dubai Sports City",
+     "time": "16:29",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-21",
+     "name": "DAMAC Hills Mall, DAMAC Hills",
+     "time": "16:34",
      "action": "pick_up"
     },
     {
      "code": "C3-26",
      "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
-     "time": "16:31",
+     "time": "16:39",
      "action": "pick_up"
     },
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "16:36",
+     "time": "16:43",
      "action": "pick_up"
     },
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "16:41",
+     "time": "16:48",
      "action": "pick_up"
     },
     {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "16:47",
+     "time": "16:53",
      "action": "pick_up"
     },
     {
      "code": "C5-20",
      "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
-     "time": "16:52",
+     "time": "16:58",
      "action": "pick_up"
     },
     {
      "code": "C5-18",
      "name": "The First Collection Business Bay (hotel), Al A'amal St",
-     "time": "16:57",
+     "time": "17:02",
      "action": "pick_up"
     },
     {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "17:03",
+     "time": "17:07",
      "action": "pick_up"
     },
     {
      "code": "C3-12",
      "name": "Arabian Ranches 3",
-     "time": "17:08",
+     "time": "17:12",
      "action": "pick_up"
     },
     {
      "code": "C2-08",
      "name": "Mall of the Emirates",
-     "time": "17:13",
+     "time": "17:17",
      "action": "pick_up"
     },
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "17:19",
+     "time": "17:21",
      "action": "pick_up"
     },
     {
      "code": "C4-02",
      "name": "The Gate Towers, Al Reem Island",
-     "time": "17:24",
+     "time": "17:26",
      "action": "pick_up"
     },
     {
      "code": "C4-09",
      "name": "Holiday Inn, Al Maktoum Airport",
-     "time": "17:29",
+     "time": "17:31",
      "action": "pick_up"
     },
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "17:34",
+     "time": "17:36",
      "action": "pick_up"
     },
     {
@@ -57741,87 +58145,99 @@
      "action": "set_down"
     },
     {
-     "code": "C3-17",
-     "name": "Eagle Heights, Dubai Sports City",
-     "time": "21:47",
+     "code": "C4-03",
+     "name": "Al Wahda Mall",
+     "time": "21:45",
      "action": "set_down"
     },
     {
      "code": "C3-19",
      "name": "Regina Tower, JVC",
-     "time": "21:52",
+     "time": "21:50",
+     "action": "set_down"
+    },
+    {
+     "code": "C3-17",
+     "name": "Eagle Heights, Dubai Sports City",
+     "time": "21:55",
+     "action": "set_down"
+    },
+    {
+     "code": "C3-21",
+     "name": "DAMAC Hills Mall, DAMAC Hills",
+     "time": "22:00",
      "action": "set_down"
     },
     {
      "code": "C3-26",
      "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
-     "time": "21:57",
+     "time": "22:04",
      "action": "set_down"
     },
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "22:02",
+     "time": "22:09",
      "action": "set_down"
     },
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "22:08",
+     "time": "22:14",
      "action": "set_down"
     },
     {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "22:13",
+     "time": "22:19",
      "action": "set_down"
     },
     {
      "code": "C5-20",
      "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
-     "time": "22:18",
+     "time": "22:23",
      "action": "set_down"
     },
     {
      "code": "C5-18",
      "name": "The First Collection Business Bay (hotel), Al A'amal St",
-     "time": "22:24",
+     "time": "22:28",
      "action": "set_down"
     },
     {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "22:29",
+     "time": "22:33",
      "action": "set_down"
     },
     {
      "code": "C3-12",
      "name": "Arabian Ranches 3",
-     "time": "22:34",
+     "time": "22:38",
      "action": "set_down"
     },
     {
      "code": "C2-08",
      "name": "Mall of the Emirates",
-     "time": "22:40",
+     "time": "22:42",
      "action": "set_down"
     },
     {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "22:45",
+     "time": "22:47",
      "action": "set_down"
     },
     {
      "code": "C4-02",
      "name": "The Gate Towers, Al Reem Island",
-     "time": "22:50",
+     "time": "22:52",
      "action": "set_down"
     },
     {
      "code": "C4-09",
      "name": "Holiday Inn, Al Maktoum Airport",
-     "time": "22:55",
+     "time": "22:57",
      "action": "set_down"
     },
     {
@@ -57951,18 +58367,18 @@
    "service": "undergraduate",
    "arrive_campus": "08:45",
    "leave_campus": null,
-   "start": "06:55",
+   "start": "06:52",
    "end": "08:45",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 5,
+   "booked": 6,
    "seats": 15,
    "stops": [
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "06:55",
+     "time": "06:52",
      "action": "pick_up",
      "lat": 25.075735,
      "lng": 55.140981,
@@ -57971,7 +58387,7 @@
     {
      "code": "C2-08",
      "name": "Mall of the Emirates",
-     "time": "07:12",
+     "time": "07:09",
      "action": "pick_up",
      "lat": 25.1201411,
      "lng": 55.2011196,
@@ -57980,7 +58396,7 @@
     {
      "code": "C3-19",
      "name": "Regina Tower, JVC",
-     "time": "07:28",
+     "time": "07:25",
      "action": "pick_up",
      "lat": 25.057284,
      "lng": 55.212609,
@@ -57989,16 +58405,25 @@
     {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "07:41",
+     "time": "07:38",
      "action": "pick_up",
      "lat": 25.040494,
      "lng": 55.195971,
      "where_exactly": "Outside drop-off area by Tim Hortons, City Centre Me'aisem."
     },
     {
+     "code": "C3-21",
+     "name": "DAMAC Hills Mall, DAMAC Hills",
+     "time": "07:53",
+     "action": "pick_up",
+     "lat": 25.0179838,
+     "lng": 55.2468052,
+     "where_exactly": "Mall drop-off, DAMAC Hills."
+    },
+    {
      "code": "C3-12",
      "name": "Arabian Ranches 3",
-     "time": "08:16",
+     "time": "08:18",
      "action": "pick_up",
      "lat": 25.069629,
      "lng": 55.323824,
@@ -58133,7 +58558,7 @@
    "vehicle": "M4",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 3,
+   "booked": 4,
    "seats": 34,
    "stops": [
     {
@@ -58162,6 +58587,15 @@
      "lat": 25.040494,
      "lng": 55.195971,
      "where_exactly": "Outside drop-off area by Tim Hortons, City Centre Me'aisem."
+    },
+    {
+     "code": "C3-21",
+     "name": "DAMAC Hills Mall, DAMAC Hills",
+     "time": "19:23",
+     "action": "set_down",
+     "lat": 25.0179838,
+     "lng": 55.2468052,
+     "where_exactly": "Mall drop-off, DAMAC Hills."
     },
     {
      "code": "C3-19",
@@ -62900,6 +63334,44 @@
    ]
   },
   {
+   "run_id": "2026-10-26-R8-O4A",
+   "date": "2026-10-26",
+   "day": "Mon",
+   "route": "R8",
+   "direction": "to_campus",
+   "service": "masters",
+   "arrive_campus": "17:45",
+   "leave_campus": null,
+   "start": "15:08",
+   "end": "17:45",
+   "vehicle": "M8",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 1,
+   "seats": 15,
+   "stops": [
+    {
+     "code": "C4-03",
+     "name": "Al Wahda Mall",
+     "time": "15:08",
+     "action": "pick_up",
+     "lat": 24.471019,
+     "lng": 54.370278,
+     "where_exactly": "Kerbside at 24.471019, 54.370278 beside Al Wahda Mall - the parent-confirmed point (12 Oct), NOT the RTA shelter on Hazza Bin Zayed St."
+    },
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "17:45",
+     "action": "set_down",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    }
+   ],
+   "status": "operating"
+  },
+  {
    "run_id": "2026-10-26-R8-O5C",
    "date": "2026-10-26",
    "day": "Mon",
@@ -62908,31 +63380,40 @@
    "service": "masters",
    "arrive_campus": "17:45",
    "leave_campus": null,
-   "start": "16:19",
+   "start": "16:08",
    "end": "17:45",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 3,
+   "booked": 4,
    "seats": 15,
    "stops": [
     {
+     "code": "C3-19",
+     "name": "Regina Tower, JVC",
+     "time": "16:08",
+     "action": "pick_up",
+     "lat": 25.057284,
+     "lng": 55.212609,
+     "where_exactly": "Kerbside on 24 Street outside the tower entrance; do not enter the car park."
+    },
+    {
      "code": "C3-17",
      "name": "Eagle Heights, Dubai Sports City",
-     "time": "16:19",
+     "time": "16:18",
      "action": "pick_up",
      "lat": 25.036628,
      "lng": 55.221187,
      "where_exactly": "Outside the front of the Eagle Heights building."
     },
     {
-     "code": "C3-19",
-     "name": "Regina Tower, JVC",
-     "time": "16:29",
+     "code": "C3-21",
+     "name": "DAMAC Hills Mall, DAMAC Hills",
+     "time": "16:31",
      "action": "pick_up",
-     "lat": 25.057284,
-     "lng": 55.212609,
-     "where_exactly": "Kerbside on 24 Street outside the tower entrance; do not enter the car park."
+     "lat": 25.0179838,
+     "lng": 55.2468052,
+     "where_exactly": "Mall drop-off, DAMAC Hills."
     },
     {
      "code": "C3-26",
@@ -63026,87 +63507,99 @@
      "action": "pick_up"
     },
     {
-     "code": "C3-17",
-     "name": "Eagle Heights, Dubai Sports City",
-     "time": "16:21",
+     "code": "C4-03",
+     "name": "Al Wahda Mall",
+     "time": "16:20",
      "action": "pick_up"
     },
     {
      "code": "C3-19",
      "name": "Regina Tower, JVC",
-     "time": "16:27",
+     "time": "16:26",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-17",
+     "name": "Eagle Heights, Dubai Sports City",
+     "time": "16:31",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-21",
+     "name": "DAMAC Hills Mall, DAMAC Hills",
+     "time": "16:36",
      "action": "pick_up"
     },
     {
      "code": "C3-26",
      "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
-     "time": "16:33",
+     "time": "16:41",
      "action": "pick_up"
     },
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "16:39",
+     "time": "16:47",
      "action": "pick_up"
     },
     {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "16:45",
+     "time": "16:52",
      "action": "pick_up"
     },
     {
      "code": "C5-20",
      "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
-     "time": "16:51",
+     "time": "16:57",
      "action": "pick_up"
     },
     {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "16:57",
+     "time": "17:03",
      "action": "pick_up"
     },
     {
      "code": "C3-12",
      "name": "Arabian Ranches 3",
-     "time": "17:03",
+     "time": "17:08",
      "action": "pick_up"
     },
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "17:09",
+     "time": "17:13",
      "action": "pick_up"
     },
     {
      "code": "C2-08",
      "name": "Mall of the Emirates",
-     "time": "17:15",
+     "time": "17:19",
      "action": "pick_up"
     },
     {
      "code": "C4-02",
      "name": "The Gate Towers, Al Reem Island",
-     "time": "17:21",
+     "time": "17:24",
      "action": "pick_up"
     },
     {
      "code": "C4-09",
      "name": "Holiday Inn, Al Maktoum Airport",
-     "time": "17:27",
+     "time": "17:29",
      "action": "pick_up"
     },
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "17:33",
+     "time": "17:34",
      "action": "pick_up"
     },
     {
      "code": "C5-19",
      "name": "Al Raffa, 7E Street (near Al Khaleej Centre)",
-     "time": "17:39",
+     "time": "17:40",
      "action": "pick_up"
     },
     {
@@ -63119,6 +63612,44 @@
    "status": "on_request"
   },
   {
+   "run_id": "2026-10-26-R8-R4A",
+   "date": "2026-10-26",
+   "day": "Mon",
+   "route": "R8",
+   "direction": "from_campus",
+   "service": "masters",
+   "arrive_campus": null,
+   "leave_campus": "21:36",
+   "start": "21:36",
+   "end": "23:37",
+   "vehicle": "M8",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 1,
+   "seats": 15,
+   "stops": [
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "21:36",
+     "action": "pick_up",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    },
+    {
+     "code": "C4-03",
+     "name": "Al Wahda Mall",
+     "time": "23:37",
+     "action": "set_down",
+     "lat": 24.471019,
+     "lng": 54.370278,
+     "where_exactly": "Kerbside at 24.471019, 54.370278 beside Al Wahda Mall - the parent-confirmed point (12 Oct), NOT the RTA shelter on Hazza Bin Zayed St."
+    }
+   ],
+   "status": "operating"
+  },
+  {
    "run_id": "2026-10-26-R8-R4C",
    "date": "2026-10-26",
    "day": "Mon",
@@ -63128,11 +63659,11 @@
    "arrive_campus": null,
    "leave_campus": "21:36",
    "start": "21:36",
-   "end": "22:21",
+   "end": "22:29",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 3,
+   "booked": 4,
    "seats": 15,
    "stops": [
     {
@@ -63154,22 +63685,31 @@
      "where_exactly": "Kerbside outside Binghatti Crystals, near Axis 7, DSO. Rider-only stop (Nabeela); last call before campus on the central masters bus."
     },
     {
-     "code": "C3-19",
-     "name": "Regina Tower, JVC",
-     "time": "22:14",
+     "code": "C3-21",
+     "name": "DAMAC Hills Mall, DAMAC Hills",
+     "time": "22:13",
      "action": "set_down",
-     "lat": 25.057284,
-     "lng": 55.212609,
-     "where_exactly": "Kerbside on 24 Street outside the tower entrance; do not enter the car park."
+     "lat": 25.0179838,
+     "lng": 55.2468052,
+     "where_exactly": "Mall drop-off, DAMAC Hills."
     },
     {
      "code": "C3-17",
      "name": "Eagle Heights, Dubai Sports City",
-     "time": "22:21",
+     "time": "22:22",
      "action": "set_down",
      "lat": 25.036628,
      "lng": 55.221187,
      "where_exactly": "Outside the front of the Eagle Heights building."
+    },
+    {
+     "code": "C3-19",
+     "name": "Regina Tower, JVC",
+     "time": "22:29",
+     "action": "set_down",
+     "lat": 25.057284,
+     "lng": 55.212609,
+     "where_exactly": "Kerbside on 24 Street outside the tower entrance; do not enter the car park."
     }
    ],
    "status": "operating"
@@ -63247,85 +63787,97 @@
     {
      "code": "C5-22",
      "name": "Al Jaddaf Metro Station",
-     "time": "21:42",
+     "time": "21:41",
      "action": "set_down"
     },
     {
-     "code": "C3-17",
-     "name": "Eagle Heights, Dubai Sports City",
-     "time": "21:48",
+     "code": "C4-03",
+     "name": "Al Wahda Mall",
+     "time": "21:47",
      "action": "set_down"
     },
     {
      "code": "C3-19",
      "name": "Regina Tower, JVC",
-     "time": "21:54",
+     "time": "21:52",
+     "action": "set_down"
+    },
+    {
+     "code": "C3-17",
+     "name": "Eagle Heights, Dubai Sports City",
+     "time": "21:57",
+     "action": "set_down"
+    },
+    {
+     "code": "C3-21",
+     "name": "DAMAC Hills Mall, DAMAC Hills",
+     "time": "22:02",
      "action": "set_down"
     },
     {
      "code": "C3-26",
      "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
-     "time": "22:00",
+     "time": "22:08",
      "action": "set_down"
     },
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "22:06",
+     "time": "22:13",
      "action": "set_down"
     },
     {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "22:12",
+     "time": "22:18",
      "action": "set_down"
     },
     {
      "code": "C5-20",
      "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
-     "time": "22:18",
+     "time": "22:24",
      "action": "set_down"
     },
     {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "22:24",
+     "time": "22:29",
      "action": "set_down"
     },
     {
      "code": "C3-12",
      "name": "Arabian Ranches 3",
-     "time": "22:30",
+     "time": "22:34",
      "action": "set_down"
     },
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "22:36",
+     "time": "22:40",
      "action": "set_down"
     },
     {
      "code": "C2-08",
      "name": "Mall of the Emirates",
-     "time": "22:42",
+     "time": "22:45",
      "action": "set_down"
     },
     {
      "code": "C4-02",
      "name": "The Gate Towers, Al Reem Island",
-     "time": "22:48",
+     "time": "22:50",
      "action": "set_down"
     },
     {
      "code": "C4-09",
      "name": "Holiday Inn, Al Maktoum Airport",
-     "time": "22:54",
+     "time": "22:55",
      "action": "set_down"
     },
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "23:00",
+     "time": "23:01",
      "action": "set_down"
     },
     {
@@ -66044,22 +66596,31 @@
    "service": "undergraduate",
    "arrive_campus": "10:45",
    "leave_campus": null,
-   "start": "08:57",
+   "start": "08:54",
    "end": "10:45",
    "vehicle": "M5",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 1,
+   "booked": 2,
    "seats": 15,
    "stops": [
     {
      "code": "C4-01",
      "name": "Al Mariah Mall, Hamdan St",
-     "time": "08:57",
+     "time": "08:54",
      "action": "pick_up",
      "lat": 24.494038,
      "lng": 54.366864,
      "where_exactly": "Outside the front of Al Mariah Mall."
+    },
+    {
+     "code": "C4-04",
+     "name": "Mubadala Tower, Sultan Bin Zayed St",
+     "time": "09:13",
+     "action": "pick_up",
+     "lat": 24.4223437,
+     "lng": 54.4544927,
+     "where_exactly": "Outside the Ministry of Human Resources & Emiratisation (Abu Dhabi Labour Office) entrance of Mubadala Tower, Sultan Bin Zayed the First St - pin from rider 6 Oct; kerb to confirm on audit."
     },
     {
      "code": "UOB",
@@ -66218,11 +66779,11 @@
    "arrive_campus": null,
    "leave_campus": "14:15",
    "start": "14:15",
-   "end": "16:03",
+   "end": "16:06",
    "vehicle": "M5",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 1,
+   "booked": 2,
    "seats": 15,
    "stops": [
     {
@@ -66235,9 +66796,18 @@
      "where_exactly": ""
     },
     {
+     "code": "C4-04",
+     "name": "Mubadala Tower, Sultan Bin Zayed St",
+     "time": "15:47",
+     "action": "set_down",
+     "lat": 24.4223437,
+     "lng": 54.4544927,
+     "where_exactly": "Outside the Ministry of Human Resources & Emiratisation (Abu Dhabi Labour Office) entrance of Mubadala Tower, Sultan Bin Zayed the First St - pin from rider 6 Oct; kerb to confirm on audit."
+    },
+    {
      "code": "C4-01",
      "name": "Al Mariah Mall, Hamdan St",
-     "time": "16:03",
+     "time": "16:06",
      "action": "set_down",
      "lat": 24.494038,
      "lng": 54.366864,
@@ -67667,6 +68237,44 @@
    ]
   },
   {
+   "run_id": "2026-10-27-R8-O4A",
+   "date": "2026-10-27",
+   "day": "Tue",
+   "route": "R8",
+   "direction": "to_campus",
+   "service": "masters",
+   "arrive_campus": "17:45",
+   "leave_campus": null,
+   "start": "15:08",
+   "end": "17:45",
+   "vehicle": "M8",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 1,
+   "seats": 15,
+   "stops": [
+    {
+     "code": "C4-03",
+     "name": "Al Wahda Mall",
+     "time": "15:08",
+     "action": "pick_up",
+     "lat": 24.471019,
+     "lng": 54.370278,
+     "where_exactly": "Kerbside at 24.471019, 54.370278 beside Al Wahda Mall - the parent-confirmed point (12 Oct), NOT the RTA shelter on Hazza Bin Zayed St."
+    },
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "17:45",
+     "action": "set_down",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    }
+   ],
+   "status": "operating"
+  },
+  {
    "run_id": "2026-10-27-R8-O5C",
    "date": "2026-10-27",
    "day": "Tue",
@@ -67675,18 +68283,18 @@
    "service": "masters",
    "arrive_campus": "17:45",
    "leave_campus": null,
-   "start": "16:13",
+   "start": "16:02",
    "end": "17:45",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 4,
+   "booked": 5,
    "seats": 15,
    "stops": [
     {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "16:13",
+     "time": "16:02",
      "action": "pick_up",
      "lat": 25.040494,
      "lng": 55.195971,
@@ -67695,7 +68303,7 @@
     {
      "code": "C3-19",
      "name": "Regina Tower, JVC",
-     "time": "16:24",
+     "time": "16:13",
      "action": "pick_up",
      "lat": 25.057284,
      "lng": 55.212609,
@@ -67704,11 +68312,20 @@
     {
      "code": "C3-17",
      "name": "Eagle Heights, Dubai Sports City",
-     "time": "16:34",
+     "time": "16:23",
      "action": "pick_up",
      "lat": 25.036628,
      "lng": 55.221187,
      "where_exactly": "Outside the front of the Eagle Heights building."
+    },
+    {
+     "code": "C3-21",
+     "name": "DAMAC Hills Mall, DAMAC Hills",
+     "time": "16:36",
+     "action": "pick_up",
+     "lat": 25.0179838,
+     "lng": 55.2468052,
+     "where_exactly": "Mall drop-off, DAMAC Hills."
     },
     {
      "code": "C3-12",
@@ -67740,22 +68357,31 @@
    "service": "masters",
    "arrive_campus": "17:45",
    "leave_campus": null,
-   "start": "16:52",
+   "start": "16:32",
    "end": "17:45",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 1,
+   "booked": 2,
    "seats": 15,
    "stops": [
     {
      "code": "C5-20",
      "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
-     "time": "16:52",
+     "time": "16:32",
      "action": "pick_up",
      "lat": 25.186457,
      "lng": 55.282055,
      "where_exactly": "Kerbside on Abraj Street outside the DAMAC Maison Majestine entrance, opposite Bay Square 13."
+    },
+    {
+     "code": "C5-22",
+     "name": "Al Jaddaf Metro Station",
+     "time": "16:55",
+     "action": "pick_up",
+     "lat": 25.2249568,
+     "lng": 55.3336402,
+     "where_exactly": "Kerbside at the metro station entrance on Al Jaddaf Street (bus bay by the main exit). Masters evening bus only unless booked on day runs."
     },
     {
      "code": "UOB",
@@ -67858,87 +68484,99 @@
      "action": "pick_up"
     },
     {
-     "code": "C3-17",
-     "name": "Eagle Heights, Dubai Sports City",
-     "time": "16:21",
+     "code": "C4-03",
+     "name": "Al Wahda Mall",
+     "time": "16:20",
      "action": "pick_up"
     },
     {
      "code": "C3-19",
      "name": "Regina Tower, JVC",
-     "time": "16:27",
+     "time": "16:26",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-17",
+     "name": "Eagle Heights, Dubai Sports City",
+     "time": "16:31",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-21",
+     "name": "DAMAC Hills Mall, DAMAC Hills",
+     "time": "16:36",
      "action": "pick_up"
     },
     {
      "code": "C3-26",
      "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
-     "time": "16:33",
+     "time": "16:41",
      "action": "pick_up"
     },
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "16:39",
+     "time": "16:47",
      "action": "pick_up"
     },
     {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "16:45",
+     "time": "16:52",
      "action": "pick_up"
     },
     {
      "code": "C5-20",
      "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
-     "time": "16:51",
+     "time": "16:57",
      "action": "pick_up"
     },
     {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "16:57",
+     "time": "17:03",
      "action": "pick_up"
     },
     {
      "code": "C3-12",
      "name": "Arabian Ranches 3",
-     "time": "17:03",
+     "time": "17:08",
      "action": "pick_up"
     },
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "17:09",
+     "time": "17:13",
      "action": "pick_up"
     },
     {
      "code": "C2-08",
      "name": "Mall of the Emirates",
-     "time": "17:15",
+     "time": "17:19",
      "action": "pick_up"
     },
     {
      "code": "C4-02",
      "name": "The Gate Towers, Al Reem Island",
-     "time": "17:21",
+     "time": "17:24",
      "action": "pick_up"
     },
     {
      "code": "C4-09",
      "name": "Holiday Inn, Al Maktoum Airport",
-     "time": "17:27",
+     "time": "17:29",
      "action": "pick_up"
     },
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "17:33",
+     "time": "17:34",
      "action": "pick_up"
     },
     {
      "code": "C5-19",
      "name": "Al Raffa, 7E Street (near Al Khaleej Centre)",
-     "time": "17:39",
+     "time": "17:40",
      "action": "pick_up"
     },
     {
@@ -67951,6 +68589,44 @@
    "status": "on_request"
   },
   {
+   "run_id": "2026-10-27-R8-R4A",
+   "date": "2026-10-27",
+   "day": "Tue",
+   "route": "R8",
+   "direction": "from_campus",
+   "service": "masters",
+   "arrive_campus": null,
+   "leave_campus": "21:36",
+   "start": "21:36",
+   "end": "23:37",
+   "vehicle": "M8",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 1,
+   "seats": 15,
+   "stops": [
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "21:36",
+     "action": "pick_up",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    },
+    {
+     "code": "C4-03",
+     "name": "Al Wahda Mall",
+     "time": "23:37",
+     "action": "set_down",
+     "lat": 24.471019,
+     "lng": 54.370278,
+     "where_exactly": "Kerbside at 24.471019, 54.370278 beside Al Wahda Mall - the parent-confirmed point (12 Oct), NOT the RTA shelter on Hazza Bin Zayed St."
+    }
+   ],
+   "status": "operating"
+  },
+  {
    "run_id": "2026-10-27-R8-R4C",
    "date": "2026-10-27",
    "day": "Tue",
@@ -67960,11 +68636,11 @@
    "arrive_campus": null,
    "leave_campus": "21:36",
    "start": "21:36",
-   "end": "22:24",
+   "end": "22:32",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 4,
+   "booked": 5,
    "seats": 15,
    "stops": [
     {
@@ -67986,9 +68662,18 @@
      "where_exactly": "Main entrance of the Arabian Ranches 3 souk."
     },
     {
+     "code": "C3-21",
+     "name": "DAMAC Hills Mall, DAMAC Hills",
+     "time": "22:09",
+     "action": "set_down",
+     "lat": 25.0179838,
+     "lng": 55.2468052,
+     "where_exactly": "Mall drop-off, DAMAC Hills."
+    },
+    {
      "code": "C3-17",
      "name": "Eagle Heights, Dubai Sports City",
-     "time": "22:10",
+     "time": "22:18",
      "action": "set_down",
      "lat": 25.036628,
      "lng": 55.221187,
@@ -67997,7 +68682,7 @@
     {
      "code": "C3-19",
      "name": "Regina Tower, JVC",
-     "time": "22:17",
+     "time": "22:25",
      "action": "set_down",
      "lat": 25.057284,
      "lng": 55.212609,
@@ -68006,7 +68691,7 @@
     {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "22:24",
+     "time": "22:32",
      "action": "set_down",
      "lat": 25.040494,
      "lng": 55.195971,
@@ -68025,11 +68710,11 @@
    "arrive_campus": null,
    "leave_campus": "21:36",
    "start": "21:36",
-   "end": "21:58",
+   "end": "22:12",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 1,
+   "booked": 2,
    "seats": 15,
    "stops": [
     {
@@ -68042,9 +68727,18 @@
      "where_exactly": ""
     },
     {
+     "code": "C5-22",
+     "name": "Al Jaddaf Metro Station",
+     "time": "21:56",
+     "action": "set_down",
+     "lat": 25.2249568,
+     "lng": 55.3336402,
+     "where_exactly": "Kerbside at the metro station entrance on Al Jaddaf Street (bus bay by the main exit). Masters evening bus only unless booked on day runs."
+    },
+    {
      "code": "C5-20",
      "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
-     "time": "21:58",
+     "time": "22:12",
      "action": "set_down",
      "lat": 25.186457,
      "lng": 55.282055,
@@ -68144,85 +68838,97 @@
     {
      "code": "C5-22",
      "name": "Al Jaddaf Metro Station",
-     "time": "21:42",
+     "time": "21:41",
      "action": "set_down"
     },
     {
-     "code": "C3-17",
-     "name": "Eagle Heights, Dubai Sports City",
-     "time": "21:48",
+     "code": "C4-03",
+     "name": "Al Wahda Mall",
+     "time": "21:47",
      "action": "set_down"
     },
     {
      "code": "C3-19",
      "name": "Regina Tower, JVC",
-     "time": "21:54",
+     "time": "21:52",
+     "action": "set_down"
+    },
+    {
+     "code": "C3-17",
+     "name": "Eagle Heights, Dubai Sports City",
+     "time": "21:57",
+     "action": "set_down"
+    },
+    {
+     "code": "C3-21",
+     "name": "DAMAC Hills Mall, DAMAC Hills",
+     "time": "22:02",
      "action": "set_down"
     },
     {
      "code": "C3-26",
      "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
-     "time": "22:00",
+     "time": "22:08",
      "action": "set_down"
     },
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "22:06",
+     "time": "22:13",
      "action": "set_down"
     },
     {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "22:12",
+     "time": "22:18",
      "action": "set_down"
     },
     {
      "code": "C5-20",
      "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
-     "time": "22:18",
+     "time": "22:24",
      "action": "set_down"
     },
     {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "22:24",
+     "time": "22:29",
      "action": "set_down"
     },
     {
      "code": "C3-12",
      "name": "Arabian Ranches 3",
-     "time": "22:30",
+     "time": "22:34",
      "action": "set_down"
     },
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "22:36",
+     "time": "22:40",
      "action": "set_down"
     },
     {
      "code": "C2-08",
      "name": "Mall of the Emirates",
-     "time": "22:42",
+     "time": "22:45",
      "action": "set_down"
     },
     {
      "code": "C4-02",
      "name": "The Gate Towers, Al Reem Island",
-     "time": "22:48",
+     "time": "22:50",
      "action": "set_down"
     },
     {
      "code": "C4-09",
      "name": "Holiday Inn, Al Maktoum Airport",
-     "time": "22:54",
+     "time": "22:55",
      "action": "set_down"
     },
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "23:00",
+     "time": "23:01",
      "action": "set_down"
     },
     {
@@ -70139,27 +70845,36 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:54",
+   "start": "05:51",
    "end": "07:45",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 5,
+   "booked": 6,
    "seats": 15,
    "stops": [
     {
      "code": "C3-02",
      "name": "Circle Mall, JVC",
-     "time": "05:54",
+     "time": "05:51",
      "action": "pick_up",
      "lat": 25.0660395,
      "lng": 55.2162257,
      "where_exactly": "Main entrance."
     },
     {
+     "code": "C3-17",
+     "name": "Eagle Heights, Dubai Sports City",
+     "time": "06:02",
+     "action": "pick_up",
+     "lat": 25.036628,
+     "lng": 55.221187,
+     "where_exactly": "Outside the front of the Eagle Heights building."
+    },
+    {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "06:07",
+     "time": "06:16",
      "action": "pick_up",
      "lat": 25.040494,
      "lng": 55.195971,
@@ -70168,7 +70883,7 @@
     {
      "code": "C3-09",
      "name": "Spinneys, Town Square",
-     "time": "06:38",
+     "time": "06:45",
      "action": "pick_up",
      "lat": 25.0099047,
      "lng": 55.2902856,
@@ -70177,7 +70892,7 @@
     {
      "code": "C3-23",
      "name": "Reem Townhouses shuttle stop, Town Square",
-     "time": "06:46",
+     "time": "06:52",
      "action": "pick_up",
      "lat": 25.01081,
      "lng": 55.27931,
@@ -70186,7 +70901,7 @@
     {
      "code": "C3-14",
      "name": "Skycourts Towers",
-     "time": "07:28",
+     "time": "07:30",
      "action": "pick_up",
      "lat": 25.0898954,
      "lng": 55.3865139,
@@ -70633,11 +71348,11 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "19:53",
+   "end": "19:56",
    "vehicle": "M4",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 4,
+   "booked": 5,
    "seats": 34,
    "stops": [
     {
@@ -70652,7 +71367,7 @@
     {
      "code": "C3-25",
      "name": "Villanova La Rosa 1, Villa 46",
-     "time": "18:39",
+     "time": "18:36",
      "action": "set_down",
      "lat": 25.0765573,
      "lng": 55.3609188,
@@ -70661,7 +71376,7 @@
     {
      "code": "C3-09",
      "name": "Spinneys, Town Square",
-     "time": "19:10",
+     "time": "19:04",
      "action": "set_down",
      "lat": 25.0099047,
      "lng": 55.2902856,
@@ -70670,16 +71385,25 @@
     {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "19:40",
+     "time": "19:31",
      "action": "set_down",
      "lat": 25.040494,
      "lng": 55.195971,
      "where_exactly": "Outside drop-off area by Tim Hortons, City Centre Me'aisem."
     },
     {
+     "code": "C3-17",
+     "name": "Eagle Heights, Dubai Sports City",
+     "time": "19:45",
+     "action": "set_down",
+     "lat": 25.036628,
+     "lng": 55.221187,
+     "where_exactly": "Outside the front of the Eagle Heights building."
+    },
+    {
      "code": "C3-02",
      "name": "Circle Mall, JVC",
-     "time": "19:53",
+     "time": "19:56",
      "action": "set_down",
      "lat": 25.0660395,
      "lng": 55.2162257,
@@ -70874,18 +71598,18 @@
    "service": "undergraduate",
    "arrive_campus": "10:45",
    "leave_campus": null,
-   "start": "08:52",
+   "start": "08:49",
    "end": "10:45",
    "vehicle": "M5",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 3,
+   "booked": 4,
    "seats": 15,
    "stops": [
     {
      "code": "C4-23",
      "name": "Al Swedi Building 6, Al Sindan St, Al Zahiyah, Abu Dhabi",
-     "time": "08:52",
+     "time": "08:49",
      "action": "pick_up",
      "lat": 24.5022611,
      "lng": 54.377864,
@@ -70894,16 +71618,25 @@
     {
      "code": "C4-21",
      "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
-     "time": "08:59",
+     "time": "08:56",
      "action": "pick_up",
      "lat": 24.4757537,
      "lng": 54.3663931,
      "where_exactly": "Kerbside on Airport Road (Sheikh Rashid Bin Saeed St) at the Al Falah Street junction, outside Ramee Garden Hotel Apartments opposite NBAD - southbound side for pick-ups (towards Al Wahda), northbound side for set-downs."
     },
     {
+     "code": "C4-04",
+     "name": "Mubadala Tower, Sultan Bin Zayed St",
+     "time": "09:11",
+     "action": "pick_up",
+     "lat": 24.4223437,
+     "lng": 54.4544927,
+     "where_exactly": "Outside the Ministry of Human Resources & Emiratisation (Abu Dhabi Labour Office) entrance of Mubadala Tower, Sultan Bin Zayed the First St - pin from rider 6 Oct; kerb to confirm on audit."
+    },
+    {
      "code": "C4-06",
      "name": "Al Forsan Village main gate",
-     "time": "09:17",
+     "time": "09:26",
      "action": "pick_up",
      "lat": 24.4044,
      "lng": 54.5514,
@@ -71167,11 +71900,11 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "21:03",
+   "end": "21:06",
    "vehicle": "M5",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 6,
+   "booked": 7,
    "seats": 15,
    "stops": [
     {
@@ -71186,16 +71919,25 @@
     {
      "code": "C4-06",
      "name": "Al Forsan Village main gate",
-     "time": "20:00",
+     "time": "19:59",
      "action": "set_down",
      "lat": 24.4044,
      "lng": 54.5514,
      "where_exactly": "Main gate, Khalifa City."
     },
     {
+     "code": "C4-04",
+     "name": "Mubadala Tower, Sultan Bin Zayed St",
+     "time": "20:18",
+     "action": "set_down",
+     "lat": 24.4223437,
+     "lng": 54.4544927,
+     "where_exactly": "Outside the Ministry of Human Resources & Emiratisation (Abu Dhabi Labour Office) entrance of Mubadala Tower, Sultan Bin Zayed the First St - pin from rider 6 Oct; kerb to confirm on audit."
+    },
+    {
      "code": "C4-21",
      "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
-     "time": "20:35",
+     "time": "20:38",
      "action": "set_down",
      "lat": 24.4757537,
      "lng": 54.3663931,
@@ -71204,7 +71946,7 @@
     {
      "code": "C4-24",
      "name": "Al Dibsi Street, Tourist Club Area, Abu Dhabi",
-     "time": "20:43",
+     "time": "20:47",
      "action": "set_down",
      "lat": 24.49105,
      "lng": 54.38039,
@@ -71213,7 +71955,7 @@
     {
      "code": "C4-23",
      "name": "Al Swedi Building 6, Al Sindan St, Al Zahiyah, Abu Dhabi",
-     "time": "20:50",
+     "time": "20:53",
      "action": "set_down",
      "lat": 24.5022611,
      "lng": 54.377864,
@@ -71222,7 +71964,7 @@
     {
      "code": "C4-01",
      "name": "Al Mariah Mall, Hamdan St",
-     "time": "20:56",
+     "time": "20:59",
      "action": "set_down",
      "lat": 24.494038,
      "lng": 54.366864,
@@ -71231,7 +71973,7 @@
     {
      "code": "C4-22",
      "name": "Silver Tower, Al Marakib St, Corniche Area, Abu Dhabi",
-     "time": "21:03",
+     "time": "21:06",
      "action": "set_down",
      "lat": 24.49302727241724,
      "lng": 54.359155308731616,
@@ -72466,14 +73208,23 @@
    "service": "masters",
    "arrive_campus": "17:45",
    "leave_campus": null,
-   "start": "15:12",
+   "start": "14:55",
    "end": "17:45",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 1,
+   "booked": 2,
    "seats": 15,
    "stops": [
+    {
+     "code": "C4-03",
+     "name": "Al Wahda Mall",
+     "time": "14:55",
+     "action": "pick_up",
+     "lat": 24.471019,
+     "lng": 54.370278,
+     "where_exactly": "Kerbside at 24.471019, 54.370278 beside Al Wahda Mall - the parent-confirmed point (12 Oct), NOT the RTA shelter on Hazza Bin Zayed St."
+    },
     {
      "code": "C4-02",
      "name": "The Gate Towers, Al Reem Island",
@@ -72696,87 +73447,99 @@
      "action": "pick_up"
     },
     {
-     "code": "C3-17",
-     "name": "Eagle Heights, Dubai Sports City",
-     "time": "16:21",
+     "code": "C4-03",
+     "name": "Al Wahda Mall",
+     "time": "16:20",
      "action": "pick_up"
     },
     {
      "code": "C3-19",
      "name": "Regina Tower, JVC",
-     "time": "16:27",
+     "time": "16:26",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-17",
+     "name": "Eagle Heights, Dubai Sports City",
+     "time": "16:31",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-21",
+     "name": "DAMAC Hills Mall, DAMAC Hills",
+     "time": "16:36",
      "action": "pick_up"
     },
     {
      "code": "C3-26",
      "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
-     "time": "16:33",
+     "time": "16:41",
      "action": "pick_up"
     },
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "16:39",
+     "time": "16:47",
      "action": "pick_up"
     },
     {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "16:45",
+     "time": "16:52",
      "action": "pick_up"
     },
     {
      "code": "C5-20",
      "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
-     "time": "16:51",
+     "time": "16:57",
      "action": "pick_up"
     },
     {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "16:57",
+     "time": "17:03",
      "action": "pick_up"
     },
     {
      "code": "C3-12",
      "name": "Arabian Ranches 3",
-     "time": "17:03",
+     "time": "17:08",
      "action": "pick_up"
     },
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "17:09",
+     "time": "17:13",
      "action": "pick_up"
     },
     {
      "code": "C2-08",
      "name": "Mall of the Emirates",
-     "time": "17:15",
+     "time": "17:19",
      "action": "pick_up"
     },
     {
      "code": "C4-02",
      "name": "The Gate Towers, Al Reem Island",
-     "time": "17:21",
+     "time": "17:24",
      "action": "pick_up"
     },
     {
      "code": "C4-09",
      "name": "Holiday Inn, Al Maktoum Airport",
-     "time": "17:27",
+     "time": "17:29",
      "action": "pick_up"
     },
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "17:33",
+     "time": "17:34",
      "action": "pick_up"
     },
     {
      "code": "C5-19",
      "name": "Al Raffa, 7E Street (near Al Khaleej Centre)",
-     "time": "17:39",
+     "time": "17:40",
      "action": "pick_up"
     },
     {
@@ -72798,11 +73561,11 @@
    "arrive_campus": null,
    "leave_campus": "21:36",
    "start": "21:36",
-   "end": "23:32",
+   "end": "23:43",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 1,
+   "booked": 2,
    "seats": 15,
    "stops": [
     {
@@ -72822,6 +73585,15 @@
      "lat": 24.492995,
      "lng": 54.408057,
      "where_exactly": "Main drop-off."
+    },
+    {
+     "code": "C4-03",
+     "name": "Al Wahda Mall",
+     "time": "23:43",
+     "action": "set_down",
+     "lat": 24.471019,
+     "lng": 54.370278,
+     "where_exactly": "Kerbside at 24.471019, 54.370278 beside Al Wahda Mall - the parent-confirmed point (12 Oct), NOT the RTA shelter on Hazza Bin Zayed St."
     }
    ],
    "status": "operating"
@@ -73029,85 +73801,97 @@
     {
      "code": "C5-22",
      "name": "Al Jaddaf Metro Station",
-     "time": "21:42",
+     "time": "21:41",
      "action": "set_down"
     },
     {
-     "code": "C3-17",
-     "name": "Eagle Heights, Dubai Sports City",
-     "time": "21:48",
+     "code": "C4-03",
+     "name": "Al Wahda Mall",
+     "time": "21:47",
      "action": "set_down"
     },
     {
      "code": "C3-19",
      "name": "Regina Tower, JVC",
-     "time": "21:54",
+     "time": "21:52",
+     "action": "set_down"
+    },
+    {
+     "code": "C3-17",
+     "name": "Eagle Heights, Dubai Sports City",
+     "time": "21:57",
+     "action": "set_down"
+    },
+    {
+     "code": "C3-21",
+     "name": "DAMAC Hills Mall, DAMAC Hills",
+     "time": "22:02",
      "action": "set_down"
     },
     {
      "code": "C3-26",
      "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
-     "time": "22:00",
+     "time": "22:08",
      "action": "set_down"
     },
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "22:06",
+     "time": "22:13",
      "action": "set_down"
     },
     {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "22:12",
+     "time": "22:18",
      "action": "set_down"
     },
     {
      "code": "C5-20",
      "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
-     "time": "22:18",
+     "time": "22:24",
      "action": "set_down"
     },
     {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "22:24",
+     "time": "22:29",
      "action": "set_down"
     },
     {
      "code": "C3-12",
      "name": "Arabian Ranches 3",
-     "time": "22:30",
+     "time": "22:34",
      "action": "set_down"
     },
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "22:36",
+     "time": "22:40",
      "action": "set_down"
     },
     {
      "code": "C2-08",
      "name": "Mall of the Emirates",
-     "time": "22:42",
+     "time": "22:45",
      "action": "set_down"
     },
     {
      "code": "C4-02",
      "name": "The Gate Towers, Al Reem Island",
-     "time": "22:48",
+     "time": "22:50",
      "action": "set_down"
     },
     {
      "code": "C4-09",
      "name": "Holiday Inn, Al Maktoum Airport",
-     "time": "22:54",
+     "time": "22:55",
      "action": "set_down"
     },
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "23:00",
+     "time": "23:01",
      "action": "set_down"
     },
     {
@@ -77414,87 +78198,99 @@
      "action": "pick_up"
     },
     {
-     "code": "C3-17",
-     "name": "Eagle Heights, Dubai Sports City",
-     "time": "16:21",
+     "code": "C4-03",
+     "name": "Al Wahda Mall",
+     "time": "16:20",
      "action": "pick_up"
     },
     {
      "code": "C3-19",
      "name": "Regina Tower, JVC",
-     "time": "16:27",
+     "time": "16:26",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-17",
+     "name": "Eagle Heights, Dubai Sports City",
+     "time": "16:31",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-21",
+     "name": "DAMAC Hills Mall, DAMAC Hills",
+     "time": "16:36",
      "action": "pick_up"
     },
     {
      "code": "C3-26",
      "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
-     "time": "16:33",
+     "time": "16:41",
      "action": "pick_up"
     },
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "16:39",
+     "time": "16:47",
      "action": "pick_up"
     },
     {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "16:45",
+     "time": "16:52",
      "action": "pick_up"
     },
     {
      "code": "C5-20",
      "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
-     "time": "16:51",
+     "time": "16:57",
      "action": "pick_up"
     },
     {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "16:57",
+     "time": "17:03",
      "action": "pick_up"
     },
     {
      "code": "C3-12",
      "name": "Arabian Ranches 3",
-     "time": "17:03",
+     "time": "17:08",
      "action": "pick_up"
     },
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "17:09",
+     "time": "17:13",
      "action": "pick_up"
     },
     {
      "code": "C2-08",
      "name": "Mall of the Emirates",
-     "time": "17:15",
+     "time": "17:19",
      "action": "pick_up"
     },
     {
      "code": "C4-02",
      "name": "The Gate Towers, Al Reem Island",
-     "time": "17:21",
+     "time": "17:24",
      "action": "pick_up"
     },
     {
      "code": "C4-09",
      "name": "Holiday Inn, Al Maktoum Airport",
-     "time": "17:27",
+     "time": "17:29",
      "action": "pick_up"
     },
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "17:33",
+     "time": "17:34",
      "action": "pick_up"
     },
     {
      "code": "C5-19",
      "name": "Al Raffa, 7E Street (near Al Khaleej Centre)",
-     "time": "17:39",
+     "time": "17:40",
      "action": "pick_up"
     },
     {
@@ -77626,85 +78422,97 @@
     {
      "code": "C5-22",
      "name": "Al Jaddaf Metro Station",
-     "time": "21:42",
+     "time": "21:41",
      "action": "set_down"
     },
     {
-     "code": "C3-17",
-     "name": "Eagle Heights, Dubai Sports City",
-     "time": "21:48",
+     "code": "C4-03",
+     "name": "Al Wahda Mall",
+     "time": "21:47",
      "action": "set_down"
     },
     {
      "code": "C3-19",
      "name": "Regina Tower, JVC",
-     "time": "21:54",
+     "time": "21:52",
+     "action": "set_down"
+    },
+    {
+     "code": "C3-17",
+     "name": "Eagle Heights, Dubai Sports City",
+     "time": "21:57",
+     "action": "set_down"
+    },
+    {
+     "code": "C3-21",
+     "name": "DAMAC Hills Mall, DAMAC Hills",
+     "time": "22:02",
      "action": "set_down"
     },
     {
      "code": "C3-26",
      "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
-     "time": "22:00",
+     "time": "22:08",
      "action": "set_down"
     },
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "22:06",
+     "time": "22:13",
      "action": "set_down"
     },
     {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "22:12",
+     "time": "22:18",
      "action": "set_down"
     },
     {
      "code": "C5-20",
      "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
-     "time": "22:18",
+     "time": "22:24",
      "action": "set_down"
     },
     {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "22:24",
+     "time": "22:29",
      "action": "set_down"
     },
     {
      "code": "C3-12",
      "name": "Arabian Ranches 3",
-     "time": "22:30",
+     "time": "22:34",
      "action": "set_down"
     },
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "22:36",
+     "time": "22:40",
      "action": "set_down"
     },
     {
      "code": "C2-08",
      "name": "Mall of the Emirates",
-     "time": "22:42",
+     "time": "22:45",
      "action": "set_down"
     },
     {
      "code": "C4-02",
      "name": "The Gate Towers, Al Reem Island",
-     "time": "22:48",
+     "time": "22:50",
      "action": "set_down"
     },
     {
      "code": "C4-09",
      "name": "Holiday Inn, Al Maktoum Airport",
-     "time": "22:54",
+     "time": "22:55",
      "action": "set_down"
     },
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "23:00",
+     "time": "23:01",
      "action": "set_down"
     },
     {
@@ -81535,87 +82343,99 @@
      "action": "pick_up"
     },
     {
-     "code": "C3-17",
-     "name": "Eagle Heights, Dubai Sports City",
-     "time": "16:21",
+     "code": "C4-03",
+     "name": "Al Wahda Mall",
+     "time": "16:20",
      "action": "pick_up"
     },
     {
      "code": "C3-19",
      "name": "Regina Tower, JVC",
-     "time": "16:27",
+     "time": "16:26",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-17",
+     "name": "Eagle Heights, Dubai Sports City",
+     "time": "16:31",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-21",
+     "name": "DAMAC Hills Mall, DAMAC Hills",
+     "time": "16:36",
      "action": "pick_up"
     },
     {
      "code": "C3-26",
      "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
-     "time": "16:33",
+     "time": "16:41",
      "action": "pick_up"
     },
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "16:39",
+     "time": "16:47",
      "action": "pick_up"
     },
     {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "16:45",
+     "time": "16:52",
      "action": "pick_up"
     },
     {
      "code": "C5-20",
      "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
-     "time": "16:51",
+     "time": "16:57",
      "action": "pick_up"
     },
     {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "16:57",
+     "time": "17:03",
      "action": "pick_up"
     },
     {
      "code": "C3-12",
      "name": "Arabian Ranches 3",
-     "time": "17:03",
+     "time": "17:08",
      "action": "pick_up"
     },
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "17:09",
+     "time": "17:13",
      "action": "pick_up"
     },
     {
      "code": "C2-08",
      "name": "Mall of the Emirates",
-     "time": "17:15",
+     "time": "17:19",
      "action": "pick_up"
     },
     {
      "code": "C4-02",
      "name": "The Gate Towers, Al Reem Island",
-     "time": "17:21",
+     "time": "17:24",
      "action": "pick_up"
     },
     {
      "code": "C4-09",
      "name": "Holiday Inn, Al Maktoum Airport",
-     "time": "17:27",
+     "time": "17:29",
      "action": "pick_up"
     },
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "17:33",
+     "time": "17:34",
      "action": "pick_up"
     },
     {
      "code": "C5-19",
      "name": "Al Raffa, 7E Street (near Al Khaleej Centre)",
-     "time": "17:39",
+     "time": "17:40",
      "action": "pick_up"
     },
     {
@@ -81738,85 +82558,97 @@
     {
      "code": "C5-22",
      "name": "Al Jaddaf Metro Station",
-     "time": "21:42",
+     "time": "21:41",
      "action": "set_down"
     },
     {
-     "code": "C3-17",
-     "name": "Eagle Heights, Dubai Sports City",
-     "time": "21:48",
+     "code": "C4-03",
+     "name": "Al Wahda Mall",
+     "time": "21:47",
      "action": "set_down"
     },
     {
      "code": "C3-19",
      "name": "Regina Tower, JVC",
-     "time": "21:54",
+     "time": "21:52",
+     "action": "set_down"
+    },
+    {
+     "code": "C3-17",
+     "name": "Eagle Heights, Dubai Sports City",
+     "time": "21:57",
+     "action": "set_down"
+    },
+    {
+     "code": "C3-21",
+     "name": "DAMAC Hills Mall, DAMAC Hills",
+     "time": "22:02",
      "action": "set_down"
     },
     {
      "code": "C3-26",
      "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
-     "time": "22:00",
+     "time": "22:08",
      "action": "set_down"
     },
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "22:06",
+     "time": "22:13",
      "action": "set_down"
     },
     {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "22:12",
+     "time": "22:18",
      "action": "set_down"
     },
     {
      "code": "C5-20",
      "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
-     "time": "22:18",
+     "time": "22:24",
      "action": "set_down"
     },
     {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "22:24",
+     "time": "22:29",
      "action": "set_down"
     },
     {
      "code": "C3-12",
      "name": "Arabian Ranches 3",
-     "time": "22:30",
+     "time": "22:34",
      "action": "set_down"
     },
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "22:36",
+     "time": "22:40",
      "action": "set_down"
     },
     {
      "code": "C2-08",
      "name": "Mall of the Emirates",
-     "time": "22:42",
+     "time": "22:45",
      "action": "set_down"
     },
     {
      "code": "C4-02",
      "name": "The Gate Towers, Al Reem Island",
-     "time": "22:48",
+     "time": "22:50",
      "action": "set_down"
     },
     {
      "code": "C4-09",
      "name": "Holiday Inn, Al Maktoum Airport",
-     "time": "22:54",
+     "time": "22:55",
      "action": "set_down"
     },
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "23:00",
+     "time": "23:01",
      "action": "set_down"
     },
     {
@@ -81931,18 +82763,18 @@
    "service": "undergraduate",
    "arrive_campus": "08:45",
    "leave_campus": null,
-   "start": "06:55",
+   "start": "06:52",
    "end": "08:45",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 5,
+   "booked": 6,
    "seats": 15,
    "stops": [
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "06:55",
+     "time": "06:52",
      "action": "pick_up",
      "lat": 25.075735,
      "lng": 55.140981,
@@ -81951,7 +82783,7 @@
     {
      "code": "C2-08",
      "name": "Mall of the Emirates",
-     "time": "07:12",
+     "time": "07:09",
      "action": "pick_up",
      "lat": 25.1201411,
      "lng": 55.2011196,
@@ -81960,7 +82792,7 @@
     {
      "code": "C3-19",
      "name": "Regina Tower, JVC",
-     "time": "07:28",
+     "time": "07:25",
      "action": "pick_up",
      "lat": 25.057284,
      "lng": 55.212609,
@@ -81969,16 +82801,25 @@
     {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "07:41",
+     "time": "07:38",
      "action": "pick_up",
      "lat": 25.040494,
      "lng": 55.195971,
      "where_exactly": "Outside drop-off area by Tim Hortons, City Centre Me'aisem."
     },
     {
+     "code": "C3-21",
+     "name": "DAMAC Hills Mall, DAMAC Hills",
+     "time": "07:53",
+     "action": "pick_up",
+     "lat": 25.0179838,
+     "lng": 55.2468052,
+     "where_exactly": "Mall drop-off, DAMAC Hills."
+    },
+    {
      "code": "C3-12",
      "name": "Arabian Ranches 3",
-     "time": "08:16",
+     "time": "08:18",
      "action": "pick_up",
      "lat": 25.069629,
      "lng": 55.323824,
@@ -82113,7 +82954,7 @@
    "vehicle": "M4",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 3,
+   "booked": 4,
    "seats": 34,
    "stops": [
     {
@@ -82142,6 +82983,15 @@
      "lat": 25.040494,
      "lng": 55.195971,
      "where_exactly": "Outside drop-off area by Tim Hortons, City Centre Me'aisem."
+    },
+    {
+     "code": "C3-21",
+     "name": "DAMAC Hills Mall, DAMAC Hills",
+     "time": "19:23",
+     "action": "set_down",
+     "lat": 25.0179838,
+     "lng": 55.2468052,
+     "where_exactly": "Mall drop-off, DAMAC Hills."
     },
     {
      "code": "C3-19",
@@ -86688,6 +87538,44 @@
    ]
   },
   {
+   "run_id": "2026-11-02-R8-O4A",
+   "date": "2026-11-02",
+   "day": "Mon",
+   "route": "R8",
+   "direction": "to_campus",
+   "service": "masters",
+   "arrive_campus": "17:45",
+   "leave_campus": null,
+   "start": "15:08",
+   "end": "17:45",
+   "vehicle": "M8",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 1,
+   "seats": 15,
+   "stops": [
+    {
+     "code": "C4-03",
+     "name": "Al Wahda Mall",
+     "time": "15:08",
+     "action": "pick_up",
+     "lat": 24.471019,
+     "lng": 54.370278,
+     "where_exactly": "Kerbside at 24.471019, 54.370278 beside Al Wahda Mall - the parent-confirmed point (12 Oct), NOT the RTA shelter on Hazza Bin Zayed St."
+    },
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "17:45",
+     "action": "set_down",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    }
+   ],
+   "status": "operating"
+  },
+  {
    "run_id": "2026-11-02-R8-O5C",
    "date": "2026-11-02",
    "day": "Mon",
@@ -86696,31 +87584,40 @@
    "service": "masters",
    "arrive_campus": "17:45",
    "leave_campus": null,
-   "start": "16:19",
+   "start": "16:08",
    "end": "17:45",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 3,
+   "booked": 4,
    "seats": 15,
    "stops": [
     {
+     "code": "C3-19",
+     "name": "Regina Tower, JVC",
+     "time": "16:08",
+     "action": "pick_up",
+     "lat": 25.057284,
+     "lng": 55.212609,
+     "where_exactly": "Kerbside on 24 Street outside the tower entrance; do not enter the car park."
+    },
+    {
      "code": "C3-17",
      "name": "Eagle Heights, Dubai Sports City",
-     "time": "16:19",
+     "time": "16:18",
      "action": "pick_up",
      "lat": 25.036628,
      "lng": 55.221187,
      "where_exactly": "Outside the front of the Eagle Heights building."
     },
     {
-     "code": "C3-19",
-     "name": "Regina Tower, JVC",
-     "time": "16:29",
+     "code": "C3-21",
+     "name": "DAMAC Hills Mall, DAMAC Hills",
+     "time": "16:31",
      "action": "pick_up",
-     "lat": 25.057284,
-     "lng": 55.212609,
-     "where_exactly": "Kerbside on 24 Street outside the tower entrance; do not enter the car park."
+     "lat": 25.0179838,
+     "lng": 55.2468052,
+     "where_exactly": "Mall drop-off, DAMAC Hills."
     },
     {
      "code": "C3-26",
@@ -86814,69 +87711,81 @@
      "action": "pick_up"
     },
     {
-     "code": "C3-17",
-     "name": "Eagle Heights, Dubai Sports City",
-     "time": "16:23",
+     "code": "C4-03",
+     "name": "Al Wahda Mall",
+     "time": "16:21",
      "action": "pick_up"
     },
     {
      "code": "C3-19",
      "name": "Regina Tower, JVC",
-     "time": "16:30",
+     "time": "16:28",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-17",
+     "name": "Eagle Heights, Dubai Sports City",
+     "time": "16:34",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-21",
+     "name": "DAMAC Hills Mall, DAMAC Hills",
+     "time": "16:41",
      "action": "pick_up"
     },
     {
      "code": "C3-26",
      "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
-     "time": "16:37",
+     "time": "16:47",
      "action": "pick_up"
     },
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "16:45",
+     "time": "16:54",
      "action": "pick_up"
     },
     {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "16:53",
+     "time": "17:00",
      "action": "pick_up"
     },
     {
      "code": "C5-20",
      "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
-     "time": "17:00",
+     "time": "17:06",
      "action": "pick_up"
     },
     {
      "code": "C3-12",
      "name": "Arabian Ranches 3",
-     "time": "17:07",
+     "time": "17:13",
      "action": "pick_up"
     },
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "17:15",
+     "time": "17:19",
      "action": "pick_up"
     },
     {
      "code": "C4-09",
      "name": "Holiday Inn, Al Maktoum Airport",
-     "time": "17:23",
+     "time": "17:26",
      "action": "pick_up"
     },
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "17:30",
+     "time": "17:32",
      "action": "pick_up"
     },
     {
      "code": "C5-19",
      "name": "Al Raffa, 7E Street (near Al Khaleej Centre)",
-     "time": "17:37",
+     "time": "17:39",
      "action": "pick_up"
     },
     {
@@ -86889,6 +87798,44 @@
    "status": "on_request"
   },
   {
+   "run_id": "2026-11-02-R8-R4A",
+   "date": "2026-11-02",
+   "day": "Mon",
+   "route": "R8",
+   "direction": "from_campus",
+   "service": "masters",
+   "arrive_campus": null,
+   "leave_campus": "21:36",
+   "start": "21:36",
+   "end": "23:37",
+   "vehicle": "M8",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 1,
+   "seats": 15,
+   "stops": [
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "21:36",
+     "action": "pick_up",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    },
+    {
+     "code": "C4-03",
+     "name": "Al Wahda Mall",
+     "time": "23:37",
+     "action": "set_down",
+     "lat": 24.471019,
+     "lng": 54.370278,
+     "where_exactly": "Kerbside at 24.471019, 54.370278 beside Al Wahda Mall - the parent-confirmed point (12 Oct), NOT the RTA shelter on Hazza Bin Zayed St."
+    }
+   ],
+   "status": "operating"
+  },
+  {
    "run_id": "2026-11-02-R8-R4C",
    "date": "2026-11-02",
    "day": "Mon",
@@ -86898,11 +87845,11 @@
    "arrive_campus": null,
    "leave_campus": "21:36",
    "start": "21:36",
-   "end": "22:21",
+   "end": "22:29",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 3,
+   "booked": 4,
    "seats": 15,
    "stops": [
     {
@@ -86924,22 +87871,31 @@
      "where_exactly": "Kerbside outside Binghatti Crystals, near Axis 7, DSO. Rider-only stop (Nabeela); last call before campus on the central masters bus."
     },
     {
-     "code": "C3-19",
-     "name": "Regina Tower, JVC",
-     "time": "22:14",
+     "code": "C3-21",
+     "name": "DAMAC Hills Mall, DAMAC Hills",
+     "time": "22:13",
      "action": "set_down",
-     "lat": 25.057284,
-     "lng": 55.212609,
-     "where_exactly": "Kerbside on 24 Street outside the tower entrance; do not enter the car park."
+     "lat": 25.0179838,
+     "lng": 55.2468052,
+     "where_exactly": "Mall drop-off, DAMAC Hills."
     },
     {
      "code": "C3-17",
      "name": "Eagle Heights, Dubai Sports City",
-     "time": "22:21",
+     "time": "22:22",
      "action": "set_down",
      "lat": 25.036628,
      "lng": 55.221187,
      "where_exactly": "Outside the front of the Eagle Heights building."
+    },
+    {
+     "code": "C3-19",
+     "name": "Regina Tower, JVC",
+     "time": "22:29",
+     "action": "set_down",
+     "lat": 25.057284,
+     "lng": 55.212609,
+     "where_exactly": "Kerbside on 24 Street outside the tower entrance; do not enter the car park."
     }
    ],
    "status": "operating"
@@ -87017,67 +87973,79 @@
     {
      "code": "C5-22",
      "name": "Al Jaddaf Metro Station",
-     "time": "21:44",
+     "time": "21:42",
      "action": "set_down"
     },
     {
-     "code": "C3-17",
-     "name": "Eagle Heights, Dubai Sports City",
-     "time": "21:51",
+     "code": "C4-03",
+     "name": "Al Wahda Mall",
+     "time": "21:49",
      "action": "set_down"
     },
     {
      "code": "C3-19",
      "name": "Regina Tower, JVC",
-     "time": "21:58",
+     "time": "21:55",
+     "action": "set_down"
+    },
+    {
+     "code": "C3-17",
+     "name": "Eagle Heights, Dubai Sports City",
+     "time": "22:02",
+     "action": "set_down"
+    },
+    {
+     "code": "C3-21",
+     "name": "DAMAC Hills Mall, DAMAC Hills",
+     "time": "22:08",
      "action": "set_down"
     },
     {
      "code": "C3-26",
      "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
-     "time": "22:06",
+     "time": "22:15",
      "action": "set_down"
     },
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "22:14",
+     "time": "22:21",
      "action": "set_down"
     },
     {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "22:21",
+     "time": "22:27",
      "action": "set_down"
     },
     {
      "code": "C5-20",
      "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
-     "time": "22:28",
+     "time": "22:34",
      "action": "set_down"
     },
     {
      "code": "C3-12",
      "name": "Arabian Ranches 3",
-     "time": "22:36",
+     "time": "22:40",
      "action": "set_down"
     },
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "22:44",
+     "time": "22:47",
      "action": "set_down"
     },
     {
      "code": "C4-09",
      "name": "Holiday Inn, Al Maktoum Airport",
-     "time": "22:51",
+     "time": "22:53",
      "action": "set_down"
     },
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "22:58",
+     "time": "23:00",
      "action": "set_down"
     },
     {
@@ -89742,22 +90710,31 @@
    "service": "undergraduate",
    "arrive_campus": "10:45",
    "leave_campus": null,
-   "start": "08:57",
+   "start": "08:54",
    "end": "10:45",
    "vehicle": "M5",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 1,
+   "booked": 2,
    "seats": 15,
    "stops": [
     {
      "code": "C4-01",
      "name": "Al Mariah Mall, Hamdan St",
-     "time": "08:57",
+     "time": "08:54",
      "action": "pick_up",
      "lat": 24.494038,
      "lng": 54.366864,
      "where_exactly": "Outside the front of Al Mariah Mall."
+    },
+    {
+     "code": "C4-04",
+     "name": "Mubadala Tower, Sultan Bin Zayed St",
+     "time": "09:13",
+     "action": "pick_up",
+     "lat": 24.4223437,
+     "lng": 54.4544927,
+     "where_exactly": "Outside the Ministry of Human Resources & Emiratisation (Abu Dhabi Labour Office) entrance of Mubadala Tower, Sultan Bin Zayed the First St - pin from rider 6 Oct; kerb to confirm on audit."
     },
     {
      "code": "UOB",
@@ -89907,11 +90884,11 @@
    "arrive_campus": null,
    "leave_campus": "14:15",
    "start": "14:15",
-   "end": "16:03",
+   "end": "16:06",
    "vehicle": "M5",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 2,
+   "booked": 3,
    "seats": 15,
    "stops": [
     {
@@ -89924,9 +90901,18 @@
      "where_exactly": ""
     },
     {
+     "code": "C4-04",
+     "name": "Mubadala Tower, Sultan Bin Zayed St",
+     "time": "15:47",
+     "action": "set_down",
+     "lat": 24.4223437,
+     "lng": 54.4544927,
+     "where_exactly": "Outside the Ministry of Human Resources & Emiratisation (Abu Dhabi Labour Office) entrance of Mubadala Tower, Sultan Bin Zayed the First St - pin from rider 6 Oct; kerb to confirm on audit."
+    },
+    {
      "code": "C4-01",
      "name": "Al Mariah Mall, Hamdan St",
-     "time": "16:03",
+     "time": "16:06",
      "action": "set_down",
      "lat": 24.494038,
      "lng": 54.366864,
@@ -91272,6 +92258,44 @@
    ]
   },
   {
+   "run_id": "2026-11-03-R8-O4A",
+   "date": "2026-11-03",
+   "day": "Tue",
+   "route": "R8",
+   "direction": "to_campus",
+   "service": "masters",
+   "arrive_campus": "17:45",
+   "leave_campus": null,
+   "start": "15:08",
+   "end": "17:45",
+   "vehicle": "M8",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 1,
+   "seats": 15,
+   "stops": [
+    {
+     "code": "C4-03",
+     "name": "Al Wahda Mall",
+     "time": "15:08",
+     "action": "pick_up",
+     "lat": 24.471019,
+     "lng": 54.370278,
+     "where_exactly": "Kerbside at 24.471019, 54.370278 beside Al Wahda Mall - the parent-confirmed point (12 Oct), NOT the RTA shelter on Hazza Bin Zayed St."
+    },
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "17:45",
+     "action": "set_down",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    }
+   ],
+   "status": "operating"
+  },
+  {
    "run_id": "2026-11-03-R8-O5C",
    "date": "2026-11-03",
    "day": "Tue",
@@ -91280,18 +92304,18 @@
    "service": "masters",
    "arrive_campus": "17:45",
    "leave_campus": null,
-   "start": "16:24",
+   "start": "16:13",
    "end": "17:45",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 3,
+   "booked": 4,
    "seats": 15,
    "stops": [
     {
      "code": "C3-19",
      "name": "Regina Tower, JVC",
-     "time": "16:24",
+     "time": "16:13",
      "action": "pick_up",
      "lat": 25.057284,
      "lng": 55.212609,
@@ -91300,11 +92324,20 @@
     {
      "code": "C3-17",
      "name": "Eagle Heights, Dubai Sports City",
-     "time": "16:34",
+     "time": "16:23",
      "action": "pick_up",
      "lat": 25.036628,
      "lng": 55.221187,
      "where_exactly": "Outside the front of the Eagle Heights building."
+    },
+    {
+     "code": "C3-21",
+     "name": "DAMAC Hills Mall, DAMAC Hills",
+     "time": "16:36",
+     "action": "pick_up",
+     "lat": 25.0179838,
+     "lng": 55.2468052,
+     "where_exactly": "Mall drop-off, DAMAC Hills."
     },
     {
      "code": "C3-12",
@@ -91336,22 +92369,31 @@
    "service": "masters",
    "arrive_campus": "17:45",
    "leave_campus": null,
-   "start": "16:52",
+   "start": "16:32",
    "end": "17:45",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 1,
+   "booked": 2,
    "seats": 15,
    "stops": [
     {
      "code": "C5-20",
      "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
-     "time": "16:52",
+     "time": "16:32",
      "action": "pick_up",
      "lat": 25.186457,
      "lng": 55.282055,
      "where_exactly": "Kerbside on Abraj Street outside the DAMAC Maison Majestine entrance, opposite Bay Square 13."
+    },
+    {
+     "code": "C5-22",
+     "name": "Al Jaddaf Metro Station",
+     "time": "16:55",
+     "action": "pick_up",
+     "lat": 25.2249568,
+     "lng": 55.3336402,
+     "where_exactly": "Kerbside at the metro station entrance on Al Jaddaf Street (bus bay by the main exit). Masters evening bus only unless booked on day runs."
     },
     {
      "code": "UOB",
@@ -91445,69 +92487,81 @@
      "action": "pick_up"
     },
     {
-     "code": "C3-17",
-     "name": "Eagle Heights, Dubai Sports City",
-     "time": "16:23",
+     "code": "C4-03",
+     "name": "Al Wahda Mall",
+     "time": "16:21",
      "action": "pick_up"
     },
     {
      "code": "C3-19",
      "name": "Regina Tower, JVC",
-     "time": "16:30",
+     "time": "16:28",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-17",
+     "name": "Eagle Heights, Dubai Sports City",
+     "time": "16:34",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-21",
+     "name": "DAMAC Hills Mall, DAMAC Hills",
+     "time": "16:41",
      "action": "pick_up"
     },
     {
      "code": "C3-26",
      "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
-     "time": "16:37",
+     "time": "16:47",
      "action": "pick_up"
     },
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "16:45",
+     "time": "16:54",
      "action": "pick_up"
     },
     {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "16:53",
+     "time": "17:00",
      "action": "pick_up"
     },
     {
      "code": "C5-20",
      "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
-     "time": "17:00",
+     "time": "17:06",
      "action": "pick_up"
     },
     {
      "code": "C3-12",
      "name": "Arabian Ranches 3",
-     "time": "17:07",
+     "time": "17:13",
      "action": "pick_up"
     },
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "17:15",
+     "time": "17:19",
      "action": "pick_up"
     },
     {
      "code": "C4-09",
      "name": "Holiday Inn, Al Maktoum Airport",
-     "time": "17:23",
+     "time": "17:26",
      "action": "pick_up"
     },
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "17:30",
+     "time": "17:32",
      "action": "pick_up"
     },
     {
      "code": "C5-19",
      "name": "Al Raffa, 7E Street (near Al Khaleej Centre)",
-     "time": "17:37",
+     "time": "17:39",
      "action": "pick_up"
     },
     {
@@ -91520,6 +92574,44 @@
    "status": "on_request"
   },
   {
+   "run_id": "2026-11-03-R8-R4A",
+   "date": "2026-11-03",
+   "day": "Tue",
+   "route": "R8",
+   "direction": "from_campus",
+   "service": "masters",
+   "arrive_campus": null,
+   "leave_campus": "21:36",
+   "start": "21:36",
+   "end": "23:37",
+   "vehicle": "M8",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 1,
+   "seats": 15,
+   "stops": [
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "21:36",
+     "action": "pick_up",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    },
+    {
+     "code": "C4-03",
+     "name": "Al Wahda Mall",
+     "time": "23:37",
+     "action": "set_down",
+     "lat": 24.471019,
+     "lng": 54.370278,
+     "where_exactly": "Kerbside at 24.471019, 54.370278 beside Al Wahda Mall - the parent-confirmed point (12 Oct), NOT the RTA shelter on Hazza Bin Zayed St."
+    }
+   ],
+   "status": "operating"
+  },
+  {
    "run_id": "2026-11-03-R8-R4C",
    "date": "2026-11-03",
    "day": "Tue",
@@ -91529,11 +92621,11 @@
    "arrive_campus": null,
    "leave_campus": "21:36",
    "start": "21:36",
-   "end": "22:17",
+   "end": "22:25",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 3,
+   "booked": 4,
    "seats": 15,
    "stops": [
     {
@@ -91555,9 +92647,18 @@
      "where_exactly": "Main entrance of the Arabian Ranches 3 souk."
     },
     {
+     "code": "C3-21",
+     "name": "DAMAC Hills Mall, DAMAC Hills",
+     "time": "22:09",
+     "action": "set_down",
+     "lat": 25.0179838,
+     "lng": 55.2468052,
+     "where_exactly": "Mall drop-off, DAMAC Hills."
+    },
+    {
      "code": "C3-17",
      "name": "Eagle Heights, Dubai Sports City",
-     "time": "22:10",
+     "time": "22:18",
      "action": "set_down",
      "lat": 25.036628,
      "lng": 55.221187,
@@ -91566,7 +92667,7 @@
     {
      "code": "C3-19",
      "name": "Regina Tower, JVC",
-     "time": "22:17",
+     "time": "22:25",
      "action": "set_down",
      "lat": 25.057284,
      "lng": 55.212609,
@@ -91585,11 +92686,11 @@
    "arrive_campus": null,
    "leave_campus": "21:36",
    "start": "21:36",
-   "end": "21:58",
+   "end": "22:12",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 1,
+   "booked": 2,
    "seats": 15,
    "stops": [
     {
@@ -91602,9 +92703,18 @@
      "where_exactly": ""
     },
     {
+     "code": "C5-22",
+     "name": "Al Jaddaf Metro Station",
+     "time": "21:56",
+     "action": "set_down",
+     "lat": 25.2249568,
+     "lng": 55.3336402,
+     "where_exactly": "Kerbside at the metro station entrance on Al Jaddaf Street (bus bay by the main exit). Masters evening bus only unless booked on day runs."
+    },
+    {
      "code": "C5-20",
      "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
-     "time": "21:58",
+     "time": "22:12",
      "action": "set_down",
      "lat": 25.186457,
      "lng": 55.282055,
@@ -91695,67 +92805,79 @@
     {
      "code": "C5-22",
      "name": "Al Jaddaf Metro Station",
-     "time": "21:44",
+     "time": "21:42",
      "action": "set_down"
     },
     {
-     "code": "C3-17",
-     "name": "Eagle Heights, Dubai Sports City",
-     "time": "21:51",
+     "code": "C4-03",
+     "name": "Al Wahda Mall",
+     "time": "21:49",
      "action": "set_down"
     },
     {
      "code": "C3-19",
      "name": "Regina Tower, JVC",
-     "time": "21:58",
+     "time": "21:55",
+     "action": "set_down"
+    },
+    {
+     "code": "C3-17",
+     "name": "Eagle Heights, Dubai Sports City",
+     "time": "22:02",
+     "action": "set_down"
+    },
+    {
+     "code": "C3-21",
+     "name": "DAMAC Hills Mall, DAMAC Hills",
+     "time": "22:08",
      "action": "set_down"
     },
     {
      "code": "C3-26",
      "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
-     "time": "22:06",
+     "time": "22:15",
      "action": "set_down"
     },
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "22:14",
+     "time": "22:21",
      "action": "set_down"
     },
     {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "22:21",
+     "time": "22:27",
      "action": "set_down"
     },
     {
      "code": "C5-20",
      "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
-     "time": "22:28",
+     "time": "22:34",
      "action": "set_down"
     },
     {
      "code": "C3-12",
      "name": "Arabian Ranches 3",
-     "time": "22:36",
+     "time": "22:40",
      "action": "set_down"
     },
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "22:44",
+     "time": "22:47",
      "action": "set_down"
     },
     {
      "code": "C4-09",
      "name": "Holiday Inn, Al Maktoum Airport",
-     "time": "22:51",
+     "time": "22:53",
      "action": "set_down"
     },
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "22:58",
+     "time": "23:00",
      "action": "set_down"
     },
     {
@@ -93600,27 +94722,36 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:54",
+   "start": "05:51",
    "end": "07:45",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 5,
+   "booked": 6,
    "seats": 15,
    "stops": [
     {
      "code": "C3-02",
      "name": "Circle Mall, JVC",
-     "time": "05:54",
+     "time": "05:51",
      "action": "pick_up",
      "lat": 25.0660395,
      "lng": 55.2162257,
      "where_exactly": "Main entrance."
     },
     {
+     "code": "C3-17",
+     "name": "Eagle Heights, Dubai Sports City",
+     "time": "06:02",
+     "action": "pick_up",
+     "lat": 25.036628,
+     "lng": 55.221187,
+     "where_exactly": "Outside the front of the Eagle Heights building."
+    },
+    {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "06:07",
+     "time": "06:16",
      "action": "pick_up",
      "lat": 25.040494,
      "lng": 55.195971,
@@ -93629,7 +94760,7 @@
     {
      "code": "C3-09",
      "name": "Spinneys, Town Square",
-     "time": "06:38",
+     "time": "06:45",
      "action": "pick_up",
      "lat": 25.0099047,
      "lng": 55.2902856,
@@ -93638,7 +94769,7 @@
     {
      "code": "C3-23",
      "name": "Reem Townhouses shuttle stop, Town Square",
-     "time": "06:46",
+     "time": "06:52",
      "action": "pick_up",
      "lat": 25.01081,
      "lng": 55.27931,
@@ -93647,7 +94778,7 @@
     {
      "code": "C3-14",
      "name": "Skycourts Towers",
-     "time": "07:28",
+     "time": "07:30",
      "action": "pick_up",
      "lat": 25.0898954,
      "lng": 55.3865139,
@@ -94076,11 +95207,11 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "19:53",
+   "end": "19:56",
    "vehicle": "M4",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 4,
+   "booked": 5,
    "seats": 34,
    "stops": [
     {
@@ -94095,7 +95226,7 @@
     {
      "code": "C3-25",
      "name": "Villanova La Rosa 1, Villa 46",
-     "time": "18:39",
+     "time": "18:36",
      "action": "set_down",
      "lat": 25.0765573,
      "lng": 55.3609188,
@@ -94104,7 +95235,7 @@
     {
      "code": "C3-09",
      "name": "Spinneys, Town Square",
-     "time": "19:10",
+     "time": "19:04",
      "action": "set_down",
      "lat": 25.0099047,
      "lng": 55.2902856,
@@ -94113,16 +95244,25 @@
     {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "19:40",
+     "time": "19:31",
      "action": "set_down",
      "lat": 25.040494,
      "lng": 55.195971,
      "where_exactly": "Outside drop-off area by Tim Hortons, City Centre Me'aisem."
     },
     {
+     "code": "C3-17",
+     "name": "Eagle Heights, Dubai Sports City",
+     "time": "19:45",
+     "action": "set_down",
+     "lat": 25.036628,
+     "lng": 55.221187,
+     "where_exactly": "Outside the front of the Eagle Heights building."
+    },
+    {
      "code": "C3-02",
      "name": "Circle Mall, JVC",
-     "time": "19:53",
+     "time": "19:56",
      "action": "set_down",
      "lat": 25.0660395,
      "lng": 55.2162257,
@@ -94299,18 +95439,18 @@
    "service": "undergraduate",
    "arrive_campus": "10:45",
    "leave_campus": null,
-   "start": "08:52",
+   "start": "08:49",
    "end": "10:45",
    "vehicle": "M5",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 3,
+   "booked": 4,
    "seats": 15,
    "stops": [
     {
      "code": "C4-23",
      "name": "Al Swedi Building 6, Al Sindan St, Al Zahiyah, Abu Dhabi",
-     "time": "08:52",
+     "time": "08:49",
      "action": "pick_up",
      "lat": 24.5022611,
      "lng": 54.377864,
@@ -94319,16 +95459,25 @@
     {
      "code": "C4-21",
      "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
-     "time": "08:59",
+     "time": "08:56",
      "action": "pick_up",
      "lat": 24.4757537,
      "lng": 54.3663931,
      "where_exactly": "Kerbside on Airport Road (Sheikh Rashid Bin Saeed St) at the Al Falah Street junction, outside Ramee Garden Hotel Apartments opposite NBAD - southbound side for pick-ups (towards Al Wahda), northbound side for set-downs."
     },
     {
+     "code": "C4-04",
+     "name": "Mubadala Tower, Sultan Bin Zayed St",
+     "time": "09:11",
+     "action": "pick_up",
+     "lat": 24.4223437,
+     "lng": 54.4544927,
+     "where_exactly": "Outside the Ministry of Human Resources & Emiratisation (Abu Dhabi Labour Office) entrance of Mubadala Tower, Sultan Bin Zayed the First St - pin from rider 6 Oct; kerb to confirm on audit."
+    },
+    {
      "code": "C4-06",
      "name": "Al Forsan Village main gate",
-     "time": "09:17",
+     "time": "09:26",
      "action": "pick_up",
      "lat": 24.4044,
      "lng": 54.5514,
@@ -94635,11 +95784,11 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "21:03",
+   "end": "21:06",
    "vehicle": "M5",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 5,
+   "booked": 6,
    "seats": 15,
    "stops": [
     {
@@ -94654,16 +95803,25 @@
     {
      "code": "C4-06",
      "name": "Al Forsan Village main gate",
-     "time": "20:04",
+     "time": "20:03",
      "action": "set_down",
      "lat": 24.4044,
      "lng": 54.5514,
      "where_exactly": "Main gate, Khalifa City."
     },
     {
+     "code": "C4-04",
+     "name": "Mubadala Tower, Sultan Bin Zayed St",
+     "time": "20:23",
+     "action": "set_down",
+     "lat": 24.4223437,
+     "lng": 54.4544927,
+     "where_exactly": "Outside the Ministry of Human Resources & Emiratisation (Abu Dhabi Labour Office) entrance of Mubadala Tower, Sultan Bin Zayed the First St - pin from rider 6 Oct; kerb to confirm on audit."
+    },
+    {
      "code": "C4-21",
      "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
-     "time": "20:41",
+     "time": "20:44",
      "action": "set_down",
      "lat": 24.4757537,
      "lng": 54.3663931,
@@ -94672,7 +95830,7 @@
     {
      "code": "C4-24",
      "name": "Al Dibsi Street, Tourist Club Area, Abu Dhabi",
-     "time": "20:49",
+     "time": "20:52",
      "action": "set_down",
      "lat": 24.49105,
      "lng": 54.38039,
@@ -94681,7 +95839,7 @@
     {
      "code": "C4-23",
      "name": "Al Swedi Building 6, Al Sindan St, Al Zahiyah, Abu Dhabi",
-     "time": "20:56",
+     "time": "20:59",
      "action": "set_down",
      "lat": 24.5022611,
      "lng": 54.377864,
@@ -94690,7 +95848,7 @@
     {
      "code": "C4-01",
      "name": "Al Mariah Mall, Hamdan St",
-     "time": "21:03",
+     "time": "21:06",
      "action": "set_down",
      "lat": 24.494038,
      "lng": 54.366864,
@@ -95865,6 +97023,44 @@
    ]
   },
   {
+   "run_id": "2026-11-04-R8-O4A",
+   "date": "2026-11-04",
+   "day": "Wed",
+   "route": "R8",
+   "direction": "to_campus",
+   "service": "masters",
+   "arrive_campus": "17:45",
+   "leave_campus": null,
+   "start": "15:08",
+   "end": "17:45",
+   "vehicle": "M8",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 1,
+   "seats": 15,
+   "stops": [
+    {
+     "code": "C4-03",
+     "name": "Al Wahda Mall",
+     "time": "15:08",
+     "action": "pick_up",
+     "lat": 24.471019,
+     "lng": 54.370278,
+     "where_exactly": "Kerbside at 24.471019, 54.370278 beside Al Wahda Mall - the parent-confirmed point (12 Oct), NOT the RTA shelter on Hazza Bin Zayed St."
+    },
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "17:45",
+     "action": "set_down",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    }
+   ],
+   "status": "operating"
+  },
+  {
    "run_id": "2026-11-04-R8-O5C",
    "date": "2026-11-04",
    "day": "Wed",
@@ -96047,69 +97243,81 @@
      "action": "pick_up"
     },
     {
-     "code": "C3-17",
-     "name": "Eagle Heights, Dubai Sports City",
-     "time": "16:23",
+     "code": "C4-03",
+     "name": "Al Wahda Mall",
+     "time": "16:21",
      "action": "pick_up"
     },
     {
      "code": "C3-19",
      "name": "Regina Tower, JVC",
-     "time": "16:30",
+     "time": "16:28",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-17",
+     "name": "Eagle Heights, Dubai Sports City",
+     "time": "16:34",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-21",
+     "name": "DAMAC Hills Mall, DAMAC Hills",
+     "time": "16:41",
      "action": "pick_up"
     },
     {
      "code": "C3-26",
      "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
-     "time": "16:37",
+     "time": "16:47",
      "action": "pick_up"
     },
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "16:45",
+     "time": "16:54",
      "action": "pick_up"
     },
     {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "16:53",
+     "time": "17:00",
      "action": "pick_up"
     },
     {
      "code": "C5-20",
      "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
-     "time": "17:00",
+     "time": "17:06",
      "action": "pick_up"
     },
     {
      "code": "C3-12",
      "name": "Arabian Ranches 3",
-     "time": "17:07",
+     "time": "17:13",
      "action": "pick_up"
     },
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "17:15",
+     "time": "17:19",
      "action": "pick_up"
     },
     {
      "code": "C4-09",
      "name": "Holiday Inn, Al Maktoum Airport",
-     "time": "17:23",
+     "time": "17:26",
      "action": "pick_up"
     },
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "17:30",
+     "time": "17:32",
      "action": "pick_up"
     },
     {
      "code": "C5-19",
      "name": "Al Raffa, 7E Street (near Al Khaleej Centre)",
-     "time": "17:37",
+     "time": "17:39",
      "action": "pick_up"
     },
     {
@@ -96120,6 +97328,44 @@
     }
    ],
    "status": "on_request"
+  },
+  {
+   "run_id": "2026-11-04-R8-R4A",
+   "date": "2026-11-04",
+   "day": "Wed",
+   "route": "R8",
+   "direction": "from_campus",
+   "service": "masters",
+   "arrive_campus": null,
+   "leave_campus": "21:36",
+   "start": "21:36",
+   "end": "23:37",
+   "vehicle": "M8",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 1,
+   "seats": 15,
+   "stops": [
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "21:36",
+     "action": "pick_up",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    },
+    {
+     "code": "C4-03",
+     "name": "Al Wahda Mall",
+     "time": "23:37",
+     "action": "set_down",
+     "lat": 24.471019,
+     "lng": 54.370278,
+     "where_exactly": "Kerbside at 24.471019, 54.370278 beside Al Wahda Mall - the parent-confirmed point (12 Oct), NOT the RTA shelter on Hazza Bin Zayed St."
+    }
+   ],
+   "status": "operating"
   },
   {
    "run_id": "2026-11-04-R8-R4C",
@@ -96306,67 +97552,79 @@
     {
      "code": "C5-22",
      "name": "Al Jaddaf Metro Station",
-     "time": "21:44",
+     "time": "21:42",
      "action": "set_down"
     },
     {
-     "code": "C3-17",
-     "name": "Eagle Heights, Dubai Sports City",
-     "time": "21:51",
+     "code": "C4-03",
+     "name": "Al Wahda Mall",
+     "time": "21:49",
      "action": "set_down"
     },
     {
      "code": "C3-19",
      "name": "Regina Tower, JVC",
-     "time": "21:58",
+     "time": "21:55",
+     "action": "set_down"
+    },
+    {
+     "code": "C3-17",
+     "name": "Eagle Heights, Dubai Sports City",
+     "time": "22:02",
+     "action": "set_down"
+    },
+    {
+     "code": "C3-21",
+     "name": "DAMAC Hills Mall, DAMAC Hills",
+     "time": "22:08",
      "action": "set_down"
     },
     {
      "code": "C3-26",
      "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
-     "time": "22:06",
+     "time": "22:15",
      "action": "set_down"
     },
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "22:14",
+     "time": "22:21",
      "action": "set_down"
     },
     {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "22:21",
+     "time": "22:27",
      "action": "set_down"
     },
     {
      "code": "C5-20",
      "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
-     "time": "22:28",
+     "time": "22:34",
      "action": "set_down"
     },
     {
      "code": "C3-12",
      "name": "Arabian Ranches 3",
-     "time": "22:36",
+     "time": "22:40",
      "action": "set_down"
     },
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "22:44",
+     "time": "22:47",
      "action": "set_down"
     },
     {
      "code": "C4-09",
      "name": "Holiday Inn, Al Maktoum Airport",
-     "time": "22:51",
+     "time": "22:53",
      "action": "set_down"
     },
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "22:58",
+     "time": "23:00",
      "action": "set_down"
     },
     {
@@ -100687,69 +101945,81 @@
      "action": "pick_up"
     },
     {
-     "code": "C3-17",
-     "name": "Eagle Heights, Dubai Sports City",
-     "time": "16:23",
+     "code": "C4-03",
+     "name": "Al Wahda Mall",
+     "time": "16:21",
      "action": "pick_up"
     },
     {
      "code": "C3-19",
      "name": "Regina Tower, JVC",
-     "time": "16:30",
+     "time": "16:28",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-17",
+     "name": "Eagle Heights, Dubai Sports City",
+     "time": "16:34",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-21",
+     "name": "DAMAC Hills Mall, DAMAC Hills",
+     "time": "16:41",
      "action": "pick_up"
     },
     {
      "code": "C3-26",
      "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
-     "time": "16:37",
+     "time": "16:47",
      "action": "pick_up"
     },
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "16:45",
+     "time": "16:54",
      "action": "pick_up"
     },
     {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "16:53",
+     "time": "17:00",
      "action": "pick_up"
     },
     {
      "code": "C5-20",
      "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
-     "time": "17:00",
+     "time": "17:06",
      "action": "pick_up"
     },
     {
      "code": "C3-12",
      "name": "Arabian Ranches 3",
-     "time": "17:07",
+     "time": "17:13",
      "action": "pick_up"
     },
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "17:15",
+     "time": "17:19",
      "action": "pick_up"
     },
     {
      "code": "C4-09",
      "name": "Holiday Inn, Al Maktoum Airport",
-     "time": "17:23",
+     "time": "17:26",
      "action": "pick_up"
     },
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "17:30",
+     "time": "17:32",
      "action": "pick_up"
     },
     {
      "code": "C5-19",
      "name": "Al Raffa, 7E Street (near Al Khaleej Centre)",
-     "time": "17:37",
+     "time": "17:39",
      "action": "pick_up"
     },
     {
@@ -100872,67 +102142,79 @@
     {
      "code": "C5-22",
      "name": "Al Jaddaf Metro Station",
-     "time": "21:44",
+     "time": "21:42",
      "action": "set_down"
     },
     {
-     "code": "C3-17",
-     "name": "Eagle Heights, Dubai Sports City",
-     "time": "21:51",
+     "code": "C4-03",
+     "name": "Al Wahda Mall",
+     "time": "21:49",
      "action": "set_down"
     },
     {
      "code": "C3-19",
      "name": "Regina Tower, JVC",
-     "time": "21:58",
+     "time": "21:55",
+     "action": "set_down"
+    },
+    {
+     "code": "C3-17",
+     "name": "Eagle Heights, Dubai Sports City",
+     "time": "22:02",
+     "action": "set_down"
+    },
+    {
+     "code": "C3-21",
+     "name": "DAMAC Hills Mall, DAMAC Hills",
+     "time": "22:08",
      "action": "set_down"
     },
     {
      "code": "C3-26",
      "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
-     "time": "22:06",
+     "time": "22:15",
      "action": "set_down"
     },
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "22:14",
+     "time": "22:21",
      "action": "set_down"
     },
     {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "22:21",
+     "time": "22:27",
      "action": "set_down"
     },
     {
      "code": "C5-20",
      "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
-     "time": "22:28",
+     "time": "22:34",
      "action": "set_down"
     },
     {
      "code": "C3-12",
      "name": "Arabian Ranches 3",
-     "time": "22:36",
+     "time": "22:40",
      "action": "set_down"
     },
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "22:44",
+     "time": "22:47",
      "action": "set_down"
     },
     {
      "code": "C4-09",
      "name": "Holiday Inn, Al Maktoum Airport",
-     "time": "22:51",
+     "time": "22:53",
      "action": "set_down"
     },
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "22:58",
+     "time": "23:00",
      "action": "set_down"
     },
     {
@@ -104637,69 +105919,81 @@
      "action": "pick_up"
     },
     {
-     "code": "C3-17",
-     "name": "Eagle Heights, Dubai Sports City",
-     "time": "16:23",
+     "code": "C4-03",
+     "name": "Al Wahda Mall",
+     "time": "16:21",
      "action": "pick_up"
     },
     {
      "code": "C3-19",
      "name": "Regina Tower, JVC",
-     "time": "16:30",
+     "time": "16:28",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-17",
+     "name": "Eagle Heights, Dubai Sports City",
+     "time": "16:34",
+     "action": "pick_up"
+    },
+    {
+     "code": "C3-21",
+     "name": "DAMAC Hills Mall, DAMAC Hills",
+     "time": "16:41",
      "action": "pick_up"
     },
     {
      "code": "C3-26",
      "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
-     "time": "16:37",
+     "time": "16:47",
      "action": "pick_up"
     },
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "16:45",
+     "time": "16:54",
      "action": "pick_up"
     },
     {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "16:53",
+     "time": "17:00",
      "action": "pick_up"
     },
     {
      "code": "C5-20",
      "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
-     "time": "17:00",
+     "time": "17:06",
      "action": "pick_up"
     },
     {
      "code": "C3-12",
      "name": "Arabian Ranches 3",
-     "time": "17:07",
+     "time": "17:13",
      "action": "pick_up"
     },
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "17:15",
+     "time": "17:19",
      "action": "pick_up"
     },
     {
      "code": "C4-09",
      "name": "Holiday Inn, Al Maktoum Airport",
-     "time": "17:23",
+     "time": "17:26",
      "action": "pick_up"
     },
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "17:30",
+     "time": "17:32",
      "action": "pick_up"
     },
     {
      "code": "C5-19",
      "name": "Al Raffa, 7E Street (near Al Khaleej Centre)",
-     "time": "17:37",
+     "time": "17:39",
      "action": "pick_up"
     },
     {
@@ -104822,67 +106116,79 @@
     {
      "code": "C5-22",
      "name": "Al Jaddaf Metro Station",
-     "time": "21:44",
+     "time": "21:42",
      "action": "set_down"
     },
     {
-     "code": "C3-17",
-     "name": "Eagle Heights, Dubai Sports City",
-     "time": "21:51",
+     "code": "C4-03",
+     "name": "Al Wahda Mall",
+     "time": "21:49",
      "action": "set_down"
     },
     {
      "code": "C3-19",
      "name": "Regina Tower, JVC",
-     "time": "21:58",
+     "time": "21:55",
+     "action": "set_down"
+    },
+    {
+     "code": "C3-17",
+     "name": "Eagle Heights, Dubai Sports City",
+     "time": "22:02",
+     "action": "set_down"
+    },
+    {
+     "code": "C3-21",
+     "name": "DAMAC Hills Mall, DAMAC Hills",
+     "time": "22:08",
      "action": "set_down"
     },
     {
      "code": "C3-26",
      "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
-     "time": "22:06",
+     "time": "22:15",
      "action": "set_down"
     },
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "22:14",
+     "time": "22:21",
      "action": "set_down"
     },
     {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "22:21",
+     "time": "22:27",
      "action": "set_down"
     },
     {
      "code": "C5-20",
      "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
-     "time": "22:28",
+     "time": "22:34",
      "action": "set_down"
     },
     {
      "code": "C3-12",
      "name": "Arabian Ranches 3",
-     "time": "22:36",
+     "time": "22:40",
      "action": "set_down"
     },
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "22:44",
+     "time": "22:47",
      "action": "set_down"
     },
     {
      "code": "C4-09",
      "name": "Holiday Inn, Al Maktoum Airport",
-     "time": "22:51",
+     "time": "22:53",
      "action": "set_down"
     },
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "22:58",
+     "time": "23:00",
      "action": "set_down"
     },
     {
@@ -104997,18 +106303,18 @@
    "service": "undergraduate",
    "arrive_campus": "08:45",
    "leave_campus": null,
-   "start": "07:15",
+   "start": "07:12",
    "end": "08:45",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 3,
+   "booked": 4,
    "seats": 15,
    "stops": [
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "07:15",
+     "time": "07:12",
      "action": "pick_up",
      "lat": 25.075735,
      "lng": 55.140981,
@@ -105017,16 +106323,25 @@
     {
      "code": "C3-19",
      "name": "Regina Tower, JVC",
-     "time": "07:31",
+     "time": "07:28",
      "action": "pick_up",
      "lat": 25.057284,
      "lng": 55.212609,
      "where_exactly": "Kerbside on 24 Street outside the tower entrance; do not enter the car park."
     },
     {
+     "code": "C3-21",
+     "name": "DAMAC Hills Mall, DAMAC Hills",
+     "time": "07:45",
+     "action": "pick_up",
+     "lat": 25.0179838,
+     "lng": 55.2468052,
+     "where_exactly": "Mall drop-off, DAMAC Hills."
+    },
+    {
      "code": "C3-12",
      "name": "Arabian Ranches 3",
-     "time": "08:08",
+     "time": "08:14",
      "action": "pick_up",
      "lat": 25.069629,
      "lng": 55.323824,
@@ -105105,7 +106420,7 @@
    "vehicle": "M4",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 2,
+   "booked": 3,
    "seats": 34,
    "stops": [
     {
@@ -105125,6 +106440,15 @@
      "lat": 25.069629,
      "lng": 55.323824,
      "where_exactly": "Main entrance of the Arabian Ranches 3 souk."
+    },
+    {
+     "code": "C3-21",
+     "name": "DAMAC Hills Mall, DAMAC Hills",
+     "time": "19:23",
+     "action": "set_down",
+     "lat": 25.0179838,
+     "lng": 55.2468052,
+     "where_exactly": "Mall drop-off, DAMAC Hills."
     },
     {
      "code": "C3-19",
