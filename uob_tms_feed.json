@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-18T09:00:18Z",
+ "generated_at": "2026-10-18T10:33:48Z",
  "week": "2026-10-09 to 2026-11-15",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -50880,11 +50880,11 @@
    "arrive_campus": null,
    "leave_campus": "14:15",
    "start": "14:15",
-   "end": "15:10",
+   "end": "15:23",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 2,
+   "booked": 3,
    "seats": 15,
    "stops": [
     {
@@ -50913,6 +50913,15 @@
      "lat": 25.061132,
      "lng": 55.246185,
      "where_exactly": "Bus stop between Dubai Miracle Garden and Dubai Butterfly Garden."
+    },
+    {
+     "code": "C3-01",
+     "name": "JSS International School",
+     "time": "15:23",
+     "action": "set_down",
+     "lat": 25.0665,
+     "lng": 55.2046,
+     "where_exactly": "Gate 4 kerb, opposite Tudo Mart, behind Bloom Tower C (JVC District 10). Do not enter the school car park."
     }
    ],
    "status": "operating"
@@ -50927,11 +50936,11 @@
    "arrive_campus": null,
    "leave_campus": "16:30",
    "start": "16:30",
-   "end": "18:18",
+   "end": "18:15",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 6,
+   "booked": 5,
    "seats": 15,
    "stops": [
     {
@@ -50946,7 +50955,7 @@
     {
      "code": "C3-09",
      "name": "Spinneys, Town Square",
-     "time": "17:21",
+     "time": "17:22",
      "action": "set_down",
      "lat": 25.0099047,
      "lng": 55.2902856,
@@ -50955,7 +50964,7 @@
     {
      "code": "C3-21",
      "name": "DAMAC Hills Mall, DAMAC Hills",
-     "time": "17:35",
+     "time": "17:37",
      "action": "set_down",
      "lat": 25.0179838,
      "lng": 55.2468052,
@@ -50964,7 +50973,7 @@
     {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "17:54",
+     "time": "17:55",
      "action": "set_down",
      "lat": 25.040494,
      "lng": 55.195971,
@@ -50973,7 +50982,7 @@
     {
      "code": "C3-02",
      "name": "Circle Mall, JVC",
-     "time": "18:06",
+     "time": "18:08",
      "action": "set_down",
      "lat": 25.0660395,
      "lng": 55.2162257,
@@ -50982,20 +50991,11 @@
     {
      "code": "C3-18",
      "name": "Tuscan Residence Siena 1, JVC",
-     "time": "18:13",
+     "time": "18:15",
      "action": "set_down",
      "lat": 25.063605,
      "lng": 55.207328,
      "where_exactly": "Kerbside on 22 Street outside Siena 1; do not enter the building car park."
-    },
-    {
-     "code": "C3-01",
-     "name": "JSS International School",
-     "time": "18:18",
-     "action": "set_down",
-     "lat": 25.0665,
-     "lng": 55.2046,
-     "where_exactly": "Gate 4 kerb, opposite Tudo Mart, behind Bloom Tower C (JVC District 10). Do not enter the school car park."
     }
    ],
    "status": "operating"
@@ -75189,122 +75189,37 @@
    "day": "Thu",
    "route": "R4",
    "direction": "from_campus",
-   "service": "regular",
+   "service": "undergraduate",
    "arrive_campus": null,
    "leave_campus": "14:15",
    "start": "14:15",
-   "end": "16:00",
+   "end": "15:17",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 0,
+   "booked": 1,
    "seats": 15,
-   "offer_only": true,
    "stops": [
     {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
      "time": "14:15",
-     "action": "pick_up"
+     "action": "pick_up",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
     },
     {
      "code": "C3-01",
      "name": "JSS International School",
-     "time": "14:22",
-     "action": "set_down"
-    },
-    {
-     "code": "C3-02",
-     "name": "Circle Mall, JVC",
-     "time": "14:28",
-     "action": "set_down"
-    },
-    {
-     "code": "C3-03",
-     "name": "Dubai Miracle Garden",
-     "time": "14:35",
-     "action": "set_down"
-    },
-    {
-     "code": "C3-04",
-     "name": "Dubai International Cricket Stadium",
-     "time": "14:41",
-     "action": "set_down"
-    },
-    {
-     "code": "C3-05",
-     "name": "City Centre Me'aisem",
-     "time": "14:48",
-     "action": "set_down"
-    },
-    {
-     "code": "C3-06",
-     "name": "Elan 1, Tilal Al Ghaf",
-     "time": "14:54",
-     "action": "set_down"
-    },
-    {
-     "code": "C3-07",
-     "name": "First Avenue Mall, Motor City",
-     "time": "15:01",
-     "action": "set_down"
-    },
-    {
-     "code": "C3-08",
-     "name": "Serena, Bella Casa",
-     "time": "15:07",
-     "action": "set_down"
-    },
-    {
-     "code": "C3-09",
-     "name": "Spinneys, Town Square",
-     "time": "15:14",
-     "action": "set_down"
-    },
-    {
-     "code": "C3-11",
-     "name": "Living Legends",
-     "time": "15:21",
-     "action": "set_down"
-    },
-    {
-     "code": "C3-12",
-     "name": "Arabian Ranches 3",
-     "time": "15:27",
-     "action": "set_down"
-    },
-    {
-     "code": "C3-13",
-     "name": "Villanova, La Rosa",
-     "time": "15:34",
-     "action": "set_down"
-    },
-    {
-     "code": "C3-14",
-     "name": "Skycourts Towers",
-     "time": "15:40",
-     "action": "set_down"
-    },
-    {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
-     "time": "15:47",
-     "action": "set_down"
-    },
-    {
-     "code": "C3-22",
-     "name": "Oasis Star, Nadd Hessa (Silicon Oasis)",
-     "time": "15:53",
-     "action": "set_down"
-    },
-    {
-     "code": "C3-16",
-     "name": "Souq Extra, Silicon Oasis",
-     "time": "16:00",
-     "action": "set_down"
+     "time": "15:17",
+     "action": "set_down",
+     "lat": 25.0665,
+     "lng": 55.2046,
+     "where_exactly": "Gate 4 kerb, opposite Tudo Mart, behind Bloom Tower C (JVC District 10). Do not enter the school car park."
     }
    ],
-   "status": "on_request"
+   "status": "operating"
   },
   {
    "run_id": "2026-10-29-R4-R2",
@@ -75316,11 +75231,11 @@
    "arrive_campus": null,
    "leave_campus": "16:30",
    "start": "16:30",
-   "end": "18:15",
+   "end": "18:08",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 5,
+   "booked": 4,
    "seats": 15,
    "stops": [
     {
@@ -75335,7 +75250,7 @@
     {
      "code": "C3-09",
      "name": "Spinneys, Town Square",
-     "time": "17:21",
+     "time": "17:22",
      "action": "set_down",
      "lat": 25.0099047,
      "lng": 55.2902856,
@@ -75344,7 +75259,7 @@
     {
      "code": "C3-21",
      "name": "DAMAC Hills Mall, DAMAC Hills",
-     "time": "17:36",
+     "time": "17:37",
      "action": "set_down",
      "lat": 25.0179838,
      "lng": 55.2468052,
@@ -75353,7 +75268,7 @@
     {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "17:54",
+     "time": "17:55",
      "action": "set_down",
      "lat": 25.040494,
      "lng": 55.195971,
@@ -75362,20 +75277,11 @@
     {
      "code": "C3-02",
      "name": "Circle Mall, JVC",
-     "time": "18:07",
+     "time": "18:08",
      "action": "set_down",
      "lat": 25.0660395,
      "lng": 55.2162257,
      "where_exactly": "Main entrance."
-    },
-    {
-     "code": "C3-01",
-     "name": "JSS International School",
-     "time": "18:15",
-     "action": "set_down",
-     "lat": 25.0665,
-     "lng": 55.2046,
-     "where_exactly": "Gate 4 kerb, opposite Tudo Mart, behind Bloom Tower C (JVC District 10). Do not enter the school car park."
     }
    ],
    "status": "operating"
@@ -98483,122 +98389,37 @@
    "day": "Thu",
    "route": "R4",
    "direction": "from_campus",
-   "service": "regular",
+   "service": "undergraduate",
    "arrive_campus": null,
    "leave_campus": "14:15",
    "start": "14:15",
-   "end": "16:00",
+   "end": "15:17",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 0,
+   "booked": 1,
    "seats": 15,
-   "offer_only": true,
    "stops": [
     {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
      "time": "14:15",
-     "action": "pick_up"
+     "action": "pick_up",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
     },
     {
      "code": "C3-01",
      "name": "JSS International School",
-     "time": "14:22",
-     "action": "set_down"
-    },
-    {
-     "code": "C3-02",
-     "name": "Circle Mall, JVC",
-     "time": "14:28",
-     "action": "set_down"
-    },
-    {
-     "code": "C3-03",
-     "name": "Dubai Miracle Garden",
-     "time": "14:35",
-     "action": "set_down"
-    },
-    {
-     "code": "C3-04",
-     "name": "Dubai International Cricket Stadium",
-     "time": "14:41",
-     "action": "set_down"
-    },
-    {
-     "code": "C3-05",
-     "name": "City Centre Me'aisem",
-     "time": "14:48",
-     "action": "set_down"
-    },
-    {
-     "code": "C3-06",
-     "name": "Elan 1, Tilal Al Ghaf",
-     "time": "14:54",
-     "action": "set_down"
-    },
-    {
-     "code": "C3-07",
-     "name": "First Avenue Mall, Motor City",
-     "time": "15:01",
-     "action": "set_down"
-    },
-    {
-     "code": "C3-08",
-     "name": "Serena, Bella Casa",
-     "time": "15:07",
-     "action": "set_down"
-    },
-    {
-     "code": "C3-09",
-     "name": "Spinneys, Town Square",
-     "time": "15:14",
-     "action": "set_down"
-    },
-    {
-     "code": "C3-11",
-     "name": "Living Legends",
-     "time": "15:21",
-     "action": "set_down"
-    },
-    {
-     "code": "C3-12",
-     "name": "Arabian Ranches 3",
-     "time": "15:27",
-     "action": "set_down"
-    },
-    {
-     "code": "C3-13",
-     "name": "Villanova, La Rosa",
-     "time": "15:34",
-     "action": "set_down"
-    },
-    {
-     "code": "C3-14",
-     "name": "Skycourts Towers",
-     "time": "15:40",
-     "action": "set_down"
-    },
-    {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
-     "time": "15:47",
-     "action": "set_down"
-    },
-    {
-     "code": "C3-22",
-     "name": "Oasis Star, Nadd Hessa (Silicon Oasis)",
-     "time": "15:53",
-     "action": "set_down"
-    },
-    {
-     "code": "C3-16",
-     "name": "Souq Extra, Silicon Oasis",
-     "time": "16:00",
-     "action": "set_down"
+     "time": "15:17",
+     "action": "set_down",
+     "lat": 25.0665,
+     "lng": 55.2046,
+     "where_exactly": "Gate 4 kerb, opposite Tudo Mart, behind Bloom Tower C (JVC District 10). Do not enter the school car park."
     }
    ],
-   "status": "on_request"
+   "status": "operating"
   },
   {
    "run_id": "2026-11-05-R4-R2",
@@ -98610,11 +98431,11 @@
    "arrive_campus": null,
    "leave_campus": "16:30",
    "start": "16:30",
-   "end": "18:15",
+   "end": "18:08",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 5,
+   "booked": 4,
    "seats": 15,
    "stops": [
     {
@@ -98629,7 +98450,7 @@
     {
      "code": "C3-09",
      "name": "Spinneys, Town Square",
-     "time": "17:21",
+     "time": "17:22",
      "action": "set_down",
      "lat": 25.0099047,
      "lng": 55.2902856,
@@ -98638,7 +98459,7 @@
     {
      "code": "C3-21",
      "name": "DAMAC Hills Mall, DAMAC Hills",
-     "time": "17:36",
+     "time": "17:37",
      "action": "set_down",
      "lat": 25.0179838,
      "lng": 55.2468052,
@@ -98647,7 +98468,7 @@
     {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "17:54",
+     "time": "17:55",
      "action": "set_down",
      "lat": 25.040494,
      "lng": 55.195971,
@@ -98656,20 +98477,11 @@
     {
      "code": "C3-02",
      "name": "Circle Mall, JVC",
-     "time": "18:07",
+     "time": "18:08",
      "action": "set_down",
      "lat": 25.0660395,
      "lng": 55.2162257,
      "where_exactly": "Main entrance."
-    },
-    {
-     "code": "C3-01",
-     "name": "JSS International School",
-     "time": "18:15",
-     "action": "set_down",
-     "lat": 25.0665,
-     "lng": 55.2046,
-     "where_exactly": "Gate 4 kerb, opposite Tudo Mart, behind Bloom Tower C (JVC District 10). Do not enter the school car park."
     }
    ],
    "status": "operating"
@@ -121601,122 +121413,37 @@
    "day": "Thu",
    "route": "R4",
    "direction": "from_campus",
-   "service": "regular",
+   "service": "undergraduate",
    "arrive_campus": null,
    "leave_campus": "14:15",
    "start": "14:15",
-   "end": "16:00",
+   "end": "15:17",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 0,
+   "booked": 1,
    "seats": 15,
-   "offer_only": true,
    "stops": [
     {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
      "time": "14:15",
-     "action": "pick_up"
+     "action": "pick_up",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
     },
     {
      "code": "C3-01",
      "name": "JSS International School",
-     "time": "14:22",
-     "action": "set_down"
-    },
-    {
-     "code": "C3-02",
-     "name": "Circle Mall, JVC",
-     "time": "14:28",
-     "action": "set_down"
-    },
-    {
-     "code": "C3-03",
-     "name": "Dubai Miracle Garden",
-     "time": "14:35",
-     "action": "set_down"
-    },
-    {
-     "code": "C3-04",
-     "name": "Dubai International Cricket Stadium",
-     "time": "14:41",
-     "action": "set_down"
-    },
-    {
-     "code": "C3-05",
-     "name": "City Centre Me'aisem",
-     "time": "14:48",
-     "action": "set_down"
-    },
-    {
-     "code": "C3-06",
-     "name": "Elan 1, Tilal Al Ghaf",
-     "time": "14:54",
-     "action": "set_down"
-    },
-    {
-     "code": "C3-07",
-     "name": "First Avenue Mall, Motor City",
-     "time": "15:01",
-     "action": "set_down"
-    },
-    {
-     "code": "C3-08",
-     "name": "Serena, Bella Casa",
-     "time": "15:07",
-     "action": "set_down"
-    },
-    {
-     "code": "C3-09",
-     "name": "Spinneys, Town Square",
-     "time": "15:14",
-     "action": "set_down"
-    },
-    {
-     "code": "C3-11",
-     "name": "Living Legends",
-     "time": "15:21",
-     "action": "set_down"
-    },
-    {
-     "code": "C3-12",
-     "name": "Arabian Ranches 3",
-     "time": "15:27",
-     "action": "set_down"
-    },
-    {
-     "code": "C3-13",
-     "name": "Villanova, La Rosa",
-     "time": "15:34",
-     "action": "set_down"
-    },
-    {
-     "code": "C3-14",
-     "name": "Skycourts Towers",
-     "time": "15:40",
-     "action": "set_down"
-    },
-    {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
-     "time": "15:47",
-     "action": "set_down"
-    },
-    {
-     "code": "C3-22",
-     "name": "Oasis Star, Nadd Hessa (Silicon Oasis)",
-     "time": "15:53",
-     "action": "set_down"
-    },
-    {
-     "code": "C3-16",
-     "name": "Souq Extra, Silicon Oasis",
-     "time": "16:00",
-     "action": "set_down"
+     "time": "15:17",
+     "action": "set_down",
+     "lat": 25.0665,
+     "lng": 55.2046,
+     "where_exactly": "Gate 4 kerb, opposite Tudo Mart, behind Bloom Tower C (JVC District 10). Do not enter the school car park."
     }
    ],
-   "status": "on_request"
+   "status": "operating"
   },
   {
    "run_id": "2026-11-12-R4-R2",
@@ -121728,11 +121455,11 @@
    "arrive_campus": null,
    "leave_campus": "16:30",
    "start": "16:30",
-   "end": "18:12",
+   "end": "18:05",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 4,
+   "booked": 3,
    "seats": 15,
    "stops": [
     {
@@ -121747,7 +121474,7 @@
     {
      "code": "C3-09",
      "name": "Spinneys, Town Square",
-     "time": "17:21",
+     "time": "17:22",
      "action": "set_down",
      "lat": 25.0099047,
      "lng": 55.2902856,
@@ -121756,7 +121483,7 @@
     {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "17:51",
+     "time": "17:52",
      "action": "set_down",
      "lat": 25.040494,
      "lng": 55.195971,
@@ -121765,20 +121492,11 @@
     {
      "code": "C3-02",
      "name": "Circle Mall, JVC",
-     "time": "18:04",
+     "time": "18:05",
      "action": "set_down",
      "lat": 25.0660395,
      "lng": 55.2162257,
      "where_exactly": "Main entrance."
-    },
-    {
-     "code": "C3-01",
-     "name": "JSS International School",
-     "time": "18:12",
-     "action": "set_down",
-     "lat": 25.0665,
-     "lng": 55.2046,
-     "where_exactly": "Gate 4 kerb, opposite Tudo Mart, behind Bloom Tower C (JVC District 10). Do not enter the school car park."
     }
    ],
    "status": "operating"
