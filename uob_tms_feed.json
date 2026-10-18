@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-18T11:40:52Z",
+ "generated_at": "2026-10-18T12:52:09Z",
  "week": "2026-10-09 to 2026-11-15",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -2187,8 +2187,26 @@
      ]
     },
     {
-     "code": "C3-17",
+     "code": "C5-20",
      "order": 2,
+     "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
+     "lat": 25.186457,
+     "lng": 55.282055,
+     "google_place_id": "ChIJo7BfkTpoXz4RFHw13gwYTpE",
+     "where_exactly": "Kerbside on Abraj Street outside the DAMAC Maison Majestine entrance, opposite Bay Square 13.",
+     "pickup_lat": 25.186457,
+     "pickup_lng": 55.282055,
+     "pickup_where_exactly": "Kerbside on Abraj Street outside the DAMAC Maison Majestine entrance, opposite Bay Square 13.",
+     "setdown_lat": 25.186457,
+     "setdown_lng": 55.282055,
+     "setdown_where_exactly": "Kerbside on Abraj Street outside the DAMAC Maison Majestine entrance, opposite Bay Square 13.",
+     "served_by_routes": [
+      "R7"
+     ]
+    },
+    {
+     "code": "C3-17",
+     "order": 3,
      "name": "Eagle Heights, Dubai Sports City",
      "lat": 25.036628,
      "lng": 55.221187,
@@ -2206,7 +2224,7 @@
     },
     {
      "code": "C3-19",
-     "order": 3,
+     "order": 4,
      "name": "Regina Tower, JVC",
      "lat": 25.057284,
      "lng": 55.212609,
@@ -2224,7 +2242,7 @@
     },
     {
      "code": "C3-26",
-     "order": 4,
+     "order": 5,
      "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
      "lat": 25.107412,
      "lng": 55.3785071,
@@ -2238,24 +2256,6 @@
      "setdown_where_exactly": "Kerbside outside Binghatti Crystals, near Axis 7, DSO. Rider-only stop (Nabeela); last call before campus on the central masters bus.",
      "served_by_routes": [
       "R4"
-     ]
-    },
-    {
-     "code": "C2-02",
-     "order": 5,
-     "name": "Dubai Marina Mall",
-     "lat": 25.075735,
-     "lng": 55.140981,
-     "google_place_id": "ChIJ_8ErX6psXz4RtzvrH76xoHs",
-     "where_exactly": "Pick and drop point at Dubai Marina Mall.",
-     "pickup_lat": 25.075735,
-     "pickup_lng": 55.140981,
-     "pickup_where_exactly": "Pick and drop point at Dubai Marina Mall.",
-     "setdown_lat": 25.070853,
-     "setdown_lng": 55.139483,
-     "setdown_where_exactly": "Pick and drop point at Dubai Marina Mall.",
-     "served_by_routes": [
-      "R3"
      ]
     },
     {
@@ -2295,21 +2295,147 @@
      ]
     },
     {
-     "code": "C5-20",
+     "code": "C3-12",
      "order": 8,
-     "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
-     "lat": 25.186457,
-     "lng": 55.282055,
-     "google_place_id": "ChIJo7BfkTpoXz4RFHw13gwYTpE",
-     "where_exactly": "Kerbside on Abraj Street outside the DAMAC Maison Majestine entrance, opposite Bay Square 13.",
-     "pickup_lat": 25.186457,
-     "pickup_lng": 55.282055,
-     "pickup_where_exactly": "Kerbside on Abraj Street outside the DAMAC Maison Majestine entrance, opposite Bay Square 13.",
-     "setdown_lat": 25.186457,
-     "setdown_lng": 55.282055,
-     "setdown_where_exactly": "Kerbside on Abraj Street outside the DAMAC Maison Majestine entrance, opposite Bay Square 13.",
+     "name": "Arabian Ranches 3",
+     "lat": 25.069629,
+     "lng": 55.323824,
+     "google_place_id": "ChIJ016GFd1vXz4Rfco2izB0OeM",
+     "where_exactly": "Main entrance of the Arabian Ranches 3 souk.",
+     "pickup_lat": 25.069629,
+     "pickup_lng": 55.323824,
+     "pickup_where_exactly": "Main entrance of the Arabian Ranches 3 souk.",
+     "setdown_lat": 25.069629,
+     "setdown_lng": 55.323824,
+     "setdown_where_exactly": "Main entrance of the Arabian Ranches 3 souk.",
+     "served_by_routes": [
+      "R4"
+     ]
+    },
+    {
+     "code": "C2-02",
+     "order": 9,
+     "name": "Dubai Marina Mall",
+     "lat": 25.075735,
+     "lng": 55.140981,
+     "google_place_id": "ChIJ_8ErX6psXz4RtzvrH76xoHs",
+     "where_exactly": "Pick and drop point at Dubai Marina Mall.",
+     "pickup_lat": 25.075735,
+     "pickup_lng": 55.140981,
+     "pickup_where_exactly": "Pick and drop point at Dubai Marina Mall.",
+     "setdown_lat": 25.070853,
+     "setdown_lng": 55.139483,
+     "setdown_where_exactly": "Pick and drop point at Dubai Marina Mall.",
+     "served_by_routes": [
+      "R3"
+     ]
+    },
+    {
+     "code": "C4-09",
+     "order": 10,
+     "name": "Holiday Inn, Al Maktoum Airport",
+     "lat": 24.867791,
+     "lng": 55.146192,
+     "google_place_id": "ChIJowBFSu91Xz4RLS9kcNQWxE8",
+     "where_exactly": "Hotel entrance, Aviation City.",
+     "pickup_lat": 24.867791,
+     "pickup_lng": 55.146192,
+     "pickup_where_exactly": "Hotel entrance, Aviation City.",
+     "setdown_lat": 24.867791,
+     "setdown_lng": 55.146192,
+     "setdown_where_exactly": "Hotel entrance, Aviation City.",
+     "served_by_routes": [
+      "R6"
+     ]
+    },
+    {
+     "code": "C1-04",
+     "order": 11,
+     "name": "Nesto Hypermarket, King Faisal St",
+     "lat": 25.337533,
+     "lng": 55.39061,
+     "google_place_id": "ChIJLS4X7hpbXz4RUhwwFiw8Esc",
+     "where_exactly": "Main entrance on King Faisal St.",
+     "pickup_lat": 25.337533,
+     "pickup_lng": 55.39061,
+     "pickup_where_exactly": "Main entrance on King Faisal St.",
+     "setdown_lat": 25.337533,
+     "setdown_lng": 55.39061,
+     "setdown_where_exactly": "Main entrance on King Faisal St.",
+     "served_by_routes": [
+      "R1"
+     ]
+    },
+    {
+     "code": "C5-19",
+     "order": 12,
+     "name": "Al Raffa, 7E Street (near Al Khaleej Centre)",
+     "lat": 25.25816,
+     "lng": 55.297127,
+     "google_place_id": null,
+     "where_exactly": "Kerbside at the pin on 7E Street, Al Raffa, near Al Khaleej Centre - wait on the main-road side; kerb to confirm on audit.",
+     "pickup_lat": 25.25816,
+     "pickup_lng": 55.297127,
+     "pickup_where_exactly": "Kerbside at the pin on 7E Street, Al Raffa, near Al Khaleej Centre - wait on the main-road side; kerb to confirm on audit.",
+     "setdown_lat": 25.25816,
+     "setdown_lng": 55.297127,
+     "setdown_where_exactly": "Kerbside at the pin on 7E Street, Al Raffa, near Al Khaleej Centre - wait on the main-road side; kerb to confirm on audit.",
      "served_by_routes": [
       "R7"
+     ]
+    },
+    {
+     "code": "C3-05",
+     "order": 8,
+     "name": "City Centre Me'aisem",
+     "lat": 25.040494,
+     "lng": 55.195971,
+     "google_place_id": "ChIJk79DPbptXz4RGHTZvtyE87s",
+     "where_exactly": "Outside drop-off area by Tim Hortons, City Centre Me'aisem.",
+     "pickup_lat": 25.040494,
+     "pickup_lng": 55.195971,
+     "pickup_where_exactly": "Outside drop-off area by Tim Hortons, City Centre Me'aisem.",
+     "setdown_lat": 25.040494,
+     "setdown_lng": 55.195971,
+     "setdown_where_exactly": "Outside drop-off area by Tim Hortons, City Centre Me'aisem.",
+     "served_by_routes": [
+      "R4"
+     ]
+    },
+    {
+     "code": "C2-08",
+     "order": 11,
+     "name": "Mall of the Emirates",
+     "lat": 25.1201411,
+     "lng": 55.2011196,
+     "google_place_id": "ChIJnTOfw75rXz4RTBV1aGLlr0c",
+     "where_exactly": "Pick-up point at 25.1201411, 55.2011196 (metro side).",
+     "pickup_lat": 25.1201411,
+     "pickup_lng": 55.2011196,
+     "pickup_where_exactly": "Pick-up point at 25.1201411, 55.2011196 (metro side).",
+     "setdown_lat": 25.1201411,
+     "setdown_lng": 55.2011196,
+     "setdown_where_exactly": "Pick-up point at 25.1201411, 55.2011196 (metro side).",
+     "served_by_routes": [
+      "R3"
+     ]
+    },
+    {
+     "code": "C4-02",
+     "order": 12,
+     "name": "The Gate Towers, Al Reem Island",
+     "lat": 24.492995,
+     "lng": 54.408057,
+     "google_place_id": "ChIJ6ReBILxnXj4RqC1IkJEARAQ",
+     "where_exactly": "Main drop-off.",
+     "pickup_lat": 24.492995,
+     "pickup_lng": 54.408057,
+     "pickup_where_exactly": "Main drop-off.",
+     "setdown_lat": 24.492995,
+     "setdown_lng": 54.408057,
+     "setdown_where_exactly": "Main drop-off.",
+     "served_by_routes": [
+      "R5"
      ]
     },
     {
@@ -2331,60 +2457,6 @@
      ]
     },
     {
-     "code": "C3-05",
-     "order": 10,
-     "name": "City Centre Me'aisem",
-     "lat": 25.040494,
-     "lng": 55.195971,
-     "google_place_id": "ChIJk79DPbptXz4RGHTZvtyE87s",
-     "where_exactly": "Outside drop-off area by Tim Hortons, City Centre Me'aisem.",
-     "pickup_lat": 25.040494,
-     "pickup_lng": 55.195971,
-     "pickup_where_exactly": "Outside drop-off area by Tim Hortons, City Centre Me'aisem.",
-     "setdown_lat": 25.040494,
-     "setdown_lng": 55.195971,
-     "setdown_where_exactly": "Outside drop-off area by Tim Hortons, City Centre Me'aisem.",
-     "served_by_routes": [
-      "R4"
-     ]
-    },
-    {
-     "code": "C3-12",
-     "order": 11,
-     "name": "Arabian Ranches 3",
-     "lat": 25.069629,
-     "lng": 55.323824,
-     "google_place_id": "ChIJ016GFd1vXz4Rfco2izB0OeM",
-     "where_exactly": "Main entrance of the Arabian Ranches 3 souk.",
-     "pickup_lat": 25.069629,
-     "pickup_lng": 55.323824,
-     "pickup_where_exactly": "Main entrance of the Arabian Ranches 3 souk.",
-     "setdown_lat": 25.069629,
-     "setdown_lng": 55.323824,
-     "setdown_where_exactly": "Main entrance of the Arabian Ranches 3 souk.",
-     "served_by_routes": [
-      "R4"
-     ]
-    },
-    {
-     "code": "C2-08",
-     "order": 12,
-     "name": "Mall of the Emirates",
-     "lat": 25.1201411,
-     "lng": 55.2011196,
-     "google_place_id": "ChIJnTOfw75rXz4RTBV1aGLlr0c",
-     "where_exactly": "Pick-up point at 25.1201411, 55.2011196 (metro side).",
-     "pickup_lat": 25.1201411,
-     "pickup_lng": 55.2011196,
-     "pickup_where_exactly": "Pick-up point at 25.1201411, 55.2011196 (metro side).",
-     "setdown_lat": 25.1201411,
-     "setdown_lng": 55.2011196,
-     "setdown_where_exactly": "Pick-up point at 25.1201411, 55.2011196 (metro side).",
-     "served_by_routes": [
-      "R3"
-     ]
-    },
-    {
      "code": "C1-12",
      "order": 13,
      "name": "Uptown Mirdif",
@@ -2400,78 +2472,6 @@
      "setdown_where_exactly": "Kerbside outside Exotic Fin Store, Uptown Mirdif, corner of Algeria St.",
      "served_by_routes": [
       "R2"
-     ]
-    },
-    {
-     "code": "C4-02",
-     "order": 14,
-     "name": "The Gate Towers, Al Reem Island",
-     "lat": 24.492995,
-     "lng": 54.408057,
-     "google_place_id": "ChIJ6ReBILxnXj4RqC1IkJEARAQ",
-     "where_exactly": "Main drop-off.",
-     "pickup_lat": 24.492995,
-     "pickup_lng": 54.408057,
-     "pickup_where_exactly": "Main drop-off.",
-     "setdown_lat": 24.492995,
-     "setdown_lng": 54.408057,
-     "setdown_where_exactly": "Main drop-off.",
-     "served_by_routes": [
-      "R5"
-     ]
-    },
-    {
-     "code": "C4-09",
-     "order": 15,
-     "name": "Holiday Inn, Al Maktoum Airport",
-     "lat": 24.867791,
-     "lng": 55.146192,
-     "google_place_id": "ChIJowBFSu91Xz4RLS9kcNQWxE8",
-     "where_exactly": "Hotel entrance, Aviation City.",
-     "pickup_lat": 24.867791,
-     "pickup_lng": 55.146192,
-     "pickup_where_exactly": "Hotel entrance, Aviation City.",
-     "setdown_lat": 24.867791,
-     "setdown_lng": 55.146192,
-     "setdown_where_exactly": "Hotel entrance, Aviation City.",
-     "served_by_routes": [
-      "R6"
-     ]
-    },
-    {
-     "code": "C1-04",
-     "order": 16,
-     "name": "Nesto Hypermarket, King Faisal St",
-     "lat": 25.337533,
-     "lng": 55.39061,
-     "google_place_id": "ChIJLS4X7hpbXz4RUhwwFiw8Esc",
-     "where_exactly": "Main entrance on King Faisal St.",
-     "pickup_lat": 25.337533,
-     "pickup_lng": 55.39061,
-     "pickup_where_exactly": "Main entrance on King Faisal St.",
-     "setdown_lat": 25.337533,
-     "setdown_lng": 55.39061,
-     "setdown_where_exactly": "Main entrance on King Faisal St.",
-     "served_by_routes": [
-      "R1"
-     ]
-    },
-    {
-     "code": "C5-19",
-     "order": 17,
-     "name": "Al Raffa, 7E Street (near Al Khaleej Centre)",
-     "lat": 25.25816,
-     "lng": 55.297127,
-     "google_place_id": null,
-     "where_exactly": "Kerbside at the pin on 7E Street, Al Raffa, near Al Khaleej Centre - wait on the main-road side; kerb to confirm on audit.",
-     "pickup_lat": 25.25816,
-     "pickup_lng": 55.297127,
-     "pickup_where_exactly": "Kerbside at the pin on 7E Street, Al Raffa, near Al Khaleej Centre - wait on the main-road side; kerb to confirm on audit.",
-     "setdown_lat": 25.25816,
-     "setdown_lng": 55.297127,
-     "setdown_where_exactly": "Kerbside at the pin on 7E Street, Al Raffa, near Al Khaleej Centre - wait on the main-road side; kerb to confirm on audit.",
-     "served_by_routes": [
-      "R7"
      ]
     },
     {
@@ -61325,18 +61325,18 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "04:41",
+   "start": "04:38",
    "end": "07:45",
    "vehicle": "M5",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 2,
+   "booked": 3,
    "seats": 34,
    "stops": [
     {
      "code": "C4-22",
      "name": "Silver Tower, Al Marakib St, Corniche Area, Abu Dhabi",
-     "time": "04:41",
+     "time": "04:38",
      "action": "pick_up",
      "lat": 24.49302727241724,
      "lng": 54.359155308731616,
@@ -61345,11 +61345,20 @@
     {
      "code": "C4-21",
      "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
-     "time": "04:52",
+     "time": "04:49",
      "action": "pick_up",
      "lat": 24.4757537,
      "lng": 54.3663931,
      "where_exactly": "Kerbside on Airport Road (Sheikh Rashid Bin Saeed St) at the Al Falah Street junction, outside Ramee Garden Hotel Apartments opposite NBAD - southbound side for pick-ups (towards Al Wahda), northbound side for set-downs."
+    },
+    {
+     "code": "C4-06",
+     "name": "Al Forsan Village main gate",
+     "time": "05:17",
+     "action": "pick_up",
+     "lat": 24.4044,
+     "lng": 54.5514,
+     "where_exactly": "Main gate, Khalifa City."
     },
     {
      "code": "UOB",
@@ -61589,58 +61598,11 @@
    "day": "Mon",
    "route": "R5",
    "direction": "from_campus",
-   "service": "undergraduate",
+   "service": "regular",
    "arrive_campus": null,
    "leave_campus": "16:30",
    "start": "16:30",
-   "end": "19:15",
-   "vehicle": "M5",
-   "vehicle_type": "Hiace",
-   "capacity": 15,
-   "booked": 2,
-   "seats": 15,
-   "stops": [
-    {
-     "code": "UOB",
-     "name": "University of Birmingham Dubai",
-     "time": "16:30",
-     "action": "pick_up",
-     "lat": 25.1321925,
-     "lng": 55.4223161,
-     "where_exactly": ""
-    },
-    {
-     "code": "C4-24",
-     "name": "Al Dibsi Street, Tourist Club Area, Abu Dhabi",
-     "time": "19:07",
-     "action": "set_down",
-     "lat": 24.49105,
-     "lng": 54.38039,
-     "where_exactly": "Kerbside on Al Dibsi Street outside the rider's building, Tourist Club Area (Al Zahiyah). Rider-only stop."
-    },
-    {
-     "code": "C4-01",
-     "name": "Al Mariah Mall, Hamdan St",
-     "time": "19:15",
-     "action": "set_down",
-     "lat": 24.494038,
-     "lng": 54.366864,
-     "where_exactly": "Outside the front of Al Mariah Mall."
-    }
-   ],
-   "status": "operating"
-  },
-  {
-   "run_id": "2026-10-26-R5-R3",
-   "date": "2026-10-26",
-   "day": "Mon",
-   "route": "R5",
-   "direction": "from_campus",
-   "service": "regular",
-   "arrive_campus": null,
-   "leave_campus": "18:15",
-   "start": "18:15",
-   "end": "20:00",
+   "end": "18:15",
    "vehicle": "M5",
    "vehicle_type": "Hiace",
    "capacity": 15,
@@ -61651,65 +61613,121 @@
     {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
-     "time": "18:15",
+     "time": "16:30",
      "action": "pick_up"
     },
     {
      "code": "C4-01",
      "name": "Al Mariah Mall, Hamdan St",
-     "time": "18:27",
+     "time": "16:42",
      "action": "set_down"
     },
     {
      "code": "C4-02",
      "name": "The Gate Towers, Al Reem Island",
-     "time": "18:38",
+     "time": "16:53",
      "action": "set_down"
     },
     {
      "code": "C4-21",
      "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
-     "time": "18:50",
+     "time": "17:05",
      "action": "set_down"
     },
     {
      "code": "C4-03",
      "name": "Al Wahda Mall",
-     "time": "19:02",
+     "time": "17:17",
      "action": "set_down"
     },
     {
      "code": "C4-04",
      "name": "Mubadala Tower, Sultan Bin Zayed St",
-     "time": "19:13",
+     "time": "17:28",
      "action": "set_down"
     },
     {
      "code": "C4-05",
      "name": "Yasmina School back gate, Raha Gardens",
-     "time": "19:25",
+     "time": "17:40",
      "action": "set_down"
     },
     {
      "code": "C4-06",
      "name": "Al Forsan Village main gate",
-     "time": "19:37",
+     "time": "17:52",
      "action": "set_down"
     },
     {
      "code": "C4-07",
      "name": "Al Zeina, Al Raha Beach",
-     "time": "19:48",
+     "time": "18:03",
      "action": "set_down"
     },
     {
      "code": "C4-08",
      "name": "Al Ghadeer community gate",
-     "time": "20:00",
+     "time": "18:15",
      "action": "set_down"
     }
    ],
    "status": "on_request"
+  },
+  {
+   "run_id": "2026-10-26-R5-R3",
+   "date": "2026-10-26",
+   "day": "Mon",
+   "route": "R5",
+   "direction": "from_campus",
+   "service": "undergraduate",
+   "arrive_campus": null,
+   "leave_campus": "18:15",
+   "start": "18:15",
+   "end": "20:47",
+   "vehicle": "M5",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 3,
+   "seats": 15,
+   "stops": [
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "18:15",
+     "action": "pick_up",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    },
+    {
+     "code": "C4-06",
+     "name": "Al Forsan Village main gate",
+     "time": "20:03",
+     "action": "set_down",
+     "lat": 24.4044,
+     "lng": 54.5514,
+     "where_exactly": "Main gate, Khalifa City."
+    },
+    {
+     "code": "C4-24",
+     "name": "Al Dibsi Street, Tourist Club Area, Abu Dhabi",
+     "time": "20:40",
+     "action": "set_down",
+     "lat": 24.49105,
+     "lng": 54.38039,
+     "where_exactly": "Kerbside on Al Dibsi Street outside the rider's building, Tourist Club Area (Al Zahiyah). Rider-only stop."
+    },
+    {
+     "code": "C4-01",
+     "name": "Al Mariah Mall, Hamdan St",
+     "time": "20:47",
+     "action": "set_down",
+     "lat": 24.494038,
+     "lng": 54.366864,
+     "where_exactly": "Outside the front of Al Mariah Mall."
+    }
+   ],
+   "status": "operating"
   },
   {
    "run_id": "2026-10-26-R5-R4",
@@ -65954,18 +65972,18 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "04:39",
+   "start": "04:36",
    "end": "07:45",
    "vehicle": "M5",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 3,
+   "booked": 4,
    "seats": 34,
    "stops": [
     {
      "code": "C4-01",
      "name": "Al Mariah Mall, Hamdan St",
-     "time": "04:39",
+     "time": "04:36",
      "action": "pick_up",
      "lat": 24.494038,
      "lng": 54.366864,
@@ -65974,7 +65992,7 @@
     {
      "code": "C4-24",
      "name": "Al Dibsi Street, Tourist Club Area, Abu Dhabi",
-     "time": "04:47",
+     "time": "04:44",
      "action": "pick_up",
      "lat": 24.49105,
      "lng": 54.38039,
@@ -65983,11 +66001,20 @@
     {
      "code": "C4-21",
      "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
-     "time": "04:59",
+     "time": "04:55",
      "action": "pick_up",
      "lat": 24.4757537,
      "lng": 54.3663931,
      "where_exactly": "Kerbside on Airport Road (Sheikh Rashid Bin Saeed St) at the Al Falah Street junction, outside Ramee Garden Hotel Apartments opposite NBAD - southbound side for pick-ups (towards Al Wahda), northbound side for set-downs."
+    },
+    {
+     "code": "C4-06",
+     "name": "Al Forsan Village main gate",
+     "time": "05:22",
+     "action": "pick_up",
+     "lat": 24.4044,
+     "lng": 54.5514,
+     "where_exactly": "Main gate, Khalifa City."
     },
     {
      "code": "UOB",
@@ -66303,11 +66330,11 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "21:04",
+   "end": "21:07",
    "vehicle": "M5",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 6,
+   "booked": 7,
    "seats": 15,
    "stops": [
     {
@@ -66320,9 +66347,18 @@
      "where_exactly": ""
     },
     {
+     "code": "C4-06",
+     "name": "Al Forsan Village main gate",
+     "time": "20:02",
+     "action": "set_down",
+     "lat": 24.4044,
+     "lng": 54.5514,
+     "where_exactly": "Main gate, Khalifa City."
+    },
+    {
      "code": "C4-21",
      "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
-     "time": "20:31",
+     "time": "20:39",
      "action": "set_down",
      "lat": 24.4757537,
      "lng": 54.3663931,
@@ -66331,7 +66367,7 @@
     {
      "code": "C4-24",
      "name": "Al Dibsi Street, Tourist Club Area, Abu Dhabi",
-     "time": "20:41",
+     "time": "20:47",
      "action": "set_down",
      "lat": 24.49105,
      "lng": 54.38039,
@@ -66340,7 +66376,7 @@
     {
      "code": "C4-23",
      "name": "Al Swedi Building 6, Al Sindan St, Al Zahiyah, Abu Dhabi",
-     "time": "20:48",
+     "time": "20:53",
      "action": "set_down",
      "lat": 24.5022611,
      "lng": 54.377864,
@@ -66349,7 +66385,7 @@
     {
      "code": "C4-01",
      "name": "Al Mariah Mall, Hamdan St",
-     "time": "20:56",
+     "time": "21:00",
      "action": "set_down",
      "lat": 24.494038,
      "lng": 54.366864,
@@ -66358,7 +66394,7 @@
     {
      "code": "C4-22",
      "name": "Silver Tower, Al Marakib St, Corniche Area, Abu Dhabi",
-     "time": "21:04",
+     "time": "21:07",
      "action": "set_down",
      "lat": 24.49302727241724,
      "lng": 54.359155308731616,
@@ -70831,18 +70867,18 @@
    "service": "undergraduate",
    "arrive_campus": "10:45",
    "leave_campus": null,
-   "start": "08:55",
+   "start": "08:52",
    "end": "10:45",
    "vehicle": "M5",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 2,
+   "booked": 3,
    "seats": 15,
    "stops": [
     {
      "code": "C4-23",
      "name": "Al Swedi Building 6, Al Sindan St, Al Zahiyah, Abu Dhabi",
-     "time": "08:55",
+     "time": "08:52",
      "action": "pick_up",
      "lat": 24.5022611,
      "lng": 54.377864,
@@ -70851,11 +70887,20 @@
     {
      "code": "C4-21",
      "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
-     "time": "09:02",
+     "time": "08:59",
      "action": "pick_up",
      "lat": 24.4757537,
      "lng": 54.3663931,
      "where_exactly": "Kerbside on Airport Road (Sheikh Rashid Bin Saeed St) at the Al Falah Street junction, outside Ramee Garden Hotel Apartments opposite NBAD - southbound side for pick-ups (towards Al Wahda), northbound side for set-downs."
+    },
+    {
+     "code": "C4-06",
+     "name": "Al Forsan Village main gate",
+     "time": "09:17",
+     "action": "pick_up",
+     "lat": 24.4044,
+     "lng": 54.5514,
+     "where_exactly": "Main gate, Khalifa City."
     },
     {
      "code": "UOB",
@@ -71115,11 +71160,11 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "21:00",
+   "end": "21:03",
    "vehicle": "M5",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 5,
+   "booked": 6,
    "seats": 15,
    "stops": [
     {
@@ -71132,9 +71177,18 @@
      "where_exactly": ""
     },
     {
+     "code": "C4-06",
+     "name": "Al Forsan Village main gate",
+     "time": "20:00",
+     "action": "set_down",
+     "lat": 24.4044,
+     "lng": 54.5514,
+     "where_exactly": "Main gate, Khalifa City."
+    },
+    {
      "code": "C4-21",
      "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
-     "time": "20:28",
+     "time": "20:35",
      "action": "set_down",
      "lat": 24.4757537,
      "lng": 54.3663931,
@@ -71143,7 +71197,7 @@
     {
      "code": "C4-24",
      "name": "Al Dibsi Street, Tourist Club Area, Abu Dhabi",
-     "time": "20:37",
+     "time": "20:43",
      "action": "set_down",
      "lat": 24.49105,
      "lng": 54.38039,
@@ -71152,7 +71206,7 @@
     {
      "code": "C4-23",
      "name": "Al Swedi Building 6, Al Sindan St, Al Zahiyah, Abu Dhabi",
-     "time": "20:45",
+     "time": "20:50",
      "action": "set_down",
      "lat": 24.5022611,
      "lng": 54.377864,
@@ -71161,7 +71215,7 @@
     {
      "code": "C4-01",
      "name": "Al Mariah Mall, Hamdan St",
-     "time": "20:52",
+     "time": "20:56",
      "action": "set_down",
      "lat": 24.494038,
      "lng": 54.366864,
@@ -71170,7 +71224,7 @@
     {
      "code": "C4-22",
      "name": "Silver Tower, Al Marakib St, Corniche Area, Abu Dhabi",
-     "time": "21:00",
+     "time": "21:03",
      "action": "set_down",
      "lat": 24.49302727241724,
      "lng": 54.359155308731616,
@@ -77502,11 +77556,11 @@
    "arrive_campus": null,
    "leave_campus": "21:36",
    "start": "21:36",
-   "end": "22:29",
+   "end": "22:25",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 4,
+   "booked": 3,
    "seats": 15,
    "stops": [
     {
@@ -77537,18 +77591,9 @@
      "where_exactly": "Outside drop-off area by Tim Hortons, City Centre Me'aisem."
     },
     {
-     "code": "C2-11",
-     "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "22:24",
-     "action": "set_down",
-     "lat": 25.093492,
-     "lng": 55.177807,
-     "where_exactly": "Pick and drop area outside the Al Asmawi Building."
-    },
-    {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "22:29",
+     "time": "22:25",
      "action": "set_down",
      "lat": 25.099769538054428,
      "lng": 55.17320213081937,
@@ -82283,7 +82328,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "19:43",
+   "end": "19:40",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
@@ -82302,7 +82347,7 @@
     {
      "code": "C5-20",
      "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
-     "time": "19:11",
+     "time": "19:24",
      "action": "set_down",
      "lat": 25.186457,
      "lng": 55.282055,
@@ -82311,7 +82356,7 @@
     {
      "code": "C5-19",
      "name": "Al Raffa, 7E Street (near Al Khaleej Centre)",
-     "time": "19:43",
+     "time": "19:40",
      "action": "set_down",
      "lat": 25.25816,
      "lng": 55.297127,
@@ -85076,22 +85121,31 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "04:43",
+   "start": "04:40",
    "end": "07:45",
    "vehicle": "M5",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 1,
+   "booked": 2,
    "seats": 34,
    "stops": [
     {
      "code": "C4-21",
      "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
-     "time": "04:43",
+     "time": "04:40",
      "action": "pick_up",
      "lat": 24.4757537,
      "lng": 54.3663931,
      "where_exactly": "Kerbside on Airport Road (Sheikh Rashid Bin Saeed St) at the Al Falah Street junction, outside Ramee Garden Hotel Apartments opposite NBAD - southbound side for pick-ups (towards Al Wahda), northbound side for set-downs."
+    },
+    {
+     "code": "C4-06",
+     "name": "Al Forsan Village main gate",
+     "time": "05:09",
+     "action": "pick_up",
+     "lat": 24.4044,
+     "lng": 54.5514,
+     "where_exactly": "Main gate, Khalifa City."
     },
     {
      "code": "UOB",
@@ -85304,58 +85358,11 @@
    "day": "Mon",
    "route": "R5",
    "direction": "from_campus",
-   "service": "undergraduate",
+   "service": "regular",
    "arrive_campus": null,
    "leave_campus": "16:30",
    "start": "16:30",
-   "end": "19:15",
-   "vehicle": "M5",
-   "vehicle_type": "Hiace",
-   "capacity": 15,
-   "booked": 2,
-   "seats": 15,
-   "stops": [
-    {
-     "code": "UOB",
-     "name": "University of Birmingham Dubai",
-     "time": "16:30",
-     "action": "pick_up",
-     "lat": 25.1321925,
-     "lng": 55.4223161,
-     "where_exactly": ""
-    },
-    {
-     "code": "C4-24",
-     "name": "Al Dibsi Street, Tourist Club Area, Abu Dhabi",
-     "time": "19:07",
-     "action": "set_down",
-     "lat": 24.49105,
-     "lng": 54.38039,
-     "where_exactly": "Kerbside on Al Dibsi Street outside the rider's building, Tourist Club Area (Al Zahiyah). Rider-only stop."
-    },
-    {
-     "code": "C4-01",
-     "name": "Al Mariah Mall, Hamdan St",
-     "time": "19:15",
-     "action": "set_down",
-     "lat": 24.494038,
-     "lng": 54.366864,
-     "where_exactly": "Outside the front of Al Mariah Mall."
-    }
-   ],
-   "status": "operating"
-  },
-  {
-   "run_id": "2026-11-02-R5-R3",
-   "date": "2026-11-02",
-   "day": "Mon",
-   "route": "R5",
-   "direction": "from_campus",
-   "service": "regular",
-   "arrive_campus": null,
-   "leave_campus": "18:15",
-   "start": "18:15",
-   "end": "20:00",
+   "end": "18:15",
    "vehicle": "M5",
    "vehicle_type": "Hiace",
    "capacity": 15,
@@ -85366,65 +85373,121 @@
     {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
-     "time": "18:15",
+     "time": "16:30",
      "action": "pick_up"
     },
     {
      "code": "C4-01",
      "name": "Al Mariah Mall, Hamdan St",
-     "time": "18:27",
+     "time": "16:42",
      "action": "set_down"
     },
     {
      "code": "C4-02",
      "name": "The Gate Towers, Al Reem Island",
-     "time": "18:38",
+     "time": "16:53",
      "action": "set_down"
     },
     {
      "code": "C4-21",
      "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
-     "time": "18:50",
+     "time": "17:05",
      "action": "set_down"
     },
     {
      "code": "C4-03",
      "name": "Al Wahda Mall",
-     "time": "19:02",
+     "time": "17:17",
      "action": "set_down"
     },
     {
      "code": "C4-04",
      "name": "Mubadala Tower, Sultan Bin Zayed St",
-     "time": "19:13",
+     "time": "17:28",
      "action": "set_down"
     },
     {
      "code": "C4-05",
      "name": "Yasmina School back gate, Raha Gardens",
-     "time": "19:25",
+     "time": "17:40",
      "action": "set_down"
     },
     {
      "code": "C4-06",
      "name": "Al Forsan Village main gate",
-     "time": "19:37",
+     "time": "17:52",
      "action": "set_down"
     },
     {
      "code": "C4-07",
      "name": "Al Zeina, Al Raha Beach",
-     "time": "19:48",
+     "time": "18:03",
      "action": "set_down"
     },
     {
      "code": "C4-08",
      "name": "Al Ghadeer community gate",
-     "time": "20:00",
+     "time": "18:15",
      "action": "set_down"
     }
    ],
    "status": "on_request"
+  },
+  {
+   "run_id": "2026-11-02-R5-R3",
+   "date": "2026-11-02",
+   "day": "Mon",
+   "route": "R5",
+   "direction": "from_campus",
+   "service": "undergraduate",
+   "arrive_campus": null,
+   "leave_campus": "18:15",
+   "start": "18:15",
+   "end": "20:47",
+   "vehicle": "M5",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 3,
+   "seats": 15,
+   "stops": [
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "18:15",
+     "action": "pick_up",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    },
+    {
+     "code": "C4-06",
+     "name": "Al Forsan Village main gate",
+     "time": "20:03",
+     "action": "set_down",
+     "lat": 24.4044,
+     "lng": 54.5514,
+     "where_exactly": "Main gate, Khalifa City."
+    },
+    {
+     "code": "C4-24",
+     "name": "Al Dibsi Street, Tourist Club Area, Abu Dhabi",
+     "time": "20:40",
+     "action": "set_down",
+     "lat": 24.49105,
+     "lng": 54.38039,
+     "where_exactly": "Kerbside on Al Dibsi Street outside the rider's building, Tourist Club Area (Al Zahiyah). Rider-only stop."
+    },
+    {
+     "code": "C4-01",
+     "name": "Al Mariah Mall, Hamdan St",
+     "time": "20:47",
+     "action": "set_down",
+     "lat": 24.494038,
+     "lng": 54.366864,
+     "where_exactly": "Outside the front of Al Mariah Mall."
+    }
+   ],
+   "status": "operating"
   },
   {
    "run_id": "2026-11-02-R5-R4",
@@ -89634,18 +89697,18 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "04:39",
+   "start": "04:36",
    "end": "07:45",
    "vehicle": "M5",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 3,
+   "booked": 4,
    "seats": 34,
    "stops": [
     {
      "code": "C4-01",
      "name": "Al Mariah Mall, Hamdan St",
-     "time": "04:39",
+     "time": "04:36",
      "action": "pick_up",
      "lat": 24.494038,
      "lng": 54.366864,
@@ -89654,7 +89717,7 @@
     {
      "code": "C4-24",
      "name": "Al Dibsi Street, Tourist Club Area, Abu Dhabi",
-     "time": "04:47",
+     "time": "04:44",
      "action": "pick_up",
      "lat": 24.49105,
      "lng": 54.38039,
@@ -89663,11 +89726,20 @@
     {
      "code": "C4-21",
      "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
-     "time": "04:59",
+     "time": "04:55",
      "action": "pick_up",
      "lat": 24.4757537,
      "lng": 54.3663931,
      "where_exactly": "Kerbside on Airport Road (Sheikh Rashid Bin Saeed St) at the Al Falah Street junction, outside Ramee Garden Hotel Apartments opposite NBAD - southbound side for pick-ups (towards Al Wahda), northbound side for set-downs."
+    },
+    {
+     "code": "C4-06",
+     "name": "Al Forsan Village main gate",
+     "time": "05:22",
+     "action": "pick_up",
+     "lat": 24.4044,
+     "lng": 54.5514,
+     "where_exactly": "Main gate, Khalifa City."
     },
     {
      "code": "UOB",
@@ -89974,11 +90046,11 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "21:00",
+   "end": "21:03",
    "vehicle": "M5",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 4,
+   "booked": 5,
    "seats": 15,
    "stops": [
     {
@@ -89991,9 +90063,18 @@
      "where_exactly": ""
     },
     {
+     "code": "C4-06",
+     "name": "Al Forsan Village main gate",
+     "time": "20:04",
+     "action": "set_down",
+     "lat": 24.4044,
+     "lng": 54.5514,
+     "where_exactly": "Main gate, Khalifa City."
+    },
+    {
      "code": "C4-21",
      "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
-     "time": "20:34",
+     "time": "20:41",
      "action": "set_down",
      "lat": 24.4757537,
      "lng": 54.3663931,
@@ -90002,7 +90083,7 @@
     {
      "code": "C4-24",
      "name": "Al Dibsi Street, Tourist Club Area, Abu Dhabi",
-     "time": "20:44",
+     "time": "20:49",
      "action": "set_down",
      "lat": 24.49105,
      "lng": 54.38039,
@@ -90011,7 +90092,7 @@
     {
      "code": "C4-23",
      "name": "Al Swedi Building 6, Al Sindan St, Al Zahiyah, Abu Dhabi",
-     "time": "20:52",
+     "time": "20:56",
      "action": "set_down",
      "lat": 24.5022611,
      "lng": 54.377864,
@@ -90020,7 +90101,7 @@
     {
      "code": "C4-01",
      "name": "Al Mariah Mall, Hamdan St",
-     "time": "21:00",
+     "time": "21:03",
      "action": "set_down",
      "lat": 24.494038,
      "lng": 54.366864,
@@ -94229,18 +94310,18 @@
    "service": "undergraduate",
    "arrive_campus": "10:45",
    "leave_campus": null,
-   "start": "08:55",
+   "start": "08:52",
    "end": "10:45",
    "vehicle": "M5",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 2,
+   "booked": 3,
    "seats": 15,
    "stops": [
     {
      "code": "C4-23",
      "name": "Al Swedi Building 6, Al Sindan St, Al Zahiyah, Abu Dhabi",
-     "time": "08:55",
+     "time": "08:52",
      "action": "pick_up",
      "lat": 24.5022611,
      "lng": 54.377864,
@@ -94249,11 +94330,20 @@
     {
      "code": "C4-21",
      "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
-     "time": "09:02",
+     "time": "08:59",
      "action": "pick_up",
      "lat": 24.4757537,
      "lng": 54.3663931,
      "where_exactly": "Kerbside on Airport Road (Sheikh Rashid Bin Saeed St) at the Al Falah Street junction, outside Ramee Garden Hotel Apartments opposite NBAD - southbound side for pick-ups (towards Al Wahda), northbound side for set-downs."
+    },
+    {
+     "code": "C4-06",
+     "name": "Al Forsan Village main gate",
+     "time": "09:17",
+     "action": "pick_up",
+     "lat": 24.4044,
+     "lng": 54.5514,
+     "where_exactly": "Main gate, Khalifa City."
     },
     {
      "code": "UOB",
@@ -94556,11 +94646,11 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "21:00",
+   "end": "21:03",
    "vehicle": "M5",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 4,
+   "booked": 5,
    "seats": 15,
    "stops": [
     {
@@ -94573,9 +94663,18 @@
      "where_exactly": ""
     },
     {
+     "code": "C4-06",
+     "name": "Al Forsan Village main gate",
+     "time": "20:04",
+     "action": "set_down",
+     "lat": 24.4044,
+     "lng": 54.5514,
+     "where_exactly": "Main gate, Khalifa City."
+    },
+    {
      "code": "C4-21",
      "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
-     "time": "20:34",
+     "time": "20:41",
      "action": "set_down",
      "lat": 24.4757537,
      "lng": 54.3663931,
@@ -94584,7 +94683,7 @@
     {
      "code": "C4-24",
      "name": "Al Dibsi Street, Tourist Club Area, Abu Dhabi",
-     "time": "20:44",
+     "time": "20:49",
      "action": "set_down",
      "lat": 24.49105,
      "lng": 54.38039,
@@ -94593,7 +94692,7 @@
     {
      "code": "C4-23",
      "name": "Al Swedi Building 6, Al Sindan St, Al Zahiyah, Abu Dhabi",
-     "time": "20:52",
+     "time": "20:56",
      "action": "set_down",
      "lat": 24.5022611,
      "lng": 54.377864,
@@ -94602,7 +94701,7 @@
     {
      "code": "C4-01",
      "name": "Al Mariah Mall, Hamdan St",
-     "time": "21:00",
+     "time": "21:03",
      "action": "set_down",
      "lat": 24.494038,
      "lng": 54.366864,
@@ -100730,11 +100829,11 @@
    "arrive_campus": null,
    "leave_campus": "21:36",
    "start": "21:36",
-   "end": "22:15",
+   "end": "22:10",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 3,
+   "booked": 2,
    "seats": 15,
    "stops": [
     {
@@ -100756,18 +100855,9 @@
      "where_exactly": "Kerbside outside Binghatti Crystals, near Axis 7, DSO. Rider-only stop (Nabeela); last call before campus on the central masters bus."
     },
     {
-     "code": "C2-11",
-     "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "22:10",
-     "action": "set_down",
-     "lat": 25.093492,
-     "lng": 55.177807,
-     "where_exactly": "Pick and drop area outside the Al Asmawi Building."
-    },
-    {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "22:15",
+     "time": "22:10",
      "action": "set_down",
      "lat": 25.099769538054428,
      "lng": 55.17320213081937,
@@ -105239,7 +105329,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "19:43",
+   "end": "19:40",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
@@ -105258,7 +105348,7 @@
     {
      "code": "C5-20",
      "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
-     "time": "19:11",
+     "time": "19:24",
      "action": "set_down",
      "lat": 25.186457,
      "lng": 55.282055,
@@ -105267,7 +105357,7 @@
     {
      "code": "C5-19",
      "name": "Al Raffa, 7E Street (near Al Khaleej Centre)",
-     "time": "19:43",
+     "time": "19:40",
      "action": "set_down",
      "lat": 25.25816,
      "lng": 55.297127,
@@ -108179,22 +108269,31 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "04:43",
+   "start": "04:40",
    "end": "07:45",
    "vehicle": "M5",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 1,
+   "booked": 2,
    "seats": 34,
    "stops": [
     {
      "code": "C4-21",
      "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
-     "time": "04:43",
+     "time": "04:40",
      "action": "pick_up",
      "lat": 24.4757537,
      "lng": 54.3663931,
      "where_exactly": "Kerbside on Airport Road (Sheikh Rashid Bin Saeed St) at the Al Falah Street junction, outside Ramee Garden Hotel Apartments opposite NBAD - southbound side for pick-ups (towards Al Wahda), northbound side for set-downs."
+    },
+    {
+     "code": "C4-06",
+     "name": "Al Forsan Village main gate",
+     "time": "05:09",
+     "action": "pick_up",
+     "lat": 24.4044,
+     "lng": 54.5514,
+     "where_exactly": "Main gate, Khalifa City."
     },
     {
      "code": "UOB",
@@ -108416,49 +108515,11 @@
    "day": "Mon",
    "route": "R5",
    "direction": "from_campus",
-   "service": "undergraduate",
+   "service": "regular",
    "arrive_campus": null,
    "leave_campus": "16:30",
    "start": "16:30",
-   "end": "19:12",
-   "vehicle": "M5",
-   "vehicle_type": "Hiace",
-   "capacity": 15,
-   "booked": 1,
-   "seats": 15,
-   "stops": [
-    {
-     "code": "UOB",
-     "name": "University of Birmingham Dubai",
-     "time": "16:30",
-     "action": "pick_up",
-     "lat": 25.1321925,
-     "lng": 55.4223161,
-     "where_exactly": ""
-    },
-    {
-     "code": "C4-01",
-     "name": "Al Mariah Mall, Hamdan St",
-     "time": "19:12",
-     "action": "set_down",
-     "lat": 24.494038,
-     "lng": 54.366864,
-     "where_exactly": "Outside the front of Al Mariah Mall."
-    }
-   ],
-   "status": "operating"
-  },
-  {
-   "run_id": "2026-11-09-R5-R3",
-   "date": "2026-11-09",
-   "day": "Mon",
-   "route": "R5",
-   "direction": "from_campus",
-   "service": "regular",
-   "arrive_campus": null,
-   "leave_campus": "18:15",
-   "start": "18:15",
-   "end": "20:00",
+   "end": "18:15",
    "vehicle": "M5",
    "vehicle_type": "Hiace",
    "capacity": 15,
@@ -108469,65 +108530,112 @@
     {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
-     "time": "18:15",
+     "time": "16:30",
      "action": "pick_up"
     },
     {
      "code": "C4-01",
      "name": "Al Mariah Mall, Hamdan St",
-     "time": "18:27",
+     "time": "16:42",
      "action": "set_down"
     },
     {
      "code": "C4-02",
      "name": "The Gate Towers, Al Reem Island",
-     "time": "18:38",
+     "time": "16:53",
      "action": "set_down"
     },
     {
      "code": "C4-21",
      "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
-     "time": "18:50",
+     "time": "17:05",
      "action": "set_down"
     },
     {
      "code": "C4-03",
      "name": "Al Wahda Mall",
-     "time": "19:02",
+     "time": "17:17",
      "action": "set_down"
     },
     {
      "code": "C4-04",
      "name": "Mubadala Tower, Sultan Bin Zayed St",
-     "time": "19:13",
+     "time": "17:28",
      "action": "set_down"
     },
     {
      "code": "C4-05",
      "name": "Yasmina School back gate, Raha Gardens",
-     "time": "19:25",
+     "time": "17:40",
      "action": "set_down"
     },
     {
      "code": "C4-06",
      "name": "Al Forsan Village main gate",
-     "time": "19:37",
+     "time": "17:52",
      "action": "set_down"
     },
     {
      "code": "C4-07",
      "name": "Al Zeina, Al Raha Beach",
-     "time": "19:48",
+     "time": "18:03",
      "action": "set_down"
     },
     {
      "code": "C4-08",
      "name": "Al Ghadeer community gate",
-     "time": "20:00",
+     "time": "18:15",
      "action": "set_down"
     }
    ],
    "status": "on_request"
+  },
+  {
+   "run_id": "2026-11-09-R5-R3",
+   "date": "2026-11-09",
+   "day": "Mon",
+   "route": "R5",
+   "direction": "from_campus",
+   "service": "undergraduate",
+   "arrive_campus": null,
+   "leave_campus": "18:15",
+   "start": "18:15",
+   "end": "20:47",
+   "vehicle": "M5",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 2,
+   "seats": 15,
+   "stops": [
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "18:15",
+     "action": "pick_up",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    },
+    {
+     "code": "C4-06",
+     "name": "Al Forsan Village main gate",
+     "time": "20:07",
+     "action": "set_down",
+     "lat": 24.4044,
+     "lng": 54.5514,
+     "where_exactly": "Main gate, Khalifa City."
+    },
+    {
+     "code": "C4-01",
+     "name": "Al Mariah Mall, Hamdan St",
+     "time": "20:47",
+     "action": "set_down",
+     "lat": 24.494038,
+     "lng": 54.366864,
+     "where_exactly": "Outside the front of Al Mariah Mall."
+    }
+   ],
+   "status": "operating"
   },
   {
    "run_id": "2026-11-09-R5-R4",
@@ -112699,18 +112807,18 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "04:42",
+   "start": "04:39",
    "end": "07:45",
    "vehicle": "M5",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 2,
+   "booked": 3,
    "seats": 34,
    "stops": [
     {
      "code": "C4-01",
      "name": "Al Mariah Mall, Hamdan St",
-     "time": "04:42",
+     "time": "04:39",
      "action": "pick_up",
      "lat": 24.494038,
      "lng": 54.366864,
@@ -112719,11 +112827,20 @@
     {
      "code": "C4-21",
      "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
-     "time": "04:53",
+     "time": "04:50",
      "action": "pick_up",
      "lat": 24.4757537,
      "lng": 54.3663931,
      "where_exactly": "Kerbside on Airport Road (Sheikh Rashid Bin Saeed St) at the Al Falah Street junction, outside Ramee Garden Hotel Apartments opposite NBAD - southbound side for pick-ups (towards Al Wahda), northbound side for set-downs."
+    },
+    {
+     "code": "C4-06",
+     "name": "Al Forsan Village main gate",
+     "time": "05:18",
+     "action": "pick_up",
+     "lat": 24.4044,
+     "lng": 54.5514,
+     "where_exactly": "Main gate, Khalifa City."
     },
     {
      "code": "UOB",
@@ -113030,11 +113147,11 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "21:00",
+   "end": "21:03",
    "vehicle": "M5",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 4,
+   "booked": 5,
    "seats": 15,
    "stops": [
     {
@@ -113047,9 +113164,18 @@
      "where_exactly": ""
     },
     {
+     "code": "C4-06",
+     "name": "Al Forsan Village main gate",
+     "time": "20:07",
+     "action": "set_down",
+     "lat": 24.4044,
+     "lng": 54.5514,
+     "where_exactly": "Main gate, Khalifa City."
+    },
+    {
      "code": "C4-21",
      "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
-     "time": "20:38",
+     "time": "20:44",
      "action": "set_down",
      "lat": 24.4757537,
      "lng": 54.3663931,
@@ -113058,7 +113184,7 @@
     {
      "code": "C4-23",
      "name": "Al Swedi Building 6, Al Sindan St, Al Zahiyah, Abu Dhabi",
-     "time": "20:51",
+     "time": "20:56",
      "action": "set_down",
      "lat": 24.5022611,
      "lng": 54.377864,
@@ -113067,7 +113193,7 @@
     {
      "code": "C4-01",
      "name": "Al Mariah Mall, Hamdan St",
-     "time": "21:00",
+     "time": "21:03",
      "action": "set_down",
      "lat": 24.494038,
      "lng": 54.366864,
@@ -117296,18 +117422,18 @@
    "service": "undergraduate",
    "arrive_campus": "10:45",
    "leave_campus": null,
-   "start": "08:54",
+   "start": "08:51",
    "end": "10:45",
    "vehicle": "M5",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 2,
+   "booked": 3,
    "seats": 15,
    "stops": [
     {
      "code": "C4-01",
      "name": "Al Mariah Mall, Hamdan St",
-     "time": "08:54",
+     "time": "08:51",
      "action": "pick_up",
      "lat": 24.494038,
      "lng": 54.366864,
@@ -117316,11 +117442,20 @@
     {
      "code": "C4-23",
      "name": "Al Swedi Building 6, Al Sindan St, Al Zahiyah, Abu Dhabi",
-     "time": "09:01",
+     "time": "08:57",
      "action": "pick_up",
      "lat": 24.5022611,
      "lng": 54.377864,
      "where_exactly": "Kerbside on Al Sindan Street outside Al Swedi Building 6 (same building as Makaram Dry Clean), in front of the large car park behind Future Pharmacy."
+    },
+    {
+     "code": "C4-06",
+     "name": "Al Forsan Village main gate",
+     "time": "09:16",
+     "action": "pick_up",
+     "lat": 24.4044,
+     "lng": 54.5514,
+     "where_exactly": "Main gate, Khalifa City."
     },
     {
      "code": "UOB",
@@ -117580,11 +117715,11 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "20:57",
+   "end": "21:00",
    "vehicle": "M5",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 3,
+   "booked": 4,
    "seats": 15,
    "stops": [
     {
@@ -117597,9 +117732,18 @@
      "where_exactly": ""
     },
     {
+     "code": "C4-06",
+     "name": "Al Forsan Village main gate",
+     "time": "20:05",
+     "action": "set_down",
+     "lat": 24.4044,
+     "lng": 54.5514,
+     "where_exactly": "Main gate, Khalifa City."
+    },
+    {
      "code": "C4-21",
      "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
-     "time": "20:35",
+     "time": "20:41",
      "action": "set_down",
      "lat": 24.4757537,
      "lng": 54.3663931,
@@ -117608,7 +117752,7 @@
     {
      "code": "C4-23",
      "name": "Al Swedi Building 6, Al Sindan St, Al Zahiyah, Abu Dhabi",
-     "time": "20:49",
+     "time": "20:53",
      "action": "set_down",
      "lat": 24.5022611,
      "lng": 54.377864,
@@ -117617,7 +117761,7 @@
     {
      "code": "C4-01",
      "name": "Al Mariah Mall, Hamdan St",
-     "time": "20:57",
+     "time": "21:00",
      "action": "set_down",
      "lat": 24.494038,
      "lng": 54.366864,
@@ -123633,11 +123777,11 @@
    "arrive_campus": null,
    "leave_campus": "21:36",
    "start": "21:36",
-   "end": "22:15",
+   "end": "22:10",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 3,
+   "booked": 2,
    "seats": 15,
    "stops": [
     {
@@ -123659,18 +123803,9 @@
      "where_exactly": "Kerbside outside Binghatti Crystals, near Axis 7, DSO. Rider-only stop (Nabeela); last call before campus on the central masters bus."
     },
     {
-     "code": "C2-11",
-     "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "22:10",
-     "action": "set_down",
-     "lat": 25.093492,
-     "lng": 55.177807,
-     "where_exactly": "Pick and drop area outside the Al Asmawi Building."
-    },
-    {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "22:15",
+     "time": "22:10",
      "action": "set_down",
      "lat": 25.099769538054428,
      "lng": 55.17320213081937,
