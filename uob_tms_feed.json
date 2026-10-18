@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-18T12:52:09Z",
+ "generated_at": "2026-10-18T13:03:33Z",
  "week": "2026-10-09 to 2026-11-15",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -36422,62 +36422,37 @@
    "day": "Mon",
    "route": "R6",
    "direction": "from_campus",
-   "service": "regular",
+   "service": "undergraduate",
    "arrive_campus": null,
    "leave_campus": "14:15",
    "start": "14:15",
-   "end": "16:00",
+   "end": "15:03",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 0,
+   "booked": 1,
    "seats": 15,
-   "offer_only": true,
    "stops": [
     {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
      "time": "14:15",
-     "action": "pick_up"
-    },
-    {
-     "code": "C4-09",
-     "name": "Holiday Inn, Al Maktoum Airport",
-     "time": "14:33",
-     "action": "set_down"
-    },
-    {
-     "code": "C4-10",
-     "name": "Green Community West gate",
-     "time": "14:50",
-     "action": "set_down"
-    },
-    {
-     "code": "C4-11",
-     "name": "Al Furjan West Centre",
-     "time": "15:07",
-     "action": "set_down"
+     "action": "pick_up",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
     },
     {
      "code": "C4-12",
      "name": "Al Furjan Centre (Pavilion)",
-     "time": "15:25",
-     "action": "set_down"
-    },
-    {
-     "code": "C4-13",
-     "name": "Gardens Metro Station",
-     "time": "15:43",
-     "action": "set_down"
-    },
-    {
-     "code": "C4-14",
-     "name": "Dubai British School, Jumeirah Park",
-     "time": "16:00",
-     "action": "set_down"
+     "time": "15:03",
+     "action": "set_down",
+     "lat": 25.026111,
+     "lng": 55.153303,
+     "where_exactly": "Spinneys bus stop."
     }
    ],
-   "status": "on_request"
+   "status": "operating"
   },
   {
    "run_id": "2026-10-19-R6-R2",
@@ -36545,11 +36520,11 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "19:37",
+   "end": "19:34",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 4,
+   "booked": 3,
    "seats": 15,
    "stops": [
     {
@@ -36564,7 +36539,7 @@
     {
      "code": "C4-13",
      "name": "Gardens Metro Station",
-     "time": "18:59",
+     "time": "19:01",
      "action": "set_down",
      "lat": 25.043761,
      "lng": 55.134832,
@@ -36573,25 +36548,16 @@
     {
      "code": "C4-19",
      "name": "Masakin Al Furjan Gate 2, Al Furjan",
-     "time": "19:11",
+     "time": "19:14",
      "action": "set_down",
      "lat": 25.0308,
      "lng": 55.14978,
      "where_exactly": "Masakin Al Furjan, Gate 2 (by Arcadia Global School) - exact gate pin to be confirmed from her map link."
     },
     {
-     "code": "C4-12",
-     "name": "Al Furjan Centre (Pavilion)",
-     "time": "19:21",
-     "action": "set_down",
-     "lat": 25.026111,
-     "lng": 55.153303,
-     "where_exactly": "Spinneys bus stop."
-    },
-    {
      "code": "C4-10",
      "name": "Green Community West gate",
-     "time": "19:37",
+     "time": "19:34",
      "action": "set_down",
      "lat": 25.001812,
      "lng": 55.164068,
@@ -36675,7 +36641,7 @@
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 8,
+   "booked": 9,
    "seats": 15,
    "stops": [
     {
@@ -36744,18 +36710,27 @@
    "service": "undergraduate",
    "arrive_campus": "09:45",
    "leave_campus": null,
-   "start": "08:26",
+   "start": "08:33",
    "end": "09:45",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 3,
+   "booked": 4,
    "seats": 15,
    "stops": [
     {
+     "code": "C5-04",
+     "name": "Oud Metha Metro Station",
+     "time": "08:33",
+     "action": "pick_up",
+     "lat": 25.243624,
+     "lng": 55.315799,
+     "where_exactly": "RTA bus stop Oud Metha 1, other side of the road, outside Super Saver supermarket."
+    },
+    {
      "code": "C5-06",
      "name": "Al Wasl Building, Al Hudaiba",
-     "time": "08:26",
+     "time": "08:45",
      "action": "pick_up",
      "lat": 25.243,
      "lng": 55.2788,
@@ -36764,7 +36739,7 @@
     {
      "code": "C5-07",
      "name": "World Trade Centre Metro Station",
-     "time": "08:41",
+     "time": "08:57",
      "action": "pick_up",
      "lat": 25.225614,
      "lng": 55.284365,
@@ -36773,7 +36748,7 @@
     {
      "code": "C5-11",
      "name": "One Park Avenue, Sobha Hartland",
-     "time": "09:03",
+     "time": "09:14",
      "action": "pick_up",
      "lat": 25.1784466,
      "lng": 55.3086196,
@@ -37201,7 +37176,7 @@
    "vehicle": "M7",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 7,
+   "booked": 8,
    "seats": 34,
    "stops": [
     {
@@ -41881,27 +41856,36 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:32",
+   "start": "05:29",
    "end": "07:45",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 9,
+   "booked": 10,
    "seats": 15,
    "stops": [
     {
      "code": "C5-21",
      "name": "Al Ghurair Centre bus stop (Ghurair City 2), Al Rigga Rd",
-     "time": "05:32",
+     "time": "05:29",
      "action": "pick_up",
      "lat": 25.266621,
      "lng": 55.317593,
      "where_exactly": "RTA bus stop \"Ghurair City 2\" on Al Rigga Road outside Al Ghurair Centre (Starbucks entrance side)."
     },
     {
+     "code": "C5-04",
+     "name": "Oud Metha Metro Station",
+     "time": "05:46",
+     "action": "pick_up",
+     "lat": 25.243624,
+     "lng": 55.315799,
+     "where_exactly": "RTA bus stop Oud Metha 1, other side of the road, outside Super Saver supermarket."
+    },
+    {
      "code": "C5-05",
      "name": "BurJuman Mall",
-     "time": "05:47",
+     "time": "05:58",
      "action": "pick_up",
      "lat": 25.254331,
      "lng": 55.303661,
@@ -41910,7 +41894,7 @@
     {
      "code": "C5-06",
      "name": "Al Wasl Building, Al Hudaiba",
-     "time": "06:07",
+     "time": "06:16",
      "action": "pick_up",
      "lat": 25.243,
      "lng": 55.2788,
@@ -41919,7 +41903,7 @@
     {
      "code": "C5-09",
      "name": "Bay Avenue Mall, Business Bay",
-     "time": "06:31",
+     "time": "06:38",
      "action": "pick_up",
      "lat": 25.191143,
      "lng": 55.265598,
@@ -41928,7 +41912,7 @@
     {
      "code": "C5-11",
      "name": "One Park Avenue, Sobha Hartland",
-     "time": "06:50",
+     "time": "06:56",
      "action": "pick_up",
      "lat": 25.1784466,
      "lng": 55.3086196,
@@ -41937,7 +41921,7 @@
     {
      "code": "C5-14",
      "name": "Meydan Heights, Nad Al Sheba 1",
-     "time": "07:06",
+     "time": "07:11",
      "action": "pick_up",
      "lat": 25.14468,
      "lng": 55.3152,
@@ -42072,7 +42056,7 @@
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 6,
+   "booked": 7,
    "seats": 15,
    "stops": [
     {
@@ -42329,7 +42313,7 @@
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 9,
+   "booked": 10,
    "seats": 15,
    "stops": [
     {
@@ -47144,7 +47128,7 @@
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 10,
+   "booked": 11,
    "seats": 15,
    "stops": [
     {
@@ -47245,7 +47229,7 @@
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 5,
+   "booked": 6,
    "seats": 15,
    "stops": [
     {
@@ -47605,7 +47589,7 @@
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 8,
+   "booked": 9,
    "seats": 15,
    "stops": [
     {
@@ -52112,31 +52096,22 @@
    "service": "undergraduate",
    "arrive_campus": "12:45",
    "leave_campus": null,
-   "start": "11:53",
+   "start": "11:56",
    "end": "12:45",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 2,
+   "booked": 1,
    "seats": 15,
    "stops": [
     {
      "code": "C4-10",
      "name": "Green Community West gate",
-     "time": "11:53",
+     "time": "11:56",
      "action": "pick_up",
      "lat": 25.001812,
      "lng": 55.164068,
      "where_exactly": "Public bus stop on the main road outside the community."
-    },
-    {
-     "code": "C4-12",
-     "name": "Al Furjan Centre (Pavilion)",
-     "time": "12:07",
-     "action": "pick_up",
-     "lat": 25.026111,
-     "lng": 55.153303,
-     "where_exactly": "Spinneys bus stop."
     },
     {
      "code": "UOB",
@@ -52454,7 +52429,7 @@
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 9,
+   "booked": 10,
    "seats": 15,
    "stops": [
     {
@@ -52631,7 +52606,7 @@
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 6,
+   "booked": 7,
    "seats": 15,
    "stops": [
     {
@@ -52917,7 +52892,7 @@
    "vehicle": "M7",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 13,
+   "booked": 14,
    "seats": 34,
    "stops": [
     {
@@ -56651,7 +56626,7 @@
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 5,
+   "booked": 6,
    "seats": 15,
    "stops": [
     {
@@ -57103,7 +57078,7 @@
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 9,
+   "booked": 10,
    "seats": 15,
    "stops": [
     {
