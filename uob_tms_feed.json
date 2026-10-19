@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-19T02:39:43Z",
+ "generated_at": "2026-10-19T03:22:58Z",
  "week": "2026-10-09 to 2026-11-15",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -34906,36 +34906,27 @@
    "service": "undergraduate",
    "arrive_campus": "09:45",
    "leave_campus": null,
-   "start": "08:37",
+   "start": "08:40",
    "end": "09:45",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 3,
+   "booked": 2,
    "seats": 15,
    "stops": [
     {
      "code": "C3-18",
      "name": "Tuscan Residence Siena 1, JVC",
-     "time": "08:37",
+     "time": "08:40",
      "action": "pick_up",
      "lat": 25.063605,
      "lng": 55.207328,
      "where_exactly": "Kerbside on 22 Street outside Siena 1; do not enter the building car park."
     },
     {
-     "code": "C3-03",
-     "name": "Dubai Miracle Garden",
-     "time": "08:50",
-     "action": "pick_up",
-     "lat": 25.061132,
-     "lng": 55.246185,
-     "where_exactly": "Bus stop between Dubai Miracle Garden and Dubai Butterfly Garden."
-    },
-    {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "09:08",
+     "time": "08:59",
      "action": "pick_up",
      "lat": 25.040494,
      "lng": 55.195971,
@@ -35310,11 +35301,11 @@
    "arrive_campus": null,
    "leave_campus": "16:30",
    "start": "16:30",
-   "end": "18:37",
+   "end": "18:34",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 12,
+   "booked": 11,
    "seats": 15,
    "stops": [
     {
@@ -35329,7 +35320,7 @@
     {
      "code": "C3-16",
      "name": "Souq Extra, Silicon Oasis",
-     "time": "16:41",
+     "time": "16:42",
      "action": "set_down",
      "lat": 25.1192507,
      "lng": 55.3955344,
@@ -35338,7 +35329,7 @@
     {
      "code": "C3-11",
      "name": "Living Legends",
-     "time": "17:03",
+     "time": "17:09",
      "action": "set_down",
      "lat": 25.0910153,
      "lng": 55.3026039,
@@ -35347,7 +35338,7 @@
     {
      "code": "C3-23",
      "name": "Reem Townhouses shuttle stop, Town Square",
-     "time": "17:25",
+     "time": "17:34",
      "action": "set_down",
      "lat": 25.01081,
      "lng": 55.27931,
@@ -35356,7 +35347,7 @@
     {
      "code": "C3-09",
      "name": "Spinneys, Town Square",
-     "time": "17:32",
+     "time": "17:41",
      "action": "set_down",
      "lat": 25.0099047,
      "lng": 55.2902856,
@@ -35365,7 +35356,7 @@
     {
      "code": "C3-21",
      "name": "DAMAC Hills Mall, DAMAC Hills",
-     "time": "17:44",
+     "time": "17:55",
      "action": "set_down",
      "lat": 25.0179838,
      "lng": 55.2468052,
@@ -35374,25 +35365,16 @@
     {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "17:58",
+     "time": "18:11",
      "action": "set_down",
      "lat": 25.040494,
      "lng": 55.195971,
      "where_exactly": "Outside drop-off area by Tim Hortons, City Centre Me'aisem."
     },
     {
-     "code": "C3-03",
-     "name": "Dubai Miracle Garden",
-     "time": "18:13",
-     "action": "set_down",
-     "lat": 25.061132,
-     "lng": 55.246185,
-     "where_exactly": "Bus stop between Dubai Miracle Garden and Dubai Butterfly Garden."
-    },
-    {
      "code": "C3-02",
      "name": "Circle Mall, JVC",
-     "time": "18:26",
+     "time": "18:22",
      "action": "set_down",
      "lat": 25.0660395,
      "lng": 55.2162257,
@@ -35401,7 +35383,7 @@
     {
      "code": "C3-18",
      "name": "Tuscan Residence Siena 1, JVC",
-     "time": "18:33",
+     "time": "18:29",
      "action": "set_down",
      "lat": 25.063605,
      "lng": 55.207328,
@@ -35410,7 +35392,7 @@
     {
      "code": "C3-01",
      "name": "JSS International School",
-     "time": "18:37",
+     "time": "18:34",
      "action": "set_down",
      "lat": 25.0665,
      "lng": 55.2046,
@@ -40028,36 +40010,27 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:28",
+   "start": "05:31",
    "end": "07:45",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 10,
+   "booked": 9,
    "seats": 15,
    "stops": [
     {
      "code": "C3-01",
      "name": "JSS International School",
-     "time": "05:28",
+     "time": "05:31",
      "action": "pick_up",
      "lat": 25.0665,
      "lng": 55.2046,
      "where_exactly": "Gate 4 kerb, opposite Tudo Mart, behind Bloom Tower C (JVC District 10). Do not enter the school car park."
     },
     {
-     "code": "C3-03",
-     "name": "Dubai Miracle Garden",
-     "time": "05:39",
-     "action": "pick_up",
-     "lat": 25.061132,
-     "lng": 55.246185,
-     "where_exactly": "Bus stop between Dubai Miracle Garden and Dubai Butterfly Garden."
-    },
-    {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "05:52",
+     "time": "05:44",
      "action": "pick_up",
      "lat": 25.040494,
      "lng": 55.195971,
@@ -40066,7 +40039,7 @@
     {
      "code": "C3-21",
      "name": "DAMAC Hills Mall, DAMAC Hills",
-     "time": "06:05",
+     "time": "05:58",
      "action": "pick_up",
      "lat": 25.0179838,
      "lng": 55.2468052,
@@ -40075,7 +40048,7 @@
     {
      "code": "C3-07",
      "name": "First Avenue Mall, Motor City",
-     "time": "06:14",
+     "time": "06:08",
      "action": "pick_up",
      "lat": 25.046685,
      "lng": 55.243063,
@@ -40084,7 +40057,7 @@
     {
      "code": "C3-09",
      "name": "Spinneys, Town Square",
-     "time": "06:28",
+     "time": "06:23",
      "action": "pick_up",
      "lat": 25.0099047,
      "lng": 55.2902856,
@@ -40093,7 +40066,7 @@
     {
      "code": "C3-11",
      "name": "Living Legends",
-     "time": "06:48",
+     "time": "06:44",
      "action": "pick_up",
      "lat": 25.0910153,
      "lng": 55.3026039,
@@ -40102,7 +40075,7 @@
     {
      "code": "C3-14",
      "name": "Skycourts Towers",
-     "time": "07:06",
+     "time": "07:04",
      "action": "pick_up",
      "lat": 25.0898954,
      "lng": 55.3865139,
@@ -40111,7 +40084,7 @@
     {
      "code": "C3-16",
      "name": "Souq Extra, Silicon Oasis",
-     "time": "07:15",
+     "time": "07:13",
      "action": "pick_up",
      "lat": 25.1192507,
      "lng": 55.3955344,
@@ -40120,7 +40093,7 @@
     {
      "code": "C3-25",
      "name": "Villanova La Rosa 1, Villa 46",
-     "time": "07:29",
+     "time": "07:28",
      "action": "pick_up",
      "lat": 25.0765573,
      "lng": 55.3609188,
@@ -40596,11 +40569,11 @@
    "arrive_campus": null,
    "leave_campus": "16:30",
    "start": "16:30",
-   "end": "18:15",
+   "end": "18:12",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 5,
+   "booked": 4,
    "seats": 15,
    "stops": [
     {
@@ -40615,7 +40588,7 @@
     {
      "code": "C3-09",
      "name": "Spinneys, Town Square",
-     "time": "17:14",
+     "time": "17:17",
      "action": "set_down",
      "lat": 25.0099047,
      "lng": 55.2902856,
@@ -40624,7 +40597,7 @@
     {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "17:40",
+     "time": "17:46",
      "action": "set_down",
      "lat": 25.040494,
      "lng": 55.195971,
@@ -40633,25 +40606,16 @@
     {
      "code": "C3-04",
      "name": "Dubai International Cricket Stadium",
-     "time": "17:52",
+     "time": "17:58",
      "action": "set_down",
      "lat": 25.043579,
      "lng": 55.218241,
      "where_exactly": "Dubai Cricket Stadium bus stop 1 (wooden shelter)."
     },
     {
-     "code": "C3-03",
-     "name": "Dubai Miracle Garden",
-     "time": "18:03",
-     "action": "set_down",
-     "lat": 25.061132,
-     "lng": 55.246185,
-     "where_exactly": "Bus stop between Dubai Miracle Garden and Dubai Butterfly Garden."
-    },
-    {
      "code": "C3-18",
      "name": "Tuscan Residence Siena 1, JVC",
-     "time": "18:15",
+     "time": "18:12",
      "action": "set_down",
      "lat": 25.063605,
      "lng": 55.207328,
@@ -45487,36 +45451,27 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:45",
+   "start": "05:48",
    "end": "07:45",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 8,
+   "booked": 7,
    "seats": 15,
    "stops": [
     {
      "code": "C3-02",
      "name": "Circle Mall, JVC",
-     "time": "05:45",
+     "time": "05:48",
      "action": "pick_up",
      "lat": 25.0660395,
      "lng": 55.2162257,
      "where_exactly": "Main entrance."
     },
     {
-     "code": "C3-03",
-     "name": "Dubai Miracle Garden",
-     "time": "05:59",
-     "action": "pick_up",
-     "lat": 25.061132,
-     "lng": 55.246185,
-     "where_exactly": "Bus stop between Dubai Miracle Garden and Dubai Butterfly Garden."
-    },
-    {
      "code": "C3-17",
      "name": "Eagle Heights, Dubai Sports City",
-     "time": "06:09",
+     "time": "05:59",
      "action": "pick_up",
      "lat": 25.036628,
      "lng": 55.221187,
@@ -45525,7 +45480,7 @@
     {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "06:21",
+     "time": "06:12",
      "action": "pick_up",
      "lat": 25.040494,
      "lng": 55.195971,
@@ -45534,7 +45489,7 @@
     {
      "code": "C3-09",
      "name": "Spinneys, Town Square",
-     "time": "06:44",
+     "time": "06:38",
      "action": "pick_up",
      "lat": 25.0099047,
      "lng": 55.2902856,
@@ -45543,7 +45498,7 @@
     {
      "code": "C3-23",
      "name": "Reem Townhouses shuttle stop, Town Square",
-     "time": "06:51",
+     "time": "06:45",
      "action": "pick_up",
      "lat": 25.01081,
      "lng": 55.27931,
@@ -45552,7 +45507,7 @@
     {
      "code": "C3-11",
      "name": "Living Legends",
-     "time": "07:13",
+     "time": "07:09",
      "action": "pick_up",
      "lat": 25.0910153,
      "lng": 55.3026039,
@@ -45561,7 +45516,7 @@
     {
      "code": "C3-14",
      "name": "Skycourts Towers",
-     "time": "07:33",
+     "time": "07:31",
      "action": "pick_up",
      "lat": 25.0898954,
      "lng": 55.3865139,
@@ -45914,11 +45869,11 @@
    "arrive_campus": null,
    "leave_campus": "14:15",
    "start": "14:15",
-   "end": "15:29",
+   "end": "15:26",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 6,
+   "booked": 5,
    "seats": 15,
    "stops": [
     {
@@ -45933,7 +45888,7 @@
     {
      "code": "C3-23",
      "name": "Reem Townhouses shuttle stop, Town Square",
-     "time": "14:36",
+     "time": "14:40",
      "action": "set_down",
      "lat": 25.01081,
      "lng": 55.27931,
@@ -45942,7 +45897,7 @@
     {
      "code": "C3-09",
      "name": "Spinneys, Town Square",
-     "time": "14:43",
+     "time": "14:47",
      "action": "set_down",
      "lat": 25.0099047,
      "lng": 55.2902856,
@@ -45951,25 +45906,16 @@
     {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "15:05",
+     "time": "15:12",
      "action": "set_down",
      "lat": 25.040494,
      "lng": 55.195971,
      "where_exactly": "Outside drop-off area by Tim Hortons, City Centre Me'aisem."
     },
     {
-     "code": "C3-03",
-     "name": "Dubai Miracle Garden",
-     "time": "15:19",
-     "action": "set_down",
-     "lat": 25.061132,
-     "lng": 55.246185,
-     "where_exactly": "Bus stop between Dubai Miracle Garden and Dubai Butterfly Garden."
-    },
-    {
      "code": "C3-18",
      "name": "Tuscan Residence Siena 1, JVC",
-     "time": "15:29",
+     "time": "15:26",
      "action": "set_down",
      "lat": 25.063605,
      "lng": 55.207328,
@@ -50872,18 +50818,18 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:28",
+   "start": "05:31",
    "end": "07:45",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 10,
+   "booked": 9,
    "seats": 15,
    "stops": [
     {
      "code": "C3-01",
      "name": "JSS International School",
-     "time": "05:28",
+     "time": "05:31",
      "action": "pick_up",
      "lat": 25.0665,
      "lng": 55.2046,
@@ -50892,25 +50838,16 @@
     {
      "code": "C3-02",
      "name": "Circle Mall, JVC",
-     "time": "05:35",
+     "time": "05:39",
      "action": "pick_up",
      "lat": 25.0660395,
      "lng": 55.2162257,
      "where_exactly": "Main entrance."
     },
     {
-     "code": "C3-03",
-     "name": "Dubai Miracle Garden",
-     "time": "05:49",
-     "action": "pick_up",
-     "lat": 25.061132,
-     "lng": 55.246185,
-     "where_exactly": "Bus stop between Dubai Miracle Garden and Dubai Butterfly Garden."
-    },
-    {
      "code": "C3-04",
      "name": "Dubai International Cricket Stadium",
-     "time": "05:59",
+     "time": "05:51",
      "action": "pick_up",
      "lat": 25.043579,
      "lng": 55.218241,
@@ -50919,7 +50856,7 @@
     {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "06:10",
+     "time": "06:03",
      "action": "pick_up",
      "lat": 25.040494,
      "lng": 55.195971,
@@ -50928,7 +50865,7 @@
     {
      "code": "C3-21",
      "name": "DAMAC Hills Mall, DAMAC Hills",
-     "time": "06:25",
+     "time": "06:19",
      "action": "pick_up",
      "lat": 25.0179838,
      "lng": 55.2468052,
@@ -50937,7 +50874,7 @@
     {
      "code": "C3-08",
      "name": "Serena, Bella Casa",
-     "time": "06:38",
+     "time": "06:33",
      "action": "pick_up",
      "lat": 25.0389716,
      "lng": 55.2890906,
@@ -50946,7 +50883,7 @@
     {
      "code": "C3-11",
      "name": "Living Legends",
-     "time": "06:53",
+     "time": "06:49",
      "action": "pick_up",
      "lat": 25.0910153,
      "lng": 55.3026039,
@@ -50955,7 +50892,7 @@
     {
      "code": "C3-14",
      "name": "Skycourts Towers",
-     "time": "07:13",
+     "time": "07:11",
      "action": "pick_up",
      "lat": 25.0898954,
      "lng": 55.3865139,
@@ -50964,7 +50901,7 @@
     {
      "code": "C3-25",
      "name": "Villanova La Rosa 1, Villa 46",
-     "time": "07:27",
+     "time": "07:25",
      "action": "pick_up",
      "lat": 25.0765573,
      "lng": 55.3609188,
@@ -51366,11 +51303,11 @@
    "arrive_campus": null,
    "leave_campus": "14:15",
    "start": "14:15",
-   "end": "15:26",
+   "end": "15:23",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 4,
+   "booked": 3,
    "seats": 15,
    "stops": [
     {
@@ -51385,7 +51322,7 @@
     {
      "code": "C3-08",
      "name": "Serena, Bella Casa",
-     "time": "14:52",
+     "time": "14:55",
      "action": "set_down",
      "lat": 25.0389716,
      "lng": 55.2890906,
@@ -51394,25 +51331,16 @@
     {
      "code": "C3-07",
      "name": "First Avenue Mall, Motor City",
-     "time": "15:05",
+     "time": "15:09",
      "action": "set_down",
      "lat": 25.046685,
      "lng": 55.243063,
      "where_exactly": "Pick and drop point in front of First Avenue Mall, by Shake Shack."
     },
     {
-     "code": "C3-03",
-     "name": "Dubai Miracle Garden",
-     "time": "15:14",
-     "action": "set_down",
-     "lat": 25.061132,
-     "lng": 55.246185,
-     "where_exactly": "Bus stop between Dubai Miracle Garden and Dubai Butterfly Garden."
-    },
-    {
      "code": "C3-01",
      "name": "JSS International School",
-     "time": "15:26",
+     "time": "15:23",
      "action": "set_down",
      "lat": 25.0665,
      "lng": 55.2046,
