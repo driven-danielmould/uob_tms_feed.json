@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-19T08:21:19Z",
+ "generated_at": "2026-10-19T08:58:10Z",
  "week": "2026-10-09 to 2026-11-15",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -37803,6 +37803,71 @@
    "status": "operating"
   },
   {
+   "run_id": "2026-10-19-R8-R4C",
+   "date": "2026-10-19",
+   "day": "Mon",
+   "route": "R8",
+   "direction": "from_campus",
+   "service": "masters",
+   "arrive_campus": null,
+   "leave_campus": "21:36",
+   "start": "21:36",
+   "end": "22:29",
+   "vehicle": "M8",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 4,
+   "seats": 15,
+   "stops": [
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "21:36",
+     "action": "pick_up",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    },
+    {
+     "code": "C3-26",
+     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
+     "time": "21:49",
+     "action": "set_down",
+     "lat": 25.107412,
+     "lng": 55.3785071,
+     "where_exactly": "Kerbside outside Binghatti Crystals, near Axis 7, DSO. Rider-only stop (Nabeela); last call before campus on the central masters bus."
+    },
+    {
+     "code": "C3-21",
+     "name": "DAMAC Hills Mall, DAMAC Hills",
+     "time": "22:13",
+     "action": "set_down",
+     "lat": 25.0179838,
+     "lng": 55.2468052,
+     "where_exactly": "Mall drop-off, DAMAC Hills."
+    },
+    {
+     "code": "C3-17",
+     "name": "Eagle Heights, Dubai Sports City",
+     "time": "22:22",
+     "action": "set_down",
+     "lat": 25.036628,
+     "lng": 55.221187,
+     "where_exactly": "Outside the front of the Eagle Heights building."
+    },
+    {
+     "code": "C3-19",
+     "name": "Regina Tower, JVC",
+     "time": "22:29",
+     "action": "set_down",
+     "lat": 25.057284,
+     "lng": 55.212609,
+     "where_exactly": "Kerbside on 24 Street outside the tower entrance; do not enter the car park."
+    }
+   ],
+   "status": "operating"
+  },
+  {
    "run_id": "2026-10-19-R8-R4N",
    "date": "2026-10-19",
    "day": "Mon",
@@ -37850,11 +37915,11 @@
    "arrive_campus": null,
    "leave_campus": "21:36",
    "start": "21:36",
-   "end": "23:07",
+   "end": "22:17",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 7,
+   "booked": 3,
    "seats": 15,
    "stops": [
     {
@@ -37867,45 +37932,9 @@
      "where_exactly": ""
     },
     {
-     "code": "C3-26",
-     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
-     "time": "21:48",
-     "action": "set_down",
-     "lat": 25.107412,
-     "lng": 55.3785071,
-     "where_exactly": "Kerbside outside Binghatti Crystals, near Axis 7, DSO. Rider-only stop (Nabeela); last call before campus on the central masters bus."
-    },
-    {
-     "code": "C3-21",
-     "name": "DAMAC Hills Mall, DAMAC Hills",
-     "time": "22:20",
-     "action": "set_down",
-     "lat": 25.0179838,
-     "lng": 55.2468052,
-     "where_exactly": "Mall drop-off, DAMAC Hills."
-    },
-    {
-     "code": "C3-17",
-     "name": "Eagle Heights, Dubai Sports City",
-     "time": "22:29",
-     "action": "set_down",
-     "lat": 25.036628,
-     "lng": 55.221187,
-     "where_exactly": "Outside the front of the Eagle Heights building."
-    },
-    {
-     "code": "C3-19",
-     "name": "Regina Tower, JVC",
-     "time": "22:37",
-     "action": "set_down",
-     "lat": 25.057284,
-     "lng": 55.212609,
-     "where_exactly": "Kerbside on 24 Street outside the tower entrance; do not enter the car park."
-    },
-    {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "22:49",
+     "time": "22:01",
      "action": "set_down",
      "lat": 25.093492,
      "lng": 55.177807,
@@ -37914,7 +37943,7 @@
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "22:57",
+     "time": "22:06",
      "action": "set_down",
      "lat": 25.099769538054428,
      "lng": 55.17320213081937,
@@ -37923,7 +37952,7 @@
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "23:07",
+     "time": "22:17",
      "action": "set_down",
      "lat": 25.075735,
      "lng": 55.140981,
