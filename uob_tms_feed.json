@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-19T17:49:42Z",
+ "generated_at": "2026-10-19T17:51:38Z",
  "week": "2026-10-09 to 2026-11-15",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -547,10 +547,10 @@
      "code": "C1-19",
      "order": 15,
      "name": "Shorooq Gate 3, Mirdif",
-     "lat": 25.214495,
-     "lng": 55.428185,
+     "lat": 25.219706,
+     "lng": 55.427511,
      "google_place_id": null,
-     "where_exactly": "Outside Shorooq compound Gate 3; do not enter the compound.",
+     "where_exactly": "Shorooq Compound Gate 3 - the roundabout outside the gate (not Gate 2). Pin confirmed by the family 19 Oct.",
      "pickup_lat": 25.214495,
      "pickup_lng": 55.428185,
      "pickup_where_exactly": "Outside Shorooq compound Gate 3; do not enter the compound.",
@@ -7296,9 +7296,9 @@
      "name": "Shorooq Gate 3, Mirdif",
      "time": "10:25",
      "action": "pick_up",
-     "lat": 25.214495,
-     "lng": 55.428185,
-     "where_exactly": "Outside Shorooq compound Gate 3; do not enter the compound."
+     "lat": 25.219706,
+     "lng": 55.427511,
+     "where_exactly": "Shorooq Compound Gate 3 - the roundabout outside the gate (not Gate 2)."
     },
     {
      "code": "UOB",
@@ -7553,9 +7553,9 @@
      "name": "Shorooq Gate 3, Mirdif",
      "time": "18:43",
      "action": "set_down",
-     "lat": 25.214495,
-     "lng": 55.428185,
-     "where_exactly": "Outside Shorooq compound Gate 3; do not enter the compound."
+     "lat": 25.219706,
+     "lng": 55.427511,
+     "where_exactly": "Shorooq Compound Gate 3 - the roundabout outside the gate (not Gate 2)."
     },
     {
      "code": "C1-12",
@@ -11640,9 +11640,9 @@
      "name": "Shorooq Gate 3, Mirdif",
      "time": "07:02",
      "action": "pick_up",
-     "lat": 25.214495,
-     "lng": 55.428185,
-     "where_exactly": "Outside Shorooq compound Gate 3; do not enter the compound."
+     "lat": 25.219706,
+     "lng": 55.427511,
+     "where_exactly": "Shorooq Compound Gate 3 - the roundabout outside the gate (not Gate 2)."
     },
     {
      "code": "C1-13",
@@ -12083,9 +12083,9 @@
      "name": "Shorooq Gate 3, Mirdif",
      "time": "17:12",
      "action": "set_down",
-     "lat": 25.214495,
-     "lng": 55.428185,
-     "where_exactly": "Outside Shorooq compound Gate 3; do not enter the compound."
+     "lat": 25.219706,
+     "lng": 55.427511,
+     "where_exactly": "Shorooq Compound Gate 3 - the roundabout outside the gate (not Gate 2)."
     },
     {
      "code": "C1-12",
@@ -17059,9 +17059,9 @@
      "name": "Shorooq Gate 3, Mirdif",
      "time": "07:03",
      "action": "pick_up",
-     "lat": 25.214495,
-     "lng": 55.428185,
-     "where_exactly": "Outside Shorooq compound Gate 3; do not enter the compound."
+     "lat": 25.219706,
+     "lng": 55.427511,
+     "where_exactly": "Shorooq Compound Gate 3 - the roundabout outside the gate (not Gate 2)."
     },
     {
      "code": "C1-13",
@@ -17626,9 +17626,9 @@
      "name": "Shorooq Gate 3, Mirdif",
      "time": "18:43",
      "action": "set_down",
-     "lat": 25.214495,
-     "lng": 55.428185,
-     "where_exactly": "Outside Shorooq compound Gate 3; do not enter the compound."
+     "lat": 25.219706,
+     "lng": 55.427511,
+     "where_exactly": "Shorooq Compound Gate 3 - the roundabout outside the gate (not Gate 2)."
     },
     {
      "code": "C1-12",
@@ -22906,9 +22906,9 @@
      "name": "Shorooq Gate 3, Mirdif",
      "time": "07:02",
      "action": "pick_up",
-     "lat": 25.214495,
-     "lng": 55.428185,
-     "where_exactly": "Outside Shorooq compound Gate 3; do not enter the compound."
+     "lat": 25.219706,
+     "lng": 55.427511,
+     "where_exactly": "Shorooq Compound Gate 3 - the roundabout outside the gate (not Gate 2)."
     },
     {
      "code": "C1-13",
@@ -23409,9 +23409,9 @@
      "name": "Shorooq Gate 3, Mirdif",
      "time": "18:40",
      "action": "set_down",
-     "lat": 25.214495,
-     "lng": 55.428185,
-     "where_exactly": "Outside Shorooq compound Gate 3; do not enter the compound."
+     "lat": 25.219706,
+     "lng": 55.427511,
+     "where_exactly": "Shorooq Compound Gate 3 - the roundabout outside the gate (not Gate 2)."
     },
     {
      "code": "C1-12",
@@ -33484,9 +33484,9 @@
      "name": "Shorooq Gate 3, Mirdif",
      "time": "07:00",
      "action": "pick_up",
-     "lat": 25.214495,
-     "lng": 55.428185,
-     "where_exactly": "Outside Shorooq compound Gate 3; do not enter the compound."
+     "lat": 25.219706,
+     "lng": 55.427511,
+     "where_exactly": "Shorooq Compound Gate 3 - the roundabout outside the gate (not Gate 2). Pin confirmed by the family 19 Oct."
     },
     {
      "code": "UOB",
@@ -33917,9 +33917,9 @@
      "name": "Shorooq Gate 3, Mirdif",
      "time": "17:02",
      "action": "set_down",
-     "lat": 25.214495,
-     "lng": 55.428185,
-     "where_exactly": "Outside Shorooq compound Gate 3; do not enter the compound."
+     "lat": 25.219706,
+     "lng": 55.427511,
+     "where_exactly": "Shorooq Compound Gate 3 - the roundabout outside the gate (not Gate 2). Pin confirmed by the family 19 Oct."
     },
     {
      "code": "C1-27",
@@ -38528,9 +38528,9 @@
      "name": "Shorooq Gate 3, Mirdif",
      "time": "07:15",
      "action": "pick_up",
-     "lat": 25.214495,
-     "lng": 55.428185,
-     "where_exactly": "Outside Shorooq compound Gate 3; do not enter the compound."
+     "lat": 25.219706,
+     "lng": 55.427511,
+     "where_exactly": "Shorooq Compound Gate 3 - the roundabout outside the gate (not Gate 2). Pin confirmed by the family 19 Oct."
     },
     {
      "code": "UOB",
@@ -38604,7 +38604,7 @@
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 3,
+   "booked": 4,
    "seats": 34,
    "status": "operating",
    "stops": [
@@ -38646,6 +38646,15 @@
      "where_exactly": "RTA bus stop \"Dubai Grand Hotel 1\" on Damascus Street (Al Twar 5 side), by the Dubai Grand Hotel. Public stop from 16 Oct."
     },
     {
+     "code": "C1-19",
+     "name": "Shorooq Gate 3, Mirdif",
+     "time": "10:27",
+     "action": "pick_up",
+     "lat": 25.219706,
+     "lng": 55.427511,
+     "where_exactly": "Shorooq Compound Gate 3 - the roundabout outside the gate (not Gate 2). Pin confirmed by the family 19 Oct."
+    },
+    {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
      "time": "10:45",
@@ -38670,7 +38679,7 @@
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 5,
+   "booked": 4,
    "seats": 34,
    "status": "operating",
    "stops": [
@@ -38710,15 +38719,6 @@
      "lat": 25.224246,
      "lng": 55.423615,
      "where_exactly": "Kerbside outside Exotic Fin Store, Uptown Mirdif, corner of Algeria St."
-    },
-    {
-     "code": "C1-19",
-     "name": "Shorooq Gate 3, Mirdif",
-     "time": "12:10",
-     "action": "pick_up",
-     "lat": 25.214495,
-     "lng": 55.428185,
-     "where_exactly": "Outside Shorooq compound Gate 3; do not enter the compound."
     },
     {
      "code": "C1-13",
@@ -38907,7 +38907,7 @@
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 9,
+   "booked": 8,
    "seats": 34,
    "status": "operating",
    "stops": [
@@ -38934,9 +38934,9 @@
      "name": "Shorooq Gate 3, Mirdif",
      "time": "17:09",
      "action": "set_down",
-     "lat": 25.214495,
-     "lng": 55.428185,
-     "where_exactly": "Outside Shorooq compound Gate 3; do not enter the compound."
+     "lat": 25.219706,
+     "lng": 55.427511,
+     "where_exactly": "Shorooq Compound Gate 3 - the roundabout outside the gate (not Gate 2). Pin confirmed by the family 19 Oct."
     },
     {
      "code": "C1-27",
@@ -39009,7 +39009,7 @@
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 11,
+   "booked": 12,
    "seats": 34,
    "status": "operating",
    "stops": [
@@ -39021,6 +39021,15 @@
      "lat": 25.1321925,
      "lng": 55.4223161,
      "where_exactly": ""
+    },
+    {
+     "code": "C1-19",
+     "name": "Shorooq Gate 3, Mirdif",
+     "time": "18:35",
+     "action": "set_down",
+     "lat": 25.219706,
+     "lng": 55.427511,
+     "where_exactly": "Shorooq Compound Gate 3 - the roundabout outside the gate (not Gate 2). Pin confirmed by the family 19 Oct."
     },
     {
      "code": "C1-25",
@@ -43655,9 +43664,9 @@
      "name": "Shorooq Gate 3, Mirdif",
      "time": "07:18",
      "action": "pick_up",
-     "lat": 25.214495,
-     "lng": 55.428185,
-     "where_exactly": "Outside Shorooq compound Gate 3; do not enter the compound."
+     "lat": 25.219706,
+     "lng": 55.427511,
+     "where_exactly": "Shorooq Compound Gate 3 - the roundabout outside the gate (not Gate 2). Pin confirmed by the family 19 Oct."
     },
     {
      "code": "UOB",
@@ -43832,9 +43841,9 @@
      "name": "Shorooq Gate 3, Mirdif",
      "time": "12:15",
      "action": "pick_up",
-     "lat": 25.214495,
-     "lng": 55.428185,
-     "where_exactly": "Outside Shorooq compound Gate 3; do not enter the compound."
+     "lat": 25.219706,
+     "lng": 55.427511,
+     "where_exactly": "Shorooq Compound Gate 3 - the roundabout outside the gate (not Gate 2). Pin confirmed by the family 19 Oct."
     },
     {
      "code": "UOB",
@@ -43879,9 +43888,9 @@
      "name": "Shorooq Gate 3, Mirdif",
      "time": "14:39",
      "action": "set_down",
-     "lat": 25.214495,
-     "lng": 55.428185,
-     "where_exactly": "Outside Shorooq compound Gate 3; do not enter the compound."
+     "lat": 25.219706,
+     "lng": 55.427511,
+     "where_exactly": "Shorooq Compound Gate 3 - the roundabout outside the gate (not Gate 2). Pin confirmed by the family 19 Oct."
     },
     {
      "code": "C1-12",
@@ -44051,9 +44060,9 @@
      "name": "Shorooq Gate 3, Mirdif",
      "time": "16:58",
      "action": "set_down",
-     "lat": 25.214495,
-     "lng": 55.428185,
-     "where_exactly": "Outside Shorooq compound Gate 3; do not enter the compound."
+     "lat": 25.219706,
+     "lng": 55.427511,
+     "where_exactly": "Shorooq Compound Gate 3 - the roundabout outside the gate (not Gate 2). Pin confirmed by the family 19 Oct."
     },
     {
      "code": "C1-25",
@@ -48812,9 +48821,9 @@
      "name": "Shorooq Gate 3, Mirdif",
      "time": "07:17",
      "action": "pick_up",
-     "lat": 25.214495,
-     "lng": 55.428185,
-     "where_exactly": "Outside Shorooq compound Gate 3; do not enter the compound."
+     "lat": 25.219706,
+     "lng": 55.427511,
+     "where_exactly": "Shorooq Compound Gate 3 - the roundabout outside the gate (not Gate 2). Pin confirmed by the family 19 Oct."
     },
     {
      "code": "UOB",
@@ -49200,9 +49209,9 @@
      "name": "Shorooq Gate 3, Mirdif",
      "time": "17:09",
      "action": "set_down",
-     "lat": 25.214495,
-     "lng": 55.428185,
-     "where_exactly": "Outside Shorooq compound Gate 3; do not enter the compound."
+     "lat": 25.219706,
+     "lng": 55.427511,
+     "where_exactly": "Shorooq Compound Gate 3 - the roundabout outside the gate (not Gate 2). Pin confirmed by the family 19 Oct."
     },
     {
      "code": "C1-12",
@@ -49275,9 +49284,9 @@
      "name": "Shorooq Gate 3, Mirdif",
      "time": "18:40",
      "action": "set_down",
-     "lat": 25.214495,
-     "lng": 55.428185,
-     "where_exactly": "Outside Shorooq compound Gate 3; do not enter the compound."
+     "lat": 25.219706,
+     "lng": 55.427511,
+     "where_exactly": "Shorooq Compound Gate 3 - the roundabout outside the gate (not Gate 2). Pin confirmed by the family 19 Oct."
     },
     {
      "code": "C1-27",
@@ -53419,9 +53428,9 @@
      "name": "Shorooq Gate 3, Mirdif",
      "time": "07:16",
      "action": "pick_up",
-     "lat": 25.214495,
-     "lng": 55.428185,
-     "where_exactly": "Outside Shorooq compound Gate 3; do not enter the compound."
+     "lat": 25.219706,
+     "lng": 55.427511,
+     "where_exactly": "Shorooq Compound Gate 3 - the roundabout outside the gate (not Gate 2). Pin confirmed by the family 19 Oct."
     },
     {
      "code": "UOB",
@@ -53763,9 +53772,9 @@
      "name": "Shorooq Gate 3, Mirdif",
      "time": "12:32",
      "action": "set_down",
-     "lat": 25.214495,
-     "lng": 55.428185,
-     "where_exactly": "Outside Shorooq compound Gate 3; do not enter the compound."
+     "lat": 25.219706,
+     "lng": 55.427511,
+     "where_exactly": "Shorooq Compound Gate 3 - the roundabout outside the gate (not Gate 2). Pin confirmed by the family 19 Oct."
     },
     {
      "code": "C1-25",
@@ -58368,9 +58377,9 @@
      "name": "Shorooq Gate 3, Mirdif",
      "time": "07:01",
      "action": "pick_up",
-     "lat": 25.214495,
-     "lng": 55.428185,
-     "where_exactly": "Outside Shorooq compound Gate 3; do not enter the compound."
+     "lat": 25.219706,
+     "lng": 55.427511,
+     "where_exactly": "Shorooq Compound Gate 3 - the roundabout outside the gate (not Gate 2). Pin confirmed by the family 19 Oct."
     },
     {
      "code": "UOB",
@@ -58737,9 +58746,9 @@
      "name": "Shorooq Gate 3, Mirdif",
      "time": "16:57",
      "action": "set_down",
-     "lat": 25.214495,
-     "lng": 55.428185,
-     "where_exactly": "Outside Shorooq compound Gate 3; do not enter the compound."
+     "lat": 25.219706,
+     "lng": 55.427511,
+     "where_exactly": "Shorooq Compound Gate 3 - the roundabout outside the gate (not Gate 2). Pin confirmed by the family 19 Oct."
     },
     {
      "code": "C1-27",
@@ -63017,9 +63026,9 @@
      "name": "Shorooq Gate 3, Mirdif",
      "time": "07:14",
      "action": "pick_up",
-     "lat": 25.214495,
-     "lng": 55.428185,
-     "where_exactly": "Outside Shorooq compound Gate 3; do not enter the compound."
+     "lat": 25.219706,
+     "lng": 55.427511,
+     "where_exactly": "Shorooq Compound Gate 3 - the roundabout outside the gate (not Gate 2). Pin confirmed by the family 19 Oct."
     },
     {
      "code": "UOB",
@@ -63247,9 +63256,9 @@
      "name": "Shorooq Gate 3, Mirdif",
      "time": "12:17",
      "action": "pick_up",
-     "lat": 25.214495,
-     "lng": 55.428185,
-     "where_exactly": "Outside Shorooq compound Gate 3; do not enter the compound."
+     "lat": 25.219706,
+     "lng": 55.427511,
+     "where_exactly": "Shorooq Compound Gate 3 - the roundabout outside the gate (not Gate 2). Pin confirmed by the family 19 Oct."
     },
     {
      "code": "C1-13",
@@ -63456,9 +63465,9 @@
      "name": "Shorooq Gate 3, Mirdif",
      "time": "17:08",
      "action": "set_down",
-     "lat": 25.214495,
-     "lng": 55.428185,
-     "where_exactly": "Outside Shorooq compound Gate 3; do not enter the compound."
+     "lat": 25.219706,
+     "lng": 55.427511,
+     "where_exactly": "Shorooq Compound Gate 3 - the roundabout outside the gate (not Gate 2). Pin confirmed by the family 19 Oct."
     },
     {
      "code": "C1-27",
@@ -67760,9 +67769,9 @@
      "name": "Shorooq Gate 3, Mirdif",
      "time": "07:13",
      "action": "pick_up",
-     "lat": 25.214495,
-     "lng": 55.428185,
-     "where_exactly": "Outside Shorooq compound Gate 3; do not enter the compound."
+     "lat": 25.219706,
+     "lng": 55.427511,
+     "where_exactly": "Shorooq Compound Gate 3 - the roundabout outside the gate (not Gate 2). Pin confirmed by the family 19 Oct."
     },
     {
      "code": "UOB",
@@ -67957,9 +67966,9 @@
      "name": "Shorooq Gate 3, Mirdif",
      "time": "12:22",
      "action": "pick_up",
-     "lat": 25.214495,
-     "lng": 55.428185,
-     "where_exactly": "Outside Shorooq compound Gate 3; do not enter the compound."
+     "lat": 25.219706,
+     "lng": 55.427511,
+     "where_exactly": "Shorooq Compound Gate 3 - the roundabout outside the gate (not Gate 2). Pin confirmed by the family 19 Oct."
     },
     {
      "code": "UOB",
@@ -68004,9 +68013,9 @@
      "name": "Shorooq Gate 3, Mirdif",
      "time": "14:36",
      "action": "set_down",
-     "lat": 25.214495,
-     "lng": 55.428185,
-     "where_exactly": "Outside Shorooq compound Gate 3; do not enter the compound."
+     "lat": 25.219706,
+     "lng": 55.427511,
+     "where_exactly": "Shorooq Compound Gate 3 - the roundabout outside the gate (not Gate 2). Pin confirmed by the family 19 Oct."
     },
     {
      "code": "C1-12",
@@ -68185,9 +68194,9 @@
      "name": "Shorooq Gate 3, Mirdif",
      "time": "17:00",
      "action": "set_down",
-     "lat": 25.214495,
-     "lng": 55.428185,
-     "where_exactly": "Outside Shorooq compound Gate 3; do not enter the compound."
+     "lat": 25.219706,
+     "lng": 55.427511,
+     "where_exactly": "Shorooq Compound Gate 3 - the roundabout outside the gate (not Gate 2). Pin confirmed by the family 19 Oct."
     },
     {
      "code": "C1-25",
@@ -72485,9 +72494,9 @@
      "name": "Shorooq Gate 3, Mirdif",
      "time": "07:15",
      "action": "pick_up",
-     "lat": 25.214495,
-     "lng": 55.428185,
-     "where_exactly": "Outside Shorooq compound Gate 3; do not enter the compound."
+     "lat": 25.219706,
+     "lng": 55.427511,
+     "where_exactly": "Shorooq Compound Gate 3 - the roundabout outside the gate (not Gate 2). Pin confirmed by the family 19 Oct."
     },
     {
      "code": "UOB",
@@ -72845,9 +72854,9 @@
      "name": "Shorooq Gate 3, Mirdif",
      "time": "17:05",
      "action": "set_down",
-     "lat": 25.214495,
-     "lng": 55.428185,
-     "where_exactly": "Outside Shorooq compound Gate 3; do not enter the compound."
+     "lat": 25.219706,
+     "lng": 55.427511,
+     "where_exactly": "Shorooq Compound Gate 3 - the roundabout outside the gate (not Gate 2). Pin confirmed by the family 19 Oct."
     },
     {
      "code": "C1-12",
@@ -72929,9 +72938,9 @@
      "name": "Shorooq Gate 3, Mirdif",
      "time": "18:39",
      "action": "set_down",
-     "lat": 25.214495,
-     "lng": 55.428185,
-     "where_exactly": "Outside Shorooq compound Gate 3; do not enter the compound."
+     "lat": 25.219706,
+     "lng": 55.427511,
+     "where_exactly": "Shorooq Compound Gate 3 - the roundabout outside the gate (not Gate 2). Pin confirmed by the family 19 Oct."
     },
     {
      "code": "C1-27",
@@ -76782,9 +76791,9 @@
      "name": "Shorooq Gate 3, Mirdif",
      "time": "07:13",
      "action": "pick_up",
-     "lat": 25.214495,
-     "lng": 55.428185,
-     "where_exactly": "Outside Shorooq compound Gate 3; do not enter the compound."
+     "lat": 25.219706,
+     "lng": 55.427511,
+     "where_exactly": "Shorooq Compound Gate 3 - the roundabout outside the gate (not Gate 2). Pin confirmed by the family 19 Oct."
     },
     {
      "code": "UOB",
@@ -77126,9 +77135,9 @@
      "name": "Shorooq Gate 3, Mirdif",
      "time": "12:34",
      "action": "set_down",
-     "lat": 25.214495,
-     "lng": 55.428185,
-     "where_exactly": "Outside Shorooq compound Gate 3; do not enter the compound."
+     "lat": 25.219706,
+     "lng": 55.427511,
+     "where_exactly": "Shorooq Compound Gate 3 - the roundabout outside the gate (not Gate 2). Pin confirmed by the family 19 Oct."
     },
     {
      "code": "C1-25",
