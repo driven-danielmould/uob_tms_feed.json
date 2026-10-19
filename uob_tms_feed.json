@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-19T11:50:09Z",
+ "generated_at": "2026-10-19T16:36:26Z",
  "week": "2026-10-09 to 2026-11-15",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -39464,7 +39464,7 @@
    "arrive_campus": null,
    "leave_campus": "14:15",
    "start": "14:15",
-   "end": "15:42",
+   "end": "15:22",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
    "capacity": 15,
@@ -39534,15 +39534,6 @@
      "lat": 25.099769538054428,
      "lng": 55.17320213081937,
      "where_exactly": "RTA bus stop \"Dubai Internet City Metro Bus Stop Landside 1\" (landside, Barsha Heights side of the metro) - pick-up and set-down here; coordinator-confirmed pin 12 Oct."
-    },
-    {
-     "code": "C2-08",
-     "name": "Mall of the Emirates",
-     "time": "15:42",
-     "action": "set_down",
-     "lat": 25.1201411,
-     "lng": 55.2011196,
-     "where_exactly": "Pick-up point at 25.1201411, 55.2011196 (metro side)."
     }
    ]
   },
@@ -40220,7 +40211,7 @@
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 6,
+   "booked": 5,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -40259,15 +40250,6 @@
      "lat": 25.0099047,
      "lng": 55.2902856,
      "where_exactly": "Nshama Community Centre car park."
-    },
-    {
-     "code": "C3-21",
-     "name": "DAMAC Hills Mall, DAMAC Hills",
-     "time": "15:09",
-     "action": "set_down",
-     "lat": 25.0179838,
-     "lng": 55.2468052,
-     "where_exactly": "Mall drop-off, DAMAC Hills."
     },
     {
      "code": "C3-05",
@@ -40424,7 +40406,7 @@
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 4,
+   "booked": 5,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -40445,6 +40427,15 @@
      "lat": 25.0099047,
      "lng": 55.2902856,
      "where_exactly": "Nshama Community Centre car park."
+    },
+    {
+     "code": "C3-21",
+     "name": "DAMAC Hills Mall, DAMAC Hills",
+     "time": "17:30",
+     "action": "set_down",
+     "lat": 25.0179838,
+     "lng": 55.2468052,
+     "where_exactly": "Mall drop-off, DAMAC Hills."
     },
     {
      "code": "C3-05",
@@ -45119,7 +45110,7 @@
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 3,
+   "booked": 4,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -45140,6 +45131,15 @@
      "lat": 25.040494,
      "lng": 55.195971,
      "where_exactly": "Outside drop-off area by Tim Hortons, City Centre Me'aisem."
+    },
+    {
+     "code": "C3-21",
+     "name": "DAMAC Hills Mall, DAMAC Hills",
+     "time": "09:06",
+     "action": "pick_up",
+     "lat": 25.0179838,
+     "lng": 55.2468052,
+     "where_exactly": "Mall drop-off, DAMAC Hills."
     },
     {
      "code": "C3-25",
@@ -45175,7 +45175,7 @@
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 4,
+   "booked": 3,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -45187,15 +45187,6 @@
      "lat": 25.040494,
      "lng": 55.195971,
      "where_exactly": "Outside drop-off area by Tim Hortons, City Centre Me'aisem."
-    },
-    {
-     "code": "C3-21",
-     "name": "DAMAC Hills Mall, DAMAC Hills",
-     "time": "09:44",
-     "action": "pick_up",
-     "lat": 25.0179838,
-     "lng": 55.2468052,
-     "where_exactly": "Mall drop-off, DAMAC Hills."
     },
     {
      "code": "C3-08",
