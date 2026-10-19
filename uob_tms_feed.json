@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-19T03:26:38Z",
+ "generated_at": "2026-10-19T07:29:13Z",
  "week": "2026-10-09 to 2026-11-15",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -37531,6 +37531,44 @@
    "status": "operating"
   },
   {
+   "run_id": "2026-10-19-R8-O5N",
+   "date": "2026-10-19",
+   "day": "Mon",
+   "route": "R8",
+   "direction": "to_campus",
+   "service": "masters",
+   "arrive_campus": "17:45",
+   "leave_campus": null,
+   "start": "16:55",
+   "end": "17:45",
+   "vehicle": "M8",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 1,
+   "seats": 15,
+   "stops": [
+    {
+     "code": "C5-22",
+     "name": "Al Jaddaf Metro Station",
+     "time": "16:55",
+     "action": "pick_up",
+     "lat": 25.2249568,
+     "lng": 55.3336402,
+     "where_exactly": "Kerbside at the metro station entrance on Al Jaddaf Street (bus bay by the main exit). Masters evening bus only unless booked on day runs."
+    },
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "17:45",
+     "action": "set_down",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    }
+   ],
+   "status": "operating"
+  },
+  {
    "run_id": "2026-10-19-R8-O5S",
    "date": "2026-10-19",
    "day": "Mon",
@@ -37825,6 +37863,44 @@
      "lat": 25.057284,
      "lng": 55.212609,
      "where_exactly": "Kerbside on 24 Street outside the tower entrance; do not enter the car park."
+    }
+   ],
+   "status": "operating"
+  },
+  {
+   "run_id": "2026-10-19-R8-R4N",
+   "date": "2026-10-19",
+   "day": "Mon",
+   "route": "R8",
+   "direction": "from_campus",
+   "service": "masters",
+   "arrive_campus": null,
+   "leave_campus": "21:36",
+   "start": "21:36",
+   "end": "21:58",
+   "vehicle": "M8",
+   "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 1,
+   "seats": 34,
+   "stops": [
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "21:36",
+     "action": "pick_up",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    },
+    {
+     "code": "C5-22",
+     "name": "Al Jaddaf Metro Station",
+     "time": "21:58",
+     "action": "set_down",
+     "lat": 25.2249568,
+     "lng": 55.3336402,
+     "where_exactly": "Kerbside at the metro station entrance on Al Jaddaf Street (bus bay by the main exit). Masters evening bus only unless booked on day runs."
     }
    ],
    "status": "operating"
@@ -48280,18 +48356,18 @@
    "service": "masters",
    "arrive_campus": "17:45",
    "leave_campus": null,
-   "start": "16:17",
+   "start": "16:08",
    "end": "17:45",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 3,
+   "booked": 4,
    "seats": 15,
    "stops": [
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "16:17",
+     "time": "16:08",
      "action": "pick_up",
      "lat": 25.337533,
      "lng": 55.39061,
@@ -48300,11 +48376,20 @@
     {
      "code": "C5-19",
      "name": "Al Raffa, 7E Street (near Al Khaleej Centre)",
-     "time": "16:45",
+     "time": "16:36",
      "action": "pick_up",
      "lat": 25.25816,
      "lng": 55.297127,
      "where_exactly": "Kerbside at the pin on 7E Street, Al Raffa, near Al Khaleej Centre - wait on the main-road side; kerb to confirm on audit."
+    },
+    {
+     "code": "C5-22",
+     "name": "Al Jaddaf Metro Station",
+     "time": "16:55",
+     "action": "pick_up",
+     "lat": 25.2249568,
+     "lng": 55.3336402,
+     "where_exactly": "Kerbside at the metro station entrance on Al Jaddaf Street (bus bay by the main exit). Masters evening bus only unless booked on day runs."
     },
     {
      "code": "UOB",
@@ -48645,11 +48730,11 @@
    "arrive_campus": null,
    "leave_campus": "21:36",
    "start": "21:36",
-   "end": "22:21",
+   "end": "22:28",
    "vehicle": "M8",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 3,
+   "booked": 4,
    "seats": 34,
    "stops": [
     {
@@ -48662,9 +48747,18 @@
      "where_exactly": ""
     },
     {
+     "code": "C5-22",
+     "name": "Al Jaddaf Metro Station",
+     "time": "21:56",
+     "action": "set_down",
+     "lat": 25.2249568,
+     "lng": 55.3336402,
+     "where_exactly": "Kerbside at the metro station entrance on Al Jaddaf Street (bus bay by the main exit). Masters evening bus only unless booked on day runs."
+    },
+    {
      "code": "C5-19",
      "name": "Al Raffa, 7E Street (near Al Khaleej Centre)",
-     "time": "22:02",
+     "time": "22:09",
      "action": "set_down",
      "lat": 25.25816,
      "lng": 55.297127,
@@ -48673,7 +48767,7 @@
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "22:21",
+     "time": "22:28",
      "action": "set_down",
      "lat": 25.337533,
      "lng": 55.39061,
@@ -63344,6 +63438,44 @@
    "status": "operating"
   },
   {
+   "run_id": "2026-10-26-R8-O5N",
+   "date": "2026-10-26",
+   "day": "Mon",
+   "route": "R8",
+   "direction": "to_campus",
+   "service": "masters",
+   "arrive_campus": "17:45",
+   "leave_campus": null,
+   "start": "16:55",
+   "end": "17:45",
+   "vehicle": "M8",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 1,
+   "seats": 15,
+   "stops": [
+    {
+     "code": "C5-22",
+     "name": "Al Jaddaf Metro Station",
+     "time": "16:55",
+     "action": "pick_up",
+     "lat": 25.2249568,
+     "lng": 55.3336402,
+     "where_exactly": "Kerbside at the metro station entrance on Al Jaddaf Street (bus bay by the main exit). Masters evening bus only unless booked on day runs."
+    },
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "17:45",
+     "action": "set_down",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    }
+   ],
+   "status": "operating"
+  },
+  {
    "run_id": "2026-10-26-R8-O5S",
    "date": "2026-10-26",
    "day": "Mon",
@@ -63617,6 +63749,44 @@
      "lat": 25.057284,
      "lng": 55.212609,
      "where_exactly": "Kerbside on 24 Street outside the tower entrance; do not enter the car park."
+    }
+   ],
+   "status": "operating"
+  },
+  {
+   "run_id": "2026-10-26-R8-R4N",
+   "date": "2026-10-26",
+   "day": "Mon",
+   "route": "R8",
+   "direction": "from_campus",
+   "service": "masters",
+   "arrive_campus": null,
+   "leave_campus": "21:36",
+   "start": "21:36",
+   "end": "21:58",
+   "vehicle": "M8",
+   "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 1,
+   "seats": 34,
+   "stops": [
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "21:36",
+     "action": "pick_up",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    },
+    {
+     "code": "C5-22",
+     "name": "Al Jaddaf Metro Station",
+     "time": "21:58",
+     "action": "set_down",
+     "lat": 25.2249568,
+     "lng": 55.3336402,
+     "where_exactly": "Kerbside at the metro station entrance on Al Jaddaf Street (bus bay by the main exit). Masters evening bus only unless booked on day runs."
     }
    ],
    "status": "operating"
@@ -73202,18 +73372,18 @@
    "service": "masters",
    "arrive_campus": "17:45",
    "leave_campus": null,
-   "start": "16:17",
+   "start": "16:08",
    "end": "17:45",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 3,
+   "booked": 4,
    "seats": 15,
    "stops": [
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "16:17",
+     "time": "16:08",
      "action": "pick_up",
      "lat": 25.337533,
      "lng": 55.39061,
@@ -73222,11 +73392,20 @@
     {
      "code": "C5-19",
      "name": "Al Raffa, 7E Street (near Al Khaleej Centre)",
-     "time": "16:45",
+     "time": "16:36",
      "action": "pick_up",
      "lat": 25.25816,
      "lng": 55.297127,
      "where_exactly": "Kerbside at the pin on 7E Street, Al Raffa, near Al Khaleej Centre - wait on the main-road side; kerb to confirm on audit."
+    },
+    {
+     "code": "C5-22",
+     "name": "Al Jaddaf Metro Station",
+     "time": "16:55",
+     "action": "pick_up",
+     "lat": 25.2249568,
+     "lng": 55.3336402,
+     "where_exactly": "Kerbside at the metro station entrance on Al Jaddaf Street (bus bay by the main exit). Masters evening bus only unless booked on day runs."
     },
     {
      "code": "UOB",
@@ -73555,11 +73734,11 @@
    "arrive_campus": null,
    "leave_campus": "21:36",
    "start": "21:36",
-   "end": "22:21",
+   "end": "22:28",
    "vehicle": "M8",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 3,
+   "booked": 4,
    "seats": 34,
    "stops": [
     {
@@ -73572,9 +73751,18 @@
      "where_exactly": ""
     },
     {
+     "code": "C5-22",
+     "name": "Al Jaddaf Metro Station",
+     "time": "21:56",
+     "action": "set_down",
+     "lat": 25.2249568,
+     "lng": 55.3336402,
+     "where_exactly": "Kerbside at the metro station entrance on Al Jaddaf Street (bus bay by the main exit). Masters evening bus only unless booked on day runs."
+    },
+    {
      "code": "C5-19",
      "name": "Al Raffa, 7E Street (near Al Khaleej Centre)",
-     "time": "22:02",
+     "time": "22:09",
      "action": "set_down",
      "lat": 25.25816,
      "lng": 55.297127,
@@ -73583,7 +73771,7 @@
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "22:21",
+     "time": "22:28",
      "action": "set_down",
      "lat": 25.337533,
      "lng": 55.39061,
@@ -87568,6 +87756,44 @@
    "status": "operating"
   },
   {
+   "run_id": "2026-11-02-R8-O5N",
+   "date": "2026-11-02",
+   "day": "Mon",
+   "route": "R8",
+   "direction": "to_campus",
+   "service": "masters",
+   "arrive_campus": "17:45",
+   "leave_campus": null,
+   "start": "16:55",
+   "end": "17:45",
+   "vehicle": "M8",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 1,
+   "seats": 15,
+   "stops": [
+    {
+     "code": "C5-22",
+     "name": "Al Jaddaf Metro Station",
+     "time": "16:55",
+     "action": "pick_up",
+     "lat": 25.2249568,
+     "lng": 55.3336402,
+     "where_exactly": "Kerbside at the metro station entrance on Al Jaddaf Street (bus bay by the main exit). Masters evening bus only unless booked on day runs."
+    },
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "17:45",
+     "action": "set_down",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    }
+   ],
+   "status": "operating"
+  },
+  {
    "run_id": "2026-11-02-R8-O5S",
    "date": "2026-11-02",
    "day": "Mon",
@@ -87823,6 +88049,44 @@
      "lat": 25.057284,
      "lng": 55.212609,
      "where_exactly": "Kerbside on 24 Street outside the tower entrance; do not enter the car park."
+    }
+   ],
+   "status": "operating"
+  },
+  {
+   "run_id": "2026-11-02-R8-R4N",
+   "date": "2026-11-02",
+   "day": "Mon",
+   "route": "R8",
+   "direction": "from_campus",
+   "service": "masters",
+   "arrive_campus": null,
+   "leave_campus": "21:36",
+   "start": "21:36",
+   "end": "21:58",
+   "vehicle": "M8",
+   "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 1,
+   "seats": 34,
+   "stops": [
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "21:36",
+     "action": "pick_up",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    },
+    {
+     "code": "C5-22",
+     "name": "Al Jaddaf Metro Station",
+     "time": "21:58",
+     "action": "set_down",
+     "lat": 25.2249568,
+     "lng": 55.3336402,
+     "where_exactly": "Kerbside at the metro station entrance on Al Jaddaf Street (bus bay by the main exit). Masters evening bus only unless booked on day runs."
     }
    ],
    "status": "operating"
@@ -97027,18 +97291,18 @@
    "service": "masters",
    "arrive_campus": "17:45",
    "leave_campus": null,
-   "start": "16:17",
+   "start": "16:08",
    "end": "17:45",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 3,
+   "booked": 4,
    "seats": 15,
    "stops": [
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "16:17",
+     "time": "16:08",
      "action": "pick_up",
      "lat": 25.337533,
      "lng": 55.39061,
@@ -97047,11 +97311,20 @@
     {
      "code": "C5-19",
      "name": "Al Raffa, 7E Street (near Al Khaleej Centre)",
-     "time": "16:45",
+     "time": "16:36",
      "action": "pick_up",
      "lat": 25.25816,
      "lng": 55.297127,
      "where_exactly": "Kerbside at the pin on 7E Street, Al Raffa, near Al Khaleej Centre - wait on the main-road side; kerb to confirm on audit."
+    },
+    {
+     "code": "C5-22",
+     "name": "Al Jaddaf Metro Station",
+     "time": "16:55",
+     "action": "pick_up",
+     "lat": 25.2249568,
+     "lng": 55.3336402,
+     "where_exactly": "Kerbside at the metro station entrance on Al Jaddaf Street (bus bay by the main exit). Masters evening bus only unless booked on day runs."
     },
     {
      "code": "UOB",
@@ -97335,11 +97608,11 @@
    "arrive_campus": null,
    "leave_campus": "21:36",
    "start": "21:36",
-   "end": "22:21",
+   "end": "22:28",
    "vehicle": "M8",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 3,
+   "booked": 4,
    "seats": 34,
    "stops": [
     {
@@ -97352,9 +97625,18 @@
      "where_exactly": ""
     },
     {
+     "code": "C5-22",
+     "name": "Al Jaddaf Metro Station",
+     "time": "21:56",
+     "action": "set_down",
+     "lat": 25.2249568,
+     "lng": 55.3336402,
+     "where_exactly": "Kerbside at the metro station entrance on Al Jaddaf Street (bus bay by the main exit). Masters evening bus only unless booked on day runs."
+    },
+    {
      "code": "C5-19",
      "name": "Al Raffa, 7E Street (near Al Khaleej Centre)",
-     "time": "22:02",
+     "time": "22:09",
      "action": "set_down",
      "lat": 25.25816,
      "lng": 55.297127,
@@ -97363,7 +97645,7 @@
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "22:21",
+     "time": "22:28",
      "action": "set_down",
      "lat": 25.337533,
      "lng": 55.39061,
@@ -111058,22 +111340,31 @@
    "service": "masters",
    "arrive_campus": "17:45",
    "leave_campus": null,
-   "start": "16:52",
+   "start": "16:32",
    "end": "17:45",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 1,
+   "booked": 2,
    "seats": 15,
    "stops": [
     {
      "code": "C5-20",
      "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
-     "time": "16:52",
+     "time": "16:32",
      "action": "pick_up",
      "lat": 25.186457,
      "lng": 55.282055,
      "where_exactly": "Kerbside on Abraj Street outside the DAMAC Maison Majestine entrance, opposite Bay Square 13."
+    },
+    {
+     "code": "C5-22",
+     "name": "Al Jaddaf Metro Station",
+     "time": "16:55",
+     "action": "pick_up",
+     "lat": 25.2249568,
+     "lng": 55.3336402,
+     "where_exactly": "Kerbside at the metro station entrance on Al Jaddaf Street (bus bay by the main exit). Masters evening bus only unless booked on day runs."
     },
     {
      "code": "UOB",
@@ -111298,11 +111589,11 @@
    "arrive_campus": null,
    "leave_campus": "21:36",
    "start": "21:36",
-   "end": "22:01",
+   "end": "22:11",
    "vehicle": "M8",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 1,
+   "booked": 2,
    "seats": 34,
    "stops": [
     {
@@ -111315,9 +111606,18 @@
      "where_exactly": ""
     },
     {
+     "code": "C5-22",
+     "name": "Al Jaddaf Metro Station",
+     "time": "21:58",
+     "action": "set_down",
+     "lat": 25.2249568,
+     "lng": 55.3336402,
+     "where_exactly": "Kerbside at the metro station entrance on Al Jaddaf Street (bus bay by the main exit). Masters evening bus only unless booked on day runs."
+    },
+    {
      "code": "C5-20",
      "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
-     "time": "22:01",
+     "time": "22:11",
      "action": "set_down",
      "lat": 25.186457,
      "lng": 55.282055,
@@ -115734,22 +116034,31 @@
    "service": "masters",
    "arrive_campus": "17:45",
    "leave_campus": null,
-   "start": "16:52",
+   "start": "16:32",
    "end": "17:45",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 1,
+   "booked": 2,
    "seats": 15,
    "stops": [
     {
      "code": "C5-20",
      "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
-     "time": "16:52",
+     "time": "16:32",
      "action": "pick_up",
      "lat": 25.186457,
      "lng": 55.282055,
      "where_exactly": "Kerbside on Abraj Street outside the DAMAC Maison Majestine entrance, opposite Bay Square 13."
+    },
+    {
+     "code": "C5-22",
+     "name": "Al Jaddaf Metro Station",
+     "time": "16:55",
+     "action": "pick_up",
+     "lat": 25.2249568,
+     "lng": 55.3336402,
+     "where_exactly": "Kerbside at the metro station entrance on Al Jaddaf Street (bus bay by the main exit). Masters evening bus only unless booked on day runs."
     },
     {
      "code": "UOB",
@@ -115983,11 +116292,11 @@
    "arrive_campus": null,
    "leave_campus": "21:36",
    "start": "21:36",
-   "end": "21:58",
+   "end": "22:12",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 1,
+   "booked": 2,
    "seats": 15,
    "stops": [
     {
@@ -116000,9 +116309,18 @@
      "where_exactly": ""
     },
     {
+     "code": "C5-22",
+     "name": "Al Jaddaf Metro Station",
+     "time": "21:56",
+     "action": "set_down",
+     "lat": 25.2249568,
+     "lng": 55.3336402,
+     "where_exactly": "Kerbside at the metro station entrance on Al Jaddaf Street (bus bay by the main exit). Masters evening bus only unless booked on day runs."
+    },
+    {
      "code": "C5-20",
      "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
-     "time": "21:58",
+     "time": "22:12",
      "action": "set_down",
      "lat": 25.186457,
      "lng": 55.282055,
@@ -120238,40 +120556,49 @@
    "service": "masters",
    "arrive_campus": "17:45",
    "leave_campus": null,
-   "start": "16:05",
+   "start": "15:53",
    "end": "17:45",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 4,
+   "booked": 5,
    "seats": 15,
    "stops": [
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "16:05",
+     "time": "15:53",
      "action": "pick_up",
      "lat": 25.337533,
      "lng": 55.39061,
      "where_exactly": "Main entrance on King Faisal St."
     },
     {
+     "code": "C5-20",
+     "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
+     "time": "16:17",
+     "action": "pick_up",
+     "lat": 25.186457,
+     "lng": 55.282055,
+     "where_exactly": "Kerbside on Abraj Street outside the DAMAC Maison Majestine entrance, opposite Bay Square 13."
+    },
+    {
      "code": "C5-19",
      "name": "Al Raffa, 7E Street (near Al Khaleej Centre)",
-     "time": "16:33",
+     "time": "16:36",
      "action": "pick_up",
      "lat": 25.25816,
      "lng": 55.297127,
      "where_exactly": "Kerbside at the pin on 7E Street, Al Raffa, near Al Khaleej Centre - wait on the main-road side; kerb to confirm on audit."
     },
     {
-     "code": "C5-20",
-     "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
-     "time": "16:52",
+     "code": "C5-22",
+     "name": "Al Jaddaf Metro Station",
+     "time": "16:55",
      "action": "pick_up",
-     "lat": 25.186457,
-     "lng": 55.282055,
-     "where_exactly": "Kerbside on Abraj Street outside the DAMAC Maison Majestine entrance, opposite Bay Square 13."
+     "lat": 25.2249568,
+     "lng": 55.3336402,
+     "where_exactly": "Kerbside at the metro station entrance on Al Jaddaf Street (bus bay by the main exit). Masters evening bus only unless booked on day runs."
     },
     {
      "code": "UOB",
@@ -120505,11 +120832,11 @@
    "arrive_campus": null,
    "leave_campus": "21:36",
    "start": "21:36",
-   "end": "22:30",
+   "end": "22:42",
    "vehicle": "M8",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 4,
+   "booked": 5,
    "seats": 34,
    "stops": [
     {
@@ -120522,27 +120849,36 @@
      "where_exactly": ""
     },
     {
-     "code": "C5-20",
-     "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
-     "time": "21:58",
+     "code": "C5-22",
+     "name": "Al Jaddaf Metro Station",
+     "time": "21:56",
      "action": "set_down",
-     "lat": 25.186457,
-     "lng": 55.282055,
-     "where_exactly": "Kerbside on Abraj Street outside the DAMAC Maison Majestine entrance, opposite Bay Square 13."
+     "lat": 25.2249568,
+     "lng": 55.3336402,
+     "where_exactly": "Kerbside at the metro station entrance on Al Jaddaf Street (bus bay by the main exit). Masters evening bus only unless booked on day runs."
     },
     {
      "code": "C5-19",
      "name": "Al Raffa, 7E Street (near Al Khaleej Centre)",
-     "time": "22:11",
+     "time": "22:09",
      "action": "set_down",
      "lat": 25.25816,
      "lng": 55.297127,
      "where_exactly": "Kerbside at the pin on 7E Street, Al Raffa, near Al Khaleej Centre - wait on the main-road side; kerb to confirm on audit."
     },
     {
+     "code": "C5-20",
+     "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
+     "time": "22:22",
+     "action": "set_down",
+     "lat": 25.186457,
+     "lng": 55.282055,
+     "where_exactly": "Kerbside on Abraj Street outside the DAMAC Maison Majestine entrance, opposite Bay Square 13."
+    },
+    {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "22:30",
+     "time": "22:42",
      "action": "set_down",
      "lat": 25.337533,
      "lng": 55.39061,
