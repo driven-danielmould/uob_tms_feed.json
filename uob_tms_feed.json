@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-20T14:11:50Z",
+ "generated_at": "2026-10-20T15:25:27Z",
  "week": "2026-10-09 to 2026-11-15",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -44494,7 +44494,7 @@
    "service": "undergraduate",
    "arrive_campus": "10:45",
    "leave_campus": null,
-   "start": "09:36",
+   "start": "09:12",
    "end": "10:45",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
@@ -44506,34 +44506,34 @@
     {
      "code": "C2-01",
      "name": "Al Sarood, Shoreline 13, Palm Jumeirah",
-     "time": "09:36",
+     "time": "09:12",
      "action": "pick_up",
      "lat": 25.11202,
      "lng": 55.142781,
      "where_exactly": "Outside building 13, Shoreline St."
     },
     {
-     "code": "C2-03",
-     "name": "DMCC Metro Station",
-     "time": "09:49",
-     "action": "pick_up",
-     "lat": 25.07122,
-     "lng": 55.137072,
-     "where_exactly": "Outside the Yacht Bay sign (Yacht Bay building)."
-    },
-    {
      "code": "C2-04",
      "name": "Sobha Realty Metro Station",
-     "time": "09:58",
+     "time": "09:25",
      "action": "pick_up",
      "lat": 25.08243,
      "lng": 55.148317,
      "where_exactly": "Sea side of Sobha Realty Metro Station, near the Carrefour Market sign; bus pick-up point."
     },
     {
+     "code": "C2-03",
+     "name": "DMCC Metro Station",
+     "time": "09:32",
+     "action": "pick_up",
+     "lat": 25.07122,
+     "lng": 55.137072,
+     "where_exactly": "Outside the Yacht Bay sign (Yacht Bay building)."
+    },
+    {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "10:08",
+     "time": "09:44",
      "action": "pick_up",
      "lat": 25.093492,
      "lng": 55.177807,
@@ -44542,7 +44542,7 @@
     {
      "code": "C2-15",
      "name": "Al Nakheel 2A, The Greens",
-     "time": "10:14",
+     "time": "09:50",
      "action": "pick_up",
      "lat": 25.09445,
      "lng": 55.1697,
@@ -44568,7 +44568,7 @@
    "service": "undergraduate",
    "arrive_campus": "12:45",
    "leave_campus": null,
-   "start": "11:40",
+   "start": "11:31",
    "end": "12:45",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
@@ -44578,9 +44578,18 @@
    "status": "operating",
    "stops": [
     {
+     "code": "C2-04",
+     "name": "Sobha Realty Metro Station",
+     "time": "11:31",
+     "action": "pick_up",
+     "lat": 25.08243,
+     "lng": 55.148317,
+     "where_exactly": "Sea side of Sobha Realty Metro Station, near the Carrefour Market sign; bus pick-up point."
+    },
+    {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "11:40",
+     "time": "11:37",
      "action": "pick_up",
      "lat": 25.075735,
      "lng": 55.140981,
@@ -44589,20 +44598,11 @@
     {
      "code": "C2-03",
      "name": "DMCC Metro Station",
-     "time": "11:46",
+     "time": "11:42",
      "action": "pick_up",
      "lat": 25.07122,
      "lng": 55.137072,
      "where_exactly": "Outside the Yacht Bay sign (Yacht Bay building)."
-    },
-    {
-     "code": "C2-04",
-     "name": "Sobha Realty Metro Station",
-     "time": "11:58",
-     "action": "pick_up",
-     "lat": 25.08243,
-     "lng": 55.148317,
-     "where_exactly": "Sea side of Sobha Realty Metro Station, near the Carrefour Market sign; bus pick-up point."
     },
     {
      "code": "UOB",
@@ -44661,22 +44661,22 @@
      "where_exactly": "Pick and drop area outside the Al Asmawi Building."
     },
     {
-     "code": "C2-04",
-     "name": "Sobha Realty Metro Station",
-     "time": "14:54",
-     "action": "set_down",
-     "lat": 25.08243,
-     "lng": 55.148317,
-     "where_exactly": "Sea side of Sobha Realty Metro Station, near the Carrefour Market sign; bus pick-up point."
-    },
-    {
      "code": "C2-03",
      "name": "DMCC Metro Station",
-     "time": "15:02",
+     "time": "14:54",
      "action": "set_down",
      "lat": 25.07122,
      "lng": 55.137072,
      "where_exactly": "Outside the Yacht Bay sign (Yacht Bay building)."
+    },
+    {
+     "code": "C2-04",
+     "name": "Sobha Realty Metro Station",
+     "time": "15:01",
+     "action": "set_down",
+     "lat": 25.08243,
+     "lng": 55.148317,
+     "where_exactly": "Sea side of Sobha Realty Metro Station, near the Carrefour Market sign; bus pick-up point."
     },
     {
      "code": "C2-01",
@@ -44906,18 +44906,9 @@
      "where_exactly": "Outside the Springs 10 gatehouse on Street 1, before the barrier."
     },
     {
-     "code": "C2-04",
-     "name": "Sobha Realty Metro Station",
-     "time": "19:27",
-     "action": "set_down",
-     "lat": 25.08243,
-     "lng": 55.148317,
-     "where_exactly": "Sea side of Sobha Realty Metro Station, near the Carrefour Market sign; bus pick-up point."
-    },
-    {
      "code": "C2-03",
      "name": "DMCC Metro Station",
-     "time": "19:36",
+     "time": "19:27",
      "action": "set_down",
      "lat": 25.07122,
      "lng": 55.137072,
@@ -44926,11 +44917,20 @@
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "19:41",
+     "time": "19:32",
      "action": "set_down",
      "lat": 25.075735,
      "lng": 55.140981,
      "where_exactly": "Pick and drop point at Dubai Marina Mall."
+    },
+    {
+     "code": "C2-04",
+     "name": "Sobha Realty Metro Station",
+     "time": "19:38",
+     "action": "set_down",
+     "lat": 25.08243,
+     "lng": 55.148317,
+     "where_exactly": "Sea side of Sobha Realty Metro Station, near the Carrefour Market sign; bus pick-up point."
     },
     {
      "code": "C2-07",
@@ -49561,7 +49561,7 @@
    "service": "undergraduate",
    "arrive_campus": "09:45",
    "leave_campus": null,
-   "start": "08:33",
+   "start": "08:17",
    "end": "09:45",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
@@ -49571,27 +49571,27 @@
    "status": "operating",
    "stops": [
     {
-     "code": "C2-03",
-     "name": "DMCC Metro Station",
-     "time": "08:33",
-     "action": "pick_up",
-     "lat": 25.07122,
-     "lng": 55.137072,
-     "where_exactly": "Outside the Yacht Bay sign (Yacht Bay building)."
-    },
-    {
      "code": "C2-04",
      "name": "Sobha Realty Metro Station",
-     "time": "08:43",
+     "time": "08:17",
      "action": "pick_up",
      "lat": 25.08243,
      "lng": 55.148317,
      "where_exactly": "Sea side of Sobha Realty Metro Station, near the Carrefour Market sign; bus pick-up point."
     },
     {
+     "code": "C2-03",
+     "name": "DMCC Metro Station",
+     "time": "08:24",
+     "action": "pick_up",
+     "lat": 25.07122,
+     "lng": 55.137072,
+     "where_exactly": "Outside the Yacht Bay sign (Yacht Bay building)."
+    },
+    {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "08:55",
+     "time": "08:39",
      "action": "pick_up",
      "lat": 25.093492,
      "lng": 55.177807,
@@ -49600,7 +49600,7 @@
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "09:01",
+     "time": "08:45",
      "action": "pick_up",
      "lat": 25.099769538054428,
      "lng": 55.17320213081937,
@@ -49609,7 +49609,7 @@
     {
      "code": "C2-10",
      "name": "Al Manaf Building, Al Barsha 1",
-     "time": "09:13",
+     "time": "08:57",
      "action": "pick_up",
      "lat": 25.1110756,
      "lng": 55.2057285,
@@ -49793,22 +49793,22 @@
      "where_exactly": "Kerbside outside the building entrance; do not enter the car park."
     },
     {
-     "code": "C2-04",
-     "name": "Sobha Realty Metro Station",
-     "time": "14:59",
-     "action": "set_down",
-     "lat": 25.08243,
-     "lng": 55.148317,
-     "where_exactly": "Sea side of Sobha Realty Metro Station, near the Carrefour Market sign; bus pick-up point."
-    },
-    {
      "code": "C2-03",
      "name": "DMCC Metro Station",
-     "time": "15:07",
+     "time": "14:59",
      "action": "set_down",
      "lat": 25.07122,
      "lng": 55.137072,
      "where_exactly": "Outside the Yacht Bay sign (Yacht Bay building)."
+    },
+    {
+     "code": "C2-04",
+     "name": "Sobha Realty Metro Station",
+     "time": "15:06",
+     "action": "set_down",
+     "lat": 25.08243,
+     "lng": 55.148317,
+     "where_exactly": "Sea side of Sobha Realty Metro Station, near the Carrefour Market sign; bus pick-up point."
     },
     {
      "code": "C2-07",
@@ -54312,7 +54312,7 @@
    "arrive_campus": null,
    "leave_campus": "12:15",
    "start": "12:15",
-   "end": "13:32",
+   "end": "13:28",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
    "capacity": 15,
@@ -54366,18 +54366,9 @@
      "where_exactly": "Pick and drop area outside the Al Asmawi Building."
     },
     {
-     "code": "C2-04",
-     "name": "Sobha Realty Metro Station",
-     "time": "13:17",
-     "action": "set_down",
-     "lat": 25.08243,
-     "lng": 55.148317,
-     "where_exactly": "Sea side of Sobha Realty Metro Station, near the Carrefour Market sign; bus pick-up point."
-    },
-    {
      "code": "C2-03",
      "name": "DMCC Metro Station",
-     "time": "13:27",
+     "time": "13:17",
      "action": "set_down",
      "lat": 25.07122,
      "lng": 55.137072,
@@ -54386,11 +54377,20 @@
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "13:32",
+     "time": "13:22",
      "action": "set_down",
      "lat": 25.075735,
      "lng": 55.140981,
      "where_exactly": "Pick and drop point at Dubai Marina Mall."
+    },
+    {
+     "code": "C2-04",
+     "name": "Sobha Realty Metro Station",
+     "time": "13:28",
+     "action": "set_down",
+     "lat": 25.08243,
+     "lng": 55.148317,
+     "where_exactly": "Sea side of Sobha Realty Metro Station, near the Carrefour Market sign; bus pick-up point."
     }
    ]
   },
@@ -59427,18 +59427,9 @@
      "where_exactly": "Pick and drop area outside the Al Asmawi Building."
     },
     {
-     "code": "C2-04",
-     "name": "Sobha Realty Metro Station",
-     "time": "17:30",
-     "action": "set_down",
-     "lat": 25.08243,
-     "lng": 55.148317,
-     "where_exactly": "Sea side of Sobha Realty Metro Station, near the Carrefour Market sign; bus pick-up point."
-    },
-    {
      "code": "C2-03",
      "name": "DMCC Metro Station",
-     "time": "17:41",
+     "time": "17:30",
      "action": "set_down",
      "lat": 25.07122,
      "lng": 55.137072,
@@ -59447,11 +59438,20 @@
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "17:47",
+     "time": "17:35",
      "action": "set_down",
      "lat": 25.075735,
      "lng": 55.140981,
      "where_exactly": "Pick and drop point at Dubai Marina Mall."
+    },
+    {
+     "code": "C2-04",
+     "name": "Sobha Realty Metro Station",
+     "time": "17:41",
+     "action": "set_down",
+     "lat": 25.08243,
+     "lng": 55.148317,
+     "where_exactly": "Sea side of Sobha Realty Metro Station, near the Carrefour Market sign; bus pick-up point."
     },
     {
      "code": "C2-07",
@@ -68556,7 +68556,7 @@
    "service": "undergraduate",
    "arrive_campus": "10:45",
    "leave_campus": null,
-   "start": "09:39",
+   "start": "09:27",
    "end": "10:45",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
@@ -68566,27 +68566,27 @@
    "status": "operating",
    "stops": [
     {
-     "code": "C2-03",
-     "name": "DMCC Metro Station",
-     "time": "09:39",
-     "action": "pick_up",
-     "lat": 25.07122,
-     "lng": 55.137072,
-     "where_exactly": "Outside the Yacht Bay sign (Yacht Bay building)."
-    },
-    {
      "code": "C2-04",
      "name": "Sobha Realty Metro Station",
-     "time": "09:51",
+     "time": "09:27",
      "action": "pick_up",
      "lat": 25.08243,
      "lng": 55.148317,
      "where_exactly": "Sea side of Sobha Realty Metro Station, near the Carrefour Market sign; bus pick-up point."
     },
     {
+     "code": "C2-03",
+     "name": "DMCC Metro Station",
+     "time": "09:34",
+     "action": "pick_up",
+     "lat": 25.07122,
+     "lng": 55.137072,
+     "where_exactly": "Outside the Yacht Bay sign (Yacht Bay building)."
+    },
+    {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "10:03",
+     "time": "09:51",
      "action": "pick_up",
      "lat": 25.093492,
      "lng": 55.177807,
@@ -68914,18 +68914,9 @@
      "where_exactly": "Outside the Springs 10 gatehouse on Street 1, before the barrier."
     },
     {
-     "code": "C2-04",
-     "name": "Sobha Realty Metro Station",
-     "time": "19:16",
-     "action": "set_down",
-     "lat": 25.08243,
-     "lng": 55.148317,
-     "where_exactly": "Sea side of Sobha Realty Metro Station, near the Carrefour Market sign; bus pick-up point."
-    },
-    {
      "code": "C2-03",
      "name": "DMCC Metro Station",
-     "time": "19:27",
+     "time": "19:16",
      "action": "set_down",
      "lat": 25.07122,
      "lng": 55.137072,
@@ -68934,11 +68925,20 @@
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "19:33",
+     "time": "19:21",
      "action": "set_down",
      "lat": 25.075735,
      "lng": 55.140981,
      "where_exactly": "Pick and drop point at Dubai Marina Mall."
+    },
+    {
+     "code": "C2-04",
+     "name": "Sobha Realty Metro Station",
+     "time": "19:27",
+     "action": "set_down",
+     "lat": 25.08243,
+     "lng": 55.148317,
+     "where_exactly": "Sea side of Sobha Realty Metro Station, near the Carrefour Market sign; bus pick-up point."
     },
     {
      "code": "C2-07",
@@ -73215,7 +73215,7 @@
    "service": "undergraduate",
    "arrive_campus": "09:45",
    "leave_campus": null,
-   "start": "08:36",
+   "start": "08:21",
    "end": "09:45",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
@@ -73225,27 +73225,27 @@
    "status": "operating",
    "stops": [
     {
-     "code": "C2-03",
-     "name": "DMCC Metro Station",
-     "time": "08:36",
-     "action": "pick_up",
-     "lat": 25.07122,
-     "lng": 55.137072,
-     "where_exactly": "Outside the Yacht Bay sign (Yacht Bay building)."
-    },
-    {
      "code": "C2-04",
      "name": "Sobha Realty Metro Station",
-     "time": "08:47",
+     "time": "08:21",
      "action": "pick_up",
      "lat": 25.08243,
      "lng": 55.148317,
      "where_exactly": "Sea side of Sobha Realty Metro Station, near the Carrefour Market sign; bus pick-up point."
     },
     {
+     "code": "C2-03",
+     "name": "DMCC Metro Station",
+     "time": "08:28",
+     "action": "pick_up",
+     "lat": 25.07122,
+     "lng": 55.137072,
+     "where_exactly": "Outside the Yacht Bay sign (Yacht Bay building)."
+    },
+    {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "08:59",
+     "time": "08:44",
      "action": "pick_up",
      "lat": 25.093492,
      "lng": 55.177807,
@@ -73254,7 +73254,7 @@
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "09:06",
+     "time": "08:51",
      "action": "pick_up",
      "lat": 25.099769538054428,
      "lng": 55.17320213081937,
@@ -73454,22 +73454,22 @@
      "where_exactly": "Kerbside outside the building entrance; do not enter the car park."
     },
     {
-     "code": "C2-04",
-     "name": "Sobha Realty Metro Station",
-     "time": "14:55",
-     "action": "set_down",
-     "lat": 25.08243,
-     "lng": 55.148317,
-     "where_exactly": "Sea side of Sobha Realty Metro Station, near the Carrefour Market sign; bus pick-up point."
-    },
-    {
      "code": "C2-03",
      "name": "DMCC Metro Station",
-     "time": "15:04",
+     "time": "14:55",
      "action": "set_down",
      "lat": 25.07122,
      "lng": 55.137072,
      "where_exactly": "Outside the Yacht Bay sign (Yacht Bay building)."
+    },
+    {
+     "code": "C2-04",
+     "name": "Sobha Realty Metro Station",
+     "time": "15:02",
+     "action": "set_down",
+     "lat": 25.08243,
+     "lng": 55.148317,
+     "where_exactly": "Sea side of Sobha Realty Metro Station, near the Carrefour Market sign; bus pick-up point."
     },
     {
      "code": "C2-07",
@@ -77755,22 +77755,22 @@
      "where_exactly": "Pick and drop area outside the Al Asmawi Building."
     },
     {
-     "code": "C2-04",
-     "name": "Sobha Realty Metro Station",
-     "time": "13:04",
-     "action": "set_down",
-     "lat": 25.08243,
-     "lng": 55.148317,
-     "where_exactly": "Sea side of Sobha Realty Metro Station, near the Carrefour Market sign; bus pick-up point."
-    },
-    {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "13:11",
+     "time": "13:04",
      "action": "set_down",
      "lat": 25.075735,
      "lng": 55.140981,
      "where_exactly": "Pick and drop point at Dubai Marina Mall."
+    },
+    {
+     "code": "C2-04",
+     "name": "Sobha Realty Metro Station",
+     "time": "13:10",
+     "action": "set_down",
+     "lat": 25.08243,
+     "lng": 55.148317,
+     "where_exactly": "Sea side of Sobha Realty Metro Station, near the Carrefour Market sign; bus pick-up point."
     },
     {
      "code": "C2-07",
@@ -82603,18 +82603,9 @@
      "where_exactly": "Kerbside outside the building entrance; do not enter the car park."
     },
     {
-     "code": "C2-04",
-     "name": "Sobha Realty Metro Station",
-     "time": "17:27",
-     "action": "set_down",
-     "lat": 25.08243,
-     "lng": 55.148317,
-     "where_exactly": "Sea side of Sobha Realty Metro Station, near the Carrefour Market sign; bus pick-up point."
-    },
-    {
      "code": "C2-03",
      "name": "DMCC Metro Station",
-     "time": "17:38",
+     "time": "17:27",
      "action": "set_down",
      "lat": 25.07122,
      "lng": 55.137072,
@@ -82623,11 +82614,20 @@
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "17:44",
+     "time": "17:32",
      "action": "set_down",
      "lat": 25.075735,
      "lng": 55.140981,
      "where_exactly": "Pick and drop point at Dubai Marina Mall."
+    },
+    {
+     "code": "C2-04",
+     "name": "Sobha Realty Metro Station",
+     "time": "17:38",
+     "action": "set_down",
+     "lat": 25.08243,
+     "lng": 55.148317,
+     "where_exactly": "Sea side of Sobha Realty Metro Station, near the Carrefour Market sign; bus pick-up point."
     },
     {
      "code": "C2-07",
@@ -91384,7 +91384,7 @@
    "service": "undergraduate",
    "arrive_campus": "10:45",
    "leave_campus": null,
-   "start": "09:39",
+   "start": "09:27",
    "end": "10:45",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
@@ -91394,27 +91394,27 @@
    "status": "operating",
    "stops": [
     {
-     "code": "C2-03",
-     "name": "DMCC Metro Station",
-     "time": "09:39",
-     "action": "pick_up",
-     "lat": 25.07122,
-     "lng": 55.137072,
-     "where_exactly": "Outside the Yacht Bay sign (Yacht Bay building)."
-    },
-    {
      "code": "C2-04",
      "name": "Sobha Realty Metro Station",
-     "time": "09:51",
+     "time": "09:27",
      "action": "pick_up",
      "lat": 25.08243,
      "lng": 55.148317,
      "where_exactly": "Sea side of Sobha Realty Metro Station, near the Carrefour Market sign; bus pick-up point."
     },
     {
+     "code": "C2-03",
+     "name": "DMCC Metro Station",
+     "time": "09:34",
+     "action": "pick_up",
+     "lat": 25.07122,
+     "lng": 55.137072,
+     "where_exactly": "Outside the Yacht Bay sign (Yacht Bay building)."
+    },
+    {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "10:03",
+     "time": "09:51",
      "action": "pick_up",
      "lat": 25.093492,
      "lng": 55.177807,
@@ -91659,22 +91659,22 @@
      "where_exactly": "Kerbside outside the building entrance; do not enter the car park."
     },
     {
-     "code": "C2-04",
-     "name": "Sobha Realty Metro Station",
-     "time": "17:28",
-     "action": "set_down",
-     "lat": 25.08243,
-     "lng": 55.148317,
-     "where_exactly": "Sea side of Sobha Realty Metro Station, near the Carrefour Market sign; bus pick-up point."
-    },
-    {
      "code": "C2-03",
      "name": "DMCC Metro Station",
-     "time": "17:39",
+     "time": "17:28",
      "action": "set_down",
      "lat": 25.07122,
      "lng": 55.137072,
      "where_exactly": "Outside the Yacht Bay sign (Yacht Bay building)."
+    },
+    {
+     "code": "C2-04",
+     "name": "Sobha Realty Metro Station",
+     "time": "17:35",
+     "action": "set_down",
+     "lat": 25.08243,
+     "lng": 55.148317,
+     "where_exactly": "Sea side of Sobha Realty Metro Station, near the Carrefour Market sign; bus pick-up point."
     },
     {
      "code": "C2-07",
@@ -91733,18 +91733,9 @@
      "where_exactly": "Outside the Springs 10 gatehouse on Street 1, before the barrier."
     },
     {
-     "code": "C2-04",
-     "name": "Sobha Realty Metro Station",
-     "time": "19:16",
-     "action": "set_down",
-     "lat": 25.08243,
-     "lng": 55.148317,
-     "where_exactly": "Sea side of Sobha Realty Metro Station, near the Carrefour Market sign; bus pick-up point."
-    },
-    {
      "code": "C2-03",
      "name": "DMCC Metro Station",
-     "time": "19:27",
+     "time": "19:16",
      "action": "set_down",
      "lat": 25.07122,
      "lng": 55.137072,
@@ -91753,11 +91744,20 @@
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "19:33",
+     "time": "19:21",
      "action": "set_down",
      "lat": 25.075735,
      "lng": 55.140981,
      "where_exactly": "Pick and drop point at Dubai Marina Mall."
+    },
+    {
+     "code": "C2-04",
+     "name": "Sobha Realty Metro Station",
+     "time": "19:27",
+     "action": "set_down",
+     "lat": 25.08243,
+     "lng": 55.148317,
+     "where_exactly": "Sea side of Sobha Realty Metro Station, near the Carrefour Market sign; bus pick-up point."
     },
     {
      "code": "C2-07",
@@ -100381,22 +100381,22 @@
      "where_exactly": "Pick and drop area outside the Al Asmawi Building."
     },
     {
-     "code": "C2-04",
-     "name": "Sobha Realty Metro Station",
-     "time": "13:04",
-     "action": "set_down",
-     "lat": 25.08243,
-     "lng": 55.148317,
-     "where_exactly": "Sea side of Sobha Realty Metro Station, near the Carrefour Market sign; bus pick-up point."
-    },
-    {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "13:11",
+     "time": "13:04",
      "action": "set_down",
      "lat": 25.075735,
      "lng": 55.140981,
      "where_exactly": "Pick and drop point at Dubai Marina Mall."
+    },
+    {
+     "code": "C2-04",
+     "name": "Sobha Realty Metro Station",
+     "time": "13:10",
+     "action": "set_down",
+     "lat": 25.08243,
+     "lng": 55.148317,
+     "where_exactly": "Sea side of Sobha Realty Metro Station, near the Carrefour Market sign; bus pick-up point."
     },
     {
      "code": "C2-07",
@@ -105159,18 +105159,9 @@
      "where_exactly": "Pick and drop area outside the Al Asmawi Building."
     },
     {
-     "code": "C2-04",
-     "name": "Sobha Realty Metro Station",
-     "time": "17:30",
-     "action": "set_down",
-     "lat": 25.08243,
-     "lng": 55.148317,
-     "where_exactly": "Sea side of Sobha Realty Metro Station, near the Carrefour Market sign; bus pick-up point."
-    },
-    {
      "code": "C2-03",
      "name": "DMCC Metro Station",
-     "time": "17:41",
+     "time": "17:30",
      "action": "set_down",
      "lat": 25.07122,
      "lng": 55.137072,
@@ -105179,11 +105170,20 @@
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "17:47",
+     "time": "17:35",
      "action": "set_down",
      "lat": 25.075735,
      "lng": 55.140981,
      "where_exactly": "Pick and drop point at Dubai Marina Mall."
+    },
+    {
+     "code": "C2-04",
+     "name": "Sobha Realty Metro Station",
+     "time": "17:41",
+     "action": "set_down",
+     "lat": 25.08243,
+     "lng": 55.148317,
+     "where_exactly": "Sea side of Sobha Realty Metro Station, near the Carrefour Market sign; bus pick-up point."
     },
     {
      "code": "C2-07",
@@ -113759,7 +113759,7 @@
    "service": "undergraduate",
    "arrive_campus": "10:45",
    "leave_campus": null,
-   "start": "09:39",
+   "start": "09:17",
    "end": "10:45",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
@@ -113771,34 +113771,34 @@
     {
      "code": "C2-01",
      "name": "Al Sarood, Shoreline 13, Palm Jumeirah",
-     "time": "09:39",
+     "time": "09:17",
      "action": "pick_up",
      "lat": 25.11202,
      "lng": 55.142781,
      "where_exactly": "Outside building 13, Shoreline St."
     },
     {
-     "code": "C2-03",
-     "name": "DMCC Metro Station",
-     "time": "09:53",
-     "action": "pick_up",
-     "lat": 25.07122,
-     "lng": 55.137072,
-     "where_exactly": "Outside the Yacht Bay sign (Yacht Bay building)."
-    },
-    {
      "code": "C2-04",
      "name": "Sobha Realty Metro Station",
-     "time": "10:02",
+     "time": "09:31",
      "action": "pick_up",
      "lat": 25.08243,
      "lng": 55.148317,
      "where_exactly": "Sea side of Sobha Realty Metro Station, near the Carrefour Market sign; bus pick-up point."
     },
     {
+     "code": "C2-03",
+     "name": "DMCC Metro Station",
+     "time": "09:38",
+     "action": "pick_up",
+     "lat": 25.07122,
+     "lng": 55.137072,
+     "where_exactly": "Outside the Yacht Bay sign (Yacht Bay building)."
+    },
+    {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "10:13",
+     "time": "09:51",
      "action": "pick_up",
      "lat": 25.093492,
      "lng": 55.177807,
@@ -114052,22 +114052,22 @@
      "where_exactly": "Kerbside outside the building entrance; do not enter the car park."
     },
     {
-     "code": "C2-04",
-     "name": "Sobha Realty Metro Station",
-     "time": "17:28",
-     "action": "set_down",
-     "lat": 25.08243,
-     "lng": 55.148317,
-     "where_exactly": "Sea side of Sobha Realty Metro Station, near the Carrefour Market sign; bus pick-up point."
-    },
-    {
      "code": "C2-03",
      "name": "DMCC Metro Station",
-     "time": "17:39",
+     "time": "17:28",
      "action": "set_down",
      "lat": 25.07122,
      "lng": 55.137072,
      "where_exactly": "Outside the Yacht Bay sign (Yacht Bay building)."
+    },
+    {
+     "code": "C2-04",
+     "name": "Sobha Realty Metro Station",
+     "time": "17:35",
+     "action": "set_down",
+     "lat": 25.08243,
+     "lng": 55.148317,
+     "where_exactly": "Sea side of Sobha Realty Metro Station, near the Carrefour Market sign; bus pick-up point."
     },
     {
      "code": "C2-07",
@@ -122433,22 +122433,22 @@
      "where_exactly": "Kerbside outside Al Nakheel 2A on Street 2, The Greens. Do not enter the building car park."
     },
     {
-     "code": "C2-04",
-     "name": "Sobha Realty Metro Station",
-     "time": "13:01",
-     "action": "set_down",
-     "lat": 25.08243,
-     "lng": 55.148317,
-     "where_exactly": "Sea side of Sobha Realty Metro Station, near the Carrefour Market sign; bus pick-up point."
-    },
-    {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "13:08",
+     "time": "13:01",
      "action": "set_down",
      "lat": 25.075735,
      "lng": 55.140981,
      "where_exactly": "Pick and drop point at Dubai Marina Mall."
+    },
+    {
+     "code": "C2-04",
+     "name": "Sobha Realty Metro Station",
+     "time": "13:07",
+     "action": "set_down",
+     "lat": 25.08243,
+     "lng": 55.148317,
+     "where_exactly": "Sea side of Sobha Realty Metro Station, near the Carrefour Market sign; bus pick-up point."
     },
     {
      "code": "C2-07",
