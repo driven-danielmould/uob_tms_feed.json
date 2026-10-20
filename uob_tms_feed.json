@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-20T08:48:50Z",
+ "generated_at": "2026-10-20T13:09:21Z",
  "week": "2026-10-09 to 2026-11-15",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -42606,7 +42606,7 @@
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 5,
+   "booked": 4,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -42618,15 +42618,6 @@
      "lat": 25.040494,
      "lng": 55.195971,
      "where_exactly": "Outside drop-off area by Tim Hortons, City Centre Me'aisem."
-    },
-    {
-     "code": "C3-19",
-     "name": "Regina Tower, JVC",
-     "time": "16:13",
-     "action": "pick_up",
-     "lat": 25.057284,
-     "lng": 55.212609,
-     "where_exactly": "Kerbside on 24 Street outside the tower entrance; do not enter the car park."
     },
     {
      "code": "C3-17",
@@ -42904,7 +42895,7 @@
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 5,
+   "booked": 4,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -42943,15 +42934,6 @@
      "lat": 25.036628,
      "lng": 55.221187,
      "where_exactly": "Outside the front of the Eagle Heights building."
-    },
-    {
-     "code": "C3-19",
-     "name": "Regina Tower, JVC",
-     "time": "22:25",
-     "action": "set_down",
-     "lat": 25.057284,
-     "lng": 55.212609,
-     "where_exactly": "Kerbside on 24 Street outside the tower entrance; do not enter the car park."
     },
     {
      "code": "C3-05",
@@ -44625,7 +44607,7 @@
    "arrive_campus": null,
    "leave_campus": "14:15",
    "start": "14:15",
-   "end": "15:42",
+   "end": "15:22",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
    "capacity": 15,
@@ -44695,15 +44677,6 @@
      "lat": 25.099769538054428,
      "lng": 55.17320213081937,
      "where_exactly": "RTA bus stop \"Dubai Internet City Metro Bus Stop Landside 1\" (landside, Barsha Heights side of the metro) - pick-up and set-down here; coordinator-confirmed pin 12 Oct."
-    },
-    {
-     "code": "C2-08",
-     "name": "Mall of the Emirates",
-     "time": "15:42",
-     "action": "set_down",
-     "lat": 25.1201411,
-     "lng": 55.2011196,
-     "where_exactly": "Pick-up point at 25.1201411, 55.2011196 (metro side)."
     }
    ]
   },
@@ -47754,7 +47727,7 @@
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 4,
+   "booked": 5,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -47766,6 +47739,15 @@
      "lat": 25.040494,
      "lng": 55.195971,
      "where_exactly": "Outside drop-off area by Tim Hortons, City Centre Me'aisem."
+    },
+    {
+     "code": "C3-19",
+     "name": "Regina Tower, JVC",
+     "time": "16:16",
+     "action": "pick_up",
+     "lat": 25.057284,
+     "lng": 55.212609,
+     "where_exactly": "Kerbside on 24 Street outside the tower entrance; do not enter the car park."
     },
     {
      "code": "C3-17",
@@ -48048,11 +48030,11 @@
    "arrive_campus": null,
    "leave_campus": "21:36",
    "start": "21:36",
-   "end": "22:28",
+   "end": "22:35",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 4,
+   "booked": 5,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -48093,9 +48075,18 @@
      "where_exactly": "Outside the front of the Eagle Heights building."
     },
     {
+     "code": "C3-19",
+     "name": "Regina Tower, JVC",
+     "time": "22:26",
+     "action": "set_down",
+     "lat": 25.057284,
+     "lng": 55.212609,
+     "where_exactly": "Kerbside on 24 Street outside the tower entrance; do not enter the car park."
+    },
+    {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "22:28",
+     "time": "22:35",
      "action": "set_down",
      "lat": 25.040494,
      "lng": 55.195971,
@@ -57164,7 +57155,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "19:32",
+   "end": "19:37",
    "vehicle": "M4",
    "vehicle_type": "Rosa",
    "capacity": 34,
@@ -57191,9 +57182,18 @@
      "where_exactly": "Main entrance of the Arabian Ranches 3 souk."
     },
     {
+     "code": "C3-19",
+     "name": "Regina Tower, JVC",
+     "time": "19:12",
+     "action": "set_down",
+     "lat": 25.057284,
+     "lng": 55.212609,
+     "where_exactly": "Kerbside on 24 Street outside the tower entrance; do not enter the car park."
+    },
+    {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "19:19",
+     "time": "19:21",
      "action": "set_down",
      "lat": 25.040494,
      "lng": 55.195971,
@@ -57202,20 +57202,11 @@
     {
      "code": "C3-21",
      "name": "DAMAC Hills Mall, DAMAC Hills",
-     "time": "19:23",
+     "time": "19:37",
      "action": "set_down",
      "lat": 25.0179838,
      "lng": 55.2468052,
      "where_exactly": "Mall drop-off, DAMAC Hills."
-    },
-    {
-     "code": "C3-19",
-     "name": "Regina Tower, JVC",
-     "time": "19:32",
-     "action": "set_down",
-     "lat": 25.057284,
-     "lng": 55.212609,
-     "where_exactly": "Kerbside on 24 Street outside the tower entrance; do not enter the car park."
     }
    ]
   },
@@ -62044,7 +62035,7 @@
    "service": "masters",
    "arrive_campus": "17:45",
    "leave_campus": null,
-   "start": "16:08",
+   "start": "16:10",
    "end": "17:45",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
@@ -62056,7 +62047,7 @@
     {
      "code": "C3-19",
      "name": "Regina Tower, JVC",
-     "time": "16:08",
+     "time": "16:10",
      "action": "pick_up",
      "lat": 25.057284,
      "lng": 55.212609,
@@ -62271,7 +62262,7 @@
    "arrive_campus": null,
    "leave_campus": "21:36",
    "start": "21:36",
-   "end": "22:29",
+   "end": "22:30",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
@@ -62318,7 +62309,7 @@
     {
      "code": "C3-19",
      "name": "Regina Tower, JVC",
-     "time": "22:29",
+     "time": "22:30",
      "action": "set_down",
      "lat": 25.057284,
      "lng": 55.212609,
@@ -66756,7 +66747,7 @@
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 5,
+   "booked": 4,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -66768,15 +66759,6 @@
      "lat": 25.040494,
      "lng": 55.195971,
      "where_exactly": "Outside drop-off area by Tim Hortons, City Centre Me'aisem."
-    },
-    {
-     "code": "C3-19",
-     "name": "Regina Tower, JVC",
-     "time": "16:13",
-     "action": "pick_up",
-     "lat": 25.057284,
-     "lng": 55.212609,
-     "where_exactly": "Kerbside on 24 Street outside the tower entrance; do not enter the car park."
     },
     {
      "code": "C3-17",
@@ -67027,7 +67009,7 @@
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 5,
+   "booked": 4,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -67066,15 +67048,6 @@
      "lat": 25.036628,
      "lng": 55.221187,
      "where_exactly": "Outside the front of the Eagle Heights building."
-    },
-    {
-     "code": "C3-19",
-     "name": "Regina Tower, JVC",
-     "time": "22:25",
-     "action": "set_down",
-     "lat": 25.057284,
-     "lng": 55.212609,
-     "where_exactly": "Kerbside on 24 Street outside the tower entrance; do not enter the car park."
     },
     {
      "code": "C3-05",
@@ -71463,7 +71436,7 @@
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 4,
+   "booked": 5,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -71475,6 +71448,15 @@
      "lat": 25.040494,
      "lng": 55.195971,
      "where_exactly": "Outside drop-off area by Tim Hortons, City Centre Me'aisem."
+    },
+    {
+     "code": "C3-19",
+     "name": "Regina Tower, JVC",
+     "time": "16:16",
+     "action": "pick_up",
+     "lat": 25.057284,
+     "lng": 55.212609,
+     "where_exactly": "Kerbside on 24 Street outside the tower entrance; do not enter the car park."
     },
     {
      "code": "C3-17",
@@ -71757,11 +71739,11 @@
    "arrive_campus": null,
    "leave_campus": "21:36",
    "start": "21:36",
-   "end": "22:28",
+   "end": "22:35",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 4,
+   "booked": 5,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -71802,9 +71784,18 @@
      "where_exactly": "Outside the front of the Eagle Heights building."
     },
     {
+     "code": "C3-19",
+     "name": "Regina Tower, JVC",
+     "time": "22:26",
+     "action": "set_down",
+     "lat": 25.057284,
+     "lng": 55.212609,
+     "where_exactly": "Kerbside on 24 Street outside the tower entrance; do not enter the car park."
+    },
+    {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "22:28",
+     "time": "22:35",
      "action": "set_down",
      "lat": 25.040494,
      "lng": 55.195971,
@@ -80439,7 +80430,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "19:32",
+   "end": "19:37",
    "vehicle": "M4",
    "vehicle_type": "Rosa",
    "capacity": 34,
@@ -80466,9 +80457,18 @@
      "where_exactly": "Main entrance of the Arabian Ranches 3 souk."
     },
     {
+     "code": "C3-19",
+     "name": "Regina Tower, JVC",
+     "time": "19:12",
+     "action": "set_down",
+     "lat": 25.057284,
+     "lng": 55.212609,
+     "where_exactly": "Kerbside on 24 Street outside the tower entrance; do not enter the car park."
+    },
+    {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "19:19",
+     "time": "19:21",
      "action": "set_down",
      "lat": 25.040494,
      "lng": 55.195971,
@@ -80477,20 +80477,11 @@
     {
      "code": "C3-21",
      "name": "DAMAC Hills Mall, DAMAC Hills",
-     "time": "19:23",
+     "time": "19:37",
      "action": "set_down",
      "lat": 25.0179838,
      "lng": 55.2468052,
      "where_exactly": "Mall drop-off, DAMAC Hills."
-    },
-    {
-     "code": "C3-19",
-     "name": "Regina Tower, JVC",
-     "time": "19:32",
-     "action": "set_down",
-     "lat": 25.057284,
-     "lng": 55.212609,
-     "where_exactly": "Kerbside on 24 Street outside the tower entrance; do not enter the car park."
     }
    ]
   },
@@ -85118,7 +85109,7 @@
    "service": "masters",
    "arrive_campus": "17:45",
    "leave_campus": null,
-   "start": "16:08",
+   "start": "16:10",
    "end": "17:45",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
@@ -85130,7 +85121,7 @@
     {
      "code": "C3-19",
      "name": "Regina Tower, JVC",
-     "time": "16:08",
+     "time": "16:10",
      "action": "pick_up",
      "lat": 25.057284,
      "lng": 55.212609,
@@ -85345,7 +85336,7 @@
    "arrive_campus": null,
    "leave_campus": "21:36",
    "start": "21:36",
-   "end": "22:29",
+   "end": "22:30",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
@@ -85392,7 +85383,7 @@
     {
      "code": "C3-19",
      "name": "Regina Tower, JVC",
-     "time": "22:29",
+     "time": "22:30",
      "action": "set_down",
      "lat": 25.057284,
      "lng": 55.212609,
@@ -89678,24 +89669,15 @@
    "service": "masters",
    "arrive_campus": "17:45",
    "leave_campus": null,
-   "start": "16:13",
+   "start": "16:23",
    "end": "17:45",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 4,
+   "booked": 3,
    "seats": 15,
    "status": "operating",
    "stops": [
-    {
-     "code": "C3-19",
-     "name": "Regina Tower, JVC",
-     "time": "16:13",
-     "action": "pick_up",
-     "lat": 25.057284,
-     "lng": 55.212609,
-     "where_exactly": "Kerbside on 24 Street outside the tower entrance; do not enter the car park."
-    },
     {
      "code": "C3-17",
      "name": "Eagle Heights, Dubai Sports City",
@@ -89932,11 +89914,11 @@
    "arrive_campus": null,
    "leave_campus": "21:36",
    "start": "21:36",
-   "end": "22:25",
+   "end": "22:18",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 4,
+   "booked": 3,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -89975,15 +89957,6 @@
      "lat": 25.036628,
      "lng": 55.221187,
      "where_exactly": "Outside the front of the Eagle Heights building."
-    },
-    {
-     "code": "C3-19",
-     "name": "Regina Tower, JVC",
-     "time": "22:25",
-     "action": "set_down",
-     "lat": 25.057284,
-     "lng": 55.212609,
-     "where_exactly": "Kerbside on 24 Street outside the tower entrance; do not enter the car park."
     }
    ]
   },
@@ -94270,15 +94243,24 @@
    "service": "masters",
    "arrive_campus": "17:45",
    "leave_campus": null,
-   "start": "16:18",
+   "start": "16:10",
    "end": "17:45",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 3,
+   "booked": 4,
    "seats": 15,
    "status": "operating",
    "stops": [
+    {
+     "code": "C3-19",
+     "name": "Regina Tower, JVC",
+     "time": "16:10",
+     "action": "pick_up",
+     "lat": 25.057284,
+     "lng": 55.212609,
+     "where_exactly": "Kerbside on 24 Street outside the tower entrance; do not enter the car park."
+    },
     {
      "code": "C3-17",
      "name": "Eagle Heights, Dubai Sports City",
@@ -94477,11 +94459,11 @@
    "arrive_campus": null,
    "leave_campus": "21:36",
    "start": "21:36",
-   "end": "22:21",
+   "end": "22:29",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 3,
+   "booked": 4,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -94520,6 +94502,15 @@
      "lat": 25.036628,
      "lng": 55.221187,
      "where_exactly": "Outside the front of the Eagle Heights building."
+    },
+    {
+     "code": "C3-19",
+     "name": "Regina Tower, JVC",
+     "time": "22:29",
+     "action": "set_down",
+     "lat": 25.057284,
+     "lng": 55.212609,
+     "where_exactly": "Kerbside on 24 Street outside the tower entrance; do not enter the car park."
     }
    ]
   },
@@ -102955,7 +102946,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "19:29",
+   "end": "19:38",
    "vehicle": "M4",
    "vehicle_type": "Rosa",
    "capacity": 34,
@@ -102993,7 +102984,7 @@
     {
      "code": "C3-19",
      "name": "Regina Tower, JVC",
-     "time": "19:29",
+     "time": "19:38",
      "action": "set_down",
      "lat": 25.057284,
      "lng": 55.212609,
@@ -107669,7 +107660,7 @@
     {
      "code": "C3-19",
      "name": "Regina Tower, JVC",
-     "time": "16:29",
+     "time": "16:27",
      "action": "pick_up",
      "lat": 25.057284,
      "lng": 55.212609,
@@ -107846,7 +107837,7 @@
    "arrive_campus": null,
    "leave_campus": "21:36",
    "start": "21:36",
-   "end": "22:21",
+   "end": "22:27",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
@@ -107875,7 +107866,7 @@
     {
      "code": "C3-19",
      "name": "Regina Tower, JVC",
-     "time": "22:14",
+     "time": "22:19",
      "action": "set_down",
      "lat": 25.057284,
      "lng": 55.212609,
@@ -107884,7 +107875,7 @@
     {
      "code": "C3-17",
      "name": "Eagle Heights, Dubai Sports City",
-     "time": "22:21",
+     "time": "22:27",
      "action": "set_down",
      "lat": 25.036628,
      "lng": 55.221187,
@@ -112147,62 +112138,6 @@
    ]
   },
   {
-   "run_id": "2026-11-10-R8-O5C",
-   "date": "2026-11-10",
-   "day": "Tue",
-   "route": "R8",
-   "direction": "to_campus",
-   "service": "masters",
-   "arrive_campus": "17:45",
-   "leave_campus": null,
-   "start": "16:24",
-   "end": "17:45",
-   "vehicle": "M8",
-   "vehicle_type": "Hiace",
-   "capacity": 15,
-   "booked": 3,
-   "seats": 15,
-   "status": "operating",
-   "stops": [
-    {
-     "code": "C3-19",
-     "name": "Regina Tower, JVC",
-     "time": "16:24",
-     "action": "pick_up",
-     "lat": 25.057284,
-     "lng": 55.212609,
-     "where_exactly": "Kerbside on 24 Street outside the tower entrance; do not enter the car park."
-    },
-    {
-     "code": "C3-17",
-     "name": "Eagle Heights, Dubai Sports City",
-     "time": "16:34",
-     "action": "pick_up",
-     "lat": 25.036628,
-     "lng": 55.221187,
-     "where_exactly": "Outside the front of the Eagle Heights building."
-    },
-    {
-     "code": "C3-12",
-     "name": "Arabian Ranches 3",
-     "time": "16:58",
-     "action": "pick_up",
-     "lat": 25.069629,
-     "lng": 55.323824,
-     "where_exactly": "Main entrance of the Arabian Ranches 3 souk."
-    },
-    {
-     "code": "UOB",
-     "name": "University of Birmingham Dubai",
-     "time": "17:45",
-     "action": "set_down",
-     "lat": 25.1321925,
-     "lng": 55.4223161,
-     "where_exactly": ""
-    }
-   ]
-  },
-  {
    "run_id": "2026-11-10-R8-O5N",
    "date": "2026-11-10",
    "day": "Tue",
@@ -112237,6 +112172,53 @@
      "lat": 25.2249568,
      "lng": 55.3336402,
      "where_exactly": "Kerbside at the metro station entrance on Al Jaddaf Street (bus bay by the main exit). Masters evening bus only unless booked on day runs."
+    },
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "17:45",
+     "action": "set_down",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    }
+   ]
+  },
+  {
+   "run_id": "2026-11-10-R8-O5C",
+   "date": "2026-11-10",
+   "day": "Tue",
+   "route": "R8",
+   "direction": "to_campus",
+   "service": "masters",
+   "arrive_campus": "17:45",
+   "leave_campus": null,
+   "start": "16:34",
+   "end": "17:45",
+   "vehicle": "M8",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 2,
+   "seats": 15,
+   "status": "operating",
+   "stops": [
+    {
+     "code": "C3-17",
+     "name": "Eagle Heights, Dubai Sports City",
+     "time": "16:34",
+     "action": "pick_up",
+     "lat": 25.036628,
+     "lng": 55.221187,
+     "where_exactly": "Outside the front of the Eagle Heights building."
+    },
+    {
+     "code": "C3-12",
+     "name": "Arabian Ranches 3",
+     "time": "16:58",
+     "action": "pick_up",
+     "lat": 25.069629,
+     "lng": 55.323824,
+     "where_exactly": "Main entrance of the Arabian Ranches 3 souk."
     },
     {
      "code": "UOB",
@@ -112362,11 +112344,11 @@
    "arrive_campus": null,
    "leave_campus": "21:36",
    "start": "21:36",
-   "end": "22:17",
+   "end": "22:10",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 3,
+   "booked": 2,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -112396,15 +112378,6 @@
      "lat": 25.036628,
      "lng": 55.221187,
      "where_exactly": "Outside the front of the Eagle Heights building."
-    },
-    {
-     "code": "C3-19",
-     "name": "Regina Tower, JVC",
-     "time": "22:17",
-     "action": "set_down",
-     "lat": 25.057284,
-     "lng": 55.212609,
-     "where_exactly": "Kerbside on 24 Street outside the tower entrance; do not enter the car park."
     }
    ]
   },
@@ -116555,15 +116528,24 @@
    "service": "masters",
    "arrive_campus": "17:45",
    "leave_campus": null,
-   "start": "16:18",
+   "start": "16:10",
    "end": "17:45",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 3,
+   "booked": 4,
    "seats": 15,
    "status": "operating",
    "stops": [
+    {
+     "code": "C3-19",
+     "name": "Regina Tower, JVC",
+     "time": "16:10",
+     "action": "pick_up",
+     "lat": 25.057284,
+     "lng": 55.212609,
+     "where_exactly": "Kerbside on 24 Street outside the tower entrance; do not enter the car park."
+    },
     {
      "code": "C3-17",
      "name": "Eagle Heights, Dubai Sports City",
@@ -116724,11 +116706,11 @@
    "arrive_campus": null,
    "leave_campus": "21:36",
    "start": "21:36",
-   "end": "22:21",
+   "end": "22:29",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 3,
+   "booked": 4,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -116767,6 +116749,15 @@
      "lat": 25.036628,
      "lng": 55.221187,
      "where_exactly": "Outside the front of the Eagle Heights building."
+    },
+    {
+     "code": "C3-19",
+     "name": "Regina Tower, JVC",
+     "time": "22:29",
+     "action": "set_down",
+     "lat": 25.057284,
+     "lng": 55.212609,
+     "where_exactly": "Kerbside on 24 Street outside the tower entrance; do not enter the car park."
     }
    ]
   },
@@ -124888,7 +124879,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "19:29",
+   "end": "19:20",
    "vehicle": "M4",
    "vehicle_type": "Rosa",
    "capacity": 34,
@@ -124917,7 +124908,7 @@
     {
      "code": "C3-19",
      "name": "Regina Tower, JVC",
-     "time": "19:29",
+     "time": "19:20",
      "action": "set_down",
      "lat": 25.057284,
      "lng": 55.212609,
