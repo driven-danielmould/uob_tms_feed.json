@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Irshad (masters driver) · DrivenBus UoB</title><link rel="icon" type="image/png" sizes="32x32" href="/uob_tms_feed.json/brand/favicon-32.png"><link rel="icon" type="image/png" sizes="512x512" href="/uob_tms_feed.json/brand/favicon.png"><link rel="apple-touch-icon" sizes="180x180" href="/uob_tms_feed.json/brand/favicon-180.png">
+<style>
+:root{--bg:#fff;--ink:#111;--mute:#666;--line:#ddd;--card:#f5f5f5;--waze:#33ccff;--wazeink:#00233a;--gm:#1a73e8;--out:#1565c0;--ret:#2e7d32;--uob:#6a1b9a;
+ box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#111;--ink:#f3f3f3;--mute:#aaa;--line:#333;--card:#1c1c1c}}
+:root[data-theme="dark"]{--bg:#111;--ink:#f3f3f3;--mute:#aaa;--line:#333;--card:#1c1c1c}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,"Segoe UI",Roboto,Arial,sans-serif;font-size:20px;line-height:1.25}
+header{padding:14px 16px 8px;border-bottom:2px solid var(--line)}
+header h1{margin:0;font-size:26px}
+header .sub{margin:4px 0 0;color:var(--mute);font-size:16px}
+.days{display:flex;gap:6px;padding:10px 12px;overflow-x:auto;position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);z-index:2;border-bottom:1px solid var(--line)}
+.days button{flex:0 0 auto;font:inherit;font-size:19px;font-weight:700;padding:12px 16px;border-radius:12px;border:2px solid var(--line);background:var(--card);color:var(--ink)}
+.days button.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+main{padding:12px 12px 60px;max-width:640px;margin:0 auto}
+.off{padding:40px 10px;text-align:center;font-size:24px;font-weight:700;color:var(--mute)}
+.run{margin:0 0 34px}
+.ban{margin:0 -12px 14px;padding:18px 16px;background:var(--rc);color:#fff;border-top:8px solid rgba(0,0,0,.35);border-bottom:8px solid rgba(0,0,0,.35)}
+.run .stop{border-left:12px solid var(--rc)}
+.sign{display:inline-block;background:#FFD400;color:#000;font-weight:900;font-size:30px;padding:4px 14px;border-radius:8px;border:3px solid #000;letter-spacing:1px;vertical-align:middle;margin-left:6px;line-height:1.1}
+.ban .r{font-size:44px;font-weight:900;letter-spacing:1px;line-height:1}
+.ban .d{font-size:22px;font-weight:800;margin-top:4px}
+.ban .s{font-size:17px;opacity:.9;margin-top:4px}
+.stop{background:var(--card);border-radius:18px;padding:16px 16px 14px;margin:14px 0;border:2px solid var(--line)}
+.stop .k{font-size:34px;font-weight:900;letter-spacing:.5px}
+.stop.U .k{color:var(--uob)}
+.stop .nm{font-size:30px;font-weight:800;margin:4px 0 2px;line-height:1.15}
+.stop .tm{font-size:56px;font-weight:900;letter-spacing:-1px;margin:2px 0 6px;line-height:1}
+.stop .meta{font-size:17px;color:var(--mute);margin:0 0 10px}
+.pax{list-style:none;margin:0 0 12px;padding:0;border-top:1px solid var(--line)}
+.pax li{display:flex;justify-content:space-between;align-items:center;padding:7px 0;border-bottom:1px solid var(--line);font-size:20px}
+.pax .pn{font-weight:700}.pax .pc{font-family:ui-monospace,Menlo,monospace;font-weight:800;background:#FFD400;color:#000;padding:2px 8px;border-radius:6px;font-size:17px}
+.btns{display:flex;gap:10px}
+.btns a{flex:1;display:block;text-align:center;text-decoration:none;font-weight:900;font-size:22px;padding:20px 8px;border-radius:14px;color:#fff;letter-spacing:.3px}
+.btns a.w{background:var(--waze);color:var(--wazeink)}
+.btns a.g{background:var(--gm)}
+.foot{margin-top:30px;font-size:15px;color:var(--mute);text-align:center}
+.foot a{color:var(--mute)}
+#gate{position:fixed;inset:0;background:#111;color:#fff;display:flex;align-items:center;justify-content:center;z-index:9;font-family:-apple-system,"Segoe UI",Roboto,Arial,sans-serif}
+.gbox{width:min(92vw,420px);text-align:center}.gbox h1{font-size:28px;margin:0 0 6px}.gbox p{color:#aaa;margin:0 0 18px;font-size:16px}
+#pin{width:100%;font-size:32px;text-align:center;padding:14px;border-radius:12px;border:2px solid #444;background:#222;color:#fff;letter-spacing:4px}
+#go{width:100%;margin-top:12px;font-size:24px;font-weight:900;padding:18px;border-radius:12px;border:0;background:#FFD400;color:#000}
+.err{color:#ff7b7b;min-height:22px;margin-top:10px}</style></head><body>
+<header><h1>Irshad (masters driver)</h1><p class="sub">JVC–DAMAC–DSO · bus and times for each stop · tap Waze or Google Maps to drive to it</p></header>
+<nav class="days" id="days"></nav>
+<main id="app"></main>
+<div id="gate"><div class="gbox"><h1>DrivenBus driver page</h1><p>Enter your 6-digit driver PIN</p><input id="pin" type="password" inputmode="numeric" autocomplete="current-password" placeholder="PIN"><button id="go">OPEN</button><p id="err" class="err"></p></div></div>
+<script>const ENC={"salt": "KTwQYoiD7GvzbTquYBVYLA==", "iv": "K0SVZhyyKxHx0Ouj", "ct": "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"};const ITER=150000;const KEY="db_pin_D20";
+function b64(s){return Uint8Array.from(atob(s),c=>c.charCodeAt(0))}
+async function unlock(pw){const salt=b64(ENC.salt),iv=b64(ENC.iv),ct=b64(ENC.ct);
+ const km=await crypto.subtle.importKey("raw",new TextEncoder().encode(pw),"PBKDF2",false,["deriveKey"]);
+ const key=await crypto.subtle.deriveKey({name:"PBKDF2",salt,iterations:ITER,hash:"SHA-256"},km,{name:"AES-GCM",length:256},false,["decrypt"]);
+ const pt=await crypto.subtle.decrypt({name:"AES-GCM",iv},key,ct);return new TextDecoder().decode(pt)}
+async function tryPw(pw,remember){const b=document.getElementById("go");b.textContent="…";try{const pt=await unlock(pw);if(remember){try{localStorage.setItem(KEY,pw)}catch(e){}}document.getElementById("gate").remove();window.onUnlock(pt)}catch(e){b.textContent="OPEN";document.getElementById("err").textContent="Wrong code — try again";document.getElementById("pin").value=""}}
+document.getElementById("go").onclick=()=>tryPw(document.getElementById("pin").value.trim(),true);
+document.getElementById("pin").addEventListener("keydown",e=>{if(e.key==="Enter")document.getElementById("go").click()});
+(function(){let s=null;try{s=localStorage.getItem(KEY)}catch(e){}if(s)tryPw(s,false);else document.getElementById("pin").focus()})();</script>
+<script>
+let D=null;
+window.onUnlock=function(pt){D=JSON.parse(pt);cur=pick();render()};
+function pick(){const t=new Date();const key=t.getFullYear()+"-"+String(t.getMonth()+1).padStart(2,"0")+"-"+String(t.getDate()).padStart(2,"0");
+ const i=D.days.findIndex(d=>d.key===key);return i>=0?i:0}
+let cur=0;
+function esc(s){return String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]))}
+function render(){
+ document.getElementById("days").innerHTML=D.days.map((d,i)=>`<button class="${i===cur?"on":""}" onclick="cur=${i};render()">${d.short}</button>`).join("");
+ const d=D.days[cur];let h="";
+ if(!d.runs.length)h=`<div class="off">No runs ${esc(d.short)} — day off</div>`;
+ else{
+  h+=`<p style="margin:6px 4px 0;font-size:18px;color:var(--mute)">${esc(d.label)} · sign on <b style="color:var(--ink)">${d.sign_on}</b> · sign off <b style="color:var(--ink)">${d.sign_off}</b></p>`;
+  d.runs.forEach((r,i)=>{
+   const RC=["#1565c0","#2e7d32","#c62828","#6a1b9a","#e65100","#00695c","#4e342e","#283593"];
+   h+=`<section class="run ${r.dir}" style="--rc:${RC[i%RC.length]}"><div class="ban"><div class="r">RUN ${i+1} <span class="sign">${esc(r.bus)}</span></div><div class="d">${r.dir==="O"?"TO UoB · arrive "+r.target:"FROM UoB · leave "+r.target}</div><div class="s">${r.stops.length-1} stops · ${r.n} passenger${r.n===1?"":"s"}</div></div>`;
+   r.stops.forEach((s,j)=>{
+    h+=`<div class="stop ${s.uob?"U":""}"><div class="k">${s.uob?"UoB":"STOP "+(j+1)}</div><div class="nm">${esc(s.name)}</div><div class="tm">${s.time}</div><div class="meta">${s.pax?esc(s.pax)+" · ":""}${esc(s.instr||"")}</div>${s.riders&&s.riders.length?`<ul class="pax">${s.riders.map(p=>`<li><span class="pn">${esc(p.name)}</span><span class="pc">${esc(p.code)}</span></li>`).join("")}</ul>`:""}<div class="btns"><a class="w" href="${s.waze}" target="_blank" rel="noopener">WAZE</a><a class="g" href="${s.gmaps}" target="_blank" rel="noopener">GOOGLE MAPS</a></div></div>`});
+   h+=`</section>`});
+ }
+ h+=`<p class="foot">Full week rota (PDF): <a href="https://raw.githubusercontent.com/driven-danielmould/uob_tms_feed.json/main/drivers/D20-62c9c646.pdf">download</a> · DrivenBus · UoB Dubai · week of 5 Oct 2026</p>`;
+ document.getElementById("app").innerHTML=h;window.scrollTo(0,0)}
+</script></body></html>
