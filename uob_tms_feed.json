@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-20T17:44:34Z",
+ "generated_at": "2026-10-20T17:51:05Z",
  "week": "2026-10-09 to 2026-11-15",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -43364,68 +43364,64 @@
    "day": "Wed",
    "route": "R1",
    "direction": "from_campus",
-   "service": "regular",
+   "service": "undergraduate",
    "arrive_campus": null,
    "leave_campus": "16:30",
    "start": "16:30",
-   "end": "18:15",
+   "end": "17:50",
    "vehicle": "M1",
-   "vehicle_type": "Hiace",
-   "capacity": 15,
-   "booked": 0,
-   "seats": 15,
-   "offer_only": true,
+   "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 5,
+   "seats": 34,
+   "status": "operating",
    "stops": [
     {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
      "time": "16:30",
-     "action": "pick_up"
-    },
-    {
-     "code": "C1-01",
-     "name": "Al Khor Towers, Ajman",
-     "time": "16:45",
-     "action": "set_down"
-    },
-    {
-     "code": "C1-03",
-     "name": "Lulu Hypermarket Maysaloon",
-     "time": "17:00",
-     "action": "set_down"
-    },
-    {
-     "code": "C1-04",
-     "name": "Nesto Hypermarket, King Faisal St",
-     "time": "17:15",
-     "action": "set_down"
-    },
-    {
-     "code": "C1-05",
-     "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "17:30",
-     "action": "set_down"
+     "action": "pick_up",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
     },
     {
      "code": "C1-16",
      "name": "LuLu Hypermarket Al Nahda, Sharjah",
-     "time": "17:45",
-     "action": "set_down"
+     "time": "17:27",
+     "action": "set_down",
+     "lat": 25.303505,
+     "lng": 55.375491,
+     "where_exactly": "Al Nahda Park bus stop (Sharjah stop no. 78), across the road from LuLu, facing Habib Bakery."
     },
     {
-     "code": "C1-06",
-     "name": "Sahara Centre",
-     "time": "18:00",
-     "action": "set_down"
+     "code": "C1-05",
+     "name": "Sheikha Maryam Tower, Al Taawun",
+     "time": "17:33",
+     "action": "set_down",
+     "lat": 25.305885121719236,
+     "lng": 55.363729380596915,
+     "where_exactly": "Sheikha Maryam Tower, Al Taawun - pick-up at the pin set by Dan 7 Oct (Al Taawun St side); kerb text to confirm."
     },
     {
-     "code": "C1-02",
-     "name": "City Centre Al Zahia",
-     "time": "18:15",
-     "action": "set_down"
+     "code": "C1-18",
+     "name": "Shamseen Bakeries Building, Al Majaz",
+     "time": "17:43",
+     "action": "set_down",
+     "lat": 25.33253,
+     "lng": 55.37588,
+     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
+    },
+    {
+     "code": "C1-04",
+     "name": "Nesto Hypermarket, King Faisal St",
+     "time": "17:50",
+     "action": "set_down",
+     "lat": 25.337533,
+     "lng": 55.39061,
+     "where_exactly": "Main entrance on King Faisal St."
     }
-   ],
-   "status": "on_request"
+   ]
   },
   {
    "run_id": "2026-10-21-R1-R3",
@@ -43441,7 +43437,7 @@
    "vehicle": "M1",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 13,
+   "booked": 8,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -43498,24 +43494,6 @@
      "lat": 25.3275768,
      "lng": 55.3781072,
      "where_exactly": "Kerbside at the Corniche Hotel entrance, Corniche Road, Al Majaz 3. Rider-only stop (Rayyan Tayyab); between Shamseen Bakeries and Al Buhaira Police Station."
-    },
-    {
-     "code": "C1-18",
-     "name": "Shamseen Bakeries Building, Al Majaz",
-     "time": "19:49",
-     "action": "set_down",
-     "lat": 25.33253,
-     "lng": 55.37588,
-     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
-    },
-    {
-     "code": "C1-04",
-     "name": "Nesto Hypermarket, King Faisal St",
-     "time": "19:58",
-     "action": "set_down",
-     "lat": 25.337533,
-     "lng": 55.39061,
-     "where_exactly": "Main entrance on King Faisal St."
     },
     {
      "code": "C1-02",
@@ -58140,68 +58118,37 @@
    "day": "Mon",
    "route": "R1",
    "direction": "from_campus",
-   "service": "regular",
+   "service": "undergraduate",
    "arrive_campus": null,
    "leave_campus": "16:30",
    "start": "16:30",
-   "end": "18:15",
+   "end": "17:34",
    "vehicle": "M1",
-   "vehicle_type": "Hiace",
-   "capacity": 15,
-   "booked": 0,
-   "seats": 15,
-   "offer_only": true,
+   "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 2,
+   "seats": 34,
+   "status": "operating",
    "stops": [
     {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
      "time": "16:30",
-     "action": "pick_up"
-    },
-    {
-     "code": "C1-01",
-     "name": "Al Khor Towers, Ajman",
-     "time": "16:45",
-     "action": "set_down"
-    },
-    {
-     "code": "C1-03",
-     "name": "Lulu Hypermarket Maysaloon",
-     "time": "17:00",
-     "action": "set_down"
+     "action": "pick_up",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
     },
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "17:15",
-     "action": "set_down"
-    },
-    {
-     "code": "C1-05",
-     "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "17:30",
-     "action": "set_down"
-    },
-    {
-     "code": "C1-16",
-     "name": "LuLu Hypermarket Al Nahda, Sharjah",
-     "time": "17:45",
-     "action": "set_down"
-    },
-    {
-     "code": "C1-06",
-     "name": "Sahara Centre",
-     "time": "18:00",
-     "action": "set_down"
-    },
-    {
-     "code": "C1-02",
-     "name": "City Centre Al Zahia",
-     "time": "18:15",
-     "action": "set_down"
+     "time": "17:34",
+     "action": "set_down",
+     "lat": 25.337533,
+     "lng": 55.39061,
+     "where_exactly": "Main entrance on King Faisal St."
     }
-   ],
-   "status": "on_request"
+   ]
   },
   {
    "run_id": "2026-10-26-R1-R3",
@@ -58217,7 +58164,7 @@
    "vehicle": "M1",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 9,
+   "booked": 7,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -62735,68 +62682,64 @@
    "day": "Tue",
    "route": "R1",
    "direction": "from_campus",
-   "service": "regular",
+   "service": "undergraduate",
    "arrive_campus": null,
    "leave_campus": "16:30",
    "start": "16:30",
-   "end": "18:15",
+   "end": "17:49",
    "vehicle": "M1",
-   "vehicle_type": "Hiace",
-   "capacity": 15,
-   "booked": 0,
-   "seats": 15,
-   "offer_only": true,
+   "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 4,
+   "seats": 34,
+   "status": "operating",
    "stops": [
     {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
      "time": "16:30",
-     "action": "pick_up"
-    },
-    {
-     "code": "C1-01",
-     "name": "Al Khor Towers, Ajman",
-     "time": "16:45",
-     "action": "set_down"
-    },
-    {
-     "code": "C1-03",
-     "name": "Lulu Hypermarket Maysaloon",
-     "time": "17:00",
-     "action": "set_down"
-    },
-    {
-     "code": "C1-04",
-     "name": "Nesto Hypermarket, King Faisal St",
-     "time": "17:15",
-     "action": "set_down"
-    },
-    {
-     "code": "C1-05",
-     "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "17:30",
-     "action": "set_down"
-    },
-    {
-     "code": "C1-16",
-     "name": "LuLu Hypermarket Al Nahda, Sharjah",
-     "time": "17:45",
-     "action": "set_down"
+     "action": "pick_up",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
     },
     {
      "code": "C1-06",
      "name": "Sahara Centre",
-     "time": "18:00",
-     "action": "set_down"
+     "time": "17:25",
+     "action": "set_down",
+     "lat": 25.297153,
+     "lng": 55.371026,
+     "where_exactly": "Public bus stop shelter on 13th Street, facing the Sahara Centre mall entrance."
     },
     {
-     "code": "C1-02",
-     "name": "City Centre Al Zahia",
-     "time": "18:15",
-     "action": "set_down"
+     "code": "C1-16",
+     "name": "LuLu Hypermarket Al Nahda, Sharjah",
+     "time": "17:30",
+     "action": "set_down",
+     "lat": 25.303505,
+     "lng": 55.375491,
+     "where_exactly": "Al Nahda Park bus stop (Sharjah stop no. 78), across the road from LuLu, facing Habib Bakery."
+    },
+    {
+     "code": "C1-05",
+     "name": "Sheikha Maryam Tower, Al Taawun",
+     "time": "17:36",
+     "action": "set_down",
+     "lat": 25.305885121719236,
+     "lng": 55.363729380596915,
+     "where_exactly": "Sheikha Maryam Tower, Al Taawun - pick-up at the pin set by Dan 7 Oct (Al Taawun St side); kerb text to confirm."
+    },
+    {
+     "code": "C1-04",
+     "name": "Nesto Hypermarket, King Faisal St",
+     "time": "17:49",
+     "action": "set_down",
+     "lat": 25.337533,
+     "lng": 55.39061,
+     "where_exactly": "Main entrance on King Faisal St."
     }
-   ],
-   "status": "on_request"
+   ]
   },
   {
    "run_id": "2026-10-27-R1-R3",
@@ -62812,7 +62755,7 @@
    "vehicle": "M1",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 11,
+   "booked": 7,
    "seats": 34,
    "status": "operating",
    "stops": [
@@ -62824,24 +62767,6 @@
      "lat": 25.1321925,
      "lng": 55.4223161,
      "where_exactly": ""
-    },
-    {
-     "code": "C1-06",
-     "name": "Sahara Centre",
-     "time": "19:07",
-     "action": "set_down",
-     "lat": 25.297153,
-     "lng": 55.371026,
-     "where_exactly": "Public bus stop shelter on 13th Street, facing the Sahara Centre mall entrance."
-    },
-    {
-     "code": "C1-16",
-     "name": "LuLu Hypermarket Al Nahda, Sharjah",
-     "time": "19:16",
-     "action": "set_down",
-     "lat": 25.303505,
-     "lng": 55.375491,
-     "where_exactly": "Al Nahda Park bus stop (Sharjah stop no. 78), across the road from LuLu, facing Habib Bakery."
     },
     {
      "code": "C1-05",
@@ -67478,68 +67403,55 @@
    "day": "Wed",
    "route": "R1",
    "direction": "from_campus",
-   "service": "regular",
+   "service": "undergraduate",
    "arrive_campus": null,
    "leave_campus": "16:30",
    "start": "16:30",
-   "end": "18:15",
+   "end": "17:45",
    "vehicle": "M1",
-   "vehicle_type": "Hiace",
-   "capacity": 15,
-   "booked": 0,
-   "seats": 15,
-   "offer_only": true,
+   "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 3,
+   "seats": 34,
+   "status": "operating",
    "stops": [
     {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
      "time": "16:30",
-     "action": "pick_up"
-    },
-    {
-     "code": "C1-01",
-     "name": "Al Khor Towers, Ajman",
-     "time": "16:45",
-     "action": "set_down"
-    },
-    {
-     "code": "C1-03",
-     "name": "Lulu Hypermarket Maysaloon",
-     "time": "17:00",
-     "action": "set_down"
-    },
-    {
-     "code": "C1-04",
-     "name": "Nesto Hypermarket, King Faisal St",
-     "time": "17:15",
-     "action": "set_down"
+     "action": "pick_up",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
     },
     {
      "code": "C1-05",
      "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "17:30",
-     "action": "set_down"
+     "time": "17:28",
+     "action": "set_down",
+     "lat": 25.305885121719236,
+     "lng": 55.363729380596915,
+     "where_exactly": "Sheikha Maryam Tower, Al Taawun - pick-up at the pin set by Dan 7 Oct (Al Taawun St side); kerb text to confirm."
     },
     {
-     "code": "C1-16",
-     "name": "LuLu Hypermarket Al Nahda, Sharjah",
+     "code": "C1-18",
+     "name": "Shamseen Bakeries Building, Al Majaz",
+     "time": "17:38",
+     "action": "set_down",
+     "lat": 25.33253,
+     "lng": 55.37588,
+     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
+    },
+    {
+     "code": "C1-04",
+     "name": "Nesto Hypermarket, King Faisal St",
      "time": "17:45",
-     "action": "set_down"
-    },
-    {
-     "code": "C1-06",
-     "name": "Sahara Centre",
-     "time": "18:00",
-     "action": "set_down"
-    },
-    {
-     "code": "C1-02",
-     "name": "City Centre Al Zahia",
-     "time": "18:15",
-     "action": "set_down"
+     "action": "set_down",
+     "lat": 25.337533,
+     "lng": 55.39061,
+     "where_exactly": "Main entrance on King Faisal St."
     }
-   ],
-   "status": "on_request"
+   ]
   },
   {
    "run_id": "2026-10-28-R1-R3",
@@ -67555,7 +67467,7 @@
    "vehicle": "M1",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 9,
+   "booked": 6,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -67603,24 +67515,6 @@
      "lat": 25.323284,
      "lng": 55.381418,
      "where_exactly": "Bus stop by Al Buhaira Police Station on Al Intifada St; 2 minutes maximum."
-    },
-    {
-     "code": "C1-18",
-     "name": "Shamseen Bakeries Building, Al Majaz",
-     "time": "19:49",
-     "action": "set_down",
-     "lat": 25.33253,
-     "lng": 55.37588,
-     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
-    },
-    {
-     "code": "C1-04",
-     "name": "Nesto Hypermarket, King Faisal St",
-     "time": "19:58",
-     "action": "set_down",
-     "lat": 25.337533,
-     "lng": 55.39061,
-     "where_exactly": "Main entrance on King Faisal St."
     },
     {
      "code": "C1-02",
@@ -81352,68 +81246,37 @@
    "day": "Mon",
    "route": "R1",
    "direction": "from_campus",
-   "service": "regular",
+   "service": "undergraduate",
    "arrive_campus": null,
    "leave_campus": "16:30",
    "start": "16:30",
-   "end": "18:15",
+   "end": "17:34",
    "vehicle": "M1",
-   "vehicle_type": "Hiace",
-   "capacity": 15,
-   "booked": 0,
-   "seats": 15,
-   "offer_only": true,
+   "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 1,
+   "seats": 34,
+   "status": "operating",
    "stops": [
     {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
      "time": "16:30",
-     "action": "pick_up"
-    },
-    {
-     "code": "C1-01",
-     "name": "Al Khor Towers, Ajman",
-     "time": "16:45",
-     "action": "set_down"
-    },
-    {
-     "code": "C1-03",
-     "name": "Lulu Hypermarket Maysaloon",
-     "time": "17:00",
-     "action": "set_down"
+     "action": "pick_up",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
     },
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "17:15",
-     "action": "set_down"
-    },
-    {
-     "code": "C1-05",
-     "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "17:30",
-     "action": "set_down"
-    },
-    {
-     "code": "C1-16",
-     "name": "LuLu Hypermarket Al Nahda, Sharjah",
-     "time": "17:45",
-     "action": "set_down"
-    },
-    {
-     "code": "C1-06",
-     "name": "Sahara Centre",
-     "time": "18:00",
-     "action": "set_down"
-    },
-    {
-     "code": "C1-02",
-     "name": "City Centre Al Zahia",
-     "time": "18:15",
-     "action": "set_down"
+     "time": "17:34",
+     "action": "set_down",
+     "lat": 25.337533,
+     "lng": 55.39061,
+     "where_exactly": "Main entrance on King Faisal St."
     }
-   ],
-   "status": "on_request"
+   ]
   },
   {
    "run_id": "2026-11-02-R1-R3",
@@ -81429,7 +81292,7 @@
    "vehicle": "M1",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 8,
+   "booked": 7,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -85809,68 +85672,64 @@
    "day": "Tue",
    "route": "R1",
    "direction": "from_campus",
-   "service": "regular",
+   "service": "undergraduate",
    "arrive_campus": null,
    "leave_campus": "16:30",
    "start": "16:30",
-   "end": "18:15",
+   "end": "17:49",
    "vehicle": "M1",
-   "vehicle_type": "Hiace",
-   "capacity": 15,
-   "booked": 0,
-   "seats": 15,
-   "offer_only": true,
+   "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 4,
+   "seats": 34,
+   "status": "operating",
    "stops": [
     {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
      "time": "16:30",
-     "action": "pick_up"
-    },
-    {
-     "code": "C1-01",
-     "name": "Al Khor Towers, Ajman",
-     "time": "16:45",
-     "action": "set_down"
-    },
-    {
-     "code": "C1-03",
-     "name": "Lulu Hypermarket Maysaloon",
-     "time": "17:00",
-     "action": "set_down"
-    },
-    {
-     "code": "C1-04",
-     "name": "Nesto Hypermarket, King Faisal St",
-     "time": "17:15",
-     "action": "set_down"
-    },
-    {
-     "code": "C1-05",
-     "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "17:30",
-     "action": "set_down"
-    },
-    {
-     "code": "C1-16",
-     "name": "LuLu Hypermarket Al Nahda, Sharjah",
-     "time": "17:45",
-     "action": "set_down"
+     "action": "pick_up",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
     },
     {
      "code": "C1-06",
      "name": "Sahara Centre",
-     "time": "18:00",
-     "action": "set_down"
+     "time": "17:25",
+     "action": "set_down",
+     "lat": 25.297153,
+     "lng": 55.371026,
+     "where_exactly": "Public bus stop shelter on 13th Street, facing the Sahara Centre mall entrance."
     },
     {
-     "code": "C1-02",
-     "name": "City Centre Al Zahia",
-     "time": "18:15",
-     "action": "set_down"
+     "code": "C1-16",
+     "name": "LuLu Hypermarket Al Nahda, Sharjah",
+     "time": "17:30",
+     "action": "set_down",
+     "lat": 25.303505,
+     "lng": 55.375491,
+     "where_exactly": "Al Nahda Park bus stop (Sharjah stop no. 78), across the road from LuLu, facing Habib Bakery."
+    },
+    {
+     "code": "C1-05",
+     "name": "Sheikha Maryam Tower, Al Taawun",
+     "time": "17:36",
+     "action": "set_down",
+     "lat": 25.305885121719236,
+     "lng": 55.363729380596915,
+     "where_exactly": "Sheikha Maryam Tower, Al Taawun - pick-up at the pin set by Dan 7 Oct (Al Taawun St side); kerb text to confirm."
+    },
+    {
+     "code": "C1-04",
+     "name": "Nesto Hypermarket, King Faisal St",
+     "time": "17:49",
+     "action": "set_down",
+     "lat": 25.337533,
+     "lng": 55.39061,
+     "where_exactly": "Main entrance on King Faisal St."
     }
-   ],
-   "status": "on_request"
+   ]
   },
   {
    "run_id": "2026-11-03-R1-R3",
@@ -85886,7 +85745,7 @@
    "vehicle": "M1",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 11,
+   "booked": 7,
    "seats": 34,
    "status": "operating",
    "stops": [
@@ -85898,24 +85757,6 @@
      "lat": 25.1321925,
      "lng": 55.4223161,
      "where_exactly": ""
-    },
-    {
-     "code": "C1-06",
-     "name": "Sahara Centre",
-     "time": "19:07",
-     "action": "set_down",
-     "lat": 25.297153,
-     "lng": 55.371026,
-     "where_exactly": "Public bus stop shelter on 13th Street, facing the Sahara Centre mall entrance."
-    },
-    {
-     "code": "C1-16",
-     "name": "LuLu Hypermarket Al Nahda, Sharjah",
-     "time": "19:16",
-     "action": "set_down",
-     "lat": 25.303505,
-     "lng": 55.375491,
-     "where_exactly": "Al Nahda Park bus stop (Sharjah stop no. 78), across the road from LuLu, facing Habib Bakery."
     },
     {
      "code": "C1-05",
@@ -90369,68 +90210,46 @@
    "day": "Wed",
    "route": "R1",
    "direction": "from_campus",
-   "service": "regular",
+   "service": "undergraduate",
    "arrive_campus": null,
    "leave_campus": "16:30",
    "start": "16:30",
-   "end": "18:15",
+   "end": "17:38",
    "vehicle": "M1",
-   "vehicle_type": "Hiace",
-   "capacity": 15,
-   "booked": 0,
-   "seats": 15,
-   "offer_only": true,
+   "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 2,
+   "seats": 34,
+   "status": "operating",
    "stops": [
     {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
      "time": "16:30",
-     "action": "pick_up"
-    },
-    {
-     "code": "C1-01",
-     "name": "Al Khor Towers, Ajman",
-     "time": "16:45",
-     "action": "set_down"
-    },
-    {
-     "code": "C1-03",
-     "name": "Lulu Hypermarket Maysaloon",
-     "time": "17:00",
-     "action": "set_down"
-    },
-    {
-     "code": "C1-04",
-     "name": "Nesto Hypermarket, King Faisal St",
-     "time": "17:15",
-     "action": "set_down"
+     "action": "pick_up",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
     },
     {
      "code": "C1-05",
      "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "17:30",
-     "action": "set_down"
+     "time": "17:28",
+     "action": "set_down",
+     "lat": 25.305885121719236,
+     "lng": 55.363729380596915,
+     "where_exactly": "Sheikha Maryam Tower, Al Taawun - pick-up at the pin set by Dan 7 Oct (Al Taawun St side); kerb text to confirm."
     },
     {
-     "code": "C1-16",
-     "name": "LuLu Hypermarket Al Nahda, Sharjah",
-     "time": "17:45",
-     "action": "set_down"
-    },
-    {
-     "code": "C1-06",
-     "name": "Sahara Centre",
-     "time": "18:00",
-     "action": "set_down"
-    },
-    {
-     "code": "C1-02",
-     "name": "City Centre Al Zahia",
-     "time": "18:15",
-     "action": "set_down"
+     "code": "C1-18",
+     "name": "Shamseen Bakeries Building, Al Majaz",
+     "time": "17:38",
+     "action": "set_down",
+     "lat": 25.33253,
+     "lng": 55.37588,
+     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
     }
-   ],
-   "status": "on_request"
+   ]
   },
   {
    "run_id": "2026-11-04-R1-R3",
@@ -90446,7 +90265,7 @@
    "vehicle": "M1",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 8,
+   "booked": 6,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -90494,15 +90313,6 @@
      "lat": 25.323284,
      "lng": 55.381418,
      "where_exactly": "Bus stop by Al Buhaira Police Station on Al Intifada St; 2 minutes maximum."
-    },
-    {
-     "code": "C1-18",
-     "name": "Shamseen Bakeries Building, Al Majaz",
-     "time": "19:49",
-     "action": "set_down",
-     "lat": 25.33253,
-     "lng": 55.37588,
-     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
     },
     {
      "code": "C1-02",
@@ -103908,68 +103718,37 @@
    "day": "Mon",
    "route": "R1",
    "direction": "from_campus",
-   "service": "regular",
+   "service": "undergraduate",
    "arrive_campus": null,
    "leave_campus": "16:30",
    "start": "16:30",
-   "end": "18:15",
+   "end": "17:34",
    "vehicle": "M1",
-   "vehicle_type": "Hiace",
-   "capacity": 15,
-   "booked": 0,
-   "seats": 15,
-   "offer_only": true,
+   "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 2,
+   "seats": 34,
+   "status": "operating",
    "stops": [
     {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
      "time": "16:30",
-     "action": "pick_up"
-    },
-    {
-     "code": "C1-01",
-     "name": "Al Khor Towers, Ajman",
-     "time": "16:45",
-     "action": "set_down"
-    },
-    {
-     "code": "C1-03",
-     "name": "Lulu Hypermarket Maysaloon",
-     "time": "17:00",
-     "action": "set_down"
+     "action": "pick_up",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
     },
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "17:15",
-     "action": "set_down"
-    },
-    {
-     "code": "C1-05",
-     "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "17:30",
-     "action": "set_down"
-    },
-    {
-     "code": "C1-16",
-     "name": "LuLu Hypermarket Al Nahda, Sharjah",
-     "time": "17:45",
-     "action": "set_down"
-    },
-    {
-     "code": "C1-06",
-     "name": "Sahara Centre",
-     "time": "18:00",
-     "action": "set_down"
-    },
-    {
-     "code": "C1-02",
-     "name": "City Centre Al Zahia",
-     "time": "18:15",
-     "action": "set_down"
+     "time": "17:34",
+     "action": "set_down",
+     "lat": 25.337533,
+     "lng": 55.39061,
+     "where_exactly": "Main entrance on King Faisal St."
     }
-   ],
-   "status": "on_request"
+   ]
   },
   {
    "run_id": "2026-11-09-R1-R3",
@@ -103985,7 +103764,7 @@
    "vehicle": "M1",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 9,
+   "booked": 7,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -108323,68 +108102,64 @@
    "day": "Tue",
    "route": "R1",
    "direction": "from_campus",
-   "service": "regular",
+   "service": "undergraduate",
    "arrive_campus": null,
    "leave_campus": "16:30",
    "start": "16:30",
-   "end": "18:15",
+   "end": "17:49",
    "vehicle": "M1",
-   "vehicle_type": "Hiace",
-   "capacity": 15,
-   "booked": 0,
-   "seats": 15,
-   "offer_only": true,
+   "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 4,
+   "seats": 34,
+   "status": "operating",
    "stops": [
     {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
      "time": "16:30",
-     "action": "pick_up"
-    },
-    {
-     "code": "C1-01",
-     "name": "Al Khor Towers, Ajman",
-     "time": "16:45",
-     "action": "set_down"
-    },
-    {
-     "code": "C1-03",
-     "name": "Lulu Hypermarket Maysaloon",
-     "time": "17:00",
-     "action": "set_down"
-    },
-    {
-     "code": "C1-04",
-     "name": "Nesto Hypermarket, King Faisal St",
-     "time": "17:15",
-     "action": "set_down"
-    },
-    {
-     "code": "C1-05",
-     "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "17:30",
-     "action": "set_down"
-    },
-    {
-     "code": "C1-16",
-     "name": "LuLu Hypermarket Al Nahda, Sharjah",
-     "time": "17:45",
-     "action": "set_down"
+     "action": "pick_up",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
     },
     {
      "code": "C1-06",
      "name": "Sahara Centre",
-     "time": "18:00",
-     "action": "set_down"
+     "time": "17:25",
+     "action": "set_down",
+     "lat": 25.297153,
+     "lng": 55.371026,
+     "where_exactly": "Public bus stop shelter on 13th Street, facing the Sahara Centre mall entrance."
     },
     {
-     "code": "C1-02",
-     "name": "City Centre Al Zahia",
-     "time": "18:15",
-     "action": "set_down"
+     "code": "C1-16",
+     "name": "LuLu Hypermarket Al Nahda, Sharjah",
+     "time": "17:30",
+     "action": "set_down",
+     "lat": 25.303505,
+     "lng": 55.375491,
+     "where_exactly": "Al Nahda Park bus stop (Sharjah stop no. 78), across the road from LuLu, facing Habib Bakery."
+    },
+    {
+     "code": "C1-05",
+     "name": "Sheikha Maryam Tower, Al Taawun",
+     "time": "17:36",
+     "action": "set_down",
+     "lat": 25.305885121719236,
+     "lng": 55.363729380596915,
+     "where_exactly": "Sheikha Maryam Tower, Al Taawun - pick-up at the pin set by Dan 7 Oct (Al Taawun St side); kerb text to confirm."
+    },
+    {
+     "code": "C1-04",
+     "name": "Nesto Hypermarket, King Faisal St",
+     "time": "17:49",
+     "action": "set_down",
+     "lat": 25.337533,
+     "lng": 55.39061,
+     "where_exactly": "Main entrance on King Faisal St."
     }
-   ],
-   "status": "on_request"
+   ]
   },
   {
    "run_id": "2026-11-10-R1-R3",
@@ -108396,11 +108171,11 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "20:06",
+   "end": "19:56",
    "vehicle": "M1",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 9,
+   "booked": 5,
    "seats": 34,
    "status": "operating",
    "stops": [
@@ -108412,24 +108187,6 @@
      "lat": 25.1321925,
      "lng": 55.4223161,
      "where_exactly": ""
-    },
-    {
-     "code": "C1-06",
-     "name": "Sahara Centre",
-     "time": "19:07",
-     "action": "set_down",
-     "lat": 25.297153,
-     "lng": 55.371026,
-     "where_exactly": "Public bus stop shelter on 13th Street, facing the Sahara Centre mall entrance."
-    },
-    {
-     "code": "C1-16",
-     "name": "LuLu Hypermarket Al Nahda, Sharjah",
-     "time": "19:16",
-     "action": "set_down",
-     "lat": 25.303505,
-     "lng": 55.375491,
-     "where_exactly": "Al Nahda Park bus stop (Sharjah stop no. 78), across the road from LuLu, facing Habib Bakery."
     },
     {
      "code": "C1-05",
@@ -108466,15 +108223,6 @@
      "lat": 25.3275768,
      "lng": 55.3781072,
      "where_exactly": "Kerbside at the Corniche Hotel entrance, Corniche Road, Al Majaz 3. Rider-only stop (Rayyan Tayyab); between Shamseen Bakeries and Al Buhaira Police Station."
-    },
-    {
-     "code": "C1-04",
-     "name": "Nesto Hypermarket, King Faisal St",
-     "time": "20:06",
-     "action": "set_down",
-     "lat": 25.337533,
-     "lng": 55.39061,
-     "where_exactly": "Main entrance on King Faisal St."
     }
    ]
   },
@@ -112772,68 +112520,55 @@
    "day": "Wed",
    "route": "R1",
    "direction": "from_campus",
-   "service": "regular",
+   "service": "undergraduate",
    "arrive_campus": null,
    "leave_campus": "16:30",
    "start": "16:30",
-   "end": "18:15",
+   "end": "17:45",
    "vehicle": "M1",
-   "vehicle_type": "Hiace",
-   "capacity": 15,
-   "booked": 0,
-   "seats": 15,
-   "offer_only": true,
+   "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 3,
+   "seats": 34,
+   "status": "operating",
    "stops": [
     {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
      "time": "16:30",
-     "action": "pick_up"
-    },
-    {
-     "code": "C1-01",
-     "name": "Al Khor Towers, Ajman",
-     "time": "16:45",
-     "action": "set_down"
-    },
-    {
-     "code": "C1-03",
-     "name": "Lulu Hypermarket Maysaloon",
-     "time": "17:00",
-     "action": "set_down"
-    },
-    {
-     "code": "C1-04",
-     "name": "Nesto Hypermarket, King Faisal St",
-     "time": "17:15",
-     "action": "set_down"
+     "action": "pick_up",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
     },
     {
      "code": "C1-05",
      "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "17:30",
-     "action": "set_down"
+     "time": "17:28",
+     "action": "set_down",
+     "lat": 25.305885121719236,
+     "lng": 55.363729380596915,
+     "where_exactly": "Sheikha Maryam Tower, Al Taawun - pick-up at the pin set by Dan 7 Oct (Al Taawun St side); kerb text to confirm."
     },
     {
-     "code": "C1-16",
-     "name": "LuLu Hypermarket Al Nahda, Sharjah",
+     "code": "C1-18",
+     "name": "Shamseen Bakeries Building, Al Majaz",
+     "time": "17:38",
+     "action": "set_down",
+     "lat": 25.33253,
+     "lng": 55.37588,
+     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
+    },
+    {
+     "code": "C1-04",
+     "name": "Nesto Hypermarket, King Faisal St",
      "time": "17:45",
-     "action": "set_down"
-    },
-    {
-     "code": "C1-06",
-     "name": "Sahara Centre",
-     "time": "18:00",
-     "action": "set_down"
-    },
-    {
-     "code": "C1-02",
-     "name": "City Centre Al Zahia",
-     "time": "18:15",
-     "action": "set_down"
+     "action": "set_down",
+     "lat": 25.337533,
+     "lng": 55.39061,
+     "where_exactly": "Main entrance on King Faisal St."
     }
-   ],
-   "status": "on_request"
+   ]
   },
   {
    "run_id": "2026-11-11-R1-R3",
@@ -112845,11 +112580,11 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "19:58",
+   "end": "19:40",
    "vehicle": "M1",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 8,
+   "booked": 5,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -112897,24 +112632,6 @@
      "lat": 25.323284,
      "lng": 55.381418,
      "where_exactly": "Bus stop by Al Buhaira Police Station on Al Intifada St; 2 minutes maximum."
-    },
-    {
-     "code": "C1-18",
-     "name": "Shamseen Bakeries Building, Al Majaz",
-     "time": "19:49",
-     "action": "set_down",
-     "lat": 25.33253,
-     "lng": 55.37588,
-     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
-    },
-    {
-     "code": "C1-04",
-     "name": "Nesto Hypermarket, King Faisal St",
-     "time": "19:58",
-     "action": "set_down",
-     "lat": 25.337533,
-     "lng": 55.39061,
-     "where_exactly": "Main entrance on King Faisal St."
     }
    ]
   },
