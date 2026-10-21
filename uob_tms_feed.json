@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-21T11:57:36Z",
+ "generated_at": "2026-10-21T11:58:41Z",
  "week": "2026-10-09 to 2026-11-15",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -43424,7 +43424,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "20:08",
+   "end": "20:01",
    "vehicle": "M1",
    "vehicle_type": "Hiace",
    "capacity": 15,
@@ -43451,9 +43451,18 @@
      "where_exactly": "Bus stop by the VOX sign, City Centre Al Zahia."
     },
     {
+     "code": "C1-18",
+     "name": "Shamseen Bakeries Building, Al Majaz",
+     "time": "19:26",
+     "action": "set_down",
+     "lat": 25.33253,
+     "lng": 55.37588,
+     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
+    },
+    {
      "code": "C1-28",
      "name": "Corniche Hotel Sharjah, Al Majaz 3 (rider stop)",
-     "time": "19:25",
+     "time": "19:31",
      "action": "set_down",
      "lat": 25.3275768,
      "lng": 55.3781072,
@@ -43462,7 +43471,7 @@
     {
      "code": "C1-20",
      "name": "Al Buhaira Police Station bus stop, Al Majaz 3",
-     "time": "19:30",
+     "time": "19:36",
      "action": "set_down",
      "lat": 25.323284,
      "lng": 55.381418,
@@ -43471,7 +43480,7 @@
     {
      "code": "C1-21",
      "name": "Sahab Al Emarat, Al Mamzar, Sharjah",
-     "time": "19:41",
+     "time": "19:47",
      "action": "set_down",
      "lat": 25.31578,
      "lng": 55.35863,
@@ -43480,7 +43489,7 @@
     {
      "code": "C1-05",
      "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "19:48",
+     "time": "19:54",
      "action": "set_down",
      "lat": 25.305885121719236,
      "lng": 55.363729380596915,
@@ -43489,20 +43498,11 @@
     {
      "code": "C1-16",
      "name": "LuLu Hypermarket Al Nahda, Sharjah",
-     "time": "19:55",
+     "time": "20:01",
      "action": "set_down",
      "lat": 25.303505,
      "lng": 55.375491,
      "where_exactly": "Al Nahda Park bus stop (Sharjah stop no. 78), across the road from LuLu, facing Habib Bakery."
-    },
-    {
-     "code": "C1-18",
-     "name": "Shamseen Bakeries Building, Al Majaz",
-     "time": "20:08",
-     "action": "set_down",
-     "lat": 25.33253,
-     "lng": 55.37588,
-     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
     }
    ]
   },
@@ -48399,7 +48399,7 @@
    "arrive_campus": null,
    "leave_campus": "14:15",
    "start": "14:15",
-   "end": "15:25",
+   "end": "15:19",
    "vehicle": "M1",
    "vehicle_type": "Hiace",
    "capacity": 15,
@@ -48426,9 +48426,18 @@
      "where_exactly": "Main entrance on King Faisal St."
     },
     {
+     "code": "C1-18",
+     "name": "Shamseen Bakeries Building, Al Majaz",
+     "time": "15:00",
+     "action": "set_down",
+     "lat": 25.33253,
+     "lng": 55.37588,
+     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
+    },
+    {
      "code": "C1-28",
      "name": "Corniche Hotel Sharjah, Al Majaz 3 (rider stop)",
-     "time": "15:00",
+     "time": "15:05",
      "action": "set_down",
      "lat": 25.3275768,
      "lng": 55.3781072,
@@ -48437,7 +48446,7 @@
     {
      "code": "C1-20",
      "name": "Al Buhaira Police Station bus stop, Al Majaz 3",
-     "time": "15:05",
+     "time": "15:10",
      "action": "set_down",
      "lat": 25.323284,
      "lng": 55.381418,
@@ -48446,20 +48455,11 @@
     {
      "code": "C1-16",
      "name": "LuLu Hypermarket Al Nahda, Sharjah",
-     "time": "15:14",
+     "time": "15:19",
      "action": "set_down",
      "lat": 25.303505,
      "lng": 55.375491,
      "where_exactly": "Al Nahda Park bus stop (Sharjah stop no. 78), across the road from LuLu, facing Habib Bakery."
-    },
-    {
-     "code": "C1-18",
-     "name": "Shamseen Bakeries Building, Al Majaz",
-     "time": "15:25",
-     "action": "set_down",
-     "lat": 25.33253,
-     "lng": 55.37588,
-     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
     }
    ]
   },
@@ -58207,7 +58207,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "19:46",
+   "end": "19:38",
    "vehicle": "M1",
    "vehicle_type": "Hiace",
    "capacity": 15,
@@ -58234,9 +58234,18 @@
      "where_exactly": "Main entrance on King Faisal St."
     },
     {
+     "code": "C1-18",
+     "name": "Shamseen Bakeries Building, Al Majaz",
+     "time": "19:07",
+     "action": "set_down",
+     "lat": 25.33253,
+     "lng": 55.37588,
+     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
+    },
+    {
      "code": "C1-28",
      "name": "Corniche Hotel Sharjah, Al Majaz 3 (rider stop)",
-     "time": "19:07",
+     "time": "19:12",
      "action": "set_down",
      "lat": 25.3275768,
      "lng": 55.3781072,
@@ -58245,7 +58254,7 @@
     {
      "code": "C1-20",
      "name": "Al Buhaira Police Station bus stop, Al Majaz 3",
-     "time": "19:12",
+     "time": "19:17",
      "action": "set_down",
      "lat": 25.323284,
      "lng": 55.381418,
@@ -58254,7 +58263,7 @@
     {
      "code": "C1-21",
      "name": "Sahab Al Emarat, Al Mamzar, Sharjah",
-     "time": "19:23",
+     "time": "19:28",
      "action": "set_down",
      "lat": 25.31578,
      "lng": 55.35863,
@@ -58263,20 +58272,11 @@
     {
      "code": "C1-16",
      "name": "LuLu Hypermarket Al Nahda, Sharjah",
-     "time": "19:33",
+     "time": "19:38",
      "action": "set_down",
      "lat": 25.303505,
      "lng": 55.375491,
      "where_exactly": "Al Nahda Park bus stop (Sharjah stop no. 78), across the road from LuLu, facing Habib Bakery."
-    },
-    {
-     "code": "C1-18",
-     "name": "Shamseen Bakeries Building, Al Majaz",
-     "time": "19:46",
-     "action": "set_down",
-     "lat": 25.33253,
-     "lng": 55.37588,
-     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
     }
    ]
   },
@@ -62789,7 +62789,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "19:33",
+   "end": "19:26",
    "vehicle": "M1",
    "vehicle_type": "Rosa",
    "capacity": 34,
@@ -62816,9 +62816,18 @@
      "where_exactly": "Main entrance on King Faisal St."
     },
     {
+     "code": "C1-18",
+     "name": "Shamseen Bakeries Building, Al Majaz",
+     "time": "19:07",
+     "action": "set_down",
+     "lat": 25.33253,
+     "lng": 55.37588,
+     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
+    },
+    {
      "code": "C1-20",
      "name": "Al Buhaira Police Station bus stop, Al Majaz 3",
-     "time": "19:08",
+     "time": "19:14",
      "action": "set_down",
      "lat": 25.323284,
      "lng": 55.381418,
@@ -62827,20 +62836,11 @@
     {
      "code": "C1-05",
      "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "19:20",
+     "time": "19:26",
      "action": "set_down",
      "lat": 25.305885121719236,
      "lng": 55.363729380596915,
      "where_exactly": "Sheikha Maryam Tower, Al Taawun - pick-up at the pin set by Dan 7 Oct (Al Taawun St side); kerb text to confirm."
-    },
-    {
-     "code": "C1-18",
-     "name": "Shamseen Bakeries Building, Al Majaz",
-     "time": "19:33",
-     "action": "set_down",
-     "lat": 25.33253,
-     "lng": 55.37588,
-     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
     }
    ]
   },
@@ -67474,7 +67474,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "19:41",
+   "end": "19:34",
    "vehicle": "M1",
    "vehicle_type": "Hiace",
    "capacity": 15,
@@ -67492,9 +67492,18 @@
      "where_exactly": ""
     },
     {
+     "code": "C1-18",
+     "name": "Shamseen Bakeries Building, Al Majaz",
+     "time": "18:59",
+     "action": "set_down",
+     "lat": 25.33253,
+     "lng": 55.37588,
+     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
+    },
+    {
      "code": "C1-28",
      "name": "Corniche Hotel Sharjah, Al Majaz 3 (rider stop)",
-     "time": "18:58",
+     "time": "19:04",
      "action": "set_down",
      "lat": 25.3275768,
      "lng": 55.3781072,
@@ -67503,7 +67512,7 @@
     {
      "code": "C1-20",
      "name": "Al Buhaira Police Station bus stop, Al Majaz 3",
-     "time": "19:03",
+     "time": "19:09",
      "action": "set_down",
      "lat": 25.323284,
      "lng": 55.381418,
@@ -67512,7 +67521,7 @@
     {
      "code": "C1-21",
      "name": "Sahab Al Emarat, Al Mamzar, Sharjah",
-     "time": "19:14",
+     "time": "19:20",
      "action": "set_down",
      "lat": 25.31578,
      "lng": 55.35863,
@@ -67521,7 +67530,7 @@
     {
      "code": "C1-05",
      "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "19:21",
+     "time": "19:27",
      "action": "set_down",
      "lat": 25.305885121719236,
      "lng": 55.363729380596915,
@@ -67530,20 +67539,11 @@
     {
      "code": "C1-16",
      "name": "LuLu Hypermarket Al Nahda, Sharjah",
-     "time": "19:28",
+     "time": "19:34",
      "action": "set_down",
      "lat": 25.303505,
      "lng": 55.375491,
      "where_exactly": "Al Nahda Park bus stop (Sharjah stop no. 78), across the road from LuLu, facing Habib Bakery."
-    },
-    {
-     "code": "C1-18",
-     "name": "Shamseen Bakeries Building, Al Majaz",
-     "time": "19:41",
-     "action": "set_down",
-     "lat": 25.33253,
-     "lng": 55.37588,
-     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
     }
    ]
   },
@@ -72016,7 +72016,7 @@
    "arrive_campus": null,
    "leave_campus": "14:15",
    "start": "14:15",
-   "end": "15:32",
+   "end": "15:24",
    "vehicle": "M1",
    "vehicle_type": "Hiace",
    "capacity": 15,
@@ -72043,9 +72043,18 @@
      "where_exactly": "Main entrance on King Faisal St."
     },
     {
+     "code": "C1-18",
+     "name": "Shamseen Bakeries Building, Al Majaz",
+     "time": "15:00",
+     "action": "set_down",
+     "lat": 25.33253,
+     "lng": 55.37588,
+     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
+    },
+    {
      "code": "C1-28",
      "name": "Corniche Hotel Sharjah, Al Majaz 3 (rider stop)",
-     "time": "15:00",
+     "time": "15:05",
      "action": "set_down",
      "lat": 25.3275768,
      "lng": 55.3781072,
@@ -72054,7 +72063,7 @@
     {
      "code": "C1-20",
      "name": "Al Buhaira Police Station bus stop, Al Majaz 3",
-     "time": "15:05",
+     "time": "15:10",
      "action": "set_down",
      "lat": 25.323284,
      "lng": 55.381418,
@@ -72063,7 +72072,7 @@
     {
      "code": "C1-16",
      "name": "LuLu Hypermarket Al Nahda, Sharjah",
-     "time": "15:14",
+     "time": "15:19",
      "action": "set_down",
      "lat": 25.303505,
      "lng": 55.375491,
@@ -72072,20 +72081,11 @@
     {
      "code": "C1-06",
      "name": "Sahara Centre",
-     "time": "15:19",
+     "time": "15:24",
      "action": "set_down",
      "lat": 25.297153,
      "lng": 55.371026,
      "where_exactly": "Public bus stop shelter on 13th Street, facing the Sahara Centre mall entrance."
-    },
-    {
-     "code": "C1-18",
-     "name": "Shamseen Bakeries Building, Al Majaz",
-     "time": "15:32",
-     "action": "set_down",
-     "lat": 25.33253,
-     "lng": 55.37588,
-     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
     }
    ]
   },
@@ -76447,7 +76447,7 @@
    "arrive_campus": null,
    "leave_campus": "12:15",
    "start": "12:15",
-   "end": "13:29",
+   "end": "13:22",
    "vehicle": "M1",
    "vehicle_type": "Rosa",
    "capacity": 34,
@@ -76474,9 +76474,18 @@
      "where_exactly": "Main entrance on King Faisal St."
     },
     {
+     "code": "C1-18",
+     "name": "Shamseen Bakeries Building, Al Majaz",
+     "time": "13:04",
+     "action": "set_down",
+     "lat": 25.33253,
+     "lng": 55.37588,
+     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
+    },
+    {
      "code": "C1-20",
      "name": "Al Buhaira Police Station bus stop, Al Majaz 3",
-     "time": "13:05",
+     "time": "13:11",
      "action": "set_down",
      "lat": 25.323284,
      "lng": 55.381418,
@@ -76485,20 +76494,11 @@
     {
      "code": "C1-05",
      "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "13:16",
+     "time": "13:22",
      "action": "set_down",
      "lat": 25.305885121719236,
      "lng": 55.363729380596915,
      "where_exactly": "Sheikha Maryam Tower, Al Taawun - pick-up at the pin set by Dan 7 Oct (Al Taawun St side); kerb text to confirm."
-    },
-    {
-     "code": "C1-18",
-     "name": "Shamseen Bakeries Building, Al Majaz",
-     "time": "13:29",
-     "action": "set_down",
-     "lat": 25.33253,
-     "lng": 55.37588,
-     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
     }
    ]
   },
@@ -81290,7 +81290,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "19:46",
+   "end": "19:38",
    "vehicle": "M1",
    "vehicle_type": "Hiace",
    "capacity": 15,
@@ -81317,9 +81317,18 @@
      "where_exactly": "Main entrance on King Faisal St."
     },
     {
+     "code": "C1-18",
+     "name": "Shamseen Bakeries Building, Al Majaz",
+     "time": "19:07",
+     "action": "set_down",
+     "lat": 25.33253,
+     "lng": 55.37588,
+     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
+    },
+    {
      "code": "C1-28",
      "name": "Corniche Hotel Sharjah, Al Majaz 3 (rider stop)",
-     "time": "19:07",
+     "time": "19:12",
      "action": "set_down",
      "lat": 25.3275768,
      "lng": 55.3781072,
@@ -81328,7 +81337,7 @@
     {
      "code": "C1-20",
      "name": "Al Buhaira Police Station bus stop, Al Majaz 3",
-     "time": "19:12",
+     "time": "19:17",
      "action": "set_down",
      "lat": 25.323284,
      "lng": 55.381418,
@@ -81337,7 +81346,7 @@
     {
      "code": "C1-21",
      "name": "Sahab Al Emarat, Al Mamzar, Sharjah",
-     "time": "19:23",
+     "time": "19:28",
      "action": "set_down",
      "lat": 25.31578,
      "lng": 55.35863,
@@ -81346,20 +81355,11 @@
     {
      "code": "C1-16",
      "name": "LuLu Hypermarket Al Nahda, Sharjah",
-     "time": "19:33",
+     "time": "19:38",
      "action": "set_down",
      "lat": 25.303505,
      "lng": 55.375491,
      "where_exactly": "Al Nahda Park bus stop (Sharjah stop no. 78), across the road from LuLu, facing Habib Bakery."
-    },
-    {
-     "code": "C1-18",
-     "name": "Shamseen Bakeries Building, Al Majaz",
-     "time": "19:46",
-     "action": "set_down",
-     "lat": 25.33253,
-     "lng": 55.37588,
-     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
     }
    ]
   },
@@ -85707,7 +85707,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "19:33",
+   "end": "19:26",
    "vehicle": "M1",
    "vehicle_type": "Rosa",
    "capacity": 34,
@@ -85734,9 +85734,18 @@
      "where_exactly": "Main entrance on King Faisal St."
     },
     {
+     "code": "C1-18",
+     "name": "Shamseen Bakeries Building, Al Majaz",
+     "time": "19:07",
+     "action": "set_down",
+     "lat": 25.33253,
+     "lng": 55.37588,
+     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
+    },
+    {
      "code": "C1-20",
      "name": "Al Buhaira Police Station bus stop, Al Majaz 3",
-     "time": "19:08",
+     "time": "19:14",
      "action": "set_down",
      "lat": 25.323284,
      "lng": 55.381418,
@@ -85745,20 +85754,11 @@
     {
      "code": "C1-05",
      "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "19:20",
+     "time": "19:26",
      "action": "set_down",
      "lat": 25.305885121719236,
      "lng": 55.363729380596915,
      "where_exactly": "Sheikha Maryam Tower, Al Taawun - pick-up at the pin set by Dan 7 Oct (Al Taawun St side); kerb text to confirm."
-    },
-    {
-     "code": "C1-18",
-     "name": "Shamseen Bakeries Building, Al Majaz",
-     "time": "19:33",
-     "action": "set_down",
-     "lat": 25.33253,
-     "lng": 55.37588,
-     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
     }
    ]
   },
@@ -90191,7 +90191,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "19:41",
+   "end": "19:34",
    "vehicle": "M1",
    "vehicle_type": "Hiace",
    "capacity": 15,
@@ -90209,9 +90209,18 @@
      "where_exactly": ""
     },
     {
+     "code": "C1-18",
+     "name": "Shamseen Bakeries Building, Al Majaz",
+     "time": "18:59",
+     "action": "set_down",
+     "lat": 25.33253,
+     "lng": 55.37588,
+     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
+    },
+    {
      "code": "C1-28",
      "name": "Corniche Hotel Sharjah, Al Majaz 3 (rider stop)",
-     "time": "18:58",
+     "time": "19:04",
      "action": "set_down",
      "lat": 25.3275768,
      "lng": 55.3781072,
@@ -90220,7 +90229,7 @@
     {
      "code": "C1-20",
      "name": "Al Buhaira Police Station bus stop, Al Majaz 3",
-     "time": "19:03",
+     "time": "19:09",
      "action": "set_down",
      "lat": 25.323284,
      "lng": 55.381418,
@@ -90229,7 +90238,7 @@
     {
      "code": "C1-21",
      "name": "Sahab Al Emarat, Al Mamzar, Sharjah",
-     "time": "19:14",
+     "time": "19:20",
      "action": "set_down",
      "lat": 25.31578,
      "lng": 55.35863,
@@ -90238,7 +90247,7 @@
     {
      "code": "C1-05",
      "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "19:21",
+     "time": "19:27",
      "action": "set_down",
      "lat": 25.305885121719236,
      "lng": 55.363729380596915,
@@ -90247,20 +90256,11 @@
     {
      "code": "C1-16",
      "name": "LuLu Hypermarket Al Nahda, Sharjah",
-     "time": "19:28",
+     "time": "19:34",
      "action": "set_down",
      "lat": 25.303505,
      "lng": 55.375491,
      "where_exactly": "Al Nahda Park bus stop (Sharjah stop no. 78), across the road from LuLu, facing Habib Bakery."
-    },
-    {
-     "code": "C1-18",
-     "name": "Shamseen Bakeries Building, Al Majaz",
-     "time": "19:41",
-     "action": "set_down",
-     "lat": 25.33253,
-     "lng": 55.37588,
-     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
     }
    ]
   },
@@ -94584,7 +94584,7 @@
    "arrive_campus": null,
    "leave_campus": "14:15",
    "start": "14:15",
-   "end": "15:32",
+   "end": "15:24",
    "vehicle": "M1",
    "vehicle_type": "Hiace",
    "capacity": 15,
@@ -94611,9 +94611,18 @@
      "where_exactly": "Main entrance on King Faisal St."
     },
     {
+     "code": "C1-18",
+     "name": "Shamseen Bakeries Building, Al Majaz",
+     "time": "15:00",
+     "action": "set_down",
+     "lat": 25.33253,
+     "lng": 55.37588,
+     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
+    },
+    {
      "code": "C1-28",
      "name": "Corniche Hotel Sharjah, Al Majaz 3 (rider stop)",
-     "time": "15:00",
+     "time": "15:05",
      "action": "set_down",
      "lat": 25.3275768,
      "lng": 55.3781072,
@@ -94622,7 +94631,7 @@
     {
      "code": "C1-20",
      "name": "Al Buhaira Police Station bus stop, Al Majaz 3",
-     "time": "15:05",
+     "time": "15:10",
      "action": "set_down",
      "lat": 25.323284,
      "lng": 55.381418,
@@ -94631,7 +94640,7 @@
     {
      "code": "C1-16",
      "name": "LuLu Hypermarket Al Nahda, Sharjah",
-     "time": "15:14",
+     "time": "15:19",
      "action": "set_down",
      "lat": 25.303505,
      "lng": 55.375491,
@@ -94640,20 +94649,11 @@
     {
      "code": "C1-06",
      "name": "Sahara Centre",
-     "time": "15:19",
+     "time": "15:24",
      "action": "set_down",
      "lat": 25.297153,
      "lng": 55.371026,
      "where_exactly": "Public bus stop shelter on 13th Street, facing the Sahara Centre mall entrance."
-    },
-    {
-     "code": "C1-18",
-     "name": "Shamseen Bakeries Building, Al Majaz",
-     "time": "15:32",
-     "action": "set_down",
-     "lat": 25.33253,
-     "lng": 55.37588,
-     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
     }
    ]
   },
@@ -103645,7 +103645,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "19:46",
+   "end": "19:38",
    "vehicle": "M1",
    "vehicle_type": "Hiace",
    "capacity": 15,
@@ -103672,9 +103672,18 @@
      "where_exactly": "Main entrance on King Faisal St."
     },
     {
+     "code": "C1-18",
+     "name": "Shamseen Bakeries Building, Al Majaz",
+     "time": "19:07",
+     "action": "set_down",
+     "lat": 25.33253,
+     "lng": 55.37588,
+     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
+    },
+    {
      "code": "C1-28",
      "name": "Corniche Hotel Sharjah, Al Majaz 3 (rider stop)",
-     "time": "19:07",
+     "time": "19:12",
      "action": "set_down",
      "lat": 25.3275768,
      "lng": 55.3781072,
@@ -103683,7 +103692,7 @@
     {
      "code": "C1-20",
      "name": "Al Buhaira Police Station bus stop, Al Majaz 3",
-     "time": "19:12",
+     "time": "19:17",
      "action": "set_down",
      "lat": 25.323284,
      "lng": 55.381418,
@@ -103692,7 +103701,7 @@
     {
      "code": "C1-21",
      "name": "Sahab Al Emarat, Al Mamzar, Sharjah",
-     "time": "19:23",
+     "time": "19:28",
      "action": "set_down",
      "lat": 25.31578,
      "lng": 55.35863,
@@ -103701,20 +103710,11 @@
     {
      "code": "C1-16",
      "name": "LuLu Hypermarket Al Nahda, Sharjah",
-     "time": "19:33",
+     "time": "19:38",
      "action": "set_down",
      "lat": 25.303505,
      "lng": 55.375491,
      "where_exactly": "Al Nahda Park bus stop (Sharjah stop no. 78), across the road from LuLu, facing Habib Bakery."
-    },
-    {
-     "code": "C1-18",
-     "name": "Shamseen Bakeries Building, Al Majaz",
-     "time": "19:46",
-     "action": "set_down",
-     "lat": 25.33253,
-     "lng": 55.37588,
-     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
     }
    ]
   },
@@ -108038,7 +108038,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "19:22",
+   "end": "19:18",
    "vehicle": "M1",
    "vehicle_type": "Rosa",
    "capacity": 34,
@@ -108056,9 +108056,18 @@
      "where_exactly": ""
     },
     {
+     "code": "C1-18",
+     "name": "Shamseen Bakeries Building, Al Majaz",
+     "time": "18:59",
+     "action": "set_down",
+     "lat": 25.33253,
+     "lng": 55.37588,
+     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
+    },
+    {
      "code": "C1-20",
      "name": "Al Buhaira Police Station bus stop, Al Majaz 3",
-     "time": "18:57",
+     "time": "19:06",
      "action": "set_down",
      "lat": 25.323284,
      "lng": 55.381418,
@@ -108067,20 +108076,11 @@
     {
      "code": "C1-05",
      "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "19:09",
+     "time": "19:18",
      "action": "set_down",
      "lat": 25.305885121719236,
      "lng": 55.363729380596915,
      "where_exactly": "Sheikha Maryam Tower, Al Taawun - pick-up at the pin set by Dan 7 Oct (Al Taawun St side); kerb text to confirm."
-    },
-    {
-     "code": "C1-18",
-     "name": "Shamseen Bakeries Building, Al Majaz",
-     "time": "19:22",
-     "action": "set_down",
-     "lat": 25.33253,
-     "lng": 55.37588,
-     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
     }
    ]
   },
@@ -112429,7 +112429,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "19:41",
+   "end": "19:34",
    "vehicle": "M1",
    "vehicle_type": "Hiace",
    "capacity": 15,
@@ -112447,9 +112447,18 @@
      "where_exactly": ""
     },
     {
+     "code": "C1-18",
+     "name": "Shamseen Bakeries Building, Al Majaz",
+     "time": "18:59",
+     "action": "set_down",
+     "lat": 25.33253,
+     "lng": 55.37588,
+     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
+    },
+    {
      "code": "C1-28",
      "name": "Corniche Hotel Sharjah, Al Majaz 3 (rider stop)",
-     "time": "18:58",
+     "time": "19:04",
      "action": "set_down",
      "lat": 25.3275768,
      "lng": 55.3781072,
@@ -112458,7 +112467,7 @@
     {
      "code": "C1-20",
      "name": "Al Buhaira Police Station bus stop, Al Majaz 3",
-     "time": "19:03",
+     "time": "19:09",
      "action": "set_down",
      "lat": 25.323284,
      "lng": 55.381418,
@@ -112467,7 +112476,7 @@
     {
      "code": "C1-21",
      "name": "Sahab Al Emarat, Al Mamzar, Sharjah",
-     "time": "19:14",
+     "time": "19:20",
      "action": "set_down",
      "lat": 25.31578,
      "lng": 55.35863,
@@ -112476,7 +112485,7 @@
     {
      "code": "C1-05",
      "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "19:21",
+     "time": "19:27",
      "action": "set_down",
      "lat": 25.305885121719236,
      "lng": 55.363729380596915,
@@ -112485,20 +112494,11 @@
     {
      "code": "C1-16",
      "name": "LuLu Hypermarket Al Nahda, Sharjah",
-     "time": "19:28",
+     "time": "19:34",
      "action": "set_down",
      "lat": 25.303505,
      "lng": 55.375491,
      "where_exactly": "Al Nahda Park bus stop (Sharjah stop no. 78), across the road from LuLu, facing Habib Bakery."
-    },
-    {
-     "code": "C1-18",
-     "name": "Shamseen Bakeries Building, Al Majaz",
-     "time": "19:41",
-     "action": "set_down",
-     "lat": 25.33253,
-     "lng": 55.37588,
-     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
     }
    ]
   },
@@ -116657,7 +116657,7 @@
    "arrive_campus": null,
    "leave_campus": "14:15",
    "start": "14:15",
-   "end": "15:25",
+   "end": "15:19",
    "vehicle": "M1",
    "vehicle_type": "Hiace",
    "capacity": 15,
@@ -116684,9 +116684,18 @@
      "where_exactly": "Main entrance on King Faisal St."
     },
     {
+     "code": "C1-18",
+     "name": "Shamseen Bakeries Building, Al Majaz",
+     "time": "15:00",
+     "action": "set_down",
+     "lat": 25.33253,
+     "lng": 55.37588,
+     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
+    },
+    {
      "code": "C1-28",
      "name": "Corniche Hotel Sharjah, Al Majaz 3 (rider stop)",
-     "time": "15:00",
+     "time": "15:05",
      "action": "set_down",
      "lat": 25.3275768,
      "lng": 55.3781072,
@@ -116695,7 +116704,7 @@
     {
      "code": "C1-20",
      "name": "Al Buhaira Police Station bus stop, Al Majaz 3",
-     "time": "15:05",
+     "time": "15:10",
      "action": "set_down",
      "lat": 25.323284,
      "lng": 55.381418,
@@ -116704,20 +116713,11 @@
     {
      "code": "C1-16",
      "name": "LuLu Hypermarket Al Nahda, Sharjah",
-     "time": "15:14",
+     "time": "15:19",
      "action": "set_down",
      "lat": 25.303505,
      "lng": 55.375491,
      "where_exactly": "Al Nahda Park bus stop (Sharjah stop no. 78), across the road from LuLu, facing Habib Bakery."
-    },
-    {
-     "code": "C1-18",
-     "name": "Shamseen Bakeries Building, Al Majaz",
-     "time": "15:25",
-     "action": "set_down",
-     "lat": 25.33253,
-     "lng": 55.37588,
-     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
     }
    ]
   },
