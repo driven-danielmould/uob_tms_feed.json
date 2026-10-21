@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-21T05:18:03Z",
+ "generated_at": "2026-10-21T06:22:11Z",
  "week": "2026-10-09 to 2026-11-15",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -45051,7 +45051,7 @@
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 7,
+   "booked": 6,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -45090,15 +45090,6 @@
      "lat": 25.0099047,
      "lng": 55.2902856,
      "where_exactly": "Nshama Community Centre car park."
-    },
-    {
-     "code": "C3-23",
-     "name": "Reem Townhouses shuttle stop, Town Square",
-     "time": "06:45",
-     "action": "pick_up",
-     "lat": 25.01081,
-     "lng": 55.27931,
-     "where_exactly": "Community shuttle bus stop outside Reem Townhouses on the Town Square loop road (Emirates Rd side) - exact pin to confirm from the father's map link."
     },
     {
      "code": "C3-11",
@@ -45347,7 +45338,7 @@
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 6,
+   "booked": 5,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -45359,15 +45350,6 @@
      "lat": 25.1321925,
      "lng": 55.4223161,
      "where_exactly": ""
-    },
-    {
-     "code": "C3-23",
-     "name": "Reem Townhouses shuttle stop, Town Square",
-     "time": "14:40",
-     "action": "set_down",
-     "lat": 25.01081,
-     "lng": 55.27931,
-     "where_exactly": "Community shuttle bus stop outside Reem Townhouses on the Town Square loop road (Emirates Rd side) - exact pin to confirm from the father's map link."
     },
     {
      "code": "C3-09",
@@ -50509,7 +50491,7 @@
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 5,
+   "booked": 4,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -50530,15 +50512,6 @@
      "lat": 25.0099047,
      "lng": 55.2902856,
      "where_exactly": "Nshama Community Centre car park."
-    },
-    {
-     "code": "C3-23",
-     "name": "Reem Townhouses shuttle stop, Town Square",
-     "time": "12:13",
-     "action": "pick_up",
-     "lat": 25.01081,
-     "lng": 55.27931,
-     "where_exactly": "Community shuttle bus stop outside Reem Townhouses on the Town Square loop road (Emirates Rd side) - exact pin to confirm from the father's map link."
     },
     {
      "code": "UOB",
@@ -50825,7 +50798,7 @@
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 10,
+   "booked": 9,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -50873,15 +50846,6 @@
      "lat": 25.0910153,
      "lng": 55.3026039,
      "where_exactly": "Main gate."
-    },
-    {
-     "code": "C3-23",
-     "name": "Reem Townhouses shuttle stop, Town Square",
-     "time": "19:31",
-     "action": "set_down",
-     "lat": 25.01081,
-     "lng": 55.27931,
-     "where_exactly": "Community shuttle bus stop outside Reem Townhouses on the Town Square loop road (Emirates Rd side) - exact pin to confirm from the father's map link."
     },
     {
      "code": "C3-09",
@@ -54600,7 +54564,7 @@
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 5,
+   "booked": 4,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -54639,15 +54603,6 @@
      "lat": 25.0099047,
      "lng": 55.2902856,
      "where_exactly": "Nshama Community Centre car park."
-    },
-    {
-     "code": "C3-23",
-     "name": "Reem Townhouses shuttle stop, Town Square",
-     "time": "06:57",
-     "action": "pick_up",
-     "lat": 25.01081,
-     "lng": 55.27931,
-     "where_exactly": "Community shuttle bus stop outside Reem Townhouses on the Town Square loop road (Emirates Rd side) - exact pin to confirm from the father's map link."
     },
     {
      "code": "UOB",
@@ -54985,7 +54940,7 @@
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 8,
+   "booked": 7,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -55015,15 +54970,6 @@
      "lat": 25.0898954,
      "lng": 55.3865139,
      "where_exactly": "Tower D, near Aster Pharmacy."
-    },
-    {
-     "code": "C3-23",
-     "name": "Reem Townhouses shuttle stop, Town Square",
-     "time": "13:00",
-     "action": "set_down",
-     "lat": 25.01081,
-     "lng": 55.27931,
-     "where_exactly": "Community shuttle bus stop outside Reem Townhouses on the Town Square loop road (Emirates Rd side) - exact pin to confirm from the father's map link."
     },
     {
      "code": "C3-09",
@@ -59616,7 +59562,7 @@
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 8,
+   "booked": 7,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -59664,15 +59610,6 @@
      "lat": 25.0099047,
      "lng": 55.2902856,
      "where_exactly": "Nshama Community Centre car park."
-    },
-    {
-     "code": "C3-23",
-     "name": "Reem Townhouses shuttle stop, Town Square",
-     "time": "06:35",
-     "action": "pick_up",
-     "lat": 25.01081,
-     "lng": 55.27931,
-     "where_exactly": "Community shuttle bus stop outside Reem Townhouses on the Town Square loop road (Emirates Rd side) - exact pin to confirm from the father's map link."
     },
     {
      "code": "C3-14",
@@ -60178,7 +60115,7 @@
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 9,
+   "booked": 8,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -60190,15 +60127,6 @@
      "lat": 25.1321925,
      "lng": 55.4223161,
      "where_exactly": ""
-    },
-    {
-     "code": "C3-23",
-     "name": "Reem Townhouses shuttle stop, Town Square",
-     "time": "17:06",
-     "action": "set_down",
-     "lat": 25.01081,
-     "lng": 55.27931,
-     "where_exactly": "Community shuttle bus stop outside Reem Townhouses on the Town Square loop road (Emirates Rd side) - exact pin to confirm from the father's map link."
     },
     {
      "code": "C3-09",
@@ -68994,7 +68922,7 @@
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 6,
+   "booked": 5,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -69033,15 +68961,6 @@
      "lat": 25.0099047,
      "lng": 55.2902856,
      "where_exactly": "Nshama Community Centre car park."
-    },
-    {
-     "code": "C3-23",
-     "name": "Reem Townhouses shuttle stop, Town Square",
-     "time": "06:52",
-     "action": "pick_up",
-     "lat": 25.01081,
-     "lng": 55.27931,
-     "where_exactly": "Community shuttle bus stop outside Reem Townhouses on the Town Square loop road (Emirates Rd side) - exact pin to confirm from the father's map link."
     },
     {
      "code": "C3-14",
@@ -69236,7 +69155,7 @@
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 3,
+   "booked": 2,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -69248,15 +69167,6 @@
      "lat": 25.1321925,
      "lng": 55.4223161,
      "where_exactly": ""
-    },
-    {
-     "code": "C3-23",
-     "name": "Reem Townhouses shuttle stop, Town Square",
-     "time": "14:47",
-     "action": "set_down",
-     "lat": 25.01081,
-     "lng": 55.27931,
-     "where_exactly": "Community shuttle bus stop outside Reem Townhouses on the Town Square loop road (Emirates Rd side) - exact pin to confirm from the father's map link."
     },
     {
      "code": "C3-09",
@@ -74014,7 +73924,7 @@
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 4,
+   "booked": 3,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -74026,15 +73936,6 @@
      "lat": 25.0099047,
      "lng": 55.2902856,
      "where_exactly": "Nshama Community Centre car park."
-    },
-    {
-     "code": "C3-23",
-     "name": "Reem Townhouses shuttle stop, Town Square",
-     "time": "12:01",
-     "action": "pick_up",
-     "lat": 25.01081,
-     "lng": 55.27931,
-     "where_exactly": "Community shuttle bus stop outside Reem Townhouses on the Town Square loop road (Emirates Rd side) - exact pin to confirm from the father's map link."
     },
     {
      "code": "UOB",
@@ -74294,7 +74195,7 @@
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 8,
+   "booked": 7,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -74324,15 +74225,6 @@
      "lat": 25.0898954,
      "lng": 55.3865139,
      "where_exactly": "Tower D, near Aster Pharmacy."
-    },
-    {
-     "code": "C3-23",
-     "name": "Reem Townhouses shuttle stop, Town Square",
-     "time": "19:16",
-     "action": "set_down",
-     "lat": 25.01081,
-     "lng": 55.27931,
-     "where_exactly": "Community shuttle bus stop outside Reem Townhouses on the Town Square loop road (Emirates Rd side) - exact pin to confirm from the father's map link."
     },
     {
      "code": "C3-09",
@@ -77905,7 +77797,7 @@
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 5,
+   "booked": 4,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -77935,15 +77827,6 @@
      "lat": 25.0099047,
      "lng": 55.2902856,
      "where_exactly": "Nshama Community Centre car park."
-    },
-    {
-     "code": "C3-23",
-     "name": "Reem Townhouses shuttle stop, Town Square",
-     "time": "06:40",
-     "action": "pick_up",
-     "lat": 25.01081,
-     "lng": 55.27931,
-     "where_exactly": "Community shuttle bus stop outside Reem Townhouses on the Town Square loop road (Emirates Rd side) - exact pin to confirm from the father's map link."
     },
     {
      "code": "C3-25",
@@ -78272,7 +78155,7 @@
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 7,
+   "booked": 6,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -78302,15 +78185,6 @@
      "lat": 25.0898954,
      "lng": 55.3865139,
      "where_exactly": "Tower D, near Aster Pharmacy."
-    },
-    {
-     "code": "C3-23",
-     "name": "Reem Townhouses shuttle stop, Town Square",
-     "time": "13:03",
-     "action": "set_down",
-     "lat": 25.01081,
-     "lng": 55.27931,
-     "where_exactly": "Community shuttle bus stop outside Reem Townhouses on the Town Square loop road (Emirates Rd side) - exact pin to confirm from the father's map link."
     },
     {
      "code": "C3-09",
@@ -82699,7 +82573,7 @@
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 8,
+   "booked": 7,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -82747,15 +82621,6 @@
      "lat": 25.0099047,
      "lng": 55.2902856,
      "where_exactly": "Nshama Community Centre car park."
-    },
-    {
-     "code": "C3-23",
-     "name": "Reem Townhouses shuttle stop, Town Square",
-     "time": "06:35",
-     "action": "pick_up",
-     "lat": 25.01081,
-     "lng": 55.27931,
-     "where_exactly": "Community shuttle bus stop outside Reem Townhouses on the Town Square loop road (Emirates Rd side) - exact pin to confirm from the father's map link."
     },
     {
      "code": "C3-14",
@@ -83004,11 +82869,11 @@
    "arrive_campus": null,
    "leave_campus": "14:15",
    "start": "14:15",
-   "end": "15:08",
+   "end": "14:50",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 2,
+   "booked": 1,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -83029,15 +82894,6 @@
      "lat": 25.036628,
      "lng": 55.221187,
      "where_exactly": "Outside the front of the Eagle Heights building."
-    },
-    {
-     "code": "C3-23",
-     "name": "Reem Townhouses shuttle stop, Town Square",
-     "time": "15:08",
-     "action": "set_down",
-     "lat": 25.01081,
-     "lng": 55.27931,
-     "where_exactly": "Community shuttle bus stop outside Reem Townhouses on the Town Square loop road (Emirates Rd side) - exact pin to confirm from the father's map link."
     }
    ]
   },
@@ -91729,7 +91585,7 @@
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 6,
+   "booked": 5,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -91768,15 +91624,6 @@
      "lat": 25.0099047,
      "lng": 55.2902856,
      "where_exactly": "Nshama Community Centre car park."
-    },
-    {
-     "code": "C3-23",
-     "name": "Reem Townhouses shuttle stop, Town Square",
-     "time": "06:52",
-     "action": "pick_up",
-     "lat": 25.01081,
-     "lng": 55.27931,
-     "where_exactly": "Community shuttle bus stop outside Reem Townhouses on the Town Square loop road (Emirates Rd side) - exact pin to confirm from the father's map link."
     },
     {
      "code": "C3-14",
@@ -91962,7 +91809,7 @@
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 2,
+   "booked": 1,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -91974,15 +91821,6 @@
      "lat": 25.1321925,
      "lng": 55.4223161,
      "where_exactly": ""
-    },
-    {
-     "code": "C3-23",
-     "name": "Reem Townhouses shuttle stop, Town Square",
-     "time": "14:52",
-     "action": "set_down",
-     "lat": 25.01081,
-     "lng": 55.27931,
-     "where_exactly": "Community shuttle bus stop outside Reem Townhouses on the Town Square loop road (Emirates Rd side) - exact pin to confirm from the father's map link."
     },
     {
      "code": "C3-05",
@@ -96600,7 +96438,7 @@
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 3,
+   "booked": 2,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -96612,15 +96450,6 @@
      "lat": 25.0099047,
      "lng": 55.2902856,
      "where_exactly": "Nshama Community Centre car park."
-    },
-    {
-     "code": "C3-23",
-     "name": "Reem Townhouses shuttle stop, Town Square",
-     "time": "12:01",
-     "action": "pick_up",
-     "lat": 25.01081,
-     "lng": 55.27931,
-     "where_exactly": "Community shuttle bus stop outside Reem Townhouses on the Town Square loop road (Emirates Rd side) - exact pin to confirm from the father's map link."
     },
     {
      "code": "UOB",
@@ -96880,7 +96709,7 @@
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 7,
+   "booked": 6,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -96910,15 +96739,6 @@
      "lat": 25.0898954,
      "lng": 55.3865139,
      "where_exactly": "Tower D, near Aster Pharmacy."
-    },
-    {
-     "code": "C3-23",
-     "name": "Reem Townhouses shuttle stop, Town Square",
-     "time": "19:16",
-     "action": "set_down",
-     "lat": 25.01081,
-     "lng": 55.27931,
-     "where_exactly": "Community shuttle bus stop outside Reem Townhouses on the Town Square loop road (Emirates Rd side) - exact pin to confirm from the father's map link."
     },
     {
      "code": "C3-09",
@@ -100447,7 +100267,7 @@
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 4,
+   "booked": 3,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -100477,15 +100297,6 @@
      "lat": 25.0099047,
      "lng": 55.2902856,
      "where_exactly": "Nshama Community Centre car park."
-    },
-    {
-     "code": "C3-23",
-     "name": "Reem Townhouses shuttle stop, Town Square",
-     "time": "06:57",
-     "action": "pick_up",
-     "lat": 25.01081,
-     "lng": 55.27931,
-     "where_exactly": "Community shuttle bus stop outside Reem Townhouses on the Town Square loop road (Emirates Rd side) - exact pin to confirm from the father's map link."
     },
     {
      "code": "UOB",
@@ -100805,7 +100616,7 @@
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 6,
+   "booked": 5,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -100826,15 +100637,6 @@
      "lat": 25.0898954,
      "lng": 55.3865139,
      "where_exactly": "Tower D, near Aster Pharmacy."
-    },
-    {
-     "code": "C3-23",
-     "name": "Reem Townhouses shuttle stop, Town Square",
-     "time": "12:55",
-     "action": "set_down",
-     "lat": 25.01081,
-     "lng": 55.27931,
-     "where_exactly": "Community shuttle bus stop outside Reem Townhouses on the Town Square loop road (Emirates Rd side) - exact pin to confirm from the father's map link."
     },
     {
      "code": "C3-09",
@@ -105171,7 +104973,7 @@
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 6,
+   "booked": 5,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -105201,15 +105003,6 @@
      "lat": 25.0099047,
      "lng": 55.2902856,
      "where_exactly": "Nshama Community Centre car park."
-    },
-    {
-     "code": "C3-23",
-     "name": "Reem Townhouses shuttle stop, Town Square",
-     "time": "06:29",
-     "action": "pick_up",
-     "lat": 25.01081,
-     "lng": 55.27931,
-     "where_exactly": "Community shuttle bus stop outside Reem Townhouses on the Town Square loop road (Emirates Rd side) - exact pin to confirm from the father's map link."
     },
     {
      "code": "C3-14",
@@ -105715,7 +105508,7 @@
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 7,
+   "booked": 6,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -105727,15 +105520,6 @@
      "lat": 25.1321925,
      "lng": 55.4223161,
      "where_exactly": ""
-    },
-    {
-     "code": "C3-23",
-     "name": "Reem Townhouses shuttle stop, Town Square",
-     "time": "17:06",
-     "action": "set_down",
-     "lat": 25.01081,
-     "lng": 55.27931,
-     "where_exactly": "Community shuttle bus stop outside Reem Townhouses on the Town Square loop road (Emirates Rd side) - exact pin to confirm from the father's map link."
     },
     {
      "code": "C3-09",
@@ -114011,7 +113795,7 @@
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 6,
+   "booked": 5,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -114041,15 +113825,6 @@
      "lat": 25.0099047,
      "lng": 55.2902856,
      "where_exactly": "Nshama Community Centre car park."
-    },
-    {
-     "code": "C3-23",
-     "name": "Reem Townhouses shuttle stop, Town Square",
-     "time": "06:29",
-     "action": "pick_up",
-     "lat": 25.01081,
-     "lng": 55.27931,
-     "where_exactly": "Community shuttle bus stop outside Reem Townhouses on the Town Square loop road (Emirates Rd side) - exact pin to confirm from the father's map link."
     },
     {
      "code": "C3-14",
@@ -114235,7 +114010,7 @@
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 3,
+   "booked": 2,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -114247,15 +114022,6 @@
      "lat": 25.1321925,
      "lng": 55.4223161,
      "where_exactly": ""
-    },
-    {
-     "code": "C3-23",
-     "name": "Reem Townhouses shuttle stop, Town Square",
-     "time": "14:47",
-     "action": "set_down",
-     "lat": 25.01081,
-     "lng": 55.27931,
-     "where_exactly": "Community shuttle bus stop outside Reem Townhouses on the Town Square loop road (Emirates Rd side) - exact pin to confirm from the father's map link."
     },
     {
      "code": "C3-09",
@@ -118474,7 +118240,7 @@
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 7,
+   "booked": 6,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -118513,15 +118279,6 @@
      "lat": 25.0389716,
      "lng": 55.2890906,
      "where_exactly": "Community entrance off D54."
-    },
-    {
-     "code": "C3-23",
-     "name": "Reem Townhouses shuttle stop, Town Square",
-     "time": "06:34",
-     "action": "pick_up",
-     "lat": 25.01081,
-     "lng": 55.27931,
-     "where_exactly": "Community shuttle bus stop outside Reem Townhouses on the Town Square loop road (Emirates Rd side) - exact pin to confirm from the father's map link."
     },
     {
      "code": "C3-14",
@@ -118998,7 +118755,7 @@
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 7,
+   "booked": 6,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -119028,15 +118785,6 @@
      "lat": 25.0898954,
      "lng": 55.3865139,
      "where_exactly": "Tower D, near Aster Pharmacy."
-    },
-    {
-     "code": "C3-23",
-     "name": "Reem Townhouses shuttle stop, Town Square",
-     "time": "19:25",
-     "action": "set_down",
-     "lat": 25.01081,
-     "lng": 55.27931,
-     "where_exactly": "Community shuttle bus stop outside Reem Townhouses on the Town Square loop road (Emirates Rd side) - exact pin to confirm from the father's map link."
     },
     {
      "code": "C3-09",
@@ -122406,7 +122154,7 @@
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 4,
+   "booked": 3,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -122436,15 +122184,6 @@
      "lat": 25.0099047,
      "lng": 55.2902856,
      "where_exactly": "Nshama Community Centre car park."
-    },
-    {
-     "code": "C3-23",
-     "name": "Reem Townhouses shuttle stop, Town Square",
-     "time": "06:57",
-     "action": "pick_up",
-     "lat": 25.01081,
-     "lng": 55.27931,
-     "where_exactly": "Community shuttle bus stop outside Reem Townhouses on the Town Square loop road (Emirates Rd side) - exact pin to confirm from the father's map link."
     },
     {
      "code": "UOB",
@@ -122764,7 +122503,7 @@
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 6,
+   "booked": 5,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -122785,15 +122524,6 @@
      "lat": 25.0898954,
      "lng": 55.3865139,
      "where_exactly": "Tower D, near Aster Pharmacy."
-    },
-    {
-     "code": "C3-23",
-     "name": "Reem Townhouses shuttle stop, Town Square",
-     "time": "12:55",
-     "action": "set_down",
-     "lat": 25.01081,
-     "lng": 55.27931,
-     "where_exactly": "Community shuttle bus stop outside Reem Townhouses on the Town Square loop road (Emirates Rd side) - exact pin to confirm from the father's map link."
     },
     {
      "code": "C3-09",
