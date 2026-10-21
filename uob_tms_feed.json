@@ -72469,6 +72469,99 @@
    ]
   },
   {
+   "run_id": "2026-10-29-R2-O2",
+   "date": "2026-10-29",
+   "day": "Thu",
+   "route": "R2",
+   "direction": "to_campus",
+   "service": "regular",
+   "arrive_campus": "09:45",
+   "leave_campus": null,
+   "start": "07:45",
+   "end": "09:45",
+   "vehicle": "M2",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 0,
+   "seats": 15,
+   "offer_only": true,
+   "stops": [
+    {
+     "code": "C1-14",
+     "name": "Olivz Residence, Warsan 1",
+     "time": "07:45",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-13",
+     "name": "Nasayem Avenue, Mirdif Hills",
+     "time": "07:56",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-12",
+     "name": "Uptown Mirdif",
+     "time": "08:07",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-23",
+     "name": "Centrepoint, Mirdif City Centre",
+     "time": "08:18",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-11",
+     "name": "Madina Mall",
+     "time": "08:29",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-10",
+     "name": "Dubai Festival City Mall",
+     "time": "08:40",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-25",
+     "name": "Dubai Grand Hotel Bus Stop 1, Damascus St, Al Qusais",
+     "time": "08:50",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-09",
+     "name": "DAFZA Metro Station",
+     "time": "09:01",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-08",
+     "name": "Mattar Tower, Al Nahda 1",
+     "time": "09:12",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-26",
+     "name": "Dubai Carmel School, Amman St, Al Nahda 2",
+     "time": "09:23",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-07",
+     "name": "Masafi 1, Al Nahda 2",
+     "time": "09:34",
+     "action": "pick_up"
+    },
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "09:45",
+     "action": "set_down"
+    }
+   ],
+   "status": "on_request"
+  },
+  {
    "run_id": "2026-10-29-R2-O3",
    "date": "2026-10-29",
    "day": "Thu",
@@ -81475,6 +81568,99 @@
      "where_exactly": ""
     }
    ]
+  },
+  {
+   "run_id": "2026-11-02-R2-O2",
+   "date": "2026-11-02",
+   "day": "Mon",
+   "route": "R2",
+   "direction": "to_campus",
+   "service": "regular",
+   "arrive_campus": "09:45",
+   "leave_campus": null,
+   "start": "07:45",
+   "end": "09:45",
+   "vehicle": "M2",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 0,
+   "seats": 15,
+   "offer_only": true,
+   "stops": [
+    {
+     "code": "C1-14",
+     "name": "Olivz Residence, Warsan 1",
+     "time": "07:45",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-13",
+     "name": "Nasayem Avenue, Mirdif Hills",
+     "time": "07:56",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-12",
+     "name": "Uptown Mirdif",
+     "time": "08:07",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-23",
+     "name": "Centrepoint, Mirdif City Centre",
+     "time": "08:18",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-11",
+     "name": "Madina Mall",
+     "time": "08:29",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-10",
+     "name": "Dubai Festival City Mall",
+     "time": "08:40",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-25",
+     "name": "Dubai Grand Hotel Bus Stop 1, Damascus St, Al Qusais",
+     "time": "08:50",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-09",
+     "name": "DAFZA Metro Station",
+     "time": "09:01",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-08",
+     "name": "Mattar Tower, Al Nahda 1",
+     "time": "09:12",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-26",
+     "name": "Dubai Carmel School, Amman St, Al Nahda 2",
+     "time": "09:23",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-07",
+     "name": "Masafi 1, Al Nahda 2",
+     "time": "09:34",
+     "action": "pick_up"
+    },
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "09:45",
+     "action": "set_down"
+    }
+   ],
+   "status": "on_request"
   },
   {
    "run_id": "2026-11-02-R2-O3",
