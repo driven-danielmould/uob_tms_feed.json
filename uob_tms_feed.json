@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-22T01:55:58Z",
+ "generated_at": "2026-10-22T01:59:20Z",
  "week": "2026-10-09 to 2026-11-15",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -52978,6 +52978,53 @@
    ]
   },
   {
+   "run_id": "2026-10-22-R8-R4N",
+   "date": "2026-10-22",
+   "day": "Thu",
+   "route": "R8",
+   "direction": "from_campus",
+   "service": "masters",
+   "arrive_campus": null,
+   "leave_campus": "21:36",
+   "start": "21:36",
+   "end": "22:18",
+   "vehicle": "M8",
+   "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 2,
+   "seats": 34,
+   "status": "operating",
+   "stops": [
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "21:36",
+     "action": "pick_up",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    },
+    {
+     "code": "C1-21",
+     "name": "Sahab Al Emarat, Al Mamzar, Sharjah",
+     "time": "22:09",
+     "action": "set_down",
+     "lat": 25.31578,
+     "lng": 55.35863,
+     "where_exactly": "Kerbside on Corniche Rd outside Sahab Al Emarat."
+    },
+    {
+     "code": "C1-18",
+     "name": "Shamseen Bakeries Building, Al Majaz",
+     "time": "22:18",
+     "action": "set_down",
+     "lat": 25.33253,
+     "lng": 55.37588,
+     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
+    }
+   ]
+  },
+  {
    "run_id": "2026-10-23-R1-O1",
    "date": "2026-10-23",
    "day": "Fri",
@@ -56880,7 +56927,7 @@
    "arrive_campus": null,
    "leave_campus": "21:36",
    "start": "21:36",
-   "end": "22:21",
+   "end": "22:37",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
@@ -56900,7 +56947,7 @@
     {
      "code": "C5-19",
      "name": "Al Raffa, 7E Street (near Al Khaleej Centre)",
-     "time": "22:02",
+     "time": "22:05",
      "action": "set_down",
      "lat": 25.25816,
      "lng": 55.297127,
@@ -56909,7 +56956,7 @@
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "22:21",
+     "time": "22:37",
      "action": "set_down",
      "lat": 25.337533,
      "lng": 55.39061,
@@ -62368,6 +62415,44 @@
    ]
   },
   {
+   "run_id": "2026-10-26-R8-R4N",
+   "date": "2026-10-26",
+   "day": "Mon",
+   "route": "R8",
+   "direction": "from_campus",
+   "service": "masters",
+   "arrive_campus": null,
+   "leave_campus": "21:36",
+   "start": "21:36",
+   "end": "22:11",
+   "vehicle": "M8",
+   "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 1,
+   "seats": 34,
+   "status": "operating",
+   "stops": [
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "21:36",
+     "action": "pick_up",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    },
+    {
+     "code": "C1-18",
+     "name": "Shamseen Bakeries Building, Al Majaz",
+     "time": "22:11",
+     "action": "set_down",
+     "lat": 25.33253,
+     "lng": 55.37588,
+     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
+    }
+   ]
+  },
+  {
    "run_id": "2026-10-27-R1-O1",
    "date": "2026-10-27",
    "day": "Tue",
@@ -67098,6 +67183,44 @@
    ]
   },
   {
+   "run_id": "2026-10-27-R8-R4N",
+   "date": "2026-10-27",
+   "day": "Tue",
+   "route": "R8",
+   "direction": "from_campus",
+   "service": "masters",
+   "arrive_campus": null,
+   "leave_campus": "21:36",
+   "start": "21:36",
+   "end": "22:11",
+   "vehicle": "M8",
+   "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 1,
+   "seats": 34,
+   "status": "operating",
+   "stops": [
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "21:36",
+     "action": "pick_up",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    },
+    {
+     "code": "C1-18",
+     "name": "Shamseen Bakeries Building, Al Majaz",
+     "time": "22:11",
+     "action": "set_down",
+     "lat": 25.33253,
+     "lng": 55.37588,
+     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
+    }
+   ]
+  },
+  {
    "run_id": "2026-10-28-R1-O1",
    "date": "2026-10-28",
    "day": "Wed",
@@ -71772,7 +71895,7 @@
    "arrive_campus": null,
    "leave_campus": "21:36",
    "start": "21:36",
-   "end": "22:33",
+   "end": "22:50",
    "vehicle": "M8",
    "vehicle_type": "Rosa",
    "capacity": 34,
@@ -71792,7 +71915,7 @@
     {
      "code": "C5-22",
      "name": "Al Jaddaf Metro Station",
-     "time": "21:56",
+     "time": "21:59",
      "action": "set_down",
      "lat": 25.2249568,
      "lng": 55.3336402,
@@ -71801,7 +71924,7 @@
     {
      "code": "C5-19",
      "name": "Al Raffa, 7E Street (near Al Khaleej Centre)",
-     "time": "22:09",
+     "time": "22:14",
      "action": "set_down",
      "lat": 25.25816,
      "lng": 55.297127,
@@ -71810,7 +71933,7 @@
     {
      "code": "C1-18",
      "name": "Shamseen Bakeries Building, Al Majaz",
-     "time": "22:26",
+     "time": "22:43",
      "action": "set_down",
      "lat": 25.33253,
      "lng": 55.37588,
@@ -71819,7 +71942,7 @@
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "22:33",
+     "time": "22:50",
      "action": "set_down",
      "lat": 25.337533,
      "lng": 55.39061,
@@ -76257,6 +76380,44 @@
    ]
   },
   {
+   "run_id": "2026-10-29-R8-R4N",
+   "date": "2026-10-29",
+   "day": "Thu",
+   "route": "R8",
+   "direction": "from_campus",
+   "service": "masters",
+   "arrive_campus": null,
+   "leave_campus": "21:36",
+   "start": "21:36",
+   "end": "22:11",
+   "vehicle": "M8",
+   "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 1,
+   "seats": 34,
+   "status": "operating",
+   "stops": [
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "21:36",
+     "action": "pick_up",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    },
+    {
+     "code": "C1-18",
+     "name": "Shamseen Bakeries Building, Al Majaz",
+     "time": "22:11",
+     "action": "set_down",
+     "lat": 25.33253,
+     "lng": 55.37588,
+     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
+    }
+   ]
+  },
+  {
    "run_id": "2026-10-30-R1-O1",
    "date": "2026-10-30",
    "day": "Fri",
@@ -80108,7 +80269,7 @@
    "arrive_campus": null,
    "leave_campus": "21:36",
    "start": "21:36",
-   "end": "22:26",
+   "end": "22:41",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
@@ -80128,7 +80289,7 @@
     {
      "code": "C5-19",
      "name": "Al Raffa, 7E Street (near Al Khaleej Centre)",
-     "time": "22:02",
+     "time": "22:05",
      "action": "set_down",
      "lat": 25.25816,
      "lng": 55.297127,
@@ -80137,7 +80298,7 @@
     {
      "code": "C1-18",
      "name": "Shamseen Bakeries Building, Al Majaz",
-     "time": "22:19",
+     "time": "22:34",
      "action": "set_down",
      "lat": 25.33253,
      "lng": 55.37588,
@@ -80146,7 +80307,7 @@
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "22:26",
+     "time": "22:41",
      "action": "set_down",
      "lat": 25.337533,
      "lng": 55.39061,
@@ -85423,6 +85584,44 @@
    ]
   },
   {
+   "run_id": "2026-11-02-R8-R4N",
+   "date": "2026-11-02",
+   "day": "Mon",
+   "route": "R8",
+   "direction": "from_campus",
+   "service": "masters",
+   "arrive_campus": null,
+   "leave_campus": "21:36",
+   "start": "21:36",
+   "end": "22:11",
+   "vehicle": "M8",
+   "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 1,
+   "seats": 34,
+   "status": "operating",
+   "stops": [
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "21:36",
+     "action": "pick_up",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    },
+    {
+     "code": "C1-18",
+     "name": "Shamseen Bakeries Building, Al Majaz",
+     "time": "22:11",
+     "action": "set_down",
+     "lat": 25.33253,
+     "lng": 55.37588,
+     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
+    }
+   ]
+  },
+  {
    "run_id": "2026-11-03-R1-O1",
    "date": "2026-11-03",
    "day": "Tue",
@@ -89961,6 +90160,44 @@
    ]
   },
   {
+   "run_id": "2026-11-03-R8-R4N",
+   "date": "2026-11-03",
+   "day": "Tue",
+   "route": "R8",
+   "direction": "from_campus",
+   "service": "masters",
+   "arrive_campus": null,
+   "leave_campus": "21:36",
+   "start": "21:36",
+   "end": "22:11",
+   "vehicle": "M8",
+   "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 1,
+   "seats": 34,
+   "status": "operating",
+   "stops": [
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "21:36",
+     "action": "pick_up",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    },
+    {
+     "code": "C1-18",
+     "name": "Shamseen Bakeries Building, Al Majaz",
+     "time": "22:11",
+     "action": "set_down",
+     "lat": 25.33253,
+     "lng": 55.37588,
+     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
+    }
+   ]
+  },
+  {
    "run_id": "2026-11-04-R1-O1",
    "date": "2026-11-04",
    "day": "Wed",
@@ -94446,7 +94683,7 @@
    "arrive_campus": null,
    "leave_campus": "21:36",
    "start": "21:36",
-   "end": "22:28",
+   "end": "22:46",
    "vehicle": "M8",
    "vehicle_type": "Rosa",
    "capacity": 34,
@@ -94466,7 +94703,7 @@
     {
      "code": "C5-22",
      "name": "Al Jaddaf Metro Station",
-     "time": "21:56",
+     "time": "21:59",
      "action": "set_down",
      "lat": 25.2249568,
      "lng": 55.3336402,
@@ -94475,7 +94712,7 @@
     {
      "code": "C5-19",
      "name": "Al Raffa, 7E Street (near Al Khaleej Centre)",
-     "time": "22:09",
+     "time": "22:14",
      "action": "set_down",
      "lat": 25.25816,
      "lng": 55.297127,
@@ -94484,7 +94721,7 @@
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "22:28",
+     "time": "22:46",
      "action": "set_down",
      "lat": 25.337533,
      "lng": 55.39061,
@@ -98854,6 +99091,44 @@
    ]
   },
   {
+   "run_id": "2026-11-05-R8-R4N",
+   "date": "2026-11-05",
+   "day": "Thu",
+   "route": "R8",
+   "direction": "from_campus",
+   "service": "masters",
+   "arrive_campus": null,
+   "leave_campus": "21:36",
+   "start": "21:36",
+   "end": "22:11",
+   "vehicle": "M8",
+   "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 1,
+   "seats": 34,
+   "status": "operating",
+   "stops": [
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "21:36",
+     "action": "pick_up",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    },
+    {
+     "code": "C1-18",
+     "name": "Shamseen Bakeries Building, Al Majaz",
+     "time": "22:11",
+     "action": "set_down",
+     "lat": 25.33253,
+     "lng": 55.37588,
+     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
+    }
+   ]
+  },
+  {
    "run_id": "2026-11-06-R1-O1",
    "date": "2026-11-06",
    "day": "Fri",
@@ -102570,7 +102845,7 @@
    "arrive_campus": null,
    "leave_campus": "21:36",
    "start": "21:36",
-   "end": "22:21",
+   "end": "22:37",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
@@ -102590,7 +102865,7 @@
     {
      "code": "C5-19",
      "name": "Al Raffa, 7E Street (near Al Khaleej Centre)",
-     "time": "22:02",
+     "time": "22:05",
      "action": "set_down",
      "lat": 25.25816,
      "lng": 55.297127,
@@ -102599,7 +102874,7 @@
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "22:21",
+     "time": "22:37",
      "action": "set_down",
      "lat": 25.337533,
      "lng": 55.39061,
@@ -107741,6 +108016,44 @@
    ]
   },
   {
+   "run_id": "2026-11-09-R8-R4N",
+   "date": "2026-11-09",
+   "day": "Mon",
+   "route": "R8",
+   "direction": "from_campus",
+   "service": "masters",
+   "arrive_campus": null,
+   "leave_campus": "21:36",
+   "start": "21:36",
+   "end": "22:11",
+   "vehicle": "M8",
+   "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 1,
+   "seats": 34,
+   "status": "operating",
+   "stops": [
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "21:36",
+     "action": "pick_up",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    },
+    {
+     "code": "C1-18",
+     "name": "Shamseen Bakeries Building, Al Majaz",
+     "time": "22:11",
+     "action": "set_down",
+     "lat": 25.33253,
+     "lng": 55.37588,
+     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
+    }
+   ]
+  },
+  {
    "run_id": "2026-11-10-R1-O1",
    "date": "2026-11-10",
    "day": "Tue",
@@ -112217,6 +112530,44 @@
    ]
   },
   {
+   "run_id": "2026-11-10-R8-R4N",
+   "date": "2026-11-10",
+   "day": "Tue",
+   "route": "R8",
+   "direction": "from_campus",
+   "service": "masters",
+   "arrive_campus": null,
+   "leave_campus": "21:36",
+   "start": "21:36",
+   "end": "22:11",
+   "vehicle": "M8",
+   "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 1,
+   "seats": 34,
+   "status": "operating",
+   "stops": [
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "21:36",
+     "action": "pick_up",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    },
+    {
+     "code": "C1-18",
+     "name": "Shamseen Bakeries Building, Al Majaz",
+     "time": "22:11",
+     "action": "set_down",
+     "lat": 25.33253,
+     "lng": 55.37588,
+     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
+    }
+   ]
+  },
+  {
    "run_id": "2026-11-11-R1-O1",
    "date": "2026-11-11",
    "day": "Wed",
@@ -116519,7 +116870,7 @@
    "arrive_campus": null,
    "leave_campus": "21:36",
    "start": "21:36",
-   "end": "22:42",
+   "end": "23:23",
    "vehicle": "M8",
    "vehicle_type": "Rosa",
    "capacity": 34,
@@ -116539,7 +116890,7 @@
     {
      "code": "C5-22",
      "name": "Al Jaddaf Metro Station",
-     "time": "21:56",
+     "time": "21:59",
      "action": "set_down",
      "lat": 25.2249568,
      "lng": 55.3336402,
@@ -116548,7 +116899,7 @@
     {
      "code": "C5-19",
      "name": "Al Raffa, 7E Street (near Al Khaleej Centre)",
-     "time": "22:09",
+     "time": "22:14",
      "action": "set_down",
      "lat": 25.25816,
      "lng": 55.297127,
@@ -116557,7 +116908,7 @@
     {
      "code": "C5-20",
      "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
-     "time": "22:22",
+     "time": "22:35",
      "action": "set_down",
      "lat": 25.186457,
      "lng": 55.282055,
@@ -116566,7 +116917,7 @@
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "22:42",
+     "time": "23:23",
      "action": "set_down",
      "lat": 25.337533,
      "lng": 55.39061,
@@ -120797,6 +121148,44 @@
    ]
   },
   {
+   "run_id": "2026-11-12-R8-R4N",
+   "date": "2026-11-12",
+   "day": "Thu",
+   "route": "R8",
+   "direction": "from_campus",
+   "service": "masters",
+   "arrive_campus": null,
+   "leave_campus": "21:36",
+   "start": "21:36",
+   "end": "22:11",
+   "vehicle": "M8",
+   "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 1,
+   "seats": 34,
+   "status": "operating",
+   "stops": [
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "21:36",
+     "action": "pick_up",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    },
+    {
+     "code": "C1-18",
+     "name": "Shamseen Bakeries Building, Al Majaz",
+     "time": "22:11",
+     "action": "set_down",
+     "lat": 25.33253,
+     "lng": 55.37588,
+     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
+    }
+   ]
+  },
+  {
    "run_id": "2026-11-13-R1-O1",
    "date": "2026-11-13",
    "day": "Fri",
@@ -124403,7 +124792,7 @@
    "arrive_campus": null,
    "leave_campus": "21:36",
    "start": "21:36",
-   "end": "22:21",
+   "end": "22:37",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
@@ -124423,7 +124812,7 @@
     {
      "code": "C5-19",
      "name": "Al Raffa, 7E Street (near Al Khaleej Centre)",
-     "time": "22:02",
+     "time": "22:05",
      "action": "set_down",
      "lat": 25.25816,
      "lng": 55.297127,
@@ -124432,7 +124821,7 @@
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "22:21",
+     "time": "22:37",
      "action": "set_down",
      "lat": 25.337533,
      "lng": 55.39061,
