@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-22T07:35:49Z",
+ "generated_at": "2026-10-22T14:41:25Z",
  "week": "2026-10-09 to 2026-11-15",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -395,10 +395,10 @@
      "code": "C1-08",
      "order": 7,
      "name": "Mattar Tower, Al Nahda 1",
-     "lat": 25.288631,
-     "lng": 55.364044,
+     "lat": 25.288533,
+     "lng": 55.3631313,
      "google_place_id": "ChIJ2xG9GphdXz4RcP4aHtv1QBc",
-     "where_exactly": "Outside Noor Ladies Salon, by the clothes donation box.",
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance.",
      "pickup_lat": 25.288631,
      "pickup_lng": 55.364044,
      "pickup_where_exactly": "Outside Noor Ladies Salon, by the clothes donation box.",
@@ -3138,7 +3138,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "16:12",
-     "action": "pick_up"
+     "action": "pick_up",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-09",
@@ -3259,7 +3262,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "22:51",
-     "action": "set_down"
+     "action": "set_down",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-07",
@@ -7334,9 +7340,9 @@
      "name": "Mattar Tower, Al Nahda 1",
      "time": "11:34",
      "action": "pick_up",
-     "lat": 25.288631,
-     "lng": 55.364044,
-     "where_exactly": "Outside Noor Ladies Salon, by the clothes donation box."
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-15",
@@ -7461,7 +7467,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "16:12",
-     "action": "pick_up"
+     "action": "pick_up",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-09",
@@ -7608,9 +7617,9 @@
      "name": "Mattar Tower, Al Nahda 1",
      "time": "19:36",
      "action": "set_down",
-     "lat": 25.288631,
-     "lng": 55.364044,
-     "where_exactly": "Outside Noor Ladies Salon, by the clothes donation box."
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-22",
@@ -7702,7 +7711,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "22:51",
-     "action": "set_down"
+     "action": "set_down",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-07",
@@ -11594,9 +11606,9 @@
      "name": "Mattar Tower, Al Nahda 1",
      "time": "06:06",
      "action": "pick_up",
-     "lat": 25.288631,
-     "lng": 55.364044,
-     "where_exactly": "Outside Noor Ladies Salon, by the clothes donation box."
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-23",
@@ -11813,7 +11825,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "10:09",
-     "action": "pick_up"
+     "action": "pick_up",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-26",
@@ -11991,7 +12006,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "16:21",
-     "action": "pick_up"
+     "action": "pick_up",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-09",
@@ -12111,9 +12129,9 @@
      "name": "Mattar Tower, Al Nahda 1",
      "time": "17:52",
      "action": "set_down",
-     "lat": 25.288631,
-     "lng": 55.364044,
-     "where_exactly": "Outside Noor Ladies Salon, by the clothes donation box."
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-17",
@@ -12194,9 +12212,9 @@
      "name": "Mattar Tower, Al Nahda 1",
      "time": "19:19",
      "action": "set_down",
-     "lat": 25.288631,
-     "lng": 55.364044,
-     "where_exactly": "Outside Noor Ladies Salon, by the clothes donation box."
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-23",
@@ -12316,7 +12334,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "22:43",
-     "action": "set_down"
+     "action": "set_down",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-26",
@@ -17209,9 +17230,9 @@
      "name": "Mattar Tower, Al Nahda 1",
      "time": "09:48",
      "action": "pick_up",
-     "lat": 25.288631,
-     "lng": 55.364044,
-     "where_exactly": "Outside Noor Ladies Salon, by the clothes donation box."
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-09",
@@ -17307,7 +17328,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "12:09",
-     "action": "pick_up"
+     "action": "pick_up",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-26",
@@ -17398,9 +17422,9 @@
      "name": "Mattar Tower, Al Nahda 1",
      "time": "15:14",
      "action": "set_down",
-     "lat": 25.288631,
-     "lng": 55.364044,
-     "where_exactly": "Outside Noor Ladies Salon, by the clothes donation box."
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-24",
@@ -17447,7 +17471,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "16:21",
-     "action": "pick_up"
+     "action": "pick_up",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-09",
@@ -17539,7 +17566,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "17:02",
-     "action": "set_down"
+     "action": "set_down",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-09",
@@ -17662,9 +17692,9 @@
      "name": "Mattar Tower, Al Nahda 1",
      "time": "19:21",
      "action": "set_down",
-     "lat": 25.288631,
-     "lng": 55.364044,
-     "where_exactly": "Outside Noor Ladies Salon, by the clothes donation box."
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-17",
@@ -17802,7 +17832,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "22:43",
-     "action": "set_down"
+     "action": "set_down",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-26",
@@ -22860,9 +22893,9 @@
      "name": "Mattar Tower, Al Nahda 1",
      "time": "06:05",
      "action": "pick_up",
-     "lat": 25.288631,
-     "lng": 55.364044,
-     "where_exactly": "Outside Noor Ladies Salon, by the clothes donation box."
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-23",
@@ -23047,9 +23080,9 @@
      "name": "Mattar Tower, Al Nahda 1",
      "time": "09:51",
      "action": "pick_up",
-     "lat": 25.288631,
-     "lng": 55.364044,
-     "where_exactly": "Outside Noor Ladies Salon, by the clothes donation box."
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-13",
@@ -23187,9 +23220,9 @@
      "name": "Mattar Tower, Al Nahda 1",
      "time": "15:13",
      "action": "set_down",
-     "lat": 25.288631,
-     "lng": 55.364044,
-     "where_exactly": "Outside Noor Ladies Salon, by the clothes donation box."
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-07",
@@ -23245,7 +23278,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "16:19",
-     "action": "pick_up"
+     "action": "pick_up",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-09",
@@ -23445,9 +23481,9 @@
      "name": "Mattar Tower, Al Nahda 1",
      "time": "19:31",
      "action": "set_down",
-     "lat": 25.288631,
-     "lng": 55.364044,
-     "where_exactly": "Outside Noor Ladies Salon, by the clothes donation box."
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-23",
@@ -23573,7 +23609,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "22:45",
-     "action": "set_down"
+     "action": "set_down",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-26",
@@ -28092,9 +28131,9 @@
      "name": "Mattar Tower, Al Nahda 1",
      "time": "06:17",
      "action": "pick_up",
-     "lat": 25.288631,
-     "lng": 55.364044,
-     "where_exactly": "Outside Noor Ladies Salon, by the clothes donation box."
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-09",
@@ -28224,7 +28263,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "09:12",
-     "action": "pick_up"
+     "action": "pick_up",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-26",
@@ -28317,7 +28359,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "10:12",
-     "action": "pick_up"
+     "action": "pick_up",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-26",
@@ -28410,7 +28455,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "12:12",
-     "action": "pick_up"
+     "action": "pick_up",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-26",
@@ -28510,9 +28558,9 @@
      "name": "Mattar Tower, Al Nahda 1",
      "time": "13:14",
      "action": "set_down",
-     "lat": 25.288631,
-     "lng": 55.364044,
-     "where_exactly": "Outside Noor Ladies Salon, by the clothes donation box."
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-17",
@@ -28595,7 +28643,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "16:19",
-     "action": "pick_up"
+     "action": "pick_up",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-09",
@@ -28728,7 +28779,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "22:45",
-     "action": "set_down"
+     "action": "set_down",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-26",
@@ -33690,9 +33744,9 @@
      "name": "Mattar Tower, Al Nahda 1",
      "time": "11:36",
      "action": "pick_up",
-     "lat": 25.288631,
-     "lng": 55.364044,
-     "where_exactly": "Outside Noor Ladies Salon, by the clothes donation box."
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-09",
@@ -33821,7 +33875,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "16:18",
-     "action": "pick_up"
+     "action": "pick_up",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-09",
@@ -34019,9 +34076,9 @@
      "name": "Mattar Tower, Al Nahda 1",
      "time": "19:16",
      "action": "set_down",
-     "lat": 25.288631,
-     "lng": 55.364044,
-     "where_exactly": "Outside Noor Ladies Salon, by the clothes donation box."
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-22",
@@ -34152,7 +34209,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "22:46",
-     "action": "set_down"
+     "action": "set_down",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-26",
@@ -38473,9 +38533,9 @@
      "name": "Mattar Tower, Al Nahda 1",
      "time": "06:08",
      "action": "pick_up",
-     "lat": 25.288631,
-     "lng": 55.364044,
-     "where_exactly": "Outside Noor Ladies Salon, by the clothes donation box."
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-23",
@@ -38829,7 +38889,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "16:18",
-     "action": "pick_up"
+     "action": "pick_up",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-09",
@@ -38971,9 +39034,9 @@
      "name": "Mattar Tower, Al Nahda 1",
      "time": "17:56",
      "action": "set_down",
-     "lat": 25.288631,
-     "lng": 55.364044,
-     "where_exactly": "Outside Noor Ladies Salon, by the clothes donation box."
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-07",
@@ -39054,9 +39117,9 @@
      "name": "Mattar Tower, Al Nahda 1",
      "time": "19:17",
      "action": "set_down",
-     "lat": 25.288631,
-     "lng": 55.364044,
-     "where_exactly": "Outside Noor Ladies Salon, by the clothes donation box."
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-17",
@@ -39205,7 +39268,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "22:46",
-     "action": "set_down"
+     "action": "set_down",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-26",
@@ -43772,9 +43838,9 @@
      "name": "Mattar Tower, Al Nahda 1",
      "time": "09:33",
      "action": "pick_up",
-     "lat": 25.288631,
-     "lng": 55.364044,
-     "where_exactly": "Outside Noor Ladies Salon, by the clothes donation box."
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-09",
@@ -43969,7 +44035,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "16:18",
-     "action": "pick_up"
+     "action": "pick_up",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-09",
@@ -44111,9 +44180,9 @@
      "name": "Mattar Tower, Al Nahda 1",
      "time": "17:49",
      "action": "set_down",
-     "lat": 25.288631,
-     "lng": 55.364044,
-     "where_exactly": "Outside Noor Ladies Salon, by the clothes donation box."
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-17",
@@ -44212,9 +44281,9 @@
      "name": "Mattar Tower, Al Nahda 1",
      "time": "19:34",
      "action": "set_down",
-     "lat": 25.288631,
-     "lng": 55.364044,
-     "where_exactly": "Outside Noor Ladies Salon, by the clothes donation box."
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-23",
@@ -44336,7 +44405,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "22:46",
-     "action": "set_down"
+     "action": "set_down",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-26",
@@ -48818,9 +48890,9 @@
      "name": "Mattar Tower, Al Nahda 1",
      "time": "06:19",
      "action": "pick_up",
-     "lat": 25.288631,
-     "lng": 55.364044,
-     "where_exactly": "Outside Noor Ladies Salon, by the clothes donation box."
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-25",
@@ -49126,9 +49198,9 @@
      "name": "Mattar Tower, Al Nahda 1",
      "time": "15:12",
      "action": "set_down",
-     "lat": 25.288631,
-     "lng": 55.364044,
-     "where_exactly": "Outside Noor Ladies Salon, by the clothes donation box."
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-07",
@@ -49183,7 +49255,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "16:18",
-     "action": "pick_up"
+     "action": "pick_up",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-09",
@@ -49514,7 +49589,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "22:46",
-     "action": "set_down"
+     "action": "set_down",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-26",
@@ -53545,9 +53623,9 @@
      "name": "Mattar Tower, Al Nahda 1",
      "time": "06:25",
      "action": "pick_up",
-     "lat": 25.288631,
-     "lng": 55.364044,
-     "where_exactly": "Outside Noor Ladies Salon, by the clothes donation box."
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-09",
@@ -53663,7 +53741,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "09:15",
-     "action": "pick_up"
+     "action": "pick_up",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-26",
@@ -53762,7 +53843,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "10:15",
-     "action": "pick_up"
+     "action": "pick_up",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-26",
@@ -53861,7 +53945,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "12:15",
-     "action": "pick_up"
+     "action": "pick_up",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-26",
@@ -53943,9 +54030,9 @@
      "name": "Mattar Tower, Al Nahda 1",
      "time": "13:06",
      "action": "set_down",
-     "lat": 25.288631,
-     "lng": 55.364044,
-     "where_exactly": "Outside Noor Ladies Salon, by the clothes donation box."
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-22",
@@ -54009,7 +54096,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "16:18",
-     "action": "pick_up"
+     "action": "pick_up",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-09",
@@ -54154,7 +54244,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "22:46",
-     "action": "set_down"
+     "action": "set_down",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-26",
@@ -58659,9 +58752,9 @@
      "name": "Mattar Tower, Al Nahda 1",
      "time": "11:49",
      "action": "pick_up",
-     "lat": 25.288631,
-     "lng": 55.364044,
-     "where_exactly": "Outside Noor Ladies Salon, by the clothes donation box."
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-09",
@@ -58772,7 +58865,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "16:18",
-     "action": "pick_up"
+     "action": "pick_up",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-09",
@@ -58979,9 +59075,9 @@
      "name": "Mattar Tower, Al Nahda 1",
      "time": "19:22",
      "action": "set_down",
-     "lat": 25.288631,
-     "lng": 55.364044,
-     "where_exactly": "Outside Noor Ladies Salon, by the clothes donation box."
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-23",
@@ -59085,7 +59181,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "22:46",
-     "action": "set_down"
+     "action": "set_down",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-26",
@@ -63092,9 +63191,9 @@
      "name": "Mattar Tower, Al Nahda 1",
      "time": "06:13",
      "action": "pick_up",
-     "lat": 25.288631,
-     "lng": 55.364044,
-     "where_exactly": "Outside Noor Ladies Salon, by the clothes donation box."
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-09",
@@ -63266,7 +63365,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "10:15",
-     "action": "pick_up"
+     "action": "pick_up",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-26",
@@ -63462,7 +63564,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "16:18",
-     "action": "pick_up"
+     "action": "pick_up",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-09",
@@ -63604,9 +63709,9 @@
      "name": "Mattar Tower, Al Nahda 1",
      "time": "17:54",
      "action": "set_down",
-     "lat": 25.288631,
-     "lng": 55.364044,
-     "where_exactly": "Outside Noor Ladies Salon, by the clothes donation box."
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-17",
@@ -63687,9 +63792,9 @@
      "name": "Mattar Tower, Al Nahda 1",
      "time": "19:18",
      "action": "set_down",
-     "lat": 25.288631,
-     "lng": 55.364044,
-     "where_exactly": "Outside Noor Ladies Salon, by the clothes donation box."
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-17",
@@ -63811,7 +63916,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "22:46",
-     "action": "set_down"
+     "action": "set_down",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-26",
@@ -67973,9 +68081,9 @@
      "name": "Mattar Tower, Al Nahda 1",
      "time": "09:44",
      "action": "pick_up",
-     "lat": 25.288631,
-     "lng": 55.364044,
-     "where_exactly": "Outside Noor Ladies Salon, by the clothes donation box."
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-09",
@@ -68141,9 +68249,9 @@
      "name": "Mattar Tower, Al Nahda 1",
      "time": "15:08",
      "action": "set_down",
-     "lat": 25.288631,
-     "lng": 55.364044,
-     "where_exactly": "Outside Noor Ladies Salon, by the clothes donation box."
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-17",
@@ -68198,7 +68306,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "16:18",
-     "action": "pick_up"
+     "action": "pick_up",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-09",
@@ -68395,9 +68506,9 @@
      "name": "Mattar Tower, Al Nahda 1",
      "time": "19:31",
      "action": "set_down",
-     "lat": 25.288631,
-     "lng": 55.364044,
-     "where_exactly": "Outside Noor Ladies Salon, by the clothes donation box."
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-22",
@@ -68510,7 +68621,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "22:46",
-     "action": "set_down"
+     "action": "set_down",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-26",
@@ -72566,9 +72680,9 @@
      "name": "Mattar Tower, Al Nahda 1",
      "time": "06:13",
      "action": "pick_up",
-     "lat": 25.288631,
-     "lng": 55.364044,
-     "where_exactly": "Outside Noor Ladies Salon, by the clothes donation box."
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-23",
@@ -72697,7 +72811,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "09:12",
-     "action": "pick_up"
+     "action": "pick_up",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-26",
@@ -72762,9 +72879,9 @@
      "name": "Mattar Tower, Al Nahda 1",
      "time": "09:51",
      "action": "pick_up",
-     "lat": 25.288631,
-     "lng": 55.364044,
-     "where_exactly": "Outside Noor Ladies Salon, by the clothes donation box."
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-13",
@@ -72892,9 +73009,9 @@
      "name": "Mattar Tower, Al Nahda 1",
      "time": "15:07",
      "action": "set_down",
-     "lat": 25.288631,
-     "lng": 55.364044,
-     "where_exactly": "Outside Noor Ladies Salon, by the clothes donation box."
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-24",
@@ -72940,7 +73057,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "16:18",
-     "action": "pick_up"
+     "action": "pick_up",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-09",
@@ -73156,9 +73276,9 @@
      "name": "Mattar Tower, Al Nahda 1",
      "time": "19:32",
      "action": "set_down",
-     "lat": 25.288631,
-     "lng": 55.364044,
-     "where_exactly": "Outside Noor Ladies Salon, by the clothes donation box."
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-17",
@@ -73280,7 +73400,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "22:46",
-     "action": "set_down"
+     "action": "set_down",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-26",
@@ -76966,9 +77089,9 @@
      "name": "Mattar Tower, Al Nahda 1",
      "time": "06:17",
      "action": "pick_up",
-     "lat": 25.288631,
-     "lng": 55.364044,
-     "where_exactly": "Outside Noor Ladies Salon, by the clothes donation box."
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-09",
@@ -77084,7 +77207,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "09:15",
-     "action": "pick_up"
+     "action": "pick_up",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-26",
@@ -77183,7 +77309,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "10:15",
-     "action": "pick_up"
+     "action": "pick_up",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-26",
@@ -77282,7 +77411,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "12:15",
-     "action": "pick_up"
+     "action": "pick_up",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-26",
@@ -77364,9 +77496,9 @@
      "name": "Mattar Tower, Al Nahda 1",
      "time": "13:11",
      "action": "set_down",
-     "lat": 25.288631,
-     "lng": 55.364044,
-     "where_exactly": "Outside Noor Ladies Salon, by the clothes donation box."
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-22",
@@ -77440,7 +77572,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "16:18",
-     "action": "pick_up"
+     "action": "pick_up",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-09",
@@ -77585,7 +77720,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "22:46",
-     "action": "set_down"
+     "action": "set_down",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-26",
@@ -81845,7 +81983,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "09:12",
-     "action": "pick_up"
+     "action": "pick_up",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-26",
@@ -81966,9 +82107,9 @@
      "name": "Mattar Tower, Al Nahda 1",
      "time": "11:49",
      "action": "pick_up",
-     "lat": 25.288631,
-     "lng": 55.364044,
-     "where_exactly": "Outside Noor Ladies Salon, by the clothes donation box."
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-09",
@@ -82070,7 +82211,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "16:18",
-     "action": "pick_up"
+     "action": "pick_up",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-09",
@@ -82268,9 +82412,9 @@
      "name": "Mattar Tower, Al Nahda 1",
      "time": "19:22",
      "action": "set_down",
-     "lat": 25.288631,
-     "lng": 55.364044,
-     "where_exactly": "Outside Noor Ladies Salon, by the clothes donation box."
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-23",
@@ -82374,7 +82518,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "22:46",
-     "action": "set_down"
+     "action": "set_down",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-26",
@@ -86261,9 +86408,9 @@
      "name": "Mattar Tower, Al Nahda 1",
      "time": "06:18",
      "action": "pick_up",
-     "lat": 25.288631,
-     "lng": 55.364044,
-     "where_exactly": "Outside Noor Ladies Salon, by the clothes donation box."
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-09",
@@ -86379,7 +86526,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "10:15",
-     "action": "pick_up"
+     "action": "pick_up",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-26",
@@ -86595,7 +86745,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "16:18",
-     "action": "pick_up"
+     "action": "pick_up",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-09",
@@ -86728,9 +86881,9 @@
      "name": "Mattar Tower, Al Nahda 1",
      "time": "17:51",
      "action": "set_down",
-     "lat": 25.288631,
-     "lng": 55.364044,
-     "where_exactly": "Outside Noor Ladies Salon, by the clothes donation box."
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-17",
@@ -86802,9 +86955,9 @@
      "name": "Mattar Tower, Al Nahda 1",
      "time": "19:12",
      "action": "set_down",
-     "lat": 25.288631,
-     "lng": 55.364044,
-     "where_exactly": "Outside Noor Ladies Salon, by the clothes donation box."
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-17",
@@ -86926,7 +87079,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "22:46",
-     "action": "set_down"
+     "action": "set_down",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-26",
@@ -90932,9 +91088,9 @@
      "name": "Mattar Tower, Al Nahda 1",
      "time": "09:48",
      "action": "pick_up",
-     "lat": 25.288631,
-     "lng": 55.364044,
-     "where_exactly": "Outside Noor Ladies Salon, by the clothes donation box."
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-09",
@@ -91073,9 +91229,9 @@
      "name": "Mattar Tower, Al Nahda 1",
      "time": "15:05",
      "action": "set_down",
-     "lat": 25.288631,
-     "lng": 55.364044,
-     "where_exactly": "Outside Noor Ladies Salon, by the clothes donation box."
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-17",
@@ -91130,7 +91286,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "16:18",
-     "action": "pick_up"
+     "action": "pick_up",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-09",
@@ -91318,9 +91477,9 @@
      "name": "Mattar Tower, Al Nahda 1",
      "time": "19:31",
      "action": "set_down",
-     "lat": 25.288631,
-     "lng": 55.364044,
-     "where_exactly": "Outside Noor Ladies Salon, by the clothes donation box."
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-22",
@@ -91433,7 +91592,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "22:46",
-     "action": "set_down"
+     "action": "set_down",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-26",
@@ -95385,9 +95547,9 @@
      "name": "Mattar Tower, Al Nahda 1",
      "time": "06:22",
      "action": "pick_up",
-     "lat": 25.288631,
-     "lng": 55.364044,
-     "where_exactly": "Outside Noor Ladies Salon, by the clothes donation box."
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-23",
@@ -95508,9 +95670,9 @@
      "name": "Mattar Tower, Al Nahda 1",
      "time": "09:51",
      "action": "pick_up",
-     "lat": 25.288631,
-     "lng": 55.364044,
-     "where_exactly": "Outside Noor Ladies Salon, by the clothes donation box."
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-13",
@@ -95629,9 +95791,9 @@
      "name": "Mattar Tower, Al Nahda 1",
      "time": "15:07",
      "action": "set_down",
-     "lat": 25.288631,
-     "lng": 55.364044,
-     "where_exactly": "Outside Noor Ladies Salon, by the clothes donation box."
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-24",
@@ -95677,7 +95839,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "16:18",
-     "action": "pick_up"
+     "action": "pick_up",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-09",
@@ -95866,9 +96031,9 @@
      "name": "Mattar Tower, Al Nahda 1",
      "time": "19:16",
      "action": "set_down",
-     "lat": 25.288631,
-     "lng": 55.364044,
-     "where_exactly": "Outside Noor Ladies Salon, by the clothes donation box."
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-17",
@@ -95990,7 +96155,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "22:46",
-     "action": "set_down"
+     "action": "set_down",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-26",
@@ -99632,9 +99800,9 @@
      "name": "Mattar Tower, Al Nahda 1",
      "time": "06:20",
      "action": "pick_up",
-     "lat": 25.288631,
-     "lng": 55.364044,
-     "where_exactly": "Outside Noor Ladies Salon, by the clothes donation box."
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-09",
@@ -99732,7 +99900,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "09:15",
-     "action": "pick_up"
+     "action": "pick_up",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-26",
@@ -99831,7 +100002,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "10:15",
-     "action": "pick_up"
+     "action": "pick_up",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-26",
@@ -99930,7 +100104,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "12:15",
-     "action": "pick_up"
+     "action": "pick_up",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-26",
@@ -99994,9 +100171,9 @@
      "name": "Mattar Tower, Al Nahda 1",
      "time": "13:07",
      "action": "set_down",
-     "lat": 25.288631,
-     "lng": 55.364044,
-     "where_exactly": "Outside Noor Ladies Salon, by the clothes donation box."
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-22",
@@ -100061,7 +100238,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "16:18",
-     "action": "pick_up"
+     "action": "pick_up",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-09",
@@ -100206,7 +100386,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "22:46",
-     "action": "set_down"
+     "action": "set_down",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-26",
@@ -104435,9 +104618,9 @@
      "name": "Mattar Tower, Al Nahda 1",
      "time": "11:49",
      "action": "pick_up",
-     "lat": 25.288631,
-     "lng": 55.364044,
-     "where_exactly": "Outside Noor Ladies Salon, by the clothes donation box."
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-09",
@@ -104548,7 +104731,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "16:18",
-     "action": "pick_up"
+     "action": "pick_up",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-09",
@@ -104746,9 +104932,9 @@
      "name": "Mattar Tower, Al Nahda 1",
      "time": "19:26",
      "action": "set_down",
-     "lat": 25.288631,
-     "lng": 55.364044,
-     "where_exactly": "Outside Noor Ladies Salon, by the clothes donation box."
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-23",
@@ -104852,7 +105038,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "22:46",
-     "action": "set_down"
+     "action": "set_down",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-26",
@@ -108697,9 +108886,9 @@
      "name": "Mattar Tower, Al Nahda 1",
      "time": "06:18",
      "action": "pick_up",
-     "lat": 25.288631,
-     "lng": 55.364044,
-     "where_exactly": "Outside Noor Ladies Salon, by the clothes donation box."
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-09",
@@ -108862,7 +109051,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "10:15",
-     "action": "pick_up"
+     "action": "pick_up",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-26",
@@ -109040,7 +109232,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "16:18",
-     "action": "pick_up"
+     "action": "pick_up",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-09",
@@ -109173,9 +109368,9 @@
      "name": "Mattar Tower, Al Nahda 1",
      "time": "17:51",
      "action": "set_down",
-     "lat": 25.288631,
-     "lng": 55.364044,
-     "where_exactly": "Outside Noor Ladies Salon, by the clothes donation box."
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-17",
@@ -109247,9 +109442,9 @@
      "name": "Mattar Tower, Al Nahda 1",
      "time": "19:15",
      "action": "set_down",
-     "lat": 25.288631,
-     "lng": 55.364044,
-     "where_exactly": "Outside Noor Ladies Salon, by the clothes donation box."
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-17",
@@ -109371,7 +109566,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "22:46",
-     "action": "set_down"
+     "action": "set_down",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-26",
@@ -113284,9 +113482,9 @@
      "name": "Mattar Tower, Al Nahda 1",
      "time": "09:51",
      "action": "pick_up",
-     "lat": 25.288631,
-     "lng": 55.364044,
-     "where_exactly": "Outside Noor Ladies Salon, by the clothes donation box."
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-13",
@@ -113397,9 +113595,9 @@
      "name": "Mattar Tower, Al Nahda 1",
      "time": "15:21",
      "action": "set_down",
-     "lat": 25.288631,
-     "lng": 55.364044,
-     "where_exactly": "Outside Noor Ladies Salon, by the clothes donation box."
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-17",
@@ -113445,7 +113643,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "16:18",
-     "action": "pick_up"
+     "action": "pick_up",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-09",
@@ -113633,9 +113834,9 @@
      "name": "Mattar Tower, Al Nahda 1",
      "time": "19:31",
      "action": "set_down",
-     "lat": 25.288631,
-     "lng": 55.364044,
-     "where_exactly": "Outside Noor Ladies Salon, by the clothes donation box."
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-22",
@@ -113748,7 +113949,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "22:46",
-     "action": "set_down"
+     "action": "set_down",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-26",
@@ -117563,9 +117767,9 @@
      "name": "Mattar Tower, Al Nahda 1",
      "time": "06:22",
      "action": "pick_up",
-     "lat": 25.288631,
-     "lng": 55.364044,
-     "where_exactly": "Outside Noor Ladies Salon, by the clothes donation box."
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-23",
@@ -117686,9 +117890,9 @@
      "name": "Mattar Tower, Al Nahda 1",
      "time": "09:51",
      "action": "pick_up",
-     "lat": 25.288631,
-     "lng": 55.364044,
-     "where_exactly": "Outside Noor Ladies Salon, by the clothes donation box."
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-13",
@@ -117807,9 +118011,9 @@
      "name": "Mattar Tower, Al Nahda 1",
      "time": "15:07",
      "action": "set_down",
-     "lat": 25.288631,
-     "lng": 55.364044,
-     "where_exactly": "Outside Noor Ladies Salon, by the clothes donation box."
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-24",
@@ -117855,7 +118059,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "16:18",
-     "action": "pick_up"
+     "action": "pick_up",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-09",
@@ -118044,9 +118251,9 @@
      "name": "Mattar Tower, Al Nahda 1",
      "time": "19:19",
      "action": "set_down",
-     "lat": 25.288631,
-     "lng": 55.364044,
-     "where_exactly": "Outside Noor Ladies Salon, by the clothes donation box."
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-17",
@@ -118168,7 +118375,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "22:46",
-     "action": "set_down"
+     "action": "set_down",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-26",
@@ -121661,9 +121871,9 @@
      "name": "Mattar Tower, Al Nahda 1",
      "time": "06:23",
      "action": "pick_up",
-     "lat": 25.288631,
-     "lng": 55.364044,
-     "where_exactly": "Outside Noor Ladies Salon, by the clothes donation box."
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-09",
@@ -121761,7 +121971,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "09:15",
-     "action": "pick_up"
+     "action": "pick_up",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-26",
@@ -121860,7 +122073,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "10:15",
-     "action": "pick_up"
+     "action": "pick_up",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-26",
@@ -121959,7 +122175,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "12:15",
-     "action": "pick_up"
+     "action": "pick_up",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-26",
@@ -122023,9 +122242,9 @@
      "name": "Mattar Tower, Al Nahda 1",
      "time": "13:05",
      "action": "set_down",
-     "lat": 25.288631,
-     "lng": 55.364044,
-     "where_exactly": "Outside Noor Ladies Salon, by the clothes donation box."
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-22",
@@ -122080,7 +122299,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "16:18",
-     "action": "pick_up"
+     "action": "pick_up",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-09",
@@ -122225,7 +122447,10 @@
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "22:46",
-     "action": "set_down"
+     "action": "set_down",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
      "code": "C1-26",
