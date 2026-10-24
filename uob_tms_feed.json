@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-24T08:02:56Z",
+ "generated_at": "2026-10-24T08:39:29Z",
  "week": "2026-10-09 to 2026-11-15",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -61732,7 +61732,7 @@
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 3,
+   "booked": 4,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -61764,6 +61764,15 @@
      "where_exactly": "North Entrance pick and drop area, Bay Avenue Mall."
     },
     {
+     "code": "C5-12",
+     "name": "Wasl Green Park, Ras Al Khor",
+     "time": "10:21",
+     "action": "pick_up",
+     "lat": 25.181059,
+     "lng": 55.375545,
+     "where_exactly": "Kerbside at 25.181059, 55.375545 by Aurahues Beauty Lounge, Wasl Green Park (rider-confirmed point 12 Oct) - pick-up and set-down here, not at the roundabout."
+    },
+    {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
      "time": "10:45",
@@ -61788,7 +61797,7 @@
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 3,
+   "booked": 2,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -61809,15 +61818,6 @@
      "lat": 25.180398,
      "lng": 55.269675,
      "where_exactly": "Bus stop outside Master Cup restaurant."
-    },
-    {
-     "code": "C5-12",
-     "name": "Wasl Green Park, Ras Al Khor",
-     "time": "12:26",
-     "action": "pick_up",
-     "lat": 25.181059,
-     "lng": 55.375545,
-     "where_exactly": "Kerbside at 25.181059, 55.375545 by Aurahues Beauty Lounge, Wasl Green Park (rider-confirmed point 12 Oct) - pick-up and set-down here, not at the roundabout."
     },
     {
      "code": "UOB",
