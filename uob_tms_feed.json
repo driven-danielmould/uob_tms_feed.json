@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-25T15:17:17Z",
+ "generated_at": "2026-10-25T15:20:16Z",
  "week": "2026-10-09 to 2026-11-15",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -58738,7 +58738,7 @@
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 3,
+   "booked": 6,
    "seats": 34,
    "status": "operating",
    "stops": [
@@ -58752,6 +58752,15 @@
      "where_exactly": "Kerbside outside the Bahwan Tower entrance; no lay-by, bus stops in the road."
     },
     {
+     "code": "C1-07",
+     "name": "Masafi 1, Al Nahda 2",
+     "time": "09:40",
+     "action": "pick_up",
+     "lat": 25.289367,
+     "lng": 55.372375,
+     "where_exactly": "RTA bus shelter \"Al Nahda 2, 6A St 1\" (817301), facing Masafi tower."
+    },
+    {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
      "time": "09:50",
@@ -58759,6 +58768,34 @@
      "lat": 25.270214,
      "lng": 55.373696,
      "where_exactly": "21B Street footpath by DAFZA Metro Station Entrance 1."
+    },
+    {
+     "code": "C1-25",
+     "name": "Dubai Grand Hotel Bus Stop 1, Damascus St, Al Qusais",
+     "time": "09:55",
+     "action": "pick_up",
+     "lat": 25.273102,
+     "lng": 55.38168,
+     "where_exactly": "RTA bus stop \"Dubai Grand Hotel 1\" on Damascus Street (Al Twar 5 side), by the Dubai Grand Hotel. Public stop from 16 Oct."
+    },
+    {
+     "code": "C1-23",
+     "name": "Centrepoint, Mirdif City Centre",
+     "time": "10:04",
+     "action": "pick_up",
+     "lat": 25.2180926,
+     "lng": 55.4085703,
+     "where_exactly": "Centrepoint entrance, Mirdif City Centre (Tripoli St side) - kerb to be confirmed on audit.",
+     "offer_only_stop": true
+    },
+    {
+     "code": "C1-12",
+     "name": "Uptown Mirdif",
+     "time": "10:09",
+     "action": "pick_up",
+     "lat": 25.224246,
+     "lng": 55.423615,
+     "where_exactly": "Kerbside outside Exotic Fin Store, Uptown Mirdif, corner of Algeria St."
     },
     {
      "code": "C1-27",
@@ -58874,11 +58911,11 @@
    "arrive_campus": null,
    "leave_campus": "14:15",
    "start": "14:15",
-   "end": "15:22",
+   "end": "15:24",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 2,
+   "booked": 4,
    "seats": 34,
    "status": "operating",
    "stops": [
@@ -58901,9 +58938,27 @@
      "where_exactly": "21B Street footpath by DAFZA Metro Station Entrance 1."
     },
     {
+     "code": "C1-25",
+     "name": "Dubai Grand Hotel Bus Stop 1, Damascus St, Al Qusais",
+     "time": "15:11",
+     "action": "set_down",
+     "lat": 25.273102,
+     "lng": 55.38168,
+     "where_exactly": "RTA bus stop \"Dubai Grand Hotel 1\" on Damascus Street (Al Twar 5 side), by the Dubai Grand Hotel. Public stop from 16 Oct."
+    },
+    {
+     "code": "C1-07",
+     "name": "Masafi 1, Al Nahda 2",
+     "time": "15:19",
+     "action": "set_down",
+     "lat": 25.289367,
+     "lng": 55.372375,
+     "where_exactly": "RTA bus shelter \"Al Nahda 2, 6A St 1\" (817301), facing Masafi tower."
+    },
+    {
      "code": "C1-17",
      "name": "Bahwan Tower, Al Nahda 1",
-     "time": "15:22",
+     "time": "15:24",
      "action": "set_down",
      "lat": 25.287666,
      "lng": 55.361619,
@@ -59025,7 +59080,7 @@
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 9,
+   "booked": 10,
    "seats": 34,
    "status": "operating",
    "stops": [
@@ -59293,7 +59348,7 @@
    "vehicle": "M3",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 9,
+   "booked": 11,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -59305,6 +59360,15 @@
      "lat": 25.07122,
      "lng": 55.137072,
      "where_exactly": "Outside the Yacht Bay sign (Yacht Bay building)."
+    },
+    {
+     "code": "C2-05",
+     "name": "The Meadows Village",
+     "time": "06:04",
+     "action": "pick_up",
+     "lat": 25.0637,
+     "lng": 55.1573,
+     "where_exactly": "Car park by the fountain."
     },
     {
      "code": "C2-11",
@@ -59405,7 +59469,7 @@
    "vehicle": "M3",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 2,
+   "booked": 3,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -59426,6 +59490,15 @@
      "lat": 25.08243,
      "lng": 55.148317,
      "where_exactly": "Sea side of Sobha Realty Metro Station, near the Carrefour Market sign; bus pick-up point."
+    },
+    {
+     "code": "C2-15",
+     "name": "Al Nakheel 2A, The Greens",
+     "time": "10:07",
+     "action": "pick_up",
+     "lat": 25.09445,
+     "lng": 55.1697,
+     "where_exactly": "Kerbside outside Al Nakheel 2A on Street 2, The Greens. Do not enter the building car park."
     },
     {
      "code": "UOB",
@@ -59452,7 +59525,7 @@
    "vehicle": "M3",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 2,
+   "booked": 3,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -59473,6 +59546,15 @@
      "lat": 25.07122,
      "lng": 55.137072,
      "where_exactly": "Outside the Yacht Bay sign (Yacht Bay building)."
+    },
+    {
+     "code": "C2-16",
+     "name": "Umm Suqeim Rd bus stop by ENOC 1099, Al Barsha 1",
+     "time": "12:13",
+     "action": "pick_up",
+     "lat": 25.1184,
+     "lng": 55.2077,
+     "where_exactly": "RTA bus stop on Umm Suqeim Rd (D63) beside ENOC 1099, Al Barsha 1 - northbound kerb for pick-ups, southbound for set-downs; exact pin to confirm."
     },
     {
      "code": "UOB",
@@ -59655,11 +59737,11 @@
    "arrive_campus": null,
    "leave_campus": "16:30",
    "start": "16:30",
-   "end": "18:02",
+   "end": "18:29",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 11,
+   "booked": 15,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -59673,9 +59755,18 @@
      "where_exactly": ""
     },
     {
+     "code": "C2-16",
+     "name": "Umm Suqeim Rd bus stop by ENOC 1099, Al Barsha 1",
+     "time": "17:31",
+     "action": "set_down",
+     "lat": 25.1184,
+     "lng": 55.2077,
+     "where_exactly": "RTA bus stop on Umm Suqeim Rd (D63) beside ENOC 1099, Al Barsha 1 - northbound kerb for pick-ups, southbound for set-downs; exact pin to confirm."
+    },
+    {
      "code": "C2-10",
      "name": "Al Manaf Building, Al Barsha 1",
-     "time": "17:05",
+     "time": "17:36",
      "action": "set_down",
      "lat": 25.1110756,
      "lng": 55.2057285,
@@ -59684,16 +59775,25 @@
     {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "17:18",
+     "time": "17:47",
      "action": "set_down",
      "lat": 25.093492,
      "lng": 55.177807,
      "where_exactly": "Pick and drop area outside the Al Asmawi Building."
     },
     {
+     "code": "C2-05",
+     "name": "The Meadows Village",
+     "time": "17:59",
+     "action": "set_down",
+     "lat": 25.0637,
+     "lng": 55.1573,
+     "where_exactly": "Car park by the fountain."
+    },
+    {
      "code": "C2-03",
      "name": "DMCC Metro Station",
-     "time": "17:30",
+     "time": "18:07",
      "action": "set_down",
      "lat": 25.07122,
      "lng": 55.137072,
@@ -59702,7 +59802,7 @@
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "17:35",
+     "time": "18:11",
      "action": "set_down",
      "lat": 25.075735,
      "lng": 55.140981,
@@ -59711,16 +59811,25 @@
     {
      "code": "C2-04",
      "name": "Sobha Realty Metro Station",
-     "time": "17:41",
+     "time": "18:16",
      "action": "set_down",
      "lat": 25.08243,
      "lng": 55.148317,
      "where_exactly": "Sea side of Sobha Realty Metro Station, near the Carrefour Market sign; bus pick-up point."
     },
     {
+     "code": "C2-15",
+     "name": "Al Nakheel 2A, The Greens",
+     "time": "18:24",
+     "action": "set_down",
+     "lat": 25.09445,
+     "lng": 55.1697,
+     "where_exactly": "Kerbside outside Al Nakheel 2A on Street 2, The Greens. Do not enter the building car park."
+    },
+    {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "18:02",
+     "time": "18:29",
      "action": "set_down",
      "lat": 25.099769538054428,
      "lng": 55.17320213081937,
@@ -59877,7 +59986,7 @@
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 7,
+   "booked": 8,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -59927,6 +60036,15 @@
      "where_exactly": "Nshama Community Centre car park."
     },
     {
+     "code": "C3-11",
+     "name": "Living Legends",
+     "time": "06:51",
+     "action": "pick_up",
+     "lat": 25.0910153,
+     "lng": 55.3026039,
+     "where_exactly": "Main gate."
+    },
+    {
      "code": "C3-14",
      "name": "Skycourts Towers",
      "time": "07:10",
@@ -59969,7 +60087,7 @@
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 3,
+   "booked": 4,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -59990,6 +60108,15 @@
      "lat": 25.040494,
      "lng": 55.195971,
      "where_exactly": "Outside drop-off area by Tim Hortons, City Centre Me'aisem."
+    },
+    {
+     "code": "C3-18",
+     "name": "Tuscan Residence Siena 1, JVC",
+     "time": "08:44",
+     "action": "pick_up",
+     "lat": 25.063605,
+     "lng": 55.207328,
+     "where_exactly": "Kerbside on 22 Street outside Siena 1; do not enter the building car park."
     },
     {
      "code": "C3-09",
@@ -60148,7 +60275,7 @@
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 1,
+   "booked": 2,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -60160,6 +60287,15 @@
      "lat": 25.0099047,
      "lng": 55.2902856,
      "where_exactly": "Nshama Community Centre car park."
+    },
+    {
+     "code": "C3-16",
+     "name": "Souq Extra, Silicon Oasis",
+     "time": "12:33",
+     "action": "pick_up",
+     "lat": 25.1192507,
+     "lng": 55.3955344,
+     "where_exactly": "Damascus St entrance."
     },
     {
      "code": "UOB",
@@ -60426,11 +60562,11 @@
    "arrive_campus": null,
    "leave_campus": "16:30",
    "start": "16:30",
-   "end": "18:18",
+   "end": "18:34",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 8,
+   "booked": 11,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -60444,9 +60580,27 @@
      "where_exactly": ""
     },
     {
+     "code": "C3-16",
+     "name": "Souq Extra, Silicon Oasis",
+     "time": "16:50",
+     "action": "set_down",
+     "lat": 25.1192507,
+     "lng": 55.3955344,
+     "where_exactly": "Damascus St entrance."
+    },
+    {
+     "code": "C3-11",
+     "name": "Living Legends",
+     "time": "17:15",
+     "action": "set_down",
+     "lat": 25.0910153,
+     "lng": 55.3026039,
+     "where_exactly": "Main gate."
+    },
+    {
      "code": "C3-09",
      "name": "Spinneys, Town Square",
-     "time": "17:15",
+     "time": "17:38",
      "action": "set_down",
      "lat": 25.0099047,
      "lng": 55.2902856,
@@ -60455,7 +60609,7 @@
     {
      "code": "C3-21",
      "name": "DAMAC Hills Mall, DAMAC Hills",
-     "time": "17:33",
+     "time": "17:51",
      "action": "set_down",
      "lat": 25.0179838,
      "lng": 55.2468052,
@@ -60464,7 +60618,7 @@
     {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "17:54",
+     "time": "18:07",
      "action": "set_down",
      "lat": 25.040494,
      "lng": 55.195971,
@@ -60473,7 +60627,7 @@
     {
      "code": "C3-17",
      "name": "Eagle Heights, Dubai Sports City",
-     "time": "18:03",
+     "time": "18:16",
      "action": "set_down",
      "lat": 25.036628,
      "lng": 55.221187,
@@ -60482,16 +60636,25 @@
     {
      "code": "C3-02",
      "name": "Circle Mall, JVC",
-     "time": "18:08",
+     "time": "18:26",
      "action": "set_down",
      "lat": 25.0660395,
      "lng": 55.2162257,
      "where_exactly": "Main entrance."
     },
     {
+     "code": "C3-18",
+     "name": "Tuscan Residence Siena 1, JVC",
+     "time": "18:30",
+     "action": "set_down",
+     "lat": 25.063605,
+     "lng": 55.207328,
+     "where_exactly": "Kerbside on 22 Street outside Siena 1; do not enter the building car park."
+    },
+    {
      "code": "C3-01",
      "name": "JSS International School",
-     "time": "18:18",
+     "time": "18:34",
      "action": "set_down",
      "lat": 25.0665,
      "lng": 55.2046,
@@ -60509,11 +60672,11 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "19:38",
+   "end": "20:03",
    "vehicle": "M4",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 3,
+   "booked": 4,
    "seats": 34,
    "status": "operating",
    "stops": [
@@ -60552,6 +60715,15 @@
      "lat": 25.0099047,
      "lng": 55.2902856,
      "where_exactly": "Nshama Community Centre car park."
+    },
+    {
+     "code": "C3-05",
+     "name": "City Centre Me'aisem",
+     "time": "20:03",
+     "action": "set_down",
+     "lat": 25.040494,
+     "lng": 55.195971,
+     "where_exactly": "Outside drop-off area by Tim Hortons, City Centre Me'aisem."
     }
    ]
   },
@@ -60690,7 +60862,7 @@
    "vehicle": "M5",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 3,
+   "booked": 5,
    "seats": 34,
    "status": "operating",
    "stops": [
@@ -60713,13 +60885,31 @@
      "where_exactly": "Outside the front of Al Mariah Mall."
     },
     {
+     "code": "C4-03",
+     "name": "Al Wahda Mall",
+     "time": "04:55",
+     "action": "pick_up",
+     "lat": 24.471019,
+     "lng": 54.370278,
+     "where_exactly": "Kerbside at 24.471019, 54.370278 beside Al Wahda Mall - the parent-confirmed point (12 Oct), NOT the RTA shelter on Hazza Bin Zayed St."
+    },
+    {
      "code": "C4-06",
      "name": "Al Forsan Village main gate",
-     "time": "05:12",
+     "time": "05:36",
      "action": "pick_up",
      "lat": 24.4044,
      "lng": 54.5514,
      "where_exactly": "Main gate, Khalifa City."
+    },
+    {
+     "code": "C4-18",
+     "name": "Super Nanny Nursery, Khalifa City, Abu Dhabi",
+     "time": "05:42",
+     "action": "pick_up",
+     "lat": 24.41338,
+     "lng": 54.5594598,
+     "where_exactly": "An Nisaylat St frontage of Super Nanny Nursery, behind Choueifat school."
     },
     {
      "code": "UOB",
@@ -60746,7 +60936,7 @@
    "vehicle": "M5",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 2,
+   "booked": 3,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -60767,6 +60957,15 @@
      "lat": 24.49105,
      "lng": 54.38039,
      "where_exactly": "Kerbside on Al Dibsi Street outside the rider's building, Tourist Club Area (Al Zahiyah). Rider-only stop."
+    },
+    {
+     "code": "C4-08",
+     "name": "Al Ghadeer community gate",
+     "time": "10:14",
+     "action": "pick_up",
+     "lat": 24.8443745,
+     "lng": 55.0261656,
+     "where_exactly": "Main gate on Al Fayah Rd."
     },
     {
      "code": "UOB",
@@ -60827,11 +61026,11 @@
    "arrive_campus": null,
    "leave_campus": "14:15",
    "start": "14:15",
-   "end": "16:10",
+   "end": "17:19",
    "vehicle": "M5",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 4,
+   "booked": 5,
    "seats": 34,
    "status": "operating",
    "stops": [
@@ -60845,9 +61044,18 @@
      "where_exactly": ""
     },
     {
+     "code": "C4-06",
+     "name": "Al Forsan Village main gate",
+     "time": "16:18",
+     "action": "set_down",
+     "lat": 24.4044,
+     "lng": 54.5514,
+     "where_exactly": "Main gate, Khalifa City."
+    },
+    {
      "code": "C4-21",
      "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
-     "time": "15:57",
+     "time": "17:06",
      "action": "set_down",
      "lat": 24.4757537,
      "lng": 54.3663931,
@@ -60856,7 +61064,7 @@
     {
      "code": "C4-01",
      "name": "Al Mariah Mall, Hamdan St",
-     "time": "16:05",
+     "time": "17:14",
      "action": "set_down",
      "lat": 24.494038,
      "lng": 54.366864,
@@ -60865,7 +61073,7 @@
     {
      "code": "C4-22",
      "name": "Silver Tower, Al Marakib St, Corniche Area, Abu Dhabi",
-     "time": "16:10",
+     "time": "17:19",
      "action": "set_down",
      "lat": 24.49302727241724,
      "lng": 54.359155308731616,
@@ -61043,11 +61251,11 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "20:03",
+   "end": "21:08",
    "vehicle": "M5",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 1,
+   "booked": 3,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -61061,13 +61269,31 @@
      "where_exactly": ""
     },
     {
-     "code": "C4-06",
-     "name": "Al Forsan Village main gate",
-     "time": "20:03",
+     "code": "C4-08",
+     "name": "Al Ghadeer community gate",
+     "time": "19:15",
      "action": "set_down",
-     "lat": 24.4044,
-     "lng": 54.5514,
-     "where_exactly": "Main gate, Khalifa City."
+     "lat": 24.8443745,
+     "lng": 55.0261656,
+     "where_exactly": "Main gate on Al Fayah Rd."
+    },
+    {
+     "code": "C4-18",
+     "name": "Super Nanny Nursery, Khalifa City, Abu Dhabi",
+     "time": "20:20",
+     "action": "set_down",
+     "lat": 24.41338,
+     "lng": 54.5594598,
+     "where_exactly": "An Nisaylat St frontage of Super Nanny Nursery, behind Choueifat school."
+    },
+    {
+     "code": "C4-03",
+     "name": "Al Wahda Mall",
+     "time": "21:08",
+     "action": "set_down",
+     "lat": 24.471019,
+     "lng": 54.370278,
+     "where_exactly": "Kerbside at 24.471019, 54.370278 beside Al Wahda Mall - the parent-confirmed point (12 Oct), NOT the RTA shelter on Hazza Bin Zayed St."
     }
    ]
   },
@@ -61283,7 +61509,7 @@
    "vehicle": "M6",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 1,
+   "booked": 3,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -61295,6 +61521,24 @@
      "lat": 25.043761,
      "lng": 55.134832,
      "where_exactly": "Exit 1 of the metro station, at the bus stop (Discovery Gardens side)."
+    },
+    {
+     "code": "C4-12",
+     "name": "Al Furjan Centre (Pavilion)",
+     "time": "09:04",
+     "action": "pick_up",
+     "lat": 25.026111,
+     "lng": 55.153303,
+     "where_exactly": "Spinneys bus stop."
+    },
+    {
+     "code": "C4-10",
+     "name": "Green Community West gate",
+     "time": "09:13",
+     "action": "pick_up",
+     "lat": 25.001812,
+     "lng": 55.164068,
+     "where_exactly": "Public bus stop on the main road outside the community."
     },
     {
      "code": "UOB",
@@ -61553,11 +61797,11 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "19:31",
+   "end": "19:42",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 2,
+   "booked": 3,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -61587,6 +61831,15 @@
      "lat": 25.0308,
      "lng": 55.14978,
      "where_exactly": "Masakin Al Furjan, Gate 2 (by Arcadia Global School) - exact gate pin to be confirmed from her map link."
+    },
+    {
+     "code": "C4-10",
+     "name": "Green Community West gate",
+     "time": "19:42",
+     "action": "set_down",
+     "lat": 25.001812,
+     "lng": 55.164068,
+     "where_exactly": "Public bus stop on the main road outside the community."
     }
    ]
   },
@@ -61665,7 +61918,7 @@
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 3,
+   "booked": 8,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -61688,6 +61941,33 @@
      "where_exactly": "Bus stop outside Asia Kitchen, BurJuman Mall."
     },
     {
+     "code": "C5-09",
+     "name": "Bay Avenue Mall, Business Bay",
+     "time": "06:35",
+     "action": "pick_up",
+     "lat": 25.191143,
+     "lng": 55.265598,
+     "where_exactly": "North Entrance pick and drop area, Bay Avenue Mall."
+    },
+    {
+     "code": "C5-11",
+     "name": "One Park Avenue, Sobha Hartland",
+     "time": "06:48",
+     "action": "pick_up",
+     "lat": 25.1784466,
+     "lng": 55.3086196,
+     "where_exactly": "Main entrance."
+    },
+    {
+     "code": "C5-12",
+     "name": "Wasl Green Park, Ras Al Khor",
+     "time": "07:06",
+     "action": "pick_up",
+     "lat": 25.181059,
+     "lng": 55.375545,
+     "where_exactly": "Kerbside at 25.181059, 55.375545 by Aurahues Beauty Lounge, Wasl Green Park (rider-confirmed point 12 Oct) - pick-up and set-down here, not at the roundabout."
+    },
+    {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
      "time": "07:45",
@@ -61707,15 +61987,24 @@
    "service": "undergraduate",
    "arrive_campus": "09:45",
    "leave_campus": null,
-   "start": "08:56",
+   "start": "08:40",
    "end": "09:45",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 1,
+   "booked": 2,
    "seats": 15,
    "status": "operating",
    "stops": [
+    {
+     "code": "C5-07",
+     "name": "World Trade Centre Metro Station",
+     "time": "08:40",
+     "action": "pick_up",
+     "lat": 25.225614,
+     "lng": 55.284365,
+     "where_exactly": "Outside World Trade Centre Metro Station Exit 2 (Fairmont side). Pick-up towards campus only."
+    },
     {
      "code": "C5-11",
      "name": "One Park Avenue, Sobha Hartland",
@@ -61745,15 +62034,33 @@
    "service": "undergraduate",
    "arrive_campus": "10:45",
    "leave_campus": null,
-   "start": "09:24",
+   "start": "09:07",
    "end": "10:45",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 4,
+   "booked": 6,
    "seats": 15,
    "status": "operating",
    "stops": [
+    {
+     "code": "C5-02",
+     "name": "Al Rigga Metro Station",
+     "time": "09:07",
+     "action": "pick_up",
+     "lat": 25.262847,
+     "lng": 55.324368,
+     "where_exactly": "Outside Etihad Optical Vision."
+    },
+    {
+     "code": "C5-21",
+     "name": "Al Ghurair Centre bus stop (Ghurair City 2), Al Rigga Rd",
+     "time": "09:12",
+     "action": "pick_up",
+     "lat": 25.266621,
+     "lng": 55.317593,
+     "where_exactly": "RTA bus stop \"Ghurair City 2\" on Al Rigga Road outside Al Ghurair Centre (Starbucks entrance side)."
+    },
     {
      "code": "C5-17",
      "name": "New Gold Souq, Al Raffa, Bur Dubai",
@@ -61858,11 +62165,11 @@
    "arrive_campus": null,
    "leave_campus": "14:15",
    "start": "14:15",
-   "end": "15:31",
+   "end": "15:39",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 3,
+   "booked": 5,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -61885,9 +62192,18 @@
      "where_exactly": "North Entrance pick and drop area, Bay Avenue Mall."
     },
     {
+     "code": "C5-07",
+     "name": "World Trade Centre Metro Station",
+     "time": "15:11",
+     "action": "set_down",
+     "lat": 25.225614,
+     "lng": 55.284365,
+     "where_exactly": "Outside World Trade Centre Metro Station Exit 2 (Fairmont side). Pick-up towards campus only."
+    },
+    {
      "code": "C5-17",
      "name": "New Gold Souq, Al Raffa, Bur Dubai",
-     "time": "15:19",
+     "time": "15:20",
      "action": "set_down",
      "lat": 25.2515903,
      "lng": 55.2824733,
@@ -61901,6 +62217,15 @@
      "lat": 25.254331,
      "lng": 55.303661,
      "where_exactly": "Bus stop outside Asia Kitchen, BurJuman Mall."
+    },
+    {
+     "code": "C5-02",
+     "name": "Al Rigga Metro Station",
+     "time": "15:39",
+     "action": "set_down",
+     "lat": 25.262847,
+     "lng": 55.324368,
+     "where_exactly": "Outside Etihad Optical Vision."
     }
    ]
   },
@@ -62023,11 +62348,11 @@
    "arrive_campus": null,
    "leave_campus": "16:30",
    "start": "16:30",
-   "end": "18:08",
+   "end": "18:22",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 3,
+   "booked": 7,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -62041,6 +62366,15 @@
      "where_exactly": ""
     },
     {
+     "code": "C5-12",
+     "name": "Wasl Green Park, Ras Al Khor",
+     "time": "17:12",
+     "action": "set_down",
+     "lat": 25.181059,
+     "lng": 55.375545,
+     "where_exactly": "Kerbside at 25.181059, 55.375545 by Aurahues Beauty Lounge, Wasl Green Park (rider-confirmed point 12 Oct) - pick-up and set-down here, not at the roundabout."
+    },
+    {
      "code": "C5-11",
      "name": "One Park Avenue, Sobha Hartland",
      "time": "17:30",
@@ -62050,6 +62384,15 @@
      "where_exactly": "Main entrance."
     },
     {
+     "code": "C5-09",
+     "name": "Bay Avenue Mall, Business Bay",
+     "time": "17:43",
+     "action": "set_down",
+     "lat": 25.191143,
+     "lng": 55.265598,
+     "where_exactly": "North Entrance pick and drop area, Bay Avenue Mall."
+    },
+    {
      "code": "C5-04",
      "name": "Oud Metha Metro Station",
      "time": "18:08",
@@ -62057,6 +62400,24 @@
      "lat": 25.243624,
      "lng": 55.315799,
      "where_exactly": "RTA bus stop Oud Metha 1, other side of the road, outside Super Saver supermarket."
+    },
+    {
+     "code": "C5-05",
+     "name": "BurJuman Mall",
+     "time": "18:15",
+     "action": "set_down",
+     "lat": 25.254331,
+     "lng": 55.303661,
+     "where_exactly": "Bus stop outside Asia Kitchen, BurJuman Mall."
+    },
+    {
+     "code": "C5-21",
+     "name": "Al Ghurair Centre bus stop (Ghurair City 2), Al Rigga Rd",
+     "time": "18:22",
+     "action": "set_down",
+     "lat": 25.266621,
+     "lng": 55.317593,
+     "where_exactly": "RTA bus stop \"Ghurair City 2\" on Al Rigga Road outside Al Ghurair Centre (Starbucks entrance side)."
     }
    ]
   },
@@ -62074,7 +62435,7 @@
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 4,
+   "booked": 6,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -62097,6 +62458,15 @@
      "where_exactly": "Kerbside at 25.181059, 55.375545 by Aurahues Beauty Lounge, Wasl Green Park (rider-confirmed point 12 Oct) - pick-up and set-down here, not at the roundabout."
     },
     {
+     "code": "C5-11",
+     "name": "One Park Avenue, Sobha Hartland",
+     "time": "19:01",
+     "action": "set_down",
+     "lat": 25.1784466,
+     "lng": 55.3086196,
+     "where_exactly": "Main entrance."
+    },
+    {
      "code": "C5-15",
      "name": "Ubora Tower, Business Bay",
      "time": "19:21",
@@ -62104,6 +62474,15 @@
      "lat": 25.180398,
      "lng": 55.269675,
      "where_exactly": "Bus stop outside Master Cup restaurant."
+    },
+    {
+     "code": "C5-09",
+     "name": "Bay Avenue Mall, Business Bay",
+     "time": "19:27",
+     "action": "set_down",
+     "lat": 25.191143,
+     "lng": 55.265598,
+     "where_exactly": "North Entrance pick and drop area, Bay Avenue Mall."
     },
     {
      "code": "C5-06",
@@ -62346,15 +62725,24 @@
    "service": "masters",
    "arrive_campus": "17:45",
    "leave_campus": null,
-   "start": "16:50",
+   "start": "16:38",
    "end": "17:45",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 2,
+   "booked": 3,
    "seats": 15,
    "status": "operating",
    "stops": [
+    {
+     "code": "C2-02",
+     "name": "Dubai Marina Mall",
+     "time": "16:38",
+     "action": "pick_up",
+     "lat": 25.075735,
+     "lng": 55.140981,
+     "where_exactly": "Pick and drop point at Dubai Marina Mall."
+    },
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
@@ -62573,11 +62961,11 @@
    "arrive_campus": null,
    "leave_campus": "21:36",
    "start": "21:36",
-   "end": "22:06",
+   "end": "22:18",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 2,
+   "booked": 3,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -62607,6 +62995,15 @@
      "lat": 25.099769538054428,
      "lng": 55.17320213081937,
      "where_exactly": "RTA bus stop \"Dubai Internet City Metro Bus Stop Landside 1\" (landside, Barsha Heights side of the metro) - pick-up and set-down here; coordinator-confirmed pin 12 Oct."
+    },
+    {
+     "code": "C2-02",
+     "name": "Dubai Marina Mall",
+     "time": "22:18",
+     "action": "set_down",
+     "lat": 25.075735,
+     "lng": 55.140981,
+     "where_exactly": "Pick and drop point at Dubai Marina Mall."
     }
    ]
   },
@@ -62657,15 +63054,24 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:06",
+   "start": "04:47",
    "end": "07:45",
    "vehicle": "M1",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 3,
+   "booked": 4,
    "seats": 34,
    "status": "operating",
    "stops": [
+    {
+     "code": "C1-02",
+     "name": "City Centre Al Zahia",
+     "time": "04:47",
+     "action": "pick_up",
+     "lat": 25.318044,
+     "lng": 55.457279,
+     "where_exactly": "Bus stop by the VOX sign, City Centre Al Zahia."
+    },
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
@@ -63088,11 +63494,11 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "19:26",
+   "end": "19:56",
    "vehicle": "M1",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 4,
+   "booked": 5,
    "seats": 34,
    "status": "operating",
    "stops": [
@@ -63106,9 +63512,18 @@
      "where_exactly": ""
     },
     {
+     "code": "C1-02",
+     "name": "City Centre Al Zahia",
+     "time": "19:15",
+     "action": "set_down",
+     "lat": 25.318044,
+     "lng": 55.457279,
+     "where_exactly": "Bus stop by the VOX sign, City Centre Al Zahia."
+    },
+    {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "18:59",
+     "time": "19:34",
      "action": "set_down",
      "lat": 25.337533,
      "lng": 55.39061,
@@ -63117,7 +63532,7 @@
     {
      "code": "C1-18",
      "name": "Shamseen Bakeries Building, Al Majaz",
-     "time": "19:07",
+     "time": "19:41",
      "action": "set_down",
      "lat": 25.33253,
      "lng": 55.37588,
@@ -63126,7 +63541,7 @@
     {
      "code": "C1-20",
      "name": "Al Buhaira Police Station bus stop, Al Majaz 3",
-     "time": "19:14",
+     "time": "19:47",
      "action": "set_down",
      "lat": 25.323284,
      "lng": 55.381418,
@@ -63135,7 +63550,7 @@
     {
      "code": "C1-05",
      "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "19:26",
+     "time": "19:56",
      "action": "set_down",
      "lat": 25.305885121719236,
      "lng": 55.363729380596915,
@@ -63224,7 +63639,7 @@
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 12,
+   "booked": 14,
    "seats": 34,
    "status": "operating",
    "stops": [
@@ -63238,16 +63653,6 @@
      "where_exactly": "Other side of the road, outside Urban Slice; students wait at the bench."
     },
     {
-     "code": "C1-23",
-     "name": "Centrepoint, Mirdif City Centre",
-     "time": "05:46",
-     "action": "pick_up",
-     "lat": 25.2180926,
-     "lng": 55.4085703,
-     "where_exactly": "Centrepoint entrance, Mirdif City Centre (Tripoli St side) - kerb to be confirmed on audit.",
-     "offer_only_stop": true
-    },
-    {
      "code": "C1-24",
      "name": "EK2 Accommodation, Muhaisnah 4",
      "time": "05:52",
@@ -63255,6 +63660,15 @@
      "lat": 25.2795117,
      "lng": 55.402653,
      "where_exactly": "Kerbside on 17th Street outside the EK2 Accommodation (Emirates EK2) building. Do not enter the compound."
+    },
+    {
+     "code": "C1-07",
+     "name": "Masafi 1, Al Nahda 2",
+     "time": "06:02",
+     "action": "pick_up",
+     "lat": 25.289367,
+     "lng": 55.372375,
+     "where_exactly": "RTA bus shelter \"Al Nahda 2, 6A St 1\" (817301), facing Masafi tower."
     },
     {
      "code": "C1-22",
@@ -63275,6 +63689,16 @@
      "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
     },
     {
+     "code": "C1-23",
+     "name": "Centrepoint, Mirdif City Centre",
+     "time": "06:18",
+     "action": "pick_up",
+     "lat": 25.2180926,
+     "lng": 55.4085703,
+     "where_exactly": "Centrepoint entrance, Mirdif City Centre (Tripoli St side) - kerb to be confirmed on audit.",
+     "offer_only_stop": true
+    },
+    {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
      "time": "06:29",
@@ -63291,6 +63715,15 @@
      "lat": 25.273102,
      "lng": 55.38168,
      "where_exactly": "RTA bus stop \"Dubai Grand Hotel 1\" on Damascus Street (Al Twar 5 side), by the Dubai Grand Hotel. Public stop from 16 Oct."
+    },
+    {
+     "code": "C1-12",
+     "name": "Uptown Mirdif",
+     "time": "06:55",
+     "action": "pick_up",
+     "lat": 25.224246,
+     "lng": 55.423615,
+     "where_exactly": "Kerbside outside Exotic Fin Store, Uptown Mirdif, corner of Algeria St."
     },
     {
      "code": "C1-27",
@@ -63484,7 +63917,7 @@
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 6,
+   "booked": 7,
    "seats": 34,
    "status": "operating",
    "stops": [
@@ -63496,6 +63929,15 @@
      "lat": 25.289501,
      "lng": 55.4111465,
      "where_exactly": "Other side of the road, outside Urban Slice; students wait at the bench."
+    },
+    {
+     "code": "C1-07",
+     "name": "Masafi 1, Al Nahda 2",
+     "time": "11:39",
+     "action": "pick_up",
+     "lat": 25.289367,
+     "lng": 55.372375,
+     "where_exactly": "RTA bus shelter \"Al Nahda 2, 6A St 1\" (817301), facing Masafi tower."
     },
     {
      "code": "C1-17",
@@ -63724,7 +64166,7 @@
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 10,
+   "booked": 12,
    "seats": 34,
    "status": "operating",
    "stops": [
@@ -63802,9 +64244,18 @@
      "where_exactly": "Kerbside outside the Bahwan Tower entrance; no lay-by, bus stops in the road."
     },
     {
+     "code": "C1-07",
+     "name": "Masafi 1, Al Nahda 2",
+     "time": "18:04",
+     "action": "set_down",
+     "lat": 25.289367,
+     "lng": 55.372375,
+     "where_exactly": "RTA bus shelter \"Al Nahda 2, 6A St 1\" (817301), facing Masafi tower."
+    },
+    {
      "code": "C1-24",
      "name": "EK2 Accommodation, Muhaisnah 4",
-     "time": "18:13",
+     "time": "18:14",
      "action": "set_down",
      "lat": 25.2795117,
      "lng": 55.402653,
@@ -63835,7 +64286,7 @@
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 8,
+   "booked": 10,
    "seats": 34,
    "status": "operating",
    "stops": [
@@ -63892,6 +64343,15 @@
      "lat": 25.291551,
      "lng": 55.36486,
      "where_exactly": "RTA bus stop \"Al Nahda 1, Al Banai 1\" (stop ID AN1AB1), shelter on the Al Nahda 1 side; bus pulls into the stop."
+    },
+    {
+     "code": "C1-07",
+     "name": "Masafi 1, Al Nahda 2",
+     "time": "19:42",
+     "action": "set_down",
+     "lat": 25.289367,
+     "lng": 55.372375,
+     "where_exactly": "RTA bus shelter \"Al Nahda 2, 6A St 1\" (817301), facing Masafi tower."
     },
     {
      "code": "C1-23",
@@ -64028,7 +64488,7 @@
    "vehicle": "M3",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 8,
+   "booked": 11,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -64051,6 +64511,24 @@
      "where_exactly": "Outside the Yacht Bay sign (Yacht Bay building)."
     },
     {
+     "code": "C2-05",
+     "name": "The Meadows Village",
+     "time": "06:14",
+     "action": "pick_up",
+     "lat": 25.0637,
+     "lng": 55.1573,
+     "where_exactly": "Car park by the fountain."
+    },
+    {
+     "code": "C2-15",
+     "name": "Al Nakheel 2A, The Greens",
+     "time": "06:25",
+     "action": "pick_up",
+     "lat": 25.09445,
+     "lng": 55.1697,
+     "where_exactly": "Kerbside outside Al Nakheel 2A on Street 2, The Greens. Do not enter the building car park."
+    },
+    {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
      "time": "06:31",
@@ -64067,6 +64545,15 @@
      "lat": 25.1110756,
      "lng": 55.2057285,
      "where_exactly": "Kerbside outside the building entrance; do not enter the car park."
+    },
+    {
+     "code": "C2-16",
+     "name": "Umm Suqeim Rd bus stop by ENOC 1099, Al Barsha 1",
+     "time": "06:54",
+     "action": "pick_up",
+     "lat": 25.1184,
+     "lng": 55.2077,
+     "where_exactly": "RTA bus stop on Umm Suqeim Rd (D63) beside ENOC 1099, Al Barsha 1 - northbound kerb for pick-ups, southbound for set-downs; exact pin to confirm."
     },
     {
      "code": "UOB",
@@ -64196,7 +64683,7 @@
    "vehicle": "M3",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 3,
+   "booked": 4,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -64228,6 +64715,15 @@
      "where_exactly": "Kerbside outside Al Nakheel 2A on Street 2, The Greens. Do not enter the building car park."
     },
     {
+     "code": "C2-10",
+     "name": "Al Manaf Building, Al Barsha 1",
+     "time": "12:15",
+     "action": "pick_up",
+     "lat": 25.1110756,
+     "lng": 55.2057285,
+     "where_exactly": "Kerbside outside the building entrance; do not enter the car park."
+    },
+    {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
      "time": "12:45",
@@ -64248,11 +64744,11 @@
    "arrive_campus": null,
    "leave_campus": "14:15",
    "start": "14:15",
-   "end": "15:19",
+   "end": "15:25",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 6,
+   "booked": 7,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -64284,9 +64780,18 @@
      "where_exactly": "Drop-off area outside Russo's New York Pizzeria, The Springs Souk."
     },
     {
+     "code": "C2-05",
+     "name": "The Meadows Village",
+     "time": "15:01",
+     "action": "set_down",
+     "lat": 25.0637,
+     "lng": 55.1573,
+     "where_exactly": "Car park by the fountain."
+    },
+    {
      "code": "C2-03",
      "name": "DMCC Metro Station",
-     "time": "15:03",
+     "time": "15:09",
      "action": "set_down",
      "lat": 25.07122,
      "lng": 55.137072,
@@ -64295,7 +64800,7 @@
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "15:08",
+     "time": "15:13",
      "action": "set_down",
      "lat": 25.075735,
      "lng": 55.140981,
@@ -64304,7 +64809,7 @@
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "15:19",
+     "time": "15:25",
      "action": "set_down",
      "lat": 25.099769538054428,
      "lng": 55.17320213081937,
@@ -64401,11 +64906,11 @@
    "arrive_campus": null,
    "leave_campus": "16:30",
    "start": "16:30",
-   "end": "17:59",
+   "end": "18:28",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 8,
+   "booked": 9,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -64419,9 +64924,18 @@
      "where_exactly": ""
     },
     {
+     "code": "C2-16",
+     "name": "Umm Suqeim Rd bus stop by ENOC 1099, Al Barsha 1",
+     "time": "17:31",
+     "action": "set_down",
+     "lat": 25.1184,
+     "lng": 55.2077,
+     "where_exactly": "RTA bus stop on Umm Suqeim Rd (D63) beside ENOC 1099, Al Barsha 1 - northbound kerb for pick-ups, southbound for set-downs; exact pin to confirm."
+    },
+    {
      "code": "C2-10",
      "name": "Al Manaf Building, Al Barsha 1",
-     "time": "17:01",
+     "time": "17:36",
      "action": "set_down",
      "lat": 25.1110756,
      "lng": 55.2057285,
@@ -64430,7 +64944,7 @@
     {
      "code": "C2-15",
      "name": "Al Nakheel 2A, The Greens",
-     "time": "17:15",
+     "time": "17:48",
      "action": "set_down",
      "lat": 25.09445,
      "lng": 55.1697,
@@ -64439,7 +64953,7 @@
     {
      "code": "C2-09",
      "name": "Springs 10 Gatehouse",
-     "time": "17:29",
+     "time": "18:01",
      "action": "set_down",
      "lat": 25.0556628,
      "lng": 55.1803096,
@@ -64448,7 +64962,7 @@
     {
      "code": "C2-03",
      "name": "DMCC Metro Station",
-     "time": "17:44",
+     "time": "18:14",
      "action": "set_down",
      "lat": 25.07122,
      "lng": 55.137072,
@@ -64457,7 +64971,7 @@
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "17:59",
+     "time": "18:28",
      "action": "set_down",
      "lat": 25.099769538054428,
      "lng": 55.17320213081937,
@@ -64479,7 +64993,7 @@
    "vehicle": "M3",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 2,
+   "booked": 4,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -64493,13 +65007,31 @@
      "where_exactly": ""
     },
     {
+     "code": "C2-10",
+     "name": "Al Manaf Building, Al Barsha 1",
+     "time": "19:17",
+     "action": "set_down",
+     "lat": 25.1110756,
+     "lng": 55.2057285,
+     "where_exactly": "Kerbside outside the building entrance; do not enter the car park."
+    },
+    {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "19:22",
+     "time": "19:28",
      "action": "set_down",
      "lat": 25.093492,
      "lng": 55.177807,
      "where_exactly": "Pick and drop area outside the Al Asmawi Building."
+    },
+    {
+     "code": "C2-15",
+     "name": "Al Nakheel 2A, The Greens",
+     "time": "19:33",
+     "action": "set_down",
+     "lat": 25.09445,
+     "lng": 55.1697,
+     "where_exactly": "Kerbside outside Al Nakheel 2A on Street 2, The Greens. Do not enter the building car park."
     },
     {
      "code": "C2-01",
@@ -64605,7 +65137,7 @@
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 6,
+   "booked": 8,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -64646,6 +65178,15 @@
      "where_exactly": "Nshama Community Centre car park."
     },
     {
+     "code": "C3-11",
+     "name": "Living Legends",
+     "time": "06:56",
+     "action": "pick_up",
+     "lat": 25.0910153,
+     "lng": 55.3026039,
+     "where_exactly": "Main gate."
+    },
+    {
      "code": "C3-14",
      "name": "Skycourts Towers",
      "time": "07:08",
@@ -64662,6 +65203,15 @@
      "lat": 25.0765573,
      "lng": 55.3609188,
      "where_exactly": "Kerbside outside Villa 46, La Rosa 1, Villanova (parent's pin 11 Oct). Rider-only stop."
+    },
+    {
+     "code": "C3-16",
+     "name": "Souq Extra, Silicon Oasis",
+     "time": "07:35",
+     "action": "pick_up",
+     "lat": 25.1192507,
+     "lng": 55.3955344,
+     "where_exactly": "Damascus St entrance."
     },
     {
      "code": "UOB",
@@ -64683,15 +65233,24 @@
    "service": "undergraduate",
    "arrive_campus": "09:45",
    "leave_campus": null,
-   "start": "08:32",
+   "start": "08:23",
    "end": "09:45",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 3,
+   "booked": 4,
    "seats": 15,
    "status": "operating",
    "stops": [
+    {
+     "code": "C3-18",
+     "name": "Tuscan Residence Siena 1, JVC",
+     "time": "08:23",
+     "action": "pick_up",
+     "lat": 25.063605,
+     "lng": 55.207328,
+     "where_exactly": "Kerbside on 22 Street outside Siena 1; do not enter the building car park."
+    },
     {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
@@ -64739,15 +65298,24 @@
    "service": "undergraduate",
    "arrive_campus": "10:45",
    "leave_campus": null,
-   "start": "09:41",
+   "start": "09:33",
    "end": "10:45",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 2,
+   "booked": 3,
    "seats": 15,
    "status": "operating",
    "stops": [
+    {
+     "code": "C3-05",
+     "name": "City Centre Me'aisem",
+     "time": "09:33",
+     "action": "pick_up",
+     "lat": 25.040494,
+     "lng": 55.195971,
+     "where_exactly": "Outside drop-off area by Tim Hortons, City Centre Me'aisem."
+    },
     {
      "code": "C3-04",
      "name": "Dubai International Cricket Stadium",
@@ -64825,11 +65393,11 @@
    "arrive_campus": null,
    "leave_campus": "14:15",
    "start": "14:15",
-   "end": "15:26",
+   "end": "16:02",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 4,
+   "booked": 6,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -64843,9 +65411,27 @@
      "where_exactly": ""
     },
     {
+     "code": "C3-16",
+     "name": "Souq Extra, Silicon Oasis",
+     "time": "14:35",
+     "action": "set_down",
+     "lat": 25.1192507,
+     "lng": 55.3955344,
+     "where_exactly": "Damascus St entrance."
+    },
+    {
+     "code": "C3-11",
+     "name": "Living Legends",
+     "time": "15:00",
+     "action": "set_down",
+     "lat": 25.0910153,
+     "lng": 55.3026039,
+     "where_exactly": "Main gate."
+    },
+    {
      "code": "C3-09",
      "name": "Spinneys, Town Square",
-     "time": "14:49",
+     "time": "15:23",
      "action": "set_down",
      "lat": 25.0099047,
      "lng": 55.2902856,
@@ -64854,7 +65440,7 @@
     {
      "code": "C3-21",
      "name": "DAMAC Hills Mall, DAMAC Hills",
-     "time": "15:00",
+     "time": "15:36",
      "action": "set_down",
      "lat": 25.0179838,
      "lng": 55.2468052,
@@ -64863,7 +65449,7 @@
     {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "15:14",
+     "time": "15:52",
      "action": "set_down",
      "lat": 25.040494,
      "lng": 55.195971,
@@ -64872,7 +65458,7 @@
     {
      "code": "C3-01",
      "name": "JSS International School",
-     "time": "15:26",
+     "time": "16:02",
      "action": "set_down",
      "lat": 25.0665,
      "lng": 55.2046,
@@ -65015,7 +65601,7 @@
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 4,
+   "booked": 5,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -65047,9 +65633,18 @@
      "where_exactly": "Community entrance off D54."
     },
     {
+     "code": "C3-18",
+     "name": "Tuscan Residence Siena 1, JVC",
+     "time": "17:53",
+     "action": "set_down",
+     "lat": 25.063605,
+     "lng": 55.207328,
+     "where_exactly": "Kerbside on 22 Street outside Siena 1; do not enter the building car park."
+    },
+    {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "17:58",
+     "time": "18:02",
      "action": "set_down",
      "lat": 25.040494,
      "lng": 55.195971,
@@ -65076,11 +65671,11 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "19:58",
+   "end": "20:07",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 4,
+   "booked": 5,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -65128,6 +65723,15 @@
      "lat": 25.036628,
      "lng": 55.221187,
      "where_exactly": "Outside the front of the Eagle Heights building."
+    },
+    {
+     "code": "C3-05",
+     "name": "City Centre Me'aisem",
+     "time": "20:07",
+     "action": "set_down",
+     "lat": 25.040494,
+     "lng": 55.195971,
+     "where_exactly": "Outside drop-off area by Tim Hortons, City Centre Me'aisem."
     }
    ]
   },
@@ -65266,7 +65870,7 @@
    "vehicle": "M5",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 5,
+   "booked": 8,
    "seats": 34,
    "status": "operating",
    "stops": [
@@ -65307,13 +65911,40 @@
      "where_exactly": "Kerbside on Airport Road (Sheikh Rashid Bin Saeed St) at the Al Falah Street junction, outside Ramee Garden Hotel Apartments opposite NBAD - southbound side for pick-ups (towards Al Wahda), northbound side for set-downs."
     },
     {
+     "code": "C4-03",
+     "name": "Al Wahda Mall",
+     "time": "04:59",
+     "action": "pick_up",
+     "lat": 24.471019,
+     "lng": 54.370278,
+     "where_exactly": "Kerbside at 24.471019, 54.370278 beside Al Wahda Mall - the parent-confirmed point (12 Oct), NOT the RTA shelter on Hazza Bin Zayed St."
+    },
+    {
      "code": "C4-06",
      "name": "Al Forsan Village main gate",
-     "time": "05:22",
+     "time": "05:43",
      "action": "pick_up",
      "lat": 24.4044,
      "lng": 54.5514,
      "where_exactly": "Main gate, Khalifa City."
+    },
+    {
+     "code": "C4-18",
+     "name": "Super Nanny Nursery, Khalifa City, Abu Dhabi",
+     "time": "05:49",
+     "action": "pick_up",
+     "lat": 24.41338,
+     "lng": 54.5594598,
+     "where_exactly": "An Nisaylat St frontage of Super Nanny Nursery, behind Choueifat school."
+    },
+    {
+     "code": "C4-08",
+     "name": "Al Ghadeer community gate",
+     "time": "06:49",
+     "action": "pick_up",
+     "lat": 24.8443745,
+     "lng": 55.0261656,
+     "where_exactly": "Main gate on Al Fayah Rd."
     },
     {
      "code": "UOB",
@@ -65340,7 +65971,7 @@
    "vehicle": "M5",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 2,
+   "booked": 3,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -65361,6 +65992,15 @@
      "lat": 24.4223437,
      "lng": 54.4544927,
      "where_exactly": "Outside the Ministry of Human Resources & Emiratisation (Abu Dhabi Labour Office) entrance of Mubadala Tower, Sultan Bin Zayed the First St - pin from rider 6 Oct; kerb to confirm on audit."
+    },
+    {
+     "code": "C4-07",
+     "name": "Al Zeina, Al Raha Beach",
+     "time": "09:53",
+     "action": "pick_up",
+     "lat": 24.4555591,
+     "lng": 54.6131136,
+     "where_exactly": "Al Zeina main entrance."
     },
     {
      "code": "UOB",
@@ -65430,11 +66070,11 @@
    "arrive_campus": null,
    "leave_campus": "14:15",
    "start": "14:15",
-   "end": "15:47",
+   "end": "17:13",
    "vehicle": "M5",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 1,
+   "booked": 4,
    "seats": 34,
    "status": "operating",
    "stops": [
@@ -65448,13 +66088,40 @@
      "where_exactly": ""
     },
     {
+     "code": "C4-18",
+     "name": "Super Nanny Nursery, Khalifa City, Abu Dhabi",
+     "time": "16:16",
+     "action": "set_down",
+     "lat": 24.41338,
+     "lng": 54.5594598,
+     "where_exactly": "An Nisaylat St frontage of Super Nanny Nursery, behind Choueifat school."
+    },
+    {
+     "code": "C4-06",
+     "name": "Al Forsan Village main gate",
+     "time": "16:22",
+     "action": "set_down",
+     "lat": 24.4044,
+     "lng": 54.5514,
+     "where_exactly": "Main gate, Khalifa City."
+    },
+    {
      "code": "C4-04",
      "name": "Mubadala Tower, Sultan Bin Zayed St",
-     "time": "15:47",
+     "time": "16:47",
      "action": "set_down",
      "lat": 24.4223437,
      "lng": 54.4544927,
      "where_exactly": "Outside the Ministry of Human Resources & Emiratisation (Abu Dhabi Labour Office) entrance of Mubadala Tower, Sultan Bin Zayed the First St - pin from rider 6 Oct; kerb to confirm on audit."
+    },
+    {
+     "code": "C4-03",
+     "name": "Al Wahda Mall",
+     "time": "17:13",
+     "action": "set_down",
+     "lat": 24.471019,
+     "lng": 54.370278,
+     "where_exactly": "Kerbside at 24.471019, 54.370278 beside Al Wahda Mall - the parent-confirmed point (12 Oct), NOT the RTA shelter on Hazza Bin Zayed St."
     }
    ]
   },
@@ -65628,11 +66295,11 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "21:07",
+   "end": "21:09",
    "vehicle": "M5",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 7,
+   "booked": 8,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -65646,18 +66313,27 @@
      "where_exactly": ""
     },
     {
-     "code": "C4-06",
-     "name": "Al Forsan Village main gate",
-     "time": "20:02",
+     "code": "C4-08",
+     "name": "Al Ghadeer community gate",
+     "time": "19:24",
      "action": "set_down",
-     "lat": 24.4044,
-     "lng": 54.5514,
-     "where_exactly": "Main gate, Khalifa City."
+     "lat": 24.8443745,
+     "lng": 55.0261656,
+     "where_exactly": "Main gate on Al Fayah Rd."
+    },
+    {
+     "code": "C4-07",
+     "name": "Al Zeina, Al Raha Beach",
+     "time": "20:22",
+     "action": "set_down",
+     "lat": 24.4555591,
+     "lng": 54.6131136,
+     "where_exactly": "Al Zeina main entrance."
     },
     {
      "code": "C4-21",
      "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
-     "time": "20:39",
+     "time": "20:48",
      "action": "set_down",
      "lat": 24.4757537,
      "lng": 54.3663931,
@@ -65666,7 +66342,7 @@
     {
      "code": "C4-23",
      "name": "Al Swedi Building 6, Al Sindan St, Al Zahiyah, Abu Dhabi",
-     "time": "20:53",
+     "time": "20:58",
      "action": "set_down",
      "lat": 24.5022611,
      "lng": 54.377864,
@@ -65675,7 +66351,7 @@
     {
      "code": "C4-01",
      "name": "Al Mariah Mall, Hamdan St",
-     "time": "21:00",
+     "time": "21:04",
      "action": "set_down",
      "lat": 24.494038,
      "lng": 54.366864,
@@ -65684,7 +66360,7 @@
     {
      "code": "C4-22",
      "name": "Silver Tower, Al Marakib St, Corniche Area, Abu Dhabi",
-     "time": "21:07",
+     "time": "21:09",
      "action": "set_down",
      "lat": 24.49302727241724,
      "lng": 54.359155308731616,
@@ -65780,15 +66456,24 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "06:21",
+   "start": "06:13",
    "end": "07:45",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 2,
+   "booked": 3,
    "seats": 15,
    "status": "operating",
    "stops": [
+    {
+     "code": "C4-11",
+     "name": "Al Furjan West Centre",
+     "time": "06:13",
+     "action": "pick_up",
+     "lat": 25.021958,
+     "lng": 55.129796,
+     "where_exactly": "Car park entrance."
+    },
     {
      "code": "C4-16",
      "name": "Discovery Gardens Metro Station",
@@ -65895,7 +66580,7 @@
    "vehicle": "M6",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 1,
+   "booked": 3,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -65907,6 +66592,24 @@
      "lat": 25.043761,
      "lng": 55.134832,
      "where_exactly": "Exit 1 of the metro station, at the bus stop (Discovery Gardens side)."
+    },
+    {
+     "code": "C4-12",
+     "name": "Al Furjan Centre (Pavilion)",
+     "time": "09:04",
+     "action": "pick_up",
+     "lat": 25.026111,
+     "lng": 55.153303,
+     "where_exactly": "Spinneys bus stop."
+    },
+    {
+     "code": "C4-10",
+     "name": "Green Community West gate",
+     "time": "09:13",
+     "action": "pick_up",
+     "lat": 25.001812,
+     "lng": 55.164068,
+     "where_exactly": "Public bus stop on the main road outside the community."
     },
     {
      "code": "UOB",
@@ -65985,11 +66688,11 @@
    "arrive_campus": null,
    "leave_campus": "14:15",
    "start": "14:15",
-   "end": "15:05",
+   "end": "15:14",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 1,
+   "booked": 2,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -66010,6 +66713,15 @@
      "lat": 25.043761,
      "lng": 55.134832,
      "where_exactly": "Exit 1 of the metro station, at the bus stop (Discovery Gardens side)."
+    },
+    {
+     "code": "C4-11",
+     "name": "Al Furjan West Centre",
+     "time": "15:14",
+     "action": "set_down",
+     "lat": 25.021958,
+     "lng": 55.129796,
+     "where_exactly": "Car park entrance."
     }
    ]
   },
@@ -66144,7 +66856,7 @@
    "vehicle": "M6",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 1,
+   "booked": 3,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -66156,6 +66868,24 @@
      "lat": 25.1321925,
      "lng": 55.4223161,
      "where_exactly": ""
+    },
+    {
+     "code": "C4-10",
+     "name": "Green Community West gate",
+     "time": "19:13",
+     "action": "set_down",
+     "lat": 25.001812,
+     "lng": 55.164068,
+     "where_exactly": "Public bus stop on the main road outside the community."
+    },
+    {
+     "code": "C4-12",
+     "name": "Al Furjan Centre (Pavilion)",
+     "time": "19:22",
+     "action": "set_down",
+     "lat": 25.026111,
+     "lng": 55.153303,
+     "where_exactly": "Spinneys bus stop."
     },
     {
      "code": "C4-16",
@@ -66238,15 +66968,24 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:42",
+   "start": "05:35",
    "end": "07:45",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 3,
+   "booked": 8,
    "seats": 15,
    "status": "operating",
    "stops": [
+    {
+     "code": "C5-21",
+     "name": "Al Ghurair Centre bus stop (Ghurair City 2), Al Rigga Rd",
+     "time": "05:35",
+     "action": "pick_up",
+     "lat": 25.266621,
+     "lng": 55.317593,
+     "where_exactly": "RTA bus stop \"Ghurair City 2\" on Al Rigga Road outside Al Ghurair Centre (Starbucks entrance side)."
+    },
     {
      "code": "C5-05",
      "name": "BurJuman Mall",
@@ -66264,6 +67003,15 @@
      "lat": 25.191143,
      "lng": 55.265598,
      "where_exactly": "North Entrance pick and drop area, Bay Avenue Mall."
+    },
+    {
+     "code": "C5-11",
+     "name": "One Park Avenue, Sobha Hartland",
+     "time": "06:34",
+     "action": "pick_up",
+     "lat": 25.1784466,
+     "lng": 55.3086196,
+     "where_exactly": "Main entrance."
     },
     {
      "code": "C5-14",
@@ -66549,7 +67297,7 @@
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 4,
+   "booked": 7,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -66581,9 +67329,18 @@
      "where_exactly": "North Entrance pick and drop area, Bay Avenue Mall."
     },
     {
+     "code": "C5-07",
+     "name": "World Trade Centre Metro Station",
+     "time": "15:15",
+     "action": "set_down",
+     "lat": 25.225614,
+     "lng": 55.284365,
+     "where_exactly": "Outside World Trade Centre Metro Station Exit 2 (Fairmont side). Pick-up towards campus only."
+    },
+    {
      "code": "C5-17",
      "name": "New Gold Souq, Al Raffa, Bur Dubai",
-     "time": "15:22",
+     "time": "15:24",
      "action": "set_down",
      "lat": 25.2515903,
      "lng": 55.2824733,
@@ -66719,11 +67476,11 @@
    "arrive_campus": null,
    "leave_campus": "16:30",
    "start": "16:30",
-   "end": "18:05",
+   "end": "18:13",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 6,
+   "booked": 8,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -66782,9 +67539,18 @@
      "where_exactly": "Bus stop outside Asia Kitchen, BurJuman Mall."
     },
     {
+     "code": "C5-21",
+     "name": "Al Ghurair Centre bus stop (Ghurair City 2), Al Rigga Rd",
+     "time": "17:58",
+     "action": "set_down",
+     "lat": 25.266621,
+     "lng": 55.317593,
+     "where_exactly": "RTA bus stop \"Ghurair City 2\" on Al Rigga Road outside Al Ghurair Centre (Starbucks entrance side)."
+    },
+    {
      "code": "C5-23",
      "name": "Al Mesbar Building, Al Jaddaf (rider stop)",
-     "time": "18:05",
+     "time": "18:13",
      "action": "set_down",
      "lat": 25.2200683,
      "lng": 55.3263206,
@@ -66802,11 +67568,11 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "19:53",
+   "end": "20:01",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 2,
+   "booked": 4,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -66818,6 +67584,15 @@
      "lat": 25.1321925,
      "lng": 55.4223161,
      "where_exactly": ""
+    },
+    {
+     "code": "C5-09",
+     "name": "Bay Avenue Mall, Business Bay",
+     "time": "19:11",
+     "action": "set_down",
+     "lat": 25.191143,
+     "lng": 55.265598,
+     "where_exactly": "North Entrance pick and drop area, Bay Avenue Mall."
     },
     {
      "code": "C5-06",
@@ -66836,6 +67611,15 @@
      "lat": 25.243624,
      "lng": 55.315799,
      "where_exactly": "RTA bus stop Oud Metha 1, other side of the road, outside Super Saver supermarket."
+    },
+    {
+     "code": "C5-02",
+     "name": "Al Rigga Metro Station",
+     "time": "20:01",
+     "action": "set_down",
+     "lat": 25.262847,
+     "lng": 55.324368,
+     "where_exactly": "Outside Etihad Optical Vision."
     }
    ]
   },
@@ -67065,7 +67849,7 @@
    "vehicle": "M8",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 4,
+   "booked": 5,
    "seats": 34,
    "status": "operating",
    "stops": [
@@ -67125,15 +67909,24 @@
    "service": "masters",
    "arrive_campus": "17:45",
    "leave_campus": null,
-   "start": "16:32",
+   "start": "16:25",
    "end": "17:45",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 2,
+   "booked": 3,
    "seats": 15,
    "status": "operating",
    "stops": [
+    {
+     "code": "C5-18",
+     "name": "The First Collection Business Bay (hotel), Al A'amal St",
+     "time": "16:25",
+     "action": "pick_up",
+     "lat": 25.1783788,
+     "lng": 55.2679776,
+     "where_exactly": "Kerbside outside the hotel entrance on Al A'amal Street, 280 m from Ubora Tower."
+    },
     {
      "code": "C5-20",
      "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
@@ -67211,11 +68004,11 @@
    "arrive_campus": null,
    "leave_campus": "21:36",
    "start": "21:36",
-   "end": "22:12",
+   "end": "22:19",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 2,
+   "booked": 3,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -67245,6 +68038,15 @@
      "lat": 25.186457,
      "lng": 55.282055,
      "where_exactly": "Kerbside on Abraj Street outside the DAMAC Maison Majestine entrance, opposite Bay Square 13."
+    },
+    {
+     "code": "C5-18",
+     "name": "The First Collection Business Bay (hotel), Al A'amal St",
+     "time": "22:19",
+     "action": "set_down",
+     "lat": 25.1783788,
+     "lng": 55.2679776,
+     "where_exactly": "Kerbside outside the hotel entrance on Al A'amal Street, 280 m from Ubora Tower."
     }
    ]
   },
@@ -67327,7 +68129,7 @@
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 4,
+   "booked": 5,
    "seats": 15,
    "status": "operating",
    "stops": [
