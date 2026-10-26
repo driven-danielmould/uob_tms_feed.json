@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-26T17:47:17Z",
+ "generated_at": "2026-10-26T17:51:08Z",
  "week": "2026-10-09 to 2026-11-15",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -67123,7 +67123,7 @@
     {
      "code": "C5-14",
      "name": "Meydan Heights, Nad Al Sheba 1",
-     "time": "06:56",
+     "time": "06:45",
      "action": "pick_up",
      "lat": 25.14468,
      "lng": 55.3152,
@@ -67340,7 +67340,7 @@
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 6,
+   "booked": 5,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -67352,15 +67352,6 @@
      "lat": 25.1321925,
      "lng": 55.4223161,
      "where_exactly": ""
-    },
-    {
-     "code": "C5-14",
-     "name": "Meydan Heights, Nad Al Sheba 1",
-     "time": "14:42",
-     "action": "set_down",
-     "lat": 25.14468,
-     "lng": 55.3152,
-     "where_exactly": "Meydan Heights villas gate, Nad Al Sheba 1."
     },
     {
      "code": "C5-09",
@@ -67606,7 +67597,7 @@
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 5,
+   "booked": 6,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -67618,6 +67609,15 @@
      "lat": 25.1321925,
      "lng": 55.4223161,
      "where_exactly": ""
+    },
+    {
+     "code": "C5-14",
+     "name": "Meydan Heights, Nad Al Sheba 1",
+     "time": "18:52",
+     "action": "set_down",
+     "lat": 25.14468,
+     "lng": 55.3152,
+     "where_exactly": "Meydan Heights villas gate, Nad Al Sheba 1."
     },
     {
      "code": "C5-09",
@@ -72098,7 +72098,7 @@
     {
      "code": "C5-14",
      "name": "Meydan Heights, Nad Al Sheba 1",
-     "time": "07:07",
+     "time": "07:01",
      "action": "pick_up",
      "lat": 25.14468,
      "lng": 55.3152,
@@ -72525,7 +72525,7 @@
     {
      "code": "C5-14",
      "name": "Meydan Heights, Nad Al Sheba 1",
-     "time": "19:02",
+     "time": "18:57",
      "action": "set_down",
      "lat": 25.14468,
      "lng": 55.3152,
@@ -76902,7 +76902,7 @@
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 7,
+   "booked": 8,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -76950,6 +76950,15 @@
      "lat": 25.1784466,
      "lng": 55.3086196,
      "where_exactly": "Main entrance."
+    },
+    {
+     "code": "C5-14",
+     "name": "Meydan Heights, Nad Al Sheba 1",
+     "time": "07:18",
+     "action": "pick_up",
+     "lat": 25.14468,
+     "lng": 55.3152,
+     "where_exactly": "Meydan Heights villas gate, Nad Al Sheba 1."
     },
     {
      "code": "UOB",
@@ -77070,7 +77079,7 @@
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 3,
+   "booked": 2,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -77091,15 +77100,6 @@
      "lat": 25.243,
      "lng": 55.2788,
      "where_exactly": "S2/PR399 Al Wasl Bldg Block A, 4B St."
-    },
-    {
-     "code": "C5-14",
-     "name": "Meydan Heights, Nad Al Sheba 1",
-     "time": "12:10",
-     "action": "pick_up",
-     "lat": 25.14468,
-     "lng": 55.3152,
-     "where_exactly": "Meydan Heights villas gate, Nad Al Sheba 1."
     },
     {
      "code": "UOB",
@@ -77273,7 +77273,7 @@
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 3,
+   "booked": 2,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -77296,15 +77296,6 @@
      "where_exactly": "Kerbside at 25.181059, 55.375545 by Aurahues Beauty Lounge, Wasl Green Park (rider-confirmed point 12 Oct) - pick-up and set-down here, not at the roundabout."
     },
     {
-     "code": "C5-14",
-     "name": "Meydan Heights, Nad Al Sheba 1",
-     "time": "17:36",
-     "action": "set_down",
-     "lat": 25.14468,
-     "lng": 55.3152,
-     "where_exactly": "Meydan Heights villas gate, Nad Al Sheba 1."
-    },
-    {
      "code": "C5-09",
      "name": "Bay Avenue Mall, Business Bay",
      "time": "17:55",
@@ -77325,11 +77316,11 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "19:50",
+   "end": "20:01",
    "vehicle": "M7",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 9,
+   "booked": 10,
    "seats": 34,
    "status": "operating",
    "stops": [
@@ -77343,9 +77334,18 @@
      "where_exactly": ""
     },
     {
+     "code": "C5-14",
+     "name": "Meydan Heights, Nad Al Sheba 1",
+     "time": "18:52",
+     "action": "set_down",
+     "lat": 25.14468,
+     "lng": 55.3152,
+     "where_exactly": "Meydan Heights villas gate, Nad Al Sheba 1."
+    },
+    {
      "code": "C5-11",
      "name": "One Park Avenue, Sobha Hartland",
-     "time": "18:41",
+     "time": "19:03",
      "action": "set_down",
      "lat": 25.1784466,
      "lng": 55.3086196,
@@ -77354,7 +77354,7 @@
     {
      "code": "C5-09",
      "name": "Bay Avenue Mall, Business Bay",
-     "time": "18:58",
+     "time": "19:16",
      "action": "set_down",
      "lat": 25.191143,
      "lng": 55.265598,
@@ -77363,7 +77363,7 @@
     {
      "code": "C5-07",
      "name": "World Trade Centre Metro Station",
-     "time": "19:11",
+     "time": "19:29",
      "action": "set_down",
      "lat": 25.225614,
      "lng": 55.284365,
@@ -77372,7 +77372,7 @@
     {
      "code": "C5-06",
      "name": "Al Wasl Building, Al Hudaiba",
-     "time": "19:19",
+     "time": "19:36",
      "action": "set_down",
      "lat": 25.243,
      "lng": 55.2788,
@@ -77381,7 +77381,7 @@
     {
      "code": "C5-05",
      "name": "BurJuman Mall",
-     "time": "19:30",
+     "time": "19:45",
      "action": "set_down",
      "lat": 25.254331,
      "lng": 55.303661,
@@ -77390,7 +77390,7 @@
     {
      "code": "C5-04",
      "name": "Oud Metha Metro Station",
-     "time": "19:38",
+     "time": "19:52",
      "action": "set_down",
      "lat": 25.243624,
      "lng": 55.315799,
@@ -77399,7 +77399,7 @@
     {
      "code": "C5-23",
      "name": "Al Mesbar Building, Al Jaddaf (rider stop)",
-     "time": "19:50",
+     "time": "20:01",
      "action": "set_down",
      "lat": 25.2200683,
      "lng": 55.3263206,
@@ -81044,7 +81044,7 @@
     {
      "code": "C5-14",
      "name": "Meydan Heights, Nad Al Sheba 1",
-     "time": "06:50",
+     "time": "06:15",
      "action": "pick_up",
      "lat": 25.14468,
      "lng": 55.3152,
@@ -81349,7 +81349,7 @@
    "arrive_campus": null,
    "leave_campus": "12:15",
    "start": "12:15",
-   "end": "13:27",
+   "end": "13:37",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
@@ -81369,7 +81369,7 @@
     {
      "code": "C5-14",
      "name": "Meydan Heights, Nad Al Sheba 1",
-     "time": "12:41",
+     "time": "12:52",
      "action": "set_down",
      "lat": 25.14468,
      "lng": 55.3152,
@@ -81378,7 +81378,7 @@
     {
      "code": "C5-11",
      "name": "One Park Avenue, Sobha Hartland",
-     "time": "12:53",
+     "time": "13:03",
      "action": "set_down",
      "lat": 25.1784466,
      "lng": 55.3086196,
@@ -81387,7 +81387,7 @@
     {
      "code": "C5-07",
      "name": "World Trade Centre Metro Station",
-     "time": "13:09",
+     "time": "13:19",
      "action": "set_down",
      "lat": 25.225614,
      "lng": 55.284365,
@@ -81396,7 +81396,7 @@
     {
      "code": "C5-05",
      "name": "BurJuman Mall",
-     "time": "13:20",
+     "time": "13:30",
      "action": "set_down",
      "lat": 25.254331,
      "lng": 55.303661,
@@ -81405,7 +81405,7 @@
     {
      "code": "C5-04",
      "name": "Oud Metha Metro Station",
-     "time": "13:27",
+     "time": "13:37",
      "action": "set_down",
      "lat": 25.243624,
      "lng": 55.315799,
@@ -86608,7 +86608,7 @@
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 3,
+   "booked": 4,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -86629,6 +86629,15 @@
      "lat": 25.181059,
      "lng": 55.375545,
      "where_exactly": "Kerbside at 25.181059, 55.375545 by Aurahues Beauty Lounge, Wasl Green Park (rider-confirmed point 12 Oct) - pick-up and set-down here, not at the roundabout."
+    },
+    {
+     "code": "C5-14",
+     "name": "Meydan Heights, Nad Al Sheba 1",
+     "time": "19:05",
+     "action": "set_down",
+     "lat": 25.14468,
+     "lng": 55.3152,
+     "where_exactly": "Meydan Heights villas gate, Nad Al Sheba 1."
     },
     {
      "code": "C5-15",
@@ -90809,7 +90818,7 @@
     {
      "code": "C5-14",
      "name": "Meydan Heights, Nad Al Sheba 1",
-     "time": "06:50",
+     "time": "06:15",
      "action": "pick_up",
      "lat": 25.14468,
      "lng": 55.3152,
@@ -91008,7 +91017,7 @@
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 4,
+   "booked": 3,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -91020,15 +91029,6 @@
      "lat": 25.1321925,
      "lng": 55.4223161,
      "where_exactly": ""
-    },
-    {
-     "code": "C5-14",
-     "name": "Meydan Heights, Nad Al Sheba 1",
-     "time": "14:42",
-     "action": "set_down",
-     "lat": 25.14468,
-     "lng": 55.3152,
-     "where_exactly": "Meydan Heights villas gate, Nad Al Sheba 1."
     },
     {
      "code": "C5-06",
@@ -91265,7 +91265,7 @@
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 1,
+   "booked": 2,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -91277,6 +91277,15 @@
      "lat": 25.1321925,
      "lng": 55.4223161,
      "where_exactly": ""
+    },
+    {
+     "code": "C5-14",
+     "name": "Meydan Heights, Nad Al Sheba 1",
+     "time": "19:22",
+     "action": "set_down",
+     "lat": 25.14468,
+     "lng": 55.3152,
+     "where_exactly": "Meydan Heights villas gate, Nad Al Sheba 1."
     },
     {
      "code": "C5-04",
@@ -95583,7 +95592,7 @@
     {
      "code": "C5-14",
      "name": "Meydan Heights, Nad Al Sheba 1",
-     "time": "07:01",
+     "time": "06:53",
      "action": "pick_up",
      "lat": 25.14468,
      "lng": 55.3152,
@@ -96001,7 +96010,7 @@
     {
      "code": "C5-14",
      "name": "Meydan Heights, Nad Al Sheba 1",
-     "time": "19:02",
+     "time": "18:57",
      "action": "set_down",
      "lat": 25.14468,
      "lng": 55.3152,
@@ -100146,7 +100155,7 @@
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 4,
+   "booked": 5,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -100185,6 +100194,15 @@
      "lat": 25.1784466,
      "lng": 55.3086196,
      "where_exactly": "Main entrance."
+    },
+    {
+     "code": "C5-14",
+     "name": "Meydan Heights, Nad Al Sheba 1",
+     "time": "07:18",
+     "action": "pick_up",
+     "lat": 25.14468,
+     "lng": 55.3152,
+     "where_exactly": "Meydan Heights villas gate, Nad Al Sheba 1."
     },
     {
      "code": "UOB",
@@ -100369,7 +100387,7 @@
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 2,
+   "booked": 1,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -100381,15 +100399,6 @@
      "lat": 25.243624,
      "lng": 55.315799,
      "where_exactly": "RTA bus stop Oud Metha 1, other side of the road, outside Super Saver supermarket."
-    },
-    {
-     "code": "C5-14",
-     "name": "Meydan Heights, Nad Al Sheba 1",
-     "time": "12:14",
-     "action": "pick_up",
-     "lat": 25.14468,
-     "lng": 55.3152,
-     "where_exactly": "Meydan Heights villas gate, Nad Al Sheba 1."
     },
     {
      "code": "UOB",
@@ -100559,11 +100568,11 @@
    "arrive_campus": null,
    "leave_campus": "16:30",
    "start": "16:30",
-   "end": "17:36",
+   "end": "17:01",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 2,
+   "booked": 1,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -100584,15 +100593,6 @@
      "lat": 25.181059,
      "lng": 55.375545,
      "where_exactly": "Kerbside at 25.181059, 55.375545 by Aurahues Beauty Lounge, Wasl Green Park (rider-confirmed point 12 Oct) - pick-up and set-down here, not at the roundabout."
-    },
-    {
-     "code": "C5-14",
-     "name": "Meydan Heights, Nad Al Sheba 1",
-     "time": "17:36",
-     "action": "set_down",
-     "lat": 25.14468,
-     "lng": 55.3152,
-     "where_exactly": "Meydan Heights villas gate, Nad Al Sheba 1."
     }
    ]
   },
@@ -100606,11 +100606,11 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "19:44",
+   "end": "19:45",
    "vehicle": "M7",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 5,
+   "booked": 6,
    "seats": 34,
    "status": "operating",
    "stops": [
@@ -100624,9 +100624,18 @@
      "where_exactly": ""
     },
     {
+     "code": "C5-14",
+     "name": "Meydan Heights, Nad Al Sheba 1",
+     "time": "18:52",
+     "action": "set_down",
+     "lat": 25.14468,
+     "lng": 55.3152,
+     "where_exactly": "Meydan Heights villas gate, Nad Al Sheba 1."
+    },
+    {
      "code": "C5-11",
      "name": "One Park Avenue, Sobha Hartland",
-     "time": "18:48",
+     "time": "19:03",
      "action": "set_down",
      "lat": 25.1784466,
      "lng": 55.3086196,
@@ -100635,7 +100644,7 @@
     {
      "code": "C5-09",
      "name": "Bay Avenue Mall, Business Bay",
-     "time": "19:08",
+     "time": "19:16",
      "action": "set_down",
      "lat": 25.191143,
      "lng": 55.265598,
@@ -100644,7 +100653,7 @@
     {
      "code": "C5-04",
      "name": "Oud Metha Metro Station",
-     "time": "19:30",
+     "time": "19:36",
      "action": "set_down",
      "lat": 25.243624,
      "lng": 55.315799,
@@ -100653,7 +100662,7 @@
     {
      "code": "C5-23",
      "name": "Al Mesbar Building, Al Jaddaf (rider stop)",
-     "time": "19:44",
+     "time": "19:45",
      "action": "set_down",
      "lat": 25.2200683,
      "lng": 55.3263206,
@@ -104098,7 +104107,7 @@
     {
      "code": "C5-14",
      "name": "Meydan Heights, Nad Al Sheba 1",
-     "time": "06:50",
+     "time": "06:15",
      "action": "pick_up",
      "lat": 25.14468,
      "lng": 55.3152,
@@ -104394,7 +104403,7 @@
    "arrive_campus": null,
    "leave_campus": "12:15",
    "start": "12:15",
-   "end": "13:27",
+   "end": "13:32",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
@@ -104414,7 +104423,7 @@
     {
      "code": "C5-14",
      "name": "Meydan Heights, Nad Al Sheba 1",
-     "time": "12:41",
+     "time": "12:52",
      "action": "set_down",
      "lat": 25.14468,
      "lng": 55.3152,
@@ -104423,7 +104432,7 @@
     {
      "code": "C5-11",
      "name": "One Park Avenue, Sobha Hartland",
-     "time": "12:53",
+     "time": "13:03",
      "action": "set_down",
      "lat": 25.1784466,
      "lng": 55.3086196,
@@ -104432,7 +104441,7 @@
     {
      "code": "C5-05",
      "name": "BurJuman Mall",
-     "time": "13:17",
+     "time": "13:25",
      "action": "set_down",
      "lat": 25.254331,
      "lng": 55.303661,
@@ -104441,7 +104450,7 @@
     {
      "code": "C5-04",
      "name": "Oud Metha Metro Station",
-     "time": "13:27",
+     "time": "13:32",
      "action": "set_down",
      "lat": 25.243624,
      "lng": 55.315799,
@@ -109298,7 +109307,7 @@
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 2,
+   "booked": 3,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -109319,6 +109328,15 @@
      "lat": 25.243,
      "lng": 55.2788,
      "where_exactly": "S2/PR399 Al Wasl Bldg Block A, 4B St."
+    },
+    {
+     "code": "C5-14",
+     "name": "Meydan Heights, Nad Al Sheba 1",
+     "time": "10:05",
+     "action": "pick_up",
+     "lat": 25.14468,
+     "lng": 55.3152,
+     "where_exactly": "Meydan Heights villas gate, Nad Al Sheba 1."
     },
     {
      "code": "UOB",
@@ -109604,7 +109622,7 @@
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 4,
+   "booked": 5,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -109625,6 +109643,15 @@
      "lat": 25.181059,
      "lng": 55.375545,
      "where_exactly": "Kerbside at 25.181059, 55.375545 by Aurahues Beauty Lounge, Wasl Green Park (rider-confirmed point 12 Oct) - pick-up and set-down here, not at the roundabout."
+    },
+    {
+     "code": "C5-14",
+     "name": "Meydan Heights, Nad Al Sheba 1",
+     "time": "19:02",
+     "action": "set_down",
+     "lat": 25.14468,
+     "lng": 55.3152,
+     "where_exactly": "Meydan Heights villas gate, Nad Al Sheba 1."
     },
     {
      "code": "C5-15",
@@ -113758,7 +113785,7 @@
     {
      "code": "C5-14",
      "name": "Meydan Heights, Nad Al Sheba 1",
-     "time": "06:50",
+     "time": "06:15",
      "action": "pick_up",
      "lat": 25.14468,
      "lng": 55.3152,
@@ -114039,7 +114066,7 @@
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 3,
+   "booked": 2,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -114051,15 +114078,6 @@
      "lat": 25.1321925,
      "lng": 55.4223161,
      "where_exactly": ""
-    },
-    {
-     "code": "C5-14",
-     "name": "Meydan Heights, Nad Al Sheba 1",
-     "time": "14:43",
-     "action": "set_down",
-     "lat": 25.14468,
-     "lng": 55.3152,
-     "where_exactly": "Meydan Heights villas gate, Nad Al Sheba 1."
     },
     {
      "code": "C5-17",
@@ -114287,7 +114305,7 @@
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 2,
+   "booked": 3,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -114299,6 +114317,15 @@
      "lat": 25.1321925,
      "lng": 55.4223161,
      "where_exactly": ""
+    },
+    {
+     "code": "C5-14",
+     "name": "Meydan Heights, Nad Al Sheba 1",
+     "time": "18:58",
+     "action": "set_down",
+     "lat": 25.14468,
+     "lng": 55.3152,
+     "where_exactly": "Meydan Heights villas gate, Nad Al Sheba 1."
     },
     {
      "code": "C5-06",
@@ -118432,7 +118459,7 @@
     {
      "code": "C5-14",
      "name": "Meydan Heights, Nad Al Sheba 1",
-     "time": "07:01",
+     "time": "06:53",
      "action": "pick_up",
      "lat": 25.14468,
      "lng": 55.3152,
@@ -118868,7 +118895,7 @@
     {
      "code": "C5-14",
      "name": "Meydan Heights, Nad Al Sheba 1",
-     "time": "19:02",
+     "time": "18:57",
      "action": "set_down",
      "lat": 25.14468,
      "lng": 55.3152,
@@ -122865,7 +122892,7 @@
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 5,
+   "booked": 6,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -122904,6 +122931,15 @@
      "lat": 25.1784466,
      "lng": 55.3086196,
      "where_exactly": "Main entrance."
+    },
+    {
+     "code": "C5-14",
+     "name": "Meydan Heights, Nad Al Sheba 1",
+     "time": "07:18",
+     "action": "pick_up",
+     "lat": 25.14468,
+     "lng": 55.3152,
+     "where_exactly": "Meydan Heights villas gate, Nad Al Sheba 1."
     },
     {
      "code": "UOB",
@@ -123097,7 +123133,7 @@
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 2,
+   "booked": 1,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -123109,15 +123145,6 @@
      "lat": 25.243,
      "lng": 55.2788,
      "where_exactly": "S2/PR399 Al Wasl Bldg Block A, 4B St."
-    },
-    {
-     "code": "C5-14",
-     "name": "Meydan Heights, Nad Al Sheba 1",
-     "time": "12:10",
-     "action": "pick_up",
-     "lat": 25.14468,
-     "lng": 55.3152,
-     "where_exactly": "Meydan Heights villas gate, Nad Al Sheba 1."
     },
     {
      "code": "UOB",
@@ -123296,11 +123323,11 @@
    "arrive_campus": null,
    "leave_campus": "16:30",
    "start": "16:30",
-   "end": "17:36",
+   "end": "17:01",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 2,
+   "booked": 1,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -123321,15 +123348,6 @@
      "lat": 25.181059,
      "lng": 55.375545,
      "where_exactly": "Kerbside at 25.181059, 55.375545 by Aurahues Beauty Lounge, Wasl Green Park (rider-confirmed point 12 Oct) - pick-up and set-down here, not at the roundabout."
-    },
-    {
-     "code": "C5-14",
-     "name": "Meydan Heights, Nad Al Sheba 1",
-     "time": "17:36",
-     "action": "set_down",
-     "lat": 25.14468,
-     "lng": 55.3152,
-     "where_exactly": "Meydan Heights villas gate, Nad Al Sheba 1."
     }
    ]
   },
@@ -123343,11 +123361,11 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "19:46",
+   "end": "19:52",
    "vehicle": "M7",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 6,
+   "booked": 7,
    "seats": 34,
    "status": "operating",
    "stops": [
@@ -123361,9 +123379,18 @@
      "where_exactly": ""
     },
     {
+     "code": "C5-14",
+     "name": "Meydan Heights, Nad Al Sheba 1",
+     "time": "18:52",
+     "action": "set_down",
+     "lat": 25.14468,
+     "lng": 55.3152,
+     "where_exactly": "Meydan Heights villas gate, Nad Al Sheba 1."
+    },
+    {
      "code": "C5-11",
      "name": "One Park Avenue, Sobha Hartland",
-     "time": "18:42",
+     "time": "19:03",
      "action": "set_down",
      "lat": 25.1784466,
      "lng": 55.3086196,
@@ -123372,7 +123399,7 @@
     {
      "code": "C5-09",
      "name": "Bay Avenue Mall, Business Bay",
-     "time": "18:59",
+     "time": "19:16",
      "action": "set_down",
      "lat": 25.191143,
      "lng": 55.265598,
@@ -123381,7 +123408,7 @@
     {
      "code": "C5-06",
      "name": "Al Wasl Building, Al Hudaiba",
-     "time": "19:21",
+     "time": "19:32",
      "action": "set_down",
      "lat": 25.243,
      "lng": 55.2788,
@@ -123390,7 +123417,7 @@
     {
      "code": "C5-04",
      "name": "Oud Metha Metro Station",
-     "time": "19:35",
+     "time": "19:43",
      "action": "set_down",
      "lat": 25.243624,
      "lng": 55.315799,
@@ -123399,7 +123426,7 @@
     {
      "code": "C5-23",
      "name": "Al Mesbar Building, Al Jaddaf (rider stop)",
-     "time": "19:46",
+     "time": "19:52",
      "action": "set_down",
      "lat": 25.2200683,
      "lng": 55.3263206,
@@ -126678,7 +126705,7 @@
     {
      "code": "C5-14",
      "name": "Meydan Heights, Nad Al Sheba 1",
-     "time": "06:50",
+     "time": "06:15",
      "action": "pick_up",
      "lat": 25.14468,
      "lng": 55.3152,
@@ -126985,7 +127012,7 @@
     {
      "code": "C5-14",
      "name": "Meydan Heights, Nad Al Sheba 1",
-     "time": "12:48",
+     "time": "12:52",
      "action": "set_down",
      "lat": 25.14468,
      "lng": 55.3152,
@@ -126994,7 +127021,7 @@
     {
      "code": "C5-11",
      "name": "One Park Avenue, Sobha Hartland",
-     "time": "13:02",
+     "time": "13:03",
      "action": "set_down",
      "lat": 25.1784466,
      "lng": 55.3086196,
