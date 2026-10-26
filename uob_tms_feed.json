@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-26T10:13:23Z",
+ "generated_at": "2026-10-26T10:14:41Z",
  "week": "2026-10-09 to 2026-11-15",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -67905,13 +67905,13 @@
      "where_exactly": "RTA bus stop \"Dubai Internet City Metro Bus Stop Landside 1\" (landside, Barsha Heights side of the metro) - pick-up and set-down here; coordinator-confirmed pin 12 Oct."
     },
     {
-     "code": "C2-08",
-     "name": "Mall of the Emirates",
-     "time": "16:59",
+     "code": "R3-90",
+     "name": "Al Khoory Hotel Apartments, Al Barsha 1 (rider stop)",
+     "time": "16:54",
      "action": "pick_up",
-     "lat": 25.1201411,
-     "lng": 55.2011196,
-     "where_exactly": "Pick-up point at 25.1201411, 55.2011196 (metro side)."
+     "lat": 25.1126974,
+     "lng": 55.1931632,
+     "where_exactly": "Hotel entrance, Al Barsha 1, near Mashreq / Insurance Market Metro - pick-up and set-down at the door."
     },
     {
      "code": "UOB",
@@ -68187,7 +68187,7 @@
    "arrive_campus": null,
    "leave_campus": "21:36",
    "start": "21:36",
-   "end": "22:23",
+   "end": "22:36",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
@@ -68205,18 +68205,18 @@
      "where_exactly": ""
     },
     {
-     "code": "C2-08",
-     "name": "Mall of the Emirates",
-     "time": "21:58",
+     "code": "R3-90",
+     "name": "Al Khoory Hotel Apartments, Al Barsha 1 (rider stop)",
+     "time": "22:10",
      "action": "set_down",
-     "lat": 25.1201411,
-     "lng": 55.2011196,
-     "where_exactly": "Pick-up point at 25.1201411, 55.2011196 (metro side)."
+     "lat": 25.1126974,
+     "lng": 55.1931632,
+     "where_exactly": "Hotel entrance, Al Barsha 1, near Mashreq / Insurance Market Metro - pick-up and set-down at the door."
     },
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "22:07",
+     "time": "22:19",
      "action": "set_down",
      "lat": 25.099769538054428,
      "lng": 55.17320213081937,
@@ -68225,7 +68225,7 @@
     {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "22:12",
+     "time": "22:24",
      "action": "set_down",
      "lat": 25.093492,
      "lng": 55.177807,
@@ -68234,7 +68234,7 @@
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "22:23",
+     "time": "22:36",
      "action": "set_down",
      "lat": 25.075735,
      "lng": 55.140981,
@@ -72909,13 +72909,13 @@
      "where_exactly": "RTA bus stop \"Dubai Internet City Metro Bus Stop Landside 1\" (landside, Barsha Heights side of the metro) - pick-up and set-down here; coordinator-confirmed pin 12 Oct."
     },
     {
-     "code": "C2-08",
-     "name": "Mall of the Emirates",
-     "time": "16:59",
+     "code": "R3-90",
+     "name": "Al Khoory Hotel Apartments, Al Barsha 1 (rider stop)",
+     "time": "16:54",
      "action": "pick_up",
-     "lat": 25.1201411,
-     "lng": 55.2011196,
-     "where_exactly": "Pick-up point at 25.1201411, 55.2011196 (metro side)."
+     "lat": 25.1126974,
+     "lng": 55.1931632,
+     "where_exactly": "Hotel entrance, Al Barsha 1, near Mashreq / Insurance Market Metro - pick-up and set-down at the door."
     },
     {
      "code": "UOB",
@@ -72985,7 +72985,7 @@
    "arrive_campus": null,
    "leave_campus": "21:36",
    "start": "21:36",
-   "end": "22:37",
+   "end": "22:50",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
@@ -73003,18 +73003,18 @@
      "where_exactly": ""
     },
     {
-     "code": "C2-08",
-     "name": "Mall of the Emirates",
-     "time": "21:58",
+     "code": "R3-90",
+     "name": "Al Khoory Hotel Apartments, Al Barsha 1 (rider stop)",
+     "time": "22:10",
      "action": "set_down",
-     "lat": 25.1201411,
-     "lng": 55.2011196,
-     "where_exactly": "Pick-up point at 25.1201411, 55.2011196 (metro side)."
+     "lat": 25.1126974,
+     "lng": 55.1931632,
+     "where_exactly": "Hotel entrance, Al Barsha 1, near Mashreq / Insurance Market Metro - pick-up and set-down at the door."
     },
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "22:07",
+     "time": "22:19",
      "action": "set_down",
      "lat": 25.099769538054428,
      "lng": 55.17320213081937,
@@ -73023,7 +73023,7 @@
     {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "22:12",
+     "time": "22:24",
      "action": "set_down",
      "lat": 25.093492,
      "lng": 55.177807,
@@ -73032,7 +73032,7 @@
     {
      "code": "C4-09",
      "name": "Holiday Inn, Al Maktoum Airport",
-     "time": "22:37",
+     "time": "22:50",
      "action": "set_down",
      "lat": 24.867791,
      "lng": 55.146192,
@@ -81922,13 +81922,13 @@
      "where_exactly": "Pick and drop point at Dubai Marina Mall."
     },
     {
-     "code": "C2-08",
-     "name": "Mall of the Emirates",
-     "time": "07:09",
+     "code": "R3-90",
+     "name": "Al Khoory Hotel Apartments, Al Barsha 1 (rider stop)",
+     "time": "07:10",
      "action": "pick_up",
-     "lat": 25.1201411,
-     "lng": 55.2011196,
-     "where_exactly": "Pick-up point at 25.1201411, 55.2011196 (metro side)."
+     "lat": 25.1126974,
+     "lng": 55.1931632,
+     "where_exactly": "Hotel entrance, Al Barsha 1, near Mashreq / Insurance Market Metro - pick-up and set-down at the door."
     },
     {
      "code": "C3-19",
@@ -82043,13 +82043,13 @@
      "where_exactly": ""
     },
     {
-     "code": "C2-08",
-     "name": "Mall of the Emirates",
-     "time": "18:54",
+     "code": "R3-90",
+     "name": "Al Khoory Hotel Apartments, Al Barsha 1 (rider stop)",
+     "time": "19:05",
      "action": "set_down",
-     "lat": 25.1201411,
-     "lng": 55.2011196,
-     "where_exactly": "Pick-up point at 25.1201411, 55.2011196 (metro side)."
+     "lat": 25.1126974,
+     "lng": 55.1931632,
+     "where_exactly": "Hotel entrance, Al Barsha 1, near Mashreq / Insurance Market Metro - pick-up and set-down at the door."
     },
     {
      "code": "C2-03",
