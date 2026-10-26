@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-26T02:32:52Z",
+ "generated_at": "2026-10-26T04:32:33Z",
  "week": "2026-10-09 to 2026-11-15",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -65359,7 +65359,7 @@
    "service": "undergraduate",
    "arrive_campus": "10:45",
    "leave_campus": null,
-   "start": "09:33",
+   "start": "09:23",
    "end": "10:45",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
@@ -65369,6 +65369,15 @@
    "status": "operating",
    "stops": [
     {
+     "code": "C3-01",
+     "name": "JSS International School",
+     "time": "09:23",
+     "action": "pick_up",
+     "lat": 25.0665,
+     "lng": 55.2046,
+     "where_exactly": "Gate 4 kerb, opposite Tudo Mart, behind Bloom Tower C (JVC District 10). Do not enter the school car park."
+    },
+    {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
      "time": "09:33",
@@ -65376,15 +65385,6 @@
      "lat": 25.040494,
      "lng": 55.195971,
      "where_exactly": "Outside drop-off area by Tim Hortons, City Centre Me'aisem."
-    },
-    {
-     "code": "C3-04",
-     "name": "Dubai International Cricket Stadium",
-     "time": "09:41",
-     "action": "pick_up",
-     "lat": 25.043579,
-     "lng": 55.218241,
-     "where_exactly": "Dubai Cricket Stadium bus stop 1 (wooden shelter)."
     },
     {
      "code": "C3-09",
@@ -65658,7 +65658,7 @@
    "arrive_campus": null,
    "leave_campus": "16:30",
    "start": "16:30",
-   "end": "18:11",
+   "end": "17:57",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
@@ -65703,13 +65703,13 @@
      "where_exactly": "Kerbside on 22 Street outside Siena 1; do not enter the building car park."
     },
     {
-     "code": "C3-04",
-     "name": "Dubai International Cricket Stadium",
-     "time": "18:11",
+     "code": "C3-01",
+     "name": "JSS International School",
+     "time": "17:57",
      "action": "set_down",
-     "lat": 25.043579,
-     "lng": 55.218241,
-     "where_exactly": "Dubai Cricket Stadium bus stop 1 (wooden shelter)."
+     "lat": 25.0665,
+     "lng": 55.2046,
+     "where_exactly": "Gate 4 kerb, opposite Tudo Mart, behind Bloom Tower C (JVC District 10). Do not enter the school car park."
     }
    ]
   },
@@ -70418,15 +70418,6 @@
      "where_exactly": "Gate 4 kerb, opposite Tudo Mart, behind Bloom Tower C (JVC District 10). Do not enter the school car park."
     },
     {
-     "code": "C3-04",
-     "name": "Dubai International Cricket Stadium",
-     "time": "11:50",
-     "action": "pick_up",
-     "lat": 25.043579,
-     "lng": 55.218241,
-     "where_exactly": "Dubai Cricket Stadium bus stop 1 (wooden shelter)."
-    },
-    {
      "code": "C3-07",
      "name": "First Avenue Mall, Motor City",
      "time": "11:59",
@@ -70685,15 +70676,6 @@
      "lat": 25.0179838,
      "lng": 55.2468052,
      "where_exactly": "Mall drop-off, DAMAC Hills."
-    },
-    {
-     "code": "C3-04",
-     "name": "Dubai International Cricket Stadium",
-     "time": "18:02",
-     "action": "set_down",
-     "lat": 25.043579,
-     "lng": 55.218241,
-     "where_exactly": "Dubai Cricket Stadium bus stop 1 (wooden shelter)."
     },
     {
      "code": "C3-01",
@@ -75131,15 +75113,6 @@
      "where_exactly": "Main entrance."
     },
     {
-     "code": "C3-04",
-     "name": "Dubai International Cricket Stadium",
-     "time": "06:00",
-     "action": "pick_up",
-     "lat": 25.043579,
-     "lng": 55.218241,
-     "where_exactly": "Dubai Cricket Stadium bus stop 1 (wooden shelter)."
-    },
-    {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
      "time": "06:12",
@@ -75655,7 +75628,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "20:05",
+   "end": "20:02",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
@@ -75709,22 +75682,22 @@
      "where_exactly": "Community entrance off D54."
     },
     {
+     "code": "C3-01",
+     "name": "JSS International School",
+     "time": "19:52",
+     "action": "set_down",
+     "lat": 25.0665,
+     "lng": 55.2046,
+     "where_exactly": "Gate 4 kerb, opposite Tudo Mart, behind Bloom Tower C (JVC District 10). Do not enter the school car park."
+    },
+    {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "19:54",
+     "time": "20:02",
      "action": "set_down",
      "lat": 25.040494,
      "lng": 55.195971,
      "where_exactly": "Outside drop-off area by Tim Hortons, City Centre Me'aisem."
-    },
-    {
-     "code": "C3-04",
-     "name": "Dubai International Cricket Stadium",
-     "time": "20:05",
-     "action": "set_down",
-     "lat": 25.043579,
-     "lng": 55.218241,
-     "where_exactly": "Dubai Cricket Stadium bus stop 1 (wooden shelter)."
     }
    ]
   },
@@ -89135,7 +89108,7 @@
    "service": "undergraduate",
    "arrive_campus": "10:45",
    "leave_campus": null,
-   "start": "09:41",
+   "start": "09:35",
    "end": "10:45",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
@@ -89145,13 +89118,13 @@
    "status": "operating",
    "stops": [
     {
-     "code": "C3-04",
-     "name": "Dubai International Cricket Stadium",
-     "time": "09:41",
+     "code": "C3-01",
+     "name": "JSS International School",
+     "time": "09:35",
      "action": "pick_up",
-     "lat": 25.043579,
-     "lng": 55.218241,
-     "where_exactly": "Dubai Cricket Stadium bus stop 1 (wooden shelter)."
+     "lat": 25.0665,
+     "lng": 55.2046,
+     "where_exactly": "Gate 4 kerb, opposite Tudo Mart, behind Bloom Tower C (JVC District 10). Do not enter the school car park."
     },
     {
      "code": "C3-09",
@@ -89407,7 +89380,7 @@
    "arrive_campus": null,
    "leave_campus": "16:30",
    "start": "16:30",
-   "end": "18:11",
+   "end": "18:04",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
@@ -89443,22 +89416,22 @@
      "where_exactly": "Community entrance off D54."
     },
     {
+     "code": "C3-01",
+     "name": "JSS International School",
+     "time": "17:54",
+     "action": "set_down",
+     "lat": 25.0665,
+     "lng": 55.2046,
+     "where_exactly": "Gate 4 kerb, opposite Tudo Mart, behind Bloom Tower C (JVC District 10). Do not enter the school car park."
+    },
+    {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "17:58",
+     "time": "18:04",
      "action": "set_down",
      "lat": 25.040494,
      "lng": 55.195971,
      "where_exactly": "Outside drop-off area by Tim Hortons, City Centre Me'aisem."
-    },
-    {
-     "code": "C3-04",
-     "name": "Dubai International Cricket Stadium",
-     "time": "18:11",
-     "action": "set_down",
-     "lat": 25.043579,
-     "lng": 55.218241,
-     "where_exactly": "Dubai Cricket Stadium bus stop 1 (wooden shelter)."
     }
    ]
   },
@@ -93777,15 +93750,6 @@
      "where_exactly": "Gate 4 kerb, opposite Tudo Mart, behind Bloom Tower C (JVC District 10). Do not enter the school car park."
     },
     {
-     "code": "C3-04",
-     "name": "Dubai International Cricket Stadium",
-     "time": "11:50",
-     "action": "pick_up",
-     "lat": 25.043579,
-     "lng": 55.218241,
-     "where_exactly": "Dubai Cricket Stadium bus stop 1 (wooden shelter)."
-    },
-    {
      "code": "C3-09",
      "name": "Spinneys, Town Square",
      "time": "12:08",
@@ -94026,15 +93990,6 @@
      "lat": 25.0179838,
      "lng": 55.2468052,
      "where_exactly": "Mall drop-off, DAMAC Hills."
-    },
-    {
-     "code": "C3-04",
-     "name": "Dubai International Cricket Stadium",
-     "time": "18:02",
-     "action": "set_down",
-     "lat": 25.043579,
-     "lng": 55.218241,
-     "where_exactly": "Dubai Cricket Stadium bus stop 1 (wooden shelter)."
     },
     {
      "code": "C3-01",
@@ -98369,15 +98324,6 @@
      "where_exactly": "Main entrance."
     },
     {
-     "code": "C3-04",
-     "name": "Dubai International Cricket Stadium",
-     "time": "06:00",
-     "action": "pick_up",
-     "lat": 25.043579,
-     "lng": 55.218241,
-     "where_exactly": "Dubai Cricket Stadium bus stop 1 (wooden shelter)."
-    },
-    {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
      "time": "06:12",
@@ -98884,7 +98830,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "20:05",
+   "end": "20:02",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
@@ -98938,22 +98884,22 @@
      "where_exactly": "Community entrance off D54."
     },
     {
+     "code": "C3-01",
+     "name": "JSS International School",
+     "time": "19:52",
+     "action": "set_down",
+     "lat": 25.0665,
+     "lng": 55.2046,
+     "where_exactly": "Gate 4 kerb, opposite Tudo Mart, behind Bloom Tower C (JVC District 10). Do not enter the school car park."
+    },
+    {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "19:54",
+     "time": "20:02",
      "action": "set_down",
      "lat": 25.040494,
      "lng": 55.195971,
      "where_exactly": "Outside drop-off area by Tim Hortons, City Centre Me'aisem."
-    },
-    {
-     "code": "C3-04",
-     "name": "Dubai International Cricket Stadium",
-     "time": "20:05",
-     "action": "set_down",
-     "lat": 25.043579,
-     "lng": 55.218241,
-     "where_exactly": "Dubai Cricket Stadium bus stop 1 (wooden shelter)."
     }
    ]
   },
@@ -112062,7 +112008,7 @@
    "service": "undergraduate",
    "arrive_campus": "10:45",
    "leave_campus": null,
-   "start": "09:41",
+   "start": "09:35",
    "end": "10:45",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
@@ -112072,13 +112018,13 @@
    "status": "operating",
    "stops": [
     {
-     "code": "C3-04",
-     "name": "Dubai International Cricket Stadium",
-     "time": "09:41",
+     "code": "C3-01",
+     "name": "JSS International School",
+     "time": "09:35",
      "action": "pick_up",
-     "lat": 25.043579,
-     "lng": 55.218241,
-     "where_exactly": "Dubai Cricket Stadium bus stop 1 (wooden shelter)."
+     "lat": 25.0665,
+     "lng": 55.2046,
+     "where_exactly": "Gate 4 kerb, opposite Tudo Mart, behind Bloom Tower C (JVC District 10). Do not enter the school car park."
     },
     {
      "code": "C3-09",
@@ -112334,7 +112280,7 @@
    "arrive_campus": null,
    "leave_campus": "16:30",
    "start": "16:30",
-   "end": "18:11",
+   "end": "18:04",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
@@ -112370,22 +112316,22 @@
      "where_exactly": "Community entrance off D54."
     },
     {
+     "code": "C3-01",
+     "name": "JSS International School",
+     "time": "17:54",
+     "action": "set_down",
+     "lat": 25.0665,
+     "lng": 55.2046,
+     "where_exactly": "Gate 4 kerb, opposite Tudo Mart, behind Bloom Tower C (JVC District 10). Do not enter the school car park."
+    },
+    {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "17:58",
+     "time": "18:04",
      "action": "set_down",
      "lat": 25.040494,
      "lng": 55.195971,
      "where_exactly": "Outside drop-off area by Tim Hortons, City Centre Me'aisem."
-    },
-    {
-     "code": "C3-04",
-     "name": "Dubai International Cricket Stadium",
-     "time": "18:11",
-     "action": "set_down",
-     "lat": 25.043579,
-     "lng": 55.218241,
-     "where_exactly": "Dubai Cricket Stadium bus stop 1 (wooden shelter)."
     }
    ]
   },
@@ -116638,15 +116584,6 @@
      "where_exactly": "Gate 4 kerb, opposite Tudo Mart, behind Bloom Tower C (JVC District 10). Do not enter the school car park."
     },
     {
-     "code": "C3-04",
-     "name": "Dubai International Cricket Stadium",
-     "time": "11:50",
-     "action": "pick_up",
-     "lat": 25.043579,
-     "lng": 55.218241,
-     "where_exactly": "Dubai Cricket Stadium bus stop 1 (wooden shelter)."
-    },
-    {
      "code": "C3-09",
      "name": "Spinneys, Town Square",
      "time": "12:08",
@@ -116896,15 +116833,6 @@
      "lat": 25.0179838,
      "lng": 55.2468052,
      "where_exactly": "Mall drop-off, DAMAC Hills."
-    },
-    {
-     "code": "C3-04",
-     "name": "Dubai International Cricket Stadium",
-     "time": "18:02",
-     "action": "set_down",
-     "lat": 25.043579,
-     "lng": 55.218241,
-     "where_exactly": "Dubai Cricket Stadium bus stop 1 (wooden shelter)."
     },
     {
      "code": "C3-01",
@@ -121129,15 +121057,6 @@
      "where_exactly": "Main entrance."
     },
     {
-     "code": "C3-04",
-     "name": "Dubai International Cricket Stadium",
-     "time": "06:04",
-     "action": "pick_up",
-     "lat": 25.043579,
-     "lng": 55.218241,
-     "where_exactly": "Dubai Cricket Stadium bus stop 1 (wooden shelter)."
-    },
-    {
      "code": "C3-08",
      "name": "Serena, Bella Casa",
      "time": "06:23",
@@ -121617,7 +121536,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "20:02",
+   "end": "20:06",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
@@ -121671,13 +121590,13 @@
      "where_exactly": "Community entrance off D54."
     },
     {
-     "code": "C3-04",
-     "name": "Dubai International Cricket Stadium",
-     "time": "20:02",
+     "code": "C3-01",
+     "name": "JSS International School",
+     "time": "20:06",
      "action": "set_down",
-     "lat": 25.043579,
-     "lng": 55.218241,
-     "where_exactly": "Dubai Cricket Stadium bus stop 1 (wooden shelter)."
+     "lat": 25.0665,
+     "lng": 55.2046,
+     "where_exactly": "Gate 4 kerb, opposite Tudo Mart, behind Bloom Tower C (JVC District 10). Do not enter the school car park."
     }
    ]
   },
