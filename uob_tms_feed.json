@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-26T05:09:50Z",
+ "generated_at": "2026-10-26T09:17:06Z",
  "week": "2026-10-09 to 2026-11-15",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -62789,6 +62789,44 @@
    ]
   },
   {
+   "run_id": "2026-10-26-R8-O5H",
+   "date": "2026-10-26",
+   "day": "Mon",
+   "route": "R8",
+   "direction": "to_campus",
+   "service": "masters",
+   "arrive_campus": "17:45",
+   "leave_campus": null,
+   "start": "16:41",
+   "end": "17:45",
+   "vehicle": "M8",
+   "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 1,
+   "seats": 34,
+   "status": "operating",
+   "stops": [
+    {
+     "code": "C1-18",
+     "name": "Shamseen Bakeries Building, Al Majaz",
+     "time": "16:41",
+     "action": "pick_up",
+     "lat": 25.33253,
+     "lng": 55.37588,
+     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
+    },
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "17:45",
+     "action": "set_down",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    }
+   ]
+  },
+  {
    "run_id": "2026-10-26-R8-O5N",
    "date": "2026-10-26",
    "day": "Mon",
@@ -67968,6 +68006,44 @@
      "lat": 25.2249568,
      "lng": 55.3336402,
      "where_exactly": "Kerbside at the metro station entrance on Al Jaddaf Street (bus bay by the main exit). Masters evening bus only unless booked on day runs."
+    },
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "17:45",
+     "action": "set_down",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    }
+   ]
+  },
+  {
+   "run_id": "2026-10-27-R8-O5H",
+   "date": "2026-10-27",
+   "day": "Tue",
+   "route": "R8",
+   "direction": "to_campus",
+   "service": "masters",
+   "arrive_campus": "17:45",
+   "leave_campus": null,
+   "start": "16:41",
+   "end": "17:45",
+   "vehicle": "M8",
+   "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 1,
+   "seats": 34,
+   "status": "operating",
+   "stops": [
+    {
+     "code": "C1-18",
+     "name": "Shamseen Bakeries Building, Al Majaz",
+     "time": "16:41",
+     "action": "pick_up",
+     "lat": 25.33253,
+     "lng": 55.37588,
+     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
     },
     {
      "code": "UOB",
@@ -77534,6 +77610,44 @@
    ]
   },
   {
+   "run_id": "2026-10-29-R8-O5H",
+   "date": "2026-10-29",
+   "day": "Thu",
+   "route": "R8",
+   "direction": "to_campus",
+   "service": "masters",
+   "arrive_campus": "17:45",
+   "leave_campus": null,
+   "start": "16:41",
+   "end": "17:45",
+   "vehicle": "M8",
+   "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 1,
+   "seats": 34,
+   "status": "operating",
+   "stops": [
+    {
+     "code": "C1-18",
+     "name": "Shamseen Bakeries Building, Al Majaz",
+     "time": "16:41",
+     "action": "pick_up",
+     "lat": 25.33253,
+     "lng": 55.37588,
+     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
+    },
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "17:45",
+     "action": "set_down",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    }
+   ]
+  },
+  {
    "run_id": "2026-10-29-R8-O5N",
    "date": "2026-10-29",
    "day": "Thu",
@@ -86788,6 +86902,44 @@
    ]
   },
   {
+   "run_id": "2026-11-02-R8-O5H",
+   "date": "2026-11-02",
+   "day": "Mon",
+   "route": "R8",
+   "direction": "to_campus",
+   "service": "masters",
+   "arrive_campus": "17:45",
+   "leave_campus": null,
+   "start": "16:41",
+   "end": "17:45",
+   "vehicle": "M8",
+   "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 1,
+   "seats": 34,
+   "status": "operating",
+   "stops": [
+    {
+     "code": "C1-18",
+     "name": "Shamseen Bakeries Building, Al Majaz",
+     "time": "16:41",
+     "action": "pick_up",
+     "lat": 25.33253,
+     "lng": 55.37588,
+     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
+    },
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "17:45",
+     "action": "set_down",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    }
+   ]
+  },
+  {
    "run_id": "2026-11-02-R8-O5S",
    "date": "2026-11-02",
    "day": "Mon",
@@ -91481,6 +91633,44 @@
      "lat": 25.093492,
      "lng": 55.177807,
      "where_exactly": "Pick and drop area outside the Al Asmawi Building."
+    },
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "17:45",
+     "action": "set_down",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    }
+   ]
+  },
+  {
+   "run_id": "2026-11-03-R8-O5H",
+   "date": "2026-11-03",
+   "day": "Tue",
+   "route": "R8",
+   "direction": "to_campus",
+   "service": "masters",
+   "arrive_campus": "17:45",
+   "leave_campus": null,
+   "start": "16:41",
+   "end": "17:45",
+   "vehicle": "M8",
+   "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 1,
+   "seats": 34,
+   "status": "operating",
+   "stops": [
+    {
+     "code": "C1-18",
+     "name": "Shamseen Bakeries Building, Al Majaz",
+     "time": "16:41",
+     "action": "pick_up",
+     "lat": 25.33253,
+     "lng": 55.37588,
+     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
     },
     {
      "code": "UOB",
@@ -100746,6 +100936,44 @@
    ]
   },
   {
+   "run_id": "2026-11-05-R8-O5H",
+   "date": "2026-11-05",
+   "day": "Thu",
+   "route": "R8",
+   "direction": "to_campus",
+   "service": "masters",
+   "arrive_campus": "17:45",
+   "leave_campus": null,
+   "start": "16:41",
+   "end": "17:45",
+   "vehicle": "M8",
+   "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 1,
+   "seats": 34,
+   "status": "operating",
+   "stops": [
+    {
+     "code": "C1-18",
+     "name": "Shamseen Bakeries Building, Al Majaz",
+     "time": "16:41",
+     "action": "pick_up",
+     "lat": 25.33253,
+     "lng": 55.37588,
+     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
+    },
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "17:45",
+     "action": "set_down",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    }
+   ]
+  },
+  {
    "run_id": "2026-11-05-R8-O5N",
    "date": "2026-11-05",
    "day": "Thu",
@@ -109836,6 +110064,44 @@
    ]
   },
   {
+   "run_id": "2026-11-09-R8-O5H",
+   "date": "2026-11-09",
+   "day": "Mon",
+   "route": "R8",
+   "direction": "to_campus",
+   "service": "masters",
+   "arrive_campus": "17:45",
+   "leave_campus": null,
+   "start": "16:41",
+   "end": "17:45",
+   "vehicle": "M8",
+   "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 1,
+   "seats": 34,
+   "status": "operating",
+   "stops": [
+    {
+     "code": "C1-18",
+     "name": "Shamseen Bakeries Building, Al Majaz",
+     "time": "16:41",
+     "action": "pick_up",
+     "lat": 25.33253,
+     "lng": 55.37588,
+     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
+    },
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "17:45",
+     "action": "set_down",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    }
+   ]
+  },
+  {
    "run_id": "2026-11-09-R8-R4N",
    "date": "2026-11-09",
    "day": "Mon",
@@ -114470,6 +114736,44 @@
      "lat": 25.093492,
      "lng": 55.177807,
      "where_exactly": "Pick and drop area outside the Al Asmawi Building."
+    },
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "17:45",
+     "action": "set_down",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    }
+   ]
+  },
+  {
+   "run_id": "2026-11-10-R8-O5H",
+   "date": "2026-11-10",
+   "day": "Tue",
+   "route": "R8",
+   "direction": "to_campus",
+   "service": "masters",
+   "arrive_campus": "17:45",
+   "leave_campus": null,
+   "start": "16:41",
+   "end": "17:45",
+   "vehicle": "M8",
+   "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 1,
+   "seats": 34,
+   "status": "operating",
+   "stops": [
+    {
+     "code": "C1-18",
+     "name": "Shamseen Bakeries Building, Al Majaz",
+     "time": "16:41",
+     "action": "pick_up",
+     "lat": 25.33253,
+     "lng": 55.37588,
+     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
     },
     {
      "code": "UOB",
@@ -123475,6 +123779,44 @@
      "lat": 25.107412,
      "lng": 55.3785071,
      "where_exactly": "Kerbside outside Binghatti Crystals, near Axis 7, DSO. Rider-only stop (Nabeela); last call before campus on the central masters bus."
+    },
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "17:45",
+     "action": "set_down",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    }
+   ]
+  },
+  {
+   "run_id": "2026-11-12-R8-O5H",
+   "date": "2026-11-12",
+   "day": "Thu",
+   "route": "R8",
+   "direction": "to_campus",
+   "service": "masters",
+   "arrive_campus": "17:45",
+   "leave_campus": null,
+   "start": "16:41",
+   "end": "17:45",
+   "vehicle": "M8",
+   "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 1,
+   "seats": 34,
+   "status": "operating",
+   "stops": [
+    {
+     "code": "C1-18",
+     "name": "Shamseen Bakeries Building, Al Majaz",
+     "time": "16:41",
+     "action": "pick_up",
+     "lat": 25.33253,
+     "lng": 55.37588,
+     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
     },
     {
      "code": "UOB",
