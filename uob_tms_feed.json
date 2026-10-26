@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-26T02:23:46Z",
+ "generated_at": "2026-10-26T02:25:14Z",
  "week": "2026-10-09 to 2026-11-15",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -83218,95 +83218,37 @@
    "day": "Mon",
    "route": "R2",
    "direction": "to_campus",
-   "service": "regular",
+   "service": "undergraduate",
    "arrive_campus": "09:45",
    "leave_campus": null,
-   "start": "07:45",
+   "start": "08:50",
    "end": "09:45",
    "vehicle": "M2",
-   "vehicle_type": "Hiace",
-   "capacity": 15,
-   "booked": 0,
-   "seats": 15,
-   "offer_only": true,
+   "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 1,
+   "seats": 34,
+   "status": "operating",
    "stops": [
-    {
-     "code": "C1-14",
-     "name": "Olivz Residence, Warsan 1",
-     "time": "07:45",
-     "action": "pick_up"
-    },
-    {
-     "code": "C1-13",
-     "name": "Nasayem Avenue, Mirdif Hills",
-     "time": "07:56",
-     "action": "pick_up"
-    },
-    {
-     "code": "C1-12",
-     "name": "Uptown Mirdif",
-     "time": "08:07",
-     "action": "pick_up"
-    },
-    {
-     "code": "C1-23",
-     "name": "Centrepoint, Mirdif City Centre",
-     "time": "08:18",
-     "action": "pick_up"
-    },
-    {
-     "code": "C1-11",
-     "name": "Madina Mall",
-     "time": "08:29",
-     "action": "pick_up"
-    },
-    {
-     "code": "C1-10",
-     "name": "Dubai Festival City Mall",
-     "time": "08:40",
-     "action": "pick_up"
-    },
-    {
-     "code": "C1-25",
-     "name": "Dubai Grand Hotel Bus Stop 1, Damascus St, Al Qusais",
-     "time": "08:50",
-     "action": "pick_up"
-    },
-    {
-     "code": "C1-09",
-     "name": "DAFZA Metro Station",
-     "time": "09:01",
-     "action": "pick_up"
-    },
-    {
-     "code": "C1-08",
-     "name": "Mattar Tower, Al Nahda 1",
-     "time": "09:12",
-     "action": "pick_up",
-     "lat": 25.288533,
-     "lng": 55.3631313,
-     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
-    },
     {
      "code": "C1-26",
      "name": "Dubai Carmel School, Amman St, Al Nahda 2",
-     "time": "09:23",
-     "action": "pick_up"
-    },
-    {
-     "code": "C1-07",
-     "name": "Masafi 1, Al Nahda 2",
-     "time": "09:34",
-     "action": "pick_up"
+     "time": "08:50",
+     "action": "pick_up",
+     "lat": 25.2967627,
+     "lng": 55.3794549,
+     "where_exactly": "Kerbside outside the main gate of Dubai Carmel School on Amman Street, Al Nahda 2 (opposite Al Gurg 212). Use the school bus bay; do not enter the compound."
     },
     {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
      "time": "09:45",
-     "action": "set_down"
+     "action": "set_down",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
     }
-   ],
-   "status": "on_request"
+   ]
   },
   {
    "run_id": "2026-11-02-R2-O3",
