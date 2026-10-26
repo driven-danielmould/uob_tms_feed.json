@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-26T02:25:14Z",
+ "generated_at": "2026-10-26T02:32:52Z",
  "week": "2026-10-09 to 2026-11-15",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -58665,34 +58665,15 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:53",
+   "start": "05:59",
    "end": "07:45",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 6,
+   "booked": 5,
    "seats": 34,
    "status": "operating",
    "stops": [
-    {
-     "code": "C1-15",
-     "name": "Wasl Village, Central Parking",
-     "time": "05:53",
-     "action": "pick_up",
-     "lat": 25.289501,
-     "lng": 55.4111465,
-     "where_exactly": "Other side of the road, outside Urban Slice; students wait at the bench."
-    },
-    {
-     "code": "C1-23",
-     "name": "Centrepoint, Mirdif City Centre",
-     "time": "05:58",
-     "action": "pick_up",
-     "lat": 25.2180926,
-     "lng": 55.4085703,
-     "where_exactly": "Centrepoint entrance, Mirdif City Centre (Tripoli St side) - kerb to be confirmed on audit.",
-     "offer_only_stop": true
-    },
     {
      "code": "C1-24",
      "name": "EK2 Accommodation, Muhaisnah 4",
@@ -58815,15 +58796,24 @@
    "service": "undergraduate",
    "arrive_campus": "10:45",
    "leave_campus": null,
-   "start": "09:40",
+   "start": "09:28",
    "end": "10:45",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 5,
+   "booked": 6,
    "seats": 34,
    "status": "operating",
    "stops": [
+    {
+     "code": "C1-15",
+     "name": "Wasl Village, Central Parking",
+     "time": "09:28",
+     "action": "pick_up",
+     "lat": 25.289501,
+     "lng": 55.4111465,
+     "where_exactly": "Other side of the road, outside Urban Slice; students wait at the bench."
+    },
     {
      "code": "C1-07",
      "name": "Masafi 1, Al Nahda 2",
@@ -58832,6 +58822,16 @@
      "lat": 25.289367,
      "lng": 55.372375,
      "where_exactly": "RTA bus shelter \"Al Nahda 2, 6A St 1\" (817301), facing Masafi tower."
+    },
+    {
+     "code": "C1-23",
+     "name": "Centrepoint, Mirdif City Centre",
+     "time": "09:48",
+     "action": "pick_up",
+     "lat": 25.2180926,
+     "lng": 55.4085703,
+     "where_exactly": "Centrepoint entrance, Mirdif City Centre (Tripoli St side) - kerb to be confirmed on audit.",
+     "offer_only_stop": true
     },
     {
      "code": "C1-09",
@@ -58850,16 +58850,6 @@
      "lat": 25.273102,
      "lng": 55.38168,
      "where_exactly": "RTA bus stop \"Dubai Grand Hotel 1\" on Damascus Street (Al Twar 5 side), by the Dubai Grand Hotel. Public stop from 16 Oct."
-    },
-    {
-     "code": "C1-23",
-     "name": "Centrepoint, Mirdif City Centre",
-     "time": "10:04",
-     "action": "pick_up",
-     "lat": 25.2180926,
-     "lng": 55.4085703,
-     "where_exactly": "Centrepoint entrance, Mirdif City Centre (Tripoli St side) - kerb to be confirmed on audit.",
-     "offer_only_stop": true
     },
     {
      "code": "C1-12",
