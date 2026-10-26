@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-26T17:51:08Z",
+ "generated_at": "2026-10-26T17:52:25Z",
  "week": "2026-10-09 to 2026-11-15",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -86230,110 +86230,37 @@
    "day": "Mon",
    "route": "R7",
    "direction": "to_campus",
-   "service": "regular",
+   "service": "undergraduate",
    "arrive_campus": "10:45",
    "leave_campus": null,
-   "start": "08:45",
+   "start": "10:08",
    "end": "10:45",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 0,
+   "booked": 1,
    "seats": 15,
-   "offer_only": true,
+   "status": "operating",
    "stops": [
     {
-     "code": "C5-12",
-     "name": "Wasl Green Park, Ras Al Khor",
-     "time": "08:45",
-     "action": "pick_up"
-    },
-    {
-     "code": "C5-11",
-     "name": "One Park Avenue, Sobha Hartland",
-     "time": "08:54",
-     "action": "pick_up"
-    },
-    {
-     "code": "C5-10",
-     "name": "Bay Square, Business Bay",
-     "time": "09:02",
-     "action": "pick_up"
-    },
-    {
-     "code": "C5-09",
-     "name": "Bay Avenue Mall, Business Bay",
-     "time": "09:11",
-     "action": "pick_up"
-    },
-    {
-     "code": "C5-08",
-     "name": "Financial Centre Metro Station",
-     "time": "09:19",
-     "action": "pick_up"
-    },
-    {
-     "code": "C5-07",
-     "name": "World Trade Centre Metro Station",
-     "time": "09:28",
-     "action": "pick_up"
-    },
-    {
-     "code": "C5-06",
-     "name": "Al Wasl Building, Al Hudaiba",
-     "time": "09:36",
-     "action": "pick_up"
-    },
-    {
-     "code": "C5-05",
-     "name": "BurJuman Mall",
-     "time": "09:45",
-     "action": "pick_up"
-    },
-    {
-     "code": "C5-04",
-     "name": "Oud Metha Metro Station",
-     "time": "09:54",
-     "action": "pick_up"
-    },
-    {
-     "code": "C5-22",
-     "name": "Al Jaddaf Metro Station",
-     "time": "10:02",
-     "action": "pick_up"
-    },
-    {
-     "code": "C5-03",
-     "name": "Creek Metro Station, Al Jaddaf",
-     "time": "10:11",
-     "action": "pick_up"
-    },
-    {
-     "code": "C5-21",
-     "name": "Al Ghurair Centre bus stop (Ghurair City 2), Al Rigga Rd",
-     "time": "10:19",
-     "action": "pick_up"
-    },
-    {
-     "code": "C5-02",
-     "name": "Al Rigga Metro Station",
-     "time": "10:28",
-     "action": "pick_up"
-    },
-    {
-     "code": "C5-01",
-     "name": "Gold Souq Metro Station",
-     "time": "10:36",
-     "action": "pick_up"
+     "code": "C5-14",
+     "name": "Meydan Heights, Nad Al Sheba 1",
+     "time": "10:08",
+     "action": "pick_up",
+     "lat": 25.14468,
+     "lng": 55.3152,
+     "where_exactly": "Meydan Heights villas gate, Nad Al Sheba 1."
     },
     {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
      "time": "10:45",
-     "action": "set_down"
+     "action": "set_down",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
     }
-   ],
-   "status": "on_request"
+   ]
   },
   {
    "run_id": "2026-11-02-R7-O4",
