@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-27T12:01:33Z",
+ "generated_at": "2026-10-27T13:17:06Z",
  "week": "2026-10-09 to 2026-11-15",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -63357,7 +63357,7 @@
    "capacity": 34,
    "booked": 0,
    "seats": 34,
-   "status": "on_request",
+   "status": "operating",
    "stops": [
     {
      "code": "UOB",
@@ -63367,108 +63367,8 @@
      "lat": 25.1321925,
      "lng": 55.4223161,
      "where_exactly": ""
-    },
-    {
-     "code": "C1-01",
-     "name": "Al Khor Towers, Ajman",
-     "time": "",
-     "action": "set_down",
-     "lat": 25.3938881,
-     "lng": 55.4574592,
-     "where_exactly": "Outside Al Khor Towers, Al Rashidiya 1."
-    },
-    {
-     "code": "C1-03",
-     "name": "Lulu Hypermarket Maysaloon",
-     "time": "",
-     "action": "set_down",
-     "lat": 25.359441,
-     "lng": 55.40545,
-     "where_exactly": "Al Kuwait St entrance."
-    },
-    {
-     "code": "C1-04",
-     "name": "Nesto Hypermarket, King Faisal St",
-     "time": "",
-     "action": "set_down",
-     "lat": 25.337533,
-     "lng": 55.39061,
-     "where_exactly": "Main entrance on King Faisal St."
-    },
-    {
-     "code": "C1-18",
-     "name": "Shamseen Bakeries Building, Al Majaz",
-     "time": "",
-     "action": "set_down",
-     "lat": 25.33253,
-     "lng": 55.37588,
-     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
-    },
-    {
-     "code": "C1-28",
-     "name": "Corniche Hotel Sharjah, Al Majaz 3 (rider stop)",
-     "time": "",
-     "action": "set_down",
-     "lat": 25.3275768,
-     "lng": 55.3781072,
-     "where_exactly": "Kerbside at the Corniche Hotel entrance, Corniche Road, Al Majaz 3. Rider-only stop (Rayyan Tayyab); between Shamseen Bakeries and Al Buhaira Police Station."
-    },
-    {
-     "code": "C1-20",
-     "name": "Al Buhaira Police Station bus stop, Al Majaz 3",
-     "time": "",
-     "action": "set_down",
-     "lat": 25.323284,
-     "lng": 55.381418,
-     "where_exactly": "Bus stop by Al Buhaira Police Station on Al Intifada St; 2 minutes maximum."
-    },
-    {
-     "code": "C1-21",
-     "name": "Sahab Al Emarat, Al Mamzar, Sharjah",
-     "time": "",
-     "action": "set_down",
-     "lat": 25.31578,
-     "lng": 55.35863,
-     "where_exactly": "Kerbside on Corniche Rd outside Sahab Al Emarat."
-    },
-    {
-     "code": "C1-05",
-     "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "",
-     "action": "set_down",
-     "lat": 25.305885121719236,
-     "lng": 55.363729380596915,
-     "where_exactly": "Sheikha Maryam Tower, Al Taawun - pick-up at the pin set by Dan 7 Oct (Al Taawun St side); kerb text to confirm."
-    },
-    {
-     "code": "C1-16",
-     "name": "LuLu Hypermarket Al Nahda, Sharjah",
-     "time": "",
-     "action": "set_down",
-     "lat": 25.303505,
-     "lng": 55.375491,
-     "where_exactly": "Al Nahda Park bus stop (Sharjah stop no. 78), across the road from LuLu, facing Habib Bakery."
-    },
-    {
-     "code": "C1-06",
-     "name": "Sahara Centre",
-     "time": "",
-     "action": "set_down",
-     "lat": 25.297153,
-     "lng": 55.371026,
-     "where_exactly": "Public bus stop shelter on 13th Street, facing the Sahara Centre mall entrance."
-    },
-    {
-     "code": "C1-02",
-     "name": "City Centre Al Zahia",
-     "time": "",
-     "action": "set_down",
-     "lat": 25.318044,
-     "lng": 55.457279,
-     "where_exactly": "Bus stop by the VOX sign, City Centre Al Zahia."
     }
-   ],
-   "offer_only": true
+   ]
   },
   {
    "run_id": "2026-10-27-R1-O5",
@@ -70813,10 +70713,10 @@
    "start": "18:15",
    "end": "19:56",
    "vehicle": "M4",
-   "vehicle_type": "Rosa",
-   "capacity": 34,
+   "vehicle_type": "Hiace",
+   "capacity": 15,
    "booked": 6,
-   "seats": 34,
+   "seats": 15,
    "status": "operating",
    "stops": [
     {
@@ -94438,143 +94338,8 @@
    "capacity": 15,
    "booked": 0,
    "seats": 15,
-   "status": "on_request",
+   "status": "operating",
    "stops": [
-    {
-     "code": "C4-22",
-     "name": "Silver Tower, Al Marakib St, Corniche Area, Abu Dhabi",
-     "time": "",
-     "action": "pick_up",
-     "lat": 24.49302727241724,
-     "lng": 54.359155308731616,
-     "where_exactly": "Front of Silver Tower - pin from the rider 7 Oct (the back of the building is a closed road). Kerbside at the main entrance."
-    },
-    {
-     "code": "C4-01",
-     "name": "Al Mariah Mall, Hamdan St",
-     "time": "",
-     "action": "pick_up",
-     "lat": 24.494038,
-     "lng": 54.366864,
-     "where_exactly": "Outside the front of Al Mariah Mall."
-    },
-    {
-     "code": "C4-23",
-     "name": "Al Swedi Building 6, Al Sindan St, Al Zahiyah, Abu Dhabi",
-     "time": "",
-     "action": "pick_up",
-     "lat": 24.5022611,
-     "lng": 54.377864,
-     "where_exactly": "Kerbside on Al Sindan Street outside Al Swedi Building 6 (same building as Makaram Dry Clean), in front of the large car park behind Future Pharmacy."
-    },
-    {
-     "code": "C4-24",
-     "name": "Al Dibsi Street, Tourist Club Area, Abu Dhabi",
-     "time": "",
-     "action": "pick_up",
-     "lat": 24.49105,
-     "lng": 54.38039,
-     "where_exactly": "Kerbside on Al Dibsi Street outside the rider's building, Tourist Club Area (Al Zahiyah). Rider-only stop."
-    },
-    {
-     "code": "C4-17",
-     "name": "Al Falah St / Ministry of Finance bus stop",
-     "time": "",
-     "action": "pick_up",
-     "lat": 24.4843472,
-     "lng": 54.377167,
-     "where_exactly": "RTA/ITC bus stop on Al Falah St opposite the Ministry of Finance; 2 minutes maximum."
-    },
-    {
-     "code": "C4-02",
-     "name": "The Gate Towers, Al Reem Island",
-     "time": "",
-     "action": "pick_up",
-     "lat": 24.492995,
-     "lng": 54.408057,
-     "where_exactly": "Main drop-off."
-    },
-    {
-     "code": "C4-21",
-     "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
-     "time": "",
-     "action": "pick_up",
-     "lat": 24.4757537,
-     "lng": 54.3663931,
-     "where_exactly": "Kerbside on Airport Road (Sheikh Rashid Bin Saeed St) at the Al Falah Street junction, outside Ramee Garden Hotel Apartments opposite NBAD - southbound side for pick-ups (towards Al Wahda), northbound side for set-downs."
-    },
-    {
-     "code": "C4-03",
-     "name": "Al Wahda Mall",
-     "time": "",
-     "action": "pick_up",
-     "lat": 24.471019,
-     "lng": 54.370278,
-     "where_exactly": "Kerbside at 24.471019, 54.370278 beside Al Wahda Mall - the parent-confirmed point (12 Oct), NOT the RTA shelter on Hazza Bin Zayed St."
-    },
-    {
-     "code": "C4-04",
-     "name": "Mubadala Tower, Sultan Bin Zayed St",
-     "time": "",
-     "action": "pick_up",
-     "lat": 24.4223437,
-     "lng": 54.4544927,
-     "where_exactly": "Outside the Ministry of Human Resources & Emiratisation (Abu Dhabi Labour Office) entrance of Mubadala Tower, Sultan Bin Zayed the First St - pin from rider 6 Oct; kerb to confirm on audit."
-    },
-    {
-     "code": "C4-05",
-     "name": "Yasmina School back gate, Raha Gardens",
-     "time": "",
-     "action": "pick_up",
-     "lat": 24.426,
-     "lng": 54.5467,
-     "where_exactly": "Back gate in Raha Gardens."
-    },
-    {
-     "code": "C4-18",
-     "name": "Super Nanny Nursery, Khalifa City, Abu Dhabi",
-     "time": "",
-     "action": "pick_up",
-     "lat": 24.41338,
-     "lng": 54.5594598,
-     "where_exactly": "An Nisaylat St frontage of Super Nanny Nursery, behind Choueifat school."
-    },
-    {
-     "code": "C4-06",
-     "name": "Al Forsan Village main gate",
-     "time": "",
-     "action": "pick_up",
-     "lat": 24.4044,
-     "lng": 54.5514,
-     "where_exactly": "Main gate, Khalifa City."
-    },
-    {
-     "code": "C4-07",
-     "name": "Al Zeina, Al Raha Beach",
-     "time": "",
-     "action": "pick_up",
-     "lat": 24.4555591,
-     "lng": 54.6131136,
-     "where_exactly": "Al Zeina main entrance."
-    },
-    {
-     "code": "C4-15",
-     "name": "Deerfields Mall, Al Bahia",
-     "time": "",
-     "action": "pick_up",
-     "lat": 24.523305,
-     "lng": 54.671536,
-     "where_exactly": "Outside the main entrance of Deerfields Mall."
-    },
-    {
-     "code": "C4-08",
-     "name": "Al Ghadeer community gate",
-     "time": "",
-     "action": "pick_up",
-     "lat": 24.8443745,
-     "lng": 55.0261656,
-     "where_exactly": "Main gate on Al Fayah Rd."
-    },
     {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
@@ -94584,8 +94349,7 @@
      "lng": 55.4223161,
      "where_exactly": ""
     }
-   ],
-   "offer_only": true
+   ]
   },
   {
    "run_id": "2026-11-04-R5-R1",
@@ -112813,80 +112577,28 @@
    "day": "Tue",
    "route": "R5",
    "direction": "from_campus",
-   "service": "regular",
+   "service": "undergraduate",
    "arrive_campus": null,
    "leave_campus": "14:15",
    "start": "14:15",
-   "end": "16:00",
+   "end": "14:15",
    "vehicle": "M5",
-   "vehicle_type": "Hiace",
-   "capacity": 15,
+   "vehicle_type": "Rosa",
+   "capacity": 34,
    "booked": 0,
-   "seats": 15,
-   "offer_only": true,
+   "seats": 34,
+   "status": "operating",
    "stops": [
     {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
      "time": "14:15",
-     "action": "pick_up"
-    },
-    {
-     "code": "C4-01",
-     "name": "Al Mariah Mall, Hamdan St",
-     "time": "14:27",
-     "action": "set_down"
-    },
-    {
-     "code": "C4-02",
-     "name": "The Gate Towers, Al Reem Island",
-     "time": "14:38",
-     "action": "set_down"
-    },
-    {
-     "code": "C4-21",
-     "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
-     "time": "14:50",
-     "action": "set_down"
-    },
-    {
-     "code": "C4-03",
-     "name": "Al Wahda Mall",
-     "time": "15:02",
-     "action": "set_down"
-    },
-    {
-     "code": "C4-04",
-     "name": "Mubadala Tower, Sultan Bin Zayed St",
-     "time": "15:13",
-     "action": "set_down"
-    },
-    {
-     "code": "C4-05",
-     "name": "Yasmina School back gate, Raha Gardens",
-     "time": "15:25",
-     "action": "set_down"
-    },
-    {
-     "code": "C4-06",
-     "name": "Al Forsan Village main gate",
-     "time": "15:37",
-     "action": "set_down"
-    },
-    {
-     "code": "C4-07",
-     "name": "Al Zeina, Al Raha Beach",
-     "time": "15:48",
-     "action": "set_down"
-    },
-    {
-     "code": "C4-08",
-     "name": "Al Ghadeer community gate",
-     "time": "16:00",
-     "action": "set_down"
+     "action": "pick_up",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
     }
-   ],
-   "status": "on_request"
+   ]
   },
   {
    "run_id": "2026-11-10-R5-O4",
@@ -117339,143 +117051,8 @@
    "capacity": 15,
    "booked": 0,
    "seats": 15,
-   "status": "on_request",
+   "status": "operating",
    "stops": [
-    {
-     "code": "C4-22",
-     "name": "Silver Tower, Al Marakib St, Corniche Area, Abu Dhabi",
-     "time": "",
-     "action": "pick_up",
-     "lat": 24.49302727241724,
-     "lng": 54.359155308731616,
-     "where_exactly": "Front of Silver Tower - pin from the rider 7 Oct (the back of the building is a closed road). Kerbside at the main entrance."
-    },
-    {
-     "code": "C4-01",
-     "name": "Al Mariah Mall, Hamdan St",
-     "time": "",
-     "action": "pick_up",
-     "lat": 24.494038,
-     "lng": 54.366864,
-     "where_exactly": "Outside the front of Al Mariah Mall."
-    },
-    {
-     "code": "C4-23",
-     "name": "Al Swedi Building 6, Al Sindan St, Al Zahiyah, Abu Dhabi",
-     "time": "",
-     "action": "pick_up",
-     "lat": 24.5022611,
-     "lng": 54.377864,
-     "where_exactly": "Kerbside on Al Sindan Street outside Al Swedi Building 6 (same building as Makaram Dry Clean), in front of the large car park behind Future Pharmacy."
-    },
-    {
-     "code": "C4-24",
-     "name": "Al Dibsi Street, Tourist Club Area, Abu Dhabi",
-     "time": "",
-     "action": "pick_up",
-     "lat": 24.49105,
-     "lng": 54.38039,
-     "where_exactly": "Kerbside on Al Dibsi Street outside the rider's building, Tourist Club Area (Al Zahiyah). Rider-only stop."
-    },
-    {
-     "code": "C4-17",
-     "name": "Al Falah St / Ministry of Finance bus stop",
-     "time": "",
-     "action": "pick_up",
-     "lat": 24.4843472,
-     "lng": 54.377167,
-     "where_exactly": "RTA/ITC bus stop on Al Falah St opposite the Ministry of Finance; 2 minutes maximum."
-    },
-    {
-     "code": "C4-02",
-     "name": "The Gate Towers, Al Reem Island",
-     "time": "",
-     "action": "pick_up",
-     "lat": 24.492995,
-     "lng": 54.408057,
-     "where_exactly": "Main drop-off."
-    },
-    {
-     "code": "C4-21",
-     "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
-     "time": "",
-     "action": "pick_up",
-     "lat": 24.4757537,
-     "lng": 54.3663931,
-     "where_exactly": "Kerbside on Airport Road (Sheikh Rashid Bin Saeed St) at the Al Falah Street junction, outside Ramee Garden Hotel Apartments opposite NBAD - southbound side for pick-ups (towards Al Wahda), northbound side for set-downs."
-    },
-    {
-     "code": "C4-03",
-     "name": "Al Wahda Mall",
-     "time": "",
-     "action": "pick_up",
-     "lat": 24.471019,
-     "lng": 54.370278,
-     "where_exactly": "Kerbside at 24.471019, 54.370278 beside Al Wahda Mall - the parent-confirmed point (12 Oct), NOT the RTA shelter on Hazza Bin Zayed St."
-    },
-    {
-     "code": "C4-04",
-     "name": "Mubadala Tower, Sultan Bin Zayed St",
-     "time": "",
-     "action": "pick_up",
-     "lat": 24.4223437,
-     "lng": 54.4544927,
-     "where_exactly": "Outside the Ministry of Human Resources & Emiratisation (Abu Dhabi Labour Office) entrance of Mubadala Tower, Sultan Bin Zayed the First St - pin from rider 6 Oct; kerb to confirm on audit."
-    },
-    {
-     "code": "C4-05",
-     "name": "Yasmina School back gate, Raha Gardens",
-     "time": "",
-     "action": "pick_up",
-     "lat": 24.426,
-     "lng": 54.5467,
-     "where_exactly": "Back gate in Raha Gardens."
-    },
-    {
-     "code": "C4-18",
-     "name": "Super Nanny Nursery, Khalifa City, Abu Dhabi",
-     "time": "",
-     "action": "pick_up",
-     "lat": 24.41338,
-     "lng": 54.5594598,
-     "where_exactly": "An Nisaylat St frontage of Super Nanny Nursery, behind Choueifat school."
-    },
-    {
-     "code": "C4-06",
-     "name": "Al Forsan Village main gate",
-     "time": "",
-     "action": "pick_up",
-     "lat": 24.4044,
-     "lng": 54.5514,
-     "where_exactly": "Main gate, Khalifa City."
-    },
-    {
-     "code": "C4-07",
-     "name": "Al Zeina, Al Raha Beach",
-     "time": "",
-     "action": "pick_up",
-     "lat": 24.4555591,
-     "lng": 54.6131136,
-     "where_exactly": "Al Zeina main entrance."
-    },
-    {
-     "code": "C4-15",
-     "name": "Deerfields Mall, Al Bahia",
-     "time": "",
-     "action": "pick_up",
-     "lat": 24.523305,
-     "lng": 54.671536,
-     "where_exactly": "Outside the main entrance of Deerfields Mall."
-    },
-    {
-     "code": "C4-08",
-     "name": "Al Ghadeer community gate",
-     "time": "",
-     "action": "pick_up",
-     "lat": 24.8443745,
-     "lng": 55.0261656,
-     "where_exactly": "Main gate on Al Fayah Rd."
-    },
     {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
@@ -117485,8 +117062,7 @@
      "lng": 55.4223161,
      "where_exactly": ""
     }
-   ],
-   "offer_only": true
+   ]
   },
   {
    "run_id": "2026-11-11-R5-R1",
