@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-27T16:26:02Z",
+ "generated_at": "2026-10-27T16:54:18Z",
  "week": "2026-10-09 to 2026-11-15",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -69396,7 +69396,7 @@
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 10,
+   "booked": 11,
    "seats": 34,
    "status": "operating",
    "stops": [
@@ -69498,7 +69498,7 @@
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 9,
+   "booked": 8,
    "seats": 34,
    "status": "operating",
    "stops": [
@@ -69528,15 +69528,6 @@
      "lat": 25.213511,
      "lng": 55.418314,
      "where_exactly": "Kerbside on Algeria Street, Mirdif, between Uptown Mirdif and Shorooq Gate 3. Public stop from 19 Oct (Insha Mirza request)."
-    },
-    {
-     "code": "C1-09",
-     "name": "DAFZA Metro Station",
-     "time": "19:19",
-     "action": "set_down",
-     "lat": 25.270214,
-     "lng": 55.373696,
-     "where_exactly": "21B Street footpath by DAFZA Metro Station Entrance 1."
     },
     {
      "code": "C1-08",
@@ -86139,7 +86130,7 @@
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 3,
+   "booked": 4,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -86488,11 +86479,11 @@
    "arrive_campus": null,
    "leave_campus": "16:30",
    "start": "16:30",
-   "end": "17:43",
+   "end": "18:05",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 1,
+   "booked": 2,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -86513,6 +86504,15 @@
      "lat": 25.1784466,
      "lng": 55.3086196,
      "where_exactly": "Main entrance."
+    },
+    {
+     "code": "C5-05",
+     "name": "BurJuman Mall",
+     "time": "18:05",
+     "action": "set_down",
+     "lat": 25.254331,
+     "lng": 55.303661,
+     "where_exactly": "Bus stop outside Asia Kitchen, BurJuman Mall."
     }
    ]
   },
@@ -90724,7 +90724,7 @@
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 2,
+   "booked": 3,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -90939,7 +90939,7 @@
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 2,
+   "booked": 3,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -90953,9 +90953,18 @@
      "where_exactly": ""
     },
     {
+     "code": "C5-05",
+     "name": "BurJuman Mall",
+     "time": "15:08",
+     "action": "set_down",
+     "lat": 25.254331,
+     "lng": 55.303661,
+     "where_exactly": "Bus stop outside Asia Kitchen, BurJuman Mall."
+    },
+    {
      "code": "C5-06",
      "name": "Al Wasl Building, Al Hudaiba",
-     "time": "15:14",
+     "time": "15:17",
      "action": "set_down",
      "lat": 25.243,
      "lng": 55.2788,
@@ -95480,7 +95489,7 @@
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 4,
+   "booked": 5,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -95856,11 +95865,11 @@
    "arrive_campus": null,
    "leave_campus": "16:30",
    "start": "16:30",
-   "end": "17:53",
+   "end": "18:06",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 2,
+   "booked": 3,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -95890,6 +95899,15 @@
      "lat": 25.2200683,
      "lng": 55.3263206,
      "where_exactly": "Kerbside outside Al Mesbar Building, by the Arabian Park hotel, Al Jaddaf. Rider-only stop (Naomi Noronha); between Al Jaddaf Metro and Oud Metha."
+    },
+    {
+     "code": "C5-05",
+     "name": "BurJuman Mall",
+     "time": "18:06",
+     "action": "set_down",
+     "lat": 25.254331,
+     "lng": 55.303661,
+     "where_exactly": "Bus stop outside Asia Kitchen, BurJuman Mall."
     }
    ]
   },
@@ -100077,7 +100095,7 @@
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 5,
+   "booked": 6,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -100098,6 +100116,15 @@
      "lat": 25.243624,
      "lng": 55.315799,
      "where_exactly": "RTA bus stop Oud Metha 1, other side of the road, outside Super Saver supermarket."
+    },
+    {
+     "code": "C5-05",
+     "name": "BurJuman Mall",
+     "time": "06:32",
+     "action": "pick_up",
+     "lat": 25.254331,
+     "lng": 55.303661,
+     "where_exactly": "Bus stop outside Asia Kitchen, BurJuman Mall."
     },
     {
      "code": "C5-09",
@@ -100528,11 +100555,11 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "19:45",
+   "end": "19:50",
    "vehicle": "M7",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 6,
+   "booked": 7,
    "seats": 34,
    "status": "operating",
    "stops": [
@@ -100573,9 +100600,18 @@
      "where_exactly": "North Entrance pick and drop area, Bay Avenue Mall."
     },
     {
+     "code": "C5-05",
+     "name": "BurJuman Mall",
+     "time": "19:34",
+     "action": "set_down",
+     "lat": 25.254331,
+     "lng": 55.303661,
+     "where_exactly": "Bus stop outside Asia Kitchen, BurJuman Mall."
+    },
+    {
      "code": "C5-04",
      "name": "Oud Metha Metro Station",
-     "time": "19:36",
+     "time": "19:41",
      "action": "set_down",
      "lat": 25.243624,
      "lng": 55.315799,
@@ -100584,7 +100620,7 @@
     {
      "code": "C5-23",
      "name": "Al Mesbar Building, Al Jaddaf (rider stop)",
-     "time": "19:45",
+     "time": "19:50",
      "action": "set_down",
      "lat": 25.2200683,
      "lng": 55.3263206,
