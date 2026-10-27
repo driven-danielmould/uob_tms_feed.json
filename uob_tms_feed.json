@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-27T17:35:29Z",
+ "generated_at": "2026-10-27T17:41:25Z",
  "week": "2026-10-09 to 2026-11-15",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -68379,7 +68379,7 @@
    "vehicle": "M1",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 4,
+   "booked": 5,
    "seats": 34,
    "status": "operating",
    "stops": [
@@ -68400,6 +68400,15 @@
      "lat": 25.33253,
      "lng": 55.37588,
      "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
+    },
+    {
+     "code": "C1-28",
+     "name": "Corniche Hotel Sharjah, Al Majaz 3 (rider stop)",
+     "time": "05:20",
+     "action": "pick_up",
+     "lat": 25.3275768,
+     "lng": 55.3781072,
+     "where_exactly": "Kerbside at the Corniche Hotel entrance, Corniche Road, Al Majaz 3. Rider-only stop (Rayyan Tayyab); between Shamseen Bakeries and Al Buhaira Police Station."
     },
     {
      "code": "C1-20",
@@ -68617,11 +68626,11 @@
    "arrive_campus": null,
    "leave_campus": "14:15",
    "start": "14:15",
-   "end": "14:53",
+   "end": "15:24",
    "vehicle": "M1",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 3,
+   "booked": 4,
    "seats": 34,
    "status": "operating",
    "stops": [
@@ -68635,9 +68644,18 @@
      "where_exactly": ""
     },
     {
+     "code": "C1-28",
+     "name": "Corniche Hotel Sharjah, Al Majaz 3 (rider stop)",
+     "time": "15:17",
+     "action": "set_down",
+     "lat": 25.3275768,
+     "lng": 55.3781072,
+     "where_exactly": "Kerbside at the Corniche Hotel entrance, Corniche Road, Al Majaz 3. Rider-only stop (Rayyan Tayyab); between Shamseen Bakeries and Al Buhaira Police Station."
+    },
+    {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "14:53",
+     "time": "15:24",
      "action": "set_down",
      "lat": 25.337533,
      "lng": 55.39061,
@@ -73329,15 +73347,24 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:03",
+   "start": "04:59",
    "end": "07:45",
    "vehicle": "M1",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 5,
+   "booked": 6,
    "seats": 34,
    "status": "operating",
    "stops": [
+    {
+     "code": "C1-28",
+     "name": "Corniche Hotel Sharjah, Al Majaz 3 (rider stop)",
+     "time": "04:59",
+     "action": "pick_up",
+     "lat": 25.3275768,
+     "lng": 55.3781072,
+     "where_exactly": "Kerbside at the Corniche Hotel entrance, Corniche Road, Al Majaz 3. Rider-only stop (Rayyan Tayyab); between Shamseen Bakeries and Al Buhaira Police Station."
+    },
     {
      "code": "C1-20",
      "name": "Al Buhaira Police Station bus stop, Al Majaz 3",
@@ -73540,7 +73567,7 @@
    "vehicle": "M1",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 7,
+   "booked": 8,
    "seats": 34,
    "status": "operating",
    "stops": [
@@ -77925,7 +77952,7 @@
    "vehicle": "M1",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 5,
+   "booked": 6,
    "seats": 34,
    "status": "operating",
    "stops": [
@@ -77955,6 +77982,15 @@
      "lat": 25.33253,
      "lng": 55.37588,
      "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
+    },
+    {
+     "code": "C1-28",
+     "name": "Corniche Hotel Sharjah, Al Majaz 3 (rider stop)",
+     "time": "05:10",
+     "action": "pick_up",
+     "lat": 25.3275768,
+     "lng": 55.3781072,
+     "where_exactly": "Kerbside at the Corniche Hotel entrance, Corniche Road, Al Majaz 3. Rider-only stop (Rayyan Tayyab); between Shamseen Bakeries and Al Buhaira Police Station."
     },
     {
      "code": "C1-20",
@@ -78202,11 +78238,11 @@
    "arrive_campus": null,
    "leave_campus": "12:15",
    "start": "12:15",
-   "end": "13:56",
+   "end": "13:58",
    "vehicle": "M1",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 6,
+   "booked": 7,
    "seats": 34,
    "status": "operating",
    "stops": [
@@ -78247,9 +78283,18 @@
      "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
     },
     {
+     "code": "C1-28",
+     "name": "Corniche Hotel Sharjah, Al Majaz 3 (rider stop)",
+     "time": "13:45",
+     "action": "set_down",
+     "lat": 25.3275768,
+     "lng": 55.3781072,
+     "where_exactly": "Kerbside at the Corniche Hotel entrance, Corniche Road, Al Majaz 3. Rider-only stop (Rayyan Tayyab); between Shamseen Bakeries and Al Buhaira Police Station."
+    },
+    {
      "code": "C1-20",
      "name": "Al Buhaira Police Station bus stop, Al Majaz 3",
-     "time": "13:47",
+     "time": "13:49",
      "action": "set_down",
      "lat": 25.323284,
      "lng": 55.381418,
@@ -78258,7 +78303,7 @@
     {
      "code": "C1-05",
      "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "13:56",
+     "time": "13:58",
      "action": "set_down",
      "lat": 25.305885121719236,
      "lng": 55.363729380596915,
