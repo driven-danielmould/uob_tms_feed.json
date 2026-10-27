@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-27T16:58:55Z",
+ "generated_at": "2026-10-27T17:00:10Z",
  "week": "2026-10-09 to 2026-11-15",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -71001,7 +71001,7 @@
    "vehicle": "M5",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 5,
+   "booked": 6,
    "seats": 34,
    "status": "operating",
    "stops": [
@@ -71040,6 +71040,15 @@
      "lat": 24.41338,
      "lng": 54.5594598,
      "where_exactly": "An Nisaylat St frontage of Super Nanny Nursery, behind Choueifat school."
+    },
+    {
+     "code": "C4-08",
+     "name": "Al Ghadeer community gate",
+     "time": "06:46",
+     "action": "pick_up",
+     "lat": 24.8443745,
+     "lng": 55.0261656,
+     "where_exactly": "Main gate on Al Fayah Rd."
     },
     {
      "code": "UOB",
@@ -71372,11 +71381,11 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "21:44",
+   "end": "21:47",
    "vehicle": "M5",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 7,
+   "booked": 8,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -71390,9 +71399,18 @@
      "where_exactly": ""
     },
     {
+     "code": "C4-08",
+     "name": "Al Ghadeer community gate",
+     "time": "19:15",
+     "action": "set_down",
+     "lat": 24.8443745,
+     "lng": 55.0261656,
+     "where_exactly": "Main gate on Al Fayah Rd."
+    },
+    {
      "code": "C4-07",
      "name": "Al Zeina, Al Raha Beach",
-     "time": "20:10",
+     "time": "20:13",
      "action": "set_down",
      "lat": 24.4555591,
      "lng": 54.6131136,
@@ -71401,7 +71419,7 @@
     {
      "code": "C4-06",
      "name": "Al Forsan Village main gate",
-     "time": "20:32",
+     "time": "20:35",
      "action": "set_down",
      "lat": 24.4044,
      "lng": 54.5514,
@@ -71410,7 +71428,7 @@
     {
      "code": "C4-04",
      "name": "Mubadala Tower, Sultan Bin Zayed St",
-     "time": "20:57",
+     "time": "21:00",
      "action": "set_down",
      "lat": 24.4223437,
      "lng": 54.4544927,
@@ -71419,7 +71437,7 @@
     {
      "code": "C4-21",
      "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
-     "time": "21:24",
+     "time": "21:27",
      "action": "set_down",
      "lat": 24.4757537,
      "lng": 54.3663931,
@@ -71428,7 +71446,7 @@
     {
      "code": "C4-24",
      "name": "Al Dibsi Street, Tourist Club Area, Abu Dhabi",
-     "time": "21:32",
+     "time": "21:35",
      "action": "set_down",
      "lat": 24.49105,
      "lng": 54.38039,
@@ -71437,7 +71455,7 @@
     {
      "code": "C4-23",
      "name": "Al Swedi Building 6, Al Sindan St, Al Zahiyah, Abu Dhabi",
-     "time": "21:38",
+     "time": "21:41",
      "action": "set_down",
      "lat": 24.5022611,
      "lng": 54.377864,
@@ -71446,7 +71464,7 @@
     {
      "code": "C4-01",
      "name": "Al Mariah Mall, Hamdan St",
-     "time": "21:44",
+     "time": "21:47",
      "action": "set_down",
      "lat": 24.494038,
      "lng": 54.366864,
@@ -75915,7 +75933,7 @@
    "vehicle": "M5",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 7,
+   "booked": 8,
    "seats": 34,
    "status": "operating",
    "stops": [
@@ -75981,6 +75999,15 @@
      "lat": 24.4555591,
      "lng": 54.6131136,
      "where_exactly": "Al Zeina main entrance."
+    },
+    {
+     "code": "C4-08",
+     "name": "Al Ghadeer community gate",
+     "time": "07:10",
+     "action": "pick_up",
+     "lat": 24.8443745,
+     "lng": 55.0261656,
+     "where_exactly": "Main gate on Al Fayah Rd."
     },
     {
      "code": "UOB",
@@ -76252,7 +76279,7 @@
    "vehicle": "M5",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 4,
+   "booked": 5,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -76264,6 +76291,15 @@
      "lat": 25.1321925,
      "lng": 55.4223161,
      "where_exactly": ""
+    },
+    {
+     "code": "C4-08",
+     "name": "Al Ghadeer community gate",
+     "time": "19:22",
+     "action": "set_down",
+     "lat": 24.8443745,
+     "lng": 55.0261656,
+     "where_exactly": "Main gate on Al Fayah Rd."
     },
     {
      "code": "C4-07",
@@ -85164,7 +85200,7 @@
    "vehicle": "M5",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 3,
+   "booked": 4,
    "seats": 34,
    "status": "operating",
    "stops": [
@@ -85194,6 +85230,15 @@
      "lat": 24.4044,
      "lng": 54.5514,
      "where_exactly": "Main gate, Khalifa City."
+    },
+    {
+     "code": "C4-08",
+     "name": "Al Ghadeer community gate",
+     "time": "06:03",
+     "action": "pick_up",
+     "lat": 24.8443745,
+     "lng": 55.0261656,
+     "where_exactly": "Main gate on Al Fayah Rd."
     },
     {
      "code": "UOB",
@@ -85508,11 +85553,11 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "20:03",
+   "end": "20:21",
    "vehicle": "M5",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 1,
+   "booked": 2,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -85526,9 +85571,18 @@
      "where_exactly": ""
     },
     {
+     "code": "C4-08",
+     "name": "Al Ghadeer community gate",
+     "time": "19:15",
+     "action": "set_down",
+     "lat": 24.8443745,
+     "lng": 55.0261656,
+     "where_exactly": "Main gate on Al Fayah Rd."
+    },
+    {
      "code": "C4-06",
      "name": "Al Forsan Village main gate",
-     "time": "20:03",
+     "time": "20:21",
      "action": "set_down",
      "lat": 24.4044,
      "lng": 54.5514,
@@ -89731,7 +89785,7 @@
    "vehicle": "M5",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 3,
+   "booked": 4,
    "seats": 34,
    "status": "operating",
    "stops": [
@@ -89761,6 +89815,15 @@
      "lat": 24.4044,
      "lng": 54.5514,
      "where_exactly": "Main gate, Khalifa City."
+    },
+    {
+     "code": "C4-08",
+     "name": "Al Ghadeer community gate",
+     "time": "06:28",
+     "action": "pick_up",
+     "lat": 24.8443745,
+     "lng": 55.0261656,
+     "where_exactly": "Main gate on Al Fayah Rd."
     },
     {
      "code": "UOB",
@@ -90084,11 +90147,11 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "21:08",
+   "end": "21:30",
    "vehicle": "M5",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 6,
+   "booked": 7,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -90102,9 +90165,18 @@
      "where_exactly": ""
     },
     {
+     "code": "C4-08",
+     "name": "Al Ghadeer community gate",
+     "time": "19:15",
+     "action": "set_down",
+     "lat": 24.8443745,
+     "lng": 55.0261656,
+     "where_exactly": "Main gate on Al Fayah Rd."
+    },
+    {
      "code": "C4-06",
      "name": "Al Forsan Village main gate",
-     "time": "20:04",
+     "time": "20:21",
      "action": "set_down",
      "lat": 24.4044,
      "lng": 54.5514,
@@ -90113,7 +90185,7 @@
     {
      "code": "C4-21",
      "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
-     "time": "20:41",
+     "time": "21:09",
      "action": "set_down",
      "lat": 24.4757537,
      "lng": 54.3663931,
@@ -90122,7 +90194,7 @@
     {
      "code": "C4-23",
      "name": "Al Swedi Building 6, Al Sindan St, Al Zahiyah, Abu Dhabi",
-     "time": "20:56",
+     "time": "21:19",
      "action": "set_down",
      "lat": 24.5022611,
      "lng": 54.377864,
@@ -90131,7 +90203,7 @@
     {
      "code": "C4-01",
      "name": "Al Mariah Mall, Hamdan St",
-     "time": "21:03",
+     "time": "21:25",
      "action": "set_down",
      "lat": 24.494038,
      "lng": 54.366864,
@@ -90140,7 +90212,7 @@
     {
      "code": "C4-22",
      "name": "Silver Tower, Al Marakib St, Corniche Area, Abu Dhabi",
-     "time": "21:08",
+     "time": "21:30",
      "action": "set_down",
      "lat": 24.49302727241724,
      "lng": 54.359155308731616,
@@ -94342,7 +94414,7 @@
    "vehicle": "M5",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 3,
+   "booked": 4,
    "seats": 34,
    "status": "operating",
    "stops": [
@@ -94372,6 +94444,15 @@
      "lat": 24.5022611,
      "lng": 54.377864,
      "where_exactly": "Kerbside on Al Sindan Street outside Al Swedi Building 6 (same building as Makaram Dry Clean), in front of the large car park behind Future Pharmacy."
+    },
+    {
+     "code": "C4-08",
+     "name": "Al Ghadeer community gate",
+     "time": "06:05",
+     "action": "pick_up",
+     "lat": 24.8443745,
+     "lng": 55.0261656,
+     "where_exactly": "Main gate on Al Fayah Rd."
     },
     {
      "code": "UOB",
@@ -94865,11 +94946,11 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "21:04",
+   "end": "21:27",
    "vehicle": "M5",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 6,
+   "booked": 7,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -94883,9 +94964,18 @@
      "where_exactly": ""
     },
     {
+     "code": "C4-08",
+     "name": "Al Ghadeer community gate",
+     "time": "19:15",
+     "action": "set_down",
+     "lat": 24.8443745,
+     "lng": 55.0261656,
+     "where_exactly": "Main gate on Al Fayah Rd."
+    },
+    {
      "code": "C4-06",
      "name": "Al Forsan Village main gate",
-     "time": "20:03",
+     "time": "20:21",
      "action": "set_down",
      "lat": 24.4044,
      "lng": 54.5514,
@@ -94894,7 +94984,7 @@
     {
      "code": "C4-04",
      "name": "Mubadala Tower, Sultan Bin Zayed St",
-     "time": "20:23",
+     "time": "20:46",
      "action": "set_down",
      "lat": 24.4223437,
      "lng": 54.4544927,
@@ -94903,7 +94993,7 @@
     {
      "code": "C4-21",
      "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
-     "time": "20:44",
+     "time": "21:13",
      "action": "set_down",
      "lat": 24.4757537,
      "lng": 54.3663931,
@@ -94912,7 +95002,7 @@
     {
      "code": "C4-24",
      "name": "Al Dibsi Street, Tourist Club Area, Abu Dhabi",
-     "time": "20:58",
+     "time": "21:21",
      "action": "set_down",
      "lat": 24.49105,
      "lng": 54.38039,
@@ -94921,7 +95011,7 @@
     {
      "code": "C4-23",
      "name": "Al Swedi Building 6, Al Sindan St, Al Zahiyah, Abu Dhabi",
-     "time": "21:04",
+     "time": "21:27",
      "action": "set_down",
      "lat": 24.5022611,
      "lng": 54.377864,
