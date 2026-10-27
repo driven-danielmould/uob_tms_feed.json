@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-27T02:32:15Z",
+ "generated_at": "2026-10-27T02:35:30Z",
  "week": "2026-10-09 to 2026-11-15",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -70321,7 +70321,7 @@
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 5,
+   "booked": 4,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -70351,15 +70351,6 @@
      "lat": 25.040494,
      "lng": 55.195971,
      "where_exactly": "Outside drop-off area by Tim Hortons, City Centre Me'aisem."
-    },
-    {
-     "code": "C3-09",
-     "name": "Spinneys, Town Square",
-     "time": "06:45",
-     "action": "pick_up",
-     "lat": 25.0099047,
-     "lng": 55.2902856,
-     "where_exactly": "Nshama Community Centre car park."
     },
     {
      "code": "C3-14",
@@ -70395,7 +70386,7 @@
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 4,
+   "booked": 5,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -70745,15 +70736,6 @@
      "where_exactly": "Tower D, near Aster Pharmacy."
     },
     {
-     "code": "C3-09",
-     "name": "Spinneys, Town Square",
-     "time": "17:22",
-     "action": "set_down",
-     "lat": 25.0099047,
-     "lng": 55.2902856,
-     "where_exactly": "Nshama Community Centre car park."
-    },
-    {
      "code": "C3-08",
      "name": "Serena, Bella Casa",
      "time": "17:33",
@@ -70763,9 +70745,18 @@
      "where_exactly": "Community entrance off D54."
     },
     {
+     "code": "C3-09",
+     "name": "Spinneys, Town Square",
+     "time": "17:43",
+     "action": "set_down",
+     "lat": 25.0099047,
+     "lng": 55.2902856,
+     "where_exactly": "Nshama Community Centre car park."
+    },
+    {
      "code": "C3-21",
      "name": "DAMAC Hills Mall, DAMAC Hills",
-     "time": "17:49",
+     "time": "17:56",
      "action": "set_down",
      "lat": 25.0179838,
      "lng": 55.2468052,
@@ -75686,7 +75677,7 @@
     {
      "code": "C3-09",
      "name": "Spinneys, Town Square",
-     "time": "17:22",
+     "time": "17:30",
      "action": "set_down",
      "lat": 25.0099047,
      "lng": 55.2902856,
@@ -79599,7 +79590,7 @@
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 5,
+   "booked": 4,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -79629,15 +79620,6 @@
      "lat": 25.046685,
      "lng": 55.243063,
      "where_exactly": "Pick and drop point in front of First Avenue Mall, by Shake Shack."
-    },
-    {
-     "code": "C3-09",
-     "name": "Spinneys, Town Square",
-     "time": "06:31",
-     "action": "pick_up",
-     "lat": 25.0099047,
-     "lng": 55.2902856,
-     "where_exactly": "Nshama Community Centre car park."
     },
     {
      "code": "C3-25",
@@ -79796,7 +79778,7 @@
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 2,
+   "booked": 3,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -84487,7 +84469,7 @@
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 7,
+   "booked": 6,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -84526,15 +84508,6 @@
      "lat": 25.0179838,
      "lng": 55.2468052,
      "where_exactly": "Mall drop-off, DAMAC Hills."
-    },
-    {
-     "code": "C3-09",
-     "name": "Spinneys, Town Square",
-     "time": "06:28",
-     "action": "pick_up",
-     "lat": 25.0099047,
-     "lng": 55.2902856,
-     "where_exactly": "Nshama Community Centre car park."
     },
     {
      "code": "C3-14",
@@ -84579,7 +84552,7 @@
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 2,
+   "booked": 3,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -84600,6 +84573,15 @@
      "lat": 25.040494,
      "lng": 55.195971,
      "where_exactly": "Outside drop-off area by Tim Hortons, City Centre Me'aisem."
+    },
+    {
+     "code": "C3-09",
+     "name": "Spinneys, Town Square",
+     "time": "09:03",
+     "action": "pick_up",
+     "lat": 25.0099047,
+     "lng": 55.2902856,
+     "where_exactly": "Nshama Community Centre car park."
     },
     {
      "code": "UOB",
@@ -89137,7 +89119,7 @@
     {
      "code": "C3-09",
      "name": "Spinneys, Town Square",
-     "time": "06:33",
+     "time": "06:30",
      "action": "pick_up",
      "lat": 25.0099047,
      "lng": 55.2902856,
@@ -89500,7 +89482,7 @@
    "arrive_campus": null,
    "leave_campus": "16:30",
    "start": "16:30",
-   "end": "18:04",
+   "end": "18:18",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
@@ -89518,15 +89500,6 @@
      "where_exactly": ""
     },
     {
-     "code": "C3-09",
-     "name": "Spinneys, Town Square",
-     "time": "17:19",
-     "action": "set_down",
-     "lat": 25.0099047,
-     "lng": 55.2902856,
-     "where_exactly": "Nshama Community Centre car park."
-    },
-    {
      "code": "C3-08",
      "name": "Serena, Bella Casa",
      "time": "17:31",
@@ -89536,9 +89509,18 @@
      "where_exactly": "Community entrance off D54."
     },
     {
+     "code": "C3-09",
+     "name": "Spinneys, Town Square",
+     "time": "17:41",
+     "action": "set_down",
+     "lat": 25.0099047,
+     "lng": 55.2902856,
+     "where_exactly": "Nshama Community Centre car park."
+    },
+    {
      "code": "C3-01",
      "name": "JSS International School",
-     "time": "17:54",
+     "time": "18:08",
      "action": "set_down",
      "lat": 25.0665,
      "lng": 55.2046,
@@ -89547,7 +89529,7 @@
     {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "18:04",
+     "time": "18:18",
      "action": "set_down",
      "lat": 25.040494,
      "lng": 55.195971,
@@ -93705,7 +93687,7 @@
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 5,
+   "booked": 4,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -93735,15 +93717,6 @@
      "lat": 25.040494,
      "lng": 55.195971,
      "where_exactly": "Outside drop-off area by Tim Hortons, City Centre Me'aisem."
-    },
-    {
-     "code": "C3-09",
-     "name": "Spinneys, Town Square",
-     "time": "06:45",
-     "action": "pick_up",
-     "lat": 25.0099047,
-     "lng": 55.2902856,
-     "where_exactly": "Nshama Community Centre car park."
     },
     {
      "code": "C3-14",
@@ -93779,7 +93752,7 @@
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 1,
+   "booked": 2,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -93791,6 +93764,15 @@
      "lat": 25.040494,
      "lng": 55.195971,
      "where_exactly": "Outside drop-off area by Tim Hortons, City Centre Me'aisem."
+    },
+    {
+     "code": "C3-09",
+     "name": "Spinneys, Town Square",
+     "time": "09:03",
+     "action": "pick_up",
+     "lat": 25.0099047,
+     "lng": 55.2902856,
+     "where_exactly": "Nshama Community Centre car park."
     },
     {
      "code": "UOB",
@@ -94102,15 +94084,6 @@
      "where_exactly": "Tower D, near Aster Pharmacy."
     },
     {
-     "code": "C3-09",
-     "name": "Spinneys, Town Square",
-     "time": "17:22",
-     "action": "set_down",
-     "lat": 25.0099047,
-     "lng": 55.2902856,
-     "where_exactly": "Nshama Community Centre car park."
-    },
-    {
      "code": "C3-08",
      "name": "Serena, Bella Casa",
      "time": "17:33",
@@ -94120,9 +94093,18 @@
      "where_exactly": "Community entrance off D54."
     },
     {
+     "code": "C3-09",
+     "name": "Spinneys, Town Square",
+     "time": "17:43",
+     "action": "set_down",
+     "lat": 25.0099047,
+     "lng": 55.2902856,
+     "where_exactly": "Nshama Community Centre car park."
+    },
+    {
      "code": "C3-21",
      "name": "DAMAC Hills Mall, DAMAC Hills",
-     "time": "17:49",
+     "time": "17:56",
      "action": "set_down",
      "lat": 25.0179838,
      "lng": 55.2468052,
@@ -98902,7 +98884,7 @@
     {
      "code": "C3-09",
      "name": "Spinneys, Town Square",
-     "time": "17:22",
+     "time": "17:25",
      "action": "set_down",
      "lat": 25.0099047,
      "lng": 55.2902856,
@@ -98911,7 +98893,7 @@
     {
      "code": "C3-21",
      "name": "DAMAC Hills Mall, DAMAC Hills",
-     "time": "17:37",
+     "time": "17:38",
      "action": "set_down",
      "lat": 25.0179838,
      "lng": 55.2468052,
@@ -102643,7 +102625,7 @@
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 3,
+   "booked": 2,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -102664,15 +102646,6 @@
      "lat": 25.036628,
      "lng": 55.221187,
      "where_exactly": "Outside the front of the Eagle Heights building."
-    },
-    {
-     "code": "C3-09",
-     "name": "Spinneys, Town Square",
-     "time": "06:45",
-     "action": "pick_up",
-     "lat": 25.0099047,
-     "lng": 55.2902856,
-     "where_exactly": "Nshama Community Centre car park."
     },
     {
      "code": "UOB",
@@ -102822,7 +102795,7 @@
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 2,
+   "booked": 3,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -107398,7 +107371,7 @@
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 6,
+   "booked": 5,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -107428,15 +107401,6 @@
      "lat": 25.0660395,
      "lng": 55.2162257,
      "where_exactly": "Main entrance."
-    },
-    {
-     "code": "C3-09",
-     "name": "Spinneys, Town Square",
-     "time": "06:21",
-     "action": "pick_up",
-     "lat": 25.0099047,
-     "lng": 55.2902856,
-     "where_exactly": "Nshama Community Centre car park."
     },
     {
      "code": "C3-14",
@@ -107481,7 +107445,7 @@
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 3,
+   "booked": 4,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -112113,7 +112077,7 @@
     {
      "code": "C3-09",
      "name": "Spinneys, Town Square",
-     "time": "06:24",
+     "time": "06:23",
      "action": "pick_up",
      "lat": 25.0099047,
      "lng": 55.2902856,
@@ -112476,7 +112440,7 @@
    "arrive_campus": null,
    "leave_campus": "16:30",
    "start": "16:30",
-   "end": "18:04",
+   "end": "18:18",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
@@ -112494,15 +112458,6 @@
      "where_exactly": ""
     },
     {
-     "code": "C3-09",
-     "name": "Spinneys, Town Square",
-     "time": "17:19",
-     "action": "set_down",
-     "lat": 25.0099047,
-     "lng": 55.2902856,
-     "where_exactly": "Nshama Community Centre car park."
-    },
-    {
      "code": "C3-08",
      "name": "Serena, Bella Casa",
      "time": "17:31",
@@ -112512,9 +112467,18 @@
      "where_exactly": "Community entrance off D54."
     },
     {
+     "code": "C3-09",
+     "name": "Spinneys, Town Square",
+     "time": "17:41",
+     "action": "set_down",
+     "lat": 25.0099047,
+     "lng": 55.2902856,
+     "where_exactly": "Nshama Community Centre car park."
+    },
+    {
      "code": "C3-01",
      "name": "JSS International School",
-     "time": "17:54",
+     "time": "18:08",
      "action": "set_down",
      "lat": 25.0665,
      "lng": 55.2046,
@@ -112523,7 +112487,7 @@
     {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "18:04",
+     "time": "18:18",
      "action": "set_down",
      "lat": 25.040494,
      "lng": 55.195971,
@@ -116606,7 +116570,7 @@
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 6,
+   "booked": 5,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -116636,15 +116600,6 @@
      "lat": 25.036628,
      "lng": 55.221187,
      "where_exactly": "Outside the front of the Eagle Heights building."
-    },
-    {
-     "code": "C3-09",
-     "name": "Spinneys, Town Square",
-     "time": "06:21",
-     "action": "pick_up",
-     "lat": 25.0099047,
-     "lng": 55.2902856,
-     "where_exactly": "Nshama Community Centre car park."
     },
     {
      "code": "C3-14",
@@ -116689,7 +116644,7 @@
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 1,
+   "booked": 2,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -116701,6 +116656,15 @@
      "lat": 25.040494,
      "lng": 55.195971,
      "where_exactly": "Outside drop-off area by Tim Hortons, City Centre Me'aisem."
+    },
+    {
+     "code": "C3-09",
+     "name": "Spinneys, Town Square",
+     "time": "09:03",
+     "action": "pick_up",
+     "lat": 25.0099047,
+     "lng": 55.2902856,
+     "where_exactly": "Nshama Community Centre car park."
     },
     {
      "code": "UOB",
@@ -116994,7 +116958,7 @@
    "arrive_campus": null,
    "leave_campus": "16:30",
    "start": "16:30",
-   "end": "18:15",
+   "end": "18:17",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
@@ -117021,15 +116985,6 @@
      "where_exactly": "Tower D, near Aster Pharmacy."
     },
     {
-     "code": "C3-09",
-     "name": "Spinneys, Town Square",
-     "time": "17:25",
-     "action": "set_down",
-     "lat": 25.0099047,
-     "lng": 55.2902856,
-     "where_exactly": "Nshama Community Centre car park."
-    },
-    {
      "code": "C3-08",
      "name": "Serena, Bella Casa",
      "time": "17:36",
@@ -117039,9 +116994,18 @@
      "where_exactly": "Community entrance off D54."
     },
     {
+     "code": "C3-09",
+     "name": "Spinneys, Town Square",
+     "time": "17:46",
+     "action": "set_down",
+     "lat": 25.0099047,
+     "lng": 55.2902856,
+     "where_exactly": "Nshama Community Centre car park."
+    },
+    {
      "code": "C3-21",
      "name": "DAMAC Hills Mall, DAMAC Hills",
-     "time": "17:50",
+     "time": "17:59",
      "action": "set_down",
      "lat": 25.0179838,
      "lng": 55.2468052,
@@ -117050,7 +117014,7 @@
     {
      "code": "C3-01",
      "name": "JSS International School",
-     "time": "18:15",
+     "time": "18:17",
      "action": "set_down",
      "lat": 25.0665,
      "lng": 55.2046,
@@ -121693,7 +121657,7 @@
     {
      "code": "C3-09",
      "name": "Spinneys, Town Square",
-     "time": "17:22",
+     "time": "17:27",
      "action": "set_down",
      "lat": 25.0099047,
      "lng": 55.2902856,
@@ -125277,7 +125241,7 @@
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 3,
+   "booked": 2,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -125298,15 +125262,6 @@
      "lat": 25.036628,
      "lng": 55.221187,
      "where_exactly": "Outside the front of the Eagle Heights building."
-    },
-    {
-     "code": "C3-09",
-     "name": "Spinneys, Town Square",
-     "time": "06:45",
-     "action": "pick_up",
-     "lat": 25.0099047,
-     "lng": 55.2902856,
-     "where_exactly": "Nshama Community Centre car park."
     },
     {
      "code": "UOB",
@@ -125456,7 +125411,7 @@
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 2,
+   "booked": 3,
    "seats": 15,
    "status": "operating",
    "stops": [
