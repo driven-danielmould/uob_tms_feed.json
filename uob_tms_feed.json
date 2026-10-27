@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-27T02:29:45Z",
+ "generated_at": "2026-10-27T02:32:15Z",
  "week": "2026-10-09 to 2026-11-15",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -63765,7 +63765,7 @@
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 15,
+   "booked": 14,
    "seats": 34,
    "status": "operating",
    "stops": [
@@ -63903,7 +63903,7 @@
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 2,
+   "booked": 3,
    "seats": 34,
    "status": "operating",
    "stops": [
@@ -63924,6 +63924,25 @@
      "lat": 25.287666,
      "lng": 55.361619,
      "where_exactly": "Kerbside outside the Bahwan Tower entrance; no lay-by, bus stops in the road."
+    },
+    {
+     "code": "C1-23",
+     "name": "Centrepoint, Mirdif City Centre",
+     "time": "09:17",
+     "action": "pick_up",
+     "lat": 25.2180926,
+     "lng": 55.4085703,
+     "where_exactly": "Centrepoint entrance, Mirdif City Centre (Tripoli St side) - kerb to be confirmed on audit.",
+     "offer_only_stop": true
+    },
+    {
+     "code": "C1-12",
+     "name": "Uptown Mirdif",
+     "time": "09:22",
+     "action": "pick_up",
+     "lat": 25.224246,
+     "lng": 55.423615,
+     "where_exactly": "Kerbside outside Exotic Fin Store, Uptown Mirdif, corner of Algeria St."
     },
     {
      "code": "UOB",
