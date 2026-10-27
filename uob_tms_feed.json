@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-27T17:23:38Z",
+ "generated_at": "2026-10-27T17:25:21Z",
  "week": "2026-10-09 to 2026-11-15",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -71861,62 +71861,37 @@
    "day": "Wed",
    "route": "R6",
    "direction": "from_campus",
-   "service": "regular",
+   "service": "undergraduate",
    "arrive_campus": null,
    "leave_campus": "14:15",
    "start": "14:15",
-   "end": "16:00",
+   "end": "14:55",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 0,
+   "booked": 1,
    "seats": 15,
-   "offer_only": true,
+   "status": "operating",
    "stops": [
     {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
      "time": "14:15",
-     "action": "pick_up"
-    },
-    {
-     "code": "C4-09",
-     "name": "Holiday Inn, Al Maktoum Airport",
-     "time": "14:33",
-     "action": "set_down"
-    },
-    {
-     "code": "C4-10",
-     "name": "Green Community West gate",
-     "time": "14:50",
-     "action": "set_down"
-    },
-    {
-     "code": "C4-11",
-     "name": "Al Furjan West Centre",
-     "time": "15:07",
-     "action": "set_down"
+     "action": "pick_up",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
     },
     {
      "code": "C4-12",
      "name": "Al Furjan Centre (Pavilion)",
-     "time": "15:25",
-     "action": "set_down"
-    },
-    {
-     "code": "C4-13",
-     "name": "Gardens Metro Station",
-     "time": "15:43",
-     "action": "set_down"
-    },
-    {
-     "code": "C4-14",
-     "name": "Dubai British School, Jumeirah Park",
-     "time": "16:00",
-     "action": "set_down"
+     "time": "14:55",
+     "action": "set_down",
+     "lat": 25.026111,
+     "lng": 55.153303,
+     "where_exactly": "Spinneys bus stop."
     }
-   ],
-   "status": "on_request"
+   ]
   },
   {
    "run_id": "2026-10-28-R6-O5",
@@ -75445,122 +75420,37 @@
    "day": "Thu",
    "route": "R4",
    "direction": "to_campus",
-   "service": "regular",
+   "service": "undergraduate",
    "arrive_campus": "10:45",
    "leave_campus": null,
-   "start": "08:45",
+   "start": "09:41",
    "end": "10:45",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 0,
+   "booked": 1,
    "seats": 15,
-   "offer_only": true,
+   "status": "operating",
    "stops": [
     {
-     "code": "C3-16",
-     "name": "Souq Extra, Silicon Oasis",
-     "time": "08:45",
-     "action": "pick_up"
-    },
-    {
-     "code": "C3-22",
-     "name": "Oasis Star, Nadd Hessa (Silicon Oasis)",
-     "time": "08:53",
-     "action": "pick_up"
-    },
-    {
-     "code": "C3-15",
-     "name": "Silicon Oasis Avenue Mall 2",
-     "time": "09:00",
-     "action": "pick_up"
-    },
-    {
-     "code": "C3-14",
-     "name": "Skycourts Towers",
-     "time": "09:07",
-     "action": "pick_up"
-    },
-    {
-     "code": "C3-13",
-     "name": "Villanova, La Rosa",
-     "time": "09:15",
-     "action": "pick_up"
-    },
-    {
-     "code": "C3-12",
-     "name": "Arabian Ranches 3",
-     "time": "09:23",
-     "action": "pick_up"
-    },
-    {
-     "code": "C3-11",
-     "name": "Living Legends",
-     "time": "09:30",
-     "action": "pick_up"
-    },
-    {
-     "code": "C3-09",
-     "name": "Spinneys, Town Square",
-     "time": "09:37",
-     "action": "pick_up"
-    },
-    {
-     "code": "C3-08",
-     "name": "Serena, Bella Casa",
-     "time": "09:45",
-     "action": "pick_up"
-    },
-    {
-     "code": "C3-07",
-     "name": "First Avenue Mall, Motor City",
-     "time": "09:53",
-     "action": "pick_up"
-    },
-    {
-     "code": "C3-06",
-     "name": "Elan 1, Tilal Al Ghaf",
-     "time": "10:00",
-     "action": "pick_up"
-    },
-    {
-     "code": "C3-05",
-     "name": "City Centre Me'aisem",
-     "time": "10:07",
-     "action": "pick_up"
-    },
-    {
-     "code": "C3-04",
-     "name": "Dubai International Cricket Stadium",
-     "time": "10:15",
-     "action": "pick_up"
-    },
-    {
-     "code": "C3-03",
-     "name": "Dubai Miracle Garden",
-     "time": "10:23",
-     "action": "pick_up"
-    },
-    {
-     "code": "C3-02",
-     "name": "Circle Mall, JVC",
-     "time": "10:30",
-     "action": "pick_up"
-    },
-    {
-     "code": "C3-01",
-     "name": "JSS International School",
-     "time": "10:37",
-     "action": "pick_up"
+     "code": "C3-17",
+     "name": "Eagle Heights, Dubai Sports City",
+     "time": "09:41",
+     "action": "pick_up",
+     "lat": 25.036628,
+     "lng": 55.221187,
+     "where_exactly": "Outside the front of the Eagle Heights building."
     },
     {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
      "time": "10:45",
-     "action": "set_down"
+     "action": "set_down",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
     }
-   ],
-   "status": "on_request"
+   ]
   },
   {
    "run_id": "2026-10-29-R4-O4",
@@ -76753,62 +76643,37 @@
    "day": "Thu",
    "route": "R6",
    "direction": "to_campus",
-   "service": "regular",
+   "service": "undergraduate",
    "arrive_campus": "12:45",
    "leave_campus": null,
-   "start": "10:45",
+   "start": "12:05",
    "end": "12:45",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 0,
+   "booked": 1,
    "seats": 15,
-   "offer_only": true,
+   "status": "operating",
    "stops": [
-    {
-     "code": "C4-14",
-     "name": "Dubai British School, Jumeirah Park",
-     "time": "10:45",
-     "action": "pick_up"
-    },
-    {
-     "code": "C4-13",
-     "name": "Gardens Metro Station",
-     "time": "11:05",
-     "action": "pick_up"
-    },
     {
      "code": "C4-12",
      "name": "Al Furjan Centre (Pavilion)",
-     "time": "11:25",
-     "action": "pick_up"
-    },
-    {
-     "code": "C4-11",
-     "name": "Al Furjan West Centre",
-     "time": "11:45",
-     "action": "pick_up"
-    },
-    {
-     "code": "C4-10",
-     "name": "Green Community West gate",
      "time": "12:05",
-     "action": "pick_up"
-    },
-    {
-     "code": "C4-09",
-     "name": "Holiday Inn, Al Maktoum Airport",
-     "time": "12:25",
-     "action": "pick_up"
+     "action": "pick_up",
+     "lat": 25.026111,
+     "lng": 55.153303,
+     "where_exactly": "Spinneys bus stop."
     },
     {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
      "time": "12:45",
-     "action": "set_down"
+     "action": "set_down",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
     }
-   ],
-   "status": "on_request"
+   ]
   },
   {
    "run_id": "2026-10-29-R6-R1",
@@ -80899,62 +80764,37 @@
    "day": "Fri",
    "route": "R6",
    "direction": "to_campus",
-   "service": "regular",
+   "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:30",
+   "start": "07:04",
    "end": "07:45",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 0,
+   "booked": 1,
    "seats": 15,
-   "offer_only": true,
+   "status": "operating",
    "stops": [
-    {
-     "code": "C4-14",
-     "name": "Dubai British School, Jumeirah Park",
-     "time": "05:30",
-     "action": "pick_up"
-    },
     {
      "code": "C4-13",
      "name": "Gardens Metro Station",
-     "time": "05:52",
-     "action": "pick_up"
-    },
-    {
-     "code": "C4-12",
-     "name": "Al Furjan Centre (Pavilion)",
-     "time": "06:15",
-     "action": "pick_up"
-    },
-    {
-     "code": "C4-11",
-     "name": "Al Furjan West Centre",
-     "time": "06:38",
-     "action": "pick_up"
-    },
-    {
-     "code": "C4-10",
-     "name": "Green Community West gate",
-     "time": "07:00",
-     "action": "pick_up"
-    },
-    {
-     "code": "C4-09",
-     "name": "Holiday Inn, Al Maktoum Airport",
-     "time": "07:22",
-     "action": "pick_up"
+     "time": "07:04",
+     "action": "pick_up",
+     "lat": 25.043761,
+     "lng": 55.134832,
+     "where_exactly": "Exit 1 of the metro station, at the bus stop (Discovery Gardens side)."
     },
     {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
      "time": "07:45",
-     "action": "set_down"
+     "action": "set_down",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
     }
-   ],
-   "status": "on_request"
+   ]
   },
   {
    "run_id": "2026-10-30-R6-O3",
@@ -90776,62 +90616,37 @@
    "day": "Tue",
    "route": "R6",
    "direction": "to_campus",
-   "service": "regular",
+   "service": "undergraduate",
    "arrive_campus": "10:45",
    "leave_campus": null,
-   "start": "08:45",
+   "start": "10:05",
    "end": "10:45",
    "vehicle": "M6",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 0,
+   "booked": 1,
    "seats": 15,
-   "offer_only": true,
+   "status": "operating",
    "stops": [
-    {
-     "code": "C4-14",
-     "name": "Dubai British School, Jumeirah Park",
-     "time": "08:45",
-     "action": "pick_up"
-    },
-    {
-     "code": "C4-13",
-     "name": "Gardens Metro Station",
-     "time": "09:05",
-     "action": "pick_up"
-    },
     {
      "code": "C4-12",
      "name": "Al Furjan Centre (Pavilion)",
-     "time": "09:25",
-     "action": "pick_up"
-    },
-    {
-     "code": "C4-11",
-     "name": "Al Furjan West Centre",
-     "time": "09:45",
-     "action": "pick_up"
-    },
-    {
-     "code": "C4-10",
-     "name": "Green Community West gate",
      "time": "10:05",
-     "action": "pick_up"
-    },
-    {
-     "code": "C4-09",
-     "name": "Holiday Inn, Al Maktoum Airport",
-     "time": "10:25",
-     "action": "pick_up"
+     "action": "pick_up",
+     "lat": 25.026111,
+     "lng": 55.153303,
+     "where_exactly": "Spinneys bus stop."
     },
     {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
      "time": "10:45",
-     "action": "set_down"
+     "action": "set_down",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
     }
-   ],
-   "status": "on_request"
+   ]
   },
   {
    "run_id": "2026-11-03-R6-O4",
@@ -96862,11 +96677,11 @@
    "arrive_campus": null,
    "leave_campus": "21:36",
    "start": "21:36",
-   "end": "22:32",
+   "end": "22:51",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 3,
+   "booked": 4,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -96880,9 +96695,18 @@
      "where_exactly": ""
     },
     {
+     "code": "C2-17",
+     "name": "Al Khoory Hotel Apartments, Al Barsha 1 (rider stop)",
+     "time": "22:10",
+     "action": "set_down",
+     "lat": 25.1126974,
+     "lng": 55.1931632,
+     "where_exactly": "Hotel entrance, Al Barsha 1, near Mashreq / Insurance Market Metro - pick-up and set-down at the door."
+    },
+    {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "22:01",
+     "time": "22:19",
      "action": "set_down",
      "lat": 25.093492,
      "lng": 55.177807,
@@ -96891,7 +96715,7 @@
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "22:06",
+     "time": "22:24",
      "action": "set_down",
      "lat": 25.099769538054428,
      "lng": 55.17320213081937,
@@ -96900,7 +96724,7 @@
     {
      "code": "C4-09",
      "name": "Holiday Inn, Al Maktoum Airport",
-     "time": "22:32",
+     "time": "22:51",
      "action": "set_down",
      "lat": 24.867791,
      "lng": 55.146192,
@@ -110255,6 +110079,44 @@
    ]
   },
   {
+   "run_id": "2026-11-09-R8-O5A",
+   "date": "2026-11-09",
+   "day": "Mon",
+   "route": "R8",
+   "direction": "to_campus",
+   "service": "masters",
+   "arrive_campus": "17:45",
+   "leave_campus": null,
+   "start": "15:33",
+   "end": "17:45",
+   "vehicle": "M8",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 1,
+   "seats": 15,
+   "status": "operating",
+   "stops": [
+    {
+     "code": "C4-03",
+     "name": "Al Wahda Mall",
+     "time": "15:33",
+     "action": "pick_up",
+     "lat": 24.471019,
+     "lng": 54.370278,
+     "where_exactly": "Kerbside at 24.471019, 54.370278 beside Al Wahda Mall - the parent-confirmed point (12 Oct), NOT the RTA shelter on Hazza Bin Zayed St."
+    },
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "17:45",
+     "action": "set_down",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    }
+   ]
+  },
+  {
    "run_id": "2026-11-09-R8-O5C",
    "date": "2026-11-09",
    "day": "Mon",
@@ -110457,6 +110319,44 @@
      "lat": 25.1321925,
      "lng": 55.4223161,
      "where_exactly": ""
+    }
+   ]
+  },
+  {
+   "run_id": "2026-11-09-R8-R4A",
+   "date": "2026-11-09",
+   "day": "Mon",
+   "route": "R8",
+   "direction": "from_campus",
+   "service": "masters",
+   "arrive_campus": null,
+   "leave_campus": "21:36",
+   "start": "21:36",
+   "end": "23:48",
+   "vehicle": "M8",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 1,
+   "seats": 15,
+   "status": "operating",
+   "stops": [
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "21:36",
+     "action": "pick_up",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    },
+    {
+     "code": "C4-03",
+     "name": "Al Wahda Mall",
+     "time": "23:48",
+     "action": "set_down",
+     "lat": 24.471019,
+     "lng": 54.370278,
+     "where_exactly": "Kerbside at 24.471019, 54.370278 beside Al Wahda Mall - the parent-confirmed point (12 Oct), NOT the RTA shelter on Hazza Bin Zayed St."
     }
    ]
   },
@@ -110802,68 +110702,37 @@
    "day": "Tue",
    "route": "R1",
    "direction": "to_campus",
-   "service": "regular",
+   "service": "undergraduate",
    "arrive_campus": "10:45",
    "leave_campus": null,
-   "start": "08:45",
+   "start": "09:45",
    "end": "10:45",
    "vehicle": "M1",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 0,
+   "booked": 1,
    "seats": 15,
-   "offer_only": true,
+   "status": "operating",
    "stops": [
     {
      "code": "C1-02",
      "name": "City Centre Al Zahia",
-     "time": "08:45",
-     "action": "pick_up"
-    },
-    {
-     "code": "C1-06",
-     "name": "Sahara Centre",
-     "time": "09:02",
-     "action": "pick_up"
-    },
-    {
-     "code": "C1-16",
-     "name": "LuLu Hypermarket Al Nahda, Sharjah",
-     "time": "09:19",
-     "action": "pick_up"
-    },
-    {
-     "code": "C1-05",
-     "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "09:36",
-     "action": "pick_up"
-    },
-    {
-     "code": "C1-04",
-     "name": "Nesto Hypermarket, King Faisal St",
-     "time": "09:54",
-     "action": "pick_up"
-    },
-    {
-     "code": "C1-03",
-     "name": "Lulu Hypermarket Maysaloon",
-     "time": "10:11",
-     "action": "pick_up"
-    },
-    {
-     "code": "C1-01",
-     "name": "Al Khor Towers, Ajman",
-     "time": "10:28",
-     "action": "pick_up"
+     "time": "09:45",
+     "action": "pick_up",
+     "lat": 25.318044,
+     "lng": 55.457279,
+     "where_exactly": "Bus stop by the VOX sign, City Centre Al Zahia."
     },
     {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
      "time": "10:45",
-     "action": "set_down"
+     "action": "set_down",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
     }
-   ],
-   "status": "on_request"
+   ]
   },
   {
    "run_id": "2026-11-10-R1-O4",
@@ -112134,80 +112003,37 @@
    "day": "Tue",
    "route": "R3",
    "direction": "to_campus",
-   "service": "regular",
+   "service": "undergraduate",
    "arrive_campus": "10:45",
    "leave_campus": null,
-   "start": "08:45",
+   "start": "10:09",
    "end": "10:45",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 0,
+   "booked": 1,
    "seats": 15,
-   "offer_only": true,
+   "status": "operating",
    "stops": [
-    {
-     "code": "C2-08",
-     "name": "Mall of the Emirates",
-     "time": "08:45",
-     "action": "pick_up"
-    },
-    {
-     "code": "C2-16",
-     "name": "Umm Suqeim Rd bus stop by ENOC 1099, Al Barsha 1",
-     "time": "08:58",
-     "action": "pick_up"
-    },
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "09:12",
-     "action": "pick_up"
-    },
-    {
-     "code": "C2-06",
-     "name": "The Springs Souk",
-     "time": "09:25",
-     "action": "pick_up"
-    },
-    {
-     "code": "C2-05",
-     "name": "The Meadows Village",
-     "time": "09:38",
-     "action": "pick_up"
-    },
-    {
-     "code": "C2-04",
-     "name": "Sobha Realty Metro Station",
-     "time": "09:52",
-     "action": "pick_up"
-    },
-    {
-     "code": "C2-03",
-     "name": "DMCC Metro Station",
-     "time": "10:05",
-     "action": "pick_up"
-    },
-    {
-     "code": "C2-02",
-     "name": "Dubai Marina Mall",
-     "time": "10:18",
-     "action": "pick_up"
-    },
-    {
-     "code": "C2-01",
-     "name": "Al Sarood, Shoreline 13, Palm Jumeirah",
-     "time": "10:32",
-     "action": "pick_up"
+     "time": "10:09",
+     "action": "pick_up",
+     "lat": 25.099769538054428,
+     "lng": 55.17320213081937,
+     "where_exactly": "RTA bus stop \"Dubai Internet City Metro Bus Stop Landside 1\" (landside, Barsha Heights side of the metro) - pick-up and set-down here; coordinator-confirmed pin 12 Oct."
     },
     {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
      "time": "10:45",
-     "action": "set_down"
+     "action": "set_down",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
     }
-   ],
-   "status": "on_request"
+   ]
   },
   {
    "run_id": "2026-11-10-R3-O4",
@@ -114913,6 +114739,44 @@
    ]
   },
   {
+   "run_id": "2026-11-10-R8-O5A",
+   "date": "2026-11-10",
+   "day": "Tue",
+   "route": "R8",
+   "direction": "to_campus",
+   "service": "masters",
+   "arrive_campus": "17:45",
+   "leave_campus": null,
+   "start": "15:33",
+   "end": "17:45",
+   "vehicle": "M8",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 1,
+   "seats": 15,
+   "status": "operating",
+   "stops": [
+    {
+     "code": "C4-03",
+     "name": "Al Wahda Mall",
+     "time": "15:33",
+     "action": "pick_up",
+     "lat": 24.471019,
+     "lng": 54.370278,
+     "where_exactly": "Kerbside at 24.471019, 54.370278 beside Al Wahda Mall - the parent-confirmed point (12 Oct), NOT the RTA shelter on Hazza Bin Zayed St."
+    },
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "17:45",
+     "action": "set_down",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    }
+   ]
+  },
+  {
    "run_id": "2026-11-10-R8-O5N",
    "date": "2026-11-10",
    "day": "Tue",
@@ -115106,6 +114970,44 @@
      "lat": 25.1321925,
      "lng": 55.4223161,
      "where_exactly": ""
+    }
+   ]
+  },
+  {
+   "run_id": "2026-11-10-R8-R4A",
+   "date": "2026-11-10",
+   "day": "Tue",
+   "route": "R8",
+   "direction": "from_campus",
+   "service": "masters",
+   "arrive_campus": null,
+   "leave_campus": "21:36",
+   "start": "21:36",
+   "end": "23:48",
+   "vehicle": "M8",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 1,
+   "seats": 15,
+   "status": "operating",
+   "stops": [
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "21:36",
+     "action": "pick_up",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    },
+    {
+     "code": "C4-03",
+     "name": "Al Wahda Mall",
+     "time": "23:48",
+     "action": "set_down",
+     "lat": 24.471019,
+     "lng": 54.370278,
+     "where_exactly": "Kerbside at 24.471019, 54.370278 beside Al Wahda Mall - the parent-confirmed point (12 Oct), NOT the RTA shelter on Hazza Bin Zayed St."
     }
    ]
   },
@@ -119550,6 +119452,44 @@
    ]
   },
   {
+   "run_id": "2026-11-11-R8-O5A",
+   "date": "2026-11-11",
+   "day": "Wed",
+   "route": "R8",
+   "direction": "to_campus",
+   "service": "masters",
+   "arrive_campus": "17:45",
+   "leave_campus": null,
+   "start": "15:33",
+   "end": "17:45",
+   "vehicle": "M8",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 1,
+   "seats": 15,
+   "status": "operating",
+   "stops": [
+    {
+     "code": "C4-03",
+     "name": "Al Wahda Mall",
+     "time": "15:33",
+     "action": "pick_up",
+     "lat": 24.471019,
+     "lng": 54.370278,
+     "where_exactly": "Kerbside at 24.471019, 54.370278 beside Al Wahda Mall - the parent-confirmed point (12 Oct), NOT the RTA shelter on Hazza Bin Zayed St."
+    },
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "17:45",
+     "action": "set_down",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    }
+   ]
+  },
+  {
    "run_id": "2026-11-11-R8-O5N",
    "date": "2026-11-11",
    "day": "Wed",
@@ -119693,7 +119633,7 @@
    "vehicle": "M8",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 3,
+   "booked": 4,
    "seats": 34,
    "status": "operating",
    "stops": [
@@ -119705,6 +119645,15 @@
      "lat": 24.867791,
      "lng": 55.146192,
      "where_exactly": "Hotel entrance, Aviation City."
+    },
+    {
+     "code": "C2-02",
+     "name": "Dubai Marina Mall",
+     "time": "16:44",
+     "action": "pick_up",
+     "lat": 25.075735,
+     "lng": 55.140981,
+     "where_exactly": "Pick and drop point at Dubai Marina Mall."
     },
     {
      "code": "C2-07",
@@ -119736,6 +119685,44 @@
    ]
   },
   {
+   "run_id": "2026-11-11-R8-R4A",
+   "date": "2026-11-11",
+   "day": "Wed",
+   "route": "R8",
+   "direction": "from_campus",
+   "service": "masters",
+   "arrive_campus": null,
+   "leave_campus": "21:36",
+   "start": "21:36",
+   "end": "23:48",
+   "vehicle": "M8",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 1,
+   "seats": 15,
+   "status": "operating",
+   "stops": [
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "21:36",
+     "action": "pick_up",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    },
+    {
+     "code": "C4-03",
+     "name": "Al Wahda Mall",
+     "time": "23:48",
+     "action": "set_down",
+     "lat": 24.471019,
+     "lng": 54.370278,
+     "where_exactly": "Kerbside at 24.471019, 54.370278 beside Al Wahda Mall - the parent-confirmed point (12 Oct), NOT the RTA shelter on Hazza Bin Zayed St."
+    }
+   ]
+  },
+  {
    "run_id": "2026-11-11-R8-R4S",
    "date": "2026-11-11",
    "day": "Wed",
@@ -119745,11 +119732,11 @@
    "arrive_campus": null,
    "leave_campus": "21:36",
    "start": "21:36",
-   "end": "22:32",
+   "end": "22:42",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 3,
+   "booked": 4,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -119781,9 +119768,18 @@
      "where_exactly": "RTA bus stop \"Dubai Internet City Metro Bus Stop Landside 1\" (landside, Barsha Heights side of the metro) - pick-up and set-down here; coordinator-confirmed pin 12 Oct."
     },
     {
+     "code": "C2-02",
+     "name": "Dubai Marina Mall",
+     "time": "22:18",
+     "action": "set_down",
+     "lat": 25.075735,
+     "lng": 55.140981,
+     "where_exactly": "Pick and drop point at Dubai Marina Mall."
+    },
+    {
      "code": "C4-09",
      "name": "Holiday Inn, Al Maktoum Airport",
-     "time": "22:32",
+     "time": "22:42",
      "action": "set_down",
      "lat": 24.867791,
      "lng": 55.146192,
