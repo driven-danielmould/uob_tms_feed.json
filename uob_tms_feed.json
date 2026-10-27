@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-27T17:01:34Z",
+ "generated_at": "2026-10-27T17:04:05Z",
  "week": "2026-10-09 to 2026-11-15",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -69691,7 +69691,7 @@
    "vehicle": "M3",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 12,
+   "booked": 13,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -69748,6 +69748,15 @@
      "lat": 25.1110756,
      "lng": 55.2057285,
      "where_exactly": "Kerbside outside the building entrance; do not enter the car park."
+    },
+    {
+     "code": "C2-16",
+     "name": "Umm Suqeim Rd bus stop by ENOC 1099, Al Barsha 1",
+     "time": "07:12",
+     "action": "pick_up",
+     "lat": 25.1184,
+     "lng": 55.2077,
+     "where_exactly": "RTA bus stop on Umm Suqeim Rd (D63) beside ENOC 1099, Al Barsha 1 - northbound kerb for pick-ups, southbound for set-downs; exact pin to confirm."
     },
     {
      "code": "UOB",
@@ -70156,11 +70165,11 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "19:47",
+   "end": "20:15",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 9,
+   "booked": 10,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -70174,9 +70183,18 @@
      "where_exactly": ""
     },
     {
+     "code": "C2-16",
+     "name": "Umm Suqeim Rd bus stop by ENOC 1099, Al Barsha 1",
+     "time": "19:16",
+     "action": "set_down",
+     "lat": 25.1184,
+     "lng": 55.2077,
+     "where_exactly": "RTA bus stop on Umm Suqeim Rd (D63) beside ENOC 1099, Al Barsha 1 - northbound kerb for pick-ups, southbound for set-downs; exact pin to confirm."
+    },
+    {
      "code": "C2-06",
      "name": "The Springs Souk",
-     "time": "18:51",
+     "time": "19:32",
      "action": "set_down",
      "lat": 25.065917,
      "lng": 55.192107,
@@ -70185,7 +70203,7 @@
     {
      "code": "C2-09",
      "name": "Springs 10 Gatehouse",
-     "time": "19:02",
+     "time": "19:39",
      "action": "set_down",
      "lat": 25.0556628,
      "lng": 55.1803096,
@@ -70194,7 +70212,7 @@
     {
      "code": "C2-03",
      "name": "DMCC Metro Station",
-     "time": "19:16",
+     "time": "19:52",
      "action": "set_down",
      "lat": 25.07122,
      "lng": 55.137072,
@@ -70203,7 +70221,7 @@
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "19:21",
+     "time": "19:56",
      "action": "set_down",
      "lat": 25.075735,
      "lng": 55.140981,
@@ -70212,7 +70230,7 @@
     {
      "code": "C2-04",
      "name": "Sobha Realty Metro Station",
-     "time": "19:27",
+     "time": "20:01",
      "action": "set_down",
      "lat": 25.08243,
      "lng": 55.148317,
@@ -70221,7 +70239,7 @@
     {
      "code": "C2-15",
      "name": "Al Nakheel 2A, The Greens",
-     "time": "19:36",
+     "time": "20:10",
      "action": "set_down",
      "lat": 25.09445,
      "lng": 55.1697,
@@ -70230,7 +70248,7 @@
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "19:47",
+     "time": "20:15",
      "action": "set_down",
      "lat": 25.099769538054428,
      "lng": 55.17320213081937,
@@ -74713,7 +74731,7 @@
    "vehicle": "M3",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 1,
+   "booked": 2,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -74725,6 +74743,15 @@
      "lat": 25.09445,
      "lng": 55.1697,
      "where_exactly": "Kerbside outside Al Nakheel 2A on Street 2, The Greens. Do not enter the building car park."
+    },
+    {
+     "code": "C2-16",
+     "name": "Umm Suqeim Rd bus stop by ENOC 1099, Al Barsha 1",
+     "time": "10:21",
+     "action": "pick_up",
+     "lat": 25.1184,
+     "lng": 55.2077,
+     "where_exactly": "RTA bus stop on Umm Suqeim Rd (D63) beside ENOC 1099, Al Barsha 1 - northbound kerb for pick-ups, southbound for set-downs; exact pin to confirm."
     },
     {
      "code": "UOB",
@@ -74803,11 +74830,11 @@
    "arrive_campus": null,
    "leave_campus": "14:15",
    "start": "14:15",
-   "end": "15:16",
+   "end": "15:59",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 5,
+   "booked": 6,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -74821,9 +74848,18 @@
      "where_exactly": ""
     },
     {
+     "code": "C2-16",
+     "name": "Umm Suqeim Rd bus stop by ENOC 1099, Al Barsha 1",
+     "time": "15:16",
+     "action": "set_down",
+     "lat": 25.1184,
+     "lng": 55.2077,
+     "where_exactly": "RTA bus stop on Umm Suqeim Rd (D63) beside ENOC 1099, Al Barsha 1 - northbound kerb for pick-ups, southbound for set-downs; exact pin to confirm."
+    },
+    {
      "code": "C2-10",
      "name": "Al Manaf Building, Al Barsha 1",
-     "time": "14:39",
+     "time": "15:21",
      "action": "set_down",
      "lat": 25.1110756,
      "lng": 55.2057285,
@@ -74832,7 +74868,7 @@
     {
      "code": "C2-03",
      "name": "DMCC Metro Station",
-     "time": "14:55",
+     "time": "15:42",
      "action": "set_down",
      "lat": 25.07122,
      "lng": 55.137072,
@@ -74841,7 +74877,7 @@
     {
      "code": "C2-04",
      "name": "Sobha Realty Metro Station",
-     "time": "15:02",
+     "time": "15:49",
      "action": "set_down",
      "lat": 25.08243,
      "lng": 55.148317,
@@ -74850,7 +74886,7 @@
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "15:16",
+     "time": "15:59",
      "action": "set_down",
      "lat": 25.099769538054428,
      "lng": 55.17320213081937,
@@ -79069,7 +79105,7 @@
    "vehicle": "M3",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 6,
+   "booked": 7,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -79117,6 +79153,15 @@
      "lat": 25.1110756,
      "lng": 55.2057285,
      "where_exactly": "Kerbside outside the building entrance; do not enter the car park."
+    },
+    {
+     "code": "C2-16",
+     "name": "Umm Suqeim Rd bus stop by ENOC 1099, Al Barsha 1",
+     "time": "06:55",
+     "action": "pick_up",
+     "lat": 25.1184,
+     "lng": 55.2077,
+     "where_exactly": "RTA bus stop on Umm Suqeim Rd (D63) beside ENOC 1099, Al Barsha 1 - northbound kerb for pick-ups, southbound for set-downs; exact pin to confirm."
     },
     {
      "code": "UOB",
@@ -79366,11 +79411,11 @@
    "arrive_campus": null,
    "leave_campus": "12:15",
    "start": "12:15",
-   "end": "13:22",
+   "end": "14:11",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 10,
+   "booked": 11,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -79384,9 +79429,18 @@
      "where_exactly": ""
     },
     {
+     "code": "C2-16",
+     "name": "Umm Suqeim Rd bus stop by ENOC 1099, Al Barsha 1",
+     "time": "13:16",
+     "action": "set_down",
+     "lat": 25.1184,
+     "lng": 55.2077,
+     "where_exactly": "RTA bus stop on Umm Suqeim Rd (D63) beside ENOC 1099, Al Barsha 1 - northbound kerb for pick-ups, southbound for set-downs; exact pin to confirm."
+    },
+    {
      "code": "C2-10",
      "name": "Al Manaf Building, Al Barsha 1",
-     "time": "12:39",
+     "time": "13:21",
      "action": "set_down",
      "lat": 25.1110756,
      "lng": 55.2057285,
@@ -79395,7 +79449,7 @@
     {
      "code": "C2-15",
      "name": "Al Nakheel 2A, The Greens",
-     "time": "12:50",
+     "time": "13:33",
      "action": "set_down",
      "lat": 25.09445,
      "lng": 55.1697,
@@ -79404,7 +79458,7 @@
     {
      "code": "C2-11",
      "name": "Al Asmawi Building, Al Thanyah 1",
-     "time": "12:55",
+     "time": "13:38",
      "action": "set_down",
      "lat": 25.093492,
      "lng": 55.177807,
@@ -79413,7 +79467,7 @@
     {
      "code": "C2-03",
      "name": "DMCC Metro Station",
-     "time": "13:02",
+     "time": "13:52",
      "action": "set_down",
      "lat": 25.07122,
      "lng": 55.137072,
@@ -79422,7 +79476,7 @@
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "13:06",
+     "time": "13:56",
      "action": "set_down",
      "lat": 25.075735,
      "lng": 55.140981,
@@ -79431,7 +79485,7 @@
     {
      "code": "C2-04",
      "name": "Sobha Realty Metro Station",
-     "time": "13:11",
+     "time": "14:01",
      "action": "set_down",
      "lat": 25.08243,
      "lng": 55.148317,
@@ -79440,7 +79494,7 @@
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "13:22",
+     "time": "14:11",
      "action": "set_down",
      "lat": 25.099769538054428,
      "lng": 55.17320213081937,
@@ -88565,7 +88619,7 @@
    "vehicle": "M3",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 7,
+   "booked": 8,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -88604,6 +88658,15 @@
      "lat": 25.1110756,
      "lng": 55.2057285,
      "where_exactly": "Kerbside outside the building entrance; do not enter the car park."
+    },
+    {
+     "code": "C2-16",
+     "name": "Umm Suqeim Rd bus stop by ENOC 1099, Al Barsha 1",
+     "time": "06:54",
+     "action": "pick_up",
+     "lat": 25.1184,
+     "lng": 55.2077,
+     "where_exactly": "RTA bus stop on Umm Suqeim Rd (D63) beside ENOC 1099, Al Barsha 1 - northbound kerb for pick-ups, southbound for set-downs; exact pin to confirm."
     },
     {
      "code": "UOB",
@@ -88947,11 +89010,11 @@
    "arrive_campus": null,
    "leave_campus": "16:30",
    "start": "16:30",
-   "end": "17:59",
+   "end": "18:28",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 9,
+   "booked": 10,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -88965,9 +89028,18 @@
      "where_exactly": ""
     },
     {
+     "code": "C2-16",
+     "name": "Umm Suqeim Rd bus stop by ENOC 1099, Al Barsha 1",
+     "time": "17:31",
+     "action": "set_down",
+     "lat": 25.1184,
+     "lng": 55.2077,
+     "where_exactly": "RTA bus stop on Umm Suqeim Rd (D63) beside ENOC 1099, Al Barsha 1 - northbound kerb for pick-ups, southbound for set-downs; exact pin to confirm."
+    },
+    {
      "code": "C2-10",
      "name": "Al Manaf Building, Al Barsha 1",
-     "time": "17:01",
+     "time": "17:36",
      "action": "set_down",
      "lat": 25.1110756,
      "lng": 55.2057285,
@@ -88976,7 +89048,7 @@
     {
      "code": "C2-15",
      "name": "Al Nakheel 2A, The Greens",
-     "time": "17:15",
+     "time": "17:48",
      "action": "set_down",
      "lat": 25.09445,
      "lng": 55.1697,
@@ -88985,7 +89057,7 @@
     {
      "code": "C2-09",
      "name": "Springs 10 Gatehouse",
-     "time": "17:29",
+     "time": "18:01",
      "action": "set_down",
      "lat": 25.0556628,
      "lng": 55.1803096,
@@ -88994,7 +89066,7 @@
     {
      "code": "C2-03",
      "name": "DMCC Metro Station",
-     "time": "17:44",
+     "time": "18:14",
      "action": "set_down",
      "lat": 25.07122,
      "lng": 55.137072,
@@ -89003,7 +89075,7 @@
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "17:59",
+     "time": "18:28",
      "action": "set_down",
      "lat": 25.099769538054428,
      "lng": 55.17320213081937,
