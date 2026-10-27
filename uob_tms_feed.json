@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-27T03:05:48Z",
+ "generated_at": "2026-10-27T03:52:57Z",
  "week": "2026-10-09 to 2026-11-15",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -1318,6 +1318,25 @@
      "rider_instructions": "Wait at the kerb outside your villa. Be here 5 minutes before your time and look for the yellow M sign in the bus windscreen.",
      "driver_instructions": "Kerbside outside Villa 46, La Rosa 1, Villanova. Only served on booked days.",
      "type": "rider_only"
+    },
+    {
+     "code": "C3-27",
+     "order": 24,
+     "name": "DAMAC Ghalia, JVC (rider stop)",
+     "lat": 25.0531125,
+     "lng": 55.1989628,
+     "google_place_id": "ChIJ2zdDTktsXz4RAIdjW3myiMA",
+     "where_exactly": "DAMAC Ghalia main entrance, Lazuward Street, JVC - pick-up and set-down at the door (Tower 108 is next door).",
+     "pickup_lat": 25.0531125,
+     "pickup_lng": 55.1989628,
+     "pickup_where_exactly": "DAMAC Ghalia main entrance, Lazuward Street, JVC - pick-up and set-down at the door (Tower 108 is next door).",
+     "setdown_lat": 25.0531125,
+     "setdown_lng": 55.1989628,
+     "setdown_where_exactly": "DAMAC Ghalia main entrance, Lazuward Street, JVC - pick-up and set-down at the door (Tower 108 is next door).",
+     "audited": false,
+     "rider_instructions": "DAMAC Ghalia main entrance, Lazuward Street, JVC - pick-up and set-down at the door (Tower 108 is next door).",
+     "driver_instructions": "DAMAC Ghalia main entrance, Lazuward Street, JVC - pick-up and set-down at the door (Tower 108 is next door).",
+     "type": "rider"
     }
    ]
   },
@@ -86664,7 +86683,7 @@
    "service": "masters",
    "arrive_campus": "17:45",
    "leave_campus": null,
-   "start": "16:10",
+   "start": "16:09",
    "end": "17:45",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
@@ -86674,13 +86693,13 @@
    "status": "operating",
    "stops": [
     {
-     "code": "C3-19",
-     "name": "Regina Tower, JVC",
-     "time": "16:10",
+     "code": "C3-27",
+     "name": "DAMAC Ghalia, JVC (rider stop)",
+     "time": "16:09",
      "action": "pick_up",
-     "lat": 25.057284,
-     "lng": 55.212609,
-     "where_exactly": "Kerbside on 24 Street outside the tower entrance; do not enter the car park."
+     "lat": 25.0531125,
+     "lng": 55.1989628,
+     "where_exactly": "DAMAC Ghalia main entrance, Lazuward Street, JVC - pick-up and set-down at the door (Tower 108 is next door)."
     },
     {
      "code": "C3-17",
@@ -86929,7 +86948,7 @@
    "arrive_campus": null,
    "leave_campus": "21:36",
    "start": "21:36",
-   "end": "22:30",
+   "end": "22:31",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
@@ -86974,13 +86993,13 @@
      "where_exactly": "Outside the front of the Eagle Heights building."
     },
     {
-     "code": "C3-19",
-     "name": "Regina Tower, JVC",
-     "time": "22:30",
+     "code": "C3-27",
+     "name": "DAMAC Ghalia, JVC (rider stop)",
+     "time": "22:31",
      "action": "set_down",
-     "lat": 25.057284,
-     "lng": 55.212609,
-     "where_exactly": "Kerbside on 24 Street outside the tower entrance; do not enter the car park."
+     "lat": 25.0531125,
+     "lng": 55.1989628,
+     "where_exactly": "DAMAC Ghalia main entrance, Lazuward Street, JVC - pick-up and set-down at the door (Tower 108 is next door)."
     }
    ]
   },
@@ -96115,7 +96134,7 @@
    "service": "masters",
    "arrive_campus": "17:45",
    "leave_campus": null,
-   "start": "16:10",
+   "start": "16:09",
    "end": "17:45",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
@@ -96125,13 +96144,13 @@
    "status": "operating",
    "stops": [
     {
-     "code": "C3-19",
-     "name": "Regina Tower, JVC",
-     "time": "16:10",
+     "code": "C3-27",
+     "name": "DAMAC Ghalia, JVC (rider stop)",
+     "time": "16:09",
      "action": "pick_up",
-     "lat": 25.057284,
-     "lng": 55.212609,
-     "where_exactly": "Kerbside on 24 Street outside the tower entrance; do not enter the car park."
+     "lat": 25.0531125,
+     "lng": 55.1989628,
+     "where_exactly": "DAMAC Ghalia main entrance, Lazuward Street, JVC - pick-up and set-down at the door (Tower 108 is next door)."
     },
     {
      "code": "C3-17",
@@ -96340,7 +96359,7 @@
    "arrive_campus": null,
    "leave_campus": "21:36",
    "start": "21:36",
-   "end": "22:29",
+   "end": "22:30",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
@@ -96385,13 +96404,13 @@
      "where_exactly": "Outside the front of the Eagle Heights building."
     },
     {
-     "code": "C3-19",
-     "name": "Regina Tower, JVC",
-     "time": "22:29",
+     "code": "C3-27",
+     "name": "DAMAC Ghalia, JVC (rider stop)",
+     "time": "22:30",
      "action": "set_down",
-     "lat": 25.057284,
-     "lng": 55.212609,
-     "where_exactly": "Kerbside on 24 Street outside the tower entrance; do not enter the car park."
+     "lat": 25.0531125,
+     "lng": 55.1989628,
+     "where_exactly": "DAMAC Ghalia main entrance, Lazuward Street, JVC - pick-up and set-down at the door (Tower 108 is next door)."
     }
    ]
   },
@@ -104808,13 +104827,13 @@
      "where_exactly": "Pick and drop point at Dubai Marina Mall."
     },
     {
-     "code": "C3-19",
-     "name": "Regina Tower, JVC",
-     "time": "07:28",
+     "code": "C3-27",
+     "name": "DAMAC Ghalia, JVC (rider stop)",
+     "time": "07:29",
      "action": "pick_up",
-     "lat": 25.057284,
-     "lng": 55.212609,
-     "where_exactly": "Kerbside on 24 Street outside the tower entrance; do not enter the car park."
+     "lat": 25.0531125,
+     "lng": 55.1989628,
+     "where_exactly": "DAMAC Ghalia main entrance, Lazuward Street, JVC - pick-up and set-down at the door (Tower 108 is next door)."
     },
     {
      "code": "C3-21",
@@ -104902,7 +104921,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "19:38",
+   "end": "19:40",
    "vehicle": "M4",
    "vehicle_type": "Rosa",
    "capacity": 34,
@@ -104938,13 +104957,13 @@
      "where_exactly": "Mall drop-off, DAMAC Hills."
     },
     {
-     "code": "C3-19",
-     "name": "Regina Tower, JVC",
-     "time": "19:38",
+     "code": "C3-27",
+     "name": "DAMAC Ghalia, JVC (rider stop)",
+     "time": "19:40",
      "action": "set_down",
-     "lat": 25.057284,
-     "lng": 55.212609,
-     "where_exactly": "Kerbside on 24 Street outside the tower entrance; do not enter the car park."
+     "lat": 25.0531125,
+     "lng": 55.1989628,
+     "where_exactly": "DAMAC Ghalia main entrance, Lazuward Street, JVC - pick-up and set-down at the door (Tower 108 is next door)."
     }
    ]
   },
@@ -109631,7 +109650,7 @@
    "service": "masters",
    "arrive_campus": "17:45",
    "leave_campus": null,
-   "start": "16:19",
+   "start": "16:10",
    "end": "17:45",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
@@ -109641,6 +109660,15 @@
    "status": "operating",
    "stops": [
     {
+     "code": "C3-27",
+     "name": "DAMAC Ghalia, JVC (rider stop)",
+     "time": "16:10",
+     "action": "pick_up",
+     "lat": 25.0531125,
+     "lng": 55.1989628,
+     "where_exactly": "DAMAC Ghalia main entrance, Lazuward Street, JVC - pick-up and set-down at the door (Tower 108 is next door)."
+    },
+    {
      "code": "C3-17",
      "name": "Eagle Heights, Dubai Sports City",
      "time": "16:19",
@@ -109648,15 +109676,6 @@
      "lat": 25.036628,
      "lng": 55.221187,
      "where_exactly": "Outside the front of the Eagle Heights building."
-    },
-    {
-     "code": "C3-19",
-     "name": "Regina Tower, JVC",
-     "time": "16:27",
-     "action": "pick_up",
-     "lat": 25.057284,
-     "lng": 55.212609,
-     "where_exactly": "Kerbside on 24 Street outside the tower entrance; do not enter the car park."
     },
     {
      "code": "C3-26",
@@ -109876,7 +109895,7 @@
    "arrive_campus": null,
    "leave_campus": "21:36",
    "start": "21:36",
-   "end": "22:27",
+   "end": "22:36",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
@@ -109903,15 +109922,6 @@
      "where_exactly": "Kerbside outside Binghatti Crystals, near Axis 7, DSO. Rider-only stop (Nabeela); last call before campus on the central masters bus."
     },
     {
-     "code": "C3-19",
-     "name": "Regina Tower, JVC",
-     "time": "22:19",
-     "action": "set_down",
-     "lat": 25.057284,
-     "lng": 55.212609,
-     "where_exactly": "Kerbside on 24 Street outside the tower entrance; do not enter the car park."
-    },
-    {
      "code": "C3-17",
      "name": "Eagle Heights, Dubai Sports City",
      "time": "22:27",
@@ -109919,6 +109929,15 @@
      "lat": 25.036628,
      "lng": 55.221187,
      "where_exactly": "Outside the front of the Eagle Heights building."
+    },
+    {
+     "code": "C3-27",
+     "name": "DAMAC Ghalia, JVC (rider stop)",
+     "time": "22:36",
+     "action": "set_down",
+     "lat": 25.0531125,
+     "lng": 55.1989628,
+     "where_exactly": "DAMAC Ghalia main entrance, Lazuward Street, JVC - pick-up and set-down at the door (Tower 108 is next door)."
     }
    ]
   },
@@ -118944,7 +118963,7 @@
    "service": "masters",
    "arrive_campus": "17:45",
    "leave_campus": null,
-   "start": "16:10",
+   "start": "16:09",
    "end": "17:45",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
@@ -118954,13 +118973,13 @@
    "status": "operating",
    "stops": [
     {
-     "code": "C3-19",
-     "name": "Regina Tower, JVC",
-     "time": "16:10",
+     "code": "C3-27",
+     "name": "DAMAC Ghalia, JVC (rider stop)",
+     "time": "16:09",
      "action": "pick_up",
-     "lat": 25.057284,
-     "lng": 55.212609,
-     "where_exactly": "Kerbside on 24 Street outside the tower entrance; do not enter the car park."
+     "lat": 25.0531125,
+     "lng": 55.1989628,
+     "where_exactly": "DAMAC Ghalia main entrance, Lazuward Street, JVC - pick-up and set-down at the door (Tower 108 is next door)."
     },
     {
      "code": "C3-17",
@@ -119122,7 +119141,7 @@
    "arrive_campus": null,
    "leave_campus": "21:36",
    "start": "21:36",
-   "end": "22:29",
+   "end": "22:30",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
@@ -119167,13 +119186,13 @@
      "where_exactly": "Outside the front of the Eagle Heights building."
     },
     {
-     "code": "C3-19",
-     "name": "Regina Tower, JVC",
-     "time": "22:29",
+     "code": "C3-27",
+     "name": "DAMAC Ghalia, JVC (rider stop)",
+     "time": "22:30",
      "action": "set_down",
-     "lat": 25.057284,
-     "lng": 55.212609,
-     "where_exactly": "Kerbside on 24 Street outside the tower entrance; do not enter the car park."
+     "lat": 25.0531125,
+     "lng": 55.1989628,
+     "where_exactly": "DAMAC Ghalia main entrance, Lazuward Street, JVC - pick-up and set-down at the door (Tower 108 is next door)."
     }
    ]
   },
@@ -127351,7 +127370,7 @@
    "service": "undergraduate",
    "arrive_campus": "08:45",
    "leave_campus": null,
-   "start": "07:31",
+   "start": "07:37",
    "end": "08:45",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
@@ -127361,13 +127380,13 @@
    "status": "operating",
    "stops": [
     {
-     "code": "C3-19",
-     "name": "Regina Tower, JVC",
-     "time": "07:31",
+     "code": "C3-27",
+     "name": "DAMAC Ghalia, JVC (rider stop)",
+     "time": "07:37",
      "action": "pick_up",
-     "lat": 25.057284,
-     "lng": 55.212609,
-     "where_exactly": "Kerbside on 24 Street outside the tower entrance; do not enter the car park."
+     "lat": 25.0531125,
+     "lng": 55.1989628,
+     "where_exactly": "DAMAC Ghalia main entrance, Lazuward Street, JVC - pick-up and set-down at the door (Tower 108 is next door)."
     },
     {
      "code": "C3-12",
@@ -127399,7 +127418,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "19:20",
+   "end": "19:23",
    "vehicle": "M4",
    "vehicle_type": "Rosa",
    "capacity": 34,
@@ -127426,13 +127445,13 @@
      "where_exactly": "Main entrance of the Arabian Ranches 3 souk."
     },
     {
-     "code": "C3-19",
-     "name": "Regina Tower, JVC",
-     "time": "19:20",
+     "code": "C3-27",
+     "name": "DAMAC Ghalia, JVC (rider stop)",
+     "time": "19:23",
      "action": "set_down",
-     "lat": 25.057284,
-     "lng": 55.212609,
-     "where_exactly": "Kerbside on 24 Street outside the tower entrance; do not enter the car park."
+     "lat": 25.0531125,
+     "lng": 55.1989628,
+     "where_exactly": "DAMAC Ghalia main entrance, Lazuward Street, JVC - pick-up and set-down at the door (Tower 108 is next door)."
     }
    ]
   },
