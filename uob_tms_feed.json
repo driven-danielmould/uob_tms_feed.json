@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-28T03:42:50Z",
+ "generated_at": "2026-10-28T03:52:17Z",
  "week": "2026-10-09 to 2026-11-15",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -70622,15 +70622,6 @@
      "where_exactly": "Nshama Community Centre car park."
     },
     {
-     "code": "C3-14",
-     "name": "Skycourts Towers",
-     "time": "12:35",
-     "action": "pick_up",
-     "lat": 25.0898954,
-     "lng": 55.3865139,
-     "where_exactly": "Tower D, near Aster Pharmacy."
-    },
-    {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
      "time": "12:45",
@@ -70902,15 +70893,6 @@
      "where_exactly": ""
     },
     {
-     "code": "C3-14",
-     "name": "Skycourts Towers",
-     "time": "18:41",
-     "action": "set_down",
-     "lat": 25.0898954,
-     "lng": 55.3865139,
-     "where_exactly": "Tower D, near Aster Pharmacy."
-    },
-    {
      "code": "C3-25",
      "name": "Villanova La Rosa 1, Villa 46",
      "time": "18:51",
@@ -71131,6 +71113,15 @@
      "lat": 24.494038,
      "lng": 54.366864,
      "where_exactly": "Outside the front of Al Mariah Mall."
+    },
+    {
+     "code": "C4-23",
+     "name": "Al Swedi Building 6, Al Sindan St, Al Zahiyah, Abu Dhabi",
+     "time": "04:50",
+     "action": "pick_up",
+     "lat": 24.5022611,
+     "lng": 54.377864,
+     "where_exactly": "Kerbside on Al Sindan Street outside Al Swedi Building 6 (same building as Makaram Dry Clean), in front of the large car park behind Future Pharmacy."
     },
     {
      "code": "C4-24",
@@ -71499,7 +71490,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "21:47",
+   "end": "21:41",
    "vehicle": "M5",
    "vehicle_type": "Hiace",
    "capacity": 15,
@@ -71569,15 +71560,6 @@
      "lat": 24.5022611,
      "lng": 54.377864,
      "where_exactly": "Kerbside on Al Sindan Street outside Al Swedi Building 6 (same building as Makaram Dry Clean), in front of the large car park behind Future Pharmacy."
-    },
-    {
-     "code": "C4-01",
-     "name": "Al Mariah Mall, Hamdan St",
-     "time": "21:47",
-     "action": "set_down",
-     "lat": 24.494038,
-     "lng": 54.366864,
-     "where_exactly": "Outside the front of Al Mariah Mall."
     }
    ]
   },
@@ -71901,13 +71883,13 @@
      "where_exactly": ""
     },
     {
-     "code": "C4-12",
-     "name": "Al Furjan Centre (Pavilion)",
+     "code": "C4-16",
+     "name": "Discovery Gardens Metro Station",
      "time": "14:55",
      "action": "set_down",
-     "lat": 25.026111,
-     "lng": 55.153303,
-     "where_exactly": "Spinneys bus stop."
+     "lat": 25.035204,
+     "lng": 55.1453653,
+     "where_exactly": "Bus and taxi lay-by at the station entrance."
     }
    ]
   },
@@ -75477,7 +75459,7 @@
    "service": "undergraduate",
    "arrive_campus": "10:45",
    "leave_campus": null,
-   "start": "09:41",
+   "start": "09:47",
    "end": "10:45",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
@@ -75487,13 +75469,13 @@
    "status": "operating",
    "stops": [
     {
-     "code": "C3-17",
-     "name": "Eagle Heights, Dubai Sports City",
-     "time": "09:41",
+     "code": "C3-07",
+     "name": "First Avenue Mall, Motor City",
+     "time": "09:47",
      "action": "pick_up",
-     "lat": 25.036628,
-     "lng": 55.221187,
-     "where_exactly": "Outside the front of the Eagle Heights building."
+     "lat": 25.046685,
+     "lng": 55.243063,
+     "where_exactly": "Pick and drop point in front of First Avenue Mall, by Shake Shack."
     },
     {
      "code": "UOB",
@@ -76043,15 +76025,6 @@
      "lat": 24.49302727241724,
      "lng": 54.359155308731616,
      "where_exactly": "Front of Silver Tower - pin from the rider 7 Oct (the back of the building is a closed road). Kerbside at the main entrance."
-    },
-    {
-     "code": "C4-01",
-     "name": "Al Mariah Mall, Hamdan St",
-     "time": "04:36",
-     "action": "pick_up",
-     "lat": 24.494038,
-     "lng": 54.366864,
-     "where_exactly": "Outside the front of Al Mariah Mall."
     },
     {
      "code": "C4-23",
@@ -80543,6 +80516,15 @@
      "where_exactly": "Kerbside on Airport Road (Sheikh Rashid Bin Saeed St) at the Al Falah Street junction, outside Ramee Garden Hotel Apartments opposite NBAD - southbound side for pick-ups (towards Al Wahda), northbound side for set-downs."
     },
     {
+     "code": "C4-23",
+     "name": "Al Swedi Building 6, Al Sindan St, Al Zahiyah, Abu Dhabi",
+     "time": "05:03",
+     "action": "pick_up",
+     "lat": 24.5022611,
+     "lng": 54.377864,
+     "where_exactly": "Kerbside on Al Sindan Street outside Al Swedi Building 6 (same building as Makaram Dry Clean), in front of the large car park behind Future Pharmacy."
+    },
+    {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
      "time": "07:45",
@@ -80644,7 +80626,7 @@
    "arrive_campus": null,
    "leave_campus": "12:15",
    "start": "12:15",
-   "end": "14:06",
+   "end": "14:42",
    "vehicle": "M5",
    "vehicle_type": "Rosa",
    "capacity": 34,
@@ -80662,9 +80644,18 @@
      "where_exactly": ""
     },
     {
+     "code": "C4-23",
+     "name": "Al Swedi Building 6, Al Sindan St, Al Zahiyah, Abu Dhabi",
+     "time": "14:24",
+     "action": "set_down",
+     "lat": 24.5022611,
+     "lng": 54.377864,
+     "where_exactly": "Kerbside on Al Sindan Street outside Al Swedi Building 6 (same building as Makaram Dry Clean), in front of the large car park behind Future Pharmacy."
+    },
+    {
      "code": "C4-21",
      "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
-     "time": "13:58",
+     "time": "14:34",
      "action": "set_down",
      "lat": 24.4757537,
      "lng": 54.3663931,
@@ -80673,7 +80664,7 @@
     {
      "code": "C4-01",
      "name": "Al Mariah Mall, Hamdan St",
-     "time": "14:06",
+     "time": "14:42",
      "action": "set_down",
      "lat": 24.494038,
      "lng": 54.366864,
@@ -82444,7 +82435,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "21:07",
+   "end": "20:55",
    "vehicle": "M5",
    "vehicle_type": "Hiace",
    "capacity": 15,
@@ -82478,15 +82469,6 @@
      "lat": 24.492995,
      "lng": 54.408057,
      "where_exactly": "Main drop-off."
-    },
-    {
-     "code": "C4-01",
-     "name": "Al Mariah Mall, Hamdan St",
-     "time": "21:07",
-     "action": "set_down",
-     "lat": 24.494038,
-     "lng": 54.366864,
-     "where_exactly": "Outside the front of Al Mariah Mall."
     }
    ]
   },
@@ -82896,7 +82878,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "21:03",
+   "end": "21:02",
    "vehicle": "M5",
    "vehicle_type": "Hiace",
    "capacity": 15,
@@ -82923,13 +82905,13 @@
      "where_exactly": "Main gate, Khalifa City."
     },
     {
-     "code": "C4-01",
-     "name": "Al Mariah Mall, Hamdan St",
-     "time": "21:03",
+     "code": "C4-23",
+     "name": "Al Swedi Building 6, Al Sindan St, Al Zahiyah, Abu Dhabi",
+     "time": "21:02",
      "action": "set_down",
-     "lat": 24.494038,
-     "lng": 54.366864,
-     "where_exactly": "Outside the front of Al Mariah Mall."
+     "lat": 24.5022611,
+     "lng": 54.377864,
+     "where_exactly": "Kerbside on Al Sindan Street outside Al Swedi Building 6 (same building as Makaram Dry Clean), in front of the large car park behind Future Pharmacy."
     }
    ]
   },
@@ -117830,7 +117812,7 @@
     {
      "code": "C4-23",
      "name": "Al Swedi Building 6, Al Sindan St, Al Zahiyah, Abu Dhabi",
-     "time": "05:03",
+     "time": "05:06",
      "action": "pick_up",
      "lat": 24.5022611,
      "lng": 54.377864,
