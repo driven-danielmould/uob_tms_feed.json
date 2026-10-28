@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-28T06:55:26Z",
+ "generated_at": "2026-10-28T07:31:29Z",
  "week": "2026-10-09 to 2026-11-15",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -70622,6 +70622,15 @@
      "where_exactly": "Nshama Community Centre car park."
     },
     {
+     "code": "C3-14",
+     "name": "Skycourts Towers",
+     "time": "12:35",
+     "action": "pick_up",
+     "lat": 25.0898954,
+     "lng": 55.3865139,
+     "where_exactly": "Tower D, near Aster Pharmacy."
+    },
+    {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
      "time": "12:45",
@@ -70891,6 +70900,15 @@
      "lat": 25.1321925,
      "lng": 55.4223161,
      "where_exactly": ""
+    },
+    {
+     "code": "C3-14",
+     "name": "Skycourts Towers",
+     "time": "18:41",
+     "action": "set_down",
+     "lat": 25.0898954,
+     "lng": 55.3865139,
+     "where_exactly": "Tower D, near Aster Pharmacy."
     },
     {
      "code": "C3-25",
@@ -75366,15 +75384,6 @@
      "where_exactly": "Community entrance off D54."
     },
     {
-     "code": "C3-14",
-     "name": "Skycourts Towers",
-     "time": "07:11",
-     "action": "pick_up",
-     "lat": 25.0898954,
-     "lng": 55.3865139,
-     "where_exactly": "Tower D, near Aster Pharmacy."
-    },
-    {
      "code": "C3-25",
      "name": "Villanova La Rosa 1, Villa 46",
      "time": "07:25",
@@ -75382,6 +75391,15 @@
      "lat": 25.0765573,
      "lng": 55.3609188,
      "where_exactly": "Kerbside outside Villa 46, La Rosa 1, Villanova (parent's pin 11 Oct). Rider-only stop."
+    },
+    {
+     "code": "C3-14",
+     "name": "Skycourts Towers",
+     "time": "07:35",
+     "action": "pick_up",
+     "lat": 25.0898954,
+     "lng": 55.3865139,
+     "where_exactly": "Tower D, near Aster Pharmacy."
     },
     {
      "code": "UOB",
@@ -75796,7 +75814,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "20:11",
+   "end": "20:12",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
@@ -75814,22 +75832,22 @@
      "where_exactly": ""
     },
     {
-     "code": "C3-25",
-     "name": "Villanova La Rosa 1, Villa 46",
-     "time": "18:32",
-     "action": "set_down",
-     "lat": 25.0765573,
-     "lng": 55.3609188,
-     "where_exactly": "Kerbside outside Villa 46, La Rosa 1, Villanova (parent's pin 11 Oct). Rider-only stop."
-    },
-    {
      "code": "C3-14",
      "name": "Skycourts Towers",
-     "time": "18:46",
+     "time": "18:41",
      "action": "set_down",
      "lat": 25.0898954,
      "lng": 55.3865139,
      "where_exactly": "Tower D, near Aster Pharmacy."
+    },
+    {
+     "code": "C3-25",
+     "name": "Villanova La Rosa 1, Villa 46",
+     "time": "18:51",
+     "action": "set_down",
+     "lat": 25.0765573,
+     "lng": 55.3609188,
+     "where_exactly": "Kerbside outside Villa 46, La Rosa 1, Villanova (parent's pin 11 Oct). Rider-only stop."
     },
     {
      "code": "C3-09",
@@ -75852,7 +75870,7 @@
     {
      "code": "C3-17",
      "name": "Eagle Heights, Dubai Sports City",
-     "time": "19:50",
+     "time": "19:51",
      "action": "set_down",
      "lat": 25.036628,
      "lng": 55.221187,
@@ -75861,7 +75879,7 @@
     {
      "code": "C3-01",
      "name": "JSS International School",
-     "time": "20:01",
+     "time": "20:02",
      "action": "set_down",
      "lat": 25.0665,
      "lng": 55.2046,
@@ -75870,7 +75888,7 @@
     {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "20:11",
+     "time": "20:12",
      "action": "set_down",
      "lat": 25.040494,
      "lng": 55.195971,
@@ -79882,7 +79900,7 @@
     {
      "code": "C3-14",
      "name": "Skycourts Towers",
-     "time": "09:29",
+     "time": "09:23",
      "action": "pick_up",
      "lat": 25.0898954,
      "lng": 55.3865139,
@@ -80173,27 +80191,27 @@
      "where_exactly": ""
     },
     {
-     "code": "C3-25",
-     "name": "Villanova La Rosa 1, Villa 46",
-     "time": "12:28",
-     "action": "set_down",
-     "lat": 25.0765573,
-     "lng": 55.3609188,
-     "where_exactly": "Kerbside outside Villa 46, La Rosa 1, Villanova (parent's pin 11 Oct). Rider-only stop."
-    },
-    {
      "code": "C3-14",
      "name": "Skycourts Towers",
-     "time": "12:39",
+     "time": "12:41",
      "action": "set_down",
      "lat": 25.0898954,
      "lng": 55.3865139,
      "where_exactly": "Tower D, near Aster Pharmacy."
     },
     {
+     "code": "C3-25",
+     "name": "Villanova La Rosa 1, Villa 46",
+     "time": "12:51",
+     "action": "set_down",
+     "lat": 25.0765573,
+     "lng": 55.3609188,
+     "where_exactly": "Kerbside outside Villa 46, La Rosa 1, Villanova (parent's pin 11 Oct). Rider-only stop."
+    },
+    {
      "code": "C3-09",
      "name": "Spinneys, Town Square",
-     "time": "13:08",
+     "time": "13:17",
      "action": "set_down",
      "lat": 25.0099047,
      "lng": 55.2902856,
@@ -80202,7 +80220,7 @@
     {
      "code": "C3-21",
      "name": "DAMAC Hills Mall, DAMAC Hills",
-     "time": "13:20",
+     "time": "13:30",
      "action": "set_down",
      "lat": 25.0179838,
      "lng": 55.2468052,
@@ -80211,7 +80229,7 @@
     {
      "code": "C3-07",
      "name": "First Avenue Mall, Motor City",
-     "time": "13:30",
+     "time": "13:40",
      "action": "set_down",
      "lat": 25.046685,
      "lng": 55.243063,
@@ -80220,7 +80238,7 @@
     {
      "code": "C3-17",
      "name": "Eagle Heights, Dubai Sports City",
-     "time": "13:39",
+     "time": "13:49",
      "action": "set_down",
      "lat": 25.036628,
      "lng": 55.221187,
