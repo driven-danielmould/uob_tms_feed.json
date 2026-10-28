@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-28T09:42:05Z",
+ "generated_at": "2026-10-28T09:43:19Z",
  "week": "2026-10-09 to 2026-11-15",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -77235,13 +77235,13 @@
    "arrive_campus": null,
    "leave_campus": "14:15",
    "start": "14:15",
-   "end": "15:18",
+   "end": "14:15",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 1,
+   "booked": 0,
    "seats": 15,
-   "status": "operating",
+   "status": "on_request",
    "stops": [
     {
      "code": "UOB",
@@ -77253,15 +77253,205 @@
      "where_exactly": ""
     },
     {
+     "code": "C5-01",
+     "name": "Gold Souq Metro Station",
+     "time": "",
+     "action": "set_down",
+     "lat": 25.276382,
+     "lng": 55.301021,
+     "where_exactly": "\"Pick & Drop Only\" bay outside Latte Brews, behind Gold Souq Metro Station."
+    },
+    {
+     "code": "C5-02",
+     "name": "Al Rigga Metro Station",
+     "time": "",
+     "action": "set_down",
+     "lat": 25.262847,
+     "lng": 55.324368,
+     "where_exactly": "Outside Etihad Optical Vision."
+    },
+    {
+     "code": "C5-21",
+     "name": "Al Ghurair Centre bus stop (Ghurair City 2), Al Rigga Rd",
+     "time": "",
+     "action": "set_down",
+     "lat": 25.266621,
+     "lng": 55.317593,
+     "where_exactly": "RTA bus stop \"Ghurair City 2\" on Al Rigga Road outside Al Ghurair Centre (Starbucks entrance side)."
+    },
+    {
+     "code": "C5-03",
+     "name": "Creek Metro Station, Al Jaddaf",
+     "time": "",
+     "action": "set_down",
+     "lat": 25.219122,
+     "lng": 55.339319,
+     "where_exactly": "Station forecourt."
+    },
+    {
+     "code": "C5-23",
+     "name": "Al Mesbar Building, Al Jaddaf (rider stop)",
+     "time": "",
+     "action": "set_down",
+     "lat": 25.2200683,
+     "lng": 55.3263206,
+     "where_exactly": "Kerbside outside Al Mesbar Building, by the Arabian Park hotel, Al Jaddaf. Rider-only stop (Naomi Noronha); between Al Jaddaf Metro and Oud Metha."
+    },
+    {
+     "code": "C5-04",
+     "name": "Oud Metha Metro Station",
+     "time": "",
+     "action": "set_down",
+     "lat": 25.243624,
+     "lng": 55.315799,
+     "where_exactly": "RTA bus stop Oud Metha 1, other side of the road, outside Super Saver supermarket."
+    },
+    {
+     "code": "C5-05",
+     "name": "BurJuman Mall",
+     "time": "",
+     "action": "set_down",
+     "lat": 25.254331,
+     "lng": 55.303661,
+     "where_exactly": "Bus stop outside Asia Kitchen, BurJuman Mall."
+    },
+    {
+     "code": "C5-19",
+     "name": "Al Raffa, 7E Street (near Al Khaleej Centre)",
+     "time": "",
+     "action": "set_down",
+     "lat": 25.25816,
+     "lng": 55.297127,
+     "where_exactly": "Kerbside at the pin on 7E Street, Al Raffa, near Al Khaleej Centre - wait on the main-road side; kerb to confirm on audit."
+    },
+    {
+     "code": "C5-16",
+     "name": "Raffa 1 bus stop, Khalid Bin Al Waleed Rd, Bur Dubai",
+     "time": "",
+     "action": "set_down",
+     "lat": 25.2593199,
+     "lng": 55.2891482,
+     "where_exactly": "RTA bus stop Raffa 1 on Khalid Bin Al Waleed Rd, opposite the Al Raffa police station street."
+    },
+    {
+     "code": "C5-17",
+     "name": "New Gold Souq, Al Raffa, Bur Dubai",
+     "time": "",
+     "action": "set_down",
+     "lat": 25.2515903,
+     "lng": 55.2824733,
+     "where_exactly": "ENOC petrol station beside the New Gold Souq (by Shabab Al Khan Cafeteria)."
+    },
+    {
+     "code": "C5-06",
+     "name": "Al Wasl Building, Al Hudaiba",
+     "time": "",
+     "action": "set_down",
+     "lat": 25.243,
+     "lng": 55.2788,
+     "where_exactly": "S2/PR399 Al Wasl Bldg Block A, 4B St."
+    },
+    {
+     "code": "C5-07",
+     "name": "World Trade Centre Metro Station",
+     "time": "",
+     "action": "set_down",
+     "lat": 25.225614,
+     "lng": 55.284365,
+     "where_exactly": "Outside World Trade Centre Metro Station Exit 2 (Fairmont side). Pick-up towards campus only."
+    },
+    {
+     "code": "C5-08",
+     "name": "Financial Centre Metro Station",
+     "time": "",
+     "action": "set_down",
+     "lat": 25.2111662,
+     "lng": 55.2755821,
+     "where_exactly": "In front of Avis (Sheikh Al Mur Tower), at the bus pick-up and drop-off point."
+    },
+    {
+     "code": "C5-13",
+     "name": "Downtown Views II, Zabeel 2",
+     "time": "",
+     "action": "set_down",
+     "lat": 25.2024286,
+     "lng": 55.2809328,
+     "where_exactly": "Kerbside on Financial Center Rd (upper level) outside the main entrance; do not enter the tower drop-off."
+    },
+    {
+     "code": "C5-09",
+     "name": "Bay Avenue Mall, Business Bay",
+     "time": "",
+     "action": "set_down",
+     "lat": 25.191143,
+     "lng": 55.265598,
+     "where_exactly": "North Entrance pick and drop area, Bay Avenue Mall."
+    },
+    {
      "code": "C5-15",
      "name": "Ubora Tower, Business Bay",
-     "time": "15:18",
+     "time": "",
      "action": "set_down",
      "lat": 25.180398,
      "lng": 55.269675,
      "where_exactly": "Bus stop outside Master Cup restaurant."
+    },
+    {
+     "code": "C5-18",
+     "name": "The First Collection Business Bay (hotel), Al A'amal St",
+     "time": "",
+     "action": "set_down",
+     "lat": 25.1783788,
+     "lng": 55.2679776,
+     "where_exactly": "Kerbside outside the hotel entrance on Al A'amal Street, 280 m from Ubora Tower."
+    },
+    {
+     "code": "C5-10",
+     "name": "Bay Square, Business Bay",
+     "time": "",
+     "action": "set_down",
+     "lat": 25.1854241,
+     "lng": 55.2801414,
+     "where_exactly": "Bay Square building 1 entrance."
+    },
+    {
+     "code": "C5-20",
+     "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
+     "time": "",
+     "action": "set_down",
+     "lat": 25.186457,
+     "lng": 55.282055,
+     "where_exactly": "Kerbside on Abraj Street outside the DAMAC Maison Majestine entrance, opposite Bay Square 13."
+    },
+    {
+     "code": "C5-11",
+     "name": "One Park Avenue, Sobha Hartland",
+     "time": "",
+     "action": "set_down",
+     "lat": 25.1784466,
+     "lng": 55.3086196,
+     "where_exactly": "Main entrance."
+    },
+    {
+     "code": "C5-14",
+     "name": "Meydan Heights, Nad Al Sheba 1",
+     "time": "",
+     "action": "set_down",
+     "lat": 25.142673,
+     "lng": 55.311774,
+     "where_exactly": "Meydan Heights, villa MH405 - at the villa, not villa 166. Pin confirmed by the rider 26 Oct."
+    },
+    {
+     "code": "C5-12",
+     "name": "Wasl Green Park, Ras Al Khor",
+     "time": "",
+     "action": "set_down",
+     "lat": 25.181059,
+     "lng": 55.375545,
+     "where_exactly": "Kerbside at 25.181059, 55.375545 by Aurahues Beauty Lounge, Wasl Green Park (rider-confirmed point 12 Oct) - pick-up and set-down here, not at the roundabout."
     }
-   ]
+   ],
+   "offer_only": true
   },
   {
    "run_id": "2026-10-29-R7-O5",
@@ -77438,11 +77628,11 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "20:01",
+   "end": "20:05",
    "vehicle": "M7",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 12,
+   "booked": 13,
    "seats": 34,
    "status": "operating",
    "stops": [
@@ -77474,9 +77664,18 @@
      "where_exactly": "Main entrance."
     },
     {
+     "code": "C5-15",
+     "name": "Ubora Tower, Business Bay",
+     "time": "19:14",
+     "action": "set_down",
+     "lat": 25.180398,
+     "lng": 55.269675,
+     "where_exactly": "Bus stop outside Master Cup restaurant."
+    },
+    {
      "code": "C5-09",
      "name": "Bay Avenue Mall, Business Bay",
-     "time": "19:16",
+     "time": "19:20",
      "action": "set_down",
      "lat": 25.191143,
      "lng": 55.265598,
@@ -77485,7 +77684,7 @@
     {
      "code": "C5-07",
      "name": "World Trade Centre Metro Station",
-     "time": "19:29",
+     "time": "19:33",
      "action": "set_down",
      "lat": 25.225614,
      "lng": 55.284365,
@@ -77494,7 +77693,7 @@
     {
      "code": "C5-06",
      "name": "Al Wasl Building, Al Hudaiba",
-     "time": "19:36",
+     "time": "19:40",
      "action": "set_down",
      "lat": 25.243,
      "lng": 55.2788,
@@ -77503,7 +77702,7 @@
     {
      "code": "C5-05",
      "name": "BurJuman Mall",
-     "time": "19:45",
+     "time": "19:49",
      "action": "set_down",
      "lat": 25.254331,
      "lng": 55.303661,
@@ -77512,7 +77711,7 @@
     {
      "code": "C5-04",
      "name": "Oud Metha Metro Station",
-     "time": "19:52",
+     "time": "19:56",
      "action": "set_down",
      "lat": 25.243624,
      "lng": 55.315799,
@@ -77521,7 +77720,7 @@
     {
      "code": "C5-23",
      "name": "Al Mesbar Building, Al Jaddaf (rider stop)",
-     "time": "20:01",
+     "time": "20:05",
      "action": "set_down",
      "lat": 25.2200683,
      "lng": 55.3263206,
