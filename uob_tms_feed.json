@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-29T19:20:02Z",
+ "generated_at": "2026-10-29T19:26:41Z",
  "week": "2026-10-09 to 2026-11-15",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -78242,68 +78242,37 @@
    "day": "Fri",
    "route": "R1",
    "direction": "to_campus",
-   "service": "regular",
+   "service": "undergraduate",
    "arrive_campus": "09:45",
    "leave_campus": null,
-   "start": "07:45",
+   "start": "08:41",
    "end": "09:45",
    "vehicle": "M1",
-   "vehicle_type": "Hiace",
-   "capacity": 15,
-   "booked": 0,
-   "seats": 15,
-   "offer_only": true,
+   "vehicle_type": "Rosa",
+   "capacity": 34,
+   "booked": 1,
+   "seats": 34,
+   "status": "operating",
    "stops": [
     {
-     "code": "C1-02",
-     "name": "City Centre Al Zahia",
-     "time": "07:45",
-     "action": "pick_up"
-    },
-    {
-     "code": "C1-06",
-     "name": "Sahara Centre",
-     "time": "08:02",
-     "action": "pick_up"
-    },
-    {
-     "code": "C1-16",
-     "name": "LuLu Hypermarket Al Nahda, Sharjah",
-     "time": "08:19",
-     "action": "pick_up"
-    },
-    {
-     "code": "C1-05",
-     "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "08:36",
-     "action": "pick_up"
-    },
-    {
-     "code": "C1-04",
-     "name": "Nesto Hypermarket, King Faisal St",
-     "time": "08:54",
-     "action": "pick_up"
-    },
-    {
-     "code": "C1-03",
-     "name": "Lulu Hypermarket Maysaloon",
-     "time": "09:11",
-     "action": "pick_up"
-    },
-    {
-     "code": "C1-01",
-     "name": "Al Khor Towers, Ajman",
-     "time": "09:28",
-     "action": "pick_up"
+     "code": "C1-18",
+     "name": "Shamseen Bakeries Building, Al Majaz",
+     "time": "08:41",
+     "action": "pick_up",
+     "lat": 25.33253,
+     "lng": 55.37588,
+     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
     },
     {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
      "time": "09:45",
-     "action": "set_down"
+     "action": "set_down",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
     }
-   ],
-   "status": "on_request"
+   ]
   },
   {
    "run_id": "2026-10-30-R1-O3",
