@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-29T04:27:41Z",
+ "generated_at": "2026-10-29T04:34:24Z",
  "week": "2026-10-09 to 2026-11-15",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -73520,7 +73520,7 @@
    "vehicle": "M1",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 8,
+   "booked": 7,
    "seats": 34,
    "status": "operating",
    "stops": [
@@ -73541,15 +73541,6 @@
      "lat": 25.337533,
      "lng": 55.39061,
      "where_exactly": "Main entrance on King Faisal St."
-    },
-    {
-     "code": "C1-18",
-     "name": "Shamseen Bakeries Building, Al Majaz",
-     "time": "15:00",
-     "action": "set_down",
-     "lat": 25.33253,
-     "lng": 55.37588,
-     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
     },
     {
      "code": "C1-28",
@@ -73739,7 +73730,7 @@
    "vehicle": "M1",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 7,
+   "booked": 8,
    "seats": 34,
    "status": "operating",
    "stops": [
@@ -97454,7 +97445,7 @@
    "vehicle": "M1",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 9,
+   "booked": 8,
    "seats": 34,
    "status": "operating",
    "stops": [
@@ -97484,15 +97475,6 @@
      "lat": 25.337533,
      "lng": 55.39061,
      "where_exactly": "Main entrance on King Faisal St."
-    },
-    {
-     "code": "C1-18",
-     "name": "Shamseen Bakeries Building, Al Majaz",
-     "time": "15:30",
-     "action": "set_down",
-     "lat": 25.33253,
-     "lng": 55.37588,
-     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
     },
     {
      "code": "C1-28",
@@ -97678,11 +97660,11 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "19:58",
+   "end": "20:02",
    "vehicle": "M1",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 6,
+   "booked": 7,
    "seats": 34,
    "status": "operating",
    "stops": [
@@ -97723,9 +97705,18 @@
      "where_exactly": "Main entrance on King Faisal St."
     },
     {
+     "code": "C1-18",
+     "name": "Shamseen Bakeries Building, Al Majaz",
+     "time": "19:47",
+     "action": "set_down",
+     "lat": 25.33253,
+     "lng": 55.37588,
+     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
+    },
+    {
      "code": "C1-20",
      "name": "Al Buhaira Police Station bus stop, Al Majaz 3",
-     "time": "19:49",
+     "time": "19:53",
      "action": "set_down",
      "lat": 25.323284,
      "lng": 55.381418,
@@ -97734,7 +97725,7 @@
     {
      "code": "C1-05",
      "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "19:58",
+     "time": "20:02",
      "action": "set_down",
      "lat": 25.305885121719236,
      "lng": 55.363729380596915,
@@ -120500,7 +120491,7 @@
    "vehicle": "M1",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 8,
+   "booked": 7,
    "seats": 34,
    "status": "operating",
    "stops": [
@@ -120530,15 +120521,6 @@
      "lat": 25.337533,
      "lng": 55.39061,
      "where_exactly": "Main entrance on King Faisal St."
-    },
-    {
-     "code": "C1-18",
-     "name": "Shamseen Bakeries Building, Al Majaz",
-     "time": "15:30",
-     "action": "set_down",
-     "lat": 25.33253,
-     "lng": 55.37588,
-     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
     },
     {
      "code": "C1-28",
@@ -120715,11 +120697,11 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "19:45",
+   "end": "19:49",
    "vehicle": "M1",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 5,
+   "booked": 6,
    "seats": 34,
    "status": "operating",
    "stops": [
@@ -120751,9 +120733,18 @@
      "where_exactly": "Main entrance on King Faisal St."
     },
     {
+     "code": "C1-18",
+     "name": "Shamseen Bakeries Building, Al Majaz",
+     "time": "19:28",
+     "action": "set_down",
+     "lat": 25.33253,
+     "lng": 55.37588,
+     "where_exactly": "Kerbside outside the Shamseen Bakeries building, Al Majaz; do not enter the side streets."
+    },
+    {
      "code": "C1-20",
      "name": "Al Buhaira Police Station bus stop, Al Majaz 3",
-     "time": "19:30",
+     "time": "19:34",
      "action": "set_down",
      "lat": 25.323284,
      "lng": 55.381418,
@@ -120762,7 +120753,7 @@
     {
      "code": "C1-05",
      "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "19:39",
+     "time": "19:43",
      "action": "set_down",
      "lat": 25.305885121719236,
      "lng": 55.363729380596915,
@@ -120771,7 +120762,7 @@
     {
      "code": "C1-06",
      "name": "Sahara Centre",
-     "time": "19:45",
+     "time": "19:49",
      "action": "set_down",
      "lat": 25.297153,
      "lng": 55.371026,
