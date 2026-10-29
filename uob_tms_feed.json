@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-29T04:34:24Z",
+ "generated_at": "2026-10-29T04:38:57Z",
  "week": "2026-10-09 to 2026-11-15",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -75426,7 +75426,7 @@
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 1,
+   "booked": 2,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -75438,6 +75438,15 @@
      "lat": 25.046685,
      "lng": 55.243063,
      "where_exactly": "Pick and drop point in front of First Avenue Mall, by Shake Shack."
+    },
+    {
+     "code": "C3-09",
+     "name": "Spinneys, Town Square",
+     "time": "10:04",
+     "action": "pick_up",
+     "lat": 25.0099047,
+     "lng": 55.2902856,
+     "where_exactly": "Nshama Community Centre car park."
     },
     {
      "code": "UOB",
@@ -75464,7 +75473,7 @@
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 4,
+   "booked": 3,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -77089,7 +77098,7 @@
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 5,
+   "booked": 6,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -77110,6 +77119,15 @@
      "lat": 25.243,
      "lng": 55.2788,
      "where_exactly": "S2/PR399 Al Wasl Bldg Block A, 4B St."
+    },
+    {
+     "code": "C5-09",
+     "name": "Bay Avenue Mall, Business Bay",
+     "time": "09:53",
+     "action": "pick_up",
+     "lat": 25.191143,
+     "lng": 55.265598,
+     "where_exactly": "North Entrance pick and drop area, Bay Avenue Mall."
     },
     {
      "code": "C5-15",
