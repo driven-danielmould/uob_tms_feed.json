@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-29T17:08:36Z",
+ "generated_at": "2026-10-29T17:27:34Z",
  "week": "2026-10-09 to 2026-11-15",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -79679,80 +79679,37 @@
    "day": "Fri",
    "route": "R3",
    "direction": "to_campus",
-   "service": "regular",
+   "service": "undergraduate",
    "arrive_campus": "12:45",
    "leave_campus": null,
-   "start": "10:45",
+   "start": "12:11",
    "end": "12:45",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 0,
+   "booked": 1,
    "seats": 15,
-   "offer_only": true,
+   "status": "operating",
    "stops": [
     {
-     "code": "C2-08",
-     "name": "Mall of the Emirates",
-     "time": "10:45",
-     "action": "pick_up"
-    },
-    {
-     "code": "C2-16",
-     "name": "Umm Suqeim Rd bus stop by ENOC 1099, Al Barsha 1",
-     "time": "10:58",
-     "action": "pick_up"
-    },
-    {
-     "code": "C2-07",
-     "name": "Dubai Internet City Metro Station",
-     "time": "11:12",
-     "action": "pick_up"
-    },
-    {
-     "code": "C2-06",
-     "name": "The Springs Souk",
-     "time": "11:25",
-     "action": "pick_up"
-    },
-    {
-     "code": "C2-05",
-     "name": "The Meadows Village",
-     "time": "11:38",
-     "action": "pick_up"
-    },
-    {
-     "code": "C2-04",
-     "name": "Sobha Realty Metro Station",
-     "time": "11:52",
-     "action": "pick_up"
-    },
-    {
-     "code": "C2-03",
-     "name": "DMCC Metro Station",
-     "time": "12:05",
-     "action": "pick_up"
-    },
-    {
-     "code": "C2-02",
-     "name": "Dubai Marina Mall",
-     "time": "12:18",
-     "action": "pick_up"
-    },
-    {
-     "code": "C2-01",
-     "name": "Al Sarood, Shoreline 13, Palm Jumeirah",
-     "time": "12:32",
-     "action": "pick_up"
+     "code": "C2-17",
+     "name": "Al Khoory Hotel Apartments, Al Barsha 1 (rider stop)",
+     "time": "12:11",
+     "action": "pick_up",
+     "lat": 25.1126974,
+     "lng": 55.1931632,
+     "where_exactly": "Hotel entrance, Al Barsha 1, near Mashreq / Insurance Market Metro - pick-up and set-down at the door."
     },
     {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
      "time": "12:45",
-     "action": "set_down"
+     "action": "set_down",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
     }
-   ],
-   "status": "on_request"
+   ]
   },
   {
    "run_id": "2026-10-30-R3-R0",
@@ -82254,6 +82211,44 @@
      "lat": 24.492995,
      "lng": 54.408057,
      "where_exactly": "Main drop-off."
+    }
+   ]
+  },
+  {
+   "run_id": "2026-10-30-R8-R4S",
+   "date": "2026-10-30",
+   "day": "Fri",
+   "route": "R8",
+   "direction": "from_campus",
+   "service": "masters",
+   "arrive_campus": null,
+   "leave_campus": "21:36",
+   "start": "21:36",
+   "end": "22:10",
+   "vehicle": "M8",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 1,
+   "seats": 15,
+   "status": "operating",
+   "stops": [
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "21:36",
+     "action": "pick_up",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    },
+    {
+     "code": "C2-17",
+     "name": "Al Khoory Hotel Apartments, Al Barsha 1 (rider stop)",
+     "time": "22:10",
+     "action": "set_down",
+     "lat": 25.1126974,
+     "lng": 55.1931632,
+     "where_exactly": "Hotel entrance, Al Barsha 1, near Mashreq / Insurance Market Metro - pick-up and set-down at the door."
     }
    ]
   },
