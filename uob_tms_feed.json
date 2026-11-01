@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-01T17:04:42Z",
+ "generated_at": "2026-11-01T17:06:38Z",
  "week": "2026-10-09 to 2026-11-15",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -83732,7 +83732,7 @@
     {
      "code": "C1-15",
      "name": "Wasl Village, Central Parking",
-     "time": "05:56",
+     "time": "06:49",
      "action": "pick_up",
      "lat": 25.289501,
      "lng": 55.4111465,
@@ -83741,7 +83741,7 @@
     {
      "code": "C1-24",
      "name": "EK2 Accommodation, Muhaisnah 4",
-     "time": "05:58",
+     "time": "06:55",
      "action": "pick_up",
      "lat": 25.2795117,
      "lng": 55.402653,
@@ -83940,7 +83940,7 @@
     {
      "code": "C1-15",
      "name": "Wasl Village, Central Parking",
-     "time": "12:04",
+     "time": "11:53",
      "action": "pick_up",
      "lat": 25.289501,
      "lng": 55.4111465,
@@ -88463,7 +88463,7 @@
     {
      "code": "C1-15",
      "name": "Wasl Village, Central Parking",
-     "time": "06:16",
+     "time": "06:49",
      "action": "pick_up",
      "lat": 25.289501,
      "lng": 55.4111465,
@@ -88472,7 +88472,7 @@
     {
      "code": "C1-24",
      "name": "EK2 Accommodation, Muhaisnah 4",
-     "time": "06:18",
+     "time": "06:55",
      "action": "pick_up",
      "lat": 25.2795117,
      "lng": 55.402653,
@@ -88519,7 +88519,7 @@
     {
      "code": "C1-24",
      "name": "EK2 Accommodation, Muhaisnah 4",
-     "time": "07:40",
+     "time": "08:55",
      "action": "pick_up",
      "lat": 25.2795117,
      "lng": 55.402653,
@@ -88658,7 +88658,7 @@
     {
      "code": "C1-15",
      "name": "Wasl Village, Central Parking",
-     "time": "11:50",
+     "time": "11:53",
      "action": "pick_up",
      "lat": 25.289501,
      "lng": 55.4111465,
@@ -93419,7 +93419,7 @@
     {
      "code": "C1-15",
      "name": "Wasl Village, Central Parking",
-     "time": "05:53",
+     "time": "06:49",
      "action": "pick_up",
      "lat": 25.289501,
      "lng": 55.4111465,
@@ -93428,7 +93428,7 @@
     {
      "code": "C1-24",
      "name": "EK2 Accommodation, Muhaisnah 4",
-     "time": "05:55",
+     "time": "06:55",
      "action": "pick_up",
      "lat": 25.2795117,
      "lng": 55.402653,
@@ -93475,7 +93475,7 @@
     {
      "code": "C1-24",
      "name": "EK2 Accommodation, Muhaisnah 4",
-     "time": "07:40",
+     "time": "08:55",
      "action": "pick_up",
      "lat": 25.2795117,
      "lng": 55.402653,
@@ -93549,7 +93549,7 @@
     {
      "code": "C1-15",
      "name": "Wasl Village, Central Parking",
-     "time": "09:36",
+     "time": "09:53",
      "action": "pick_up",
      "lat": 25.289501,
      "lng": 55.4111465,
@@ -93623,7 +93623,7 @@
     {
      "code": "C1-15",
      "name": "Wasl Village, Central Parking",
-     "time": "11:29",
+     "time": "11:53",
      "action": "pick_up",
      "lat": 25.289501,
      "lng": 55.4111465,
@@ -98258,9 +98258,18 @@
      "where_exactly": "Public bus stop shelter on 13th Street, facing the Sahara Centre mall entrance."
     },
     {
+     "code": "C1-02",
+     "name": "City Centre Al Zahia",
+     "time": "06:39",
+     "action": "pick_up",
+     "lat": 25.318044,
+     "lng": 55.457279,
+     "where_exactly": "Bus stop by the VOX sign, City Centre Al Zahia."
+    },
+    {
      "code": "C1-24",
      "name": "EK2 Accommodation, Muhaisnah 4",
-     "time": "05:57",
+     "time": "06:47",
      "action": "pick_up",
      "lat": 25.2795117,
      "lng": 55.402653,
@@ -98269,20 +98278,11 @@
     {
      "code": "C1-15",
      "name": "Wasl Village, Central Parking",
-     "time": "06:03",
+     "time": "06:53",
      "action": "pick_up",
      "lat": 25.289501,
      "lng": 55.4111465,
      "where_exactly": "Other side of the road, outside Urban Slice; students wait at the bench."
-    },
-    {
-     "code": "C1-02",
-     "name": "City Centre Al Zahia",
-     "time": "06:39",
-     "action": "pick_up",
-     "lat": 25.318044,
-     "lng": 55.457279,
-     "where_exactly": "Bus stop by the VOX sign, City Centre Al Zahia."
     },
     {
      "code": "UOB",
@@ -98412,7 +98412,7 @@
     {
      "code": "C1-15",
      "name": "Wasl Village, Central Parking",
-     "time": "09:41",
+     "time": "09:53",
      "action": "pick_up",
      "lat": 25.289501,
      "lng": 55.4111465,
@@ -102917,7 +102917,7 @@
     {
      "code": "C1-15",
      "name": "Wasl Village, Central Parking",
-     "time": "05:28",
+     "time": "06:53",
      "action": "pick_up",
      "lat": 25.289501,
      "lng": 55.4111465,
@@ -106774,7 +106774,7 @@
     {
      "code": "C1-15",
      "name": "Wasl Village, Central Parking",
-     "time": "07:33",
+     "time": "07:53",
      "action": "pick_up",
      "lat": 25.289501,
      "lng": 55.4111465,
@@ -108174,7 +108174,7 @@
     {
      "code": "C1-15",
      "name": "Wasl Village, Central Parking",
-     "time": "05:56",
+     "time": "06:49",
      "action": "pick_up",
      "lat": 25.289501,
      "lng": 55.4111465,
@@ -108183,7 +108183,7 @@
     {
      "code": "C1-24",
      "name": "EK2 Accommodation, Muhaisnah 4",
-     "time": "05:58",
+     "time": "06:55",
      "action": "pick_up",
      "lat": 25.2795117,
      "lng": 55.402653,
@@ -108239,7 +108239,7 @@
     {
      "code": "C1-24",
      "name": "EK2 Accommodation, Muhaisnah 4",
-     "time": "08:16",
+     "time": "08:55",
      "action": "pick_up",
      "lat": 25.2795117,
      "lng": 55.402653,
@@ -108400,7 +108400,7 @@
     {
      "code": "C1-15",
      "name": "Wasl Village, Central Parking",
-     "time": "12:04",
+     "time": "11:53",
      "action": "pick_up",
      "lat": 25.289501,
      "lng": 55.4111465,
@@ -112916,7 +112916,7 @@
     {
      "code": "C1-15",
      "name": "Wasl Village, Central Parking",
-     "time": "06:16",
+     "time": "06:49",
      "action": "pick_up",
      "lat": 25.289501,
      "lng": 55.4111465,
@@ -112925,7 +112925,7 @@
     {
      "code": "C1-24",
      "name": "EK2 Accommodation, Muhaisnah 4",
-     "time": "06:18",
+     "time": "06:55",
      "action": "pick_up",
      "lat": 25.2795117,
      "lng": 55.402653,
@@ -112981,7 +112981,7 @@
     {
      "code": "C1-24",
      "name": "EK2 Accommodation, Muhaisnah 4",
-     "time": "08:16",
+     "time": "08:55",
      "action": "pick_up",
      "lat": 25.2795117,
      "lng": 55.402653,
@@ -113102,7 +113102,7 @@
     {
      "code": "C1-15",
      "name": "Wasl Village, Central Parking",
-     "time": "11:44",
+     "time": "11:53",
      "action": "pick_up",
      "lat": 25.289501,
      "lng": 55.4111465,
@@ -117603,7 +117603,7 @@
     {
      "code": "C1-15",
      "name": "Wasl Village, Central Parking",
-     "time": "05:56",
+     "time": "06:49",
      "action": "pick_up",
      "lat": 25.289501,
      "lng": 55.4111465,
@@ -117612,7 +117612,7 @@
     {
      "code": "C1-24",
      "name": "EK2 Accommodation, Muhaisnah 4",
-     "time": "06:02",
+     "time": "06:55",
      "action": "pick_up",
      "lat": 25.2795117,
      "lng": 55.402653,
@@ -117659,7 +117659,7 @@
     {
      "code": "C1-24",
      "name": "EK2 Accommodation, Muhaisnah 4",
-     "time": "07:40",
+     "time": "08:55",
      "action": "pick_up",
      "lat": 25.2795117,
      "lng": 55.402653,
@@ -117733,7 +117733,7 @@
     {
      "code": "C1-15",
      "name": "Wasl Village, Central Parking",
-     "time": "09:36",
+     "time": "09:53",
      "action": "pick_up",
      "lat": 25.289501,
      "lng": 55.4111465,
@@ -117778,15 +117778,6 @@
      "where_exactly": "Bus stop by the VOX sign, City Centre Al Zahia."
     },
     {
-     "code": "C1-15",
-     "name": "Wasl Village, Central Parking",
-     "time": "10:40",
-     "action": "pick_up",
-     "lat": 25.289501,
-     "lng": 55.4111465,
-     "where_exactly": "Other side of the road, outside Urban Slice; students wait at the bench."
-    },
-    {
      "code": "C1-21",
      "name": "Sahab Al Emarat, Al Mamzar, Sharjah",
      "time": "10:49",
@@ -117803,6 +117794,15 @@
      "lat": 25.305885121719236,
      "lng": 55.363729380596915,
      "where_exactly": "Sheikha Maryam Tower, Al Taawun - pick-up at the pin set by Dan 7 Oct (Al Taawun St side); kerb text to confirm."
+    },
+    {
+     "code": "C1-15",
+     "name": "Wasl Village, Central Parking",
+     "time": "11:53",
+     "action": "pick_up",
+     "lat": 25.289501,
+     "lng": 55.4111465,
+     "where_exactly": "Other side of the road, outside Urban Slice; students wait at the bench."
     },
     {
      "code": "UOB",
@@ -122348,7 +122348,7 @@
     {
      "code": "C1-15",
      "name": "Wasl Village, Central Parking",
-     "time": "06:13",
+     "time": "06:49",
      "action": "pick_up",
      "lat": 25.289501,
      "lng": 55.4111465,
@@ -122357,7 +122357,7 @@
     {
      "code": "C1-24",
      "name": "EK2 Accommodation, Muhaisnah 4",
-     "time": "06:15",
+     "time": "06:55",
      "action": "pick_up",
      "lat": 25.2795117,
      "lng": 55.402653,
@@ -122491,7 +122491,7 @@
     {
      "code": "C1-15",
      "name": "Wasl Village, Central Parking",
-     "time": "09:41",
+     "time": "09:53",
      "action": "pick_up",
      "lat": 25.289501,
      "lng": 55.4111465,
@@ -126668,7 +126668,7 @@
     {
      "code": "C1-24",
      "name": "EK2 Accommodation, Muhaisnah 4",
-     "time": "06:58",
+     "time": "06:55",
      "action": "pick_up",
      "lat": 25.2795117,
      "lng": 55.402653,
@@ -130390,7 +130390,7 @@
     {
      "code": "C1-15",
      "name": "Wasl Village, Central Parking",
-     "time": "07:33",
+     "time": "07:53",
      "action": "pick_up",
      "lat": 25.289501,
      "lng": 55.4111465,
