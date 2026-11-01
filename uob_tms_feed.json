@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-01T10:28:50Z",
+ "generated_at": "2026-11-01T13:05:55Z",
  "week": "2026-10-09 to 2026-11-15",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -84286,15 +84286,24 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "06:26",
+   "start": "06:17",
    "end": "07:45",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 4,
+   "booked": 5,
    "seats": 34,
    "status": "operating",
    "stops": [
+    {
+     "code": "C1-26",
+     "name": "Dubai Carmel School, Amman St, Al Nahda 2",
+     "time": "06:17",
+     "action": "pick_up",
+     "lat": 25.2967627,
+     "lng": 55.3794549,
+     "where_exactly": "Kerbside outside the main gate of Dubai Carmel School on Amman Street, Al Nahda 2 (opposite Al Gurg 212). Use the school bus bay; do not enter the compound."
+    },
     {
      "code": "C1-25",
      "name": "Dubai Grand Hotel Bus Stop 1, Damascus St, Al Qusais",
@@ -84358,37 +84367,95 @@
    "day": "Mon",
    "route": "R2",
    "direction": "to_campus",
-   "service": "undergraduate",
+   "service": "regular",
    "arrive_campus": "09:45",
    "leave_campus": null,
-   "start": "08:50",
+   "start": "07:45",
    "end": "09:45",
    "vehicle": "M2",
-   "vehicle_type": "Rosa",
-   "capacity": 34,
-   "booked": 1,
-   "seats": 34,
-   "status": "operating",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 0,
+   "seats": 15,
+   "offer_only": true,
    "stops": [
+    {
+     "code": "C1-14",
+     "name": "Olivz Residence, Warsan 1",
+     "time": "07:45",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-13",
+     "name": "Nasayem Avenue, Mirdif Hills",
+     "time": "07:56",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-12",
+     "name": "Uptown Mirdif",
+     "time": "08:07",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-23",
+     "name": "Centrepoint, Mirdif City Centre",
+     "time": "08:18",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-11",
+     "name": "Madina Mall",
+     "time": "08:29",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-10",
+     "name": "Dubai Festival City Mall",
+     "time": "08:40",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-25",
+     "name": "Dubai Grand Hotel Bus Stop 1, Damascus St, Al Qusais",
+     "time": "08:50",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-09",
+     "name": "DAFZA Metro Station",
+     "time": "09:01",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-08",
+     "name": "Mattar Tower, Al Nahda 1",
+     "time": "09:12",
+     "action": "pick_up",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
+    },
     {
      "code": "C1-26",
      "name": "Dubai Carmel School, Amman St, Al Nahda 2",
-     "time": "08:50",
-     "action": "pick_up",
-     "lat": 25.2967627,
-     "lng": 55.3794549,
-     "where_exactly": "Kerbside outside the main gate of Dubai Carmel School on Amman Street, Al Nahda 2 (opposite Al Gurg 212). Use the school bus bay; do not enter the compound."
+     "time": "09:23",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-07",
+     "name": "Masafi 1, Al Nahda 2",
+     "time": "09:34",
+     "action": "pick_up"
     },
     {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
      "time": "09:45",
-     "action": "set_down",
-     "lat": 25.1321925,
-     "lng": 55.4223161,
-     "where_exactly": ""
+     "action": "set_down"
     }
-   ]
+   ],
+   "status": "on_request"
   },
   {
    "run_id": "2026-11-02-R2-O3",
@@ -84743,7 +84810,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "19:29",
+   "end": "19:22",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "capacity": 34,
@@ -84770,6 +84837,15 @@
      "where_exactly": "RTA bus stop pole (F40 / F03) on 78th Street, Mirdif Hills Avenue."
     },
     {
+     "code": "C1-26",
+     "name": "Dubai Carmel School, Amman St, Al Nahda 2",
+     "time": "19:14",
+     "action": "set_down",
+     "lat": 25.2967627,
+     "lng": 55.3794549,
+     "where_exactly": "Kerbside outside the main gate of Dubai Carmel School on Amman Street, Al Nahda 2 (opposite Al Gurg 212). Use the school bus bay; do not enter the compound."
+    },
+    {
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "19:22",
@@ -84777,15 +84853,6 @@
      "lat": 25.288533,
      "lng": 55.3631313,
      "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
-    },
-    {
-     "code": "C1-26",
-     "name": "Dubai Carmel School, Amman St, Al Nahda 2",
-     "time": "19:29",
-     "action": "set_down",
-     "lat": 25.2967627,
-     "lng": 55.3794549,
-     "where_exactly": "Kerbside outside the main gate of Dubai Carmel School on Amman Street, Al Nahda 2 (opposite Al Gurg 212). Use the school bus bay; do not enter the compound."
     }
    ]
   },
@@ -93540,24 +93607,15 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "06:03",
+   "start": "06:07",
    "end": "07:45",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 7,
+   "booked": 6,
    "seats": 34,
    "status": "operating",
    "stops": [
-    {
-     "code": "C1-26",
-     "name": "Dubai Carmel School, Amman St, Al Nahda 2",
-     "time": "06:03",
-     "action": "pick_up",
-     "lat": 25.2967627,
-     "lng": 55.3794549,
-     "where_exactly": "Kerbside outside the main gate of Dubai Carmel School on Amman Street, Al Nahda 2 (opposite Al Gurg 212). Use the school bus bay; do not enter the compound."
-    },
     {
      "code": "C1-22",
      "name": "Al Nahda 1, Al Banai 1 (RTA bus stop AN1AB1)",
@@ -93642,15 +93700,24 @@
    "service": "undergraduate",
    "arrive_campus": "09:45",
    "leave_campus": null,
-   "start": "08:58",
+   "start": "08:49",
    "end": "09:45",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 1,
+   "booked": 2,
    "seats": 34,
    "status": "operating",
    "stops": [
+    {
+     "code": "C1-26",
+     "name": "Dubai Carmel School, Amman St, Al Nahda 2",
+     "time": "08:49",
+     "action": "pick_up",
+     "lat": 25.2967627,
+     "lng": 55.3794549,
+     "where_exactly": "Kerbside outside the main gate of Dubai Carmel School on Amman Street, Al Nahda 2 (opposite Al Gurg 212). Use the school bus bay; do not enter the compound."
+    },
     {
      "code": "C1-25",
      "name": "Dubai Grand Hotel Bus Stop 1, Damascus St, Al Qusais",
@@ -102633,7 +102700,7 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "06:03",
+   "start": "06:08",
    "end": "07:45",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
@@ -102645,7 +102712,7 @@
     {
      "code": "C1-26",
      "name": "Dubai Carmel School, Amman St, Al Nahda 2",
-     "time": "06:03",
+     "time": "06:08",
      "action": "pick_up",
      "lat": 25.2967627,
      "lng": 55.3794549,
@@ -107877,15 +107944,24 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "06:07",
+   "start": "05:58",
    "end": "07:45",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 2,
+   "booked": 3,
    "seats": 34,
    "status": "operating",
    "stops": [
+    {
+     "code": "C1-26",
+     "name": "Dubai Carmel School, Amman St, Al Nahda 2",
+     "time": "05:58",
+     "action": "pick_up",
+     "lat": 25.2967627,
+     "lng": 55.3794549,
+     "where_exactly": "Kerbside outside the main gate of Dubai Carmel School on Amman Street, Al Nahda 2 (opposite Al Gurg 212). Use the school bus bay; do not enter the compound."
+    },
     {
      "code": "C1-25",
      "name": "Dubai Grand Hotel Bus Stop 1, Damascus St, Al Qusais",
@@ -107931,37 +108007,95 @@
    "day": "Mon",
    "route": "R2",
    "direction": "to_campus",
-   "service": "undergraduate",
+   "service": "regular",
    "arrive_campus": "09:45",
    "leave_campus": null,
-   "start": "08:37",
+   "start": "07:45",
    "end": "09:45",
    "vehicle": "M2",
-   "vehicle_type": "Rosa",
-   "capacity": 34,
-   "booked": 1,
-   "seats": 34,
-   "status": "operating",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 0,
+   "seats": 15,
+   "offer_only": true,
    "stops": [
+    {
+     "code": "C1-14",
+     "name": "Olivz Residence, Warsan 1",
+     "time": "07:45",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-13",
+     "name": "Nasayem Avenue, Mirdif Hills",
+     "time": "07:56",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-12",
+     "name": "Uptown Mirdif",
+     "time": "08:07",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-23",
+     "name": "Centrepoint, Mirdif City Centre",
+     "time": "08:18",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-11",
+     "name": "Madina Mall",
+     "time": "08:29",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-10",
+     "name": "Dubai Festival City Mall",
+     "time": "08:40",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-25",
+     "name": "Dubai Grand Hotel Bus Stop 1, Damascus St, Al Qusais",
+     "time": "08:50",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-09",
+     "name": "DAFZA Metro Station",
+     "time": "09:01",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-08",
+     "name": "Mattar Tower, Al Nahda 1",
+     "time": "09:12",
+     "action": "pick_up",
+     "lat": 25.288533,
+     "lng": 55.3631313,
+     "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
+    },
     {
      "code": "C1-26",
      "name": "Dubai Carmel School, Amman St, Al Nahda 2",
-     "time": "08:37",
-     "action": "pick_up",
-     "lat": 25.2967627,
-     "lng": 55.3794549,
-     "where_exactly": "Kerbside outside the main gate of Dubai Carmel School on Amman Street, Al Nahda 2 (opposite Al Gurg 212). Use the school bus bay; do not enter the compound."
+     "time": "09:23",
+     "action": "pick_up"
+    },
+    {
+     "code": "C1-07",
+     "name": "Masafi 1, Al Nahda 2",
+     "time": "09:34",
+     "action": "pick_up"
     },
     {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
      "time": "09:45",
-     "action": "set_down",
-     "lat": 25.1321925,
-     "lng": 55.4223161,
-     "where_exactly": ""
+     "action": "set_down"
     }
-   ]
+   ],
+   "status": "on_request"
   },
   {
    "run_id": "2026-11-09-R2-O3",
@@ -108325,7 +108459,7 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "19:33",
+   "end": "19:26",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "capacity": 34,
@@ -108352,6 +108486,15 @@
      "where_exactly": "RTA bus stop pole (F40 / F03) on 78th Street, Mirdif Hills Avenue."
     },
     {
+     "code": "C1-26",
+     "name": "Dubai Carmel School, Amman St, Al Nahda 2",
+     "time": "19:15",
+     "action": "set_down",
+     "lat": 25.2967627,
+     "lng": 55.3794549,
+     "where_exactly": "Kerbside outside the main gate of Dubai Carmel School on Amman Street, Al Nahda 2 (opposite Al Gurg 212). Use the school bus bay; do not enter the compound."
+    },
+    {
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
      "time": "19:26",
@@ -108359,15 +108502,6 @@
      "lat": 25.288533,
      "lng": 55.3631313,
      "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
-    },
-    {
-     "code": "C1-26",
-     "name": "Dubai Carmel School, Amman St, Al Nahda 2",
-     "time": "19:33",
-     "action": "set_down",
-     "lat": 25.2967627,
-     "lng": 55.3794549,
-     "where_exactly": "Kerbside outside the main gate of Dubai Carmel School on Amman Street, Al Nahda 2 (opposite Al Gurg 212). Use the school bus bay; do not enter the compound."
     }
    ]
   },
@@ -117127,24 +117261,15 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "06:05",
+   "start": "06:12",
    "end": "07:45",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 7,
+   "booked": 6,
    "seats": 34,
    "status": "operating",
    "stops": [
-    {
-     "code": "C1-26",
-     "name": "Dubai Carmel School, Amman St, Al Nahda 2",
-     "time": "06:05",
-     "action": "pick_up",
-     "lat": 25.2967627,
-     "lng": 55.3794549,
-     "where_exactly": "Kerbside outside the main gate of Dubai Carmel School on Amman Street, Al Nahda 2 (opposite Al Gurg 212). Use the school bus bay; do not enter the compound."
-    },
     {
      "code": "C1-22",
      "name": "Al Nahda 1, Al Banai 1 (RTA bus stop AN1AB1)",
@@ -117220,15 +117345,24 @@
    "service": "undergraduate",
    "arrive_campus": "09:45",
    "leave_campus": null,
-   "start": "08:58",
+   "start": "08:49",
    "end": "09:45",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 1,
+   "booked": 2,
    "seats": 34,
    "status": "operating",
    "stops": [
+    {
+     "code": "C1-26",
+     "name": "Dubai Carmel School, Amman St, Al Nahda 2",
+     "time": "08:49",
+     "action": "pick_up",
+     "lat": 25.2967627,
+     "lng": 55.3794549,
+     "where_exactly": "Kerbside outside the main gate of Dubai Carmel School on Amman Street, Al Nahda 2 (opposite Al Gurg 212). Use the school bus bay; do not enter the compound."
+    },
     {
      "code": "C1-25",
      "name": "Dubai Grand Hotel Bus Stop 1, Damascus St, Al Qusais",
@@ -125966,7 +126100,7 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "06:09",
+   "start": "06:11",
    "end": "07:45",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
@@ -125978,7 +126112,7 @@
     {
      "code": "C1-26",
      "name": "Dubai Carmel School, Amman St, Al Nahda 2",
-     "time": "06:09",
+     "time": "06:11",
      "action": "pick_up",
      "lat": 25.2967627,
      "lng": 55.3794549,
