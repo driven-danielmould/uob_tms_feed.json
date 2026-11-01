@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-31T08:31:31Z",
+ "generated_at": "2026-11-01T10:28:50Z",
  "week": "2026-10-09 to 2026-11-15",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -87802,7 +87802,7 @@
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 4,
+   "booked": 3,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -87832,15 +87832,6 @@
      "lat": 25.0179838,
      "lng": 55.2468052,
      "where_exactly": "Mall drop-off, DAMAC Hills."
-    },
-    {
-     "code": "C3-26",
-     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
-     "time": "17:06",
-     "action": "pick_up",
-     "lat": 25.107412,
-     "lng": 55.3785071,
-     "where_exactly": "Kerbside outside Binghatti Crystals, near Axis 7, DSO. Rider-only stop (Nabeela); last call before campus on the central masters bus."
     },
     {
      "code": "UOB",
@@ -88066,7 +88057,7 @@
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 4,
+   "booked": 3,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -88078,15 +88069,6 @@
      "lat": 25.1321925,
      "lng": 55.4223161,
      "where_exactly": ""
-    },
-    {
-     "code": "C3-26",
-     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
-     "time": "21:49",
-     "action": "set_down",
-     "lat": 25.107412,
-     "lng": 55.3785071,
-     "where_exactly": "Kerbside outside Binghatti Crystals, near Axis 7, DSO. Rider-only stop (Nabeela); last call before campus on the central masters bus."
     },
     {
      "code": "C3-21",
@@ -97399,7 +97381,7 @@
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 4,
+   "booked": 3,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -97429,15 +97411,6 @@
      "lat": 25.069629,
      "lng": 55.323824,
      "where_exactly": "Main entrance of the Arabian Ranches 3 souk."
-    },
-    {
-     "code": "C3-26",
-     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
-     "time": "17:06",
-     "action": "pick_up",
-     "lat": 25.107412,
-     "lng": 55.3785071,
-     "where_exactly": "Kerbside outside Binghatti Crystals, near Axis 7, DSO. Rider-only stop (Nabeela); last call before campus on the central masters bus."
     },
     {
      "code": "UOB",
@@ -97632,7 +97605,7 @@
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 4,
+   "booked": 3,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -97644,15 +97617,6 @@
      "lat": 25.1321925,
      "lng": 55.4223161,
      "where_exactly": ""
-    },
-    {
-     "code": "C3-26",
-     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
-     "time": "21:49",
-     "action": "set_down",
-     "lat": 25.107412,
-     "lng": 55.3785071,
-     "where_exactly": "Kerbside outside Binghatti Crystals, near Axis 7, DSO. Rider-only stop (Nabeela); last call before campus on the central masters bus."
     },
     {
      "code": "C3-12",
@@ -101939,7 +101903,7 @@
    "vehicle": "M8",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 4,
+   "booked": 3,
    "seats": 34,
    "status": "operating",
    "stops": [
@@ -101969,15 +101933,6 @@
      "lat": 25.093492,
      "lng": 55.177807,
      "where_exactly": "Pick and drop area outside the Al Asmawi Building."
-    },
-    {
-     "code": "C3-26",
-     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
-     "time": "17:06",
-     "action": "pick_up",
-     "lat": 25.107412,
-     "lng": 55.3785071,
-     "where_exactly": "Kerbside outside Binghatti Crystals, near Axis 7, DSO. Rider-only stop (Nabeela); last call before campus on the central masters bus."
     },
     {
      "code": "UOB",
@@ -102118,7 +102073,7 @@
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 4,
+   "booked": 3,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -102130,15 +102085,6 @@
      "lat": 25.1321925,
      "lng": 55.4223161,
      "where_exactly": ""
-    },
-    {
-     "code": "C3-26",
-     "name": "Binghatti Crystals, Dubai Silicon Oasis (rider stop)",
-     "time": "21:49",
-     "action": "set_down",
-     "lat": 25.107412,
-     "lng": 55.3785071,
-     "where_exactly": "Kerbside outside Binghatti Crystals, near Axis 7, DSO. Rider-only stop (Nabeela); last call before campus on the central masters bus."
     },
     {
      "code": "C2-11",
