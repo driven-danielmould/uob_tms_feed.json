@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-02T17:29:53Z",
+ "generated_at": "2026-11-02T17:31:26Z",
  "week": "2026-10-09 to 2026-11-15",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -92244,7 +92244,7 @@
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 4,
+   "booked": 3,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -92265,15 +92265,6 @@
      "lat": 25.243624,
      "lng": 55.315799,
      "where_exactly": "RTA bus stop Oud Metha 1, other side of the road, outside Super Saver supermarket."
-    },
-    {
-     "code": "C5-20",
-     "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
-     "time": "06:06",
-     "action": "pick_up",
-     "lat": 25.186457,
-     "lng": 55.282055,
-     "where_exactly": "Kerbside on Abraj Street outside the DAMAC Maison Majestine entrance, opposite Bay Square 13."
     },
     {
      "code": "C5-14",
@@ -92420,7 +92411,7 @@
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 3,
+   "booked": 4,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -92450,6 +92441,15 @@
      "lat": 25.225614,
      "lng": 55.284365,
      "where_exactly": "Outside World Trade Centre Metro Station Exit 2 (Fairmont side). Pick-up towards campus only."
+    },
+    {
+     "code": "C5-20",
+     "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
+     "time": "10:24",
+     "action": "pick_up",
+     "lat": 25.186457,
+     "lng": 55.282055,
+     "where_exactly": "Kerbside on Abraj Street outside the DAMAC Maison Majestine entrance, opposite Bay Square 13."
     },
     {
      "code": "UOB",
@@ -92751,7 +92751,7 @@
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 8,
+   "booked": 9,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -92852,7 +92852,7 @@
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 5,
+   "booked": 4,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -92873,15 +92873,6 @@
      "lat": 25.142673,
      "lng": 55.311774,
      "where_exactly": "Meydan Heights, villa MH405 - at the villa, not villa 166. Pin confirmed by the rider 26 Oct."
-    },
-    {
-     "code": "C5-20",
-     "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
-     "time": "19:38",
-     "action": "set_down",
-     "lat": 25.186457,
-     "lng": 55.282055,
-     "where_exactly": "Kerbside on Abraj Street outside the DAMAC Maison Majestine entrance, opposite Bay Square 13."
     },
     {
      "code": "C5-04",
