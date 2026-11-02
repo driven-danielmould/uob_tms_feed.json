@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-02T10:12:24Z",
+ "generated_at": "2026-11-02T11:24:53Z",
  "week": "2026-10-09 to 2026-11-15",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -84753,11 +84753,11 @@
    "arrive_campus": null,
    "leave_campus": "16:30",
    "start": "16:30",
-   "end": "17:56",
+   "end": "17:40",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 7,
+   "booked": 6,
    "seats": 34,
    "status": "operating",
    "stops": [
@@ -84824,15 +84824,6 @@
      "lat": 25.270214,
      "lng": 55.373696,
      "where_exactly": "21B Street footpath by DAFZA Metro Station Entrance 1."
-    },
-    {
-     "code": "C1-22",
-     "name": "Al Nahda 1, Al Banai 1 (RTA bus stop AN1AB1)",
-     "time": "17:56",
-     "action": "set_down",
-     "lat": 25.291551,
-     "lng": 55.36486,
-     "where_exactly": "RTA bus stop \"Al Nahda 1, Al Banai 1\" (stop ID AN1AB1), shelter on the Al Nahda 1 side; bus pulls into the stop."
     }
    ]
   },
@@ -84846,11 +84837,11 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "19:25",
+   "end": "19:27",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 5,
+   "booked": 6,
    "seats": 34,
    "status": "operating",
    "stops": [
@@ -84891,9 +84882,18 @@
      "where_exactly": "Kerbside outside the main gate of Dubai Carmel School on Amman Street, Al Nahda 2 (opposite Al Gurg 212). Use the school bus bay; do not enter the compound."
     },
     {
+     "code": "C1-22",
+     "name": "Al Nahda 1, Al Banai 1 (RTA bus stop AN1AB1)",
+     "time": "19:23",
+     "action": "set_down",
+     "lat": 25.291551,
+     "lng": 55.36486,
+     "where_exactly": "RTA bus stop \"Al Nahda 1, Al Banai 1\" (stop ID AN1AB1), shelter on the Al Nahda 1 side; bus pulls into the stop."
+    },
+    {
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
-     "time": "19:25",
+     "time": "19:27",
      "action": "set_down",
      "lat": 25.288533,
      "lng": 55.3631313,
@@ -89090,7 +89090,7 @@
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 9,
+   "booked": 8,
    "seats": 34,
    "status": "operating",
    "stops": [
@@ -89102,15 +89102,6 @@
      "lat": 25.2967627,
      "lng": 55.3794549,
      "where_exactly": "Kerbside outside the main gate of Dubai Carmel School on Amman Street, Al Nahda 2 (opposite Al Gurg 212). Use the school bus bay; do not enter the compound."
-    },
-    {
-     "code": "C1-22",
-     "name": "Al Nahda 1, Al Banai 1 (RTA bus stop AN1AB1)",
-     "time": "06:13",
-     "action": "pick_up",
-     "lat": 25.291551,
-     "lng": 55.36486,
-     "where_exactly": "RTA bus stop \"Al Nahda 1, Al Banai 1\" (stop ID AN1AB1), shelter on the Al Nahda 1 side; bus pulls into the stop."
     },
     {
      "code": "C1-08",
@@ -89655,7 +89646,7 @@
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 8,
+   "booked": 7,
    "seats": 34,
    "status": "operating",
    "stops": [
@@ -89703,15 +89694,6 @@
      "lat": 25.287666,
      "lng": 55.361619,
      "where_exactly": "Kerbside outside the Bahwan Tower entrance; no lay-by, bus stops in the road."
-    },
-    {
-     "code": "C1-22",
-     "name": "Al Nahda 1, Al Banai 1 (RTA bus stop AN1AB1)",
-     "time": "19:32",
-     "action": "set_down",
-     "lat": 25.291551,
-     "lng": 55.36486,
-     "where_exactly": "RTA bus stop \"Al Nahda 1, Al Banai 1\" (stop ID AN1AB1), shelter on the Al Nahda 1 side; bus pulls into the stop."
     },
     {
      "code": "C1-26",
@@ -94123,7 +94105,7 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "06:07",
+   "start": "06:10",
    "end": "07:45",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
@@ -94135,7 +94117,7 @@
     {
      "code": "C1-22",
      "name": "Al Nahda 1, Al Banai 1 (RTA bus stop AN1AB1)",
-     "time": "06:07",
+     "time": "06:10",
      "action": "pick_up",
      "lat": 25.291551,
      "lng": 55.36486,
@@ -94690,7 +94672,7 @@
     {
      "code": "C1-22",
      "name": "Al Nahda 1, Al Banai 1 (RTA bus stop AN1AB1)",
-     "time": "19:40",
+     "time": "19:31",
      "action": "set_down",
      "lat": 25.291551,
      "lng": 55.36486,
@@ -99004,7 +98986,7 @@
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 4,
+   "booked": 5,
    "seats": 34,
    "status": "operating",
    "stops": [
@@ -99025,6 +99007,15 @@
      "lat": 25.288533,
      "lng": 55.3631313,
      "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
+    },
+    {
+     "code": "C1-22",
+     "name": "Al Nahda 1, Al Banai 1 (RTA bus stop AN1AB1)",
+     "time": "06:26",
+     "action": "pick_up",
+     "lat": 25.291551,
+     "lng": 55.36486,
+     "where_exactly": "RTA bus stop \"Al Nahda 1, Al Banai 1\" (stop ID AN1AB1), shelter on the Al Nahda 1 side; bus pulls into the stop."
     },
     {
      "code": "C1-23",
@@ -99177,24 +99168,15 @@
    "service": "undergraduate",
    "arrive_campus": "12:45",
    "leave_campus": null,
-   "start": "11:34",
+   "start": "11:50",
    "end": "12:45",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 4,
+   "booked": 3,
    "seats": 34,
    "status": "operating",
    "stops": [
-    {
-     "code": "C1-22",
-     "name": "Al Nahda 1, Al Banai 1 (RTA bus stop AN1AB1)",
-     "time": "11:34",
-     "action": "pick_up",
-     "lat": 25.291551,
-     "lng": 55.36486,
-     "where_exactly": "RTA bus stop \"Al Nahda 1, Al Banai 1\" (stop ID AN1AB1), shelter on the Al Nahda 1 side; bus pulls into the stop."
-    },
     {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
@@ -99521,7 +99503,7 @@
     {
      "code": "C1-22",
      "name": "Al Nahda 1, Al Banai 1 (RTA bus stop AN1AB1)",
-     "time": "19:36",
+     "time": "19:30",
      "action": "set_down",
      "lat": 25.291551,
      "lng": 55.36486,
@@ -103886,7 +103868,7 @@
     {
      "code": "C1-22",
      "name": "Al Nahda 1, Al Banai 1 (RTA bus stop AN1AB1)",
-     "time": "13:12",
+     "time": "13:07",
      "action": "set_down",
      "lat": 25.291551,
      "lng": 55.36486,
@@ -108864,15 +108846,24 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:58",
+   "start": "05:51",
    "end": "07:45",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 3,
+   "booked": 4,
    "seats": 34,
    "status": "operating",
    "stops": [
+    {
+     "code": "C1-22",
+     "name": "Al Nahda 1, Al Banai 1 (RTA bus stop AN1AB1)",
+     "time": "05:51",
+     "action": "pick_up",
+     "lat": 25.291551,
+     "lng": 55.36486,
+     "where_exactly": "RTA bus stop \"Al Nahda 1, Al Banai 1\" (stop ID AN1AB1), shelter on the Al Nahda 1 side; bus pulls into the stop."
+    },
     {
      "code": "C1-26",
      "name": "Dubai Carmel School, Amman St, Al Nahda 2",
@@ -109082,24 +109073,15 @@
    "service": "undergraduate",
    "arrive_campus": "12:45",
    "leave_campus": null,
-   "start": "11:44",
+   "start": "11:49",
    "end": "12:45",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 5,
+   "booked": 4,
    "seats": 34,
    "status": "operating",
    "stops": [
-    {
-     "code": "C1-22",
-     "name": "Al Nahda 1, Al Banai 1 (RTA bus stop AN1AB1)",
-     "time": "11:44",
-     "action": "pick_up",
-     "lat": 25.291551,
-     "lng": 55.36486,
-     "where_exactly": "RTA bus stop \"Al Nahda 1, Al Banai 1\" (stop ID AN1AB1), shelter on the Al Nahda 1 side; bus pulls into the stop."
-    },
     {
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
@@ -109295,11 +109277,11 @@
    "arrive_campus": null,
    "leave_campus": "16:30",
    "start": "16:30",
-   "end": "17:56",
+   "end": "17:40",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 5,
+   "booked": 4,
    "seats": 34,
    "status": "operating",
    "stops": [
@@ -109357,15 +109339,6 @@
      "lat": 25.270214,
      "lng": 55.373696,
      "where_exactly": "21B Street footpath by DAFZA Metro Station Entrance 1."
-    },
-    {
-     "code": "C1-22",
-     "name": "Al Nahda 1, Al Banai 1 (RTA bus stop AN1AB1)",
-     "time": "17:56",
-     "action": "set_down",
-     "lat": 25.291551,
-     "lng": 55.36486,
-     "where_exactly": "RTA bus stop \"Al Nahda 1, Al Banai 1\" (stop ID AN1AB1), shelter on the Al Nahda 1 side; bus pulls into the stop."
     }
    ]
   },
@@ -109383,7 +109356,7 @@
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 4,
+   "booked": 5,
    "seats": 34,
    "status": "operating",
    "stops": [
@@ -109413,6 +109386,15 @@
      "lat": 25.2967627,
      "lng": 55.3794549,
      "where_exactly": "Kerbside outside the main gate of Dubai Carmel School on Amman Street, Al Nahda 2 (opposite Al Gurg 212). Use the school bus bay; do not enter the compound."
+    },
+    {
+     "code": "C1-22",
+     "name": "Al Nahda 1, Al Banai 1 (RTA bus stop AN1AB1)",
+     "time": "19:22",
+     "action": "set_down",
+     "lat": 25.291551,
+     "lng": 55.36486,
+     "where_exactly": "RTA bus stop \"Al Nahda 1, Al Banai 1\" (stop ID AN1AB1), shelter on the Al Nahda 1 side; bus pulls into the stop."
     },
     {
      "code": "C1-08",
@@ -113625,7 +113607,7 @@
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 8,
+   "booked": 7,
    "seats": 34,
    "status": "operating",
    "stops": [
@@ -113637,15 +113619,6 @@
      "lat": 25.2967627,
      "lng": 55.3794549,
      "where_exactly": "Kerbside outside the main gate of Dubai Carmel School on Amman Street, Al Nahda 2 (opposite Al Gurg 212). Use the school bus bay; do not enter the compound."
-    },
-    {
-     "code": "C1-22",
-     "name": "Al Nahda 1, Al Banai 1 (RTA bus stop AN1AB1)",
-     "time": "06:13",
-     "action": "pick_up",
-     "lat": 25.291551,
-     "lng": 55.36486,
-     "where_exactly": "RTA bus stop \"Al Nahda 1, Al Banai 1\" (stop ID AN1AB1), shelter on the Al Nahda 1 side; bus pulls into the stop."
     },
     {
      "code": "C1-08",
@@ -114136,7 +114109,7 @@
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 6,
+   "booked": 5,
    "seats": 34,
    "status": "operating",
    "stops": [
@@ -114175,15 +114148,6 @@
      "lat": 25.287666,
      "lng": 55.361619,
      "where_exactly": "Kerbside outside the Bahwan Tower entrance; no lay-by, bus stops in the road."
-    },
-    {
-     "code": "C1-22",
-     "name": "Al Nahda 1, Al Banai 1 (RTA bus stop AN1AB1)",
-     "time": "19:35",
-     "action": "set_down",
-     "lat": 25.291551,
-     "lng": 55.36486,
-     "where_exactly": "RTA bus stop \"Al Nahda 1, Al Banai 1\" (stop ID AN1AB1), shelter on the Al Nahda 1 side; bus pulls into the stop."
     },
     {
      "code": "C1-26",
@@ -118289,7 +118253,7 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "06:12",
+   "start": "06:14",
    "end": "07:45",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
@@ -118301,7 +118265,7 @@
     {
      "code": "C1-22",
      "name": "Al Nahda 1, Al Banai 1 (RTA bus stop AN1AB1)",
-     "time": "06:12",
+     "time": "06:14",
      "action": "pick_up",
      "lat": 25.291551,
      "lng": 55.36486,
@@ -118784,7 +118748,7 @@
     {
      "code": "C1-22",
      "name": "Al Nahda 1, Al Banai 1 (RTA bus stop AN1AB1)",
-     "time": "19:40",
+     "time": "19:31",
      "action": "set_down",
      "lat": 25.291551,
      "lng": 55.36486,
@@ -123047,7 +123011,7 @@
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 4,
+   "booked": 5,
    "seats": 34,
    "status": "operating",
    "stops": [
@@ -123068,6 +123032,15 @@
      "lat": 25.288533,
      "lng": 55.3631313,
      "where_exactly": "Kerbside on Baghdad Street outside Mattar Tower (SBK) by Garlic Routes restaurant - the building entrance."
+    },
+    {
+     "code": "C1-22",
+     "name": "Al Nahda 1, Al Banai 1 (RTA bus stop AN1AB1)",
+     "time": "06:26",
+     "action": "pick_up",
+     "lat": 25.291551,
+     "lng": 55.36486,
+     "where_exactly": "RTA bus stop \"Al Nahda 1, Al Banai 1\" (stop ID AN1AB1), shelter on the Al Nahda 1 side; bus pulls into the stop."
     },
     {
      "code": "C1-23",
@@ -123211,24 +123184,15 @@
    "service": "undergraduate",
    "arrive_campus": "12:45",
    "leave_campus": null,
-   "start": "11:34",
+   "start": "11:50",
    "end": "12:45",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 4,
+   "booked": 3,
    "seats": 34,
    "status": "operating",
    "stops": [
-    {
-     "code": "C1-22",
-     "name": "Al Nahda 1, Al Banai 1 (RTA bus stop AN1AB1)",
-     "time": "11:34",
-     "action": "pick_up",
-     "lat": 25.291551,
-     "lng": 55.36486,
-     "where_exactly": "RTA bus stop \"Al Nahda 1, Al Banai 1\" (stop ID AN1AB1), shelter on the Al Nahda 1 side; bus pulls into the stop."
-    },
     {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
@@ -123537,7 +123501,7 @@
     {
      "code": "C1-22",
      "name": "Al Nahda 1, Al Banai 1 (RTA bus stop AN1AB1)",
-     "time": "19:39",
+     "time": "19:33",
      "action": "set_down",
      "lat": 25.291551,
      "lng": 55.36486,
@@ -127619,7 +127583,7 @@
     {
      "code": "C1-22",
      "name": "Al Nahda 1, Al Banai 1 (RTA bus stop AN1AB1)",
-     "time": "13:09",
+     "time": "13:05",
      "action": "set_down",
      "lat": 25.291551,
      "lng": 55.36486,
