@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-02T02:55:39Z",
+ "generated_at": "2026-11-02T04:23:55Z",
  "week": "2026-10-09 to 2026-11-15",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -92254,37 +92254,110 @@
    "day": "Tue",
    "route": "R7",
    "direction": "to_campus",
-   "service": "undergraduate",
+   "service": "regular",
    "arrive_campus": "09:45",
    "leave_campus": null,
-   "start": "08:30",
+   "start": "07:45",
    "end": "09:45",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 1,
+   "booked": 0,
    "seats": 15,
-   "status": "operating",
+   "offer_only": true,
    "stops": [
     {
-     "code": "C5-17",
-     "name": "New Gold Souq, Al Raffa, Bur Dubai",
-     "time": "08:30",
-     "action": "pick_up",
-     "lat": 25.2515903,
-     "lng": 55.2824733,
-     "where_exactly": "ENOC petrol station beside the New Gold Souq (by Shabab Al Khan Cafeteria)."
+     "code": "C5-12",
+     "name": "Wasl Green Park, Ras Al Khor",
+     "time": "07:45",
+     "action": "pick_up"
+    },
+    {
+     "code": "C5-11",
+     "name": "One Park Avenue, Sobha Hartland",
+     "time": "07:54",
+     "action": "pick_up"
+    },
+    {
+     "code": "C5-10",
+     "name": "Bay Square, Business Bay",
+     "time": "08:02",
+     "action": "pick_up"
+    },
+    {
+     "code": "C5-09",
+     "name": "Bay Avenue Mall, Business Bay",
+     "time": "08:11",
+     "action": "pick_up"
+    },
+    {
+     "code": "C5-08",
+     "name": "Financial Centre Metro Station",
+     "time": "08:19",
+     "action": "pick_up"
+    },
+    {
+     "code": "C5-07",
+     "name": "World Trade Centre Metro Station",
+     "time": "08:28",
+     "action": "pick_up"
+    },
+    {
+     "code": "C5-06",
+     "name": "Al Wasl Building, Al Hudaiba",
+     "time": "08:36",
+     "action": "pick_up"
+    },
+    {
+     "code": "C5-05",
+     "name": "BurJuman Mall",
+     "time": "08:45",
+     "action": "pick_up"
+    },
+    {
+     "code": "C5-04",
+     "name": "Oud Metha Metro Station",
+     "time": "08:54",
+     "action": "pick_up"
+    },
+    {
+     "code": "C5-22",
+     "name": "Al Jaddaf Metro Station",
+     "time": "09:02",
+     "action": "pick_up"
+    },
+    {
+     "code": "C5-03",
+     "name": "Creek Metro Station, Al Jaddaf",
+     "time": "09:11",
+     "action": "pick_up"
+    },
+    {
+     "code": "C5-21",
+     "name": "Al Ghurair Centre bus stop (Ghurair City 2), Al Rigga Rd",
+     "time": "09:19",
+     "action": "pick_up"
+    },
+    {
+     "code": "C5-02",
+     "name": "Al Rigga Metro Station",
+     "time": "09:28",
+     "action": "pick_up"
+    },
+    {
+     "code": "C5-01",
+     "name": "Gold Souq Metro Station",
+     "time": "09:36",
+     "action": "pick_up"
     },
     {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
      "time": "09:45",
-     "action": "set_down",
-     "lat": 25.1321925,
-     "lng": 55.4223161,
-     "where_exactly": ""
+     "action": "set_down"
     }
-   ]
+   ],
+   "status": "on_request"
   },
   {
    "run_id": "2026-11-03-R7-O3",
@@ -92356,7 +92429,7 @@
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 8,
+   "booked": 9,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -92377,6 +92450,15 @@
      "lat": 25.254331,
      "lng": 55.303661,
      "where_exactly": "Bus stop outside Asia Kitchen, BurJuman Mall."
+    },
+    {
+     "code": "C5-17",
+     "name": "New Gold Souq, Al Raffa, Bur Dubai",
+     "time": "11:19",
+     "action": "pick_up",
+     "lat": 25.2515903,
+     "lng": 55.2824733,
+     "where_exactly": "ENOC petrol station beside the New Gold Souq (by Shabab Al Khan Cafeteria)."
     },
     {
      "code": "C5-09",
@@ -92448,7 +92530,7 @@
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 5,
+   "booked": 4,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -92487,15 +92569,6 @@
      "lat": 25.243,
      "lng": 55.2788,
      "where_exactly": "S2/PR399 Al Wasl Bldg Block A, 4B St."
-    },
-    {
-     "code": "C5-17",
-     "name": "New Gold Souq, Al Raffa, Bur Dubai",
-     "time": "15:26",
-     "action": "set_down",
-     "lat": 25.2515903,
-     "lng": 55.2824733,
-     "where_exactly": "ENOC petrol station beside the New Gold Souq (by Shabab Al Khan Cafeteria)."
     },
     {
      "code": "C5-07",
@@ -92728,11 +92801,11 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "20:04",
+   "end": "20:12",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 4,
+   "booked": 5,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -92780,6 +92853,15 @@
      "lat": 25.254331,
      "lng": 55.303661,
      "where_exactly": "Bus stop outside Asia Kitchen, BurJuman Mall."
+    },
+    {
+     "code": "C5-17",
+     "name": "New Gold Souq, Al Raffa, Bur Dubai",
+     "time": "20:12",
+     "action": "set_down",
+     "lat": 25.2515903,
+     "lng": 55.2824733,
+     "where_exactly": "ENOC petrol station beside the New Gold Souq (by Shabab Al Khan Cafeteria)."
     }
    ]
   },
@@ -97233,7 +97315,7 @@
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 3,
+   "booked": 2,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -97245,15 +97327,6 @@
      "lat": 25.243624,
      "lng": 55.315799,
      "where_exactly": "RTA bus stop Oud Metha 1, other side of the road, outside Super Saver supermarket."
-    },
-    {
-     "code": "C5-17",
-     "name": "New Gold Souq, Al Raffa, Bur Dubai",
-     "time": "08:57",
-     "action": "pick_up",
-     "lat": 25.2515903,
-     "lng": 55.2824733,
-     "where_exactly": "ENOC petrol station beside the New Gold Souq (by Shabab Al Khan Cafeteria)."
     },
     {
      "code": "UOB",
@@ -97322,15 +97395,24 @@
    "service": "undergraduate",
    "arrive_campus": "12:45",
    "leave_campus": null,
-   "start": "11:11",
+   "start": "11:03",
    "end": "12:45",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 3,
+   "booked": 4,
    "seats": 15,
    "status": "operating",
    "stops": [
+    {
+     "code": "C5-17",
+     "name": "New Gold Souq, Al Raffa, Bur Dubai",
+     "time": "11:03",
+     "action": "pick_up",
+     "lat": 25.2515903,
+     "lng": 55.2824733,
+     "where_exactly": "ENOC petrol station beside the New Gold Souq (by Shabab Al Khan Cafeteria)."
+    },
     {
      "code": "C5-05",
      "name": "BurJuman Mall",
@@ -97383,7 +97465,7 @@
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 5,
+   "booked": 4,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -97404,15 +97486,6 @@
      "lat": 25.243,
      "lng": 55.2788,
      "where_exactly": "S2/PR399 Al Wasl Bldg Block A, 4B St."
-    },
-    {
-     "code": "C5-17",
-     "name": "New Gold Souq, Al Raffa, Bur Dubai",
-     "time": "15:15",
-     "action": "set_down",
-     "lat": 25.2515903,
-     "lng": 55.2824733,
-     "where_exactly": "ENOC petrol station beside the New Gold Souq (by Shabab Al Khan Cafeteria)."
     },
     {
      "code": "C5-04",
@@ -97600,11 +97673,11 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "20:11",
+   "end": "20:15",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 9,
+   "booked": 10,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -97672,9 +97745,18 @@
      "where_exactly": "Outside World Trade Centre Metro Station Exit 2 (Fairmont side). Pick-up towards campus only."
     },
     {
+     "code": "C5-17",
+     "name": "New Gold Souq, Al Raffa, Bur Dubai",
+     "time": "20:07",
+     "action": "set_down",
+     "lat": 25.2515903,
+     "lng": 55.2824733,
+     "where_exactly": "ENOC petrol station beside the New Gold Souq (by Shabab Al Khan Cafeteria)."
+    },
+    {
      "code": "C5-05",
      "name": "BurJuman Mall",
-     "time": "20:11",
+     "time": "20:15",
      "action": "set_down",
      "lat": 25.254331,
      "lng": 55.303661,
