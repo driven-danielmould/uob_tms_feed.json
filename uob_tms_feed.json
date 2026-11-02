@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-02T17:03:32Z",
+ "generated_at": "2026-11-02T17:04:43Z",
  "week": "2026-10-09 to 2026-11-15",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -83874,7 +83874,7 @@
    "service": "undergraduate",
    "arrive_campus": "12:45",
    "leave_campus": null,
-   "start": "10:37",
+   "start": "10:26",
    "end": "12:45",
    "vehicle": "M1",
    "vehicle_type": "Rosa",
@@ -83886,7 +83886,7 @@
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "10:37",
+     "time": "10:26",
      "action": "pick_up",
      "lat": 25.337533,
      "lng": 55.39061,
@@ -83895,7 +83895,7 @@
     {
      "code": "C1-18",
      "name": "Shamseen Bakeries Building, Al Majaz",
-     "time": "10:44",
+     "time": "10:33",
      "action": "pick_up",
      "lat": 25.33253,
      "lng": 55.37588,
@@ -83904,7 +83904,7 @@
     {
      "code": "C1-28",
      "name": "Corniche Hotel Sharjah, Al Majaz 3 (rider stop)",
-     "time": "10:48",
+     "time": "10:37",
      "action": "pick_up",
      "lat": 25.3275768,
      "lng": 55.3781072,
@@ -83913,7 +83913,7 @@
     {
      "code": "C1-20",
      "name": "Al Buhaira Police Station bus stop, Al Majaz 3",
-     "time": "11:09",
+     "time": "10:58",
      "action": "pick_up",
      "lat": 25.323284,
      "lng": 55.381418,
@@ -83922,7 +83922,7 @@
     {
      "code": "C1-21",
      "name": "Sahab Al Emarat, Al Mamzar, Sharjah",
-     "time": "11:31",
+     "time": "11:20",
      "action": "pick_up",
      "lat": 25.31578,
      "lng": 55.35863,
@@ -83931,7 +83931,7 @@
     {
      "code": "C1-16",
      "name": "LuLu Hypermarket Al Nahda, Sharjah",
-     "time": "11:52",
+     "time": "11:41",
      "action": "pick_up",
      "lat": 25.303505,
      "lng": 55.375491,
@@ -88573,15 +88573,6 @@
      "where_exactly": "Sheikha Maryam Tower, Al Taawun - pick-up at the pin set by Dan 7 Oct (Al Taawun St side); kerb text to confirm."
     },
     {
-     "code": "C1-24",
-     "name": "EK2 Accommodation, Muhaisnah 4",
-     "time": "08:48",
-     "action": "pick_up",
-     "lat": 25.2795117,
-     "lng": 55.402653,
-     "where_exactly": "Kerbside on 17th Street outside the EK2 Accommodation (Emirates EK2) building. Do not enter the compound."
-    },
-    {
      "code": "C1-02",
      "name": "City Centre Al Zahia",
      "time": "09:34",
@@ -88589,6 +88580,15 @@
      "lat": 25.318044,
      "lng": 55.457279,
      "where_exactly": "Bus stop by the VOX sign, City Centre Al Zahia."
+    },
+    {
+     "code": "C1-24",
+     "name": "EK2 Accommodation, Muhaisnah 4",
+     "time": "09:55",
+     "action": "pick_up",
+     "lat": 25.2795117,
+     "lng": 55.402653,
+     "where_exactly": "Kerbside on 17th Street outside the EK2 Accommodation (Emirates EK2) building. Do not enter the compound."
     },
     {
      "code": "UOB",
@@ -93711,7 +93711,7 @@
    "service": "undergraduate",
    "arrive_campus": "12:45",
    "leave_campus": null,
-   "start": "10:43",
+   "start": "10:23",
    "end": "12:45",
    "vehicle": "M1",
    "vehicle_type": "Rosa",
@@ -93723,7 +93723,7 @@
     {
      "code": "C1-20",
      "name": "Al Buhaira Police Station bus stop, Al Majaz 3",
-     "time": "10:43",
+     "time": "10:23",
      "action": "pick_up",
      "lat": 25.323284,
      "lng": 55.381418,
@@ -93732,7 +93732,7 @@
     {
      "code": "C1-21",
      "name": "Sahab Al Emarat, Al Mamzar, Sharjah",
-     "time": "11:03",
+     "time": "10:43",
      "action": "pick_up",
      "lat": 25.31578,
      "lng": 55.35863,
@@ -93741,7 +93741,7 @@
     {
      "code": "C1-05",
      "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "11:15",
+     "time": "10:55",
      "action": "pick_up",
      "lat": 25.305885121719236,
      "lng": 55.363729380596915,
@@ -93750,11 +93750,20 @@
     {
      "code": "C1-16",
      "name": "LuLu Hypermarket Al Nahda, Sharjah",
-     "time": "11:21",
+     "time": "11:01",
      "action": "pick_up",
      "lat": 25.303505,
      "lng": 55.375491,
      "where_exactly": "Al Nahda Park bus stop (Sharjah stop no. 78), across the road from LuLu, facing Habib Bakery."
+    },
+    {
+     "code": "C1-02",
+     "name": "City Centre Al Zahia",
+     "time": "11:37",
+     "action": "pick_up",
+     "lat": 25.318044,
+     "lng": 55.457279,
+     "where_exactly": "Bus stop by the VOX sign, City Centre Al Zahia."
     },
     {
      "code": "C1-15",
@@ -93764,15 +93773,6 @@
      "lat": 25.289501,
      "lng": 55.4111465,
      "where_exactly": "Other side of the road, outside Urban Slice; students wait at the bench."
-    },
-    {
-     "code": "C1-02",
-     "name": "City Centre Al Zahia",
-     "time": "11:57",
-     "action": "pick_up",
-     "lat": 25.318044,
-     "lng": 55.457279,
-     "where_exactly": "Bus stop by the VOX sign, City Centre Al Zahia."
     },
     {
      "code": "UOB",
@@ -98366,7 +98366,7 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:03",
+   "start": "04:52",
    "end": "07:45",
    "vehicle": "M1",
    "vehicle_type": "Rosa",
@@ -98378,7 +98378,7 @@
     {
      "code": "C1-20",
      "name": "Al Buhaira Police Station bus stop, Al Majaz 3",
-     "time": "05:03",
+     "time": "04:52",
      "action": "pick_up",
      "lat": 25.323284,
      "lng": 55.381418,
@@ -98387,7 +98387,7 @@
     {
      "code": "C1-05",
      "name": "Sheikha Maryam Tower, Al Taawun",
-     "time": "05:31",
+     "time": "05:20",
      "action": "pick_up",
      "lat": 25.305885121719236,
      "lng": 55.363729380596915,
@@ -98396,7 +98396,7 @@
     {
      "code": "C1-06",
      "name": "Sahara Centre",
-     "time": "05:46",
+     "time": "05:35",
      "action": "pick_up",
      "lat": 25.297153,
      "lng": 55.371026,
@@ -98405,7 +98405,7 @@
     {
      "code": "C1-02",
      "name": "City Centre Al Zahia",
-     "time": "06:39",
+     "time": "06:28",
      "action": "pick_up",
      "lat": 25.318044,
      "lng": 55.457279,
@@ -108506,7 +108506,7 @@
    "service": "undergraduate",
    "arrive_campus": "12:45",
    "leave_campus": null,
-   "start": "10:37",
+   "start": "10:26",
    "end": "12:45",
    "vehicle": "M1",
    "vehicle_type": "Rosa",
@@ -108518,7 +108518,7 @@
     {
      "code": "C1-04",
      "name": "Nesto Hypermarket, King Faisal St",
-     "time": "10:37",
+     "time": "10:26",
      "action": "pick_up",
      "lat": 25.337533,
      "lng": 55.39061,
@@ -108527,7 +108527,7 @@
     {
      "code": "C1-18",
      "name": "Shamseen Bakeries Building, Al Majaz",
-     "time": "10:44",
+     "time": "10:33",
      "action": "pick_up",
      "lat": 25.33253,
      "lng": 55.37588,
@@ -108536,7 +108536,7 @@
     {
      "code": "C1-28",
      "name": "Corniche Hotel Sharjah, Al Majaz 3 (rider stop)",
-     "time": "10:48",
+     "time": "10:37",
      "action": "pick_up",
      "lat": 25.3275768,
      "lng": 55.3781072,
@@ -108545,7 +108545,7 @@
     {
      "code": "C1-20",
      "name": "Al Buhaira Police Station bus stop, Al Majaz 3",
-     "time": "11:09",
+     "time": "10:58",
      "action": "pick_up",
      "lat": 25.323284,
      "lng": 55.381418,
@@ -108554,7 +108554,7 @@
     {
      "code": "C1-21",
      "name": "Sahab Al Emarat, Al Mamzar, Sharjah",
-     "time": "11:31",
+     "time": "11:20",
      "action": "pick_up",
      "lat": 25.31578,
      "lng": 55.35863,
@@ -108563,7 +108563,7 @@
     {
      "code": "C1-16",
      "name": "LuLu Hypermarket Al Nahda, Sharjah",
-     "time": "11:52",
+     "time": "11:41",
      "action": "pick_up",
      "lat": 25.303505,
      "lng": 55.375491,
@@ -126801,7 +126801,7 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "06:41",
+   "start": "06:38",
    "end": "07:45",
    "vehicle": "M1",
    "vehicle_type": "Rosa",
@@ -126813,7 +126813,7 @@
     {
      "code": "C1-18",
      "name": "Shamseen Bakeries Building, Al Majaz",
-     "time": "06:41",
+     "time": "06:38",
      "action": "pick_up",
      "lat": 25.33253,
      "lng": 55.37588,
