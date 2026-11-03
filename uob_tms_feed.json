@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-03T02:19:02Z",
+ "generated_at": "2026-11-03T02:34:33Z",
  "week": "2026-10-09 to 2026-11-15",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -92230,15 +92230,24 @@
    "service": "undergraduate",
    "arrive_campus": "07:45",
    "leave_campus": null,
-   "start": "05:45",
+   "start": "05:36",
    "end": "07:45",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 3,
+   "booked": 4,
    "seats": 15,
    "status": "operating",
    "stops": [
+    {
+     "code": "C5-06",
+     "name": "Al Wasl Building, Al Hudaiba",
+     "time": "05:36",
+     "action": "pick_up",
+     "lat": 25.243,
+     "lng": 55.2788,
+     "where_exactly": "S2/PR399 Al Wasl Bldg Block A, 4B St."
+    },
     {
      "code": "C5-05",
      "name": "BurJuman Mall",
@@ -97291,7 +97300,7 @@
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 10,
+   "booked": 9,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -97312,15 +97321,6 @@
      "lat": 25.254331,
      "lng": 55.303661,
      "where_exactly": "Bus stop outside Asia Kitchen, BurJuman Mall."
-    },
-    {
-     "code": "C5-06",
-     "name": "Al Wasl Building, Al Hudaiba",
-     "time": "06:14",
-     "action": "pick_up",
-     "lat": 25.243,
-     "lng": 55.2788,
-     "where_exactly": "S2/PR399 Al Wasl Bldg Block A, 4B St."
     },
     {
      "code": "C5-07",
@@ -97387,15 +97387,24 @@
    "service": "undergraduate",
    "arrive_campus": "09:45",
    "leave_campus": null,
-   "start": "08:39",
+   "start": "08:28",
    "end": "09:45",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 2,
+   "booked": 3,
    "seats": 15,
    "status": "operating",
    "stops": [
+    {
+     "code": "C5-06",
+     "name": "Al Wasl Building, Al Hudaiba",
+     "time": "08:28",
+     "action": "pick_up",
+     "lat": 25.243,
+     "lng": 55.2788,
+     "where_exactly": "S2/PR399 Al Wasl Bldg Block A, 4B St."
+    },
     {
      "code": "C5-04",
      "name": "Oud Metha Metro Station",
@@ -97538,7 +97547,7 @@
    "arrive_campus": null,
    "leave_campus": "14:15",
    "start": "14:15",
-   "end": "15:26",
+   "end": "15:37",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
@@ -97556,15 +97565,6 @@
      "where_exactly": ""
     },
     {
-     "code": "C5-06",
-     "name": "Al Wasl Building, Al Hudaiba",
-     "time": "15:10",
-     "action": "set_down",
-     "lat": 25.243,
-     "lng": 55.2788,
-     "where_exactly": "S2/PR399 Al Wasl Bldg Block A, 4B St."
-    },
-    {
      "code": "C5-04",
      "name": "Oud Metha Metro Station",
      "time": "15:26",
@@ -97572,6 +97572,15 @@
      "lat": 25.243624,
      "lng": 55.315799,
      "where_exactly": "RTA bus stop Oud Metha 1, other side of the road, outside Super Saver supermarket."
+    },
+    {
+     "code": "C5-06",
+     "name": "Al Wasl Building, Al Hudaiba",
+     "time": "15:37",
+     "action": "set_down",
+     "lat": 25.243,
+     "lng": 55.2788,
+     "where_exactly": "S2/PR399 Al Wasl Bldg Block A, 4B St."
     }
    ]
   },
@@ -102360,24 +102369,15 @@
    "service": "undergraduate",
    "arrive_campus": "12:45",
    "leave_campus": null,
-   "start": "11:03",
+   "start": "11:14",
    "end": "12:45",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 2,
+   "booked": 1,
    "seats": 15,
    "status": "operating",
    "stops": [
-    {
-     "code": "C5-06",
-     "name": "Al Wasl Building, Al Hudaiba",
-     "time": "11:03",
-     "action": "pick_up",
-     "lat": 25.243,
-     "lng": 55.2788,
-     "where_exactly": "S2/PR399 Al Wasl Bldg Block A, 4B St."
-    },
     {
      "code": "C5-04",
      "name": "Oud Metha Metro Station",
@@ -102615,7 +102615,7 @@
    "vehicle": "M7",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 10,
+   "booked": 9,
    "seats": 34,
    "status": "operating",
    "stops": [
@@ -102672,15 +102672,6 @@
      "lat": 25.225614,
      "lng": 55.284365,
      "where_exactly": "Outside World Trade Centre Metro Station Exit 2 (Fairmont side). Pick-up towards campus only."
-    },
-    {
-     "code": "C5-06",
-     "name": "Al Wasl Building, Al Hudaiba",
-     "time": "19:39",
-     "action": "set_down",
-     "lat": 25.243,
-     "lng": 55.2788,
-     "where_exactly": "S2/PR399 Al Wasl Bldg Block A, 4B St."
     },
     {
      "code": "C5-05",
@@ -112041,15 +112032,24 @@
    "service": "undergraduate",
    "arrive_campus": "09:45",
    "leave_campus": null,
-   "start": "08:40",
+   "start": "08:33",
    "end": "09:45",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 2,
+   "booked": 3,
    "seats": 15,
    "status": "operating",
    "stops": [
+    {
+     "code": "C5-06",
+     "name": "Al Wasl Building, Al Hudaiba",
+     "time": "08:33",
+     "action": "pick_up",
+     "lat": 25.243,
+     "lng": 55.2788,
+     "where_exactly": "S2/PR399 Al Wasl Bldg Block A, 4B St."
+    },
     {
      "code": "C5-07",
      "name": "World Trade Centre Metro Station",
@@ -112375,11 +112375,11 @@
    "arrive_campus": null,
    "leave_campus": "16:30",
    "start": "16:30",
-   "end": "18:08",
+   "end": "18:19",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 3,
+   "booked": 4,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -112409,6 +112409,15 @@
      "lat": 25.243624,
      "lng": 55.315799,
      "where_exactly": "RTA bus stop Oud Metha 1, other side of the road, outside Super Saver supermarket."
+    },
+    {
+     "code": "C5-06",
+     "name": "Al Wasl Building, Al Hudaiba",
+     "time": "18:19",
+     "action": "set_down",
+     "lat": 25.243,
+     "lng": 55.2788,
+     "where_exactly": "S2/PR399 Al Wasl Bldg Block A, 4B St."
     }
    ]
   },
@@ -116597,7 +116606,7 @@
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 3,
+   "booked": 4,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -116609,6 +116618,15 @@
      "lat": 25.254331,
      "lng": 55.303661,
      "where_exactly": "Bus stop outside Asia Kitchen, BurJuman Mall."
+    },
+    {
+     "code": "C5-06",
+     "name": "Al Wasl Building, Al Hudaiba",
+     "time": "05:54",
+     "action": "pick_up",
+     "lat": 25.243,
+     "lng": 55.2788,
+     "where_exactly": "S2/PR399 Al Wasl Bldg Block A, 4B St."
     },
     {
      "code": "C5-09",
@@ -117073,11 +117091,11 @@
    "arrive_campus": null,
    "leave_campus": "16:30",
    "start": "16:30",
-   "end": "18:05",
+   "end": "18:06",
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 6,
+   "booked": 7,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -117127,9 +117145,18 @@
      "where_exactly": "North Entrance pick and drop area, Bay Avenue Mall."
     },
     {
+     "code": "C5-06",
+     "name": "Al Wasl Building, Al Hudaiba",
+     "time": "17:44",
+     "action": "set_down",
+     "lat": 25.243,
+     "lng": 55.2788,
+     "where_exactly": "S2/PR399 Al Wasl Bldg Block A, 4B St."
+    },
+    {
      "code": "C5-05",
      "name": "BurJuman Mall",
-     "time": "17:51",
+     "time": "17:53",
      "action": "set_down",
      "lat": 25.254331,
      "lng": 55.303661,
@@ -117138,7 +117165,7 @@
     {
      "code": "C5-23",
      "name": "Al Mesbar Building, Al Jaddaf (rider stop)",
-     "time": "18:05",
+     "time": "18:06",
      "action": "set_down",
      "lat": 25.2200683,
      "lng": 55.3263206,
@@ -121532,7 +121559,7 @@
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 2,
+   "booked": 3,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -121553,6 +121580,15 @@
      "lat": 25.2515903,
      "lng": 55.2824733,
      "where_exactly": "ENOC petrol station beside the New Gold Souq (by Shabab Al Khan Cafeteria)."
+    },
+    {
+     "code": "C5-06",
+     "name": "Al Wasl Building, Al Hudaiba",
+     "time": "09:02",
+     "action": "pick_up",
+     "lat": 25.243,
+     "lng": 55.2788,
+     "where_exactly": "S2/PR399 Al Wasl Bldg Block A, 4B St."
     },
     {
      "code": "UOB",
@@ -121691,7 +121727,7 @@
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 5,
+   "booked": 6,
    "seats": 15,
    "status": "operating",
    "stops": [
