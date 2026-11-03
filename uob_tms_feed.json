@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-03T03:46:01Z",
+ "generated_at": "2026-11-03T04:20:12Z",
  "week": "2026-10-09 to 2026-11-15",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -96304,7 +96304,7 @@
    "service": "undergraduate",
    "arrive_campus": "10:45",
    "leave_campus": null,
-   "start": "08:49",
+   "start": "07:59",
    "end": "10:45",
    "vehicle": "M5",
    "vehicle_type": "Hiace",
@@ -96316,7 +96316,7 @@
     {
      "code": "C4-23",
      "name": "Al Swedi Building 6, Al Sindan St, Al Zahiyah, Abu Dhabi",
-     "time": "08:49",
+     "time": "07:59",
      "action": "pick_up",
      "lat": 24.5022611,
      "lng": 54.377864,
@@ -96325,7 +96325,7 @@
     {
      "code": "C4-21",
      "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
-     "time": "08:56",
+     "time": "08:06",
      "action": "pick_up",
      "lat": 24.4757537,
      "lng": 54.3663931,
@@ -96334,7 +96334,7 @@
     {
      "code": "C4-04",
      "name": "Mubadala Tower, Sultan Bin Zayed St",
-     "time": "09:11",
+     "time": "08:21",
      "action": "pick_up",
      "lat": 24.4223437,
      "lng": 54.4544927,
@@ -96343,7 +96343,7 @@
     {
      "code": "C4-06",
      "name": "Al Forsan Village main gate",
-     "time": "09:26",
+     "time": "08:36",
      "action": "pick_up",
      "lat": 24.4044,
      "lng": 54.5514,
@@ -111066,7 +111066,7 @@
    "service": "undergraduate",
    "arrive_campus": "10:45",
    "leave_campus": null,
-   "start": "08:57",
+   "start": "08:07",
    "end": "10:45",
    "vehicle": "M5",
    "vehicle_type": "Hiace",
@@ -111078,7 +111078,7 @@
     {
      "code": "C4-01",
      "name": "Al Mariah Mall, Hamdan St",
-     "time": "08:57",
+     "time": "08:07",
      "action": "pick_up",
      "lat": 24.494038,
      "lng": 54.366864,
@@ -111087,7 +111087,7 @@
     {
      "code": "C4-17",
      "name": "Al Falah St / Ministry of Finance bus stop",
-     "time": "09:03",
+     "time": "08:13",
      "action": "pick_up",
      "lat": 24.4843472,
      "lng": 54.377167,
@@ -115707,7 +115707,7 @@
    "service": "undergraduate",
    "arrive_campus": "10:45",
    "leave_campus": null,
-   "start": "08:57",
+   "start": "08:07",
    "end": "10:45",
    "vehicle": "M5",
    "vehicle_type": "Hiace",
@@ -115719,7 +115719,7 @@
     {
      "code": "C4-01",
      "name": "Al Mariah Mall, Hamdan St",
-     "time": "08:57",
+     "time": "08:07",
      "action": "pick_up",
      "lat": 24.494038,
      "lng": 54.366864,
@@ -115728,7 +115728,7 @@
     {
      "code": "C4-04",
      "name": "Mubadala Tower, Sultan Bin Zayed St",
-     "time": "09:27",
+     "time": "08:37",
      "action": "pick_up",
      "lat": 24.4223437,
      "lng": 54.4544927,
@@ -120414,7 +120414,7 @@
    "service": "undergraduate",
    "arrive_campus": "10:45",
    "leave_campus": null,
-   "start": "08:51",
+   "start": "08:01",
    "end": "10:45",
    "vehicle": "M5",
    "vehicle_type": "Hiace",
@@ -120426,7 +120426,7 @@
     {
      "code": "C4-01",
      "name": "Al Mariah Mall, Hamdan St",
-     "time": "08:51",
+     "time": "08:01",
      "action": "pick_up",
      "lat": 24.494038,
      "lng": 54.366864,
@@ -120435,7 +120435,7 @@
     {
      "code": "C4-23",
      "name": "Al Swedi Building 6, Al Sindan St, Al Zahiyah, Abu Dhabi",
-     "time": "08:57",
+     "time": "08:07",
      "action": "pick_up",
      "lat": 24.5022611,
      "lng": 54.377864,
@@ -120444,7 +120444,7 @@
     {
      "code": "C4-04",
      "name": "Mubadala Tower, Sultan Bin Zayed St",
-     "time": "09:14",
+     "time": "08:24",
      "action": "pick_up",
      "lat": 24.4223437,
      "lng": 54.4544927,
@@ -120453,7 +120453,7 @@
     {
      "code": "C4-06",
      "name": "Al Forsan Village main gate",
-     "time": "09:16",
+     "time": "08:26",
      "action": "pick_up",
      "lat": 24.4044,
      "lng": 54.5514,
