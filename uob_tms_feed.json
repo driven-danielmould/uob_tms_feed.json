@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-02T17:42:54Z",
+ "generated_at": "2026-11-03T01:45:35Z",
  "week": "2026-10-09 to 2026-11-15",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -95001,7 +95001,7 @@
    "vehicle": "M3",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 7,
+   "booked": 8,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -95049,6 +95049,15 @@
      "lat": 25.1110756,
      "lng": 55.2057285,
      "where_exactly": "Kerbside outside the building entrance; do not enter the car park."
+    },
+    {
+     "code": "C2-16",
+     "name": "Umm Suqeim Rd bus stop by ENOC 1099, Al Barsha 1",
+     "time": "10:07",
+     "action": "pick_up",
+     "lat": 25.1184,
+     "lng": 55.2077,
+     "where_exactly": "RTA bus stop on Umm Suqeim Rd (D63) beside ENOC 1099, Al Barsha 1 - northbound kerb for pick-ups, southbound for set-downs; exact pin to confirm."
     },
     {
      "code": "UOB",
@@ -95354,11 +95363,11 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "19:47",
+   "end": "20:15",
    "vehicle": "M3",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 8,
+   "booked": 9,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -95372,9 +95381,18 @@
      "where_exactly": ""
     },
     {
+     "code": "C2-16",
+     "name": "Umm Suqeim Rd bus stop by ENOC 1099, Al Barsha 1",
+     "time": "19:16",
+     "action": "set_down",
+     "lat": 25.1184,
+     "lng": 55.2077,
+     "where_exactly": "RTA bus stop on Umm Suqeim Rd (D63) beside ENOC 1099, Al Barsha 1 - northbound kerb for pick-ups, southbound for set-downs; exact pin to confirm."
+    },
+    {
      "code": "C2-06",
      "name": "The Springs Souk",
-     "time": "18:51",
+     "time": "19:32",
      "action": "set_down",
      "lat": 25.065917,
      "lng": 55.192107,
@@ -95383,7 +95401,7 @@
     {
      "code": "C2-09",
      "name": "Springs 10 Gatehouse",
-     "time": "19:02",
+     "time": "19:39",
      "action": "set_down",
      "lat": 25.0556628,
      "lng": 55.1803096,
@@ -95392,7 +95410,7 @@
     {
      "code": "C2-03",
      "name": "DMCC Metro Station",
-     "time": "19:16",
+     "time": "19:52",
      "action": "set_down",
      "lat": 25.07122,
      "lng": 55.137072,
@@ -95401,7 +95419,7 @@
     {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "19:21",
+     "time": "19:56",
      "action": "set_down",
      "lat": 25.075735,
      "lng": 55.140981,
@@ -95410,7 +95428,7 @@
     {
      "code": "C2-04",
      "name": "Sobha Realty Metro Station",
-     "time": "19:27",
+     "time": "20:01",
      "action": "set_down",
      "lat": 25.08243,
      "lng": 55.148317,
@@ -95419,7 +95437,7 @@
     {
      "code": "C2-15",
      "name": "Al Nakheel 2A, The Greens",
-     "time": "19:36",
+     "time": "20:10",
      "action": "set_down",
      "lat": 25.09445,
      "lng": 55.1697,
@@ -95428,7 +95446,7 @@
     {
      "code": "C2-07",
      "name": "Dubai Internet City Metro Station",
-     "time": "19:47",
+     "time": "20:15",
      "action": "set_down",
      "lat": 25.099769538054428,
      "lng": 55.17320213081937,
