@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-03T16:21:32Z",
+ "generated_at": "2026-11-03T16:24:04Z",
  "week": "2026-10-09 to 2026-11-15",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -95645,15 +95645,24 @@
    "service": "undergraduate",
    "arrive_campus": "10:45",
    "leave_campus": null,
-   "start": "09:40",
+   "start": "09:23",
    "end": "10:45",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 4,
+   "booked": 5,
    "seats": 15,
    "status": "operating",
    "stops": [
+    {
+     "code": "C3-27",
+     "name": "DAMAC Ghalia, JVC (rider stop)",
+     "time": "09:23",
+     "action": "pick_up",
+     "lat": 25.0531125,
+     "lng": 55.1989628,
+     "where_exactly": "DAMAC Ghalia main entrance, Lazuward Street, JVC - pick-up and set-down at the door (Tower 108 is next door)."
+    },
     {
      "code": "C3-21",
      "name": "DAMAC Hills Mall, DAMAC Hills",
@@ -97999,24 +98008,15 @@
    "service": "masters",
    "arrive_campus": "17:45",
    "leave_campus": null,
-   "start": "16:09",
+   "start": "16:15",
    "end": "17:45",
    "vehicle": "M8",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 4,
+   "booked": 3,
    "seats": 15,
    "status": "operating",
    "stops": [
-    {
-     "code": "C3-27",
-     "name": "DAMAC Ghalia, JVC (rider stop)",
-     "time": "16:09",
-     "action": "pick_up",
-     "lat": 25.0531125,
-     "lng": 55.1989628,
-     "where_exactly": "DAMAC Ghalia main entrance, Lazuward Street, JVC - pick-up and set-down at the door (Tower 108 is next door)."
-    },
     {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
