@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-03T16:46:36Z",
+ "generated_at": "2026-11-03T18:14:11Z",
  "week": "2026-10-09 to 2026-11-15",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -94876,22 +94876,22 @@
    "status": "operating",
    "stops": [
     {
-     "code": "C2-03",
-     "name": "DMCC Metro Station",
-     "time": "06:02",
-     "action": "pick_up",
-     "lat": 25.07122,
-     "lng": 55.137072,
-     "where_exactly": "Outside the Yacht Bay sign (Yacht Bay building)."
-    },
-    {
      "code": "C2-04",
      "name": "Sobha Realty Metro Station",
-     "time": "06:09",
+     "time": "06:02",
      "action": "pick_up",
      "lat": 25.08243,
      "lng": 55.148317,
      "where_exactly": "Sea side of Sobha Realty Metro Station, near the Carrefour Market sign; bus pick-up point."
+    },
+    {
+     "code": "C2-03",
+     "name": "DMCC Metro Station",
+     "time": "06:09",
+     "action": "pick_up",
+     "lat": 25.07122,
+     "lng": 55.137072,
+     "where_exactly": "Outside the Yacht Bay sign (Yacht Bay building)."
     },
     {
      "code": "C2-06",
@@ -99747,22 +99747,22 @@
    "status": "operating",
    "stops": [
     {
-     "code": "C2-03",
-     "name": "DMCC Metro Station",
-     "time": "05:59",
-     "action": "pick_up",
-     "lat": 25.07122,
-     "lng": 55.137072,
-     "where_exactly": "Outside the Yacht Bay sign (Yacht Bay building)."
-    },
-    {
      "code": "C2-04",
      "name": "Sobha Realty Metro Station",
-     "time": "06:06",
+     "time": "05:59",
      "action": "pick_up",
      "lat": 25.08243,
      "lng": 55.148317,
      "where_exactly": "Sea side of Sobha Realty Metro Station, near the Carrefour Market sign; bus pick-up point."
+    },
+    {
+     "code": "C2-03",
+     "name": "DMCC Metro Station",
+     "time": "06:06",
+     "action": "pick_up",
+     "lat": 25.07122,
+     "lng": 55.137072,
+     "where_exactly": "Outside the Yacht Bay sign (Yacht Bay building)."
     },
     {
      "code": "C2-07",
@@ -99812,22 +99812,22 @@
    "status": "operating",
    "stops": [
     {
-     "code": "C2-03",
-     "name": "DMCC Metro Station",
-     "time": "08:42",
-     "action": "pick_up",
-     "lat": 25.07122,
-     "lng": 55.137072,
-     "where_exactly": "Outside the Yacht Bay sign (Yacht Bay building)."
-    },
-    {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "08:46",
+     "time": "08:42",
      "action": "pick_up",
      "lat": 25.075735,
      "lng": 55.140981,
      "where_exactly": "Pick and drop point at Dubai Marina Mall."
+    },
+    {
+     "code": "C2-03",
+     "name": "DMCC Metro Station",
+     "time": "08:46",
+     "action": "pick_up",
+     "lat": 25.07122,
+     "lng": 55.137072,
+     "where_exactly": "Outside the Yacht Bay sign (Yacht Bay building)."
     },
     {
      "code": "C2-15",
@@ -104333,22 +104333,22 @@
    "status": "operating",
    "stops": [
     {
-     "code": "C2-03",
-     "name": "DMCC Metro Station",
-     "time": "08:39",
-     "action": "pick_up",
-     "lat": 25.07122,
-     "lng": 55.137072,
-     "where_exactly": "Outside the Yacht Bay sign (Yacht Bay building)."
-    },
-    {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "08:43",
+     "time": "08:39",
      "action": "pick_up",
      "lat": 25.075735,
      "lng": 55.140981,
      "where_exactly": "Pick and drop point at Dubai Marina Mall."
+    },
+    {
+     "code": "C2-03",
+     "name": "DMCC Metro Station",
+     "time": "08:43",
+     "action": "pick_up",
+     "lat": 25.07122,
+     "lng": 55.137072,
+     "where_exactly": "Outside the Yacht Bay sign (Yacht Bay building)."
     },
     {
      "code": "C2-11",
@@ -109634,22 +109634,22 @@
    "status": "operating",
    "stops": [
     {
-     "code": "C2-03",
-     "name": "DMCC Metro Station",
-     "time": "05:56",
-     "action": "pick_up",
-     "lat": 25.07122,
-     "lng": 55.137072,
-     "where_exactly": "Outside the Yacht Bay sign (Yacht Bay building)."
-    },
-    {
      "code": "C2-04",
      "name": "Sobha Realty Metro Station",
-     "time": "06:03",
+     "time": "05:56",
      "action": "pick_up",
      "lat": 25.08243,
      "lng": 55.148317,
      "where_exactly": "Sea side of Sobha Realty Metro Station, near the Carrefour Market sign; bus pick-up point."
+    },
+    {
+     "code": "C2-03",
+     "name": "DMCC Metro Station",
+     "time": "06:03",
+     "action": "pick_up",
+     "lat": 25.07122,
+     "lng": 55.137072,
+     "where_exactly": "Outside the Yacht Bay sign (Yacht Bay building)."
     },
     {
      "code": "C2-11",
@@ -114391,9 +114391,18 @@
    "status": "operating",
    "stops": [
     {
+     "code": "C2-04",
+     "name": "Sobha Realty Metro Station",
+     "time": "05:58",
+     "action": "pick_up",
+     "lat": 25.08243,
+     "lng": 55.148317,
+     "where_exactly": "Sea side of Sobha Realty Metro Station, near the Carrefour Market sign; bus pick-up point."
+    },
+    {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "05:58",
+     "time": "06:06",
      "action": "pick_up",
      "lat": 25.075735,
      "lng": 55.140981,
@@ -114402,20 +114411,11 @@
     {
      "code": "C2-03",
      "name": "DMCC Metro Station",
-     "time": "06:06",
+     "time": "06:13",
      "action": "pick_up",
      "lat": 25.07122,
      "lng": 55.137072,
      "where_exactly": "Outside the Yacht Bay sign (Yacht Bay building)."
-    },
-    {
-     "code": "C2-04",
-     "name": "Sobha Realty Metro Station",
-     "time": "06:13",
-     "action": "pick_up",
-     "lat": 25.08243,
-     "lng": 55.148317,
-     "where_exactly": "Sea side of Sobha Realty Metro Station, near the Carrefour Market sign; bus pick-up point."
     },
     {
      "code": "C2-07",
@@ -119062,22 +119062,22 @@
    "status": "operating",
    "stops": [
     {
-     "code": "C2-03",
-     "name": "DMCC Metro Station",
-     "time": "06:02",
-     "action": "pick_up",
-     "lat": 25.07122,
-     "lng": 55.137072,
-     "where_exactly": "Outside the Yacht Bay sign (Yacht Bay building)."
-    },
-    {
      "code": "C2-04",
      "name": "Sobha Realty Metro Station",
-     "time": "06:09",
+     "time": "06:02",
      "action": "pick_up",
      "lat": 25.08243,
      "lng": 55.148317,
      "where_exactly": "Sea side of Sobha Realty Metro Station, near the Carrefour Market sign; bus pick-up point."
+    },
+    {
+     "code": "C2-03",
+     "name": "DMCC Metro Station",
+     "time": "06:09",
+     "action": "pick_up",
+     "lat": 25.07122,
+     "lng": 55.137072,
+     "where_exactly": "Outside the Yacht Bay sign (Yacht Bay building)."
     },
     {
      "code": "C2-06",
@@ -123853,22 +123853,22 @@
    "status": "operating",
    "stops": [
     {
-     "code": "C2-03",
-     "name": "DMCC Metro Station",
-     "time": "05:56",
-     "action": "pick_up",
-     "lat": 25.07122,
-     "lng": 55.137072,
-     "where_exactly": "Outside the Yacht Bay sign (Yacht Bay building)."
-    },
-    {
      "code": "C2-04",
      "name": "Sobha Realty Metro Station",
-     "time": "06:03",
+     "time": "05:56",
      "action": "pick_up",
      "lat": 25.08243,
      "lng": 55.148317,
      "where_exactly": "Sea side of Sobha Realty Metro Station, near the Carrefour Market sign; bus pick-up point."
+    },
+    {
+     "code": "C2-03",
+     "name": "DMCC Metro Station",
+     "time": "06:03",
+     "action": "pick_up",
+     "lat": 25.07122,
+     "lng": 55.137072,
+     "where_exactly": "Outside the Yacht Bay sign (Yacht Bay building)."
     },
     {
      "code": "C2-11",
@@ -123927,22 +123927,22 @@
    "status": "operating",
    "stops": [
     {
-     "code": "C2-03",
-     "name": "DMCC Metro Station",
-     "time": "08:42",
-     "action": "pick_up",
-     "lat": 25.07122,
-     "lng": 55.137072,
-     "where_exactly": "Outside the Yacht Bay sign (Yacht Bay building)."
-    },
-    {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "08:46",
+     "time": "08:42",
      "action": "pick_up",
      "lat": 25.075735,
      "lng": 55.140981,
      "where_exactly": "Pick and drop point at Dubai Marina Mall."
+    },
+    {
+     "code": "C2-03",
+     "name": "DMCC Metro Station",
+     "time": "08:46",
+     "action": "pick_up",
+     "lat": 25.07122,
+     "lng": 55.137072,
+     "where_exactly": "Outside the Yacht Bay sign (Yacht Bay building)."
     },
     {
      "code": "C2-07",
@@ -128118,22 +128118,22 @@
    "status": "operating",
    "stops": [
     {
-     "code": "C2-03",
-     "name": "DMCC Metro Station",
-     "time": "08:42",
-     "action": "pick_up",
-     "lat": 25.07122,
-     "lng": 55.137072,
-     "where_exactly": "Outside the Yacht Bay sign (Yacht Bay building)."
-    },
-    {
      "code": "C2-02",
      "name": "Dubai Marina Mall",
-     "time": "08:46",
+     "time": "08:42",
      "action": "pick_up",
      "lat": 25.075735,
      "lng": 55.140981,
      "where_exactly": "Pick and drop point at Dubai Marina Mall."
+    },
+    {
+     "code": "C2-03",
+     "name": "DMCC Metro Station",
+     "time": "08:46",
+     "action": "pick_up",
+     "lat": 25.07122,
+     "lng": 55.137072,
+     "where_exactly": "Outside the Yacht Bay sign (Yacht Bay building)."
     },
     {
      "code": "UOB",
