@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-03T16:19:55Z",
+ "generated_at": "2026-11-03T16:21:32Z",
  "week": "2026-10-09 to 2026-11-15",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -96318,7 +96318,7 @@
    "vehicle": "M5",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 4,
+   "booked": 5,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -96330,6 +96330,15 @@
      "lat": 24.5022611,
      "lng": 54.377864,
      "where_exactly": "Kerbside on Al Sindan Street outside Al Swedi Building 6 (same building as Makaram Dry Clean), in front of the large car park behind Future Pharmacy."
+    },
+    {
+     "code": "C4-01",
+     "name": "Al Mariah Mall, Hamdan St",
+     "time": "08:04",
+     "action": "pick_up",
+     "lat": 24.494038,
+     "lng": 54.366864,
+     "where_exactly": "Outside the front of Al Mariah Mall."
     },
     {
      "code": "C4-21",
@@ -96615,11 +96624,11 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "21:41",
+   "end": "21:45",
    "vehicle": "M5",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 8,
+   "booked": 9,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -96678,9 +96687,18 @@
      "where_exactly": "Kerbside on Airport Road (Sheikh Rashid Bin Saeed St) at the Al Falah Street junction, outside Ramee Garden Hotel Apartments opposite NBAD - southbound side for pick-ups (towards Al Wahda), northbound side for set-downs."
     },
     {
+     "code": "C4-01",
+     "name": "Al Mariah Mall, Hamdan St",
+     "time": "21:33",
+     "action": "set_down",
+     "lat": 24.494038,
+     "lng": 54.366864,
+     "where_exactly": "Outside the front of Al Mariah Mall."
+    },
+    {
      "code": "C4-24",
      "name": "Al Dibsi Street, Tourist Club Area, Abu Dhabi",
-     "time": "21:35",
+     "time": "21:39",
      "action": "set_down",
      "lat": 24.49105,
      "lng": 54.38039,
@@ -96689,7 +96707,7 @@
     {
      "code": "C4-23",
      "name": "Al Swedi Building 6, Al Sindan St, Al Zahiyah, Abu Dhabi",
-     "time": "21:41",
+     "time": "21:45",
      "action": "set_down",
      "lat": 24.5022611,
      "lng": 54.377864,
