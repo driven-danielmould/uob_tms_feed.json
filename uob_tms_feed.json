@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-03T12:03:56Z",
+ "generated_at": "2026-11-03T12:18:54Z",
  "week": "2026-10-09 to 2026-11-15",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -95547,7 +95547,7 @@
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 5,
+   "booked": 4,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -95586,15 +95586,6 @@
      "lat": 25.0179838,
      "lng": 55.2468052,
      "where_exactly": "Mall drop-off, DAMAC Hills."
-    },
-    {
-     "code": "C3-14",
-     "name": "Skycourts Towers",
-     "time": "07:30",
-     "action": "pick_up",
-     "lat": 25.0898954,
-     "lng": 55.3865139,
-     "where_exactly": "Tower D, near Aster Pharmacy."
     },
     {
      "code": "UOB",
@@ -95724,7 +95715,7 @@
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 6,
+   "booked": 7,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -95763,6 +95754,15 @@
      "lat": 25.0099047,
      "lng": 55.2902856,
      "where_exactly": "Nshama Community Centre car park."
+    },
+    {
+     "code": "C3-14",
+     "name": "Skycourts Towers",
+     "time": "12:33",
+     "action": "pick_up",
+     "lat": 25.0898954,
+     "lng": 55.3865139,
+     "where_exactly": "Tower D, near Aster Pharmacy."
     },
     {
      "code": "C3-16",
@@ -95957,7 +95957,7 @@
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 6,
+   "booked": 5,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -95969,15 +95969,6 @@
      "lat": 25.1321925,
      "lng": 55.4223161,
      "where_exactly": ""
-    },
-    {
-     "code": "C3-14",
-     "name": "Skycourts Towers",
-     "time": "16:45",
-     "action": "set_down",
-     "lat": 25.0898954,
-     "lng": 55.3865139,
-     "where_exactly": "Tower D, near Aster Pharmacy."
     },
     {
      "code": "C3-08",
@@ -96027,11 +96018,11 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "20:13",
+   "end": "20:18",
    "vehicle": "M4",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 9,
+   "booked": 10,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -96054,9 +96045,18 @@
      "where_exactly": "Damascus St entrance."
     },
     {
+     "code": "C3-14",
+     "name": "Skycourts Towers",
+     "time": "18:46",
+     "action": "set_down",
+     "lat": 25.0898954,
+     "lng": 55.3865139,
+     "where_exactly": "Tower D, near Aster Pharmacy."
+    },
+    {
      "code": "C3-25",
      "name": "Villanova La Rosa 1, Villa 46",
-     "time": "18:51",
+     "time": "18:56",
      "action": "set_down",
      "lat": 25.0765573,
      "lng": 55.3609188,
@@ -96065,7 +96065,7 @@
     {
      "code": "C3-09",
      "name": "Spinneys, Town Square",
-     "time": "19:17",
+     "time": "19:22",
      "action": "set_down",
      "lat": 25.0099047,
      "lng": 55.2902856,
@@ -96074,7 +96074,7 @@
     {
      "code": "C3-21",
      "name": "DAMAC Hills Mall, DAMAC Hills",
-     "time": "19:30",
+     "time": "19:35",
      "action": "set_down",
      "lat": 25.0179838,
      "lng": 55.2468052,
@@ -96083,7 +96083,7 @@
     {
      "code": "C3-07",
      "name": "First Avenue Mall, Motor City",
-     "time": "19:40",
+     "time": "19:45",
      "action": "set_down",
      "lat": 25.046685,
      "lng": 55.243063,
@@ -96092,7 +96092,7 @@
     {
      "code": "C3-05",
      "name": "City Centre Me'aisem",
-     "time": "19:54",
+     "time": "19:59",
      "action": "set_down",
      "lat": 25.040494,
      "lng": 55.195971,
@@ -96101,7 +96101,7 @@
     {
      "code": "C3-17",
      "name": "Eagle Heights, Dubai Sports City",
-     "time": "20:03",
+     "time": "20:08",
      "action": "set_down",
      "lat": 25.036628,
      "lng": 55.221187,
@@ -96110,7 +96110,7 @@
     {
      "code": "C3-02",
      "name": "Circle Mall, JVC",
-     "time": "20:13",
+     "time": "20:18",
      "action": "set_down",
      "lat": 25.0660395,
      "lng": 55.2162257,
