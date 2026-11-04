@@ -1649,25 +1649,6 @@
      "rider_instructions": "Wait at the Al Ghadeer main gate, outside the barrier. Be here 5 minutes before your time and look for the yellow M sign in the bus windscreen.",
      "driver_instructions": "Main gate on Al Fayah Rd, outside the barrier. Wide, height clear.",
      "type": "public"
-    },
-    {
-     "code": "C4-26",
-     "order": 17,
-     "name": "Al Mushrif, Abu Dhabi (rider stop)",
-     "lat": 24.439545,
-     "lng": 54.43209,
-     "google_place_id": null,
-     "where_exactly": "Rider pin 24.439545, 54.432090 - confirm building name with the rider on first pick-up.",
-     "pickup_lat": 24.439545,
-     "pickup_lng": 54.43209,
-     "pickup_where_exactly": "Rider pin 24.439545, 54.432090 - confirm building name with the rider on first pick-up.",
-     "setdown_lat": 24.439545,
-     "setdown_lng": 54.43209,
-     "setdown_where_exactly": "Rider pin 24.439545, 54.432090 - confirm building name with the rider on first pick-up.",
-     "audited": false,
-     "rider_instructions": "Rider pin 24.439545, 54.432090 - confirm building name with the rider on first pick-up.",
-     "driver_instructions": "Rider pin 24.439545, 54.432090 - confirm building name with the rider on first pick-up.",
-     "type": "rider"
     }
    ]
   },
@@ -96387,15 +96368,6 @@
      "where_exactly": "Kerbside on Airport Road (Sheikh Rashid Bin Saeed St) at the Al Falah Street junction, outside Ramee Garden Hotel Apartments opposite NBAD - southbound side for pick-ups (towards Al Wahda), northbound side for set-downs."
     },
     {
-     "code": "C4-26",
-     "name": "Al Mushrif, Abu Dhabi (rider stop)",
-     "time": "08:26",
-     "action": "pick_up",
-     "lat": 24.439545,
-     "lng": 54.43209,
-     "where_exactly": "Rider pin 24.439545, 54.432090 - confirm building name with the rider on first pick-up."
-    },
-    {
      "code": "C4-06",
      "name": "Al Forsan Village main gate",
      "time": "08:36",
@@ -96704,15 +96676,6 @@
      "lat": 24.4044,
      "lng": 54.5514,
      "where_exactly": "Main gate, Khalifa City."
-    },
-    {
-     "code": "C4-26",
-     "name": "Al Mushrif, Abu Dhabi (rider stop)",
-     "time": "21:06",
-     "action": "set_down",
-     "lat": 24.439545,
-     "lng": 54.43209,
-     "where_exactly": "Rider pin 24.439545, 54.432090 - confirm building name with the rider on first pick-up."
     },
     {
      "code": "C4-21",
@@ -115722,15 +115685,6 @@
      "where_exactly": "Outside the front of Al Mariah Mall."
     },
     {
-     "code": "C4-26",
-     "name": "Al Mushrif, Abu Dhabi (rider stop)",
-     "time": "08:36",
-     "action": "pick_up",
-     "lat": 24.439545,
-     "lng": 54.43209,
-     "where_exactly": "Rider pin 24.439545, 54.432090 - confirm building name with the rider on first pick-up."
-    },
-    {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
      "time": "10:45",
@@ -115814,15 +115768,6 @@
      "lat": 25.1321925,
      "lng": 55.4223161,
      "where_exactly": ""
-    },
-    {
-     "code": "C4-26",
-     "name": "Al Mushrif, Abu Dhabi (rider stop)",
-     "time": "16:24",
-     "action": "set_down",
-     "lat": 24.439545,
-     "lng": 54.43209,
-     "where_exactly": "Rider pin 24.439545, 54.432090 - confirm building name with the rider on first pick-up."
     }
    ]
   },
@@ -120456,15 +120401,6 @@
      "where_exactly": "Kerbside on Al Sindan Street outside Al Swedi Building 6 (same building as Makaram Dry Clean), in front of the large car park behind Future Pharmacy."
     },
     {
-     "code": "C4-26",
-     "name": "Al Mushrif, Abu Dhabi (rider stop)",
-     "time": "08:24",
-     "action": "pick_up",
-     "lat": 24.439545,
-     "lng": 54.43209,
-     "where_exactly": "Rider pin 24.439545, 54.432090 - confirm building name with the rider on first pick-up."
-    },
-    {
      "code": "C4-06",
      "name": "Al Forsan Village main gate",
      "time": "08:26",
@@ -120882,15 +120818,6 @@
      "lat": 24.4044,
      "lng": 54.5514,
      "where_exactly": "Main gate, Khalifa City."
-    },
-    {
-     "code": "C4-26",
-     "name": "Al Mushrif, Abu Dhabi (rider stop)",
-     "time": "20:36",
-     "action": "set_down",
-     "lat": 24.439545,
-     "lng": 54.43209,
-     "where_exactly": "Rider pin 24.439545, 54.432090 - confirm building name with the rider on first pick-up."
     },
     {
      "code": "C4-21",
