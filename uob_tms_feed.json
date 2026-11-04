@@ -1651,25 +1651,6 @@
      "type": "public"
     },
     {
-     "code": "C4-25",
-     "order": 16,
-     "name": "Al Mushrif / Al Karamah (rider stop, Thameema)",
-     "lat": 24.439545,
-     "lng": 54.43209,
-     "google_place_id": "ChIJqybwoT9pXj4R2ZhX476-xkA",
-     "where_exactly": "Rider pin 24.439545, 54.432090 - confirm building name with the rider on first pick-up.",
-     "pickup_lat": 24.439545,
-     "pickup_lng": 54.43209,
-     "pickup_where_exactly": "Rider pin 24.439545, 54.432090 - confirm building name with the rider on first pick-up.",
-     "setdown_lat": 24.439545,
-     "setdown_lng": 54.43209,
-     "setdown_where_exactly": "Rider pin 24.439545, 54.432090 - confirm building name with the rider on first pick-up.",
-     "audited": true,
-     "rider_instructions": "Rider pin 24.439545, 54.432090 - confirm building name with the rider on first pick-up.",
-     "driver_instructions": "Rider pin 24.439545, 54.432090 - confirm building name with the rider on first pick-up.",
-     "type": "rider_only"
-    },
-    {
      "code": "C4-26",
      "order": 17,
      "name": "Al Mushrif, Abu Dhabi (rider stop)",
