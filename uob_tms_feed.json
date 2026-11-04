@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-04T05:11:20Z",
+ "generated_at": "2026-11-04T05:15:53Z",
  "week": "2026-10-09 to 2026-11-15",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -1668,6 +1668,25 @@
      "rider_instructions": "Rider pin 24.439545, 54.432090 - confirm building name with the rider on first pick-up.",
      "driver_instructions": "Rider pin 24.439545, 54.432090 - confirm building name with the rider on first pick-up.",
      "type": "rider_only"
+    },
+    {
+     "code": "C4-26",
+     "order": 17,
+     "name": "Al Mushrif, Abu Dhabi (rider stop)",
+     "lat": 24.439545,
+     "lng": 54.43209,
+     "google_place_id": null,
+     "where_exactly": "Rider pin 24.439545, 54.432090 - confirm building name with the rider on first pick-up.",
+     "pickup_lat": 24.439545,
+     "pickup_lng": 54.43209,
+     "pickup_where_exactly": "Rider pin 24.439545, 54.432090 - confirm building name with the rider on first pick-up.",
+     "setdown_lat": 24.439545,
+     "setdown_lng": 54.43209,
+     "setdown_where_exactly": "Rider pin 24.439545, 54.432090 - confirm building name with the rider on first pick-up.",
+     "audited": false,
+     "rider_instructions": "Rider pin 24.439545, 54.432090 - confirm building name with the rider on first pick-up.",
+     "driver_instructions": "Rider pin 24.439545, 54.432090 - confirm building name with the rider on first pick-up.",
+     "type": "rider"
     }
    ]
   },
@@ -96387,8 +96406,8 @@
      "where_exactly": "Kerbside on Airport Road (Sheikh Rashid Bin Saeed St) at the Al Falah Street junction, outside Ramee Garden Hotel Apartments opposite NBAD - southbound side for pick-ups (towards Al Wahda), northbound side for set-downs."
     },
     {
-     "code": "C4-25",
-     "name": "Al Mushrif / Al Karamah (rider stop, Thameema)",
+     "code": "C4-26",
+     "name": "Al Mushrif, Abu Dhabi (rider stop)",
      "time": "08:26",
      "action": "pick_up",
      "lat": 24.439545,
@@ -96706,8 +96725,8 @@
      "where_exactly": "Main gate, Khalifa City."
     },
     {
-     "code": "C4-25",
-     "name": "Al Mushrif / Al Karamah (rider stop, Thameema)",
+     "code": "C4-26",
+     "name": "Al Mushrif, Abu Dhabi (rider stop)",
      "time": "21:06",
      "action": "set_down",
      "lat": 24.439545,
@@ -115722,8 +115741,8 @@
      "where_exactly": "Outside the front of Al Mariah Mall."
     },
     {
-     "code": "C4-25",
-     "name": "Al Mushrif / Al Karamah (rider stop, Thameema)",
+     "code": "C4-26",
+     "name": "Al Mushrif, Abu Dhabi (rider stop)",
      "time": "08:36",
      "action": "pick_up",
      "lat": 24.439545,
@@ -115816,8 +115835,8 @@
      "where_exactly": ""
     },
     {
-     "code": "C4-25",
-     "name": "Al Mushrif / Al Karamah (rider stop, Thameema)",
+     "code": "C4-26",
+     "name": "Al Mushrif, Abu Dhabi (rider stop)",
      "time": "16:24",
      "action": "set_down",
      "lat": 24.439545,
@@ -120456,8 +120475,8 @@
      "where_exactly": "Kerbside on Al Sindan Street outside Al Swedi Building 6 (same building as Makaram Dry Clean), in front of the large car park behind Future Pharmacy."
     },
     {
-     "code": "C4-25",
-     "name": "Al Mushrif / Al Karamah (rider stop, Thameema)",
+     "code": "C4-26",
+     "name": "Al Mushrif, Abu Dhabi (rider stop)",
      "time": "08:24",
      "action": "pick_up",
      "lat": 24.439545,
@@ -120884,8 +120903,8 @@
      "where_exactly": "Main gate, Khalifa City."
     },
     {
-     "code": "C4-25",
-     "name": "Al Mushrif / Al Karamah (rider stop, Thameema)",
+     "code": "C4-26",
+     "name": "Al Mushrif, Abu Dhabi (rider stop)",
      "time": "20:36",
      "action": "set_down",
      "lat": 24.439545,
