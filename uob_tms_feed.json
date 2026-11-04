@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-04T17:49:03Z",
+ "generated_at": "2026-11-04T17:58:13Z",
  "week": "2026-10-09 to 2026-11-15",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -101237,80 +101237,37 @@
    "day": "Thu",
    "route": "R5",
    "direction": "to_campus",
-   "service": "regular",
-   "arrive_campus": "10:45",
+   "service": "undergraduate",
+   "arrive_campus": "12:45",
    "leave_campus": null,
-   "start": "08:45",
-   "end": "10:45",
+   "start": "10:38",
+   "end": "12:45",
    "vehicle": "M5",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 0,
+   "booked": 1,
    "seats": 15,
-   "offer_only": true,
+   "status": "operating",
    "stops": [
-    {
-     "code": "C4-08",
-     "name": "Al Ghadeer community gate",
-     "time": "08:45",
-     "action": "pick_up"
-    },
-    {
-     "code": "C4-07",
-     "name": "Al Zeina, Al Raha Beach",
-     "time": "08:58",
-     "action": "pick_up"
-    },
-    {
-     "code": "C4-06",
-     "name": "Al Forsan Village main gate",
-     "time": "09:12",
-     "action": "pick_up"
-    },
-    {
-     "code": "C4-05",
-     "name": "Yasmina School back gate, Raha Gardens",
-     "time": "09:25",
-     "action": "pick_up"
-    },
-    {
-     "code": "C4-04",
-     "name": "Mubadala Tower, Sultan Bin Zayed St",
-     "time": "09:38",
-     "action": "pick_up"
-    },
-    {
-     "code": "C4-03",
-     "name": "Al Wahda Mall",
-     "time": "09:52",
-     "action": "pick_up"
-    },
-    {
-     "code": "C4-21",
-     "name": "Ramee Garden Hotel Apartments, Airport Road, Al Danah, Abu Dhabi",
-     "time": "10:05",
-     "action": "pick_up"
-    },
     {
      "code": "C4-02",
      "name": "The Gate Towers, Al Reem Island",
-     "time": "10:18",
-     "action": "pick_up"
-    },
-    {
-     "code": "C4-01",
-     "name": "Al Mariah Mall, Hamdan St",
-     "time": "10:32",
-     "action": "pick_up"
+     "time": "10:38",
+     "action": "pick_up",
+     "lat": 24.492995,
+     "lng": 54.408057,
+     "where_exactly": "Main drop-off."
     },
     {
      "code": "UOB",
      "name": "University of Birmingham Dubai",
-     "time": "10:45",
-     "action": "set_down"
+     "time": "12:45",
+     "action": "set_down",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
     }
-   ],
-   "status": "on_request"
+   ]
   },
   {
    "run_id": "2026-11-05-R5-R1",
@@ -102987,6 +102944,44 @@
      "lat": 25.1321925,
      "lng": 55.4223161,
      "where_exactly": ""
+    }
+   ]
+  },
+  {
+   "run_id": "2026-11-05-R8-R4A",
+   "date": "2026-11-05",
+   "day": "Thu",
+   "route": "R8",
+   "direction": "from_campus",
+   "service": "masters",
+   "arrive_campus": null,
+   "leave_campus": "21:36",
+   "start": "21:36",
+   "end": "23:43",
+   "vehicle": "M8",
+   "vehicle_type": "Hiace",
+   "capacity": 15,
+   "booked": 1,
+   "seats": 15,
+   "status": "operating",
+   "stops": [
+    {
+     "code": "UOB",
+     "name": "University of Birmingham Dubai",
+     "time": "21:36",
+     "action": "pick_up",
+     "lat": 25.1321925,
+     "lng": 55.4223161,
+     "where_exactly": ""
+    },
+    {
+     "code": "C4-02",
+     "name": "The Gate Towers, Al Reem Island",
+     "time": "23:43",
+     "action": "set_down",
+     "lat": 24.492995,
+     "lng": 54.408057,
+     "where_exactly": "Main drop-off."
     }
    ]
   },
