@@ -1656,7 +1656,7 @@
      "name": "Al Mushrif / Al Karamah (rider stop, Thameema)",
      "lat": 24.439545,
      "lng": 54.43209,
-     "google_place_id": null,
+     "google_place_id": "ChIJqybwoT9pXj4R2ZhX476-xkA",
      "where_exactly": "Rider pin 24.439545, 54.432090 - confirm building name with the rider on first pick-up.",
      "pickup_lat": 24.439545,
      "pickup_lng": 54.43209,
@@ -1664,10 +1664,10 @@
      "setdown_lat": 24.439545,
      "setdown_lng": 54.43209,
      "setdown_where_exactly": "Rider pin 24.439545, 54.432090 - confirm building name with the rider on first pick-up.",
-     "audited": false,
+     "audited": true,
      "rider_instructions": "Rider pin 24.439545, 54.432090 - confirm building name with the rider on first pick-up.",
      "driver_instructions": "Rider pin 24.439545, 54.432090 - confirm building name with the rider on first pick-up.",
-     "type": "rider"
+     "type": "rider_only"
     }
    ]
   },
