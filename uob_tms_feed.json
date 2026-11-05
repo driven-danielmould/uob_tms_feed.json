@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-05T07:59:41Z",
+ "generated_at": "2026-11-05T08:51:33Z",
  "week": "2026-10-09 to 2026-11-15",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -102581,7 +102581,7 @@
    "vehicle": "M7",
    "vehicle_type": "Hiace",
    "capacity": 15,
-   "booked": 3,
+   "booked": 2,
    "seats": 15,
    "status": "operating",
    "stops": [
@@ -102593,15 +102593,6 @@
      "lat": 25.1321925,
      "lng": 55.4223161,
      "where_exactly": ""
-    },
-    {
-     "code": "C5-12",
-     "name": "Wasl Green Park, Ras Al Khor",
-     "time": "17:01",
-     "action": "set_down",
-     "lat": 25.181059,
-     "lng": 55.375545,
-     "where_exactly": "Kerbside at 25.181059, 55.375545 by Aurahues Beauty Lounge, Wasl Green Park (rider-confirmed point 12 Oct) - pick-up and set-down here, not at the roundabout."
     },
     {
      "code": "C5-04",
@@ -102633,11 +102624,11 @@
    "arrive_campus": null,
    "leave_campus": "18:15",
    "start": "18:15",
-   "end": "20:04",
+   "end": "20:12",
    "vehicle": "M7",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 9,
+   "booked": 10,
    "seats": 34,
    "status": "operating",
    "stops": [
@@ -102651,9 +102642,18 @@
      "where_exactly": ""
     },
     {
+     "code": "C5-12",
+     "name": "Wasl Green Park, Ras Al Khor",
+     "time": "18:44",
+     "action": "set_down",
+     "lat": 25.181059,
+     "lng": 55.375545,
+     "where_exactly": "Kerbside at 25.181059, 55.375545 by Aurahues Beauty Lounge, Wasl Green Park (rider-confirmed point 12 Oct) - pick-up and set-down here, not at the roundabout."
+    },
+    {
      "code": "C5-14",
      "name": "Meydan Heights, Nad Al Sheba 1",
-     "time": "18:52",
+     "time": "19:04",
      "action": "set_down",
      "lat": 25.142673,
      "lng": 55.311774,
@@ -102662,7 +102662,7 @@
     {
      "code": "C5-11",
      "name": "One Park Avenue, Sobha Hartland",
-     "time": "19:03",
+     "time": "19:16",
      "action": "set_down",
      "lat": 25.1784466,
      "lng": 55.3086196,
@@ -102671,7 +102671,7 @@
     {
      "code": "C5-20",
      "name": "DAMAC Maison Majestine, Abraj St, Business Bay",
-     "time": "19:12",
+     "time": "19:25",
      "action": "set_down",
      "lat": 25.186457,
      "lng": 55.282055,
@@ -102680,7 +102680,7 @@
     {
      "code": "C5-09",
      "name": "Bay Avenue Mall, Business Bay",
-     "time": "19:19",
+     "time": "19:32",
      "action": "set_down",
      "lat": 25.191143,
      "lng": 55.265598,
@@ -102689,7 +102689,7 @@
     {
      "code": "C5-07",
      "name": "World Trade Centre Metro Station",
-     "time": "19:32",
+     "time": "19:45",
      "action": "set_down",
      "lat": 25.225614,
      "lng": 55.284365,
@@ -102698,7 +102698,7 @@
     {
      "code": "C5-05",
      "name": "BurJuman Mall",
-     "time": "19:48",
+     "time": "19:56",
      "action": "set_down",
      "lat": 25.254331,
      "lng": 55.303661,
@@ -102707,7 +102707,7 @@
     {
      "code": "C5-04",
      "name": "Oud Metha Metro Station",
-     "time": "19:55",
+     "time": "20:03",
      "action": "set_down",
      "lat": 25.243624,
      "lng": 55.315799,
@@ -102716,7 +102716,7 @@
     {
      "code": "C5-23",
      "name": "Al Mesbar Building, Al Jaddaf (rider stop)",
-     "time": "20:04",
+     "time": "20:12",
      "action": "set_down",
      "lat": 25.2200683,
      "lng": 55.3263206,
