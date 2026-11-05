@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-05T01:46:27Z",
+ "generated_at": "2026-11-05T06:19:18Z",
  "week": "2026-10-09 to 2026-11-15",
  "service": "DrivenBus \u00b7 University of Birmingham Dubai",
  "notes": "Run stops flagged offer_only_stop=true are public stops with no booking yet, shown with an estimated time so they can be offered; the bus calls there only once someone has booked. Stops carry separate pickup_* (towards campus) and setdown_* (from campus) pins and kerb text from the 5 Oct stop audit; lat/lng/where_exactly on a route stop = the pick-up side, and each run stop carries the pin for its own direction. Runs call only at stops with booked riders. Rider-only stops are served only on booked days. No passenger or driver data is included. Runs marked offer_only=true (vehicle shown as M0 = placeholder, no bus allocated yet) are masters slots (17:45 in, 21:36 out) that operate once a booking is made; their stop times are provisional. STATUS: runs with status \"operating\" are the buses that run (driver and bus assigned) and are the only runs to show as a timetable or in Check My Rides; status \"on_request\" (offer_only) runs are bookable slots with no bus until booked - show them in the booking picker only.",
@@ -99262,7 +99262,7 @@
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 3,
+   "booked": 4,
    "seats": 34,
    "status": "operating",
    "stops": [
@@ -99283,6 +99283,15 @@
      "lat": 25.273102,
      "lng": 55.38168,
      "where_exactly": "RTA bus stop \"Dubai Grand Hotel 1\" on Damascus Street (Al Twar 5 side), by the Dubai Grand Hotel. Public stop from 16 Oct."
+    },
+    {
+     "code": "C1-19",
+     "name": "Shorooq Gate 3, Mirdif",
+     "time": "12:17",
+     "action": "pick_up",
+     "lat": 25.219706,
+     "lng": 55.427511,
+     "where_exactly": "Shorooq Compound Gate 3 - the roundabout outside the gate (not Gate 2). Pin confirmed by the family 19 Oct."
     },
     {
      "code": "UOB",
@@ -103620,7 +103629,7 @@
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 5,
+   "booked": 6,
    "seats": 34,
    "status": "operating",
    "stops": [
@@ -103678,6 +103687,15 @@
      "lat": 25.270214,
      "lng": 55.373696,
      "where_exactly": "21B Street footpath by DAFZA Metro Station Entrance 1."
+    },
+    {
+     "code": "C1-19",
+     "name": "Shorooq Gate 3, Mirdif",
+     "time": "07:10",
+     "action": "pick_up",
+     "lat": 25.219706,
+     "lng": 55.427511,
+     "where_exactly": "Shorooq Compound Gate 3 - the roundabout outside the gate (not Gate 2). Pin confirmed by the family 19 Oct."
     },
     {
      "code": "UOB",
@@ -104006,11 +104024,11 @@
    "arrive_campus": null,
    "leave_campus": "12:15",
    "start": "12:15",
-   "end": "13:29",
+   "end": "13:39",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 5,
+   "booked": 6,
    "seats": 34,
    "status": "operating",
    "stops": [
@@ -104024,9 +104042,18 @@
      "where_exactly": ""
     },
     {
+     "code": "C1-19",
+     "name": "Shorooq Gate 3, Mirdif",
+     "time": "12:50",
+     "action": "set_down",
+     "lat": 25.219706,
+     "lng": 55.427511,
+     "where_exactly": "Shorooq Compound Gate 3 - the roundabout outside the gate (not Gate 2). Pin confirmed by the family 19 Oct."
+    },
+    {
      "code": "C1-09",
      "name": "DAFZA Metro Station",
-     "time": "12:55",
+     "time": "13:10",
      "action": "set_down",
      "lat": 25.270214,
      "lng": 55.373696,
@@ -104035,7 +104062,7 @@
     {
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
-     "time": "13:03",
+     "time": "13:18",
      "action": "set_down",
      "lat": 25.288533,
      "lng": 55.3631313,
@@ -104044,7 +104071,7 @@
     {
      "code": "C1-22",
      "name": "Al Nahda 1, Al Banai 1 (RTA bus stop AN1AB1)",
-     "time": "13:07",
+     "time": "13:22",
      "action": "set_down",
      "lat": 25.291551,
      "lng": 55.36486,
@@ -104053,7 +104080,7 @@
     {
      "code": "C1-26",
      "name": "Dubai Carmel School, Amman St, Al Nahda 2",
-     "time": "13:19",
+     "time": "13:29",
      "action": "set_down",
      "lat": 25.2967627,
      "lng": 55.3794549,
@@ -104062,7 +104089,7 @@
     {
      "code": "C1-23",
      "name": "Centrepoint, Mirdif City Centre",
-     "time": "13:24",
+     "time": "13:34",
      "action": "set_down",
      "lat": 25.2180926,
      "lng": 55.4085703,
@@ -104072,7 +104099,7 @@
     {
      "code": "C1-15",
      "name": "Wasl Village, Central Parking",
-     "time": "13:29",
+     "time": "13:39",
      "action": "set_down",
      "lat": 25.289501,
      "lng": 55.4111465,
@@ -108983,7 +109010,7 @@
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 6,
+   "booked": 7,
    "seats": 34,
    "status": "operating",
    "stops": [
@@ -109050,6 +109077,15 @@
      "lat": 25.224246,
      "lng": 55.423615,
      "where_exactly": "Kerbside outside Exotic Fin Store, Uptown Mirdif, corner of Algeria St."
+    },
+    {
+     "code": "C1-19",
+     "name": "Shorooq Gate 3, Mirdif",
+     "time": "07:10",
+     "action": "pick_up",
+     "lat": 25.219706,
+     "lng": 55.427511,
+     "where_exactly": "Shorooq Compound Gate 3 - the roundabout outside the gate (not Gate 2). Pin confirmed by the family 19 Oct."
     },
     {
      "code": "UOB",
@@ -109392,7 +109428,7 @@
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 7,
+   "booked": 8,
    "seats": 34,
    "status": "operating",
    "stops": [
@@ -109413,6 +109449,15 @@
      "lat": 25.213511,
      "lng": 55.418314,
      "where_exactly": "Kerbside on Algeria Street, Mirdif, between Uptown Mirdif and Shorooq Gate 3. Public stop from 19 Oct (Insha Mirza request)."
+    },
+    {
+     "code": "C1-19",
+     "name": "Shorooq Gate 3, Mirdif",
+     "time": "17:04",
+     "action": "set_down",
+     "lat": 25.219706,
+     "lng": 55.427511,
+     "where_exactly": "Shorooq Compound Gate 3 - the roundabout outside the gate (not Gate 2). Pin confirmed by the family 19 Oct."
     },
     {
      "code": "C1-12",
@@ -113862,7 +113907,7 @@
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 2,
+   "booked": 3,
    "seats": 34,
    "status": "operating",
    "stops": [
@@ -113883,6 +113928,15 @@
      "lat": 25.2795117,
      "lng": 55.402653,
      "where_exactly": "Kerbside on 17th Street outside the EK2 Accommodation (Emirates EK2) building. Do not enter the compound."
+    },
+    {
+     "code": "C1-19",
+     "name": "Shorooq Gate 3, Mirdif",
+     "time": "09:29",
+     "action": "pick_up",
+     "lat": 25.219706,
+     "lng": 55.427511,
+     "where_exactly": "Shorooq Compound Gate 3 - the roundabout outside the gate (not Gate 2). Pin confirmed by the family 19 Oct."
     },
     {
      "code": "UOB",
@@ -114131,7 +114185,7 @@
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 9,
+   "booked": 10,
    "seats": 34,
    "status": "operating",
    "stops": [
@@ -114152,6 +114206,15 @@
      "lat": 25.221963,
      "lng": 55.440775,
      "where_exactly": "RTA bus stop pole (F40 / F03) on 78th Street, Mirdif Hills Avenue."
+    },
+    {
+     "code": "C1-19",
+     "name": "Shorooq Gate 3, Mirdif",
+     "time": "17:04",
+     "action": "set_down",
+     "lat": 25.219706,
+     "lng": 55.427511,
+     "where_exactly": "Shorooq Compound Gate 3 - the roundabout outside the gate (not Gate 2). Pin confirmed by the family 19 Oct."
     },
     {
      "code": "C1-27",
@@ -118365,7 +118428,7 @@
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 9,
+   "booked": 10,
    "seats": 34,
    "status": "operating",
    "stops": [
@@ -118432,6 +118495,15 @@
      "lat": 25.224246,
      "lng": 55.423615,
      "where_exactly": "Kerbside outside Exotic Fin Store, Uptown Mirdif, corner of Algeria St."
+    },
+    {
+     "code": "C1-19",
+     "name": "Shorooq Gate 3, Mirdif",
+     "time": "07:07",
+     "action": "pick_up",
+     "lat": 25.219706,
+     "lng": 55.427511,
+     "where_exactly": "Shorooq Compound Gate 3 - the roundabout outside the gate (not Gate 2). Pin confirmed by the family 19 Oct."
     },
     {
      "code": "C1-27",
@@ -118642,11 +118714,11 @@
    "arrive_campus": null,
    "leave_campus": "14:15",
    "start": "14:15",
-   "end": "15:25",
+   "end": "15:27",
    "vehicle": "M2",
    "vehicle_type": "Rosa",
    "capacity": 34,
-   "booked": 4,
+   "booked": 5,
    "seats": 34,
    "status": "operating",
    "stops": [
@@ -118660,9 +118732,18 @@
      "where_exactly": ""
     },
     {
+     "code": "C1-19",
+     "name": "Shorooq Gate 3, Mirdif",
+     "time": "14:50",
+     "action": "set_down",
+     "lat": 25.219706,
+     "lng": 55.427511,
+     "where_exactly": "Shorooq Compound Gate 3 - the roundabout outside the gate (not Gate 2). Pin confirmed by the family 19 Oct."
+    },
+    {
      "code": "C1-12",
      "name": "Uptown Mirdif",
-     "time": "14:48",
+     "time": "14:54",
      "action": "set_down",
      "lat": 25.224246,
      "lng": 55.423615,
@@ -118671,7 +118752,7 @@
     {
      "code": "C1-23",
      "name": "Centrepoint, Mirdif City Centre",
-     "time": "14:53",
+     "time": "14:59",
      "action": "set_down",
      "lat": 25.2180926,
      "lng": 55.4085703,
@@ -118681,7 +118762,7 @@
     {
      "code": "C1-24",
      "name": "EK2 Accommodation, Muhaisnah 4",
-     "time": "15:05",
+     "time": "15:11",
      "action": "set_down",
      "lat": 25.2795117,
      "lng": 55.402653,
@@ -118690,7 +118771,7 @@
     {
      "code": "C1-08",
      "name": "Mattar Tower, Al Nahda 1",
-     "time": "15:21",
+     "time": "15:23",
      "action": "set_down",
      "lat": 25.288533,
      "lng": 55.3631313,
@@ -118699,7 +118780,7 @@
     {
      "code": "C1-17",
      "name": "Bahwan Tower, Al Nahda 1",
-     "time": "15:25",
+     "time": "15:27",
      "action": "set_down",
      "lat": 25.287666,
      "lng": 55.361619,
